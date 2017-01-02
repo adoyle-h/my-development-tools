@@ -75,6 +75,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [iThoughtsX](https://www.toketaware.com): 思维导图
 - [Newton](https://cloudmagic.com/k/newton): 邮件客户端
 - [Bartender](https://www.macbartender.com): Mac 菜单栏折叠
+- [BitBar](https://github.com/matryer/bitbar): Mac 菜单栏扩展
 - [iStat Menus](https://bjango.com/mac/istatmenus): Mac 系统状态监控
 - [Alfred](https://www.alfredapp.com): 类似 spotlight
 - [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Alfred，但可以用 Lua 脚本编写程序，支持键盘等事件监听
@@ -163,6 +164,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 - [assemble](https://github.com/assemble/assemble): 静态网页生成器
 - [verb](https://github.com/verbose/verb/tree/dev): 文档生成器的生成器
+- [Inklet](https://tenonedesign.com/inklet.php): 让 Mac 触摸板变成画图板
 
 
 **[⬆ 返回顶部](#说明)**
