@@ -42,7 +42,6 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [jid](https://github.com/simeji/jid): json 命令行动态查询
 - [mycli](https://github.com/dbcli/mycli): mysql 命令行客户端
 - [pgcli](https://github.com/dbcli/pgcli): postgres 命令行客户端
-- [nyancat](https://github.com/klange/nyancat): nyancat
 - [polipo](https://github.com/jech/polipo): http => socks 代理
 - [proxychains-ng](https://github.com/rofl0r/proxychains-ng): http 代理
 - [ranger](https://github.com/ranger/ranger): 命令行版文件管理器
@@ -50,7 +49,6 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [massren](https://github.com/laurent22/massren): 用自己的编辑器来批量重命名文件
 - [siege](https://github.com/JoeDog/siege): http 压测
 - [wrk](https://github.com/wg/wrk): http 压测
-- [sl](https://github.com/mtoyoda/sl): 开火车
 - [tmux](https://github.com/tmux/tmux): 多终端管理器
 - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
 - [youtube-dl](https://github.com/rg3/youtube-dl): 视频下载工具
@@ -152,6 +150,14 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 ## Markdown
 
 - [grip](https://github.com/joeyespo/grip): Markdown 即时渲染服务器
+
+## Funny
+
+开发需要娱乐
+
+- [sl](https://github.com/mtoyoda/sl): 开火车
+- [nyancat](https://github.com/klange/nyancat): NyanCat
+- [nyancat.js](https://github.com/niftylettuce/nyancat.js): 刷屏利器
 
 ## 待评价
 
