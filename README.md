@@ -60,6 +60,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [trash](https://github.com/sindresorhus/trash): 命令行工具替代 rm，把文件移到回收站
 - [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
 - [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理
+- [ccat](https://github.com/jingweno/ccat): 代码着色 cat 命令
 
 ## Mac
 
