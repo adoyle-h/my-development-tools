@@ -11,6 +11,26 @@
 brew 表示可以通过 **[Homebrew][]** 安装；  
 表示 **网页服务**；  
 
+## TOC
+
+<!-- MarkdownTOC GFM -->
+
+- [跨平台软件](#跨平台软件)
+- [Linux](#linux)
+- [Mac](#mac)
+- [服务器](#服务器)
+- [字体](#字体)
+- [设计](#设计)
+- [颜色](#颜色)
+- [服务 (Service)](#服务-service)
+- [NodeJS 开发](#nodejs-开发)
+- [Markdown](#markdown)
+- [文档](#文档)
+- [Funny](#funny)
+- [待评价](#待评价)
+
+<!-- /MarkdownTOC -->
+
 ## 跨平台软件
 
 - [GitKraken](https://www.gitkraken.com): Git GUI
@@ -53,7 +73,6 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
 - [youtube-dl](https://github.com/rg3/youtube-dl): 视频下载工具
 - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 增强工具
-- [http-server](https://github.com/indexzero/http-server): 1 秒搭建 HTTP 服务器
 - [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii): 图片转 ASCII 字符
 - [Hexo](https://github.com/hexojs/hexo): 静态博客
 - [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
@@ -61,6 +80,9 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
 - [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理
 - [ccat](https://github.com/jingweno/ccat): 代码着色 cat 命令
+- [cz-cli](https://github.com/commitizen/cz-cli): git commit message 规范工具
+- [pageres](https://github.com/sindresorhus/pageres): 网页截屏
+- [fuck-you](https://github.com/robotlolita/fuck-you): 纠错命令
 
 ## Mac
 
@@ -107,6 +129,14 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [mpv](https://github.com/mpv-player/mpv): 视频播放器
 - [HyperDock](https://bahoom.com/hyperdock): Mac Dock 栏增强
 - [Tuxera NTFS](https://www.tuxera.com/products/tuxera-ntfs-for-mac): 让 Mac 支持 NTFS 文件系统
+- [medis](https://github.com/luin/medis): Redis GUI Client
+
+## 服务器
+
+- [hotel](https://github.com/typicode/hotel): HTTP 服务进程管理器
+- [JSON Server](https://github.com/typicode/json-server): 快速搭建 HTTP RESTFul API Server
+- [http-server](https://github.com/indexzero/http-server): 快速搭建 HTTP 服务器
+- [statsd](https://github.com/etsy/statsd): Metrics 数据聚合服务器
 
 ## 字体
 
@@ -123,6 +153,10 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [RightFont](https://rightfontapp.com/cn): 字体管理
 - [ProtoPie](https://www.protopie.io): 交互设计工具
 
+## 颜色
+
+- [PleaseJS](https://github.com/Fooidge/PleaseJS): 随机生成颜色搭配。[Preview](http://www.checkman.io/please/)
+
 ## 服务 (Service)
 
 - [PlantUML Gist](https://github.com/linux-china/plantuml-gist): 基于托管在 Gist 的 [PlantUML][] 在线生成 UML 图
@@ -135,23 +169,16 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [Astral](https://app.astralapp.com): Github Star 管理器
 - [codepile](https://www.codepile.net): 可协作式网页端编辑器
 
-## NodeJS 开发
-
-- [cz-cli](https://github.com/commitizen/cz-cli): 规范 git commit message
-- [debug](https://github.com/visionmedia/debug): debug 日志工具
-- [lodash](https://github.com/lodash/lodash): 开发函数集
-- [ava](https://github.com/avajs/ava): 单元测试工具
-- [uglify-js](https://github.com/mishoo/UglifyJS2): js 混淆工具
-- [yo](https://github.com/yeoman/yo): 脚手架工具
-- [nrm](https://github.com/Pana/nrm): NPM Registry Manager 
-- [nvm](https://github.com/creationix/nvm): Node Version Manager
-- [nodemon](https://github.com/remy/nodemon): 本地开发用，文件改动时自动重启 node 应用
-- [license-checker](https://github.com/davglass/license-checker): Check NPM package licenses
-- [documentation.js](https://github.com/documentationjs/documentation): JSDoc 文档渲染，支持输出 HTML/Markdown/JSON
+## [NodeJS 开发](./nodejs/README.md)
 
 ## Markdown
 
 - [grip](https://github.com/joeyespo/grip): Markdown 即时渲染服务器
+
+## 文档
+
+- [shields.io](http://shields.io): 徽章
+- [盤古之白](https://github.com/vinta/pangu.js): 最佳 README
 
 ## Funny
 
@@ -160,6 +187,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [sl](https://github.com/mtoyoda/sl): 开火车
 - [nyancat](https://github.com/klange/nyancat): NyanCat
 - [nyancat.js](https://github.com/niftylettuce/nyancat.js): 刷屏利器
+- [jsfuck](https://github.com/aemkei/jsfuck)
 
 ## 待评价
 
