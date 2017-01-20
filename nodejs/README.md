@@ -46,6 +46,7 @@
 - [blessed-contrib](https://github.com/yaronn/blessed-contrib): blessed 扩展
 - [wopr](https://github.com/yaronn/wopr): CLI 图形化报表
 - [iponmap](https://github.com/nogizhopaboroda/iponmap): IP 地图映射
+- [babar](https://github.com/stephan83/babar): CLI Chart
 - [clui](https://github.com/nathanpeck/clui): Command Line UI toolkit
 - [cli-spinners](https://github.com/sindresorhus/cli-spinners): 终端里的 Spinner
 - [ora](https://github.com/sindresorhus/ora): 同 cli-spinners
@@ -61,6 +62,7 @@
 - [minimist](https://github.com/substack/minimist): 命令行参数解析器（极简）
 - [shelljs](https://github.com/shelljs/shelljs): shell 脚本封装
 - [Inquirer](https://github.com/SBoudrias/Inquirer.js): 命令行交互提示
+- [nesh](https://github.com/danielgtaylor/nesh): 增强型交互式 shell 框架
 
 ## script/bin
 
@@ -78,6 +80,7 @@
 - [co](https://github.com/tj/co): 强大的异步处理库
 - [utility-maker](https://github.com/adoyle-h/utility-maker): 定义自己的工具集
 - [is](https://github.com/arasatasaygin/is.js): 类型判断
+- [json-parse-helpfulerror](https://github.com/smikes/json-parse-helpfulerror): json 解析错误时，给出人类友好的提示
 
 ## 数据校验
 
@@ -114,9 +117,10 @@
 ## 错误处理
 
 - [ero.js](https://github.com/adoyle-h/Ero.js): 自定义 Error 类
-- [pretty-error](https://github.com/AriaMinaei/pretty-error): 格式化错误堆栈
+- [pretty-error](https://github.com/AriaMinaei/pretty-error): 打印人类友好的错误堆栈
 - [koajs/onerror](https://github.com/koajs/onerror): 响应错误页面
 - [node-retry](https://github.com/tim-kos/node-retry): 重试
+- [longjohn](https://github.com/mattinsler/longjohn): 跟踪完整的调用堆栈
 
 ## 配置
 

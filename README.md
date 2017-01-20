@@ -27,6 +27,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [Markdown](#markdown)
 - [文档](#文档)
 - [Funny](#funny)
+- [Chrome 插件](#chrome-插件)
 - [待评价](#待评价)
 
 <!-- /MarkdownTOC -->
@@ -83,6 +84,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [cz-cli](https://github.com/commitizen/cz-cli): git commit message 规范工具
 - [pageres](https://github.com/sindresorhus/pageres): 网页截屏
 - [fuck-you](https://github.com/robotlolita/fuck-you): 纠错命令
+- [sloc](https://github.com/flosse/sloc): 代码行统计
 
 ## Mac
 
@@ -188,6 +190,10 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [nyancat](https://github.com/klange/nyancat): NyanCat
 - [nyancat.js](https://github.com/niftylettuce/nyancat.js): 刷屏利器
 - [jsfuck](https://github.com/aemkei/jsfuck)
+
+## Chrome 插件
+
+- [vimium](https://github.com/philc/vimium): vim 风格操作浏览器
 
 ## 待评价
 
