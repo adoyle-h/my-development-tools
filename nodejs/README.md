@@ -155,6 +155,7 @@
 ## 时间
 
 - [moment](https://github.com/moment/moment): 最强大的时间库
+- [moment-range](https://github.com/gf3/moment-range): 时间段内插值
 - [ms](https://github.com/zeit/ms)
 - [pretty-ms](https://github.com/sindresorhus/pretty-ms)
 

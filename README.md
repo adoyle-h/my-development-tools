@@ -13,83 +13,149 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 ## TOC
 
-<!-- MarkdownTOC GFM -->
+<!-- toc -->
+<!-- MarkdownTOC depth=2 GFM -->
 
-- [跨平台软件](#跨平台软件)
-- [Linux](#linux)
-- [Mac](#mac)
+- [其他](#其他)
+- [编辑器](#编辑器)
+- [自动化](#自动化)
+- [下载工具](#下载工具)
+- [Shell](#shell)
+- [配置](#配置)
+- [网站](#网站)
+- [数据库](#数据库)
+- [网络](#网络)
 - [服务器](#服务器)
+- [Git](#git)
+- [Chrome](#chrome)
+    - [CLI](#cli)
+    - [Chrome 插件](#chrome-插件)
+- [画图](#画图)
+- [测试](#测试)
+- [Blog](#blog)
+- [For Mac](#for-mac)
 - [字体](#字体)
 - [设计](#设计)
 - [颜色](#颜色)
 - [服务 (Service)](#服务-service)
+- [正则表达式 (Regex)](#正则表达式-regex)
 - [NodeJS 开发](#nodejs-开发)
 - [Markdown](#markdown)
 - [文档](#文档)
 - [Funny](#funny)
-- [Chrome 插件](#chrome-插件)
 - [待评价](#待评价)
 
 <!-- /MarkdownTOC -->
+<!-- tocstop -->
 
-## 跨平台软件
+## 其他
 
-- [GitKraken](https://www.gitkraken.com): Git GUI
 - [LICEcap](http://www.cockos.com/licecap): 录屏
+
+## 编辑器
+
+- [neovim](https://github.com/neovim/neovim): 终端编辑器，用 Python 写的 vim
 - [Sublime](http://www.sublimetext.com): 编辑器。
 - [Hyper](https://github.com/zeit/hyper): 用 JS/CSS 制作的终端。
 
-## Linux
+## 自动化
 
-- [aria2](https://github.com/aria2/aria2): 下载工具
-- [realpath](https://github.com/sindresorhus/realpath): 获取文件的真实绝对路径
-- [neovim](https://github.com/neovim/neovim): 终端编辑器
-<a name="PlantUML"></a>
-- [PlantUML](https://github.com/plantuml/plantuml): 用代码画 UML 图或流程图
-- [node-plantuml](https://github.com/markushedvall/node-plantuml): node 命令行 [PlantUML][]
-- [Mosh](https://github.com/mobile-shell/mosh): 自动重连的 ssh
+- [hubot](https://github.com/github/hubot): 交互机器人
+
+## 下载工具
+
+- [aria2](https://github.com/aria2/aria2): 最强大的下载工具
+- [youtube-dl](https://github.com/rg3/youtube-dl): 视频下载工具
+
+## Shell
+
 - [bash](http://tiswww.case.edu/php/chet/bash/bashtop.html): 注意升级到最新版本的 bash
 - [bash-completion](https://github.com/scop/bash-completion): bash 命令补全
+- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 增强工具
+- [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii): 图片转 ASCII 字符
+- [realpath](https://github.com/sindresorhus/realpath): 获取文件的真实绝对路径
+- [Mosh](https://github.com/mobile-shell/mosh): 自动重连的 ssh
 - [cheat](https://github.com/chrisallenlane/cheat): 命令速查表
-- [chrome-cli](https://github.com/prasmussen/chrome-cli): chrome 命令行工具
 - [fzf](https://github.com/junegunn/fzf): 模糊搜索
 - [ag](https://github.com/ggreer/the_silver_searcher): 模糊搜索
+- [hr](https://github.com/LuRsT/hr): 终端分隔符
+- [jid](https://github.com/simeji/jid): json 命令行动态查询
+- [ranger](https://github.com/ranger/ranger): 命令行版文件管理器
+- [rename](http://plasmasturm.org/code/rename): 批量重命名文件。`brew install rename`
+- [massren](https://github.com/laurent22/massren): 用自己的编辑器来批量重命名文件
+- [tree](http://mama.indstate.edu/users/ice/tree): Mac 没有 tree 命令
+- [fuck-you](https://github.com/robotlolita/fuck-you): 纠错命令
+- [sloc](https://github.com/flosse/sloc): 代码行统计
+- [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
+- [trash](https://github.com/sindresorhus/trash): 命令行工具替代 rm，把文件移到回收站
+- [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
+- [ccat](https://github.com/jingweno/ccat): 代码着色 cat 命令
+
+## 配置
+
+- [dotbot](https://github.com/anishathalye/dotbot/): dotfile 管理器
+
+## 网站
+
+- [pageres](https://github.com/sindresorhus/pageres): 网页截屏
+
+## 数据库
+
+- [mycli](https://github.com/dbcli/mycli): mysql 命令行客户端
+- [pgcli](https://github.com/dbcli/pgcli): postgres 命令行客户端
+- [tmux](https://github.com/tmux/tmux): 多终端管理器
+- [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
+
+## 网络
+
+- [polipo](https://github.com/jech/polipo): http => socks 代理
+- [proxychains-ng](https://github.com/rofl0r/proxychains-ng): http 代理
+- [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理
+
+## 服务器
+
+- [hotel](https://github.com/typicode/hotel): HTTP 服务进程管理器
+- [JSON Server](https://github.com/typicode/json-server): 快速搭建 HTTP RESTFul API Server
+- [http-server](https://github.com/indexzero/http-server): 快速搭建 HTTP 服务器
+- [statsd](https://github.com/etsy/statsd): Metrics 数据聚合服务器
+
+## Git
+
 <a name="git-cal"></a>
 - [git-cal](https://github.com/k4rthik/git-cal): 类似 Github 活动图的命令行版
 - [git-stats](https://github.com/IonicaBizau/git-stats): 同 [git-cal][]
 - [git-extras](https://github.com/tj/git-extras): git 扩展命令
 - [git-lfs](https://github.com/git-lfs/git-lfs): git 支持大文件存储
-- [hr](https://github.com/LuRsT/hr): 终端分隔符
-- [jid](https://github.com/simeji/jid): json 命令行动态查询
-- [mycli](https://github.com/dbcli/mycli): mysql 命令行客户端
-- [pgcli](https://github.com/dbcli/pgcli): postgres 命令行客户端
-- [polipo](https://github.com/jech/polipo): http => socks 代理
-- [proxychains-ng](https://github.com/rofl0r/proxychains-ng): http 代理
-- [ranger](https://github.com/ranger/ranger): 命令行版文件管理器
-- [rename](http://plasmasturm.org/code/rename): 批量重命名文件。`brew install rename`
-- [massren](https://github.com/laurent22/massren): 用自己的编辑器来批量重命名文件
+- [cz-cli](https://github.com/commitizen/cz-cli): git commit message 规范工具
+- [GitKraken](https://www.gitkraken.com): Git GUI
+
+## Chrome
+### CLI
+
+- [chrome-cli](https://github.com/prasmussen/chrome-cli): chrome 命令行工具
+
+### Chrome 插件
+
+- [vimium](https://github.com/philc/vimium): vim 风格操作浏览器
+
+## 画图
+
+<a name="PlantUML"></a>
+- [PlantUML](https://github.com/plantuml/plantuml): 用代码画 UML 图或流程图
+- [node-plantuml](https://github.com/markushedvall/node-plantuml): node 命令行 [PlantUML][]
+
+## 测试
+
 - [siege](https://github.com/JoeDog/siege): http 压测
 - [wrk](https://github.com/wg/wrk): http 压测
-- [tmux](https://github.com/tmux/tmux): 多终端管理器
-- [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
-- [youtube-dl](https://github.com/rg3/youtube-dl): 视频下载工具
-- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 增强工具
-- [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii): 图片转 ASCII 字符
-- [Hexo](https://github.com/hexojs/hexo): 静态博客
-- [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
-- [trash](https://github.com/sindresorhus/trash): 命令行工具替代 rm，把文件移到回收站
-- [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
-- [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理
-- [ccat](https://github.com/jingweno/ccat): 代码着色 cat 命令
-- [cz-cli](https://github.com/commitizen/cz-cli): git commit message 规范工具
-- [pageres](https://github.com/sindresorhus/pageres): 网页截屏
-- [fuck-you](https://github.com/robotlolita/fuck-you): 纠错命令
-- [sloc](https://github.com/flosse/sloc): 代码行统计
 
-## Mac
+## Blog
+
+- [Hexo](https://github.com/hexojs/hexo): 静态博客
+
+## For Mac
 
 - [Nativefier](https://github.com/jiahaog/nativefier): 网页应用打包成 Mac App
-- [tree](http://mama.indstate.edu/users/ice/tree): Mac 没有 tree 命令
 - [reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题
 <a name="Homebrew"></a>
 - [Homebrew](http://brew.sh): Mac 软件管理器
@@ -133,13 +199,6 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [Tuxera NTFS](https://www.tuxera.com/products/tuxera-ntfs-for-mac): 让 Mac 支持 NTFS 文件系统
 - [medis](https://github.com/luin/medis): Redis GUI Client
 
-## 服务器
-
-- [hotel](https://github.com/typicode/hotel): HTTP 服务进程管理器
-- [JSON Server](https://github.com/typicode/json-server): 快速搭建 HTTP RESTFul API Server
-- [http-server](https://github.com/indexzero/http-server): 快速搭建 HTTP 服务器
-- [statsd](https://github.com/etsy/statsd): Metrics 数据聚合服务器
-
 ## 字体
 
 - [FontForge](https://github.com/fontforge/fontforge): 字体设计工具
@@ -165,11 +224,14 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [Pushbullet](https://www.pushbullet.com): 设备间消息推送
 - [在线 sed 编辑器](http://sed.js.org)
 - [在线 json lint](http://pro.jsonlint.com)
-- [在线正则表达式编辑器](http://www.regexr.com)
-- [在线正则表达式可视化](https://regexper.com)
 - [codelf](http://unbug.github.io/codelf/): 解决命名烦恼
 - [Astral](https://app.astralapp.com): Github Star 管理器
 - [codepile](https://www.codepile.net): 可协作式网页端编辑器
+
+## 正则表达式 (Regex)
+
+- [在线正则表达式编辑器](http://www.regexr.com)
+- [在线正则表达式可视化](https://regexper.com)
 
 ## [NodeJS 开发](./nodejs/README.md)
 
@@ -190,10 +252,6 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [nyancat](https://github.com/klange/nyancat): NyanCat
 - [nyancat.js](https://github.com/niftylettuce/nyancat.js): 刷屏利器
 - [jsfuck](https://github.com/aemkei/jsfuck)
-
-## Chrome 插件
-
-- [vimium](https://github.com/philc/vimium): vim 风格操作浏览器
 
 ## 待评价
 
