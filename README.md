@@ -17,6 +17,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+- [Misc](#misc)
 - [编辑器](#编辑器)
 - [自动化](#自动化)
 - [下载工具](#下载工具)
@@ -40,6 +41,8 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [服务 (Service)](#服务-service)
 - [正则表达式 (Regex)](#正则表达式-regex)
 - [NodeJS 开发](#nodejs-开发)
+- [前端开发](#前端开发)
+- [Docker 工具链](#docker-工具链)
 - [Markdown](#markdown)
 - [文档](#文档)
 - [Funny](#funny)
@@ -51,6 +54,11 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 ## 其他
 
 - [LICEcap](http://www.cockos.com/licecap): 录屏
+
+## Misc
+
+- [uglify-js](https://github.com/mishoo/UglifyJS2): js 混淆工具
+- [js-beautify](https://github.com/beautify-web/js-beautify): html-beautify css-beautify js-beautify
 
 ## 编辑器
 
@@ -90,6 +98,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [trash](https://github.com/sindresorhus/trash): 命令行工具替代 rm，把文件移到回收站
 - [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
 - [ccat](https://github.com/jingweno/ccat): 代码着色 cat 命令
+- [cash](https://github.com/dthree/cash): 用 nodejs 写的程序，提供一些 linux 命令，拯救 windows 下的终端用户
 
 ## 配置
 
@@ -235,6 +244,10 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 ## [NodeJS 开发](./nodejs/README.md)
 
+## [前端开发](./FE/README.md)
+
+## [Docker 工具链](./docker/README.md)
+
 ## Markdown
 
 - [grip](https://github.com/joeyespo/grip): Markdown 即时渲染服务器
@@ -258,6 +271,8 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [assemble](https://github.com/assemble/assemble): 静态网页生成器
 - [verb](https://github.com/verbose/verb/tree/dev): 文档生成器的生成器
 - [Inklet](https://tenonedesign.com/inklet.php): 让 Mac 触摸板变成画图板
+- [node-travisjs](https://github.com/finnp/node-travisjs): Travis CLI 工具
+- [peco](https://github.com/peco/peco): 类似 fzf
 
 
 **[⬆ 返回顶部](#说明)**

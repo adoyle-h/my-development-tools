@@ -2,10 +2,13 @@
 
 ## TOC
 
-<!-- MarkdownTOC GFM -->
+<!-- MarkdownTOC depth=2 GFM -->
 
 - [Node 环境](#node-环境)
+- [Misc](#misc)
+- [REPL](#repl)
 - [CLI](#cli)
+    - [颜色](#颜色)
 - [script/bin](#scriptbin)
 - [工具集](#工具集)
 - [数据校验](#数据校验)
@@ -40,6 +43,17 @@
 - [nrm](https://github.com/Pana/nrm): NPM Registry Manager
 - [nvm](https://github.com/creationix/nvm): Node Version Manager
 
+## Misc
+
+- [dependency-check](https://github.com/maxogden/dependency-check): 依赖检查，确保引用的模块已写在 package.json
+
+## REPL
+
+- [Mancy](https://github.com/princejwesley/Mancy): Electron based NodeJS REPL
+- [nesh](https://github.com/danielgtaylor/nesh): 增强型交互式 shell 框架
+- [vorpal](https://github.com/dthree/vorpal): 交互式命令行框架
+- [vantage](https://github.com/dthree/vantage): 实时交互式 CLI 工具，基于 vorpal 开发
+
 ## CLI
 
 - [blessed](https://github.com/chjj/blessed): 强大的 CLI UI 开发工具集
@@ -50,10 +64,6 @@
 - [clui](https://github.com/nathanpeck/clui): Command Line UI toolkit
 - [cli-spinners](https://github.com/sindresorhus/cli-spinners): 终端里的 Spinner
 - [ora](https://github.com/sindresorhus/ora): 同 cli-spinners
-- [vorpal](https://github.com/dthree/vorpal): 交互式命令行框架
-- [vantage](https://github.com/dthree/vantage): 实时交互式 CLI 工具，基于 vorpal 开发
-- [cli-color](https://github.com/medikoo/cli-color): 终端颜色
-- [chalk](https://github.com/chalk/chalk): 终端颜色。同 cli-color，备选方案
 - [cli-table](https://github.com/Automattic/cli-table): 表格输出
 - [cliff](https://github.com/flatiron/cliff): 格式化输出
 - [gauge](https://github.com/iarna/gauge): 进度条
@@ -62,7 +72,12 @@
 - [minimist](https://github.com/substack/minimist): 命令行参数解析器（极简）
 - [shelljs](https://github.com/shelljs/shelljs): shell 脚本封装
 - [Inquirer](https://github.com/SBoudrias/Inquirer.js): 命令行交互提示
-- [nesh](https://github.com/danielgtaylor/nesh): 增强型交互式 shell 框架
+
+### 颜色
+
+- [cli-color](https://github.com/medikoo/cli-color): 终端颜色
+- [chalk](https://github.com/chalk/chalk): 终端颜色。同 cli-color，备选方案
+- [strip-ansi](https://github.com/chalk/strip-ansi): 虽然 cli-color 也有 [strip](https://github.com/medikoo/cli-color#clcstripformatedtext)，这个 library 只做一件事，依赖模块较少
 
 ## script/bin
 
@@ -144,6 +159,7 @@
 ## 网络
 
 - [address](https://github.com/node-modules/address): 获取本机的网络地址(ipv4/ipv6/mac/dns)
+- [detect-port](https://github.com/node-modules/detect-port): 获取可用端口
 
 ## 文档
 
@@ -151,6 +167,7 @@
 - [esdoc](https://github.com/esdoc/esdoc): JSDoc 当前不支持 ES6 语法，或许可以尝试使用这个
 - [all-contributors](https://github.com/kentcdodds/all-contributors): 贡献统计
 - [verb](https://github.com/verbose/verb): 文档生成器的生成器
+- [mos](https://github.com/mosjs/mos): 自动生成 Markdown 内嵌代码片段。插件化
 
 ## 时间
 
@@ -206,9 +223,11 @@
 
 - [license-checker](https://github.com/davglass/license-checker): Check NPM package licenses
 - [cz-cli](https://github.com/commitizen/cz-cli): 规范 git commit message
-- [uglify-js](https://github.com/mishoo/UglifyJS2): js 混淆工具
 - [none](https://github.com/dak0rn/none): 空。在特殊场景可以用到
 - [cheerio](https://github.com/cheeriojs/cheerio): 服务端运行的 jQuery
+- [jsdiff](https://github.com/kpdecker/jsdiff): diff library
+- [franc](https://github.com/wooorm/franc): 自然语言判断
+- [node-temp](https://github.com/bruce/node-temp): 产生临时目录文件
 
 ## 我关注的人/组
 
