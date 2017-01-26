@@ -99,6 +99,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
 - [ccat](https://github.com/jingweno/ccat): 代码着色 cat 命令
 - [cash](https://github.com/dthree/cash): 用 nodejs 写的程序，提供一些 linux 命令，拯救 windows 下的终端用户
+- [cd](https://github.com/spencertipping/cd): better cd
 
 ## 配置
 
