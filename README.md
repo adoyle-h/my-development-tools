@@ -22,6 +22,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [自动化](#自动化)
 - [下载工具](#下载工具)
 - [Shell](#shell)
+- [lint](#lint)
 - [配置](#配置)
 - [网站](#网站)
 - [数据库](#数据库)
@@ -100,6 +101,19 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [ccat](https://github.com/jingweno/ccat): 代码着色 cat 命令
 - [cash](https://github.com/dthree/cash): 用 nodejs 写的程序，提供一些 linux 命令，拯救 windows 下的终端用户
 - [cd](https://github.com/spencertipping/cd): better cd
+
+## lint
+
+- [shellcheck](https://github.com/koalaman/shellcheck): linux shell script lint
+- [vint](https://github.com/Kuniwak/vint): vim script lint
+- [yamllint](https://github.com/adrienverge/yamllint): YAML lint
+- [jsonlint](https://github.com/zaach/jsonlint): JSON lint
+- [proselint](https://github.com/amperser/proselint): 自然语言检查
+- [markdownlint](https://github.com/mivok/markdownlint): markdown lint
+- [HTMLHint](https://github.com/yaniswang/HTMLHint): HTML lint
+- [tidy](https://github.com/htacg/tidy-html5): HTML lint。备用
+- [stylelint](https://github.com/stylelint/stylelint)
+- [csslint](https://github.com/CSSLint/csslint): 备用
 
 ## 配置
 
