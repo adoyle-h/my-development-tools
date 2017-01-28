@@ -55,6 +55,8 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 ## 其他
 
 - [LICEcap](http://www.cockos.com/licecap): 录屏
+- [irssi](https://github.com/irssi/irssi): IRC Client
+- [todo.txt-cli](https://github.com/ginatrapani/todo.txt-cli): 终端版 Todo List Manager
 
 ## Misc
 
