@@ -8,7 +8,7 @@
 - [Misc](#misc)
 - [REPL](#repl)
 - [CLI](#cli)
-    - [颜色](#颜色)
+    - [颜色 (Color)](#颜色-color)
 - [script/bin](#scriptbin)
 - [工具集](#工具集)
 - [数据校验](#数据校验)
@@ -73,7 +73,7 @@
 - [shelljs](https://github.com/shelljs/shelljs): shell 脚本封装
 - [Inquirer](https://github.com/SBoudrias/Inquirer.js): 命令行交互提示
 
-### 颜色
+### 颜色 (Color)
 
 - [cli-color](https://github.com/medikoo/cli-color): 终端颜色
 - [chalk](https://github.com/chalk/chalk): 终端颜色。同 cli-color，备选方案

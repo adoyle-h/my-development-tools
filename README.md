@@ -38,7 +38,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [For Mac](#for-mac)
 - [字体](#字体)
 - [设计](#设计)
-- [颜色](#颜色)
+- [颜色 (Color)](#颜色-color)
 - [服务 (Service)](#服务-service)
 - [正则表达式 (Regex)](#正则表达式-regex)
 - [NodeJS 开发](#nodejs-开发)
@@ -240,7 +240,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [RightFont](https://rightfontapp.com/cn): 字体管理
 - [ProtoPie](https://www.protopie.io): 交互设计工具
 
-## 颜色
+## 颜色 (Color)
 
 - [PleaseJS](https://github.com/Fooidge/PleaseJS): 随机生成颜色搭配。[Preview](http://www.checkman.io/please/)
 
@@ -281,6 +281,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [sl](https://github.com/mtoyoda/sl): 开火车
 - [nyancat](https://github.com/klange/nyancat): NyanCat
 - [nyancat.js](https://github.com/niftylettuce/nyancat.js): 刷屏利器
+- [doge](https://github.com/thiderman/doge): Doge
 - [jsfuck](https://github.com/aemkei/jsfuck)
 
 ## 待评价
