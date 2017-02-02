@@ -46,6 +46,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [Docker 工具链](#docker-工具链)
 - [Markdown](#markdown)
 - [文档](#文档)
+    - [badges](#badges)
 - [Funny](#funny)
 - [待评价](#待评价)
 - [版权声明 (Copyright and License)](#版权声明-copyright-and-license)
@@ -57,12 +58,15 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 - [LICEcap](http://www.cockos.com/licecap): 录屏
 - [irssi](https://github.com/irssi/irssi): IRC Client
-- [todo.txt-cli](https://github.com/ginatrapani/todo.txt-cli): 终端版 Todo List Manager
+- [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息
 
 ## Misc
 
 - [uglify-js](https://github.com/mishoo/UglifyJS2): js 混淆工具
 - [js-beautify](https://github.com/beautify-web/js-beautify): html-beautify css-beautify js-beautify
+- screencapture: 命令行版截屏工具。 mac 自带
+- less: 分页阅读器。less is more
+- [todo.txt-cli](https://github.com/ginatrapani/todo.txt-cli): 命令行 Todo List Manager
 
 ## 编辑器
 
@@ -104,6 +108,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [ccat](https://github.com/jingweno/ccat): 代码着色 cat 命令
 - [cash](https://github.com/dthree/cash): 用 nodejs 写的程序，提供一些 linux 命令，拯救 windows 下的终端用户
 - [cd](https://github.com/spencertipping/cd): better cd
+- [lscolors](https://github.com/ggreer/lscolors): LSCOLORS Preview
 
 ## lint
 
@@ -153,6 +158,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [git-stats](https://github.com/IonicaBizau/git-stats): 同 [git-cal][]
 - [git-extras](https://github.com/tj/git-extras): git 扩展命令
 - [git-lfs](https://github.com/git-lfs/git-lfs): git 支持大文件存储
+- [git-recall](https://github.com/Fakerr/git-recall): 交互式 git log
 - [cz-cli](https://github.com/commitizen/cz-cli): git commit message 规范工具
 - [GitKraken](https://www.gitkraken.com): Git GUI
 
@@ -272,8 +278,13 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 ## 文档
 
-- [shields.io](http://shields.io): 徽章
 - [盤古之白](https://github.com/vinta/pangu.js): 最佳 README
+
+### badges
+
+- [forthebadge](http://forthebadge.com/)
+- [shields.io](http://shields.io): 徽章
+- [boennemann/badges](https://github.com/boennemann/badges)
 
 ## Funny
 
