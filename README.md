@@ -48,6 +48,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [文档](#文档)
 - [Funny](#funny)
 - [待评价](#待评价)
+- [版权声明 (Copyright and License)](#版权声明-copyright-and-license)
 
 <!-- /MarkdownTOC -->
 <!-- tocstop -->
@@ -293,6 +294,13 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [peco](https://github.com/peco/peco): 类似 fzf
 
 
+## 版权声明 (Copyright and License)
+
+Copyright (c) 2016-2017 ADoyle. The project is licensed under the **BSD 3-clause License**.
+
+See the [LICENSE][] file for the specific language governing permissions and limitations under the License.
+
+
 **[⬆ 返回顶部](#说明)**
 
 <!-- anchors -->
@@ -307,3 +315,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 [open source]: https://jaywcjlove.github.io/sb/ico/min-oss.svg
 [free]: https://jaywcjlove.github.io/sb/ico/min-free.svg
+
+<!-- links -->
+
+[LICENSE]: ./LICENSE
