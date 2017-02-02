@@ -35,7 +35,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [画图](#画图)
 - [测试](#测试)
 - [Blog](#blog)
-- [For Mac](#for-mac)
+- [Mac App](#mac-app)
 - [字体](#字体)
 - [设计](#设计)
 - [颜色 (Color)](#颜色-color)
@@ -143,6 +143,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [polipo](https://github.com/jech/polipo): http => socks 代理
 - [proxychains-ng](https://github.com/rofl0r/proxychains-ng): http 代理
 - [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理
+- [sindresorhus/speed-test](https://github.com/sindresorhus/speed-test): 测试网速。基于 speed-test.net 的命令
 
 ## 服务器
 
@@ -186,7 +187,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 - [Hexo](https://github.com/hexojs/hexo): 静态博客
 
-## For Mac
+## Mac App
 
 - [Nativefier](https://github.com/jiahaog/nativefier): 网页应用打包成 Mac App
 - [reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题
@@ -260,6 +261,8 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [codelf](http://unbug.github.io/codelf/): 解决命名烦恼
 - [Astral](https://app.astralapp.com): Github Star 管理器
 - [codepile](https://www.codepile.net): 可协作式网页端编辑器
+- http://unicode.org/emoji/charts-beta/full-emoji-list.html
+- https://unicode-table.com/cn/
 
 ## 正则表达式 (Regex)
 
