@@ -25,6 +25,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [lint](#lint)
 - [配置](#配置)
 - [网站](#网站)
+- [系统](#系统)
 - [数据库](#数据库)
 - [网络](#网络)
 - [服务器](#服务器)
@@ -130,6 +131,10 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 ## 网站
 
 - [pageres](https://github.com/sindresorhus/pageres): 网页截屏
+
+## 系统
+
+- [glances](https://github.com/nicolargo/glances): 系统监控，运行在终端, alternative to top/htop
 
 ## 数据库
 
@@ -299,6 +304,8 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [doge](https://github.com/thiderman/doge): Doge
 - [jsfuck](https://github.com/aemkei/jsfuck)
 
+-----
+
 ## 待评价
 
 - [assemble](https://github.com/assemble/assemble): 静态网页生成器
@@ -306,6 +313,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [Inklet](https://tenonedesign.com/inklet.php): 让 Mac 触摸板变成画图板
 - [node-travisjs](https://github.com/finnp/node-travisjs): Travis CLI 工具
 - [peco](https://github.com/peco/peco): 类似 fzf
+- [restic](https://github.com/restic/restic): 简单易用的备份工具
 
 
 ## 版权声明 (Copyright and License)
