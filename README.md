@@ -22,7 +22,8 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [自动化](#自动化)
 - [下载工具](#下载工具)
 - [Shell](#shell)
-- [lint](#lint)
+- [Shell Script](#shell-script)
+- [Lint](#lint)
 - [配置](#配置)
 - [网站](#网站)
 - [系统](#系统)
@@ -88,6 +89,8 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 - [bash](http://tiswww.case.edu/php/chet/bash/bashtop.html): 注意升级到最新版本的 bash
 - [bash-completion](https://github.com/scop/bash-completion): bash 命令补全
+- [bash-it](https://github.com/Bash-it/bash-it): Bash 脚本管理框架
+- [dotbot](https://github.com/anishathalye/dotbot): dotfile 管理框架
 - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 增强工具
 - [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii): 图片转 ASCII 字符
 - [realpath](https://github.com/sindresorhus/realpath): 获取文件的真实绝对路径
@@ -110,8 +113,14 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [cash](https://github.com/dthree/cash): 用 nodejs 写的程序，提供一些 linux 命令，拯救 windows 下的终端用户
 - [cd](https://github.com/spencertipping/cd): better cd
 - [lscolors](https://github.com/ggreer/lscolors): LSCOLORS Preview
+- [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes): shell 配色
 
-## lint
+## Shell Script
+
+- [bats](https://github.com/sstephenson/bats): Bash Automated Testing System
+- [shellfire](https://github.com/shellfire-dev/shellfire): 提供很多便利的函数，用于 shell 脚本开发
+
+## Lint
 
 - [shellcheck](https://github.com/koalaman/shellcheck): linux shell script lint
 - [vint](https://github.com/Kuniwak/vint): vim script lint
@@ -208,6 +217,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [BitBar](https://github.com/matryer/bitbar): Mac 菜单栏扩展
 - [iStat Menus](https://bjango.com/mac/istatmenus): Mac 系统状态监控
 - [Alfred](https://www.alfredapp.com): 类似 spotlight
+- [Lacona](https://www.lacona.io/): 类似 spotlight。但更酷
 - [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Alfred，但可以用 Lua 脚本编写程序，支持键盘等事件监听
 <a name="KeePass"></a>
 - [KeePass](http://keepass.info): 密码管理器
@@ -303,6 +313,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [nyancat.js](https://github.com/niftylettuce/nyancat.js): 刷屏利器
 - [doge](https://github.com/thiderman/doge): Doge
 - [jsfuck](https://github.com/aemkei/jsfuck)
+- [Tickeys](https://github.com/yingDev/Tickeys): 用 mac 键盘打出机械键盘的感觉。还有打字机、剑气...
 
 -----
 

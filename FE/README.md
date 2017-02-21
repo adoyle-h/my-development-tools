@@ -7,6 +7,7 @@
 - [React](#react)
 - [UI](#ui)
 - [待评价](#待评价)
+- [UI component explorers](#ui-component-explorers)
 
 <!-- /MarkdownTOC -->
 
@@ -16,6 +17,18 @@
 
 ## UI
 
+
 -----
 
 ## 待评价
+
+## UI component explorers
+
+- [React Storybook](https://github.com/storybooks/react-storybook): for React
+- [Carte Blanche](https://github.com/carteb/carte-blanche): an isolated development space with integrated fuzz testing for your components
+- [Electrode Explorer](http://www.electrode.io/#electrode-tools): for React components
+- [Chromatic](https://github.com/meteor/chromatic/): for Meteor + React
+- [Vue Play](https://github.com/vue-play/vue-play): for Vue
+
+> 参考自 https://blog.hichroma.com/the-crucial-tool-for-modern-frontend-engineers-fb849b06187a
+
