@@ -278,6 +278,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [codepile](https://www.codepile.net): 可协作式网页端编辑器
 - http://unicode.org/emoji/charts-beta/full-emoji-list.html
 - https://unicode-table.com/cn/
+- [Wikiwand](http://www.wikiwand.com/): Wikipedia Modernized。非常漂亮的 Wikipedia 阅读器
 
 ## 正则表达式 (Regex)
 
