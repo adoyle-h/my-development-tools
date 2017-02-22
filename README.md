@@ -315,6 +315,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [doge](https://github.com/thiderman/doge): Doge
 - [jsfuck](https://github.com/aemkei/jsfuck)
 - [Tickeys](https://github.com/yingDev/Tickeys): 用 mac 键盘打出机械键盘的感觉。还有打字机、剑气...
+- Mac 命令 say: `say hello`, `say 你好`, `say こんにちは`
 
 -----
 
