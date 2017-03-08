@@ -74,6 +74,7 @@
 - [minimist](https://github.com/substack/minimist): 命令行参数解析器（极简）
 - [shelljs](https://github.com/shelljs/shelljs): shell 脚本封装
 - [Inquirer](https://github.com/SBoudrias/Inquirer.js): 命令行交互提示
+- [node-draftlog](https://github.com/ivanseidel/node-draftlog): 单行动态变化的终端打印
 
 ### 颜色 (Color)
 
