@@ -114,6 +114,9 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [cd](https://github.com/spencertipping/cd): better cd
 - [lscolors](https://github.com/ggreer/lscolors): LSCOLORS Preview
 - [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes): shell 配色
+- [tmux](https://github.com/tmux/tmux): 多终端管理器
+  - [the-tao-of-tmux](https://leanpub.com/the-tao-of-tmux/read): 非常详尽的 tmux 使用和配置手册
+- [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
 
 ## Shell Script
 
@@ -149,8 +152,6 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 - [mycli](https://github.com/dbcli/mycli): mysql 命令行客户端
 - [pgcli](https://github.com/dbcli/pgcli): postgres 命令行客户端
-- [tmux](https://github.com/tmux/tmux): 多终端管理器
-- [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
 
 ## 网络
 
@@ -316,6 +317,8 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [jsfuck](https://github.com/aemkei/jsfuck)
 - [Tickeys](https://github.com/yingDev/Tickeys): 用 mac 键盘打出机械键盘的感觉。还有打字机、剑气...
 - Mac 命令 say: `say hello`, `say 你好`, `say こんにちは`
+- [lolcat](https://github.com/busyloop/lolcat): rainbow cat
+- [haxor-news](https://github.com/donnemartin/haxor-news): 终端版 hacker news
 
 -----
 
