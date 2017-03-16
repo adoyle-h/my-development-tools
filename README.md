@@ -116,6 +116,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes): shell 配色
 - [tmux](https://github.com/tmux/tmux): 多终端管理器
   - [the-tao-of-tmux](https://leanpub.com/the-tao-of-tmux/read): 非常详尽的 tmux 使用和配置手册
+    - [Github Repo](https://github.com/git-pull/tao-of-tmux)
 - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
 
 ## Shell Script
@@ -177,6 +178,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [git-recall](https://github.com/Fakerr/git-recall): 交互式 git log
 - [cz-cli](https://github.com/commitizen/cz-cli): git commit message 规范工具
 - [GitKraken](https://www.gitkraken.com): Git GUI
+- [git-tips](https://github.com/git-tips/tips): git 使用技巧
 
 ## Chrome
 ### CLI
