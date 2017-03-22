@@ -6,6 +6,7 @@
 
 - [React](#react)
 - [UI](#ui)
+- [其他](#其他)
 - [待评价](#待评价)
 - [UI component explorers](#ui-component-explorers)
 
@@ -16,6 +17,11 @@
 - [react-docgen](https://github.com/reactjs/react-docgen): react 组件文档生成器
 
 ## UI
+
+## 其他
+
+- [browserify as a service](https://wzrd.in/): 将 npm 包转成前端可用的在线服务
+  - [Github Repo](https://github.com/jfhbrook/wzrd.in)
 
 
 -----
