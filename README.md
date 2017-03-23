@@ -194,6 +194,8 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 ### Chrome 插件
 
 - [vimium](https://github.com/philc/vimium): vim 风格操作浏览器
+- [octotree](https://github.com/buunguyen/octotree): github 文件浏览器
+- [smart-toc](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba): 根据页面生成 TOC
 
 ## 画图
 
