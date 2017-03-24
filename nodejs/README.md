@@ -99,6 +99,7 @@
 - [utility-maker](https://github.com/adoyle-h/utility-maker): 定义自己的工具集
 - [is](https://github.com/arasatasaygin/is.js): 类型判断
 - [json-parse-helpfulerror](https://github.com/smikes/json-parse-helpfulerror): json 解析错误时，给出人类友好的提示
+- [string-template](https://github.com/Matt-Esch/string-template): 字符串变量拼接
 
 ## 数据校验
 
