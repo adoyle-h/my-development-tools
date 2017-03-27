@@ -187,6 +187,7 @@
 ## 工程化
 
 - [node-rfr](https://github.com/warmsea/node-rfr): module.require 增强，避免使用相对路径
+- [tapable](https://github.com/webpack/tapable): 实现插件机制
 
 ## 自动化
 
