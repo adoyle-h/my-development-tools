@@ -170,6 +170,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 ## 服务器
 
 - [hotel](https://github.com/typicode/hotel): HTTP 服务进程管理器
+  - [alfred-hotel](https://github.com/exah/alfred-hotel): 查看 hotel app 的 Alfred Workflow
 - [JSON Server](https://github.com/typicode/json-server): 快速搭建 HTTP RESTFul API Server
 - [http-server](https://github.com/indexzero/http-server): 快速搭建 HTTP 服务器
 - [statsd](https://github.com/etsy/statsd): Metrics 数据聚合服务器
@@ -228,6 +229,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [BitBar](https://github.com/matryer/bitbar): Mac 菜单栏扩展
 - [iStat Menus](https://bjango.com/mac/istatmenus): Mac 系统状态监控
 - [Alfred](https://www.alfredapp.com): 类似 spotlight
+  - [alfy](https://github.com/sindresorhus/alfy): JS 语法编写 Alfred Workflow
 - [Lacona](https://www.lacona.io/): 类似 spotlight。但更酷
 - [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Alfred，但可以用 Lua 脚本编写程序，支持键盘等事件监听
 <a name="KeePass"></a>
@@ -336,6 +338,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 - [assemble](https://github.com/assemble/assemble): 静态网页生成器
 - [verb](https://github.com/verbose/verb/tree/dev): 文档生成器的生成器
+- [docute](https://github.com/egoist/docute): 网页文档生成器，可以嵌入代码
 - [Inklet](https://tenonedesign.com/inklet.php): 让 Mac 触摸板变成画图板
 - [node-travisjs](https://github.com/finnp/node-travisjs): Travis CLI 工具
 - [peco](https://github.com/peco/peco): 类似 fzf

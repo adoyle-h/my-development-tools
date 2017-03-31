@@ -6,6 +6,7 @@
 
 - [Node 环境](#node-环境)
 - [Misc](#misc)
+- [通知](#通知)
 - [REPL](#repl)
 - [CLI](#cli)
     - [颜色 (Color)](#颜色-color)
@@ -48,6 +49,10 @@
 ## Misc
 
 - [dependency-check](https://github.com/maxogden/dependency-check): 依赖检查，确保引用的模块已写在 package.json
+
+## 通知
+
+- [node-notifier](https://github.com/mikaelbr/node-notifier): 调用系统通知 API，兼容很多系统
 
 ## REPL
 
