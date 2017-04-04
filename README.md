@@ -52,6 +52,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
     - [badges](#badges)
 - [Funny](#funny)
 - [待评价](#待评价)
+- [别人的工具列表](#别人的工具列表)
 - [版权声明 (Copyright and License)](#版权声明-copyright-and-license)
 
 <!-- /MarkdownTOC -->
@@ -344,6 +345,13 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [peco](https://github.com/peco/peco): 类似 fzf
 - [restic](https://github.com/restic/restic): 简单易用的备份工具
 
+-----
+
+## 别人的工具列表
+
+- [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md)
+- [skyseraph/Soft-Tools](https://github.com/skyseraph/Soft-Tools)
+- [Kickball/awesome-selfhosted](https://github.com/Kickball/awesome-selfhosted)
 
 ## 版权声明 (Copyright and License)
 
