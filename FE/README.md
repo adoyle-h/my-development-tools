@@ -7,6 +7,7 @@
 - [React](#react)
 - [UI](#ui)
 - [其他](#其他)
+- [日志](#日志)
 - [待评价](#待评价)
 - [UI component explorers](#ui-component-explorers)
 
@@ -24,6 +25,10 @@
   - [Github Repo](https://github.com/jfhbrook/wzrd.in)
 - [webpack as a service: pkgzip](https://pkgzip.com/): 将 npm 包转成前端可用的在线服务
 
+## 日志
+
+- [debug](https://github.com/visionmedia/debug): 调试日志
+- [log-with-style](https://github.com/adamschwartz/log): 输出带样式的日志
 
 -----
 
