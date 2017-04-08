@@ -24,6 +24,7 @@
 - [browserify as a service](https://wzrd.in/): 将 npm 包转成前端可用的在线服务
   - [Github Repo](https://github.com/jfhbrook/wzrd.in)
 - [webpack as a service: pkgzip](https://pkgzip.com/): 将 npm 包转成前端可用的在线服务
+- [microjs](https://github.com/microjs/microjs.com): 小容量类库列表
 
 ## 日志
 

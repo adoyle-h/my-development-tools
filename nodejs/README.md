@@ -182,6 +182,7 @@
 
 - [moment](https://github.com/moment/moment): 最强大的时间库
 - [moment-range](https://github.com/gf3/moment-range): 时间段内插值
+- [date-fns](https://github.com/date-fns/date-fns): 类似 moment
 - [ms](https://github.com/zeit/ms)
 - [pretty-ms](https://github.com/sindresorhus/pretty-ms)
 
