@@ -4,6 +4,8 @@
 
 <!-- MarkdownTOC GFM -->
 
+- [AJAX](#ajax)
+- [Mock](#mock)
 - [React](#react)
 - [UI](#ui)
 - [其他](#其他)
@@ -12,6 +14,15 @@
 - [UI component explorers](#ui-component-explorers)
 
 <!-- /MarkdownTOC -->
+
+
+## AJAX
+
+- [intercooler-js](https://github.com/LeadDyno/intercooler-js): 用 DOM 标签属性发起 Ajax 请求
+
+## Mock
+
+- [jquery-mockjax](https://github.com/jakerella/jquery-mockjax): 拦截 Ajax 请求返回 mock 数据
 
 ## React
 

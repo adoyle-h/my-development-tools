@@ -44,6 +44,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [颜色 (Color)](#颜色-color)
 - [服务 (Service)](#服务-service)
 - [正则表达式 (Regex)](#正则表达式-regex)
+- [交互式 Notebook](#交互式-notebook)
 - [NodeJS 开发](#nodejs-开发)
 - [前端开发](#前端开发)
 - [Docker 工具链](#docker-工具链)
@@ -298,6 +299,11 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 - [在线正则表达式编辑器](http://www.regexr.com)
 - [在线正则表达式可视化](https://regexper.com)
+
+## 交互式 Notebook
+
+- [jupyter](http://jupyter.org/): 交互式可编程的 notebook，主要支持 python。也可扩展支持其他语言
+- [EVE](https://github.com/witheve/eve): 非常酷的概念，Literate Programming 的一种实现，Medium 式编程。(项目太新，仍需发展)
 
 ## [NodeJS 开发](./nodejs/README.md)
 
