@@ -25,6 +25,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [Shell Script](#shell-script)
 - [Lint](#lint)
 - [配置](#配置)
+- [HTTP](#http)
 - [网站](#网站)
 - [系统](#系统)
 - [数据库](#数据库)
@@ -43,6 +44,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [设计](#设计)
 - [颜色 (Color)](#颜色-color)
 - [服务 (Service)](#服务-service)
+- [REPL](#repl)
 - [正则表达式 (Regex)](#正则表达式-regex)
 - [交互式 Notebook](#交互式-notebook)
 - [NodeJS 开发](#nodejs-开发)
@@ -143,6 +145,11 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 ## 配置
 
 - [dotbot](https://github.com/anishathalye/dotbot/): dotfile 管理器
+
+## HTTP
+
+- [mockbin](https://mockbin.com/): Mock, Test & Track HTTP Requests and Responses
+  - https://github.com/Mashape/mockbin
 
 ## 网站
 
@@ -294,6 +301,11 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - http://unicode.org/emoji/charts-beta/full-emoji-list.html
 - https://unicode-table.com/cn/
 - [Wikiwand](http://www.wikiwand.com/): Wikipedia Modernized。非常漂亮的 Wikipedia 阅读器
+
+## REPL
+
+- [repl.it](https://repl.it/languages): 运行在浏览器的 REPL
+- [runkit](https://runkit.com/home): 非常酷！在前端直接引用 npm 包编写代码
 
 ## 正则表达式 (Regex)
 

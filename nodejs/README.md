@@ -60,6 +60,7 @@
 - [nesh](https://github.com/danielgtaylor/nesh): 增强型交互式 shell 框架
 - [vorpal](https://github.com/dthree/vorpal): 交互式命令行框架
 - [vantage](https://github.com/dthree/vantage): 实时交互式 CLI 工具，基于 vorpal 开发
+- [runkit](https://runkit.com/home): 非常酷！在前端直接引用 npm 包编写代码
 
 ## CLI
 
