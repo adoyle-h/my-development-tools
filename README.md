@@ -32,6 +32,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [网络](#网络)
     - [翻墙](#翻墙)
 - [服务器](#服务器)
+- [IM](#im)
 - [Git](#git)
 - [Chrome](#chrome)
     - [CLI](#cli)
@@ -183,6 +184,10 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [JSON Server](https://github.com/typicode/json-server): 快速搭建 HTTP RESTFul API Server
 - [http-server](https://github.com/indexzero/http-server): 快速搭建 HTTP 服务器
 - [statsd](https://github.com/etsy/statsd): Metrics 数据聚合服务器
+
+## IM
+
+- [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat): 开源版 Slack。built with Meteor
 
 ## Git
 
