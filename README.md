@@ -123,7 +123,8 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [tmux](https://github.com/tmux/tmux): 多终端管理器
   - [the-tao-of-tmux](https://leanpub.com/the-tao-of-tmux/read): 非常详尽的 tmux 使用和配置手册
     - [Github Repo](https://github.com/git-pull/tao-of-tmux)
-- [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
+  - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
+  - [reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题
 
 ## Shell Script
 
@@ -171,6 +172,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [proxychains-ng](https://github.com/rofl0r/proxychains-ng): http 代理
 - [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理
 - [sindresorhus/speed-test](https://github.com/sindresorhus/speed-test): 测试网速。基于 speed-test.net 的命令
+- Linux 命令: `ping` `nc` `mtr` `netstat` `nettop`
 
 ### 翻墙
 
@@ -230,7 +232,6 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 ## Mac App
 
 - [Nativefier](https://github.com/jiahaog/nativefier): 网页应用打包成 Mac App
-- [reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题
 <a name="Homebrew"></a>
 - [Homebrew](http://brew.sh): Mac 软件管理器
 - [Homebrew Cask](https://caskroom.github.io): Mac App 软件管理器
