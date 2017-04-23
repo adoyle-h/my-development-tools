@@ -213,6 +213,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [vimium](https://github.com/philc/vimium): vim 风格操作浏览器
 - [octotree](https://github.com/buunguyen/octotree): github 文件浏览器
 - [smart-toc](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba): 根据页面生成 TOC
+- [tamperchrome](https://github.com/google/tamperchrome): 实时拦截并修改请求。不必依赖 Charles 这种代理服务器了
 
 ## 画图
 
