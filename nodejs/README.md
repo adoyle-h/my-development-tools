@@ -92,6 +92,7 @@
 
 - [npm-run-all](https://github.com/mysticatea/npm-run-all): 用于 npm scripts，并行/顺序执行多个子 script
 - [enclose](https://github.com/igorklopov/enclose): 将 node 脚本编译成可执行二进制文件，脱离 node 依赖
+- [pkg](https://github.com/zeit/pkg): enclose 的继承者
 - [husky](https://github.com/typicode/husky): git hook
 
 ## 工具集
