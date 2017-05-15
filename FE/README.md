@@ -7,6 +7,10 @@
 - [AJAX](#ajax)
 - [Mock](#mock)
 - [React](#react)
+    - [DevTools](#devtools)
+    - [IDE](#ide)
+    - [教程](#教程)
+- [React-Native](#react-native)
 - [UI](#ui)
 - [CSS](#css)
 - [其他](#其他)
@@ -28,6 +32,27 @@
 ## React
 
 - [react-docgen](https://github.com/reactjs/react-docgen): react 组件文档生成器
+- [storybook](https://github.com/storybooks/storybook): 组件预览 for React & React Native
+- [awesome-react-components](https://github.com/brillout/awesome-react-components)
+- [why-did-you-update](https://github.com/garbles/why-did-you-update)
+
+### DevTools
+
+- [react-devtools](https://github.com/facebook/react-devtools)
+- [redux-devtools](https://github.com/gaearon/redux-devtools)
+
+### IDE
+
+- (待考察)[reactide](https://github.com/reactide/reactide): React IDE
+
+### 教程
+
+- [react-book](https://github.com/survivejs/react-book)
+- [react-bits](https://github.com/vasanthk/react-bits): react 技巧合集
+
+## React-Native
+
+- [reactotron](https://github.com/infinitered/reactotron): 状态检视
 
 ## UI
 

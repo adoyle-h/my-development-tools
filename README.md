@@ -17,6 +17,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+- [Slide/Presentation](#slidepresentation)
 - [Misc](#misc)
 - [编辑器](#编辑器)
 - [自动化](#自动化)
@@ -67,6 +68,11 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [LICEcap](http://www.cockos.com/licecap): 录屏
 - [irssi](https://github.com/irssi/irssi): IRC Client
 - [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息
+
+## Slide/Presentation
+
+- [spectacle](https://github.com/FormidableLabs/spectacle): 基于 React 写的 slide
+- [ludus](https://ludus.one/): 给设计师用的 slide 制作
 
 ## Misc
 
