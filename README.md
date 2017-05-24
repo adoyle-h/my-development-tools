@@ -158,6 +158,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 - [mockbin](https://mockbin.com/): Mock, Test & Track HTTP Requests and Responses
   - https://github.com/Mashape/mockbin
+- [httpstat](https://github.com/reorx/httpstat): httpstat visualizes curl(1) statistics in a way of beauty and clarity
 
 ## 网站
 
@@ -329,6 +330,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 - [jupyter](http://jupyter.org/): 交互式可编程的 notebook，主要支持 python。也可扩展支持其他语言
 - [EVE](https://github.com/witheve/eve): 非常酷的概念，Literate Programming 的一种实现，Medium 式编程。(项目太新，仍需发展)
+- [kajero](https://github.com/joelotter/kajero): Interactive JavaScript notebooks with clever graphing
 
 ## [NodeJS 开发](./nodejs/README.md)
 

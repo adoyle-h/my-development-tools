@@ -35,6 +35,10 @@
 - [安全](#安全)
 - [Node 客户端](#node-客户端)
 - [框架](#框架)
+- [Stream](#stream)
+- [压缩/解压](#压缩解压)
+- [语法分析](#语法分析)
+- [evil](#evil)
 - [其他](#其他)
 - [我关注的人/组](#我关注的人组)
 - [待评价](#待评价)
@@ -235,6 +239,33 @@
 - [koa](https://github.com/koajs/koa): http 框架
 - [hapi](https://github.com/hapijs/hapi): http 框架。备选
 - [meteor](https://github.com/meteor/meteor): 实时数据框架
+
+## Stream
+
+- [through2](https://github.com/rvagg/through2): Tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise
+- [concat-stream](https://github.com/maxogden/concat-stream): writable stream that concatenates strings or data and calls a callback with the result
+- [multipipe](https://github.com/juliangruber/multipipe): A better `Stream.pipe` that creates duplex streams and lets you handle errors in one place.
+- [node-streamifier](https://github.com/iSkore/node-streamifier): Converts a Buffer/String to a readable stream.
+
+## 压缩/解压
+
+- [compressing](https://github.com/node-modules/compressing): 支持 stream
+  - [tar-stream](https://github.com/mafintosh/tar-stream): compressing 依赖 tar-stream
+
+## 语法分析
+
+- [esprima](https://github.com/jquery/esprima): ECMAScript parsing infrastructure for multipurpose analysis
+- [babylon](https://github.com/babel/babylon): 同 esprima
+- [acorn](https://github.com/ternjs/acorn): 同 esprima，性能或许更好
+- [shift](https://github.com/shapesecurity/shift-parser-js): 同 esprima
+- [astexplorer](https://astexplorer.net/): AST 浏览器
+- [estools](https://github.com/estools): ECMAScript Tooling
+  - [escodegen](https://github.com/estools/escodegen): 根据 AST 生成代码
+
+## evil
+
+- [notevil](https://github.com/mmckegg/notevil): 结合 AST 的 evil
+- [static-eval](https://github.com/substack/static-eval): 结合 AST 的 evil。需要自己传入 AST
 
 ## 其他
 
