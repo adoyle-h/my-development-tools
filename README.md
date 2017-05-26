@@ -159,6 +159,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [mockbin](https://mockbin.com/): Mock, Test & Track HTTP Requests and Responses
   - https://github.com/Mashape/mockbin
 - [httpstat](https://github.com/reorx/httpstat): httpstat visualizes curl(1) statistics in a way of beauty and clarity
+- [httpie](https://github.com/jakubroztocil/httpie/): a CLI, cURL-like tool for humans
 
 ## 网站
 
