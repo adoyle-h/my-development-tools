@@ -10,6 +10,7 @@
 - [REPL](#repl)
 - [CLI](#cli)
     - [颜色 (Color)](#颜色-color)
+- [颜色](#颜色)
 - [script/bin](#scriptbin)
 - [工具集](#工具集)
 - [数据校验](#数据校验)
@@ -92,6 +93,10 @@
 - [cli-color](https://github.com/medikoo/cli-color): 终端颜色
 - [chalk](https://github.com/chalk/chalk): 终端颜色。同 cli-color，备选方案
 - [strip-ansi](https://github.com/chalk/strip-ansi): 虽然 cli-color 也有 [strip](https://github.com/medikoo/cli-color#clcstripformatedtext)，这个 library 只做一件事，依赖模块较少
+
+## 颜色
+
+- [chromatism](https://github.com/toish/chromatism): 颜色转换
 
 ## script/bin
 
