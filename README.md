@@ -24,6 +24,8 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [下载工具](#下载工具)
 - [Shell](#shell)
 - [Shell Script](#shell-script)
+- [结构化数据处理](#结构化数据处理)
+    - [JSON](#json)
 - [Lint](#lint)
 - [配置](#配置)
 - [HTTP](#http)
@@ -111,7 +113,6 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [fzf](https://github.com/junegunn/fzf): 模糊搜索
 - [ag](https://github.com/ggreer/the_silver_searcher): 模糊搜索
 - [hr](https://github.com/LuRsT/hr): 终端分隔符
-- [jid](https://github.com/simeji/jid): json 命令行动态查询
 - [ranger](https://github.com/ranger/ranger): 命令行版文件管理器
 - [rename](http://plasmasturm.org/code/rename): 批量重命名文件。`brew install rename`
 - [massren](https://github.com/laurent22/massren): 用自己的编辑器来批量重命名文件
@@ -136,6 +137,15 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 - [bats](https://github.com/sstephenson/bats): Bash Automated Testing System
 - [shellfire](https://github.com/shellfire-dev/shellfire): 提供很多便利的函数，用于 shell 脚本开发
+
+## 结构化数据处理
+
+- [Structured text tools](https://github.com/dbohdan/structured-text-tools)
+
+### JSON
+
+- [jq](https://github.com/stedolan/jq): JSON 静态分析工具
+- [jid](https://github.com/simeji/jid): JSON 动态交互式分析工具
 
 ## Lint
 
