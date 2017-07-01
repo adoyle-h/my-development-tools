@@ -50,6 +50,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [服务 (Service)](#服务-service)
 - [REPL](#repl)
 - [正则表达式 (Regex)](#正则表达式-regex)
+- [数据可视化](#数据可视化)
 - [交互式 Notebook](#交互式-notebook)
 - [NodeJS 开发](#nodejs-开发)
 - [前端开发](#前端开发)
@@ -75,6 +76,9 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 - [spectacle](https://github.com/FormidableLabs/spectacle): 基于 React 写的 slide
 - [ludus](https://ludus.one/): 给设计师用的 slide 制作
+- [bespoke](https://github.com/bespokejs/bespoke): DIY Presentation Micro-Framework
+- [nodeppt](https://github.com/ksky521/nodeppt): 这可能是迄今为止最好的网页版演示库
+- https://slides.com/: 基于 [reveal.js](https://github.com/hakimel/reveal.js) 的服务，非常好用，但是国内要翻墙
 
 ## Misc
 
@@ -191,6 +195,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理
 - [sindresorhus/speed-test](https://github.com/sindresorhus/speed-test): 测试网速。基于 speed-test.net 的命令
 - Linux 命令: `ping` `nc` `mtr` `netstat` `nettop`
+- [comcast](https://github.com/tylertreat/comcast): 模拟网络丢包
 
 ### 翻墙
 
@@ -336,6 +341,10 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 - [在线正则表达式编辑器](http://www.regexr.com)
 - [在线正则表达式可视化](https://regexper.com)
+
+## 数据可视化
+
+- [grafana](https://grafana.com/grafana)
 
 ## 交互式 Notebook
 
