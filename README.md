@@ -4,12 +4,12 @@
 
 ## 说明
 
-![Open-Source Software][open source] 表示 **开源软件**  
- 表示兼容 **Mac 平台**；  
-表示兼容 **Linux 平台**；  
-表示兼容 **Windows 平台**；  
-brew 表示可以通过 **[Homebrew][]** 安装；  
-表示 **网页服务**；  
+- `⨀` 表示 **开源软件**。本文档大部分都是开源的，所以只注明特别的软件。
+- `Ⓜ` 表示兼容 **Mac 平台**；
+- `Ⓛ` 表示兼容 **Linux 平台**；
+- `ⓦ` 表示兼容 **Windows 平台**；
+- `Ⓗ` 表示可以通过 **[Homebrew][]** 安装；
+- `ⱳ` 表示 **网页服务**；
 
 ## TOC
 
@@ -22,6 +22,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [编辑器](#编辑器)
 - [自动化](#自动化)
 - [下载工具](#下载工具)
+- [Linux](#linux)
 - [Shell](#shell)
 - [Shell Script](#shell-script)
 - [结构化数据处理](#结构化数据处理)
@@ -44,7 +45,12 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [画图](#画图)
 - [测试](#测试)
 - [Blog](#blog)
+- [密码管理](#密码管理)
+- [知识管理](#知识管理)
+- [邮件](#邮件)
+- [翻译](#翻译)
 - [Mac App](#mac-app)
+- [Terminal](#terminal)
 - [字体](#字体)
 - [设计](#设计)
     - [原型设计](#原型设计)
@@ -70,17 +76,17 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 ## 其他
 
-- [LICEcap](http://www.cockos.com/licecap): 录屏
+- [LICEcap](http://www.cockos.com/licecap): 录屏 `Ⓜ` `ⓦ`
 - [irssi](https://github.com/irssi/irssi): IRC Client
-- [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息
+- [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息`Ⓛ` `Ⓜ`
 
 ## Slide/Presentation
 
 - [spectacle](https://github.com/FormidableLabs/spectacle): 基于 React 写的 slide
-- [ludus](https://ludus.one/): 给设计师用的 slide 制作
+- [ludus](https://ludus.one/): 给设计师用的 slide 制作 `ⱳ`
 - [bespoke](https://github.com/bespokejs/bespoke): DIY Presentation Micro-Framework
 - [nodeppt](https://github.com/ksky521/nodeppt): 这可能是迄今为止最好的网页版演示库
-- https://slides.com/: 基于 [reveal.js](https://github.com/hakimel/reveal.js) 的服务，非常好用，但是国内要翻墙
+- https://slides.com/: 基于 [reveal.js](https://github.com/hakimel/reveal.js) 的服务，非常好用，但是国内要翻墙 `ⱳ`
 
 ## Misc
 
@@ -104,6 +110,10 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 - [aria2](https://github.com/aria2/aria2): 最强大的下载工具
 - [youtube-dl](https://github.com/rg3/youtube-dl): 视频下载工具
+
+## Linux
+
+- sar: linux 命令，查看系统状态
 
 ## Shell
 
@@ -176,6 +186,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
   - https://github.com/Mashape/mockbin
 - [httpstat](https://github.com/reorx/httpstat): httpstat visualizes curl(1) statistics in a way of beauty and clarity
 - [httpie](https://github.com/jakubroztocil/httpie/): a CLI, cURL-like tool for humans
+- [Paw](https://paw.cloud): 模拟 HTTP 请求的 GUI 客户端  `Ⓜ`
 
 ## 网站
 
@@ -187,8 +198,10 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 ## 数据库
 
+- [DataGrip](https://www.jetbrains.com/datagrip): 数据库 GUI  `Ⓜ`
 - [mycli](https://github.com/dbcli/mycli): mysql 命令行客户端
 - [pgcli](https://github.com/dbcli/pgcli): postgres 命令行客户端
+- [medis](https://github.com/luin/medis): Redis GUI Client  `Ⓜ`
 
 ### Database Versioning
 
@@ -261,36 +274,45 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 
 - [Hexo](https://github.com/hexojs/hexo): 静态博客
 
-## Mac App
+## 密码管理
 
-- [Nativefier](https://github.com/jiahaog/nativefier): 网页应用打包成 Mac App
-<a name="Homebrew"></a>
-- [Homebrew](http://brew.sh): Mac 软件管理器
-- [Homebrew Cask](https://caskroom.github.io): Mac App 软件管理器
-- [gnu-sed](http://sed.sourceforge.net): gnu 版本的 sed  #brew
-- [gnupg2](https://www.gnupg.org): gpg 加密
-- [Kaleidoscope](http://www.kaleidoscopeapp.com): Diff GUI 软件
-- [iThoughtsX](https://www.toketaware.com): 思维导图
-- [Newton](https://cloudmagic.com/k/newton): 邮件客户端
-- [Bartender](https://www.macbartender.com): Mac 菜单栏折叠
-- [BitBar](https://github.com/matryer/bitbar): Mac 菜单栏扩展
-- [iStat Menus](https://bjango.com/mac/istatmenus): Mac 系统状态监控
-- [Alfred](https://www.alfredapp.com): 类似 spotlight
-  - [alfy](https://github.com/sindresorhus/alfy): JS 语法编写 Alfred Workflow
-- [Lacona](https://www.lacona.io/): 类似 spotlight。但更酷
-- [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Alfred，但可以用 Lua 脚本编写程序，支持键盘等事件监听
 <a name="KeePass"></a>
 - [KeePass](http://keepass.info): 密码管理器
 - [KeeWeb](https://github.com/keeweb/keeweb): [KeePass][] 的 GUI 客户端
-- [MacPass](https://github.com/mstarke/MacPass): [KeePass][] 的 GUI 客户端
-- [Sip](http://sipapp.io): 取色器
+- [MacPass](https://github.com/mstarke/MacPass): [KeePass][] 的 GUI 客户端 `Ⓜ`
+
+## 知识管理
+
+- [iThoughtsX](https://www.toketaware.com): 思维导图 `Ⓜ`
+
+## 邮件
+
+- [Newton](https://cloudmagic.com/k/newton): 邮件客户端。也支持移动端 `Ⓜ`
+
+## 翻译
+
+- [Poedit](https://poedit.net): .po 翻译软件 `Ⓜ`
+
+## Mac App
+
+- [Nativefier](https://github.com/jiahaog/nativefier): 网页应用打包成 Mac App `Ⓜ`
+<a name="Homebrew"></a>
+- [Homebrew](http://brew.sh): Mac 软件管理器 `Ⓜ`
+- [Homebrew Cask](https://caskroom.github.io): Mac App 软件管理器 `Ⓜ`
+- [gnu-sed](http://sed.sourceforge.net): gnu 版本的 sed  #brew
+- [gnupg2](https://www.gnupg.org): gpg 加密
+- [Kaleidoscope](http://www.kaleidoscopeapp.com): Diff GUI 软件 `Ⓜ`
+- [Bartender](https://www.macbartender.com): Mac 菜单栏折叠 `Ⓜ`
+- [BitBar](https://github.com/matryer/bitbar): Mac 菜单栏扩展 `Ⓜ`
+- [iStat Menus](https://bjango.com/mac/istatmenus): Mac 系统状态监控 `Ⓜ`
+- [Alfred](https://www.alfredapp.com): 类似 spotlight `Ⓜ`
+  - [alfy](https://github.com/sindresorhus/alfy): JS 语法编写 Alfred Workflow
+- [Lacona](https://www.lacona.io/): 类似 spotlight。但更酷 `Ⓜ`
+- [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Alfred，但可以用 Lua 脚本编写程序，支持键盘等事件监听 `Ⓜ`
 - [Monosnap](https://monosnap.com/welcome): 截屏工具
 - [Copyless](http://copyless.net): 系统剪切板管理器
 - [Yoink](http://eternalstorms.at/yoink/Yoink_-_Simplify_and_Improve_Drag_and_Drop_on_your_Mac/Yoink_-_Simplify_drag_and_drop_on_your_Mac.html): 临时桌面文件
-- [DataGrip](https://www.jetbrains.com/datagrip): 数据库 GUI
-- [iTerm2](https://www.iterm2.com): terminal
 - [Noizio](http://noiz.io): 白噪音
-- [Dash](https://kapeli.com/dash): 查看文档
 - [HazeOver](https://hazeover.com): 通过虚化所有的背景窗口，自动突出显示前方的应用窗口
 - [AppCleaner](https://freemacsoft.net/appcleaner): 删除 Mac App 用
 - [ShadowsocksX](https://github.com/shadowsocks/ShadowsocksX-NG): Shadowsocks GUI
@@ -299,14 +321,17 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [Caffeine](http://lightheadsw.com/caffeine): Mac 系统不休眠。
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake): 同 [Caffeine][]，开源的。
 - [Day-O](http://www.shauninman.com/archive/2016/10/20/day_o_2_mac_menu_bar_clock): 日历
-- [Poedit](https://poedit.net): .po 翻译软件
 - [Xee](https://xee.c3.cx): 图片浏览器
-- [Paw](https://paw.cloud): 模拟 HTTP 请求客户端
 - [Vox](https://vox.rocks/mac-music-player): 音乐播放器
-- [mpv](https://github.com/mpv-player/mpv): 视频播放器
+- [mpv](https://github.com/mpv-player/mpv): 视频播放器 `Ⓜ`
+  - [iina](https://github.com/lhc70000/iina): 基于 mpv 的播放器 `Ⓜ`
 - [HyperDock](https://bahoom.com/hyperdock): Mac Dock 栏增强
 - [Tuxera NTFS](https://www.tuxera.com/products/tuxera-ntfs-for-mac): 让 Mac 支持 NTFS 文件系统
-- [medis](https://github.com/luin/medis): Redis GUI Client
+
+## Terminal
+
+- [iTerm2](https://www.iterm2.com): terminal `Ⓜ`
+- [cathode](https://itunes.apple.com/us/app/cathode/id656982811): 复古终端模拟器 `Ⓜ`
 
 ## 字体
 
@@ -330,6 +355,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 ## 颜色 (Color)
 
 - [PleaseJS](https://github.com/Fooidge/PleaseJS): 随机生成颜色搭配。[Preview](http://www.checkman.io/please/)
+- [Sip](http://sipapp.io): 取色器
 
 ## 服务 (Service)
 
@@ -347,20 +373,20 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 ## REPL
 
 - [repl.it](https://repl.it/languages): 运行在浏览器的 REPL
-- [runkit](https://runkit.com/home): 非常酷！在前端直接引用 npm 包编写代码
+- [runkit](https://runkit.com/home): 非常酷！在前端直接引用 npm 包编写代码 `ⱳ`
 
 ## 正则表达式 (Regex)
 
-- [在线正则表达式编辑器](http://www.regexr.com)
-- [在线正则表达式可视化](https://regexper.com)
+- [正则表达式编辑器](http://www.regexr.com) `ⱳ`
+- [正则表达式可视化](https://regexper.com) `ⱳ`
 
 ## 数据可视化
 
-- [grafana](https://grafana.com/grafana)
+- [Grafana](https://grafana.com/grafana)
 
 ## 交互式 Notebook
 
-- [jupyter](http://jupyter.org/): 交互式可编程的 notebook，主要支持 python。也可扩展支持其他语言
+- [Jupyter](http://jupyter.org/): 交互式可编程的 notebook，主要支持 python。也可扩展支持其他语言
 - [EVE](https://github.com/witheve/eve): 非常酷的概念，Literate Programming 的一种实现，Medium 式编程。(项目太新，仍需发展)
 - [kajero](https://github.com/joelotter/kajero): Interactive JavaScript notebooks with clever graphing
 
@@ -377,6 +403,9 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 ## 文档
 
 - [盤古之白](https://github.com/vinta/pangu.js): 最佳 README
+- [Dash](https://kapeli.com/dash): 查看文档  `Ⓜ`
+- http://devdocs.io/ : 查看文档。开源的 https://github.com/Thibaut/devdocs/ `ⱳ`
+- [zealdocs](https://zealdocs.org/): 查看文档。备选 `Ⓛ`
 
 ### badges
 
@@ -437,7 +466,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 <!-- icons -->
 
-[open source]: https://jaywcjlove.github.io/sb/ico/min-oss.svg
 [free]: https://jaywcjlove.github.io/sb/ico/min-free.svg
 
 <!-- links -->
