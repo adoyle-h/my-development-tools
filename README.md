@@ -32,6 +32,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [网站](#网站)
 - [系统](#系统)
 - [数据库](#数据库)
+    - [Database Versioning](#database-versioning)
 - [网络](#网络)
     - [翻墙](#翻墙)
 - [服务器](#服务器)
@@ -46,6 +47,7 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [Mac App](#mac-app)
 - [字体](#字体)
 - [设计](#设计)
+    - [原型设计](#原型设计)
 - [颜色 (Color)](#颜色-color)
 - [服务 (Service)](#服务-service)
 - [REPL](#repl)
@@ -188,6 +190,12 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [mycli](https://github.com/dbcli/mycli): mysql 命令行客户端
 - [pgcli](https://github.com/dbcli/pgcli): postgres 命令行客户端
 
+### Database Versioning
+
+- [flyway](https://github.com/flyway/flyway): 用 Java 写的，支持 SQL 和 Java 写 migration。没有 revert 概念。
+- [migrate](https://github.com/mattes/migrate): 用 Go 写的，支持 SQL。缺乏文档和样例。备选
+- [sql-migrate](https://github.com/rubenv/sql-migrate): 用 Go 写的。备选
+
 ## 网络
 
 - [polipo](https://github.com/jech/polipo): http => socks 代理
@@ -314,6 +322,10 @@ brew 表示可以通过 **[Homebrew][]** 安装；
 - [Sketch Tool](https://www.sketchapp.com/tool): Sketch 自带的命令行工具
 - [RightFont](https://rightfontapp.com/cn): 字体管理
 - [ProtoPie](https://www.protopie.io): 交互设计工具
+
+### 原型设计
+
+- [Pencil](https://github.com/evolus/pencil/): 开源的，待改进
 
 ## 颜色 (Color)
 

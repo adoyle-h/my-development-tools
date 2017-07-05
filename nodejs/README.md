@@ -120,7 +120,8 @@
 
 ## 数据校验
 
-- [joi](https://github.com/hapijs/joi): 人类友好的校验 Schema
+- [Joi](https://github.com/hapijs/joi): 人类友好的校验 Schema
+- [yup](https://github.com/jquense/yup): 同 Joi，备用
 
 ## 脚手架
 
