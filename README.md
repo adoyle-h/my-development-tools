@@ -79,6 +79,8 @@
 - [LICEcap](http://www.cockos.com/licecap): 录屏 `Ⓜ` `ⓦ`
 - [irssi](https://github.com/irssi/irssi): IRC Client
 - [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息`Ⓛ` `Ⓜ`
+- [numi](https://numi.io/): 设计优美，操作人性化的计算器 `Ⓜ`
+  - 支持 [Alfred 插件](http://numi.io/docs/#alfred)
 
 ## Slide/Presentation
 
@@ -195,6 +197,7 @@
 ## 系统
 
 - [glances](https://github.com/nicolargo/glances): 系统监控，运行在终端, alternative to top/htop
+- [osquery](https://github.com/facebook/osquery/): 使用 SQL 查询系统级别的信息
 
 ## 数据库
 
