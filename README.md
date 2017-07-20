@@ -81,6 +81,7 @@
 - [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息`Ⓛ` `Ⓜ`
 - [numi](https://numi.io/): 设计优美，操作人性化的计算器 `Ⓜ`
   - 支持 [Alfred 插件](http://numi.io/docs/#alfred)
+- [franc](https://github.com/wooorm/franc): 自然语言语种推测
 
 ## Slide/Presentation
 
