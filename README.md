@@ -19,7 +19,7 @@
 - [其他](#其他)
 - [Slide/Presentation](#slidepresentation)
 - [Misc](#misc)
-- [编辑器](#编辑器)
+- [编辑器/IDE](#编辑器ide)
 - [自动化](#自动化)
 - [下载工具](#下载工具)
 - [Linux](#linux)
@@ -99,9 +99,10 @@
 - less: 分页阅读器。less is more
 - [todo.txt-cli](https://github.com/ginatrapani/todo.txt-cli): 命令行 Todo List Manager
 
-## 编辑器
+## 编辑器/IDE
 
 - [neovim](https://github.com/neovim/neovim): 终端编辑器，用 Python 写的 vim
+- [Visual Studio Code](https://github.com/Microsoft/vscode): 可能是最棒的开源 IDE
 - [Sublime](http://www.sublimetext.com): 编辑器。
 - [Hyper](https://github.com/zeit/hyper): 用 JS/CSS 制作的终端。
 
@@ -331,6 +332,7 @@
   - [iina](https://github.com/lhc70000/iina): 基于 mpv 的播放器 `Ⓜ`
 - [HyperDock](https://bahoom.com/hyperdock): Mac Dock 栏增强
 - [Tuxera NTFS](https://www.tuxera.com/products/tuxera-ntfs-for-mac): 让 Mac 支持 NTFS 文件系统
+- [DaisyDisk](https://daisydiskapp.com/): 硬盘数据占用空间可视化分析。非常好用！ `Ⓜ`
 
 ## Terminal
 
@@ -359,7 +361,7 @@
 ## 颜色 (Color)
 
 - [PleaseJS](https://github.com/Fooidge/PleaseJS): 随机生成颜色搭配。[Preview](http://www.checkman.io/please/)
-- [Sip](http://sipapp.io): 取色器
+- [Sip](http://sipapp.io): 取色器 `Ⓜ`
 
 ## 服务 (Service)
 
