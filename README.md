@@ -432,6 +432,7 @@
 - Mac 命令 say: `say hello`, `say 你好`, `say こんにちは`
 - [lolcat](https://github.com/busyloop/lolcat): rainbow cat
 - [haxor-news](https://github.com/donnemartin/haxor-news): 终端版 hacker news
+- [isometric-contributions](https://github.com/jasonlong/isometric-contributions): Github contributions 图表重构
 
 -----
 
