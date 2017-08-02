@@ -91,8 +91,10 @@
 ### 颜色 (Color)
 
 - [cli-color](https://github.com/medikoo/cli-color): 终端颜色
-- [chalk](https://github.com/chalk/chalk): 终端颜色。同 cli-color，备选方案
+  - [chalk](https://github.com/chalk/chalk): 终端颜色。同 cli-color，备选方案
 - [strip-ansi](https://github.com/chalk/strip-ansi): 虽然 cli-color 也有 [strip](https://github.com/medikoo/cli-color#clcstripformatedtext)，这个 library 只做一件事，依赖模块较少
+- [gradient-string](https://github.com/bokub/gradient-string): 过渡色
+- [chalk-animation](https://github.com/bokub/chalk-animation): 终端颜色动画
 
 ## 颜色
 

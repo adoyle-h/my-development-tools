@@ -4,10 +4,12 @@
 
 <!-- MarkdownTOC GFM -->
 
+- [Fast-Development](#fast-development)
 - [AJAX](#ajax)
 - [Mock](#mock)
 - [React](#react)
     - [DevTools](#devtools)
+    - [UI Component Explorer](#ui-component-explorer)
     - [IDE](#ide)
     - [教程](#教程)
 - [React-Native](#react-native)
@@ -24,6 +26,9 @@
 
 <!-- /MarkdownTOC -->
 
+## Fast-Development
+
+- [poi](https://github.com/egoist/poi)
 
 ## AJAX
 
@@ -45,6 +50,10 @@
 - [react-devtools](https://github.com/facebook/react-devtools)
 - [redux-devtools](https://github.com/gaearon/redux-devtools)
 
+### UI Component Explorer
+
+- [React Storybook](https://github.com/storybooks/react-storybook): React 组件展示工具，非常方便
+
 ### IDE
 
 - (待考察)[reactide](https://github.com/reactide/reactide): React IDE
@@ -63,6 +72,9 @@
 ## CSS
 
 - http://cssreference.io/ : CSS 可视化手册
+- [clean-css](https://github.com/jakubpawlowicz/clean-css)
+- [normalize.css](https://github.com/necolas/normalize.css)
+- [react-css-themr](https://github.com/javivelasco/react-css-themr): 主题化样式，依赖注入
 
 ## 编辑器
 
@@ -100,7 +112,6 @@
 
 ## UI component explorers
 
-- [React Storybook](https://github.com/storybooks/react-storybook): for React
 - [Carte Blanche](https://github.com/carteb/carte-blanche): an isolated development space with integrated fuzz testing for your components
 - [Electrode Explorer](http://www.electrode.io/#electrode-tools): for React components
 - [Chromatic](https://github.com/meteor/chromatic/): for Meteor + React

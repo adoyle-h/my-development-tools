@@ -118,11 +118,13 @@
 ## Linux
 
 - sar: linux 命令，查看系统状态
+- `brew info coreutils`: Mac 下使用 GNU 软件，比如 realpath
 
 ## Shell
 
 - [bash](http://tiswww.case.edu/php/chet/bash/bashtop.html): 注意升级到最新版本的 bash
 - [bash-completion](https://github.com/scop/bash-completion): bash 命令补全
+- [Bash-Snippets](https://github.com/alexanderepstein/Bash-Snippets): A collection of small bash scripts for heavy terminal users
 - [bash-it](https://github.com/Bash-it/bash-it): Bash 脚本管理框架
 - [dotbot](https://github.com/anishathalye/dotbot): dotfile 管理框架
 - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 增强工具
