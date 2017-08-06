@@ -23,6 +23,7 @@
 - [日志](#日志)
 - [待评价](#待评价)
 - [UI component explorers](#ui-component-explorers)
+- [其他人的工具列表](#其他人的工具列表)
 
 <!-- /MarkdownTOC -->
 
@@ -118,4 +119,10 @@
 - [Vue Play](https://github.com/vue-play/vue-play): for Vue
 
 > 参考自 https://blog.hichroma.com/the-crucial-tool-for-modern-frontend-engineers-fb849b06187a
+
+-----
+
+## 其他人的工具列表
+
+- https://github.com/nieweidong/fetool
 

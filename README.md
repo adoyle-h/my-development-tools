@@ -227,6 +227,8 @@
 
 ### 翻墙
 
+- [racaljk/hosts](https://github.com/racaljk/hosts)
+- [gfwlist](https://github.com/gfwlist/gfwlist)
 - [shadowsocks](https://github.com/shadowsocks/shadowsocks): shadowsocks
 - [kcp](https://github.com/skywind3000/kcp):  A Fast and Reliable ARQ Protocol
 
