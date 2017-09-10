@@ -263,6 +263,7 @@
 - [cz-cli](https://github.com/commitizen/cz-cli): git commit message 规范工具
 - [GitKraken](https://www.gitkraken.com): Git GUI
 - [git-tips](https://github.com/git-tips/tips): git 使用技巧
+- [Gource](https://github.com/acaudwell/Gource): 版本控制历史可视化
 
 ## Chrome
 ### CLI
