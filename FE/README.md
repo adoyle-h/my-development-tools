@@ -17,6 +17,9 @@
 - [CSS](#css)
 - [编辑器](#编辑器)
     - [WYSIWYG](#wysiwyg)
+- [动画](#动画)
+    - [2D](#2d)
+    - [3D](#3d)
 - [数据可视化](#数据可视化)
     - [图表](#图表)
 - [其他](#其他)
@@ -82,6 +85,14 @@
 ### WYSIWYG
 
 - [ory/editor](https://github.com/ory/editor): 基于 React 和 Redux 的内容编辑器
+
+## 动画
+
+### 2D
+
+- [anime.js](https://github.com/juliangarnier/anime/)
+
+### 3D
 
 ## 数据可视化
 

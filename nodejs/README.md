@@ -238,7 +238,9 @@
 ## HTTP
 
 - [urijs](https://github.com/medialize/URI.js): uri 解析处理
-- [superagent](https://github.com/visionmedia/superagent): HTTP 请求客户端
+- [axios](https://github.com/mzabriskie/axios): HTTP 请求客户端，参数配置化，API 设计简洁合理。
+  - 但是 POST 请求处理有个缺点: https://github.com/mzabriskie/axios/issues/362
+- [superagent](https://github.com/visionmedia/superagent): HTTP 请求客户端。特点是支持插件，缺点是文档写得不够好。
 
 ## 安全
 

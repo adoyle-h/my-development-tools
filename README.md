@@ -158,10 +158,7 @@
   - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
   - [reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题
 
-## Shell Script
-
-- [bats](https://github.com/sstephenson/bats): Bash Automated Testing System
-- [shellfire](https://github.com/shellfire-dev/shellfire): 提供很多便利的函数，用于 shell 脚本开发
+## [Shell Script](./shell-script/README.md)
 
 ## 结构化数据处理
 
