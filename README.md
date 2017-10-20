@@ -234,7 +234,8 @@
 
 - [racaljk/hosts](https://github.com/racaljk/hosts)
 - [gfwlist](https://github.com/gfwlist/gfwlist)
-- [shadowsocks](https://github.com/shadowsocks/shadowsocks): shadowsocks
+- ~~[shadowsocks](https://github.com/shadowsocks/shadowsocks)~~: shadowsocks，很好的工具，可惜已沦陷，不建议使用。
+- [V2Ray](https://github.com/v2ray/v2ray-core): V2Ray 是一个模块化的代理软件包，它的目标是提供常用的代理软件模块，简化网络代理软件的开发。强烈推荐。
 - [kcp](https://github.com/skywind3000/kcp):  A Fast and Reliable ARQ Protocol
 
 ## 服务器

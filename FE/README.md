@@ -22,6 +22,8 @@
     - [3D](#3d)
 - [数据可视化](#数据可视化)
     - [图表](#图表)
+- [测试](#测试)
+- [Headless Browser](#headless-browser)
 - [其他](#其他)
 - [日志](#日志)
 - [待评价](#待评价)
@@ -104,6 +106,16 @@
 
 - [highcharts](https://github.com/highcharts/highcharts)
 - [c3](https://github.com/c3js/c3)
+
+## 测试
+
+- [cypress](https://github.com/cypress-io/cypress): 非常酷炫的，大而全的，前端自动化测试框架。
+- [enzyme](https://github.com/airbnb/enzyme): JavaScript Testing utilities for React
+
+## Headless Browser
+
+- [puppeteer](https://github.com/GoogleChrome/puppeteer): Headless Chrome
+- [phantomjs](https://github.com/ariya/phantomjs): Scriptable Headless WebKit
 
 ## 其他
 
