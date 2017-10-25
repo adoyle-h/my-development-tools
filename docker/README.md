@@ -8,7 +8,7 @@
 - [安全](#安全)
 - [日志](#日志)
 - [资源调度](#资源调度)
-- [PaaS](#paas)
+- [Kubernetes 相关](#kubernetes-相关)
 - [UI](#ui)
 - [待评价](#待评价)
 
@@ -31,9 +31,12 @@
 
 - [shipyard](https://github.com/shipyard/shipyard)
 
-## PaaS
+## Kubernetes 相关
 
-- [Deis Workflow](https://github.com/deis/workflow)
+- [kubernetes/helm](https://github.com/kubernetes/helm): Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.
+- [kubernetes/charts](https://github.com/kubernetes/charts): Charts are curated application definitions for Kubernetes Helm
+- [Azure/draft](https://github.com/Azure/draft): Draft makes it easy to build applications that run on Kubernetes. Draft targets the "inner loop" of a developer's workflow: as they hack on code, but before code is committed to version control.
+
 
 ## UI
 

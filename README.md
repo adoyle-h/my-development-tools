@@ -157,6 +157,7 @@
     - [Github Repo](https://github.com/git-pull/tao-of-tmux)
   - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
   - [reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题
+- [exa](https://github.com/ogham/exa): much better `ls`
 
 ## [Shell Script](./shell-script/README.md)
 
@@ -450,6 +451,7 @@
 
 开发需要娱乐
 
+- `curl wttr.in`: 查看天气预报，https://github.com/chubin/wttr.in
 - [sl](https://github.com/mtoyoda/sl): 开火车
 - [nyancat](https://github.com/klange/nyancat): NyanCat
 - [nyancat.js](https://github.com/niftylettuce/nyancat.js): 刷屏利器
