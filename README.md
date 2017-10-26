@@ -23,6 +23,7 @@
 - [自动化](#自动化)
 - [下载工具](#下载工具)
 - [Linux](#linux)
+    - [Troubleshooting](#troubleshooting)
 - [Shell](#shell)
 - [Shell Script](#shell-script)
 - [结构化数据处理](#结构化数据处理)
@@ -45,6 +46,7 @@
     - [Chrome 插件](#chrome-插件)
 - [画图](#画图)
 - [测试](#测试)
+    - [http 压测](#http-压测)
 - [Blog](#blog)
 - [密码管理](#密码管理)
 - [知识管理](#知识管理)
@@ -123,6 +125,10 @@
 - sar: linux 命令，查看系统状态
 - `brew info coreutils`: Mac 下使用 GNU 软件，比如 realpath
 
+### Troubleshooting
+
+- [sysdig](https://github.com/draios/sysdig)
+
 ## Shell
 
 - [bash](http://tiswww.case.edu/php/chet/bash/bashtop.html): 注意升级到最新版本的 bash
@@ -158,6 +164,7 @@
   - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
   - [reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题
 - [exa](https://github.com/ogham/exa): much better `ls`
+- [pv](http://www.ivarch.com/programs/pv.shtml): 显示 linux 管道数据传输速度
 
 ## [Shell Script](./shell-script/README.md)
 
@@ -284,8 +291,11 @@
 
 ## 测试
 
-- [siege](https://github.com/JoeDog/siege): http 压测
-- [wrk](https://github.com/wg/wrk): http 压测
+### http 压测
+
+- [siege](https://github.com/JoeDog/siege)
+- [wrk](https://github.com/wg/wrk): 不容易阅读
+- [loadtest](https://github.com/alexfernandez/loadtest)
 
 ## Blog
 
