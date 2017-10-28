@@ -48,7 +48,9 @@
 - [测试](#测试)
     - [http 压测](#http-压测)
 - [Blog](#blog)
-- [密码管理](#密码管理)
+- [密码相关](#密码相关)
+    - [加密/解密](#加密解密)
+    - [密码管理](#密码管理)
 - [知识管理](#知识管理)
 - [邮件](#邮件)
 - [翻译](#翻译)
@@ -301,7 +303,15 @@
 
 - [Hexo](https://github.com/hexojs/hexo): 静态博客
 
-## 密码管理
+## 密码相关
+
+### 加密/解密
+
+- [GPG][https://www.gnupg.org/]
+- [keybase](https://keybase.io): 以社交系统为之背书的，开源的 PGP 工具、系统与托管服务器
+- [kbpgp](https://github.com/keybase/kbpgp): Keybase 用 JS 实现的 PGP 程序
+
+### 密码管理
 
 <a name="KeePass"></a>
 - [KeePass](http://keepass.info): 密码管理器
