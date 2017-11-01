@@ -1,10 +1,14 @@
-# Shell Script
+# Shell Script Development
 
 主要面向 Bash。
 
 ## 框架
 
 - [bats](https://github.com/sstephenson/bats): Bash Automated Testing System
+
+## 颜色
+
+- [ColorEchoForShell](https://github.com/PeterDaveHello/ColorEchoForShell)
 
 ## 参数解析
 

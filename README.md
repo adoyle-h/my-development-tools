@@ -25,7 +25,10 @@
 - [Linux](#linux)
     - [Troubleshooting](#troubleshooting)
 - [Shell](#shell)
-- [Shell Script](#shell-script)
+    - [配色](#配色)
+    - [搜索](#搜索)
+    - [Linux command alternatives](#linux-command-alternatives)
+- [Shell Script Development](#shell-script-development)
 - [结构化数据处理](#结构化数据处理)
     - [JSON](#json)
 - [Lint](#lint)
@@ -138,13 +141,10 @@
 - [Bash-Snippets](https://github.com/alexanderepstein/Bash-Snippets): A collection of small bash scripts for heavy terminal users
 - [bash-it](https://github.com/Bash-it/bash-it): Bash 脚本管理框架
 - [dotbot](https://github.com/anishathalye/dotbot): dotfile 管理框架
-- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 增强工具
 - [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii): 图片转 ASCII 字符
 - [realpath](https://github.com/sindresorhus/realpath): 获取文件的真实绝对路径
 - [Mosh](https://github.com/mobile-shell/mosh): 自动重连的 ssh
 - [cheat](https://github.com/chrisallenlane/cheat): 命令速查表
-- [fzf](https://github.com/junegunn/fzf): 模糊搜索
-- [ag](https://github.com/ggreer/the_silver_searcher): 模糊搜索
 - [hr](https://github.com/LuRsT/hr): 终端分隔符
 - [ranger](https://github.com/ranger/ranger): 命令行版文件管理器
 - [rename](http://plasmasturm.org/code/rename): 批量重命名文件。`brew install rename`
@@ -155,20 +155,33 @@
 - [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
 - [trash](https://github.com/sindresorhus/trash): 命令行工具替代 rm，把文件移到回收站
 - [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
-- [ccat](https://github.com/jingweno/ccat): 代码着色 cat 命令
 - [cash](https://github.com/dthree/cash): 用 nodejs 写的程序，提供一些 linux 命令，拯救 windows 下的终端用户
-- [cd](https://github.com/spencertipping/cd): better cd
-- [lscolors](https://github.com/ggreer/lscolors): LSCOLORS Preview
-- [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes): shell 配色
 - [tmux](https://github.com/tmux/tmux): 多终端管理器
   - [the-tao-of-tmux](https://leanpub.com/the-tao-of-tmux/read): 非常详尽的 tmux 使用和配置手册
     - [Github Repo](https://github.com/git-pull/tao-of-tmux)
   - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
   - [reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题
-- [exa](https://github.com/ogham/exa): much better `ls`
 - [pv](http://www.ivarch.com/programs/pv.shtml): 显示 linux 管道数据传输速度
 
-## [Shell Script](./shell-script/README.md)
+### 配色
+
+- [lscolors](https://github.com/ggreer/lscolors): LSCOLORS Preview
+- [trapd00r/LS_COLORS](https://github.com/trapd00r/LS_COLORS): LS_COLORS 自定义集合
+- [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes): shell 配色
+
+### 搜索
+
+- [fzf](https://github.com/junegunn/fzf): 模糊搜索
+- [ag](https://github.com/ggreer/the_silver_searcher): 模糊搜索
+
+### Linux command alternatives
+
+- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): better diff。超酷的 diff 增强工具
+- [exa](https://github.com/ogham/exa): much better `ls`
+- [cd](https://github.com/spencertipping/cd): better cd
+- [ccat](https://github.com/jingweno/ccat): better cat。输出着色代码的 cat 命令
+
+## [Shell Script Development](./shell-script/README.md)
 
 ## 结构化数据处理
 
