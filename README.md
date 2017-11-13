@@ -75,8 +75,10 @@
 - [Docker 工具链](#docker-工具链)
 - [Markdown](#markdown)
 - [文档](#文档)
+    - [Changelog](#changelog)
     - [badges](#badges)
 - [Funny](#funny)
+    - [教你搜索](#教你搜索)
 - [待评价](#待评价)
 - [别人的工具列表](#别人的工具列表)
 - [版权声明 (Copyright and License)](#版权声明-copyright-and-license)
@@ -87,6 +89,7 @@
 ## 其他
 
 - [LICEcap](http://www.cockos.com/licecap): 录屏 `Ⓜ` `ⓦ`
+  - [kap](https://github.com/wulkano/kap/): 用户体验很好的，开源的录屏工具 `Ⓜ` `⨀`
 - [irssi](https://github.com/irssi/irssi): IRC Client
 - [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息`Ⓛ` `Ⓜ`
 - [numi](https://numi.io/): 设计优美，操作人性化的计算器 `Ⓜ`
@@ -99,7 +102,7 @@
 - [ludus](https://ludus.one/): 给设计师用的 slide 制作 `ⱳ`
 - [bespoke](https://github.com/bespokejs/bespoke): DIY Presentation Micro-Framework
 - [nodeppt](https://github.com/ksky521/nodeppt): 这可能是迄今为止最好的网页版演示库
-- https://slides.com/: 基于 [reveal.js](https://github.com/hakimel/reveal.js) 的服务，非常好用，但是国内要翻墙 `ⱳ`
+- https://slides.com/ : 基于 [reveal.js](https://github.com/hakimel/reveal.js) 的服务，非常好用，但是国内要翻墙 `ⱳ`
 
 ## Misc
 
@@ -474,6 +477,10 @@
 - http://devdocs.io/ : 查看文档。开源的 https://github.com/Thibaut/devdocs/ `ⱳ`
 - [zealdocs](https://zealdocs.org/): 查看文档。备选 `Ⓛ`
 
+### Changelog
+
+- http://keepachangelog.com/  Changelog 书写规约
+
 ### badges
 
 - [forthebadge](http://forthebadge.com/)
@@ -495,6 +502,11 @@
 - [lolcat](https://github.com/busyloop/lolcat): rainbow cat
 - [haxor-news](https://github.com/donnemartin/haxor-news): 终端版 hacker news
 - [isometric-contributions](https://github.com/jasonlong/isometric-contributions): Github contributions 图表重构
+
+### 教你搜索
+
+- http://lmgtfy.com/ : 帮你 google/bing/duckduckgo
+- http://www.baidu-x.com/ : 帮你百度下
 
 -----
 
