@@ -103,8 +103,8 @@
 ## script/bin
 
 - [npm-run-all](https://github.com/mysticatea/npm-run-all): 用于 npm scripts，并行/顺序执行多个子 script
-- [enclose](https://github.com/igorklopov/enclose): 将 node 脚本编译成可执行二进制文件，脱离 node 依赖
-- [pkg](https://github.com/zeit/pkg): enclose 的继承者
+- [pkg](https://github.com/zeit/pkg): 将 node 脚本编译成可执行二进制文件，脱离 node 依赖
+  - [enclose](https://github.com/igorklopov/enclose):  pkg 的前身，都是由 igorklopov 开发的，记录以作纪念
 - [husky](https://github.com/typicode/husky): git hook
 
 ## 工具集
@@ -168,6 +168,9 @@
 ## 配置
 
 - [node-config](https://github.com/lorenwest/node-config): 多环境应用层配置
+- [dotenv](https://github.com/motdotla/dotenv): 读取 `.env` 文件设置环境变量。
+  - 首先要了解它的[使用场景](https://github.com/motdotla/dotenv#faq)
+- [cosmiconfig](https://github.com/davidtheclark/cosmiconfig): Find and load configuration from a package.json property, rc file, or CommonJS module
 
 ## 日志
 
@@ -292,6 +295,7 @@
 - [jsdiff](https://github.com/kpdecker/jsdiff): diff library
 - [franc](https://github.com/wooorm/franc): 自然语言判断
 - [node-temp](https://github.com/bruce/node-temp): 产生临时目录文件
+- [jsdom](https://github.com/tmpvar/jsdom): 在 nodejs 使用符合 WHATWG 和 HTML 标准的 JS DOM
 
 ## 我关注的人/组
 

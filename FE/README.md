@@ -47,9 +47,12 @@
 ## React
 
 - [react-docgen](https://github.com/reactjs/react-docgen): react 组件文档生成器
-- [storybook](https://github.com/storybooks/storybook): 组件预览 for React & React Native
 - [awesome-react-components](https://github.com/brillout/awesome-react-components)
 - [why-did-you-update](https://github.com/garbles/why-did-you-update)
+- [facebookincubator/create-react-app](https://github.com/facebookincubator/create-react-app): 集前端工程精华之作，React 工程前端运行环境
+  - 虽然 webpack 和 babel 配置不能修改，但是社区提供了解决方案
+    - [react-app-rewired](https://github.com/timarney/react-app-rewired)，[文章](https://medium.com/@timarney/but-i-dont-wanna-eject-3e3da5826e39)
+    - [create-react-scripts](https://github.com/raymondsze/create-react-scripts)，[文章](https://medium.com/@szer0601/create-react-scripts-create-your-own-react-scripts-without-fork-e73d384c7369)
 
 ### DevTools
 
@@ -58,7 +61,8 @@
 
 ### UI Component Explorer
 
-- [React Storybook](https://github.com/storybooks/react-storybook): React 组件展示工具，非常方便
+- [storybook](https://github.com/storybooks/storybook): 组件预览 for React & React Native
+- [react-styleguidist](https://github.com/styleguidist/react-styleguidist): 类似 storybook，提供实时预览的工具
 
 ### IDE
 
