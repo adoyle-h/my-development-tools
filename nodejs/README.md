@@ -119,6 +119,7 @@
 - [is](https://github.com/arasatasaygin/is.js): 类型判断
 - [json-parse-helpfulerror](https://github.com/smikes/json-parse-helpfulerror): json 解析错误时，给出人类友好的提示
 - [string-template](https://github.com/Matt-Esch/string-template): 字符串变量拼接
+- [updeep](https://github.com/substantial/updeep): 修改深层嵌套的 object 或 array
 
 ## 数据校验
 
@@ -147,8 +148,9 @@
 ## 服务器
 
 - [json-server](https://github.com/typicode/json-server): 快速搭建 HTTP RESTFul API Server
-- [http-server](https://github.com/indexzero/http-server): 快速搭建 HTTP 服务器
+- [http-server](https://github.com/indexzero/http-server): 快速搭建 HTTP 服务器，主要用于提供静态文件访问
 - [lowdb](https://github.com/typicode/lowdb): 本地 json 数据库
+- [micro](https://github.com/zeit/micro): 零配置的 HTTP 服务器，非常轻量好用，主要用于实现简单的逻辑
 
 ## 数据生成
 
@@ -186,6 +188,7 @@
 - [npm/ini](https://github.com/npm/ini): `ini` 文件解析器
 - [js-yaml](https://github.com/nodeca/js-yaml): `YAML` 文件解析器
 - [glob](https://github.com/isaacs/node-glob): 文件匹配搜索
+  - [fast-glob](https://github.com/mrmlnc/fast-glob): alternative
 
 ## 网络
 
@@ -296,6 +299,7 @@
 - [franc](https://github.com/wooorm/franc): 自然语言判断
 - [node-temp](https://github.com/bruce/node-temp): 产生临时目录文件
 - [jsdom](https://github.com/tmpvar/jsdom): 在 nodejs 使用符合 WHATWG 和 HTML 标准的 JS DOM
+- [opn](https://github.com/sindresorhus/opn): 很方便的打开网站，文件，或可执行文件的命令
 
 ## 我关注的人/组
 
