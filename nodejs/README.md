@@ -149,6 +149,7 @@
 
 - [json-server](https://github.com/typicode/json-server): 快速搭建 HTTP RESTFul API Server
 - [http-server](https://github.com/indexzero/http-server): 快速搭建 HTTP 服务器，主要用于提供静态文件访问
+  - [serve](https://github.com/zeit/serve): alternative
 - [lowdb](https://github.com/typicode/lowdb): 本地 json 数据库
 - [micro](https://github.com/zeit/micro): 零配置的 HTTP 服务器，非常轻量好用，主要用于实现简单的逻辑
 

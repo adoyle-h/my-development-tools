@@ -16,6 +16,8 @@
 - [UI](#ui)
 - [CSS](#css)
     - [CSS in JS](#css-in-js)
+    - [CSS in JSX](#css-in-jsx)
+    - [Typography](#typography)
 - [编辑器](#编辑器)
     - [WYSIWYG](#wysiwyg)
 - [动画](#动画)
@@ -91,6 +93,15 @@
 
 - [styled-components](https://github.com/styled-components/styled-components)
 - [glamorous](https://github.com/paypal/glamorous)
+
+### CSS in JSX
+
+- [styled-jsx](https://github.com/zeit/styled-jsx)
+
+### Typography
+
+- [typography.js](https://github.com/kyleamathews/typography.js): A powerful toolkit for building websites with beautiful design
+
 
 ## 编辑器
 

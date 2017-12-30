@@ -270,6 +270,7 @@
   - [alfred-hotel](https://github.com/exah/alfred-hotel): 查看 hotel app 的 Alfred Workflow
 - [JSON Server](https://github.com/typicode/json-server): 快速搭建 HTTP RESTFul API Server
 - [http-server](https://github.com/indexzero/http-server): 快速搭建 HTTP 服务器
+  - [serve](https://github.com/zeit/serve): alternative
 - [statsd](https://github.com/etsy/statsd): Metrics 数据聚合服务器
 
 ## IM
