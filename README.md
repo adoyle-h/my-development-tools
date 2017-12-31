@@ -141,6 +141,7 @@
 
 - [bash](http://tiswww.case.edu/php/chet/bash/bashtop.html): 注意升级到最新版本的 bash
 - [bash-completion](https://github.com/scop/bash-completion): bash 命令补全
+- [node-tabtab](https://github.com/mklabs/node-tabtab): tab completion helpers, for node cli programs & others
 - [Bash-Snippets](https://github.com/alexanderepstein/Bash-Snippets): A collection of small bash scripts for heavy terminal users
 - [bash-it](https://github.com/Bash-it/bash-it): Bash 脚本管理框架
 - [dotbot](https://github.com/anishathalye/dotbot): dotfile 管理框架
@@ -194,6 +195,7 @@
 
 - [jq](https://github.com/stedolan/jq): JSON 静态分析工具
 - [jid](https://github.com/simeji/jid): JSON 动态交互式分析工具
+- [json5](https://github.com/json5/json5): JSON for humans. (Not an official successor to JSON.)
 
 ## Lint
 
