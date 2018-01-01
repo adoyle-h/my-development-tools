@@ -224,6 +224,7 @@
 
 - [node-rfr](https://github.com/warmsea/node-rfr): module.require 增强，避免使用相对路径
 - [tapable](https://github.com/webpack/tapable): 实现插件机制
+- [lerna](https://github.com/lerna/lerna): 在一个代码仓库中维护多个 package 的工具
 
 ## 自动化
 
@@ -287,6 +288,7 @@
 - [astexplorer](https://astexplorer.net/): AST 浏览器
 - [estools](https://github.com/estools): ECMAScript Tooling
   - [escodegen](https://github.com/estools/escodegen): 根据 AST 生成代码
+- [pegjs](https://github.com/pegjs/pegjs): Parser generator for JavaScript
 
 ## evil
 

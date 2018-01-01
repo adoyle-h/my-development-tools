@@ -34,7 +34,7 @@
 - [Lint](#lint)
 - [配置](#配置)
 - [HTTP](#http)
-- [网站](#网站)
+- [HTML/网站](#html网站)
 - [系统](#系统)
 - [数据库](#数据库)
     - [Database Versioning](#database-versioning)
@@ -64,6 +64,7 @@
     - [原型设计](#原型设计)
 - [颜色 (Color)](#颜色-color)
 - [服务 (Service)](#服务-service)
+    - [静态文件托管](#静态文件托管)
 - [PaaS](#paas)
 - [Serverless](#serverless)
 - [REPL](#repl)
@@ -222,9 +223,10 @@
 - [httpie](https://github.com/jakubroztocil/httpie/): a CLI, cURL-like tool for humans
 - [Paw](https://paw.cloud): 模拟 HTTP 请求的 GUI 客户端  `Ⓜ`
 
-## 网站
+## HTML/网站
 
 - [pageres](https://github.com/sindresorhus/pageres): 网页截屏
+- [temme](https://github.com/shinima/temme): 利用 CSS 语法，从 HTML 提取出 JSON 数据
 
 ## 系统
 
@@ -321,6 +323,7 @@
 ## Blog
 
 - [Hexo](https://github.com/hexojs/hexo): 静态博客
+- [Gatsby](https://github.com/gatsbyjs/gatsby): 基于 React 的静态网页生成工具
 
 ## 密码相关
 
@@ -428,6 +431,10 @@
 - https://unicode-table.com/cn/
 - [Wikiwand](http://www.wikiwand.com/): Wikipedia Modernized。非常漂亮的 Wikipedia 阅读器
 
+### 静态文件托管
+
+- http://surge.sh  Static web publishing for Front-End Developers. 设计非常优雅，强烈推荐！
+
 ## PaaS
 
 [PAAS comparison - Dokku vs Flynn vs Deis vs Kubernetes vs Docker Swarm (2017)](http://www.jancarloviray.com/blog/paas-comparison-2017-dokku-flynn-deis-kubernetes-docker-swarm/)
@@ -473,6 +480,7 @@
 ## Markdown
 
 - [grip](https://github.com/joeyespo/grip): Markdown 即时渲染服务器
+- [json2md](https://github.com/IonicaBizau/json2md): A JSON to Markdown converter
 
 ## 文档
 
