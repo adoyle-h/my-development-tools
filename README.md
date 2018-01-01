@@ -340,6 +340,7 @@
 ## 知识管理
 
 - [iThoughtsX](https://www.toketaware.com): 思维导图 `Ⓜ`
+  - [Thoughts-Search](https://github.com/adoyle-h/iThoughts-Search): iThoughtsX 命令行搜索工具 `⨀`
 
 ## 邮件
 
