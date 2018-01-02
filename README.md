@@ -29,6 +29,7 @@
     - [搜索](#搜索)
     - [Linux command alternatives](#linux-command-alternatives)
 - [Shell Script Development](#shell-script-development)
+- [文件处理](#文件处理)
 - [结构化数据处理](#结构化数据处理)
     - [JSON](#json)
 - [Lint](#lint)
@@ -151,14 +152,9 @@
 - [Mosh](https://github.com/mobile-shell/mosh): 自动重连的 ssh
 - [cheat](https://github.com/chrisallenlane/cheat): 命令速查表
 - [hr](https://github.com/LuRsT/hr): 终端分隔符
-- [ranger](https://github.com/ranger/ranger): 命令行版文件管理器
-- [rename](http://plasmasturm.org/code/rename): 批量重命名文件。`brew install rename`
-- [massren](https://github.com/laurent22/massren): 用自己的编辑器来批量重命名文件
-- [tree](http://mama.indstate.edu/users/ice/tree): Mac 没有 tree 命令
 - [fuck-you](https://github.com/robotlolita/fuck-you): 纠错命令
 - [sloc](https://github.com/flosse/sloc): 代码行统计
 - [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
-- [trash](https://github.com/sindresorhus/trash): 命令行工具替代 rm，把文件移到回收站
 - [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
 - [cash](https://github.com/dthree/cash): 用 nodejs 写的程序，提供一些 linux 命令，拯救 windows 下的终端用户
 - [tmux](https://github.com/tmux/tmux): 多终端管理器
@@ -181,12 +177,25 @@
 
 ### Linux command alternatives
 
-- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): better diff。超酷的 diff 增强工具
+- diff
+  - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 着色增强工具，但只能用管道输出，仍需借助 diff 或 git diff 工具。
+  - [icdiff](https://github.com/jeffkaufman/icdiff): 左右分栏 diff，外加着色。
 - [exa](https://github.com/ogham/exa): much better `ls`
 - [cd](https://github.com/spencertipping/cd): better cd
 - [ccat](https://github.com/jingweno/ccat): better cat。输出着色代码的 cat 命令
+- [multitail](https://github.com/flok99/multitail): 同时 tail 多个文件
+- [tree](http://mama.indstate.edu/users/ice/tree): Mac 没有 tree 命令
+- [ncdu](https://dev.yorhel.nl/ncdu): better du。递归扫描整个文件夹空间占用，交互式。
 
 ## [Shell Script Development](./shell-script/README.md)
+
+## 文件处理
+
+- [ranger](https://github.com/ranger/ranger): 命令行版文件管理器
+- [rename](http://plasmasturm.org/code/rename): 批量重命名文件。`brew install rename`
+- [massren](https://github.com/laurent22/massren): 用自己的编辑器来批量重命名文件
+- [trash](https://github.com/sindresorhus/trash): 命令行工具替代 rm，把文件移到回收站
+- [fpp](https://github.com/facebook/PathPicker): 快速筛选工具
 
 ## 结构化数据处理
 
@@ -514,6 +523,7 @@
 - [lolcat](https://github.com/busyloop/lolcat): rainbow cat
 - [haxor-news](https://github.com/donnemartin/haxor-news): 终端版 hacker news
 - [isometric-contributions](https://github.com/jasonlong/isometric-contributions): Github contributions 图表重构
+- [wtf](https://linux.die.net/man/6/wtf): 英文缩写解释工具。[使用介绍](https://www.zhihu.com/question/59227720/answer/286727058)
 
 ### 教你搜索
 
