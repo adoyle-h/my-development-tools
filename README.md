@@ -79,6 +79,7 @@
 - [文档](#文档)
     - [Changelog](#changelog)
     - [badges](#badges)
+- [图像处理](#图像处理)
 - [Funny](#funny)
     - [教你搜索](#教你搜索)
 - [待评价](#待评价)
@@ -507,6 +508,13 @@
 - [forthebadge](http://forthebadge.com/)
 - [shields.io](http://shields.io): 徽章
 - [boennemann/badges](https://github.com/boennemann/badges)
+
+## 图像处理
+
+- [ImageMagick](http://www.imagemagick.org/): 图像处理系统，支持 200 多种格式，包括: PNG, JPEG, JPEG-2000, GIF, TIFF, DPX, EXR, WebP, Postscript, PDF, SVG。
+- [GraphicsMagick](http://www.graphicsmagick.org/): ImageMagick 的一个分支。没有社区讨论，文档示例太少，学习门槛较高。
+  - ImageMagick 与 GraphicsMagick 的由来和区别介绍: https://www.linux.com/news/imagemagick-or-graphicsmagick
+- [gm](https://github.com/aheckmann/gm): NodeJS 封装 GraphicsMagick and ImageMagick
 
 ## Funny
 

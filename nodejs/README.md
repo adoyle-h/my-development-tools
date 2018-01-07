@@ -9,6 +9,7 @@
 - [通知](#通知)
 - [REPL](#repl)
 - [CLI](#cli)
+    - [CLI 参数解析](#cli-参数解析)
     - [颜色 (Color)](#颜色-color)
 - [颜色](#颜色)
 - [script/bin](#scriptbin)
@@ -71,7 +72,7 @@
 ## CLI
 
 - [blessed](https://github.com/chjj/blessed): 强大的 CLI UI 开发工具集
-- [blessed-contrib](https://github.com/yaronn/blessed-contrib): blessed 扩展
+  - [blessed-contrib](https://github.com/yaronn/blessed-contrib): blessed 扩展
 - [wopr](https://github.com/yaronn/wopr): CLI 图形化报表
 - [iponmap](https://github.com/nogizhopaboroda/iponmap): IP 地图映射
 - [babar](https://github.com/stephan83/babar): CLI Chart
@@ -82,12 +83,15 @@
 - [cliff](https://github.com/flatiron/cliff): 格式化输出
 - [gauge](https://github.com/iarna/gauge): 进度条
 - [update-notifier](https://github.com/yeoman/update-notifier): 命令行版本更新提醒
-- [yargs](https://github.com/yargs/yargs): 命令行参数解析器（复杂版）。支持子命令，多语言，帮助文档等功能
-- [minimist](https://github.com/substack/minimist): 命令行参数解析器（极简）
-- [shelljs](https://github.com/shelljs/shelljs): shell 脚本封装
-- [Inquirer](https://github.com/SBoudrias/Inquirer.js): 命令行交互提示
+- [shelljs](https://github.com/shelljs/shelljs): unix 命令的 nodejs 封装
 - [node-tabtab](https://github.com/mklabs/node-tabtab): tab completion helpers, for node cli programs & others
 - [node-draftlog](https://github.com/ivanseidel/node-draftlog): 单行动态变化的终端打印
+
+### CLI 参数解析
+
+- [yargs](https://github.com/yargs/yargs): 命令行参数解析器（复杂版）。支持子命令，多语言，帮助文档等功能
+- [minimist](https://github.com/substack/minimist): 命令行参数解析器（极简）
+- [Inquirer](https://github.com/SBoudrias/Inquirer.js): 命令行交互提示
 - [Caporal.js](https://github.com/mattallty/Caporal.js): 支持自动补全，自动构建帮助，语法友好的 CLI 框架
   - [commander.js](https://github.com/tj/commander.js): 比 Caporal 弱一点
 
