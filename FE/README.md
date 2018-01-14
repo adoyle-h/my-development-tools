@@ -7,6 +7,7 @@
 - [Fast-Development](#fast-development)
 - [AJAX](#ajax)
 - [Mock](#mock)
+- [Webpack](#webpack)
 - [React](#react)
     - [DevTools](#devtools)
     - [UI Component Explorer](#ui-component-explorer)
@@ -21,8 +22,9 @@
     - [PostCSS](#postcss)
     - [Typography](#typography)
 - [编辑器](#编辑器)
+    - [代码编辑器](#代码编辑器)
     - [WYSIWYG](#wysiwyg)
-- [动画](#动画)
+- [动效](#动效)
     - [2D](#2d)
     - [3D](#3d)
 - [数据可视化](#数据可视化)
@@ -30,8 +32,10 @@
 - [测试](#测试)
 - [响应式](#响应式)
 - [Headless Browser](#headless-browser)
-- [其他](#其他)
+- [Profiling](#profiling)
 - [日志](#日志)
+- [检查](#检查)
+- [其他](#其他)
 - [待评价](#待评价)
 - [UI component explorers](#ui-component-explorers)
 - [其他人的工具列表](#其他人的工具列表)
@@ -50,8 +54,13 @@
 
 - [jquery-mockjax](https://github.com/jakerella/jquery-mockjax): 拦截 Ajax 请求返回 mock 数据
 
+## Webpack
+
+- [webpack-blocks](https://github.com/andywer/webpack-blocks): Configure webpack using functional feature blocks.
+
 ## React
 
+- [preact](https://github.com/developit/preact): React alternative
 - [react-docgen](https://github.com/reactjs/react-docgen): react 组件文档生成器
 - [awesome-react-components](https://github.com/brillout/awesome-react-components)
 - [why-did-you-update](https://github.com/garbles/why-did-you-update)
@@ -118,15 +127,24 @@
 
 ## 编辑器
 
+### 代码编辑器
+
+- [ace](https://github.com/ajaxorg/ace)
+
 ### WYSIWYG
 
 - [ory/editor](https://github.com/ory/editor): 基于 React 和 Redux 的内容编辑器
 
-## 动画
+## 动效
 
 ### 2D
 
+- [mojs](https://github.com/legomushroom/mojs)
+- [popmotion](https://github.com/popmotion/popmotion): 类似 mojs，文件较小
 - [anime.js](https://github.com/juliangarnier/anime/)
+- [animate.css](https://github.com/daneden/animate.css)
+- [Effeckt.css](https://github.com/h5bp/Effeckt.css)
+- [velocity](https://github.com/julianshapiro/velocity)
 
 ### 3D
 
@@ -155,6 +173,21 @@
 - [puppeteer](https://github.com/GoogleChrome/puppeteer): Headless Chrome
 - [phantomjs](https://github.com/ariya/phantomjs): Scriptable Headless WebKit
 
+## Profiling
+
+- [source-map-explorer](https://github.com/danvk/source-map-explorer)
+
+## 日志
+
+- [debug](https://github.com/visionmedia/debug): 调试日志
+- [log-with-style](https://github.com/adamschwartz/log): 输出带样式的日志
+- [pino](https://github.com/pinojs/pino): 支持前端的日志库
+
+## 检查
+
+- http://outdatedbrowser.com/zh-cn  浏览器升级提示
+  - source: https://github.com/burocratik/outdated-browser
+
 ## 其他
 
 - [browserify as a service](https://wzrd.in/): 将 npm 包转成前端可用的在线服务
@@ -162,11 +195,6 @@
 - [webpack as a service: pkgzip](https://pkgzip.com/): 将 npm 包转成前端可用的在线服务
 - [microjs](https://github.com/microjs/microjs.com): 小容量类库列表
 - [bundlesize](https://github.com/siddharthkp/bundlesize): 打包大小检测
-
-## 日志
-
-- [debug](https://github.com/visionmedia/debug): 调试日志
-- [log-with-style](https://github.com/adamschwartz/log): 输出带样式的日志
 
 -----
 

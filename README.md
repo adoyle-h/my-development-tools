@@ -17,12 +17,14 @@
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+- [理论/最佳实践](#理论最佳实践)
 - [Slide/Presentation](#slidepresentation)
 - [Misc](#misc)
 - [编辑器/IDE](#编辑器ide)
 - [自动化](#自动化)
 - [下载工具](#下载工具)
 - [Linux](#linux)
+    - [Commands](#commands)
     - [Troubleshooting](#troubleshooting)
 - [Shell](#shell)
     - [配色](#配色)
@@ -43,6 +45,7 @@
     - [抓包工具](#抓包工具)
     - [翻墙](#翻墙)
 - [服务器](#服务器)
+- [CI/CD](#cicd)
 - [IM](#im)
 - [Git](#git)
 - [Chrome](#chrome)
@@ -81,6 +84,7 @@
     - [badges](#badges)
 - [图像处理](#图像处理)
 - [Funny](#funny)
+    - [Game](#game)
     - [教你搜索](#教你搜索)
 - [待评价](#待评价)
 - [别人的工具列表](#别人的工具列表)
@@ -98,6 +102,10 @@
 - [numi](https://numi.io/): 设计优美，操作人性化的计算器 `Ⓜ`
   - 支持 [Alfred 插件](http://numi.io/docs/#alfred)
 - [franc](https://github.com/wooorm/franc): 自然语言语种推测
+
+## 理论/最佳实践
+
+- https://www.12factor.net/
 
 ## Slide/Presentation
 
@@ -133,8 +141,15 @@
 
 ## Linux
 
-- sar: linux 命令，查看系统状态
+### Commands
+
 - `brew info coreutils`: Mac 下使用 GNU 软件，比如 realpath
+- sar: linux 命令，查看系统状态
+- stat: 查看文件状态，比 ls 更详细，并且能指定输出哪些状态
+- file: 查看文件类型。[详见](http://adoyle.me/Today-I-Learned/linux/file-command.html)
+- md5: 计算 md5。[详见](http://adoyle.me/Today-I-Learned/linux/hash-command.html)
+  - cksum: crc32 算法
+  - shasum: sha1 算法
 
 ### Troubleshooting
 
@@ -287,6 +302,11 @@
   - [serve](https://github.com/zeit/serve): alternative
 - [statsd](https://github.com/etsy/statsd): Metrics 数据聚合服务器
 
+## CI/CD
+
+- [drone](https://github.com/drone/drone): Drone is a Continuous Delivery platform built on Docker, written in Go
+- [GoCD](https://github.com/gocd/gocd): written in java
+
 ## IM
 
 - [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat): 开源版 Slack。built with Meteor
@@ -365,6 +385,7 @@
 
 ## Mac App
 
+- [quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins): Mac 文件 Quick Look 插件。在 Finder 中按空格预览
 - [Nativefier](https://github.com/jiahaog/nativefier): 网页应用打包成 Mac App `Ⓜ`
 <a name="Homebrew"></a>
 - [Homebrew](http://brew.sh): Mac 软件管理器 `Ⓜ`
@@ -532,6 +553,10 @@
 - [haxor-news](https://github.com/donnemartin/haxor-news): 终端版 hacker news
 - [isometric-contributions](https://github.com/jasonlong/isometric-contributions): Github contributions 图表重构
 - [wtf](https://linux.die.net/man/6/wtf): 英文缩写解释工具。[使用介绍](https://www.zhihu.com/question/59227720/answer/286727058)
+
+### Game
+
+- [A Dark Room](https://github.com/doublespeakgames/adarkroom): 文字冒险游戏
 
 ### 教你搜索
 
