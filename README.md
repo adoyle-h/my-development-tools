@@ -79,6 +79,7 @@
 - [前端开发](#前端开发)
 - [Docker 工具链](#docker-工具链)
 - [Markdown](#markdown)
+- [模板引擎](#模板引擎)
 - [文档](#文档)
     - [Changelog](#changelog)
     - [badges](#badges)
@@ -513,6 +514,15 @@
 - [grip](https://github.com/joeyespo/grip): Markdown 即时渲染服务器
 - [json2md](https://github.com/IonicaBizau/json2md): A JSON to Markdown converter
 
+## 模板引擎
+
+- [envsubst](https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html): GNU 工具，`${VARIABLE}` 语法变量替换
+- [mustache](http://mustache.github.io/): 简单变量替换用 mustache 即可。
+- [handlebars](https://github.com/wycats/handlebars.js): mustache 的超集，支持复杂的语法和可扩展
+- [lodash.template](https://lodash.com/docs/#template): 可以兼容各种模板变量语法，体积较小
+- [nunjucks](https://github.com/mozilla/nunjucks): jinja2 inspired templating engine in nodejs
+- [art-template](https://github.com/aui/art-template): 官宣性能最高的模板引擎
+
 ## 文档
 
 - [盤古之白](https://github.com/vinta/pangu.js): 最佳 README
@@ -553,6 +563,7 @@
 - [haxor-news](https://github.com/donnemartin/haxor-news): 终端版 hacker news
 - [isometric-contributions](https://github.com/jasonlong/isometric-contributions): Github contributions 图表重构
 - [wtf](https://linux.die.net/man/6/wtf): 英文缩写解释工具。[使用介绍](https://www.zhihu.com/question/59227720/answer/286727058)
+- [pm](https://github.com/anvaka/pm): 包管理可视化
 
 ### Game
 
