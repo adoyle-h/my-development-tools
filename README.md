@@ -39,6 +39,7 @@
 - [HTTP](#http)
 - [HTML/网站](#html网站)
 - [系统](#系统)
+    - [监控](#监控)
 - [数据库](#数据库)
     - [Database Versioning](#database-versioning)
 - [网络](#网络)
@@ -79,6 +80,7 @@
 - [前端开发](#前端开发)
 - [Docker 工具链](#docker-工具链)
 - [Markdown](#markdown)
+- [模板](#模板)
 - [模板引擎](#模板引擎)
 - [文档](#文档)
     - [Changelog](#changelog)
@@ -120,7 +122,6 @@
 
 - [uglify-js](https://github.com/mishoo/UglifyJS2): js 混淆工具
 - [js-beautify](https://github.com/beautify-web/js-beautify): html-beautify css-beautify js-beautify
-- screencapture: 命令行版截屏工具。 mac 自带
 - less: 分页阅读器。less is more
 - [todo.txt-cli](https://github.com/ginatrapani/todo.txt-cli): 命令行 Todo List Manager
 
@@ -251,13 +252,18 @@
 
 ## HTML/网站
 
+- [chrome 自带网页截屏命令](https://www.zhihu.com/question/20075570/answer/206335744)
 - [pageres](https://github.com/sindresorhus/pageres): 网页截屏
 - [temme](https://github.com/shinima/temme): 利用 CSS 语法，从 HTML 提取出 JSON 数据
 
 ## 系统
 
-- [glances](https://github.com/nicolargo/glances): 系统监控，运行在终端, alternative to top/htop
 - [osquery](https://github.com/facebook/osquery/): 使用 SQL 查询系统级别的信息
+
+### 监控
+
+- [netdata](https://github.com/firehol/netdata): netdata is a system for distributed real-time performance and health monitoring. It provides unparalleled insights, in real-time, of everything happening on the system it runs (including applications such as web and database servers), using modern interactive web dashboards.
+- [glances](https://github.com/nicolargo/glances): 系统监控，运行在终端, alternative to top/htop
 
 ## 数据库
 
@@ -301,6 +307,7 @@
 - [JSON Server](https://github.com/typicode/json-server): 快速搭建 HTTP RESTFul API Server
 - [http-server](https://github.com/indexzero/http-server): 快速搭建 HTTP 服务器
   - [serve](https://github.com/zeit/serve): alternative
+- [websocketd](https://github.com/joewalnes/websocketd/): 基于 stdin/stdout 的 WebSocket 服务器，开箱即用
 - [statsd](https://github.com/etsy/statsd): Metrics 数据聚合服务器
 
 ## CI/CD
@@ -402,6 +409,7 @@
 - [Lacona](https://www.lacona.io/): 类似 spotlight。但更酷 `Ⓜ`
 - [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Alfred，但可以用 Lua 脚本编写程序，支持键盘等事件监听 `Ⓜ`
 - [Monosnap](https://monosnap.com/welcome): 截屏工具
+  - screencapture: 命令行版截屏工具。 mac 自带
 - [Copyless](http://copyless.net): 系统剪切板管理器
 - [Yoink](http://eternalstorms.at/yoink/Yoink_-_Simplify_and_Improve_Drag_and_Drop_on_your_Mac/Yoink_-_Simplify_drag_and_drop_on_your_Mac.html): 临时桌面文件
 - [Noizio](http://noiz.io): 白噪音
@@ -512,7 +520,12 @@
 ## Markdown
 
 - [grip](https://github.com/joeyespo/grip): Markdown 即时渲染服务器
-- [json2md](https://github.com/IonicaBizau/json2md): A JSON to Markdown converter
+- [json2md](https://github.com/IonicaBizau/json2md): 非常灵活的 Markdown 生成工具，容易自己定制功能
+- [markdown-toc](https://github.com/jonschlinkert/markdown-toc): 根据 markdown heading 文本输出 TOC
+
+## 模板
+
+- [assemble](https://github.com/assemble/assemble): 模板文件搭建工具
 
 ## 模板引擎
 
@@ -578,8 +591,6 @@
 
 ## 待评价
 
-- [assemble](https://github.com/assemble/assemble): 静态网页生成器
-- [verb](https://github.com/verbose/verb/tree/dev): 文档生成器的生成器
 - [docute](https://github.com/egoist/docute): 网页文档生成器，可以嵌入代码
 - [Inklet](https://tenonedesign.com/inklet.php): 让 Mac 触摸板变成画图板
 - [node-travisjs](https://github.com/finnp/node-travisjs): Travis CLI 工具

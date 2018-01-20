@@ -25,6 +25,7 @@
 - [日志](#日志)
 - [进程](#进程)
 - [文件](#文件)
+    - [模板](#模板)
 - [网络](#网络)
 - [文档](#文档)
 - [时间](#时间)
@@ -197,6 +198,13 @@
 - [js-yaml](https://github.com/nodeca/js-yaml): `YAML` 文件解析器
 - [glob](https://github.com/isaacs/node-glob): 文件匹配搜索
   - [fast-glob](https://github.com/mrmlnc/fast-glob): alternative
+- [vinyl](https://github.com/gulpjs/vinyl): 用 JS 描述文件
+
+### 模板
+
+- [assemble](https://github.com/assemble/assemble): 模板文件搭建工具
+- [consolidate](https://github.com/tj/consolidate.js): 模板引擎抽象层
+- [templates](https://github.com/jonschlinkert/templates): 模板引擎抽象层
 
 ## 网络
 
