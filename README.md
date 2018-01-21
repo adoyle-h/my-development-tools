@@ -102,8 +102,6 @@
   - [kap](https://github.com/wulkano/kap/): 用户体验很好的，开源的录屏工具 `Ⓜ` `⨀`
 - [irssi](https://github.com/irssi/irssi): IRC Client
 - [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息`Ⓛ` `Ⓜ`
-- [numi](https://numi.io/): 设计优美，操作人性化的计算器 `Ⓜ`
-  - 支持 [Alfred 插件](http://numi.io/docs/#alfred)
 - [franc](https://github.com/wooorm/franc): 自然语言语种推测
 
 ## 理论/最佳实践
@@ -247,6 +245,9 @@
 - [mockbin](https://mockbin.com/): Mock, Test & Track HTTP Requests and Responses
   - https://github.com/Mashape/mockbin
 - [httpstat](https://github.com/reorx/httpstat): httpstat visualizes curl(1) statistics in a way of beauty and clarity
+  - [node 版 httpstat](https://github.com/yosuke-furukawa/httpstat)
+  - [bash 版 httpstat](https://github.com/b4b4r07/httpstat)
+- [httping](https://github.com/flok99/httping): 以 HTTP 协议角度测量 HTTP 延迟
 - [httpie](https://github.com/jakubroztocil/httpie/): a CLI, cURL-like tool for humans
 - [Paw](https://paw.cloud): 模拟 HTTP 请求的 GUI 客户端  `Ⓜ`
 
@@ -428,6 +429,8 @@
 - [HyperDock](https://bahoom.com/hyperdock): Mac Dock 栏增强
 - [Tuxera NTFS](https://www.tuxera.com/products/tuxera-ntfs-for-mac): 让 Mac 支持 NTFS 文件系统
 - [DaisyDisk](https://daisydiskapp.com/): 硬盘数据占用空间可视化分析。非常好用！ `Ⓜ`
+- [numi](https://numi.io/): 设计优美，操作人性化的计算器 `Ⓜ`
+  - 支持 [Alfred 插件](http://numi.io/docs/#alfred)
 
 ## Terminal
 
@@ -524,8 +527,6 @@
 - [markdown-toc](https://github.com/jonschlinkert/markdown-toc): 根据 markdown heading 文本输出 TOC
 
 ## 模板
-
-- [assemble](https://github.com/assemble/assemble): 模板文件搭建工具
 
 ## 模板引擎
 

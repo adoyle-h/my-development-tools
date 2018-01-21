@@ -57,6 +57,8 @@
 ## Webpack
 
 - [webpack-blocks](https://github.com/andywer/webpack-blocks): Configure webpack using functional feature blocks.
+- [jarvis](https://github.com/zouhir/jarvis): 浏览器版 Webpack dashboard
+- [webpack-dashboard](https://github.com/FormidableLabs/webpack-dashboard): CLI 版 Webpack dashboard
 
 ## React
 
@@ -175,7 +177,7 @@
 
 ## Profiling
 
-- [source-map-explorer](https://github.com/danvk/source-map-explorer)
+- [source-map-explorer](https://github.com/danvk/source-map-explorer): 根据 sourcemap 分析代码占用空间
 
 ## 日志
 
