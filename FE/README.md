@@ -178,6 +178,7 @@
 ## Profiling
 
 - [source-map-explorer](https://github.com/danvk/source-map-explorer): 根据 sourcemap 分析代码占用空间
+- [plato](https://github.com/es-analysis/plato): 代码复杂度分析工具
 
 ## 日志
 

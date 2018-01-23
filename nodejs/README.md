@@ -35,6 +35,7 @@
 - [ORM](#orm)
 - [AST](#ast)
 - [Code Lint](#code-lint)
+- [Profiling](#profiling)
 - [HTTP](#http)
 - [安全](#安全)
 - [Node 客户端](#node-客户端)
@@ -257,6 +258,11 @@
 
 - [eslint](https://github.com/eslint/eslint): 规则式代码校验器
 - [stylelint](https://github.com/stylelint/stylelint): css lint
+
+## Profiling
+
+- [source-map-explorer](https://github.com/danvk/source-map-explorer): 根据 sourcemap 分析代码占用空间
+- [plato](https://github.com/es-analysis/plato): 代码复杂度分析工具
 
 ## HTTP
 
