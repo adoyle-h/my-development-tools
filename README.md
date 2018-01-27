@@ -560,6 +560,7 @@
 - [GraphicsMagick](http://www.graphicsmagick.org/): ImageMagick 的一个分支。没有社区讨论，文档示例太少，学习门槛较高。
   - ImageMagick 与 GraphicsMagick 的由来和区别介绍: https://www.linux.com/news/imagemagick-or-graphicsmagick
 - [gm](https://github.com/aheckmann/gm): NodeJS 封装 GraphicsMagick and ImageMagick
+- [jimp](https://github.com/oliver-moran/jimp): 用 JS 写的图像处理类库
 
 ## Funny
 

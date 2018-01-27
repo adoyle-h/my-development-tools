@@ -9,6 +9,7 @@
 - [Mock](#mock)
 - [Webpack](#webpack)
 - [React](#react)
+    - [Static Generator Environment](#static-generator-environment)
     - [DevTools](#devtools)
     - [UI Component Explorer](#ui-component-explorer)
     - [IDE](#ide)
@@ -66,10 +67,17 @@
 - [react-docgen](https://github.com/reactjs/react-docgen): react 组件文档生成器
 - [awesome-react-components](https://github.com/brillout/awesome-react-components)
 - [why-did-you-update](https://github.com/garbles/why-did-you-update)
-- [facebookincubator/create-react-app](https://github.com/facebookincubator/create-react-app): 集前端工程精华之作，React 工程前端运行环境
+- [react-media](https://github.com/reacttraining/react-media): 媒体查询工具
+
+### Static Generator Environment
+
+- [create-react-app](https://github.com/facebookincubator/create-react-app): 集前端工程精华之作，React 工程前端运行环境
   - 虽然 webpack 和 babel 配置不能修改，但是社区提供了解决方案
     - [react-app-rewired](https://github.com/timarney/react-app-rewired)，[文章](https://medium.com/@timarney/but-i-dont-wanna-eject-3e3da5826e39)
     - [create-react-scripts](https://github.com/raymondsze/create-react-scripts)，[文章](https://medium.com/@szer0601/create-react-scripts-create-your-own-react-scripts-without-fork-e73d384c7369)
+- [Gatsby](https://github.com/gatsbyjs/gatsby): 基于 React、GraphQL 的静态网页生成工具
+- [react-static](https://github.com/nozzle/react-static): 实现 PRPL 模式的静态网页生成工具
+- [Cuttlebelle](https://github.com/cuttlebelle/cuttlebelle): YAML 和 Markdown，内容和代码分离的思想很不错
 
 ### DevTools
 
