@@ -129,6 +129,8 @@
 - [json-parse-helpfulerror](https://github.com/smikes/json-parse-helpfulerror): json 解析错误时，给出人类友好的提示
 - [string-template](https://github.com/Matt-Esch/string-template): 字符串变量拼接
 - [updeep](https://github.com/substantial/updeep): 修改深层嵌套的 object 或 array
+- [immer](https://github.com/mweststrate/immer): 比较优雅的 Immutable.js alternative。基于 Proxy 的特性
+  - [immutable-js](https://github.com/facebook/immutable-js/): Immutable.js
 
 ## 数据校验
 

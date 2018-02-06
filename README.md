@@ -103,6 +103,7 @@
 - [irssi](https://github.com/irssi/irssi): IRC Client
 - [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息`Ⓛ` `Ⓜ`
 - [franc](https://github.com/wooorm/franc): 自然语言语种推测
+- [etcher](https://github.com/resin-io/etcher): 将系统镜像写入外接硬盘的工具
 
 ## 理论/最佳实践
 
@@ -543,6 +544,7 @@
 - [Dash](https://kapeli.com/dash): 查看文档  `Ⓜ`
 - http://devdocs.io/ : 查看文档。开源的 https://github.com/Thibaut/devdocs/ `ⱳ`
 - [zealdocs](https://zealdocs.org/): 查看文档。备选 `Ⓛ`
+- [carbon](https://github.com/dawnlabs/carbon): 写文档做 slide 时，贴代码截图挺好看的
 
 ### Changelog
 
