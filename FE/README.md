@@ -7,6 +7,7 @@
 - [Fast-Development](#fast-development)
 - [AJAX](#ajax)
 - [Mock](#mock)
+- [编译工具](#编译工具)
 - [Webpack](#webpack)
 - [React](#react)
     - [Static Generator Environment](#static-generator-environment)
@@ -35,7 +36,7 @@
 - [Headless Browser](#headless-browser)
 - [Profiling](#profiling)
 - [日志](#日志)
-- [检查](#检查)
+- [兼容性检查](#兼容性检查)
 - [其他](#其他)
 - [待评价](#待评价)
 - [UI component explorers](#ui-component-explorers)
@@ -54,6 +55,13 @@
 ## Mock
 
 - [jquery-mockjax](https://github.com/jakerella/jquery-mockjax): 拦截 Ajax 请求返回 mock 数据
+
+## 编译工具
+
+- webpack: 编译框架或应用的工具。配置项多，方便高端玩家定制
+- [parcel](https://github.com/parcel-bundler/parcel): 编译框架或应用的工具。零配置
+- [rollup](https://github.com/rollup/rollup): 编译类库时首选工具。零配置
+- [fuse-box](https://github.com/fuse-box/fuse-box): 「待评估」
 
 ## Webpack
 
@@ -194,10 +202,13 @@
 - [log-with-style](https://github.com/adamschwartz/log): 输出带样式的日志
 - [pino](https://github.com/pinojs/pino): 支持前端的日志库
 
-## 检查
+## 兼容性检查
 
 - http://outdatedbrowser.com/zh-cn  浏览器升级提示
   - source: https://github.com/burocratik/outdated-browser
+- [browserslist](https://github.com/ai/browserslist): Share target browsers between different front-end tools, like Autoprefixer, Stylelint and babel-preset-env.
+- [browser-compat-data](https://github.com/mdn/browser-compat-data): This repository contains compatibility data for Web technologies as displayed on MDN
+- [compat-table](https://github.com/kangax/compat-table): ECMAScript 5/6/7 compatibility tables
 
 ## 其他
 

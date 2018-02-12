@@ -114,6 +114,11 @@
 - [npm-run-all](https://github.com/mysticatea/npm-run-all): 用于 npm scripts，并行/顺序执行多个子 script
 - [pkg](https://github.com/zeit/pkg): 将 node 脚本编译成可执行二进制文件，脱离 node 依赖
   - [enclose](https://github.com/igorklopov/enclose):  pkg 的前身，都是由 igorklopov 开发的，记录以作纪念
+  - [nexe](https://github.com/nexe/nexe): 另一套打包成可执行程序的方案
+  - [node-packer](https://github.com/pmq20/node-packer): 又一套打包成可执行程序的方案
+  - 方案比较
+    - https://github.com/zeit/pkg/issues/42
+    - https://github.com/pmq20/node-packer#comparing-with-similar-projects
 - [husky](https://github.com/typicode/husky): git hook
 
 ## 工具集
