@@ -22,7 +22,7 @@
     - [CSS in JS](#css-in-js)
     - [CSS in JSX](#css-in-jsx)
     - [PostCSS](#postcss)
-    - [Typography](#typography)
+    - [排版 Typography](#排版-typography)
 - [编辑器](#编辑器)
     - [代码编辑器](#代码编辑器)
     - [WYSIWYG](#wysiwyg)
@@ -138,9 +138,11 @@
 - [postcss-cssnext](https://github.com/MoOx/postcss-cssnext)
 - [rucksack-css](https://github.com/seaneking/rucksack)
 
-### Typography
+### 排版 Typography
 
 - [typography.js](https://github.com/kyleamathews/typography.js): A powerful toolkit for building websites with beautiful design
+- [typo.css](https://github.com/sofish/typo.css): 中文排版优化
+- [字体样式筛选](https://www.jianshu.com/p/5622cab3d523)
 
 
 ## 编辑器

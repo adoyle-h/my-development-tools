@@ -66,7 +66,7 @@
 - [Terminal](#terminal)
 - [字体](#字体)
 - [设计](#设计)
-    - [原型设计](#原型设计)
+- [Design](#design)
 - [颜色 (Color)](#颜色-color)
 - [服务 (Service)](#服务-service)
     - [静态文件托管](#静态文件托管)
@@ -128,8 +128,7 @@
 
 - [neovim](https://github.com/neovim/neovim): 终端编辑器，用 Python 写的 vim
 - [Visual Studio Code](https://github.com/Microsoft/vscode): 可能是最棒的开源 IDE
-- [Sublime](http://www.sublimetext.com): 编辑器。
-- [Hyper](https://github.com/zeit/hyper): 用 JS/CSS 制作的终端。
+- [Sublime](http://www.sublimetext.com): 也许现在比不上其他工具，它是推动编辑器体验进化的功臣。
 
 ## 自动化
 
@@ -436,26 +435,23 @@
 ## Terminal
 
 - [iTerm2](https://www.iterm2.com): terminal `Ⓜ`
+- [Hyper](https://github.com/zeit/hyper): 用前端技术栈做的终端。非常酷炫 `⨀`
+  - 目前存在[中文字符的显示问题](https://github.com/zeit/hyper/issues/2124)，等待修复
+  - [awesome-hyper](https://github.com/bnb/awesome-hyper)
 - [cathode](https://itunes.apple.com/us/app/cathode/id656982811): 复古终端模拟器 `Ⓜ`
 
 ## 字体
 
 - [FontForge](https://github.com/fontforge/fontforge): 字体设计工具
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
+- [RightFont](https://rightfontapp.com/cn): 字体管理
 
 ## 设计
 
 - [Monodraw](https://monodraw.helftone.com): ASCII Art 画图工具
 - [Pixelmator](http://www.pixelmator.com/mac): 像素画图
-- [Sketch](https://www.sketchapp.com): 矢量画图
-- [Sketch Toolbox](http://sketchtoolbox.com): Sketch 插件管理器
-- [Sketch Tool](https://www.sketchapp.com/tool): Sketch 自带的命令行工具
-- [RightFont](https://rightfontapp.com/cn): 字体管理
-- [ProtoPie](https://www.protopie.io): 交互设计工具
 
-### 原型设计
-
-- [Pencil](https://github.com/evolus/pencil/): 开源的，待改进
+## [Design](./design/README.md)
 
 ## 颜色 (Color)
 
@@ -545,6 +541,7 @@
 - http://devdocs.io/ : 查看文档。开源的 https://github.com/Thibaut/devdocs/ `ⱳ`
 - [zealdocs](https://zealdocs.org/): 查看文档。备选 `Ⓛ`
 - [carbon](https://github.com/dawnlabs/carbon): 写文档做 slide 时，贴代码截图挺好看的
+- [gitbook](https://github.com/GitbookIO/gitbook): 用 markdown 写书的平台工具
 
 ### Changelog
 
