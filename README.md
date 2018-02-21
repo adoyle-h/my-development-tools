@@ -17,6 +17,8 @@
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+- [CMS](#cms)
+- [JAMstack](#jamstack)
 - [理论/最佳实践](#理论最佳实践)
 - [Slide/Presentation](#slidepresentation)
 - [Misc](#misc)
@@ -104,6 +106,15 @@
 - [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息`Ⓛ` `Ⓜ`
 - [franc](https://github.com/wooorm/franc): 自然语言语种推测
 - [etcher](https://github.com/resin-io/etcher): 将系统镜像写入外接硬盘的工具
+- [dom-to-image](https://github.com/tsayen/dom-to-image): DOM 树导出成 SVG 或 PNG 图片
+
+## CMS
+
+- [headless cms](https://github.com/netlify/headlesscms.org)
+
+## JAMstack
+
+- [jamstack.org](https://github.com/jamstack/jamstack.org)
 
 ## 理论/最佳实践
 
@@ -128,6 +139,7 @@
 
 - [neovim](https://github.com/neovim/neovim): 终端编辑器，用 Python 写的 vim
 - [Visual Studio Code](https://github.com/Microsoft/vscode): 可能是最棒的开源 IDE
+  - [code-settings-sync](https://github.com/shanalikhan/code-settings-sync): VSC 设置备份同步工具
 - [Sublime](http://www.sublimetext.com): 也许现在比不上其他工具，它是推动编辑器体验进化的功臣。
 
 ## 自动化
@@ -165,7 +177,6 @@
 - [dotbot](https://github.com/anishathalye/dotbot): dotfile 管理框架
 - [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii): 图片转 ASCII 字符
 - [realpath](https://github.com/sindresorhus/realpath): 获取文件的真实绝对路径
-- [Mosh](https://github.com/mobile-shell/mosh): 自动重连的 ssh
 - [cheat](https://github.com/chrisallenlane/cheat): 命令速查表
 - [hr](https://github.com/LuRsT/hr): 终端分隔符
 - [fuck-you](https://github.com/robotlolita/fuck-you): 纠错命令
@@ -173,6 +184,7 @@
 - [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
 - [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
 - [cash](https://github.com/dthree/cash): 用 nodejs 写的程序，提供一些 linux 命令，拯救 windows 下的终端用户
+- [Mosh](https://github.com/mobile-shell/mosh): 自动重连的 ssh
 - [tmux](https://github.com/tmux/tmux): 多终端管理器
   - [the-tao-of-tmux](https://leanpub.com/the-tao-of-tmux/read): 非常详尽的 tmux 使用和配置手册
     - [Github Repo](https://github.com/git-pull/tao-of-tmux)
@@ -216,6 +228,9 @@
 ## 结构化数据处理
 
 - [Structured text tools](https://github.com/dbohdan/structured-text-tools)
+- 我喜欢的配置文件语法
+  - [YAML](http://yaml.org/)
+  - [TOML](https://github.com/toml-lang/toml)
 
 ### JSON
 
@@ -431,6 +446,7 @@
 - [DaisyDisk](https://daisydiskapp.com/): 硬盘数据占用空间可视化分析。非常好用！ `Ⓜ`
 - [numi](https://numi.io/): 设计优美，操作人性化的计算器 `Ⓜ`
   - 支持 [Alfred 插件](http://numi.io/docs/#alfred)
+- [CmdTap](http://www.yingdev.com/projects/cmdtap): 任务切换器增强
 
 ## Terminal
 
@@ -542,6 +558,7 @@
 - [zealdocs](https://zealdocs.org/): 查看文档。备选 `Ⓛ`
 - [carbon](https://github.com/dawnlabs/carbon): 写文档做 slide 时，贴代码截图挺好看的
 - [gitbook](https://github.com/GitbookIO/gitbook): 用 markdown 写书的平台工具
+  - [mkdocs](https://github.com/mkdocs/mkdocs): 类似 gitbook，当前没有更优秀的地方
 
 ### Changelog
 
