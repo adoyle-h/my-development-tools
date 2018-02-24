@@ -1,3 +1,4 @@
+<a name="top"></a>
 # NodeJS 开发工具栈
 
 ## TOC
@@ -12,7 +13,8 @@
     - [CLI 参数解析](#cli-参数解析)
     - [颜色 (Color)](#颜色-color)
 - [颜色](#颜色)
-- [script/bin](#scriptbin)
+- [脚本](#脚本)
+- [打包方案](#打包方案)
 - [工具集](#工具集)
 - [数据校验](#数据校验)
 - [脚手架](#脚手架)
@@ -109,17 +111,21 @@
 
 - [chromatism](https://github.com/toish/chromatism): 颜色转换
 
-## script/bin
+## 脚本
 
 - [npm-run-all](https://github.com/mysticatea/npm-run-all): 用于 npm scripts，并行/顺序执行多个子 script
-- [pkg](https://github.com/zeit/pkg): 将 node 脚本编译成可执行二进制文件，脱离 node 依赖
-  - [enclose](https://github.com/igorklopov/enclose):  pkg 的前身，都是由 igorklopov 开发的，记录以作纪念
-  - [nexe](https://github.com/nexe/nexe): 另一套打包成可执行程序的方案
-  - [node-packer](https://github.com/pmq20/node-packer): 又一套打包成可执行程序的方案
-  - 方案比较
-    - https://github.com/zeit/pkg/issues/42
-    - https://github.com/pmq20/node-packer#comparing-with-similar-projects
 - [husky](https://github.com/typicode/husky): git hook
+
+## 打包方案
+
+- [pkg](https://github.com/zeit/pkg): 将 node 脚本编译成可执行二进制文件，脱离 node 依赖
+- [enclose](https://github.com/igorklopov/enclose):  pkg 的前身，都是由 igorklopov 开发的，记录以作纪念
+- [nexe](https://github.com/nexe/nexe): 另一套打包成可执行程序的方案
+- [node-packer](https://github.com/pmq20/node-packer): 又一套打包成可执行程序的方案
+
+方案比较
+- https://github.com/zeit/pkg/issues/42
+- https://github.com/pmq20/node-packer#comparing-with-similar-projects
 
 ## 工具集
 
@@ -199,6 +205,7 @@
 
 - [nodemon](https://github.com/remy/nodemon): 守护进程。本地开发用，文件改动时自动重启 node 应用
 - [PM2](https://github.com/Unitech/pm2): 进程管理。生产环境用
+- [pandora](https://github.com/midwayjs/pandora/): Node.js 应用监控管理器，自带 Metrics，请求链路跟踪，可扩展。
 
 ## 文件
 
@@ -344,3 +351,6 @@
 ----
 
 ## 待评价
+
+
+**[⬆ 返回顶部](#top)**
