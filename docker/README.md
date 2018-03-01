@@ -40,6 +40,7 @@
 - [kubernetes/helm](https://github.com/kubernetes/helm): Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.
 - [kubernetes/charts](https://github.com/kubernetes/charts): Charts are curated application definitions for Kubernetes Helm
 - [Azure/draft](https://github.com/Azure/draft): Draft makes it easy to build applications that run on Kubernetes. Draft targets the "inner loop" of a developer's workflow: as they hack on code, but before code is committed to version control.
+- [kompose](https://github.com/kubernetes/kompose): Go from Docker Compose to Kubernetes
 
 
 ## UI

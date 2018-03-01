@@ -23,7 +23,7 @@
 - [测试](#测试)
 - [Benchmark](#benchmark)
 - [服务器](#服务器)
-- [数据生成](#数据生成)
+- [数据生成/Mock](#数据生成mock)
 - [错误处理](#错误处理)
 - [配置](#配置)
 - [日志](#日志)
@@ -58,6 +58,7 @@
 
 - [nrm](https://github.com/Pana/nrm): NPM Registry Manager
 - [nvm](https://github.com/creationix/nvm): Node Version Manager
+- [nvs](https://github.com/jasongin/nvs): 与 nvm 类似。只是因为 nvm 对 windows 的支持跟 linux 不一样。用 nvs 命令调用统一。
 
 ## Misc
 
@@ -177,11 +178,12 @@
 - [lowdb](https://github.com/typicode/lowdb): 本地 json 数据库
 - [micro](https://github.com/zeit/micro): 零配置的 HTTP 服务器，非常轻量好用，主要用于实现简单的逻辑
 
-## 数据生成
+## 数据生成/Mock
 
 - [faker.js](https://github.com/Marak/faker.js): 制造假数据
 - [casual](https://github.com/boo1ean/casual): 制造假数据。备选
 - [Chance](https://github.com/chancejs/chancejs): 制造假数据。备选2
+- [nuysoft/Mock](https://github.com/nuysoft/Mock): 制造假数据。备选3
 - [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker): 根据 json schema 生成数据
 
 ## 错误处理
