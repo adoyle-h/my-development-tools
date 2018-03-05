@@ -451,6 +451,7 @@
 - [numi](https://numi.io/): 设计优美，操作人性化的计算器 `Ⓜ`
   - 支持 [Alfred 插件](http://numi.io/docs/#alfred)
 - [CmdTap](http://www.yingdev.com/projects/cmdtap): 任务切换器增强
+- [Pixave](http://www.littlehj.com/mac/): 素材管理器
 
 ## Terminal
 
@@ -599,6 +600,7 @@
 - [isometric-contributions](https://github.com/jasonlong/isometric-contributions): Github contributions 图表重构
 - [wtf](https://linux.die.net/man/6/wtf): 英文缩写解释工具。[使用介绍](https://www.zhihu.com/question/59227720/answer/286727058)
 - [pm](https://github.com/anvaka/pm): 包管理可视化
+- [sorry](https://github.com/xtyxtyx/sorry): 为所欲为 GIF 制作器
 
 ### Game
 
