@@ -68,7 +68,6 @@
 - [Mac App](#mac-app)
 - [Terminal](#terminal)
 - [字体](#字体)
-- [设计](#设计)
 - [Design](#design)
 - [颜色 (Color)](#颜色-color)
 - [服务 (Service)](#服务-service)
@@ -363,12 +362,37 @@
 - [octotree](https://github.com/buunguyen/octotree): github 文件浏览器
 - [smart-toc](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba): 根据页面生成 TOC
 - [tamperchrome](https://github.com/google/tamperchrome): 实时拦截并修改请求。不必依赖 Charles 这种代理服务器了
+- [Requestly](https://www.requestly.in/content/documentation/): 拦截修改 HTTP 请求，非常灵活好用！
+- [Chrono下载管理器](http://www.chronodownloader.net/)
+- [JavaScript Errors Notifier](https://chrome.google.com/webstore/detail/javascript-errors-notifie/jafmfknfnkoekkdocjiaipcnmkklaajd)
+- [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
+- [Isometric Contributions](https://chrome.google.com/webstore/detail/isometric-contributions/mjoedlfflcchnleknnceiplgaeoegien)
+- [Refined GitHub](https://github.com/sindresorhus/refined-github)
+- [rikaikun](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp)
+- [RSS Subscription Extension](https://chrome.google.com/webstore/detail/rss-subscription-extensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd)
+- [Session Buddy](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko)
+- [ShowIp](https://chrome.google.com/webstore/detail/showip/agoljmemkbciolpigpabjfkagboolkcj)
+- [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm)
+- [声海盗](https://chrome.google.com/webstore/detail/%E5%A3%B0%E6%B5%B7%E7%9B%97/idleenniidjlnmnjkjmmnocnkmjibadd)
+- [EditThisCookie](https://github.com/fcapano/Edit-This-Cookie)
 
 ## 画图
 
 <a name="PlantUML"></a>
 - [PlantUML](https://github.com/plantuml/plantuml): 用代码画 UML 图或流程图
-- [node-plantuml](https://github.com/markushedvall/node-plantuml): node 命令行 [PlantUML][]
+  - [node-plantuml](https://github.com/markushedvall/node-plantuml): node 命令行 [PlantUML][]
+- [Mermaid](https://github.com/knsv/mermaid): 类似 PlantUML，另一种基于文本生成图的工具
+  - [Mermaid Live Editor](https://mermaidjs.github.io/mermaid-live-editor/)
+- [Monodraw](https://monodraw.helftone.com): ASCII Art 画图工具 `Ⓜ`
+- [Pixelmator](http://www.pixelmator.com/mac): 像素画图工具 `Ⓜ`
+- [Sketch](https://www.sketchapp.com/): 矢量画图工具 `Ⓜ`
+- [Quil](https://github.com/quil/quil): 写代码绘画 (Painting)
+  - 源自 http://www.tylerlhobbs.com/ https://www.instagram.com/tylerlhobbs/
+  - [教程](http://www.tylerlhobbs.com/writings/using-quil-for-artwork) [教程](http://www.tylerlhobbs.com/writings)
+- [p5.js](https://p5js.org/reference/): processing JS 工具
+- https://processing.org/
+  - http://processingjs.org/
+
 
 ## 测试
 
@@ -466,11 +490,6 @@
 - [FontForge](https://github.com/fontforge/fontforge): 字体设计工具
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 - [RightFont](https://rightfontapp.com/cn): 字体管理
-
-## 设计
-
-- [Monodraw](https://monodraw.helftone.com): ASCII Art 画图工具
-- [Pixelmator](http://www.pixelmator.com/mac): 像素画图
 
 ## [Design](./design/README.md)
 
