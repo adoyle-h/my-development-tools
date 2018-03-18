@@ -10,8 +10,8 @@
 - [Node 环境](#node-环境)
 - [Misc](#misc)
 - [通知](#通知)
-- [REPL](#repl)
 - [CLI](#cli)
+    - [REPL / 交互式 CLI](#repl--交互式-cli)
     - [CLI 参数解析](#cli-参数解析)
     - [颜色 (Color)](#颜色-color)
 - [颜色](#颜色)
@@ -68,14 +68,6 @@
 
 - [node-notifier](https://github.com/mikaelbr/node-notifier): 调用系统通知 API，兼容很多系统
 
-## REPL
-
-- [Mancy](https://github.com/princejwesley/Mancy): Electron based NodeJS REPL
-- [nesh](https://github.com/danielgtaylor/nesh): 增强型交互式 shell 框架
-- [vorpal](https://github.com/dthree/vorpal): 交互式命令行框架
-- [vantage](https://github.com/dthree/vantage): 实时交互式 CLI 工具，基于 vorpal 开发
-- [runkit](https://runkit.com/home): 非常酷！在前端直接引用 npm 包编写代码
-
 ## CLI
 
 - [blessed](https://github.com/chjj/blessed): 强大的 CLI UI 开发工具集
@@ -93,6 +85,16 @@
 - [shelljs](https://github.com/shelljs/shelljs): unix 命令的 nodejs 封装
 - [node-tabtab](https://github.com/mklabs/node-tabtab): tab completion helpers, for node cli programs & others
 - [node-draftlog](https://github.com/ivanseidel/node-draftlog): 单行动态变化的终端打印
+
+### REPL / 交互式 CLI
+
+- [Mancy](https://github.com/princejwesley/Mancy): Electron based NodeJS REPL
+- [nesh](https://github.com/danielgtaylor/nesh): 增强型交互式 shell 框架
+- [vorpal](https://github.com/dthree/vorpal): 交互式命令行框架
+- [vantage](https://github.com/dthree/vantage): 实时交互式 CLI 工具，基于 vorpal 开发
+- [runkit](https://runkit.com/home): 非常酷！在前端直接引用 npm 包编写代码
+- [ink](https://github.com/vadimdemedes/ink): 用 React 写法构建交互式 CLI
+  - [ink-tab](https://github.com/jdeniau/ink-tab)
 
 ### CLI 参数解析
 
