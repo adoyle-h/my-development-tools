@@ -44,6 +44,7 @@
 - [系统](#系统)
     - [监控](#监控)
 - [数据库](#数据库)
+- [数据库设计](#数据库设计)
     - [Database Versioning](#database-versioning)
 - [网络](#网络)
     - [抓包工具](#抓包工具)
@@ -69,7 +70,6 @@
 - [Terminal](#terminal)
 - [字体](#字体)
 - [Design](#design)
-- [颜色 (Color)](#颜色-color)
 - [服务 (Service)](#服务-service)
     - [静态文件托管](#静态文件托管)
 - [PaaS](#paas)
@@ -138,6 +138,7 @@
 ## 编辑器/IDE
 
 - [neovim](https://github.com/neovim/neovim): 终端编辑器，用 Python 写的 vim
+  - [oni](https://github.com/onivim/oni): Neovim GUI 编辑器
 - [Visual Studio Code](https://github.com/Microsoft/vscode): 可能是最棒的开源 IDE
   - [code-settings-sync](https://github.com/shanalikhan/code-settings-sync): VSC 设置备份同步工具
 - [Sublime](http://www.sublimetext.com): 也许现在比不上其他工具，它是推动编辑器体验进化的功臣。
@@ -291,6 +292,10 @@
 - [pgcli](https://github.com/dbcli/pgcli): postgres 命令行客户端
 - [medis](https://github.com/luin/medis): Redis GUI Client  `Ⓜ`
 
+## 数据库设计
+
+- [sqldbm](https://sqldbm.com/en/Home/): 目前做的最好（没有之一）的 ER 建模工具，目前免费。
+
 ### Database Versioning
 
 - [flyway](https://github.com/flyway/flyway): 用 Java 写的，支持 SQL 和 Java 写 migration。没有 revert 概念。
@@ -392,6 +397,7 @@
 - [p5.js](https://p5js.org/reference/): processing JS 工具
 - https://processing.org/
   - http://processingjs.org/
+- [gliffy](https://www.gliffy.com/): 画架构图不错，图例很丰富，挺好看的。只不过有点贵
 
 
 ## 测试
@@ -492,11 +498,6 @@
 - [RightFont](https://rightfontapp.com/cn): 字体管理
 
 ## [Design](./design/README.md)
-
-## 颜色 (Color)
-
-- [PleaseJS](https://github.com/Fooidge/PleaseJS): 随机生成颜色搭配。[Preview](http://www.checkman.io/please/)
-- [Sip](http://sipapp.io): 取色器 `Ⓜ`
 
 ## 服务 (Service)
 

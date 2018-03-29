@@ -26,6 +26,7 @@
     - [教程](#教程-1)
     - [CSS in JS](#css-in-js)
     - [CSS in JSX](#css-in-jsx)
+    - [CSS Module](#css-module)
     - [PostCSS](#postcss)
     - [排版 Typography](#排版-typography)
 - [编辑器](#编辑器)
@@ -150,6 +151,10 @@
 ### CSS in JSX
 
 - [styled-jsx](https://github.com/zeit/styled-jsx)
+
+### CSS Module
+
+- [react-css-modules](https://github.com/gajus/react-css-modules): 非常酷的工具
 
 ### PostCSS
 

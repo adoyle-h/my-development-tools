@@ -7,6 +7,10 @@
 
 <!-- MarkdownTOC GFM -->
 
+- [颜色 (Color)](#颜色-color)
+    - [取色](#取色)
+    - [配色](#配色)
+    - [调色](#调色)
 - [设计工具](#设计工具)
 - [Sketch](#sketch)
     - [工作流 (Workflow)](#工作流-workflow)
@@ -23,8 +27,31 @@
     - [伪数据填充](#伪数据填充)
     - [其他插件](#其他插件)
 - [原型设计](#原型设计)
+- [动效](#动效)
 
 <!-- /MarkdownTOC -->
+
+## 颜色 (Color)
+
+- [色彩原理](http://www.charts.kh.edu.tw/teaching-web/98color/color.htm)
+
+### 取色
+
+- [Sip](http://sipapp.io): 取色器 `Ⓜ`
+- https://www.colorhexa.com : 色彩信息计算
+- http://nipponcolors.com : 日系传统色彩。界面超好看！用字很美！
+- http://color.aurlien.net : 把鼠标放在网页上随意移动，会产生对应的颜色
+
+### 配色
+
+- [PleaseJS](https://github.com/Fooidge/PleaseJS): 随机生成颜色搭配。
+- https://coolors.co : 配色生成工具。五种色
+- http://colorhunt.co : 别人提供的配色方案。四种色
+
+### 调色
+
+- http://paletton.com : 色轮调色工具
+- https://color.adobe.com/zh/create/color-wheel/ : 色轮调色工具
 
 
 ## 设计工具
@@ -132,6 +159,11 @@
 
 - [ProtoPie](https://www.protopie.io): 体验一流的原型设计工具
 - [Pencil](https://github.com/evolus/pencil/): 开源的，待改进
+
+## 动效
+
+- [haiku](https://www.haiku.ai/): AE+Lottie+Sketch == Haiku+Sketch
+- [lottie](http://airbnb.io/lottie/): 导出 AE 稿至移动端渲染动效
 
 
 **[⬆ 返回顶部](#top)**

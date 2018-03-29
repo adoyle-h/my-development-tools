@@ -101,8 +101,9 @@
 - [yargs](https://github.com/yargs/yargs): 命令行参数解析器（复杂版）。支持子命令，多语言，帮助文档等功能
 - [minimist](https://github.com/substack/minimist): 命令行参数解析器（极简）
 - [Inquirer](https://github.com/SBoudrias/Inquirer.js): 命令行交互提示
-- [Caporal.js](https://github.com/mattallty/Caporal.js): 支持自动补全，自动构建帮助，语法友好的 CLI 框架
-  - [commander.js](https://github.com/tj/commander.js): 比 Caporal 弱一点
+- [Caporal.js](https://github.com/mattallty/Caporal.js): 支持自动补全，自动构建帮助，语法友好的 CLI 框架。缺点是不支持 global option，详见 [issue](https://github.com/mattallty/Caporal.js/issues/21)
+  - [oclif](https://github.com/oclif/oclif): Heroku 出品。功能跟 Caporal.js 类似。特点是 OOP，Hook，还有插件
+  - [commander.js](https://github.com/tj/commander.js): 比 Caporal 弱一点。备选方案
 
 ### 颜色 (Color)
 
