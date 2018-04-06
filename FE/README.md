@@ -14,6 +14,7 @@
 - [Mock](#mock)
 - [编译工具](#编译工具)
 - [Webpack](#webpack)
+    - [analyzer](#analyzer)
 - [React](#react)
     - [Static Generator Environment](#static-generator-environment)
     - [DevTools](#devtools)
@@ -36,7 +37,10 @@
     - [2D](#2d)
     - [3D](#3d)
     - [滚动条](#滚动条)
-- [数据可视化](#数据可视化)
+- [绘图](#绘图)
+    - [2D](#2d-1)
+    - [3D](#3d-1)
+    - [数据可视化](#数据可视化)
     - [图表](#图表)
 - [测试](#测试)
 - [响应式](#响应式)
@@ -88,6 +92,13 @@
 - [webpack-blocks](https://github.com/andywer/webpack-blocks): Configure webpack using functional feature blocks.
 - [jarvis](https://github.com/zouhir/jarvis): 浏览器版 Webpack dashboard
 - [webpack-dashboard](https://github.com/FormidableLabs/webpack-dashboard): CLI 版 Webpack dashboard
+- [progress-bar-webpack-plugin](https://github.com/clessg/progress-bar-webpack-plugin): 显示编译进度
+
+### analyzer
+
+- [source-map-explorer](https://github.com/danvk/source-map-explorer/)
+- [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
+- [webpack-bundle-size-analyzer](https://github.com/robertknight/webpack-bundle-size-analyzer)
 
 ## React
 
@@ -96,6 +107,8 @@
 - [awesome-react-components](https://github.com/brillout/awesome-react-components)
 - [why-did-you-update](https://github.com/garbles/why-did-you-update)
 - [react-media](https://github.com/reacttraining/react-media): 媒体查询工具
+- [react-loadable](https://github.com/jamiebuilds/react-loadable): 动态加载组件的工具
+- [react-helmet](https://github.com/nfl/react-helmet): 用于 SPA 中动态改变 HTML 信息
 
 ### Static Generator Environment
 
@@ -196,9 +209,22 @@
 
 - [aos](https://github.com/michalsnik/aos): 滚动触发动效
 
-## 数据可视化
+## 绘图
+
+### 2D
 
 - [d3](https://github.com/d3/d3)
+- [p5.js](https://p5js.org/reference/): Processing JS 库
+- [paper.js](https://github.com/paperjs/paper.js): 向量库框架，Based on Canvas
+- [pixi.js](https://github.com/pixijs/pixi.js): HTML5 Creation Engine
+
+### 3D
+
+- [three.js](https://github.com/mrdoob/three.js)
+- [whs.js](https://github.com/WhitestormJS/whs.js): 3D framework Based on Three.js
+
+### 数据可视化
+
 - [plotly.js](https://github.com/plotly/plotly.js)
 - [vis](https://github.com/almende/vis)
 

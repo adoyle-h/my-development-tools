@@ -80,11 +80,12 @@
 - [ora](https://github.com/sindresorhus/ora): 同 cli-spinners
 - [cli-table](https://github.com/Automattic/cli-table): 表格输出
 - [cliff](https://github.com/flatiron/cliff): 格式化输出
-- [gauge](https://github.com/iarna/gauge): 进度条
 - [update-notifier](https://github.com/yeoman/update-notifier): 命令行版本更新提醒
 - [shelljs](https://github.com/shelljs/shelljs): unix 命令的 nodejs 封装
 - [node-tabtab](https://github.com/mklabs/node-tabtab): tab completion helpers, for node cli programs & others
 - [node-draftlog](https://github.com/ivanseidel/node-draftlog): 单行动态变化的终端打印
+- [gauge](https://github.com/iarna/gauge): 进度条
+- [node-progress](https://github.com/visionmedia/node-progress): 进度条
 
 ### REPL / 交互式 CLI
 

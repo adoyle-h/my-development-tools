@@ -1,6 +1,6 @@
 # My Development Tools
 
-我的开发工具箱
+我的开发工具箱。持续更新中。
 
 ## 说明
 
@@ -92,6 +92,7 @@
     - [Game](#game)
     - [教你搜索](#教你搜索)
 - [待评价](#待评价)
+    - [机器学习](#机器学习)
 - [别人的工具列表](#别人的工具列表)
 - [版权声明 (Copyright and License)](#版权声明-copyright-and-license)
 
@@ -640,6 +641,13 @@
 - [node-travisjs](https://github.com/finnp/node-travisjs): Travis CLI 工具
 - [peco](https://github.com/peco/peco): 类似 fzf
 - [restic](https://github.com/restic/restic): 简单易用的备份工具
+- [WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS): mac OS版微信小助手 功能: 自动回复、消息防撤回、远程控制、微信多开、会话置底、免认证登录、窗口置顶、会话多选删除、通知快捷回复、表情包复制&导出、小助手更新提醒、Alfred扩展
+
+### 机器学习
+
+- [tensorflow](https://github.com/tensorflow/tensorflow)
+  - [tfjs](https://github.com/tensorflow/tfjs): TensorFlow JS 库
+- [pytorch](https://github.com/pytorch/pytorch)
 
 -----
 
