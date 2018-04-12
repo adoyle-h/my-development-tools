@@ -48,6 +48,7 @@
 - [压缩/解压](#压缩解压)
 - [语法分析](#语法分析)
 - [evil](#evil)
+- [SSL](#ssl)
 - [其他](#其他)
 - [我关注的人/组](#我关注的人组)
 - [待评价](#待评价)
@@ -334,6 +335,10 @@
 
 - [notevil](https://github.com/mmckegg/notevil): 结合 AST 的 evil
 - [static-eval](https://github.com/substack/static-eval): 结合 AST 的 evil。需要自己传入 AST
+
+## SSL
+
+- [openssl-self-signed-certificate](https://github.com/neverendingqs/openssl-self-signed-certificate): 别人已做好的 SSL 证书，辅助快速开发
 
 ## 其他
 

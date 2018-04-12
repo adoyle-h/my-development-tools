@@ -79,6 +79,7 @@
 - [数据可视化](#数据可视化)
 - [交互式 Notebook](#交互式-notebook)
 - [NodeJS 开发](#nodejs-开发)
+- [TypeScript](#typescript)
 - [前端开发](#前端开发)
 - [Docker 工具链](#docker-工具链)
 - [Markdown](#markdown)
@@ -418,7 +419,7 @@
 
 ### 加密/解密
 
-- [GPG][https://www.gnupg.org/]
+- [GPG](https://www.gnupg.org/)
 - [keybase](https://keybase.io): 以社交系统为之背书的，开源的 PGP 工具、系统与托管服务器
 - [kbpgp](https://github.com/keybase/kbpgp): Keybase 用 JS 实现的 PGP 程序
 
@@ -440,7 +441,7 @@
 
 ## 翻译
 
-- [Poedit](https://poedit.net): .po 翻译软件 `Ⓜ`
+- [Poedit](https://poedit.net): .po 翻译软件 `Ⓜ`。价格太贵，大版本升级坑。暂无替代方案
 
 ## Mac App
 
@@ -555,6 +556,12 @@
 
 ## [NodeJS 开发](./nodejs/README.md)
 
+## TypeScript
+
+- [tsdoc](https://github.com/Microsoft/tsdoc)
+- [Microsoft/web-build-tools](https://github.com/Microsoft/web-build-tools)
+- [ts-node](https://github.com/TypeStrong/ts-node)
+
 ## [前端开发](./FE/README.md)
 
 ## [Docker 工具链](./docker/README.md)
@@ -570,6 +577,7 @@
 ## 模板引擎
 
 - [envsubst](https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html): GNU 工具，`${VARIABLE}` 语法变量替换
+  - [danday74/envsub](https://github.com/danday74/envsub)
 - [mustache](http://mustache.github.io/): 简单变量替换用 mustache 即可。
 - [handlebars](https://github.com/wycats/handlebars.js): mustache 的超集，支持复杂的语法和可扩展
 - [lodash.template](https://lodash.com/docs/#template): 可以兼容各种模板变量语法，体积较小
