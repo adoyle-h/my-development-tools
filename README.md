@@ -194,6 +194,7 @@
   - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
   - [reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题
 - [pv](http://www.ivarch.com/programs/pv.shtml): 显示 linux 管道数据传输速度
+- [gotty](https://github.com/yudai/gotty): 将终端程序映射成 Web 服务
 
 ### 配色
 
@@ -233,6 +234,7 @@
 - [Structured text tools](https://github.com/dbohdan/structured-text-tools)
 - 我喜欢的配置文件语法
   - [YAML](http://yaml.org/)
+  - [INI](https://www.wikiwand.com/zh-hans/INI%E6%96%87%E4%BB%B6)
   - [TOML](https://github.com/toml-lang/toml)
 
 ### JSON
@@ -513,6 +515,7 @@
 - http://unicode.org/emoji/charts-beta/full-emoji-list.html
 - https://unicode-table.com/cn/
 - [Wikiwand](http://www.wikiwand.com/): Wikipedia Modernized。非常漂亮的 Wikipedia 阅读器
+- https://www.vectorizer.io/ : 位图转成矢量图 (SVG)
 
 ### 静态文件托管
 
@@ -543,6 +546,7 @@
 
 - [正则表达式编辑器](http://www.regexr.com) `ⱳ`
 - [正则表达式可视化](https://regexper.com) `ⱳ`
+- [regex101](https://regex101.com/) `ⱳ`
 
 ## 数据可视化
 
@@ -558,9 +562,11 @@
 
 ## TypeScript
 
+- [awesome-typescript](https://github.com/dzharii/awesome-typescript)
 - [tsdoc](https://github.com/Microsoft/tsdoc)
 - [Microsoft/web-build-tools](https://github.com/Microsoft/web-build-tools)
 - [ts-node](https://github.com/TypeStrong/ts-node)
+- [typescript-starter](https://github.com/bitjson/typescript-starter)
 
 ## [前端开发](./FE/README.md)
 
