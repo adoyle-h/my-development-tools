@@ -11,10 +11,14 @@
     - [取色](#取色)
     - [配色](#配色)
     - [调色](#调色)
+- [Typography](#typography)
+- [像素风格 8-Bit](#像素风格-8-bit)
+    - [立体像素 Voxel](#立体像素-voxel)
 - [设计工具](#设计工具)
 - [Sketch](#sketch)
+    - [Sketch 插件开发](#sketch-插件开发)
     - [工作流 (Workflow)](#工作流-workflow)
-    - [Typography](#typography)
+    - [Typography](#typography-1)
     - [定位](#定位)
     - [布局](#布局)
     - [标注](#标注)
@@ -47,21 +51,36 @@
 - [PleaseJS](https://github.com/Fooidge/PleaseJS): 随机生成颜色搭配。
 - https://coolors.co : 配色生成工具。五种色
 - http://colorhunt.co : 别人提供的配色方案。四种色
+- https://webgradients.com/ : 渐变色配色
 
 ### 调色
 
 - http://paletton.com : 色轮调色工具
 - https://color.adobe.com/zh/create/color-wheel/ : 色轮调色工具
 
+## Typography
+
+- http://fontmap.ideo.com/ : 字体地图
+
+## 像素风格 8-Bit
+
+### 立体像素 Voxel
+
+- [MagicaVoxel](https://ephtracy.github.io/)
 
 ## 设计工具
 
 - [Skala](https://bjango.com/mac/skala/): 「待评价」bjango 出品
 
-
 ## [Sketch](https://www.sketchapp.com)
 
 - [Sketch Tool](https://www.sketchapp.com/tool): Sketch 自带的命令行工具
+
+### Sketch 插件开发
+
+- [skpm](https://github.com/skpm/skpm): sketch 插件工程化工具
+- [sketch-module-web-view](https://github.com/skpm/sketch-module-web-view): A Sketch module for creating a complex UI with a webview. The API is mimicking the BrowserWindow API of Electron.
+- [sketch-dev-tools](https://github.com/skpm/sketch-dev-tools): See your plugin logs, inspect the state of Sketch documents, explore actions, and more!
 
 ### 工作流 (Workflow)
 

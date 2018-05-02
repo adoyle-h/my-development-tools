@@ -54,6 +54,7 @@
 - [IM](#im)
 - [Git](#git)
 - [Chrome](#chrome)
+    - [Chrome 主题](#chrome-主题)
     - [CLI](#cli)
     - [Chrome 插件](#chrome-插件)
 - [画图](#画图)
@@ -89,6 +90,7 @@
     - [Changelog](#changelog)
     - [badges](#badges)
 - [图像处理](#图像处理)
+- [Android](#android)
 - [Funny](#funny)
     - [Game](#game)
     - [教你搜索](#教你搜索)
@@ -109,6 +111,7 @@
 - [franc](https://github.com/wooorm/franc): 自然语言语种推测
 - [etcher](https://github.com/resin-io/etcher): 将系统镜像写入外接硬盘的工具
 - [dom-to-image](https://github.com/tsayen/dom-to-image): DOM 树导出成 SVG 或 PNG 图片
+- [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 查看自己的 Github 贡献经历
 
 ## CMS
 
@@ -361,6 +364,12 @@
 - [Gource](https://github.com/acaudwell/Gource): 版本控制历史可视化
 
 ## Chrome
+
+### Chrome 主题
+
+- [Robot Theme, inspired by Android™](https://chrome.google.com/webstore/detail/robot-theme-inspired-by-a/oeljdmeofcikjblcoehpmdnooimalbmj): 我用了 5 年
+- [Material Incognito Dark Theme](https://chrome.google.com/webstore/detail/ahifcnpnjgbadkjdhagpfjfkmlapfoel): 纯色暗系
+
 ### CLI
 
 - [chrome-cli](https://github.com/prasmussen/chrome-cli): chrome 命令行工具
@@ -617,6 +626,10 @@
   - ImageMagick 与 GraphicsMagick 的由来和区别介绍: https://www.linux.com/news/imagemagick-or-graphicsmagick
 - [gm](https://github.com/aheckmann/gm): NodeJS 封装 GraphicsMagick and ImageMagick
 - [jimp](https://github.com/oliver-moran/jimp): 用 JS 写的图像处理类库
+
+## Android
+
+- [awesome-adb](https://github.com/mzlogin/awesome-adb): ADB，即 Android Debug Bridge，它是 Android 开发/测试人员不可替代的强大工具，也是 Android 设备玩家的好玩具。
 
 ## Funny
 
