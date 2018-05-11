@@ -90,6 +90,7 @@
     - [Changelog](#changelog)
     - [badges](#badges)
 - [图像处理](#图像处理)
+- [OCR](#ocr)
 - [Android](#android)
 - [Funny](#funny)
     - [Game](#game)
@@ -363,6 +364,7 @@
 - [GitKraken](https://www.gitkraken.com): Git GUI
 - [git-tips](https://github.com/git-tips/tips): git 使用技巧
 - [Gource](https://github.com/acaudwell/Gource): 版本控制历史可视化
+- [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git): 用 JS 实现的 git
 
 ## Chrome
 
@@ -628,6 +630,11 @@
 - [gm](https://github.com/aheckmann/gm): NodeJS 封装 GraphicsMagick and ImageMagick
 - [jimp](https://github.com/oliver-moran/jimp): 用 JS 写的图像处理类库
 - [ImageOptim](https://github.com/ImageOptim/ImageOptim): 开源的图像压缩优化工具 `Ⓜ`
+
+## OCR
+
+- [tesseract](https://github.com/tesseract-ocr/tesseract): 开源 OCR 引擎
+- [tesseract.js](https://github.com/naptha/tesseract.js): 用 JS 重新实现的 tesseract
 
 ## Android
 
