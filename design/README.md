@@ -173,6 +173,7 @@
 - [zoom-alert](https://github.com/nathco/zoom-alert): 「不兼容最新 sketch」当前缩放提示
 - [Automate Sketch](https://github.com/Ashung/Automate-Sketch):「待评价」一堆小功能集合
 - [sketch-tiles](https://github.com/kumo/sketch-tiles): 方便制作 Tile 的插件
+- [sketch-style-libraries](https://github.com/sigtm/sketch-style-libraries): 不同项目同步 library
 
 ## 原型设计
 

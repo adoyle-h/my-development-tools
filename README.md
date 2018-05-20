@@ -379,6 +379,7 @@
 
 ### Chrome 插件
 
+- [Unsplash Instant](https://chrome.google.com/webstore/detail/unsplash-instant/pejkokffkapolfffcgbmdmhdelanoaih): 新标签页壁纸。太美了
 - [vimium](https://github.com/philc/vimium): vim 风格操作浏览器
 - [octotree](https://github.com/buunguyen/octotree): github 文件浏览器
 - [smart-toc](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba): 根据页面生成 TOC
