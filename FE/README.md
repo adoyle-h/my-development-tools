@@ -63,6 +63,7 @@
 - [microjs](https://github.com/microjs/microjs.com): 小容量类库列表
 - [bundlesize](https://github.com/siddharthkp/bundlesize): 打包大小检测
 - [push.js](https://github.com/Nickersoft/push.js): 浏览器推送的统一封装
+- [stats.js](https://github.com/mrdoob/stats.js): JavaScript 性能监控，在前端显示 FPS 等指标
 
 ## 存储
 
@@ -184,6 +185,8 @@
 
 
 ## 编辑器
+
+- [dat.gui](https://github.com/dataarts/dat.gui): 轻量级动态修改 JS 变量的 GUI 接口
 
 ### 代码编辑器
 

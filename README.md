@@ -507,6 +507,7 @@
   - 目前存在[中文字符的显示问题](https://github.com/zeit/hyper/issues/2124)，等待修复
   - [awesome-hyper](https://github.com/bnb/awesome-hyper)
 - [cathode](https://itunes.apple.com/us/app/cathode/id656982811): 复古终端模拟器 `Ⓜ`
+- [cmder](https://github.com/cmderdev/cmder): terminal emulator on Windows `ⓦ`
 
 ## 字体
 
