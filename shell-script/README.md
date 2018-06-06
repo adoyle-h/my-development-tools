@@ -16,6 +16,8 @@
 - [Lint](#lint)
 - [静态检查](#静态检查)
 - [自动补全](#自动补全)
+- [日志](#日志)
+- [文件定位](#文件定位)
 
 <!-- /MarkdownTOC -->
 
@@ -52,5 +54,14 @@ https://github.com/scop/bash-completion
 
 可通过 brew 安装，`brew install bash-completion` for bash 3.x，`brew install bash-completion@2` for bash 4.x。
 
+## 日志
+
+- [log4sh](https://github.com/kward/log4sh)
+  - [用法](https://github.com/kward/log4sh/blob/master/doc/log4sh.md)
+- [bash-logger](https://github.com/adoyle-h/bash-logger)
+
+## 文件定位
+
+- [lookup.sh](https://github.com/adoyle-h/lookup.sh): Look up project directory based on a locator file. Never write ../../ relative path format.
 
 **[⬆ 返回顶部](#top)**

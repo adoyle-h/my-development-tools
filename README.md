@@ -113,6 +113,7 @@
 - [etcher](https://github.com/resin-io/etcher): 将系统镜像写入外接硬盘的工具
 - [dom-to-image](https://github.com/tsayen/dom-to-image): DOM 树导出成 SVG 或 PNG 图片
 - [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 查看自己的 Github 贡献经历
+- [cheatsheets](https://github.com/rstacruz/cheatsheets): pretty cheatsheet
 
 ## CMS
 
