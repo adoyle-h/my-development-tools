@@ -29,6 +29,7 @@
     - [组件化设计](#组件化设计)
     - [样式](#样式)
     - [伪数据填充](#伪数据填充)
+    - [等轴测图](#等轴测图)
     - [其他插件](#其他插件)
 - [原型设计](#原型设计)
 - [动效](#动效)
@@ -163,6 +164,11 @@
 
 - [Sketch Data Populator](https://github.com/preciousforever/sketch-data-populator): 伪内容填充，支持文字占位符和图片
 - [Unsplash It Sketch Plugin](https://github.com/fhuel/unsplash-it-sketch): 从 unsplash 拿图源填充图片
+
+### 等轴测图
+
+- [sketch-isometric](https://github.com/sureskumar/sketch-isometric): 生成轴测图平面
+- [Magic Mirror](https://magicsketch.io/mirror/): 投映视图
 
 ### 其他插件
 
