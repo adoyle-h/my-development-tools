@@ -36,6 +36,7 @@
 - [文件处理](#文件处理)
 - [结构化数据处理](#结构化数据处理)
     - [JSON](#json)
+    - [JSON Schema](#json-schema)
 - [Lint](#lint)
 - [配置](#配置)
 - [Mock](#mock)
@@ -247,6 +248,13 @@
 - [jq](https://github.com/stedolan/jq): JSON 静态分析工具
 - [jid](https://github.com/simeji/jid): JSON 动态交互式分析工具
 - [json5](https://github.com/json5/json5): JSON for humans. (Not an official successor to JSON.)
+
+### JSON Schema
+
+- https://www.jsonschemavalidator.net/ : 在线校验 JSON Schema
+- https://spacetelescope.github.io/understanding-json-schema/index.html : 目前最好的入门教程
+- https://jsonschema.net/ : 根据 JSON 生成 JSON Schema
+- [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker): 根据 JSON Schema 生成数据
 
 ## Lint
 
