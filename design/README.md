@@ -7,6 +7,7 @@
 
 <!-- MarkdownTOC GFM -->
 
+- [设计规范](#设计规范)
 - [颜色 (Color)](#颜色-color)
     - [取色](#取色)
     - [配色](#配色)
@@ -35,6 +36,10 @@
 - [动效](#动效)
 
 <!-- /MarkdownTOC -->
+
+## 设计规范
+
+- [awesome-design-systems](https://github.com/alexpate/awesome-design-systems)
 
 ## 颜色 (Color)
 

@@ -154,6 +154,7 @@
 ## 自动化
 
 - [hubot](https://github.com/github/hubot): 交互机器人
+- [robotjs](https://github.com/octalmage/robotjs): 用 NodeJS 定制 GUI 自动化流程。支持 Windows, Mac, Linux 系统
 
 ## 下载工具
 
@@ -517,6 +518,7 @@
   - [awesome-hyper](https://github.com/bnb/awesome-hyper)
 - [cathode](https://itunes.apple.com/us/app/cathode/id656982811): 复古终端模拟器 `Ⓜ`
 - [cmder](https://github.com/cmderdev/cmder): terminal emulator on Windows `ⓦ`
+- [xterm.js](https://github.com/xtermjs/xterm.js): A terminal for the web
 
 ## 字体
 
