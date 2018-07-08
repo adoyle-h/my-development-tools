@@ -672,6 +672,7 @@
 - [pm](https://github.com/anvaka/pm): 包管理可视化
 - [sorry](https://github.com/xtyxtyx/sorry): 为所欲为 GIF 制作器
 - [avataaars generator](https://getavataaars.com/): 很有趣的头像生成器。[源码](https://github.com/fangpenlin/avataaars-geneator)
+- [PacVim](https://github.com/jmoon018/PacVim): a game that teaches you vim commands.
 
 ### Game
 

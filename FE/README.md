@@ -161,8 +161,9 @@
 
 ### CSS in JS
 
-- [styled-components](https://github.com/styled-components/styled-components)
-- [glamorous](https://github.com/paypal/glamorous)
+- [styled-components](https://github.com/styled-components/styled-components): 字符串模板
+- [glamorous](https://github.com/paypal/glamorous): 函数传参
+- [emotion](https://github.com/emotion-js/emotion): 比 styled-component 更灵活。可以单独设置样式 (css api)，不基于 DOM 类。可以用字符串模板，也可以用函数传参，结合 styled-components 和 glamorous 的优点。
 
 ### CSS in JSX
 
