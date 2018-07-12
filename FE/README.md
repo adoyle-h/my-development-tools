@@ -32,7 +32,7 @@
     - [排版 Typography](#排版-typography)
 - [编辑器](#编辑器)
     - [代码编辑器](#代码编辑器)
-    - [WYSIWYG](#wysiwyg)
+    - [富文本编辑器 WYSIWYG](#富文本编辑器-wysiwyg)
 - [动效](#动效)
     - [2D](#2d)
     - [3D](#3d)
@@ -194,9 +194,10 @@
 
 - [ace](https://github.com/ajaxorg/ace)
 
-### WYSIWYG
+### 富文本编辑器 WYSIWYG
 
 - [ory/editor](https://github.com/ory/editor): 基于 React 和 Redux 的内容编辑器
+- [slate](https://github.com/ianstormtaylor/slate)
 
 ## 动效
 
