@@ -13,8 +13,15 @@
     - [配色](#配色)
     - [调色](#调色)
 - [Typography](#typography)
+    - [字体](#字体)
+        - [有衬线英文](#有衬线英文)
+        - [无衬线英文](#无衬线英文)
+        - [有衬线中文](#有衬线中文)
+        - [无衬线中文](#无衬线中文)
 - [像素风格 8-Bit](#像素风格-8-bit)
     - [立体像素 Voxel](#立体像素-voxel)
+- [Design System](#design-system)
+    - [Sketch Design System](#sketch-design-system)
 - [设计工具](#设计工具)
 - [Sketch](#sketch)
     - [Sketch 插件开发](#sketch-插件开发)
@@ -26,7 +33,6 @@
     - [交互](#交互)
     - [预览](#预览)
     - [版本控制](#版本控制)
-    - [Sketch UI Toolkit](#sketch-ui-toolkit)
     - [组件化设计](#组件化设计)
     - [样式](#样式)
     - [伪数据填充](#伪数据填充)
@@ -68,11 +74,37 @@
 
 - http://fontmap.ideo.com/ : 字体地图
 
+### 字体
+
+#### 有衬线英文
+
+- [Georgia](https://www.fonts.com/font/microsoft-corporation/georgia): 适合设计
+
+#### 无衬线英文
+
+- [Helvetica Neue](https://www.fonts.com/font/linotype/neue-helvetica): 适合设计
+- DejaVu Sans Mono : 适合编程
+- [Consolas](https://www.fonts.com/font/microsoft-corporation/consolas): 适合编程
+- [Quicksand](https://fonts.google.com/specimen/Quicksand): 适合设计
+
+#### 有衬线中文
+
+#### 无衬线中文
+
+- PingFang CS
+
 ## 像素风格 8-Bit
 
 ### 立体像素 Voxel
 
 - [MagicaVoxel](https://ephtracy.github.io/)
+
+## Design System
+
+### Sketch Design System
+
+- [UX Power Tools](https://www.uxpower.tools/): awesome design system
+- [Frames for Sketch](http://framesforsketch.com/)
 
 ## 设计工具
 
@@ -110,6 +142,7 @@
 
 ### 布局
 
+- [Anima Auto-Layout](https://github.com/AnimaApp/Auto-Layout): 响应式排版
 - [AlignTo](https://github.com/lucienlee/alignto): 很便捷的对齐工具
 - [butter-sketch-plugin](https://github.com/pberrecloth/butter-sketch-plugin): 垂直/水平重排工具，元素间排除间隔
   - [SketchDistributor](https://github.com/pez/sketchdistributor): 垂直/水平重排工具，元素间指定间隔
@@ -145,11 +178,6 @@
 - [kactus](https://kactus.io/)
   - [源代码](https://github.com/kactus-io/kactus)
 - [git-sketch-plugin](https://github.com/mathieudutour/git-sketch-plugin): kactus 的前身开源项目
-
-### Sketch UI Toolkit
-
-- [UX Power Tools](https://www.uxpower.tools/)
-- [Frames for Sketch](http://framesforsketch.com/)
 
 ### 组件化设计
 
