@@ -248,7 +248,8 @@
 
 - [jq](https://github.com/stedolan/jq): JSON 静态分析工具
 - [jid](https://github.com/simeji/jid): JSON 动态交互式分析工具
-- [json5](https://github.com/json5/json5): JSON for humans. (Not an official successor to JSON.)
+- [JSON5](https://github.com/json5/json5): JSON for humans. (Not an official successor to JSON.)
+- [hjson](https://github.com/hjson/hjson): 比 JSON5 更丰富，且相对更标准，有 [RFC 文档](https://hjson.org/rfc.html)。
 
 ### JSON Schema
 

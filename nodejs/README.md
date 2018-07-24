@@ -18,6 +18,7 @@
 - [脚本](#脚本)
 - [打包方案](#打包方案)
 - [工具集](#工具集)
+- [debug](#debug)
 - [数据校验](#数据校验)
 - [脚手架](#脚手架)
 - [测试](#测试)
@@ -150,6 +151,13 @@
 - [updeep](https://github.com/substantial/updeep): 修改深层嵌套的 object 或 array
 - [immer](https://github.com/mweststrate/immer): 比较优雅的 Immutable.js alternative。基于 Proxy 的特性
   - [immutable-js](https://github.com/facebook/immutable-js/): Immutable.js
+- [safe-touch](https://github.com/EnixCoda/safe-touch): 类似 lodash.get 但书写更友好，[介绍](https://zhuanlan.zhihu.com/p/39751773)
+
+## debug
+
+- [JavaScript Debugging Reference](https://developers.google.com/web/tools/chrome-devtools/javascript/reference): Chrome DevTools 的 Debug 功能
+- [ndb](https://github.com/GoogleChromeLabs/ndb): 基于 Chrome DevTools 的增强 Debug 功能
+- [Node.js 调试指南](https://github.com/nswbmw/node-in-debugging)
 
 ## 数据校验
 
