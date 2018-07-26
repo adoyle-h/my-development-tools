@@ -119,8 +119,10 @@
 
 - [Skala](https://bjango.com/mac/skala/): 「待评价」bjango 出品
 - [Lingo](https://www.lingoapp.com/): 设计资源收藏神器
+- [Sketch](https://www.sketchapp.com): 矢量图形设计工具 `Ⓜ`
+- [Adobe XD](https://www.adobe.com/cn/products/xd.html): Sketch 的强力竞争者，跨平台 + 免费，独有的网格编组和滚动的特性，操作体验流畅，兼容最新版的 Sketch 文件。
 
-## [Sketch](https://www.sketchapp.com)
+## Sketch
 
 - [Sketch Tool](https://www.sketchapp.com/tool): Sketch 自带的命令行工具
 

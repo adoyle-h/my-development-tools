@@ -453,8 +453,11 @@
 
 <a name="KeePass"></a>
 - [KeePass](http://keepass.info): 密码管理器
-- [KeeWeb](https://github.com/keeweb/keeweb): [KeePass][] 的 GUI 客户端
-- [MacPass](https://github.com/mstarke/MacPass): [KeePass][] 的 GUI 客户端 `Ⓜ`
+  - 推荐将密码文件保存到（私有）网盘里，避免密码文件丢失。
+- [KeeWeb](https://github.com/keeweb/keeweb): [KeePass][] 的 GUI 客户端，跨平台
+- [MacPass](https://github.com/mstarke/MacPass): [KeePass][] 的 Mac GUI 客户端 `Ⓜ`
+- [Keepass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android&hl=zh_CN): [KeePass][] 的安卓客户端
+  - [Keepass2Android 离线版](https://play.google.com/store/apps/details?id=keepass2android.keepass2android_nonet)
 
 ## 知识管理
 
