@@ -189,7 +189,6 @@
 - [realpath](https://github.com/sindresorhus/realpath): 获取文件的真实绝对路径
 - [cheat](https://github.com/chrisallenlane/cheat): 命令速查表
 - [hr](https://github.com/LuRsT/hr): 终端分隔符
-- [fuck-you](https://github.com/robotlolita/fuck-you): 纠错命令
 - [sloc](https://github.com/flosse/sloc): 代码行统计
 - [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
 - [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
@@ -677,6 +676,7 @@
 - [sorry](https://github.com/xtyxtyx/sorry): 为所欲为 GIF 制作器
 - [avataaars generator](https://getavataaars.com/): 很有趣的头像生成器。[源码](https://github.com/fangpenlin/avataaars-geneator)
 - [PacVim](https://github.com/jmoon018/PacVim): a game that teaches you vim commands.
+- [browsh](https://github.com/browsh-org/browsh): 运行在终端的网页浏览器
 
 ### Game
 
