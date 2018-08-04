@@ -91,6 +91,7 @@
     - [Changelog](#changelog)
     - [badges](#badges)
 - [图像处理](#图像处理)
+- [Steganography](#steganography)
 - [OCR](#ocr)
 - [Android](#android)
 - [Funny](#funny)
@@ -646,6 +647,12 @@
 - [gm](https://github.com/aheckmann/gm): NodeJS 封装 GraphicsMagick and ImageMagick
 - [jimp](https://github.com/oliver-moran/jimp): 用 JS 写的图像处理类库
 - [ImageOptim](https://github.com/ImageOptim/ImageOptim): 开源的图像压缩优化工具 `Ⓜ`
+
+## Steganography
+
+[参考文章](https://www.jianshu.com/p/08041bcf0f23)
+
+- [stego-toolkit](https://github.com/DominicBreuker/stego-toolkit): 这套隐写工具集很棒，集成了 mp3、wav、纯文本、png、jpg 隐写到图片里
 
 ## OCR
 
