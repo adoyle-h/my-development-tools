@@ -8,6 +8,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [Cheatsheet](#cheatsheet)
 - [存储](#存储)
 - [Fast-Development](#fast-development)
 - [AJAX](#ajax)
@@ -67,6 +68,14 @@
 - [bundlesize](https://github.com/siddharthkp/bundlesize): 打包大小检测
 - [push.js](https://github.com/Nickersoft/push.js): 浏览器推送的统一封装
 - [stats.js](https://github.com/mrdoob/stats.js): JavaScript 性能监控，在前端显示 FPS 等指标
+- [size-limit](https://github.com/ai/size-limit): 检测 JS 文件的大小
+- http://gs.statcounter.com/ 前端全球数据统计
+- [xstate](https://github.com/davidkpiano/xstate): 有限状态机
+
+## Cheatsheet
+
+- https://easings.net/zh-cn 缓动函数速查表
+  - [源码](https://github.com/ai/easings.net)
 
 ## 存储
 
@@ -260,6 +269,7 @@
 ## 响应式
 
 - [sizzy](https://github.com/kitze/sizzy): 测试网站响应式的工具
+- https://material.io/tools/resizer/ : 测试网站响应式的服务
 
 ## Headless Browser
 

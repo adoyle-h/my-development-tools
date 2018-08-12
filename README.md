@@ -160,6 +160,7 @@
 ## 下载工具
 
 - [aria2](https://github.com/aria2/aria2): 最强大的下载工具
+  - [BaiduExporter](https://github.com/acgotaku/BaiduExporter): 百度网盘助手
 - [youtube-dl](https://github.com/rg3/youtube-dl): 视频下载工具
 
 ## Linux

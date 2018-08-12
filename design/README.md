@@ -42,7 +42,9 @@
 
 ## 设计规范
 
+- [Material Design](https://material.io/)
 - [awesome-design-systems](https://github.com/alexpate/awesome-design-systems)
+- [移动设备屏幕尺寸大全](https://uiiiuiii.com/screen/index.htm)
 
 ## 颜色 (Color)
 
@@ -82,6 +84,11 @@
 ## Typography
 
 - http://fontmap.ideo.com/ : 字体地图
+
+- https://type-scale.com/ 对比字体比例大小
+  - [源码](https://github.com/jeremychurch/type-scale)
+  - https://www.modularscale.com/ 备用
+- https://grtcalculator.com/ : Golden Ratio Typography
 
 ### 字体
 
@@ -213,7 +220,7 @@
 ### 等轴测图
 
 - [sketch-isometric](https://github.com/sureskumar/sketch-isometric): 生成轴测图平面
-- [Magic Mirror](https://magicsketch.io/mirror/): 投映视图
+- [Angle-Sketch-Plugin](https://github.com/MengTo/Angle-Sketch-Plugin): 投映视图
 
 ### 其他插件
 
