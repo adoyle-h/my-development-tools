@@ -685,6 +685,7 @@
 - [avataaars generator](https://getavataaars.com/): 很有趣的头像生成器。[源码](https://github.com/fangpenlin/avataaars-geneator)
 - [PacVim](https://github.com/jmoon018/PacVim): a game that teaches you vim commands.
 - [browsh](https://github.com/browsh-org/browsh): 运行在终端的网页浏览器
+- [rockstar](https://github.com/dylanbeattie/rockstar): 写的不是代码，是诗
 
 ### Game
 
