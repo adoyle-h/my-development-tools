@@ -17,6 +17,7 @@
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+- [Checklist](#checklist)
 - [CMS](#cms)
 - [JAMstack](#jamstack)
 - [理论/最佳实践](#理论最佳实践)
@@ -116,6 +117,11 @@
 - [dom-to-image](https://github.com/tsayen/dom-to-image): DOM 树导出成 SVG 或 PNG 图片
 - [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 查看自己的 Github 贡献经历
 - [cheatsheets](https://github.com/rstacruz/cheatsheets): pretty cheatsheet
+
+## Checklist
+
+- [Serverside Checklist](https://github.com/mtdvio/going-to-production/blob/master/serverside-checklist.md)
+- [SPA Checklist](https://github.com/mtdvio/going-to-production/blob/master/spa-checklist.md)
 
 ## CMS
 
@@ -686,6 +692,7 @@
 - [PacVim](https://github.com/jmoon018/PacVim): a game that teaches you vim commands.
 - [browsh](https://github.com/browsh-org/browsh): 运行在终端的网页浏览器
 - [rockstar](https://github.com/dylanbeattie/rockstar): 写的不是代码，是诗
+- [windows95](https://github.com/felixrieseberg/windows95): 💩🚀 Windows 95 in Electron.
 
 ### Game
 

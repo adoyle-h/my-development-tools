@@ -10,6 +10,7 @@
 - [Node 环境](#node-环境)
 - [Misc](#misc)
 - [通知](#通知)
+- [事件/Event Emitter](#事件event-emitter)
 - [CLI](#cli)
     - [REPL / 交互式 CLI](#repl--交互式-cli)
     - [CLI 参数解析](#cli-参数解析)
@@ -69,6 +70,10 @@
 ## 通知
 
 - [node-notifier](https://github.com/mikaelbr/node-notifier): 调用系统通知 API，兼容很多系统
+
+## 事件/Event Emitter
+
+- [tiny-emitter](https://github.com/scottcorgan/tiny-emitter)
 
 ## CLI
 

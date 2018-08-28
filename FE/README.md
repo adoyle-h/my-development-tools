@@ -8,6 +8,8 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [有限状态机 && Statechart](#有限状态机--statechart)
+- [声音](#声音)
 - [Cheatsheet](#cheatsheet)
 - [存储](#存储)
 - [Fast-Development](#fast-development)
@@ -66,11 +68,24 @@
 - [webpack as a service: pkgzip](https://pkgzip.com/): 将 npm 包转成前端可用的在线服务
 - [microjs](https://github.com/microjs/microjs.com): 小容量类库列表
 - [bundlesize](https://github.com/siddharthkp/bundlesize): 打包大小检测
+- [bundlephobia](https://github.com/pastelsky/bundlephobia): 检测包大小，前端下载包的耗时
 - [push.js](https://github.com/Nickersoft/push.js): 浏览器推送的统一封装
 - [stats.js](https://github.com/mrdoob/stats.js): JavaScript 性能监控，在前端显示 FPS 等指标
 - [size-limit](https://github.com/ai/size-limit): 检测 JS 文件的大小
 - http://gs.statcounter.com/ 前端全球数据统计
+
+## 有限状态机 && Statechart
+
+- https://statecharts.github.io/  关于状态机和状态图的一切
+- https://medium.freecodecamp.org/how-to-model-the-behavior-of-redux-apps-using-statecharts-5e342aad8f66
+- [状态图 UML 图释](https://www.omg.org/news/meetings/workshops/presentations/eai_2001/tutorial_monday/tockey_tutorial/6-States,_Actions,_&_Activities.pdf)
+
 - [xstate](https://github.com/davidkpiano/xstate): 有限状态机
+  - [xstateful](https://github.com/avaragado/xstateful): 有状态的封装
+
+## 声音
+
+- [Tone.js](https://github.com/Tonejs/Tone.js): A Web Audio framework for making interactive music in the browser.
 
 ## Cheatsheet
 
@@ -214,6 +229,7 @@
 ### 代码编辑器
 
 - [ace](https://github.com/ajaxorg/ace)
+- [CodeMirror](https://github.com/codemirror/codemirror)
 
 ### 富文本编辑器 WYSIWYG
 
