@@ -195,7 +195,6 @@
 - [dotbot](https://github.com/anishathalye/dotbot): dotfile 管理框架
 - [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii): 图片转 ASCII 字符
 - [realpath](https://github.com/sindresorhus/realpath): 获取文件的真实绝对路径
-- [cheat](https://github.com/chrisallenlane/cheat): 命令速查表
 - [hr](https://github.com/LuRsT/hr): 终端分隔符
 - [sloc](https://github.com/flosse/sloc): 代码行统计
 - [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
@@ -209,6 +208,8 @@
   - [reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题
 - [pv](http://www.ivarch.com/programs/pv.shtml): 显示 linux 管道数据传输速度
 - [gotty](https://github.com/yudai/gotty): 将终端程序映射成 Web 服务
+- [direnv](https://github.com/direnv/direnv)
+  - [autoenv](https://github.com/kennethreitz/autoenv): README 挺幽默的
 
 ### 配色
 
@@ -223,15 +224,22 @@
 
 ### Linux command alternatives
 
+当想调用原生的命令时，但是存在同名的 alias 或者 function，比如 `alias cat=ccat`，可以使用 `\cat` 或者 `command cat` 调用原生命令。
+详见这篇文章: https://stackoverflow.com/a/16506263/4622308
+
 - diff
   - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 着色增强工具，但只能用管道输出，仍需借助 diff 或 git diff 工具。
   - [icdiff](https://github.com/jeffkaufman/icdiff): 左右分栏 diff，外加着色。
 - [exa](https://github.com/ogham/exa): much better `ls`
 - [cd](https://github.com/spencertipping/cd): better cd
 - [ccat](https://github.com/jingweno/ccat): better cat。输出着色代码的 cat 命令
+  - [bat](https://github.com/sharkdp/bat): 除了代码着色，还集成了 git diff、分页器。
 - [multitail](https://github.com/flok99/multitail): 同时 tail 多个文件
 - [tree](http://mama.indstate.edu/users/ice/tree): Mac 没有 tree 命令
 - [ncdu](https://dev.yorhel.nl/ncdu): better du。递归扫描整个文件夹空间占用，交互式。
+- [fd](https://github.com/sharkdp/fd/): better find
+- [cheat](https://github.com/chrisallenlane/cheat): 命令速查表
+  - [tldr](https://github.com/tldr-pages/tldr/): 与 cheat 类似，提供简洁的手册，由社区维护。
 
 ## [Shell Script Development](./shell-script/README.md)
 
@@ -693,6 +701,7 @@
 - [browsh](https://github.com/browsh-org/browsh): 运行在终端的网页浏览器
 - [rockstar](https://github.com/dylanbeattie/rockstar): 写的不是代码，是诗
 - [windows95](https://github.com/felixrieseberg/windows95): 💩🚀 Windows 95 in Electron.
+- [cowsay](https://linux.die.net/man/1/cowsay) and [ponysay](https://github.com/erkin/ponysay)
 
 ### Game
 
