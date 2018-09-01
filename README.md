@@ -210,6 +210,7 @@
 - [gotty](https://github.com/yudai/gotty): 将终端程序映射成 Web 服务
 - [direnv](https://github.com/direnv/direnv)
   - [autoenv](https://github.com/kennethreitz/autoenv): README 挺幽默的
+- [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
 
 ### 配色
 
@@ -231,7 +232,7 @@
   - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 着色增强工具，但只能用管道输出，仍需借助 diff 或 git diff 工具。
   - [icdiff](https://github.com/jeffkaufman/icdiff): 左右分栏 diff，外加着色。
 - [exa](https://github.com/ogham/exa): much better `ls`
-- [cd](https://github.com/spencertipping/cd): better cd
+- [enhancd](https://github.com/b4b4r07/enhancd): 交互式 cd
 - [ccat](https://github.com/jingweno/ccat): better cat。输出着色代码的 cat 命令
   - [bat](https://github.com/sharkdp/bat): 除了代码着色，还集成了 git diff、分页器。
 - [multitail](https://github.com/flok99/multitail): 同时 tail 多个文件
@@ -701,6 +702,7 @@
 - [browsh](https://github.com/browsh-org/browsh): 运行在终端的网页浏览器
 - [rockstar](https://github.com/dylanbeattie/rockstar): 写的不是代码，是诗
 - [windows95](https://github.com/felixrieseberg/windows95): 💩🚀 Windows 95 in Electron.
+- [v86](https://github.com/copy/v86): 浏览器或 NodeJS 里运行 x86 系统。
 - [cowsay](https://linux.die.net/man/1/cowsay) and [ponysay](https://github.com/erkin/ponysay)
 
 ### Game

@@ -137,6 +137,7 @@
 - [react-media](https://github.com/reacttraining/react-media): 媒体查询工具
 - [react-loadable](https://github.com/jamiebuilds/react-loadable): 动态加载组件的工具
 - [react-helmet](https://github.com/nfl/react-helmet): 用于 SPA 中动态改变 HTML 信息
+- [reactopt](https://github.com/reactopt/reactopt): React 性能优化
 
 ### React 组件
 
@@ -290,6 +291,8 @@
 ## Headless Browser
 
 - [puppeteer](https://github.com/GoogleChrome/puppeteer): Headless Chrome
+  - [puppeteer-recorder](https://github.com/checkly/puppeteer-recorder)
+  - [url-to-pdf-api](https://github.com/alvarcarto/url-to-pdf-api): Converts any URL or HTML content to a PDF file or an image (PNG/JPEG)
 - [phantomjs](https://github.com/ariya/phantomjs): Scriptable Headless WebKit
 
 ## Profiling
