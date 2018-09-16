@@ -398,7 +398,7 @@
 ### Chrome 主题
 
 - [Robot Theme, inspired by Android™](https://chrome.google.com/webstore/detail/robot-theme-inspired-by-a/oeljdmeofcikjblcoehpmdnooimalbmj): 我用了 5 年
-- [Material Incognito Dark Theme](https://chrome.google.com/webstore/detail/ahifcnpnjgbadkjdhagpfjfkmlapfoel): 纯色暗系
+- [Material Redesign Dark Theme](https://chrome.google.com/webstore/detail/material-redesign-dark-th/eakhnambppkkcdaefeaipbfhiaaifmli): 纯色暗系
 
 ### CLI
 
