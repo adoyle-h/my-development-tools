@@ -59,10 +59,13 @@
 
 ### 配色
 
+- https://www.colorbox.io/ : 参数简单好用，且考虑了颜色无障碍标准
+  - [介绍](https://zhuanlan.zhihu.com/p/45489054)与[源码](https://github.com/lyft/coloralgorithm)
 - [PleaseJS](https://github.com/Fooidge/PleaseJS): 随机生成颜色搭配。
 - https://coolors.co : 配色生成工具。五种色
 - http://colorhunt.co : 别人提供的配色方案。四种色
 - https://webgradients.com/ : 渐变色配色
+- http://colormind.io/ : 使用深度学习自动生成配色方案
 
 ### 调色
 
