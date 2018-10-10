@@ -32,6 +32,7 @@
     - [版本控制](#版本控制)
     - [组件化设计](#组件化设计)
     - [样式](#样式)
+    - [图形](#图形)
     - [伪数据填充](#伪数据填充)
     - [等轴测图](#等轴测图)
     - [其他插件](#其他插件)
@@ -214,6 +215,11 @@
   - [styledrop](https://github.com/ryanmclaughlin/styledrop): 拷贝单个样式
 - [Disconnect for Sketch](https://github.com/einancunlu/Disconnect-for-Sketch): 分别解除 Symbol、Layer Style、Text Style 关联
 - [cssketch](https://github.com/johncoates/cssketch): 根据设计稿直接拷贝出 CSS 值，支持 SASS 和 LESS 语法
+
+### 图形
+
+- [Looper](https://github.com/sureskumar/Looper): 根据算法生成各种图形。非常漂亮
+  - [其他参考教程](https://www.toptal.com/designers/sketch/amazing-illustrations-with-sketch-and-looper)
 
 ### 伪数据填充
 

@@ -117,6 +117,7 @@
 - [dom-to-image](https://github.com/tsayen/dom-to-image): DOM 树导出成 SVG 或 PNG 图片
 - [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 查看自己的 Github 贡献经历
 - [cheatsheets](https://github.com/rstacruz/cheatsheets): pretty cheatsheet
+- [sourcegraph](https://about.sourcegraph.com/): 辅助看代码仓库的工具，支持 GitHub, Phabricator, Bitbucket
 
 ## Checklist
 
@@ -389,6 +390,7 @@
 - [git-recall](https://github.com/Fakerr/git-recall): 交互式 git log
 - [cz-cli](https://github.com/commitizen/cz-cli): git commit message 规范工具
 - [GitKraken](https://www.gitkraken.com): Git GUI
+  - [Sublime Merge](https://www.sublimemerge.com/): Sublime 作者出品的 Git GUI，查找跳转很方便，但是目前 UI 设计不好，看起来不够直观
 - [git-tips](https://github.com/git-tips/tips): git 使用技巧
 - [Gource](https://github.com/acaudwell/Gource): 版本控制历史可视化
 - [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git): 用 JS 实现的 git
