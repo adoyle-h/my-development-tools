@@ -13,6 +13,7 @@
     - [配色](#配色)
     - [调色](#调色)
     - [无障碍配色](#无障碍配色)
+- [Icon](#icon)
 - [Typography](#typography)
     - [字体](#字体)
 - [像素风格 8-Bit](#像素风格-8-bit)
@@ -33,6 +34,7 @@
     - [组件化设计](#组件化设计)
     - [样式](#样式)
     - [图形](#图形)
+    - [Icon](#icon-1)
     - [伪数据填充](#伪数据填充)
     - [等轴测图](#等轴测图)
     - [其他插件](#其他插件)
@@ -85,8 +87,15 @@
 - https://github.com/Tanaguru/Contrast-Finder
 - http://colorsafe.co/
 
+## Icon
+
+- [fontawesome](https://fontawesome.com)
+  - https://fontawesome.com/icons?d=gallery&m=free
+  - https://fontawesome.com/cheatsheet
+
 ## Typography
 
+- https://practicaltypography.com/ : 写得非常用心的 Typography 指南。初学者必读。
 - http://fontmap.ideo.com/ : 字体地图
 
 - https://type-scale.com/ 对比字体比例大小
@@ -220,6 +229,10 @@
 
 - [Looper](https://github.com/sureskumar/Looper): 根据算法生成各种图形。非常漂亮
   - [其他参考教程](https://www.toptal.com/designers/sketch/amazing-illustrations-with-sketch-and-looper)
+
+### Icon
+
+- [sketch-icons](https://github.com/amoreaux/sketch-icons): Icon 制作成 Symbol
 
 ### 伪数据填充
 

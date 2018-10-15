@@ -529,7 +529,8 @@
 - [DaisyDisk](https://daisydiskapp.com/): 硬盘数据占用空间可视化分析。非常好用！ `Ⓜ`
 - [numi](https://numi.io/): 设计优美，操作人性化的计算器 `Ⓜ`
   - 支持 [Alfred 插件](http://numi.io/docs/#alfred)
-- [CmdTap](http://www.yingdev.com/projects/cmdtap): 任务切换器增强
+- [CmdTap](http://www.yingdev.com/projects/cmdtap): 任务切换器增强 `Ⓜ`
+  - [Contexts](https://contexts.co/): 这个看起来更好用，但是更贵  `Ⓜ`
 - [Pixave](http://www.littlehj.com/mac/): 素材管理器
 
 ## Terminal
