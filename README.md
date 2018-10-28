@@ -36,6 +36,8 @@
 - [Shell Script Development](#shell-script-development)
 - [文件处理](#文件处理)
 - [结构化数据处理](#结构化数据处理)
+    - [YAML](#yaml)
+    - [HCL](#hcl)
     - [JSON](#json)
     - [JSON Schema](#json-schema)
 - [Lint](#lint)
@@ -73,6 +75,7 @@
 - [Terminal](#terminal)
 - [字体](#字体)
 - [Design](#design)
+- [Emoji](#emoji)
 - [服务 (Service)](#服务-service)
     - [静态文件托管](#静态文件托管)
 - [PaaS](#paas)
@@ -256,10 +259,22 @@
 ## 结构化数据处理
 
 - [Structured text tools](https://github.com/dbohdan/structured-text-tools)
-- 我喜欢的配置文件语法
+- [Awesome JSON - What's Next?](https://github.com/json-next/awesome-json-next)
+- 我喜欢的面向人类的配置文件语法
   - [YAML](http://yaml.org/)
+  - [HCL](https://github.com/hashicorp/hcl): 类似 Nginx 的语法配置，Hashicorp 出品
   - [INI](https://www.wikiwand.com/zh-hans/INI%E6%96%87%E4%BB%B6)
   - [TOML](https://github.com/toml-lang/toml)
+- 面向机器数据结构语法
+  - JSON
+
+### YAML
+
+- http://yaml-online-parser.appspot.com/
+
+### HCL
+
+- https://www.hcl2json.com/ : 需要翻墙
 
 ### JSON
 
@@ -327,6 +342,7 @@
 - [mycli](https://github.com/dbcli/mycli): mysql 命令行客户端
 - [pgcli](https://github.com/dbcli/pgcli): postgres 命令行客户端
 - [medis](https://github.com/luin/medis): Redis GUI Client  `Ⓜ`
+- [SQL 速查表](https://github.com/enochtangg/quick-SQL-cheatsheet/blob/master/README_zh-hans.md)
 
 ## 数据库设计
 
@@ -551,6 +567,13 @@
 
 ## [Design](./design/README.md)
 
+
+## Emoji
+
+- http://www.emoji-cheat-sheet.com
+  - [源码](https://github.com/WebpageFX/emoji-cheat-sheet.com/)
+- http://unicode.org/emoji/charts-beta/full-emoji-list.html
+
 ## 服务 (Service)
 
 - [PlantUML Gist](https://github.com/linux-china/plantuml-gist): 基于托管在 Gist 的 [PlantUML][] 在线生成 UML 图
@@ -560,7 +583,6 @@
 - [codelf](http://unbug.github.io/codelf/): 解决命名烦恼
 - [Astral](https://app.astralapp.com): Github Star 管理器
 - [codepile](https://www.codepile.net): 可协作式网页端编辑器
-- http://unicode.org/emoji/charts-beta/full-emoji-list.html
 - https://unicode-table.com/cn/
 - [Wikiwand](http://www.wikiwand.com/): Wikipedia Modernized。非常漂亮的 Wikipedia 阅读器
 - https://www.vectorizer.io/ : 位图转成矢量图 (SVG)

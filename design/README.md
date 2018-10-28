@@ -7,6 +7,7 @@
 
 <!-- MarkdownTOC depth=2 GFM -->
 
+- [其他](#其他)
 - [设计规范](#设计规范)
 - [颜色 (Color)](#颜色-color)
     - [取色](#取色)
@@ -42,6 +43,11 @@
 - [动效](#动效)
 
 <!-- /MarkdownTOC -->
+
+
+## 其他
+
+- [psmirror](http://www.psmirror.cn/zh): 设计稿实时预览工具，支持 iOS/Android/Web，支持 PS、Adobe、Sketch
 
 ## 设计规范
 

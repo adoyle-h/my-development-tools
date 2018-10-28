@@ -12,6 +12,7 @@
 - [通知](#通知)
 - [事件/Event Emitter](#事件event-emitter)
 - [CLI](#cli)
+    - [自动补全](#自动补全)
     - [REPL / 交互式 CLI](#repl--交互式-cli)
     - [CLI 参数解析](#cli-参数解析)
     - [颜色 (Color)](#颜色-color)
@@ -86,13 +87,18 @@
 - [cli-spinners](https://github.com/sindresorhus/cli-spinners): 终端里的 Spinner
 - [ora](https://github.com/sindresorhus/ora): 同 cli-spinners
 - [cli-table](https://github.com/Automattic/cli-table): 表格输出
+  - [cli-table2](https://github.com/jamestalmage/cli-table2)
 - [cliff](https://github.com/flatiron/cliff): 格式化输出
 - [update-notifier](https://github.com/yeoman/update-notifier): 命令行版本更新提醒
 - [shelljs](https://github.com/shelljs/shelljs): unix 命令的 nodejs 封装
-- [node-tabtab](https://github.com/mklabs/node-tabtab): tab completion helpers, for node cli programs & others
 - [node-draftlog](https://github.com/ivanseidel/node-draftlog): 单行动态变化的终端打印
 - [gauge](https://github.com/iarna/gauge): 进度条
 - [node-progress](https://github.com/visionmedia/node-progress): 进度条
+- [prettyjson](https://github.com/rafeca/prettyjson): 把 JSON 数据按 YAML 风格打印出来
+
+### 自动补全
+
+- [tabtab](https://github.com/mklabs/tabtab): 命令行自动补全
 
 ### REPL / 交互式 CLI
 
@@ -110,7 +116,8 @@
 - [minimist](https://github.com/substack/minimist): 命令行参数解析器（极简）
 - [Inquirer](https://github.com/SBoudrias/Inquirer.js): 命令行交互提示
 - [Caporal.js](https://github.com/mattallty/Caporal.js): 支持自动补全，自动构建帮助，语法友好的 CLI 框架。缺点是不支持 global option，详见 [issue](https://github.com/mattallty/Caporal.js/issues/21)
-  - [oclif](https://github.com/oclif/oclif): Heroku 出品。功能跟 Caporal.js 类似。特点是 OOP，Hook，还有插件
+  - [oclif](https://github.com/oclif/oclif): Heroku 出品。功能跟 Caporal.js 类似。特点是 OOP，Hook，插件更胜一筹
+    - [12 Factor CLI App](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46)
   - [commander.js](https://github.com/tj/commander.js): 比 Caporal 弱一点。备选方案
 
 ### 颜色 (Color)
