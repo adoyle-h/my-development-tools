@@ -33,10 +33,11 @@
     - [预览](#预览)
     - [版本控制](#版本控制)
     - [组件化设计](#组件化设计)
+    - [颜色](#颜色)
     - [样式](#样式)
     - [图形](#图形)
     - [Icon](#icon-1)
-    - [伪数据填充](#伪数据填充)
+    - [数据填充](#数据填充)
     - [等轴测图](#等轴测图)
     - [其他插件](#其他插件)
 - [原型设计](#原型设计)
@@ -48,6 +49,9 @@
 ## 其他
 
 - [psmirror](http://www.psmirror.cn/zh): 设计稿实时预览工具，支持 iOS/Android/Web，支持 PS、Adobe、Sketch
+- [avataaars-geneator](https://github.com/fangpenlin/avataaars-geneator): 头像生成器
+  - [avataaars React 组件](https://github.com/fangpenlin/avataaars)
+  - [avataaars Sketch 插件](https://avataaars.com/)
 
 ## 设计规范
 
@@ -181,14 +185,13 @@
 ### 布局
 
 - [Anima Auto-Layout](https://github.com/AnimaApp/Auto-Layout): 响应式排版
-- [AlignTo](https://github.com/lucienlee/alignto): 很便捷的对齐工具
+- [paddy-sketch-plugin](https://github.com/DWilliames/paddy-sketch-plugin): 很强大的布局工具
+  - [compo](https://github.com/romashamin/compo-sketch): `⌘J` 快速对齐文本
+    - [我的 Fork，增加了中间和垂直对齐](https://github.com/adoyle-h/compo-sketch/tree/feature/align-vertical-and-horizontal)
 - [butter-sketch-plugin](https://github.com/pberrecloth/butter-sketch-plugin): 垂直/水平重排工具，元素间排除间隔
   - [SketchDistributor](https://github.com/pez/sketchdistributor): 垂直/水平重排工具，元素间指定间隔
 - [Symbol Organizer](https://github.com/sonburn/symbol-organizer): 自动重排 Symbol 页
 - [Sketch Flex Layout](https://github.com/hrescak/Sketch-Flex-Layout): 根据 CSS 文本排布元素
-- [fluid](https://github.com/matt-curtis/fluid-for-sketch): 响应式布局工具，比 Sketch 自带的 Resizing 提供更高级的定制
-- [compo](https://github.com/romashamin/compo-sketch): `⌘J` 快速对齐文本
-  - [我的 Fork，增加了中间和垂直对齐](https://github.com/adoyle-h/compo-sketch/tree/feature/align-vertical-and-horizontal)
 - [Smartboards](https://github.com/elihorne/smartboards): 自动重排 Artboards 的布局，很人性化
 
 ### 标注
@@ -197,6 +200,9 @@
   - [商业版](https://marcosvid.al/sketch-notebook/)，功能强大
   - [开源版](https://github.com/marcosvidal/Sketch-Notebook)，早就不维护了，功能还行
 - [Sketch Guides](https://github.com/luvmex/sketch-guides): 设置对齐线的辅助工具
+<a name="Marketch"></a>
+- [Marketch](https://github.com/tudou527/marketch): 生成 HTML 文档，同时也是标注工具。开源的
+  - [Sketch Measure](https://github.com/utom/sketch-measure): 跟 Marketch 类似功能，设计得比较出色
 
 ### 交互
 
@@ -205,10 +211,7 @@
 
 ### 预览
 
-<a name="Marketch"></a>
-- [Marketch](https://github.com/tudou527/marketch): 生成 HTML 文档，同时也是标注工具。开源的
-- [Sketch Measure](https://github.com/utom/sketch-measure): 跟 Marketch 类似功能，设计得比较出色
-- [Sketch Preview](https://github.com/marcisme/sketch-preview): 「待评价」基于 [Skala Preview]() 的 sketch 插件
+- [psmirror](http://www.psmirror.cn/zh): 设计稿实时预览工具，支持 iOS/Android/Web，支持 PS、Adobe、Sketch
 
 ### 版本控制
 
@@ -221,10 +224,14 @@
 
 - [react-sketchapp](https://github.com/airbnb/react-sketchapp): 在 Sketch 里渲染 React 组件
 
+### 颜色
+
+- [sketch-palettes](https://github.com/andrewfiorillo/sketch-palettes): 色板 Document Colors 导入导出
+- [Prism](https://github.com/ment-mx/Prism): 根据色板 Document Colors 生成颜色展示列表。可自定义展示样式
+
 ### 样式
 
 - [Sketch-Style-Inventory](https://github.com/getflourish/Sketch-Style-Inventory): 导出整个文档用到的样式到各种格式
-- [sketch-palettes](https://github.com/andrewfiorillo/sketch-palettes): 配色集导入导出
 - [shared-text-styles](https://github.com/nilshoenson/shared-text-styles): 字体样式集导入导出
 - [sketch-copy-to-all](https://github.com/wuwa/sketch-copy-to-all): 拷贝所有样式到其他元素。注意：这只是一种临时处理工具，不要依赖它，而应该用 Symbol 来构建可复用的设计系统。
   - [styledrop](https://github.com/ryanmclaughlin/styledrop): 拷贝单个样式
@@ -240,10 +247,11 @@
 
 - [sketch-icons](https://github.com/amoreaux/sketch-icons): Icon 制作成 Symbol
 
-### 伪数据填充
+### 数据填充
 
-- [Sketch Data Populator](https://github.com/preciousforever/sketch-data-populator): 伪内容填充，支持文字占位符和图片
-- [Unsplash It Sketch Plugin](https://github.com/fhuel/unsplash-it-sketch): 从 unsplash 拿图源填充图片
+- [Data Populator](https://github.com/preciousforever/data-populator): 使用文字占位符和 JSON 数据填充伪内容。支持 Sketch 和 Adobe XD
+- [Content Generator for Sketch](https://github.com/timuric/Content-generator-sketch-plugin): 比 sketch 自带的内容填充更灵活
+- [clipboard-fill](https://github.com/scottsavarie/clipboard-fill): 把剪切板中的图片填充到任意图形中
 
 ### 等轴测图
 
@@ -252,12 +260,11 @@
 
 ### 其他插件
 
-- [clipboard-fill](https://github.com/scottsavarie/clipboard-fill): 把剪切板中的图片填充到任意图形中
 - [comma](https://github.com/margusholland/comma): 文本处理工具。大小写转换，空格处理，计数等等功能
 - [sketch-browser-preview](https://github.com/FreakLand/sketch-browser-preview): 选定 Artboard 一键浏览器预览
 - [Rename It](https://github.com/rodi01/renameit): 图层重命名工具，大赞！
 - [zoom-alert](https://github.com/nathco/zoom-alert): 「不兼容最新 sketch」当前缩放提示
-- [Automate Sketch](https://github.com/Ashung/Automate-Sketch):「待评价」一堆小功能集合
+- [Automate Sketch](https://github.com/Ashung/Automate-Sketch): 上百个功能集合
 - [sketch-tiles](https://github.com/kumo/sketch-tiles): 方便制作 Tile 的插件
 - [sketch-style-libraries](https://github.com/sigtm/sketch-style-libraries): 不同项目同步 library
 

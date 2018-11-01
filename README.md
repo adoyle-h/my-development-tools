@@ -17,6 +17,7 @@
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+- [架构](#架构)
 - [Checklist](#checklist)
 - [CMS](#cms)
 - [JAMstack](#jamstack)
@@ -121,6 +122,11 @@
 - [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 查看自己的 Github 贡献经历
 - [cheatsheets](https://github.com/rstacruz/cheatsheets): pretty cheatsheet
 - [sourcegraph](https://about.sourcegraph.com/): 辅助看代码仓库的工具，支持 GitHub, Phabricator, Bitbucket
+
+## 架构
+
+- [Microsoft Azure - 云设计模式](https://docs.microsoft.com/zh-cn/azure/architecture/patterns/)
+  - [Github 仓库](https://github.com/mspnp/architecture-center)，[中文仓库](https://github.com/mspnp/architecture-center.zh-cn)
 
 ## Checklist
 
@@ -430,18 +436,20 @@
 - [smart-toc](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba): 根据页面生成 TOC
 - [tamperchrome](https://github.com/google/tamperchrome): 实时拦截并修改请求。不必依赖 Charles 这种代理服务器了
 - [Requestly](https://www.requestly.in/content/documentation/): 拦截修改 HTTP 请求，非常灵活好用！
-- [Chrono下载管理器](http://www.chronodownloader.net/)
+- [Chrono](http://www.chronodownloader.net/): 下载管理器
 - [JavaScript Errors Notifier](https://chrome.google.com/webstore/detail/javascript-errors-notifie/jafmfknfnkoekkdocjiaipcnmkklaajd)
 - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
 - [Isometric Contributions](https://chrome.google.com/webstore/detail/isometric-contributions/mjoedlfflcchnleknnceiplgaeoegien)
 - [Refined GitHub](https://github.com/sindresorhus/refined-github)
-- [rikaikun](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp)
+- [rikaikun](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp): 日语翻译工具
 - [RSS Subscription Extension](https://chrome.google.com/webstore/detail/rss-subscription-extensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd)
-- [Session Buddy](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko)
+- [Session Buddy](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko): 暂存标签页
+- [The Great Suspender](https://github.com/deanoemcke/thegreatsuspender): 拯救你的内存被 Chrome 吃光
 - [ShowIp](https://chrome.google.com/webstore/detail/showip/agoljmemkbciolpigpabjfkagboolkcj)
 - [fontface.ninja](https://fontface.ninja/): 查看网页所用的字体
 - [声海盗](https://chrome.google.com/webstore/detail/%E5%A3%B0%E6%B5%B7%E7%9B%97/idleenniidjlnmnjkjmmnocnkmjibadd)
 - [EditThisCookie](https://github.com/fcapano/Edit-This-Cookie)
+- [Wikiwand](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj): 自动将 Wikipedia 的链接跳转到 Wikiwand
 
 ## 画图
 
