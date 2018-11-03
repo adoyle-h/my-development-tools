@@ -20,7 +20,9 @@
 - [像素风格 8-Bit](#像素风格-8-bit)
     - [立体像素 Voxel](#立体像素-voxel)
 - [Design System](#design-system)
-    - [Sketch Design System](#sketch-design-system)
+    - [Awesome Design System List](#awesome-design-system-list)
+    - [Design System - Sketch](#design-system---sketch)
+    - [Color System](#color-system)
 - [设计工具](#设计工具)
 - [Sketch](#sketch)
     - [Sketch 插件开发](#sketch-插件开发)
@@ -140,10 +142,23 @@
 
 ## Design System
 
-### Sketch Design System
+### Awesome Design System List
+
+- https://adele.uxpin.com/ : The repository of publicly available design systems and pattern libraries
+  - [源码](https://github.com/marcintreder/adele)
+- [awesome-design-systems](https://github.com/alexpate/awesome-design-systems)
+
+### Design System - Sketch
 
 - [UX Power Tools](https://www.uxpower.tools/): awesome design system
 - [Frames for Sketch](http://framesforsketch.com/)
+- [Cabana](https://cabanadesignsystem.com/)
+- [IBM - Carbon](https://github.com/IBM/carbon-design-kit): 做得非常漂亮
+- [Mineral UI](https://github.com/mineral-ui/mineral-ui): A design system and React component library for the web
+
+### Color System
+
+- [Open Color](https://github.com/yeun/open-color)
 
 ## 设计工具
 
