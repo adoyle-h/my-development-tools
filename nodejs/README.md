@@ -52,6 +52,7 @@
 - [语法分析](#语法分析)
 - [evil](#evil)
 - [SSL](#ssl)
+- [NPM](#npm)
 - [其他](#其他)
 - [我关注的人/组](#我关注的人组)
 - [待评价](#待评价)
@@ -86,8 +87,7 @@
 - [clui](https://github.com/nathanpeck/clui): Command Line UI toolkit
 - [cli-spinners](https://github.com/sindresorhus/cli-spinners): 终端里的 Spinner
 - [ora](https://github.com/sindresorhus/ora): 同 cli-spinners
-- [cli-table](https://github.com/Automattic/cli-table): 表格输出
-  - [cli-table2](https://github.com/jamestalmage/cli-table2)
+- [cli-table2](https://github.com/jamestalmage/cli-table2): 表格输出
 - [cliff](https://github.com/flatiron/cliff): 格式化输出
 - [update-notifier](https://github.com/yeoman/update-notifier): 命令行版本更新提醒
 - [shelljs](https://github.com/shelljs/shelljs): unix 命令的 nodejs 封装
@@ -359,6 +359,11 @@
 ## SSL
 
 - [openssl-self-signed-certificate](https://github.com/neverendingqs/openssl-self-signed-certificate): 别人已做好的 SSL 证书，辅助快速开发
+
+## NPM
+
+- [verdaccio](https://github.com/verdaccio/verdaccio): NPM 私有仓库
+  - [cnpmjs.org](https://github.com/cnpm/cnpmjs.org)
 
 ## 其他
 

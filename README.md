@@ -221,6 +221,7 @@
 - [direnv](https://github.com/direnv/direnv)
   - [autoenv](https://github.com/kennethreitz/autoenv): README 挺幽默的
 - [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
+- [fkill-cli](https://github.com/sindresorhus/fkill-cli): 灵活的删进程命令，例如 `fkill 1337 safari :8080`，如果不加参数，则是交互式命令。
 
 ### 配色
 
@@ -374,6 +375,7 @@
 
 - [wireshark](https://www.wireshark.org/): 功能非常强大，面向专业用户。能够抓 HTTP/TCP/UDP 包。条件查询功能很丰富。
 - [mitmproxy](https://mitmproxy.org/): 命令行版抓包工具。4 种模式，3 种命令行 mitmproxy/mitmdump/mitmweb。mitmweb 提供 web 服务端。
+- [whistle](https://github.com/avwo/whistle): 用 NodeJS 实现的跨平台 HTTP, HTTPS, WebSocket 调试工具
 
 ### 翻墙
 
@@ -392,6 +394,8 @@
   - [serve](https://github.com/zeit/serve): alternative
 - [websocketd](https://github.com/joewalnes/websocketd/): 基于 stdin/stdout 的 WebSocket 服务器，开箱即用
 - [statsd](https://github.com/etsy/statsd): Metrics 数据聚合服务器
+- [Varnish](https://github.com/varnishcache/varnish-cache): HTTP 内容缓存服务器
+- [Traefik](https://github.com/containous/traefik): 类似 Nginx。现代化 HTTP 反向代理服务器
 
 ## CI/CD
 
@@ -513,6 +517,7 @@
 ## 翻译
 
 - [Poedit](https://poedit.net): .po 翻译软件 `Ⓜ`。价格太贵，大版本升级坑。暂无替代方案
+- [OpenCC](https://github.com/BYVoid/OpenCC): 中文简体与繁体转换
 
 ## Mac App
 

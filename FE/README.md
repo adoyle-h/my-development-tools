@@ -8,6 +8,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [ECMAScript](#ecmascript)
 - [有限状态机 && Statechart](#有限状态机--statechart)
 - [声音](#声音)
 - [Cheatsheet](#cheatsheet)
@@ -73,6 +74,11 @@
 - [stats.js](https://github.com/mrdoob/stats.js): JavaScript 性能监控，在前端显示 FPS 等指标
 - [size-limit](https://github.com/ai/size-limit): 检测 JS 文件的大小
 - http://gs.statcounter.com/ 前端全球数据统计
+
+## ECMAScript
+
+- [ECMAScript 提案](https://github.com/tc39/proposals)
+- [ECMAScript 标准文档 ECMA262](https://github.com/tc39/ecma262)
 
 ## 有限状态机 && Statechart
 
