@@ -51,6 +51,7 @@
 
 - [awesome-docker](https://github.com/veggiemonk/awesome-docker)
 - [docker-diff](https://github.com/moul/docker-diff): 比较两个 image 的文件改动
+- [dive](https://github.com/wagoodman/dive): 查看 docker 镜像的每一层 layer。支持 diff
 - [gVisor](https://github.com/google/gvisor): 沙盒式容器 runtime，注重安全性。
 
 -----

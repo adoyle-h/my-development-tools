@@ -25,6 +25,7 @@
 - [Slide/Presentation](#slidepresentation)
 - [Misc](#misc)
 - [编辑器/IDE](#编辑器ide)
+    - [Online IDE](#online-ide)
 - [自动化](#自动化)
 - [下载工具](#下载工具)
 - [Linux](#linux)
@@ -168,6 +169,14 @@
   - [code-settings-sync](https://github.com/shanalikhan/code-settings-sync): VSC 设置备份同步工具
 - [Sublime](http://www.sublimetext.com): 也许现在比不上其他工具，它是推动编辑器体验进化的功臣。
 
+### Online IDE
+
+- [Eclipse Che](https://github.com/eclipse/che/): 很不错的云端 IDE
+- [Codesandbox](https://github.com/CompuIves/codesandbox-client)
+- https://stackblitz.com/ : Online IDE powered by Visual Studio Code
+  - [源码](https://github.com/stackblitz/core)
+- https://codeanywhere.com/
+
 ## 自动化
 
 - [hubot](https://github.com/github/hubot): 交互机器人
@@ -190,6 +199,15 @@
 - md5: 计算 md5。[详见](http://adoyle.me/Today-I-Learned/linux/hash-command.html)
   - cksum: crc32 算法
   - shasum: sha1 算法
+- 编辑
+  - ed
+  - vi
+  - vim
+  - nano
+- 阅读
+  - cat
+  - more
+  - less
 
 ### Troubleshooting
 
@@ -258,6 +276,7 @@
 ## 文件处理
 
 - [ranger](https://github.com/ranger/ranger): 命令行版文件管理器
+  - [nnn](https://github.com/jarun/nnn)
 - [rename](http://plasmasturm.org/code/rename): 批量重命名文件。`brew install rename`
 - [massren](https://github.com/laurent22/massren): 用自己的编辑器来批量重命名文件
 - [trash](https://github.com/sindresorhus/trash): 命令行工具替代 rm，把文件移到回收站
@@ -379,7 +398,7 @@
 
 ### 翻墙
 
-- [racaljk/hosts](https://github.com/racaljk/hosts)
+- [googlehosts/hosts](https://github.com/googlehosts/hosts)
 - [gfwlist](https://github.com/gfwlist/gfwlist)
 - ~~[shadowsocks](https://github.com/shadowsocks/shadowsocks)~~: shadowsocks，很好的工具，可惜已沦陷，不建议使用。
 - [V2Ray](https://github.com/v2ray/v2ray-core): V2Ray 是一个模块化的代理软件包，它的目标是提供常用的代理软件模块，简化网络代理软件的开发。强烈推荐。
@@ -513,6 +532,7 @@
 ## 邮件
 
 - [Newton](https://cloudmagic.com/k/newton): 邮件客户端。也支持移动端 `Ⓜ`
+- [mjml](https://mjml.io/): 邮件模板语言
 
 ## 翻译
 
@@ -624,6 +644,7 @@
 
 - [repl.it](https://repl.it/languages): 运行在浏览器的 REPL
 - [runkit](https://runkit.com/home): 非常酷！在前端直接引用 npm 包编写代码 `ⱳ`
+- https://codesandbox.io
 
 ## 正则表达式 (Regex)
 

@@ -27,7 +27,6 @@
     - [IDE](#ide)
     - [教程](#教程)
 - [React-Native](#react-native)
-- [UI](#ui)
 - [CSS](#css)
     - [教程](#教程-1)
     - [CSS in JS](#css-in-js)
@@ -43,11 +42,12 @@
     - [2D](#2d)
     - [3D](#3d)
     - [滚动条](#滚动条)
-- [绘图](#绘图)
+- [UI/绘图](#ui绘图)
     - [2D](#2d-1)
     - [3D](#3d-1)
     - [数据可视化](#数据可视化)
     - [图表](#图表)
+    - [组件库](#组件库)
 - [测试](#测试)
 - [响应式](#响应式)
 - [Headless Browser](#headless-browser)
@@ -182,8 +182,6 @@
 
 - [reactotron](https://github.com/infinitered/reactotron): 状态检视
 
-## UI
-
 ## CSS
 
 - [clean-css](https://github.com/jakubpawlowicz/clean-css)
@@ -260,7 +258,7 @@
 
 - [aos](https://github.com/michalsnik/aos): 滚动触发动效
 
-## 绘图
+## UI/绘图
 
 ### 2D
 
@@ -283,6 +281,12 @@
 
 - [highcharts](https://github.com/highcharts/highcharts)
 - [c3](https://github.com/c3js/c3)
+- [g2](https://github.com/antvis/g2)
+
+### 组件库
+
+- [vx](https://github.com/hshoff/vx/): D3 + React 技术栈。容易组合底层组件
+- [nivo](https://github.com/plouc/nivo): D3 + React 技术栈。拿来即用的组件
 
 ## 测试
 
