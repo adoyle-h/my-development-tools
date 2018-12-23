@@ -115,6 +115,7 @@
 - [yargs](https://github.com/yargs/yargs): 命令行参数解析器（复杂版）。支持子命令，多语言，帮助文档等功能
 - [minimist](https://github.com/substack/minimist): 命令行参数解析器（极简）
 - [Inquirer](https://github.com/SBoudrias/Inquirer.js): 命令行交互提示
+  - [Enquirer](https://github.com/enquirer/enquirer): 类似 Inquirer，UI 交互更丰富
 - [Caporal.js](https://github.com/mattallty/Caporal.js): 支持自动补全，自动构建帮助，语法友好的 CLI 框架。缺点是不支持 global option，详见 [issue](https://github.com/mattallty/Caporal.js/issues/21)
   - [oclif](https://github.com/oclif/oclif): Heroku 出品。功能跟 Caporal.js 类似。特点是 OOP，Hook，插件更胜一筹
     - [12 Factor CLI App](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46)
@@ -243,6 +244,8 @@
 - [glob](https://github.com/isaacs/node-glob): 文件匹配搜索
   - [fast-glob](https://github.com/mrmlnc/fast-glob): alternative
 - [vinyl](https://github.com/gulpjs/vinyl): 用 JS 描述文件
+- [chokidar](https://github.com/paulmillr/chokidar): 监听文件变化
+- [jschardet](https://github.com/aadsm/jschardet): Character encoding auto-detection in JavaScript (port of python's chardet)
 
 ### 模板
 

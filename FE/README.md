@@ -8,6 +8,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [文件上传](#文件上传)
 - [ECMAScript](#ecmascript)
 - [有限状态机 && Statechart](#有限状态机--statechart)
 - [声音](#声音)
@@ -41,6 +42,7 @@
 - [动效](#动效)
     - [2D](#2d)
     - [3D](#3d)
+    - [粒子效果](#粒子效果)
     - [滚动条](#滚动条)
 - [UI/绘图](#ui绘图)
     - [2D](#2d-1)
@@ -74,6 +76,11 @@
 - [stats.js](https://github.com/mrdoob/stats.js): JavaScript 性能监控，在前端显示 FPS 等指标
 - [size-limit](https://github.com/ai/size-limit): 检测 JS 文件的大小
 - http://gs.statcounter.com/ 前端全球数据统计
+
+## 文件上传
+
+- [filepond](https://github.com/pqina/filepond)
+- [FileAPI](https://github.com/mailru/FileAPI)
 
 ## ECMAScript
 
@@ -253,6 +260,10 @@
 - [velocity](https://github.com/julianshapiro/velocity)
 
 ### 3D
+
+### 粒子效果
+
+- [particles.js](https://github.com/VincentGarreau/particles.js): 不推荐，卡得很
 
 ### 滚动条
 

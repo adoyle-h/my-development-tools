@@ -17,6 +17,9 @@
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+- [安全](#安全)
+    - [漏洞信息平台](#漏洞信息平台)
+    - [漏洞靶场](#漏洞靶场)
 - [架构](#架构)
 - [Checklist](#checklist)
 - [CMS](#cms)
@@ -123,6 +126,23 @@
 - [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 查看自己的 Github 贡献经历
 - [cheatsheets](https://github.com/rstacruz/cheatsheets): pretty cheatsheet
 - [sourcegraph](https://about.sourcegraph.com/): 辅助看代码仓库的工具，支持 GitHub, Phabricator, Bitbucket
+
+## 安全
+
+- [Snyk](https://snyk.io/): 开源风险收集检测服务。提供 API 和 CLI 做检查。
+
+### 漏洞信息平台
+
+- https://nvd.nist.gov/
+- https://www.cvedetails.com/
+  - https://cve.mitre.org/
+- http://www.cnnvd.org.cn/ : 国家信息安全漏洞库
+  - http://cve.scap.org.cn/
+
+### 漏洞靶场
+
+- https://github.com/vulhub/vulhub
+- https://github.com/Medicean/VulApps
 
 ## 架构
 
