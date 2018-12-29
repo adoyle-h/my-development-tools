@@ -124,7 +124,8 @@
 ### 颜色 (Color)
 
 - [cli-color](https://github.com/medikoo/cli-color): 终端颜色
-  - [chalk](https://github.com/chalk/chalk): 终端颜色。同 cli-color，备选方案
+  - [colorette](https://github.com/jorgebucaran/colorette): 备选方案，速度最快
+  - [chalk](https://github.com/chalk/chalk): 终端颜色。同 cli-color，备选方案，速度最慢
 - [strip-ansi](https://github.com/chalk/strip-ansi): 虽然 cli-color 也有 [strip](https://github.com/medikoo/cli-color#clcstripformatedtext)，这个 library 只做一件事，依赖模块较少
 - [gradient-string](https://github.com/bokub/gradient-string): 过渡色
 - [chalk-animation](https://github.com/bokub/chalk-animation): 终端颜色动画
@@ -240,6 +241,7 @@
 ## 文件
 
 - [npm/ini](https://github.com/npm/ini): `ini` 文件解析器
+- [node-properties-parser](https://github.com/xavi-/node-properties-parser): `.properties` 文件解析器
 - [js-yaml](https://github.com/nodeca/js-yaml): `YAML` 文件解析器
 - [glob](https://github.com/isaacs/node-glob): 文件匹配搜索
   - [fast-glob](https://github.com/mrmlnc/fast-glob): alternative

@@ -160,8 +160,9 @@
 
 - [create-react-app](https://github.com/facebookincubator/create-react-app): 集前端工程精华之作，React 工程前端运行环境
   - 虽然 webpack 和 babel 配置不能修改，但是社区提供了解决方案
-    - [react-app-rewired](https://github.com/timarney/react-app-rewired)，[文章](https://medium.com/@timarney/but-i-dont-wanna-eject-3e3da5826e39)
-    - [create-react-scripts](https://github.com/raymondsze/create-react-scripts)，[文章](https://medium.com/@szer0601/create-react-scripts-create-your-own-react-scripts-without-fork-e73d384c7369)
+    - [react-app-rewired](https://github.com/timarney/react-app-rewired)，[文章](https://medium.com/@timarney/but-i-dont-wanna-eject-3e3da5826e39) 已经不兼容 CRA v2 版本了，替代方案如下：
+      - [rescripts](https://github.com/rescripts/rescripts)
+      - [craco](https://github.com/sharegate/craco)
 - [Gatsby](https://github.com/gatsbyjs/gatsby): 基于 React、GraphQL 的静态网页生成工具
 - [react-static](https://github.com/nozzle/react-static): 实现 PRPL 模式的静态网页生成工具
 - [Cuttlebelle](https://github.com/cuttlebelle/cuttlebelle): YAML 和 Markdown，内容和代码分离的思想很不错
@@ -204,7 +205,6 @@
 ### CSS in JS
 
 - [styled-components](https://github.com/styled-components/styled-components): 字符串模板
-- [glamorous](https://github.com/paypal/glamorous): 函数传参
 - [emotion](https://github.com/emotion-js/emotion): 比 styled-component 更灵活。可以单独设置样式 (css api)，不基于 DOM 类。可以用字符串模板，也可以用函数传参，结合 styled-components 和 glamorous 的优点。
 
 ### CSS in JSX

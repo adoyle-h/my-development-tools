@@ -17,6 +17,7 @@
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+    - [RFC](#rfc)
 - [安全](#安全)
     - [漏洞信息平台](#漏洞信息平台)
     - [漏洞靶场](#漏洞靶场)
@@ -24,7 +25,6 @@
 - [Checklist](#checklist)
 - [CMS](#cms)
 - [JAMstack](#jamstack)
-- [理论/最佳实践](#理论最佳实践)
 - [Slide/Presentation](#slidepresentation)
 - [Misc](#misc)
 - [编辑器/IDE](#编辑器ide)
@@ -103,6 +103,7 @@
 - [Steganography](#steganography)
 - [OCR](#ocr)
 - [Android](#android)
+- [视音频](#视音频)
 - [Funny](#funny)
     - [Game](#game)
     - [教你搜索](#教你搜索)
@@ -116,16 +117,16 @@
 
 ## 其他
 
-- [LICEcap](http://www.cockos.com/licecap): 录屏 `Ⓜ` `ⓦ`
-  - [kap](https://github.com/wulkano/kap/): 用户体验很好的，开源的录屏工具 `Ⓜ` `⨀`
 - [irssi](https://github.com/irssi/irssi): IRC Client
 - [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息`Ⓛ` `Ⓜ`
 - [franc](https://github.com/wooorm/franc): 自然语言语种推测
 - [etcher](https://github.com/resin-io/etcher): 将系统镜像写入外接硬盘的工具
 - [dom-to-image](https://github.com/tsayen/dom-to-image): DOM 树导出成 SVG 或 PNG 图片
-- [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 查看自己的 Github 贡献经历
 - [cheatsheets](https://github.com/rstacruz/cheatsheets): pretty cheatsheet
-- [sourcegraph](https://about.sourcegraph.com/): 辅助看代码仓库的工具，支持 GitHub, Phabricator, Bitbucket
+
+### RFC
+
+- https://tools.ietf.org/ : 查看 IETF RFC 文档的工具。
 
 ## 安全
 
@@ -148,6 +149,7 @@
 
 - [Microsoft Azure - 云设计模式](https://docs.microsoft.com/zh-cn/azure/architecture/patterns/)
   - [Github 仓库](https://github.com/mspnp/architecture-center)，[中文仓库](https://github.com/mspnp/architecture-center.zh-cn)
+- https://www.12factor.net/
 
 ## Checklist
 
@@ -161,10 +163,6 @@
 ## JAMstack
 
 - [jamstack.org](https://github.com/jamstack/jamstack.org)
-
-## 理论/最佳实践
-
-- https://www.12factor.net/
 
 ## Slide/Presentation
 
@@ -449,7 +447,8 @@
 
 <a name="git-cal"></a>
 - [git-cal](https://github.com/k4rthik/git-cal): 类似 Github 活动图的命令行版
-- [git-stats](https://github.com/IonicaBizau/git-stats): 同 [git-cal][]
+  - [git-stats](https://github.com/IonicaBizau/git-stats): 同 [git-cal][]
+  - [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 查看自己的 Github 贡献经历
 - [git-extras](https://github.com/tj/git-extras): git 扩展命令
 - [git-lfs](https://github.com/git-lfs/git-lfs): git 支持大文件存储
 - [git-recall](https://github.com/Fakerr/git-recall): 交互式 git log
@@ -459,6 +458,7 @@
 - [git-tips](https://github.com/git-tips/tips): git 使用技巧
 - [Gource](https://github.com/acaudwell/Gource): 版本控制历史可视化
 - [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git): 用 JS 实现的 git
+- [sourcegraph](https://about.sourcegraph.com/): 在浏览器辅助看代码的工具，支持 GitHub, Phabricator, Bitbucket
 
 ## Chrome
 
@@ -757,6 +757,13 @@
 ## Android
 
 - [awesome-adb](https://github.com/mzlogin/awesome-adb): ADB，即 Android Debug Bridge，它是 Android 开发/测试人员不可替代的强大工具，也是 Android 设备玩家的好玩具。
+
+## 视音频
+
+- [LICEcap](http://www.cockos.com/licecap): 录屏 `Ⓜ` `ⓦ`
+  - [kap](https://github.com/wulkano/kap/): 用户体验很好的，开源的录屏工具 `Ⓜ` `⨀`
+- [OBS](https://obsproject.com/): 非常好用的推流和录制工具。免费。
+- [Sound Siphon](https://staticz.com/soundsiphon/): Mac 下最好用的音频录制工具。能创建虚拟输入设备。能把任何应用的音频输出转发到另一个应用上。价格有点贵。 `Ⓜ`
 
 ## Funny
 
