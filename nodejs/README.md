@@ -169,9 +169,10 @@
 
 ## debug
 
+- [Node.js 调试指南](https://github.com/nswbmw/node-in-debugging): 必读
 - [JavaScript Debugging Reference](https://developers.google.com/web/tools/chrome-devtools/javascript/reference): Chrome DevTools 的 Debug 功能
 - [ndb](https://github.com/GoogleChromeLabs/ndb): 基于 Chrome DevTools 的增强 Debug 功能
-- [Node.js 调试指南](https://github.com/nswbmw/node-in-debugging)
+- [node-clinic](https://github.com/nearform/node-clinic)
 
 ## 数据校验
 
@@ -381,6 +382,7 @@
 - [node-temp](https://github.com/bruce/node-temp): 产生临时目录文件
 - [jsdom](https://github.com/tmpvar/jsdom): 在 nodejs 使用符合 WHATWG 和 HTML 标准的 JS DOM
 - [opn](https://github.com/sindresorhus/opn): 很方便的打开网站，文件，或可执行文件的命令
+- [fast-json-stringify](https://github.com/fastify/fast-json-stringify): 比原生的 `JSON.stringify()` 快
 
 ## 我关注的人/组
 

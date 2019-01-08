@@ -76,6 +76,7 @@
 - [stats.js](https://github.com/mrdoob/stats.js): JavaScript 性能监控，在前端显示 FPS 等指标
 - [size-limit](https://github.com/ai/size-limit): 检测 JS 文件的大小
 - http://gs.statcounter.com/ 前端全球数据统计
+- [Modernizr](https://github.com/Modernizr/Modernizr): 检测 HTML5 和 CSS3 特性能否使用
 
 ## 文件上传
 
