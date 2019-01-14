@@ -8,6 +8,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [Browser Feature Detection](#browser-feature-detection)
 - [文件上传](#文件上传)
 - [ECMAScript](#ecmascript)
 - [有限状态机 && Statechart](#有限状态机--statechart)
@@ -76,7 +77,13 @@
 - [stats.js](https://github.com/mrdoob/stats.js): JavaScript 性能监控，在前端显示 FPS 等指标
 - [size-limit](https://github.com/ai/size-limit): 检测 JS 文件的大小
 - http://gs.statcounter.com/ 前端全球数据统计
-- [Modernizr](https://github.com/Modernizr/Modernizr): 检测 HTML5 和 CSS3 特性能否使用
+
+## Browser Feature Detection
+
+- [MDN - Implementing feature detection](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection)
+- [feature.js](https://github.com/viljamis/feature.js): 检测 async, addEventListener, canvas, classList, cors, contextMenu, css3Dtransform, cssTransform, cssTransition, defer, deviceMotion, deviceOrientation, geolocation, historyAPI, placeholder, localStorage, matchMedia, pictureElement, querySelectorAll, remUnit, serviceWorker, sizes, srcset, svg, touch, viewportUnit, webGL
+- [Modernizr](https://github.com/Modernizr/Modernizr): 检测 HTML5 和 CSS3 特性
+- [feature-detect-es6](https://github.com/75lb/feature-detect-es6): 检测 ES2015 以上的特性
 
 ## 文件上传
 

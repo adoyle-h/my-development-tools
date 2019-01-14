@@ -106,6 +106,12 @@
 - [OCR](#ocr)
 - [Android](#android)
 - [视音频](#视音频)
+- [NLP](#nlp)
+    - [工具包](#工具包)
+    - [Corpus 语料库](#corpus-语料库)
+    - [Word Segment 分词](#word-segment-分词)
+    - [Information Extraction 信息提取](#information-extraction-信息提取)
+    - [Chinese NLP](#chinese-nlp)
 - [中国特色](#中国特色)
     - [翻墙](#翻墙)
 - [Funny](#funny)
@@ -336,6 +342,7 @@
 
 ### JSON
 
+- https://www.json.cn/ : JSON 在线解析
 - [jq](https://github.com/stedolan/jq): JSON 静态分析工具
 - [jid](https://github.com/simeji/jid): JSON 动态交互式分析工具
 - [JSON5](https://github.com/json5/json5): JSON for humans. (Not an official successor to JSON.)
@@ -778,6 +785,25 @@
 - [OBS](https://obsproject.com/): 非常好用的推流和录制工具。免费。
   - [源码 obsproject/obs-studio](https://github.com/obsproject/obs-studio)
 - [Sound Siphon](https://staticz.com/soundsiphon/): Mac 下最好用的音频录制工具。能创建虚拟输入设备。能把任何应用的音频输出转发到另一个应用上。价格有点贵。 `Ⓜ`
+
+## NLP
+
+- https://github.com/apachecn/AiLearning
+
+### 工具包
+
+- [HanLP](https://github.com/hankcs/HanLP)
+- [fastNLP](https://github.com/fastnlp/fastNLP)
+
+### Corpus 语料库
+
+### Word Segment 分词
+
+### Information Extraction 信息提取
+
+### Chinese NLP
+
+- https://github.com/crownpku/Awesome-Chinese-NLP
 
 ## 中国特色
 
