@@ -170,6 +170,9 @@
 - [Microsoft Azure - 云设计模式](https://docs.microsoft.com/zh-cn/azure/architecture/patterns/)
   - [Github 仓库](https://github.com/mspnp/architecture-center)，[中文仓库](https://github.com/mspnp/architecture-center.zh-cn)
 - https://www.12factor.net/
+- https://c4model.com/ : C4 Model 绘制架构图的方法论
+  - https://www.infoq.cn/article/C4-architecture-model
+  - [软件架构图的艺术](https://www.infoq.cn/article/crafting-architectural-diagrams)
 
 ## Checklist
 
@@ -621,6 +624,8 @@
 - [CmdTap](http://www.yingdev.com/projects/cmdtap): 任务切换器增强 `Ⓜ`
   - [Contexts](https://contexts.co/): 这个看起来更好用，但是更贵  `Ⓜ`
 - [Pixave](http://www.littlehj.com/mac/): 素材管理器
+- [TripMode](https://www.tripmode.ch/): 控制应用的网络流量访问
+- [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html): 当 Mac 电脑被窃听时发出提醒
 
 ## Terminal
 
@@ -659,6 +664,8 @@
 - https://unicode-table.com/cn/
 - [Wikiwand](http://www.wikiwand.com/): Wikipedia Modernized。非常漂亮的 Wikipedia 阅读器
 - https://www.vectorizer.io/ : 位图转成矢量图 (SVG)
+- http://ping.pe/ : ip 信息查询
+  - https://ifconfig.me/ : 查询当前出口 IP
 
 ### 静态文件托管
 
