@@ -20,6 +20,7 @@
     - [RFC](#rfc)
     - [License](#license)
 - [SVG](#svg)
+- [代码质量检查](#代码质量检查)
 - [安全](#安全)
     - [漏洞信息平台](#漏洞信息平台)
     - [漏洞靶场](#漏洞靶场)
@@ -70,6 +71,7 @@
     - [Chrome 插件](#chrome-插件)
 - [画图](#画图)
 - [测试](#测试)
+    - [字符串测试](#字符串测试)
     - [http 压测](#http-压测)
 - [Blog](#blog)
 - [密码相关](#密码相关)
@@ -147,6 +149,10 @@
 ## SVG
 
 - [dom-to-image](https://github.com/tsayen/dom-to-image): DOM 树导出成 SVG 或 PNG 图片
+
+## 代码质量检查
+
+- [SonarQube](https://github.com/SonarSource/sonarqube): 「待评估」
 
 ## 安全
 
@@ -302,7 +308,7 @@
   - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 着色增强工具，但只能用管道输出，仍需借助 diff 或 git diff 工具。
   - [icdiff](https://github.com/jeffkaufman/icdiff): 左右分栏 diff，外加着色。
 - [exa](https://github.com/ogham/exa): much better `ls`
-- [enhancd](https://github.com/b4b4r07/enhancd): 交互式 cd
+- [z.lua](https://github.com/skywind3000/z.lua): 路径切换 cd 的增强版。支持多级模糊匹配，交互式搜索等功能
 - [ccat](https://github.com/jingweno/ccat): better cat。输出着色代码的 cat 命令
   - [bat](https://github.com/sharkdp/bat): 除了代码着色，还集成了 git diff、分页器。
 - [multitail](https://github.com/flok99/multitail): 同时 tail 多个文件
@@ -538,6 +544,12 @@
 
 ## 测试
 
+### 字符串测试
+
+附赠一个笑话，[一个 Bug 测试员走进一家酒吧](https://www.reddit.com/r/ProgrammerHumor/comments/31bgwm/a_bug_tester_walks_into_a_bar/)。
+
+- [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings): 收集了一系列不正常的字符用来测试字符串校验
+
 ### http 压测
 
 - [siege](https://github.com/JoeDog/siege)
@@ -597,8 +609,9 @@
 - [iStat Menus](https://bjango.com/mac/istatmenus): Mac 系统状态监控 `Ⓜ`
 - [Alfred](https://www.alfredapp.com): 类似 spotlight `Ⓜ`
   - [alfy](https://github.com/sindresorhus/alfy): JS 语法编写 Alfred Workflow
-- [Lacona](https://www.lacona.io/): 类似 spotlight。但更酷 `Ⓜ`
-- [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Alfred，但可以用 Lua 脚本编写程序，支持键盘等事件监听 `Ⓜ`
+  - [dext](https://github.com/DextApp/dext): 类似 Alfred，JS 写的 launcher `⨀`
+  - [Lacona](https://www.lacona.io/): 类似 spotlight。但更酷 `Ⓜ`
+- [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Apple Script，用 Lua 脚本编写程序，支持键盘等事件监听 `Ⓜ`
 - [Monosnap](https://monosnap.com/welcome): 截屏工具
   - screencapture: 命令行版截屏工具。 mac 自带
 - [Copyless](http://copyless.net): 系统剪切板管理器

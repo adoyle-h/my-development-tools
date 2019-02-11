@@ -138,6 +138,7 @@
 
 - [npm-run-all](https://github.com/mysticatea/npm-run-all): 用于 npm scripts，并行/顺序执行多个子 script
 - [husky](https://github.com/typicode/husky): git hook
+- [lint-staged](https://github.com/okonet/lint-staged): Run commands on git staged files
 
 ## 打包方案
 
@@ -166,6 +167,7 @@
 - [immer](https://github.com/mweststrate/immer): 比较优雅的 Immutable.js alternative。基于 Proxy 的特性
   - [immutable-js](https://github.com/facebook/immutable-js/): Immutable.js
 - [safe-touch](https://github.com/EnixCoda/safe-touch): 类似 lodash.get 但书写更友好，[介绍](https://zhuanlan.zhihu.com/p/39751773)
+- [prettier-package-json](https://github.com/cameronhunter/prettier-package-json): 格式化 package.json
 
 ## debug
 
