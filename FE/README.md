@@ -77,6 +77,8 @@
 - [stats.js](https://github.com/mrdoob/stats.js): JavaScript 性能监控，在前端显示 FPS 等指标
 - [size-limit](https://github.com/ai/size-limit): 检测 JS 文件的大小
 - http://gs.statcounter.com/ 前端全球数据统计
+- [uglify-js](https://github.com/mishoo/UglifyJS2): js 混淆工具
+- [js-beautify](https://github.com/beautify-web/js-beautify): html-beautify css-beautify js-beautify
 
 ## Browser Feature Detection
 
@@ -232,8 +234,8 @@
 ### 排版 Typography
 
 - [typography.js](https://github.com/kyleamathews/typography.js): A powerful toolkit for building websites with beautiful design
+- [FlowType.JS](https://github.com/simplefocus/FlowType.JS): 根据容器宽度自动调整字号
 - [typo.css](https://github.com/sofish/typo.css): 中文排版优化
-- [字体样式筛选](https://www.jianshu.com/p/5622cab3d523)
 
 ### 栅格/网格/Grid
 
@@ -255,8 +257,13 @@
 
 - [ory/editor](https://github.com/ory/editor): 基于 React 和 Redux 的内容编辑器
 - [slate](https://github.com/ianstormtaylor/slate)
+- [trix](https://github.com/basecamp/trix)
 
 ## 动效
+
+- [typeit](https://github.com/alexmacarthur/typeit): 打字动效
+  - [typed.js](https://github.com/mattboldt/typed.js)
+  - [typing.js](https://github.com/coffeedeveloper/typing.js)
 
 ### 2D
 

@@ -68,6 +68,7 @@
 ## Misc
 
 - [dependency-check](https://github.com/maxogden/dependency-check): 依赖检查，确保引用的模块已写在 package.json
+- [yn](https://github.com/sindresorhus/yn): 判断值是否为 yes/no
 
 ## 通知
 
@@ -158,6 +159,7 @@
 - [LoDash](https://github.com/lodash/lodash): 日常开发工具集
 - [Ramda](https://github.com/ramda/ramda): 函数式编程工具集
 - [bluebird](https://github.com/petkaantonov/bluebird): 强大的 Promise 库
+  - [promise-fun](https://github.com/sindresorhus/promise-fun): 轮子王造的独立的函数库
 - [co](https://github.com/tj/co): 强大的异步处理库
 - [utility-maker](https://github.com/adoyle-h/utility-maker): 定义自己的工具集
 - [is](https://github.com/arasatasaygin/is.js): 类型判断

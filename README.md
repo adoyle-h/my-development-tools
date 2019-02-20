@@ -9,7 +9,7 @@
 - `Ⓛ` 表示兼容 **Linux 平台**；
 - `ⓦ` 表示兼容 **Windows 平台**；
 - `Ⓗ` 表示可以通过 **[Homebrew][]** 安装；
-- `ⱳ` 表示 **网页服务**；
+- `ⱳ` 表示 **Web 服务**；
 
 ## TOC
 
@@ -17,6 +17,7 @@
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+    - [Semver](#semver)
     - [RFC](#rfc)
     - [License](#license)
 - [SVG](#svg)
@@ -29,7 +30,6 @@
 - [CMS](#cms)
 - [JAMstack](#jamstack)
 - [Slide/Presentation](#slidepresentation)
-- [Misc](#misc)
 - [编辑器/IDE](#编辑器ide)
     - [Online IDE](#online-ide)
 - [自动化](#自动化)
@@ -134,6 +134,12 @@
 - [franc](https://github.com/wooorm/franc): 自然语言语种推测
 - [etcher](https://github.com/resin-io/etcher): 将系统镜像写入外接硬盘的工具
 - [cheatsheets](https://github.com/rstacruz/cheatsheets): pretty cheatsheet
+- https://www.uuidgenerator.net/ : uuid 生成器 `ⱳ`
+
+
+### Semver
+
+- [semver-diff](https://github.com/sindresorhus/semver-diff): semver 比较
 
 ### RFC
 
@@ -201,13 +207,6 @@
 - [nodeppt](https://github.com/ksky521/nodeppt): 这可能是迄今为止最好的网页版演示库
 - https://slides.com/ : 基于 [reveal.js](https://github.com/hakimel/reveal.js) 的服务，非常好用，但是国内要翻墙 `ⱳ`
 
-## Misc
-
-- [uglify-js](https://github.com/mishoo/UglifyJS2): js 混淆工具
-- [js-beautify](https://github.com/beautify-web/js-beautify): html-beautify css-beautify js-beautify
-- less: 分页阅读器。less is more
-- [todo.txt-cli](https://github.com/ginatrapani/todo.txt-cli): 命令行 Todo List Manager
-
 ## 编辑器/IDE
 
 - [neovim](https://github.com/neovim/neovim): 终端编辑器，用 Python 写的 vim
@@ -254,7 +253,7 @@
 - 阅读
   - cat
   - more
-  - less
+  - less: 分页阅读器。less is more
 
 ### Troubleshooting
 
@@ -287,6 +286,9 @@
   - [autoenv](https://github.com/kennethreitz/autoenv): README 挺幽默的
 - [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
 - [fkill-cli](https://github.com/sindresorhus/fkill-cli): 灵活的删进程命令，例如 `fkill 1337 safari :8080`，如果不加参数，则是交互式命令。
+- [taskbook](https://github.com/klaussinani/taskbook): 命令行 Todo List Manager
+  - [todo.txt-cli](https://github.com/ginatrapani/todo.txt-cli): 备选
+- [PathPicker](https://github.com/facebook/PathPicker): 「待评价」多条记录选择器。不是很好用
 
 ### 配色
 
@@ -488,6 +490,7 @@
 - [Gource](https://github.com/acaudwell/Gource): 版本控制历史可视化
 - [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git): 用 JS 实现的 git
 - [sourcegraph](https://about.sourcegraph.com/): 在浏览器辅助看代码的工具，支持 GitHub, Phabricator, Bitbucket
+- [git-history](https://github.com/pomber/git-history): 可视化单个文件的 diff
 
 ## Chrome
 
@@ -588,6 +591,8 @@
 
 - [Newton](https://cloudmagic.com/k/newton): 邮件客户端。也支持移动端 `Ⓜ`
 - [mjml](https://mjml.io/): 邮件模板语言
+- https://www.mailgun.com/ : 发邮件的服务 `ⱳ`
+- http://mailchimp.com/ : 搭建邮件&发邮件的服务 `ⱳ`
 
 ## 翻译
 
@@ -639,6 +644,7 @@
 - [Pixave](http://www.littlehj.com/mac/): 素材管理器
 - [TripMode](https://www.tripmode.ch/): 控制应用的网络流量访问
 - [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html): 当 Mac 电脑被窃听时发出提醒
+- [Sloth](https://github.com/sveinbjornt/Sloth): 查看进程相关的文件。lsof 的 GUI 版
 
 ## Terminal
 
@@ -726,11 +732,15 @@
 
 ## TypeScript
 
+- https://www.typescriptlang.org/play/  : 在线编译预览
 - [awesome-typescript](https://github.com/dzharii/awesome-typescript)
 - [tsdoc](https://github.com/Microsoft/tsdoc)
 - [Microsoft/web-build-tools](https://github.com/Microsoft/web-build-tools)
 - [ts-node](https://github.com/TypeStrong/ts-node)
 - [typescript-starter](https://github.com/bitjson/typescript-starter)
+- [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped): 开源 d.ts 的维护仓库
+  - [@types/json-schema](https://github.com/kriszyp/json-schema)
+- [dts-gen](https://github.com/Microsoft/dts-gen): 生成 d.ts 的工具
 
 ## [前端开发](./FE/README.md)
 
