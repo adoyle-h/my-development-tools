@@ -31,6 +31,8 @@
 - [JAMstack](#jamstack)
 - [Slide/Presentation](#slidepresentation)
 - [编辑器/IDE](#编辑器ide)
+    - [代码编辑器](#代码编辑器)
+    - [富文本编辑器 WYSIWYG](#富文本编辑器-wysiwyg)
     - [Online IDE](#online-ide)
 - [自动化](#自动化)
 - [下载工具](#下载工具)
@@ -49,7 +51,6 @@
     - [JSON](#json)
     - [JSON Schema](#json-schema)
 - [Lint](#lint)
-- [配置](#配置)
 - [Mock](#mock)
 - [HTTP](#http)
 - [HTML/网站](#html网站)
@@ -215,6 +216,18 @@
   - [code-settings-sync](https://github.com/shanalikhan/code-settings-sync): VSC 设置备份同步工具
 - [Sublime](http://www.sublimetext.com): 也许现在比不上其他工具，它是推动编辑器体验进化的功臣。
 
+### 代码编辑器
+
+- [ace](https://github.com/ajaxorg/ace)
+- [CodeMirror](https://github.com/codemirror/codemirror)
+- [Monaco Editor](https://github.com/Microsoft/monaco-editor)
+
+### 富文本编辑器 WYSIWYG
+
+- [ory/editor](https://github.com/ory/editor): 基于 React 和 Redux 的内容编辑器
+- [slate](https://github.com/ianstormtaylor/slate)
+- [trix](https://github.com/basecamp/trix)
+
 ### Online IDE
 
 - [Eclipse Che](https://github.com/eclipse/che/): 很不错的云端 IDE
@@ -227,6 +240,8 @@
 
 - [hubot](https://github.com/github/hubot): 交互机器人
 - [robotjs](https://github.com/octalmage/robotjs): 用 NodeJS 定制 GUI 自动化流程。支持 Windows, Mac, Linux 系统
+- https://danger.systems/ : code review 时挺有用的自动化工具
+  - [danger-js](https://github.com/danger/danger-js): JS 版本
 
 ## 下载工具
 
@@ -261,6 +276,7 @@
 
 ## Shell
 
+- [dotbot](https://github.com/anishathalye/dotbot/): dotfile 管理器
 - [bash](http://tiswww.case.edu/php/chet/bash/bashtop.html): 注意升级到最新版本的 bash
 - [bash-completion](https://github.com/scop/bash-completion): bash 命令补全
 - [node-tabtab](https://github.com/mklabs/node-tabtab): tab completion helpers, for node cli programs & others
@@ -358,6 +374,7 @@
 - [jid](https://github.com/simeji/jid): JSON 动态交互式分析工具
 - [JSON5](https://github.com/json5/json5): JSON for humans. (Not an official successor to JSON.)
 - [hjson](https://github.com/hjson/hjson): 比 JSON5 更丰富，且相对更标准，有 [RFC 文档](https://hjson.org/rfc.html)。
+- [simdjson](https://github.com/lemire/simdjson): Parsing gigabytes of JSON. 2.2GB/s
 
 ### JSON Schema
 
@@ -378,10 +395,6 @@
 - [tidy](https://github.com/htacg/tidy-html5): HTML lint。备用
 - [stylelint](https://github.com/stylelint/stylelint)
 - [csslint](https://github.com/CSSLint/csslint): 备用
-
-## 配置
-
-- [dotbot](https://github.com/anishathalye/dotbot/): dotfile 管理器
 
 ## Mock
 
@@ -699,6 +712,7 @@
 - [dokku](https://github.com/dokku/dokku): 单机版 PaaS，低门槛
 - [tsuru](https://github.com/tsuru/tsuru): 待评价
 - Docker Swarm
+- [k3s](https://github.com/rancher/k3s): 轻量级 k8s，用于边缘计算、嵌入式、物联网场景
 
 ## Serverless
 
@@ -740,7 +754,8 @@
 - [typescript-starter](https://github.com/bitjson/typescript-starter)
 - [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped): 开源 d.ts 的维护仓库
   - [@types/json-schema](https://github.com/kriszyp/json-schema)
-- [dts-gen](https://github.com/Microsoft/dts-gen): 生成 d.ts 的工具
+- [dts-generator](https://github.com/SitePen/dts-generator): 生成 d.ts 的工具
+  - [dts-gen](https://github.com/Microsoft/dts-gen): 生成 d.ts 的工具，必须先全局安装再编译，有点麻烦
 
 ## [前端开发](./FE/README.md)
 

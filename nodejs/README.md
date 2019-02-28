@@ -209,6 +209,8 @@
   - [serve](https://github.com/zeit/serve): alternative
 - [lowdb](https://github.com/typicode/lowdb): 本地 json 数据库
 - [micro](https://github.com/zeit/micro): 零配置的 HTTP 服务器，非常轻量好用，主要用于实现简单的逻辑
+- [stoppable](https://github.com/hunterloftis/stoppable): graceful shutdown
+- [terminus](https://github.com/godaddy/terminus): 封装了 stoppable 和进程信号处理，增加了一些进程退出前的自定义回调和 k8s 健康检查的回调。
 
 ## 数据生成/Mock
 
@@ -322,6 +324,8 @@
 - [urijs](https://github.com/medialize/URI.js): uri 解析处理
 - [axios](https://github.com/mzabriskie/axios): HTTP 请求客户端，参数配置化，API 设计简洁合理。
   - 但是 POST 请求处理有个缺点: https://github.com/mzabriskie/axios/issues/362
+  - [ky](https://github.com/sindresorhus/ky): 前端备选方案
+  - [got](https://github.com/sindresorhus/got): 后端备选方案
 - [superagent](https://github.com/visionmedia/superagent): HTTP 请求客户端。特点是支持插件，缺点是文档写得不够好。
 
 ## 安全

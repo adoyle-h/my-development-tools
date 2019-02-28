@@ -37,9 +37,7 @@
     - [PostCSS](#postcss)
     - [排版 Typography](#排版-typography)
     - [栅格/网格/Grid](#栅格网格grid)
-- [编辑器](#编辑器)
-    - [代码编辑器](#代码编辑器)
-    - [富文本编辑器 WYSIWYG](#富文本编辑器-wysiwyg)
+- [参数可视化](#参数可视化)
 - [动效](#动效)
     - [2D](#2d)
     - [3D](#3d)
@@ -244,20 +242,9 @@
   - [CSS 终极之战：Grid VS Flexbox](https://zhuanlan.zhihu.com/p/31952490)
 - [gridy](https://microcipcip.github.io/gridy/): 支持 data attribute 和 class name。可扩展性很强，可设置列数、breakpoint、命名风格等。
 
-## 编辑器
+## 参数可视化
 
 - [dat.gui](https://github.com/dataarts/dat.gui): 轻量级动态修改 JS 变量的 GUI 接口
-
-### 代码编辑器
-
-- [ace](https://github.com/ajaxorg/ace)
-- [CodeMirror](https://github.com/codemirror/codemirror)
-
-### 富文本编辑器 WYSIWYG
-
-- [ory/editor](https://github.com/ory/editor): 基于 React 和 Redux 的内容编辑器
-- [slate](https://github.com/ianstormtaylor/slate)
-- [trix](https://github.com/basecamp/trix)
 
 ## 动效
 

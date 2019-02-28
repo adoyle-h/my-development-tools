@@ -41,6 +41,8 @@
 - [kubernetes/charts](https://github.com/kubernetes/charts): Charts are curated application definitions for Kubernetes Helm
 - [Azure/draft](https://github.com/Azure/draft): Draft makes it easy to build applications that run on Kubernetes. Draft targets the "inner loop" of a developer's workflow: as they hack on code, but before code is committed to version control.
 - [kompose](https://github.com/kubernetes/kompose): Go from Docker Compose to Kubernetes
+- [kubectx](https://github.com/ahmetb/kubectx): 管理切换 kubectl 上下文
+- [skaffold](https://github.com/GoogleContainerTools/skaffold): Build\Test\Deploy\Tag\Push 自动化框架
 
 
 ## UI
