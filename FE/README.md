@@ -77,6 +77,7 @@
 - http://gs.statcounter.com/ 前端全球数据统计
 - [uglify-js](https://github.com/mishoo/UglifyJS2): js 混淆工具
 - [js-beautify](https://github.com/beautify-web/js-beautify): html-beautify css-beautify js-beautify
+- [intro.js](https://github.com/usablica/intro.js): 分步用户引导/导航/介绍的库
 
 ## Browser Feature Detection
 
@@ -135,6 +136,8 @@
 - [parcel](https://github.com/parcel-bundler/parcel): 编译框架或应用的工具。零配置
 - [rollup](https://github.com/rollup/rollup): 编译类库时首选工具。零配置
 - [fuse-box](https://github.com/fuse-box/fuse-box): 「待评估」
+- [pikapkg/web](https://github.com/pikapkg/web): 「待评估」直接在浏览器端下载安装 npm 包
+- [pikapkg/pack](https://github.com/pikapkg/pack): 「待评估」编译打包工具
 
 ## Webpack
 

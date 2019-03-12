@@ -43,6 +43,7 @@
 - [kompose](https://github.com/kubernetes/kompose): Go from Docker Compose to Kubernetes
 - [kubectx](https://github.com/ahmetb/kubectx): 管理切换 kubectl 上下文
 - [skaffold](https://github.com/GoogleContainerTools/skaffold): Build\Test\Deploy\Tag\Push 自动化框架
+  - [kaniko](https://github.com/GoogleContainerTools/kaniko): A tool to BUILD container images from a Dockerfile, inside a container or Kubernetes cluster.
 
 
 ## UI

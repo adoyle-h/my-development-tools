@@ -23,6 +23,7 @@
 - [SVG](#svg)
 - [代码质量检查](#代码质量检查)
 - [安全](#安全)
+    - [逆向工程](#逆向工程)
     - [漏洞信息平台](#漏洞信息平台)
     - [漏洞靶场](#漏洞靶场)
 - [架构](#架构)
@@ -164,6 +165,11 @@
 ## 安全
 
 - [Snyk](https://snyk.io/): 开源风险收集检测服务。提供 API 和 CLI 做检查。
+
+
+### 逆向工程
+
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra): 「待评估」美国国家安全局开源的逆向工程框架
 
 ### 漏洞信息平台
 
@@ -408,6 +414,7 @@
   - [bash 版 httpstat](https://github.com/b4b4r07/httpstat)
 - [httping](https://github.com/flok99/httping): 以 HTTP 协议角度测量 HTTP 延迟
 - [httpie](https://github.com/jakubroztocil/httpie/): a CLI, cURL-like tool for humans
+- [htrace.sh](https://github.com/trimstray/htrace.sh): 「待评价」Swiss Army knife for http/https troubleshooting and profiling.
 - [Paw](https://paw.cloud): 模拟 HTTP 请求的 GUI 客户端  `Ⓜ`
 
 ## HTML/网站
@@ -744,18 +751,7 @@
 
 ## [NodeJS 开发](./nodejs/README.md)
 
-## TypeScript
-
-- https://www.typescriptlang.org/play/  : 在线编译预览
-- [awesome-typescript](https://github.com/dzharii/awesome-typescript)
-- [tsdoc](https://github.com/Microsoft/tsdoc)
-- [Microsoft/web-build-tools](https://github.com/Microsoft/web-build-tools)
-- [ts-node](https://github.com/TypeStrong/ts-node)
-- [typescript-starter](https://github.com/bitjson/typescript-starter)
-- [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped): 开源 d.ts 的维护仓库
-  - [@types/json-schema](https://github.com/kriszyp/json-schema)
-- [dts-generator](https://github.com/SitePen/dts-generator): 生成 d.ts 的工具
-  - [dts-gen](https://github.com/Microsoft/dts-gen): 生成 d.ts 的工具，必须先全局安装再编译，有点麻烦
+## [TypeScript](./typescript/README.md)
 
 ## [前端开发](./FE/README.md)
 
@@ -924,7 +920,7 @@
 
 ## 版权声明 (Copyright and License)
 
-Copyright (c) 2016-2018 ADoyle. The project is licensed under the **BSD 3-clause License**.
+Copyright (c) 2016-2019 ADoyle. The project is licensed under the **BSD 3-clause License**.
 
 See the [LICENSE][] file for the specific language governing permissions and limitations under the License.
 
