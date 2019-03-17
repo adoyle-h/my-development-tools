@@ -11,6 +11,7 @@
 - [Misc](#misc)
 - [通知](#通知)
 - [事件/Event Emitter](#事件event-emitter)
+- [随机数](#随机数)
 - [CLI](#cli)
     - [自动补全](#自动补全)
     - [REPL / 交互式 CLI](#repl--交互式-cli)
@@ -77,6 +78,12 @@
 ## 事件/Event Emitter
 
 - [tiny-emitter](https://github.com/scottcorgan/tiny-emitter)
+
+## 随机数
+
+- [nano-id-cc](https://zelark.github.io/nano-id-cc/): 碰撞计算器
+- [shortid](https://github.com/dylang/shortid)
+- [nanoid](https://github.com/ai/nanoid)
 
 ## CLI
 

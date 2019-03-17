@@ -525,6 +525,7 @@
 
 ### Chrome 插件
 
+- [Tampermonkey](https://github.com/Tampermonkey/tampermonkey): 开源版油猴。开源前端脚本管理器。
 - [Unsplash Instant](https://chrome.google.com/webstore/detail/unsplash-instant/pejkokffkapolfffcgbmdmhdelanoaih): 新标签页壁纸。太美了
 - [vimium](https://github.com/philc/vimium): vim 风格操作浏览器
 - [octotree](https://github.com/buunguyen/octotree): github 文件浏览器
