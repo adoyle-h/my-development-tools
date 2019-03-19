@@ -70,6 +70,7 @@
 
 - [dependency-check](https://github.com/maxogden/dependency-check): 依赖检查，确保引用的模块已写在 package.json
 - [yn](https://github.com/sindresorhus/yn): 判断值是否为 yes/no
+- [package-json](https://github.com/sindresorhus/package-json): Get metadata of a package from the npm registry. 支持私有 registry
 
 ## 通知
 
@@ -97,7 +98,7 @@
 - [ora](https://github.com/sindresorhus/ora): 同 cli-spinners
 - [cli-table2](https://github.com/jamestalmage/cli-table2): 表格输出
 - [cliff](https://github.com/flatiron/cliff): 格式化输出
-- [update-notifier](https://github.com/yeoman/update-notifier): 命令行版本更新提醒
+- [update-notifier](https://github.com/yeoman/update-notifier): 「非常不好用，寻找替代品」命令行版本更新提醒
 - [shelljs](https://github.com/shelljs/shelljs): unix 命令的 nodejs 封装
 - [node-draftlog](https://github.com/ivanseidel/node-draftlog): 单行动态变化的终端打印
 - [gauge](https://github.com/iarna/gauge): 进度条

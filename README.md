@@ -14,6 +14,8 @@
 ## TOC
 
 <!-- toc -->
+<details>
+  <summary>目录</summary>
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
@@ -127,6 +129,7 @@
 - [版权声明 (Copyright and License)](#版权声明-copyright-and-license)
 
 <!-- /MarkdownTOC -->
+</details>
 <!-- tocstop -->
 
 ## 其他
@@ -511,6 +514,8 @@
 - [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git): 用 JS 实现的 git
 - [sourcegraph](https://about.sourcegraph.com/): 在浏览器辅助看代码的工具，支持 GitHub, Phabricator, Bitbucket
 - [git-history](https://github.com/pomber/git-history): 可视化单个文件的 diff
+- [git-secret](https://github.com/sobolevn/git-secret): 将敏感信息加密再存储到 Git
+  - [blackbox](https://github.com/StackExchange/blackbox): 支持 Git/Mercurial/Subversion
 
 ## Chrome
 
