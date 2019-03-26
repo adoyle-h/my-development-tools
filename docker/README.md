@@ -37,14 +37,17 @@
 
 ## Kubernetes 相关
 
+- [kubernetes](https://kubernetes.io/)
+- [operator-sdk](https://github.com/operator-framework/operator-sdk)
+  - [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder): SDK for building Kubernetes APIs using CRDs
 - [kubernetes/helm](https://github.com/kubernetes/helm): Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.
 - [kubernetes/charts](https://github.com/kubernetes/charts): Charts are curated application definitions for Kubernetes Helm
 - [Azure/draft](https://github.com/Azure/draft): Draft makes it easy to build applications that run on Kubernetes. Draft targets the "inner loop" of a developer's workflow: as they hack on code, but before code is committed to version control.
 - [kompose](https://github.com/kubernetes/kompose): Go from Docker Compose to Kubernetes
 - [kubectx](https://github.com/ahmetb/kubectx): 管理切换 kubectl 上下文
 - [skaffold](https://github.com/GoogleContainerTools/skaffold): Build\Test\Deploy\Tag\Push 自动化框架
-  - [kaniko](https://github.com/GoogleContainerTools/kaniko): A tool to BUILD container images from a Dockerfile, inside a container or Kubernetes cluster.
-
+  - [kaniko](https://github.com/GoogleContainerTools/kaniko): 在 k8s 里构建镜像
+- [kubeless](https://github.com/kubeless/kubeless): FaaS in k8s
 
 ## UI
 
@@ -54,8 +57,10 @@
 
 - [awesome-docker](https://github.com/veggiemonk/awesome-docker)
 - [docker-diff](https://github.com/moul/docker-diff): 比较两个 image 的文件改动
+  - [container-diff](https://github.com/GoogleContainerTools/container-diff): 备选方案
 - [dive](https://github.com/wagoodman/dive): 查看 docker 镜像的每一层 layer。支持 diff
 - [gVisor](https://github.com/google/gvisor): 沙盒式容器 runtime，注重安全性。
+- [k3s](https://github.com/rancher/k3s): 轻量级 k8s，用于边缘计算、嵌入式、物联网场景
 
 -----
 

@@ -671,6 +671,7 @@
 - [TripMode](https://www.tripmode.ch/): 控制应用的网络流量访问
 - [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html): 当 Mac 电脑被窃听时发出提醒
 - [Sloth](https://github.com/sveinbjornt/Sloth): 查看进程相关的文件。lsof 的 GUI 版
+- [Sip](http://sipapp.io): 取色器 `Ⓜ`
 
 ## Terminal
 
@@ -721,11 +722,9 @@
 [PAAS comparison - Dokku vs Flynn vs Deis vs Kubernetes vs Docker Swarm (2017)](http://www.jancarloviray.com/blog/paas-comparison-2017-dokku-flynn-deis-kubernetes-docker-swarm/)
 
 - [kubernetes](https://kubernetes.io/)
-- [deis/workflow](https://github.com/deis/workflow): 基于 Kubernetes 的 workflow
 - [dokku](https://github.com/dokku/dokku): 单机版 PaaS，低门槛
 - [tsuru](https://github.com/tsuru/tsuru): 待评价
 - Docker Swarm
-- [k3s](https://github.com/rancher/k3s): 轻量级 k8s，用于边缘计算、嵌入式、物联网场景
 
 ## Serverless
 
