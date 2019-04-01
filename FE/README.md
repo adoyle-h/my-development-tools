@@ -261,7 +261,6 @@
 - [popmotion](https://github.com/popmotion/popmotion): 类似 mojs，文件较小
 - [anime.js](https://github.com/juliangarnier/anime/)
 - [animate.css](https://github.com/daneden/animate.css)
-- [Effeckt.css](https://github.com/h5bp/Effeckt.css)
 - [velocity](https://github.com/julianshapiro/velocity)
 
 ### 3D

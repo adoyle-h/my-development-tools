@@ -168,6 +168,7 @@
 - [Ramda](https://github.com/ramda/ramda): 函数式编程工具集
 - [bluebird](https://github.com/petkaantonov/bluebird): 强大的 Promise 库
   - [promise-fun](https://github.com/sindresorhus/promise-fun): 轮子王造的独立的函数库
+  - [aigle](https://github.com/suguru03/aigle): bluebird 替代方案
 - [co](https://github.com/tj/co): 强大的异步处理库
 - [utility-maker](https://github.com/adoyle-h/utility-maker): 定义自己的工具集
 - [is](https://github.com/arasatasaygin/is.js): 类型判断

@@ -398,12 +398,16 @@
 - [vint](https://github.com/Kuniwak/vint): vim script lint
 - [yamllint](https://github.com/adrienverge/yamllint): YAML lint
 - [jsonlint](https://github.com/zaach/jsonlint): JSON lint
-- [proselint](https://github.com/amperser/proselint): 自然语言检查
+- [在线 JSON Lint](http://pro.jsonlint.com)
+- [proselint](https://github.com/amperser/proselint): 英文语法检查
+  - [alex](https://github.com/get-alex/alex): 英文语法检查
+  - [write-good](https://github.com/btford/write-good): 备选方案
 - [markdownlint](https://github.com/mivok/markdownlint): markdown lint
 - [HTMLHint](https://github.com/yaniswang/HTMLHint): HTML lint
-- [tidy](https://github.com/htacg/tidy-html5): HTML lint。备用
+  - [tidy](https://github.com/htacg/tidy-html5): 不明觉厉的 HTML lint。备用
 - [stylelint](https://github.com/stylelint/stylelint)
-- [csslint](https://github.com/CSSLint/csslint): 备用
+  - [csslint](https://github.com/CSSLint/csslint): 备用
+- [hadolint](https://github.com/hadolint/hadolint): Dockerfile Lint
 
 ## Mock
 
@@ -703,7 +707,6 @@
 - [PlantUML Gist](https://github.com/linux-china/plantuml-gist): 基于托管在 Gist 的 [PlantUML][] 在线生成 UML 图
 - [Pushbullet](https://www.pushbullet.com): 设备间消息推送
 - [在线 sed 编辑器](http://sed.js.org)
-- [在线 json lint](http://pro.jsonlint.com)
 - [codelf](http://unbug.github.io/codelf/): 解决命名烦恼
 - [Astral](https://app.astralapp.com): Github Star 管理器
 - [codepile](https://www.codepile.net): 可协作式网页端编辑器
@@ -765,6 +768,7 @@
 ## Markdown
 
 - [grip](https://github.com/joeyespo/grip): Markdown 即时渲染服务器
+  - [vmd](https://github.com/yoshuawuyts/vmd): Markdown 即时渲染应用。替代 grip
 - [json2md](https://github.com/IonicaBizau/json2md): 非常灵活的 Markdown 生成工具，容易自己定制功能
 - [markdown-toc](https://github.com/jonschlinkert/markdown-toc): 根据 markdown heading 文本输出 TOC
 
@@ -914,6 +918,7 @@
 - [tensorflow](https://github.com/tensorflow/tensorflow)
   - [tfjs](https://github.com/tensorflow/tfjs): TensorFlow JS 库
 - [pytorch](https://github.com/pytorch/pytorch)
+- [autokeras](https://github.com/jhfjhfj1/autokeras): AutoML
 
 -----
 
