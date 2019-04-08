@@ -551,7 +551,6 @@
 - [Session Buddy](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko): 暂存标签页
 - [The Great Suspender](https://github.com/deanoemcke/thegreatsuspender): 拯救你的内存被 Chrome 吃光
 - [ShowIp](https://chrome.google.com/webstore/detail/showip/agoljmemkbciolpigpabjfkagboolkcj)
-- [fontface.ninja](https://fontface.ninja/): 查看网页所用的字体
 - [声海盗](https://chrome.google.com/webstore/detail/%E5%A3%B0%E6%B5%B7%E7%9B%97/idleenniidjlnmnjkjmmnocnkmjibadd)
 - [EditThisCookie](https://github.com/fcapano/Edit-This-Cookie)
 - [Wikiwand](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj): 自动将 Wikipedia 的链接跳转到 Wikiwand
@@ -675,7 +674,8 @@
 - [TripMode](https://www.tripmode.ch/): 控制应用的网络流量访问
 - [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html): 当 Mac 电脑被窃听时发出提醒
 - [Sloth](https://github.com/sveinbjornt/Sloth): 查看进程相关的文件。lsof 的 GUI 版
-- [Sip](http://sipapp.io): 取色器 `Ⓜ`
+- [ColorSlurp](https://itunes.apple.com/cn/app/colorslurp/id1287239339): 取色器 `Ⓜ`
+  - [Sip](http://sipapp.io): 备选方案。体验更好。价格贵，年付。 `Ⓜ`
 
 ## Terminal
 
@@ -687,11 +687,7 @@
 - [cmder](https://github.com/cmderdev/cmder): terminal emulator on Windows `ⓦ`
 - [xterm.js](https://github.com/xtermjs/xterm.js): A terminal for the web
 
-## 字体
-
-- [FontForge](https://github.com/fontforge/fontforge): 字体设计工具
-- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
-- [RightFont](https://rightfontapp.com/cn): 字体管理
+## [字体](./design/README.md#字体)
 
 ## [Design](./design/README.md)
 

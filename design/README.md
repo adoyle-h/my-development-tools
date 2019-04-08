@@ -101,9 +101,15 @@
 
 ## Icon
 
-- [fontawesome](https://fontawesome.com)
+- [Font Awesome](https://fontawesome.com)
   - https://fontawesome.com/icons?d=gallery&m=free
   - https://fontawesome.com/cheatsheet
+- [Feather Icons](https://feathericons.com/)
+  - [源代码](https://github.com/feathericons/feather)
+- [Ionic Icon](https://ionicons.com/)
+  - [源代码](https://github.com/ionic-team/ionicons)
+- [octicons](https://github.com/primer/octicons): Github 出品的 Icon
+- [cssicon](https://github.com/wentin/cssicon): 完全用 CSS 做的 Icon
 
 ## Typography
 
@@ -116,6 +122,11 @@
 - https://grtcalculator.com/ : Golden Ratio Typography
 
 ### 字体
+
+- [fontface.ninja](https://fontface.ninja/): 查看网页所用的字体
+- [FontForge](https://github.com/fontforge/fontforge): 字体设计工具
+- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
+- [RightFont](https://rightfontapp.com/cn): 字体管理
 
 #### 有衬线英文
 

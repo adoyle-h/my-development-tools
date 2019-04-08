@@ -76,6 +76,9 @@
 - [size-limit](https://github.com/ai/size-limit): 检测 JS 文件的大小
 - http://gs.statcounter.com/ 前端全球数据统计
 - [uglify-js](https://github.com/mishoo/UglifyJS2): js 混淆工具
+- [jsnice](http://jsnice.org/): 反混淆工具（只是让代码容易看一点）。
+  - 反混淆关键词：de-obfuscate
+  - [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator/): 不是很好用
 - [js-beautify](https://github.com/beautify-web/js-beautify): html-beautify css-beautify js-beautify
 - [intro.js](https://github.com/usablica/intro.js): 分步用户引导/导航/介绍的库
 
