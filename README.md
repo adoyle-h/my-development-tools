@@ -241,6 +241,7 @@
 
 - [Eclipse Che](https://github.com/eclipse/che/): 很不错的云端 IDE
 - [Codesandbox](https://github.com/CompuIves/codesandbox-client)
+- [codepan](https://github.com/egoist/codepan): Like codepen and jsbin but works offline. https://codepan.net
 - https://stackblitz.com/ : Online IDE powered by Visual Studio Code
   - [源码](https://github.com/stackblitz/core)
 - https://codeanywhere.com/
@@ -473,6 +474,7 @@
 - [sindresorhus/speed-test](https://github.com/sindresorhus/speed-test): 测试网速。基于 speed-test.net 的命令
 - Linux 命令: `ping` `nc` `mtr` `netstat` `nettop`
 - [comcast](https://github.com/tylertreat/comcast): 模拟网络丢包
+- [ZBench](https://github.com/FunctionClub/ZBench): VPS 网络性能测评脚本
 
 ### 抓包工具
 
