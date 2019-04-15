@@ -106,7 +106,7 @@
 - [状态图 UML 图释](https://www.omg.org/news/meetings/workshops/presentations/eai_2001/tutorial_monday/tockey_tutorial/6-States,_Actions,_&_Activities.pdf)
 
 - [xstate](https://github.com/davidkpiano/xstate): 有限状态机
-  - [xstateful](https://github.com/avaragado/xstateful): 有状态的封装
+  - [use-machine](https://github.com/carloslfu/use-machine)
 
 ## 声音
 
@@ -166,9 +166,12 @@
 - [react-helmet](https://github.com/nfl/react-helmet): 用于 SPA 中动态改变 HTML 信息
 - [reactopt](https://github.com/reactopt/reactopt): React 性能优化
 
+
 ### React 组件
 
+- [react-i18next](https://github.com/i18next/react-i18next): 支持切换语言时自动切换翻译。
 - [react-json-view](https://github.com/mac-s-g/react-json-view): JSON Viewer
+- [react-error-boundary](https://github.com/bvaughn/react-error-boundary): Simple reusable React error boundary component
 
 ### Static Generator Environment
 

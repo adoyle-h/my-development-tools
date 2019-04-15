@@ -54,6 +54,7 @@
 - [evil](#evil)
 - [SSL](#ssl)
 - [NPM](#npm)
+- [序列化](#序列化)
 - [其他](#其他)
 - [我关注的人/组](#我关注的人组)
 - [待评价](#待评价)
@@ -388,6 +389,11 @@
 - [verdaccio](https://github.com/verdaccio/verdaccio): NPM 私有仓库
   - [cnpmjs.org](https://github.com/cnpm/cnpmjs.org)
 
+## 序列化
+
+- [fast-json-stringify](https://github.com/fastify/fast-json-stringify): 比原生的 `JSON.stringify()` 快
+- [serialize-javascript](https://github.com/yahoo/serialize-javascript): 序列化 JS，支持函数、正则表达式
+
 ## 其他
 
 - [license-checker](https://github.com/davglass/license-checker): Check NPM package licenses
@@ -398,8 +404,7 @@
 - [franc](https://github.com/wooorm/franc): 自然语言判断
 - [node-temp](https://github.com/bruce/node-temp): 产生临时目录文件
 - [jsdom](https://github.com/tmpvar/jsdom): 在 nodejs 使用符合 WHATWG 和 HTML 标准的 JS DOM
-- [opn](https://github.com/sindresorhus/opn): 很方便的打开网站，文件，或可执行文件的命令
-- [fast-json-stringify](https://github.com/fastify/fast-json-stringify): 比原生的 `JSON.stringify()` 快
+- [open](https://github.com/sindresorhus/open): 很方便的打开网站，文件，或可执行文件的命令
 
 ## 我关注的人/组
 
