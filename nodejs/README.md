@@ -388,6 +388,8 @@
 
 - [verdaccio](https://github.com/verdaccio/verdaccio): NPM 私有仓库
   - [cnpmjs.org](https://github.com/cnpm/cnpmjs.org)
+- [yarn](https://github.com/yarnpkg/yarn): 安装速度确实比 NPM 快很多
+  - [yarn-completion](https://github.com/dsifford/yarn-completion): bash 自动补全
 
 ## 序列化
 
