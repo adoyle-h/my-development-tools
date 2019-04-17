@@ -8,6 +8,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [HTML](#html)
 - [A11Y](#a11y)
 - [Browser Feature Detection](#browser-feature-detection)
 - [文件上传](#文件上传)
@@ -82,6 +83,10 @@
   - [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator/): 不是很好用
 - [js-beautify](https://github.com/beautify-web/js-beautify): html-beautify css-beautify js-beautify
 - [intro.js](https://github.com/usablica/intro.js): 分步用户引导/导航/介绍的库
+
+## HTML
+
+- [HEAD](https://github.com/joshbuchea/HEAD): HEAD 里放什么？
 
 ## A11Y
 
@@ -344,7 +349,7 @@
 
 - [debug](https://github.com/visionmedia/debug): 调试日志
 - [log-with-style](https://github.com/adamschwartz/log): 输出带样式的日志
-- [pino](https://github.com/pinojs/pino): 支持前端的日志库
+- [consola](https://github.com/nuxt/consola): 同时支持前端和 Node 端的日志库
 
 ## 兼容性检查
 
