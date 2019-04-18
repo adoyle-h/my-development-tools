@@ -454,6 +454,8 @@
 - [pgcli](https://github.com/dbcli/pgcli): postgres 命令行客户端
 - [medis](https://github.com/luin/medis): Redis GUI Client  `Ⓜ`
 - [SQL 速查表](https://github.com/enochtangg/quick-SQL-cheatsheet/blob/master/README_zh-hans.md)
+- [UNQLite](https://github.com/symisc/unqlite):
+- [SQLite](https://www.sqlite.org)
 
 ## 数据库设计
 
@@ -472,7 +474,7 @@
 - [proxychains-ng](https://github.com/rofl0r/proxychains-ng): http 代理
 - [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理
 - [sindresorhus/speed-test](https://github.com/sindresorhus/speed-test): 测试网速。基于 speed-test.net 的命令
-- Linux 命令: `ping` `nc` `mtr` `netstat` `nettop`
+- Linux 命令: `ping`, `nc`, `mtr`, `netstat`, `nettop`, `iftop`
 - [comcast](https://github.com/tylertreat/comcast): 模拟网络丢包
 - [ZBench](https://github.com/FunctionClub/ZBench): VPS 网络性能测评脚本
 
@@ -752,8 +754,15 @@
 ## 交互式 Notebook
 
 - [Jupyter](http://jupyter.org/): 交互式可编程的 notebook，主要支持 python。也可扩展支持其他语言
-- [EVE](https://github.com/witheve/eve): 非常酷的概念，Literate Programming 的一种实现，Medium 式编程。(项目太新，仍需发展)
-- [kajero](https://github.com/joelotter/kajero): Interactive JavaScript notebooks with clever graphing
+- [JupyterLab](https://github.com/jupyterlab/jupyterlab): Jupyter 新的 Web 界面。
+  - [介绍](https://zhuanlan.zhihu.com/p/33898478)
+  - [DEMO](https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/master?urlpath=lab/tree/demo)
+- [nteract](https://github.com/nteract/nteract): 基于 Jupyter 的前端跨平台项目
+- 吃灰但值得一看的项目
+  - [EVE](https://github.com/witheve/eve): 「[团队解散](https://github.com/witheve/Eve/issues/889#issuecomment-395056593)」非常酷的概念，Literate Programming 的一种实现，Medium 式编程。
+  - [kajero](https://github.com/joelotter/kajero): 「无人维护」Interactive JavaScript notebooks with clever graphing
+- https://mybinder.org/
+  - 源码 [binderhub](https://github.com/jupyterhub/binderhub)
 
 ## [NodeJS 开发](./nodejs/README.md)
 

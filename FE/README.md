@@ -8,6 +8,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [物理引擎](#物理引擎)
 - [HTML](#html)
 - [A11Y](#a11y)
 - [Browser Feature Detection](#browser-feature-detection)
@@ -84,6 +85,10 @@
 - [js-beautify](https://github.com/beautify-web/js-beautify): html-beautify css-beautify js-beautify
 - [intro.js](https://github.com/usablica/intro.js): 分步用户引导/导航/介绍的库
 
+## 物理引擎
+
+- [matter.js](https://github.com/liabru/matter-js)
+
 ## HTML
 
 - [HEAD](https://github.com/joshbuchea/HEAD): HEAD 里放什么？
@@ -132,6 +137,8 @@
 ## 存储
 
 - [localForage](https://github.com/localForage/localForage): 异步存储的统一封装
+- [sql.js](https://github.com/kripken/sql.js/): JS 版本的 SQLite，前后端通用
+  - [node-sqlite3](https://github.com/mapbox/node-sqlite3): 只支持 NodeJS 的 SQLite
 
 ## Fast-Development
 
@@ -184,6 +191,9 @@
 - [react-i18next](https://github.com/i18next/react-i18next): 支持切换语言时自动切换翻译。
 - [react-json-view](https://github.com/mac-s-g/react-json-view): JSON Viewer
 - [react-error-boundary](https://github.com/bvaughn/react-error-boundary): Simple reusable React error boundary component
+- [rebass](https://github.com/rebassjs/rebass): React primitive UI components built with styled-system
+  - [rebassjs/space](https://github.com/rebassjs/space): 源码用了 React.cloneElement，不太好
+  - [rebassjs/grid](https://github.com/rebassjs/grid)
 
 ### Static Generator Environment
 
