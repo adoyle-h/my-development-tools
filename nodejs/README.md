@@ -279,7 +279,7 @@
 
 ## 文档
 
-- [documentation.js](https://github.com/documentationjs/documentation): 基于 JSDoc 渲染文档，支持输出 HTML/Markdown/JSON
+- [documentation.js](https://github.com/documentationjs/documentation): documentation for modern JavaScript. 基于 JSDoc 渲染文档，支持很多酷炫的特性，支持输出 HTML/Markdown/JSON
 - [esdoc](https://github.com/esdoc/esdoc): JSDoc 当前不支持 ES6 语法，或许可以尝试使用这个
 - [all-contributors](https://github.com/kentcdodds/all-contributors): 贡献统计
 - [verb](https://github.com/verbose/verb): 文档生成器的生成器
@@ -322,7 +322,8 @@
 ## Code Lint
 
 - [eslint](https://github.com/eslint/eslint): 规则式代码校验器
-- [stylelint](https://github.com/stylelint/stylelint): css lint
+  - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
+  - [eslint-import-resolver-alias](https://github.com/johvin/eslint-import-resolver-alias)
 
 ## Profiling
 

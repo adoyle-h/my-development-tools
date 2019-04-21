@@ -11,6 +11,7 @@
 - [物理引擎](#物理引擎)
 - [HTML](#html)
 - [A11Y](#a11y)
+- [Code Lint](#code-lint)
 - [Browser Feature Detection](#browser-feature-detection)
 - [文件上传](#文件上传)
 - [ECMAScript](#ecmascript)
@@ -24,8 +25,10 @@
 - [编译工具](#编译工具)
 - [Webpack](#webpack)
     - [analyzer](#analyzer)
-- [React](#react)
+- [UI 组件](#ui-组件)
+    - [Loading Spinner](#loading-spinner)
     - [React 组件](#react-组件)
+- [React](#react)
     - [Static Generator Environment](#static-generator-environment)
     - [DevTools](#devtools)
     - [UI Component Explorer](#ui-component-explorer)
@@ -97,6 +100,10 @@
 
 - [axe-core](https://github.com/dequelabs/axe-core)
   - [react-axe](https://github.com/dequelabs/react-axe)
+
+## Code Lint
+
+- [stylelint](https://github.com/stylelint/stylelint): css lint
 - [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
 
 ## Browser Feature Detection
@@ -174,6 +181,25 @@
 - [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
 - [webpack-bundle-size-analyzer](https://github.com/robertknight/webpack-bundle-size-analyzer)
 
+## UI 组件
+
+- [noty](https://github.com/needim/noty): 通知提示
+
+### Loading Spinner
+
+- [react-spinners-kit](https://github.com/dmitrymorozoff/react-spinners-kit)
+- [react-loading](https://github.com/fakiolinho/react-loading)
+
+### React 组件
+
+- https://reactjsexample.com/
+- [react-i18next](https://github.com/i18next/react-i18next): 支持切换语言时自动切换翻译。
+- [react-json-view](https://github.com/mac-s-g/react-json-view): JSON Viewer
+- [react-error-boundary](https://github.com/bvaughn/react-error-boundary): Simple reusable React error boundary component
+- [rebass](https://github.com/rebassjs/rebass): React primitive UI components built with styled-system
+  - [rebassjs/space](https://github.com/rebassjs/space): 源码用了 React.cloneElement，不太好
+  - [rebassjs/grid](https://github.com/rebassjs/grid)
+
 ## React
 
 - [preact](https://github.com/developit/preact): React alternative
@@ -184,16 +210,6 @@
 - [react-loadable](https://github.com/jamiebuilds/react-loadable): 动态加载组件的工具
 - [react-helmet](https://github.com/nfl/react-helmet): 用于 SPA 中动态改变 HTML 信息
 - [reactopt](https://github.com/reactopt/reactopt): React 性能优化
-
-
-### React 组件
-
-- [react-i18next](https://github.com/i18next/react-i18next): 支持切换语言时自动切换翻译。
-- [react-json-view](https://github.com/mac-s-g/react-json-view): JSON Viewer
-- [react-error-boundary](https://github.com/bvaughn/react-error-boundary): Simple reusable React error boundary component
-- [rebass](https://github.com/rebassjs/rebass): React primitive UI components built with styled-system
-  - [rebassjs/space](https://github.com/rebassjs/space): 源码用了 React.cloneElement，不太好
-  - [rebassjs/grid](https://github.com/rebassjs/grid)
 
 ### Static Generator Environment
 
