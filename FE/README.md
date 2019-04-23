@@ -250,6 +250,7 @@
 
 - [clean-css](https://github.com/jakubpawlowicz/clean-css)
 - [normalize.css](https://github.com/necolas/normalize.css)
+  - [styled-normalize](https://github.com/sergeysova/styled-normalize): normalize.css 的 React 组件
 - [react-css-themr](https://github.com/javivelasco/react-css-themr): 主题化样式，依赖注入
 - https://csstriggers.com/
 
@@ -382,8 +383,10 @@
 - http://outdatedbrowser.com/zh-cn  浏览器升级提示
   - source: https://github.com/burocratik/outdated-browser
 - [browserslist](https://github.com/ai/browserslist): Share target browsers between different front-end tools, like Autoprefixer, Stylelint and babel-preset-env.
+    - https://browserl.ist : Display compatible browsers from a browserslist string.
 - [browser-compat-data](https://github.com/mdn/browser-compat-data): This repository contains compatibility data for Web technologies as displayed on MDN
 - [compat-table](https://github.com/kangax/compat-table): ECMAScript 5/6/7 compatibility tables
+- [core-js](https://github.com/zloirock/core-js): 非常细分的 JS Polyfill
 
 ## Polyfill
 
