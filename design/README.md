@@ -128,6 +128,7 @@
 - [FontForge](https://github.com/fontforge/fontforge): 字体设计工具
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 - [RightFont](https://rightfontapp.com/cn): 字体管理
+- https://font-viewer.com : 字体比较。支持系统字体和 Google Font
 
 #### 有衬线英文
 

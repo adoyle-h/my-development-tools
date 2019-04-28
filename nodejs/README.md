@@ -199,7 +199,8 @@
 
 ## 测试
 
-- [ava](https://github.com/avajs/ava): 单元测试
+- [jest](https://github.com/facebook/jest): 测试框架，前后端通用，支持 ts、babel 等扩展。
+    - [ava](https://github.com/avajs/ava): 备选方案
 - [nyc](https://github.com/istanbuljs/nyc): 测试覆盖率
 - [sinon](https://github.com/sinonjs/sinon): Stub/Mock/Spie 工具库
 - [supertest](https://github.com/visionmedia/supertest): 测试 http 服务器
@@ -229,6 +230,7 @@
 - [Chance](https://github.com/chancejs/chancejs): 制造假数据。备选2
 - [nuysoft/Mock](https://github.com/nuysoft/Mock): 制造假数据。备选3
 - [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker): 根据 json schema 生成数据
+- [nock](https://github.com/nock/nock): HTTP server mocking and expectations library for Node.js
 
 ## 错误处理
 
@@ -391,6 +393,7 @@
   - [cnpmjs.org](https://github.com/cnpm/cnpmjs.org)
 - [yarn](https://github.com/yarnpkg/yarn): 安装速度确实比 NPM 快很多
   - [yarn-completion](https://github.com/dsifford/yarn-completion): bash 自动补全
+- [np](https://github.com/sindresorhus/np): A better `npm publish`
 
 ## 序列化
 

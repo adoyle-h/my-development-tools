@@ -210,6 +210,7 @@
 - [react-loadable](https://github.com/jamiebuilds/react-loadable): 动态加载组件的工具
 - [react-helmet](https://github.com/nfl/react-helmet): 用于 SPA 中动态改变 HTML 信息
 - [reactopt](https://github.com/reactopt/reactopt): React 性能优化
+- [react-360](https://github.com/facebook/react-360): a framework for the creation of 3D and VR user interfaces. Built on top of React.
 
 ### Static Generator Environment
 
@@ -352,6 +353,7 @@
 
 ## 测试
 
+- [jest](https://github.com/facebook/jest): 测试框架，前后端通用，支持 ts、babel 等扩展。
 - [cypress](https://github.com/cypress-io/cypress): 非常酷炫的，大而全的，前端自动化测试框架。
 - [enzyme](https://github.com/airbnb/enzyme): JavaScript Testing utilities for React
 

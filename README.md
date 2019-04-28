@@ -4,12 +4,13 @@
 
 ## 说明
 
-- `⨀` 表示 **开源软件**。本文档大部分都是开源的，所以只注明特别的软件。
+- `⨀` 表示 **开源软件**。本文档大部分都是开源的，所以只注明特别的软件；
 - `Ⓜ` 表示兼容 **Mac 平台**；
 - `Ⓛ` 表示兼容 **Linux 平台**；
 - `ⓦ` 表示兼容 **Windows 平台**；
 - `Ⓗ` 表示可以通过 **[Homebrew][]** 安装；
 - `ⱳ` 表示 **Web 服务**；
+- `ⓒ` 表示 Chrome 插件；
 
 ## TOC
 
@@ -19,9 +20,10 @@
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
-    - [Semver](#semver)
-    - [RFC](#rfc)
-    - [License](#license)
+- [Semver](#semver)
+- [RFC](#rfc)
+- [License](#license)
+- [Github](#github)
 - [SVG](#svg)
 - [代码质量检查](#代码质量检查)
 - [安全](#安全)
@@ -93,6 +95,7 @@
     - [静态文件托管](#静态文件托管)
 - [PaaS](#paas)
 - [Serverless](#serverless)
+- [跳板机/堡垒机](#跳板机堡垒机)
 - [REPL](#repl)
 - [正则表达式 (Regex)](#正则表达式-regex)
 - [数据可视化](#数据可视化)
@@ -143,20 +146,32 @@
 - https://www.uuidgenerator.net/ : uuid 生成器 `ⱳ`
 
 
-### Semver
+## Semver
 
 - [semver-diff](https://github.com/sindresorhus/semver-diff): semver 比较
 
-### RFC
+## RFC
 
 - https://tools.ietf.org/ : 查看 IETF RFC 文档的工具。
 - https://www.rfc-editor.org/ : 查看 IETF RFC 文档的工具。
   - https://everyrfc.org/ : 备选。RFC 搜索引擎
 
-### License
+## License
 
 - https://spdx.org/licenses/
   - [spdx-license-list](https://github.com/sindresorhus/spdx-license-list): nodejs 包
+
+## Github
+
+- [all-contributors](https://github.com/all-contributors/all-contributors): 用 `.all-contributorsrc` 文件记录项目维护者列表。
+- [octotree](https://github.com/buunguyen/octotree): Github 文件浏览器。`ⓒ`
+- [Astral](https://app.astralapp.com): Github Star 管理器。`ⱳ`
+<a name="github-contributions-chart"></a>
+- [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 生成 Github contributions 图片。类似的还有 [git-cal][]
+  - [API](https://github.com/sallar/github-contributions-api)
+- [isometric-contributions](https://github.com/jasonlong/isometric-contributions): Github contributions 图表重构
+- [Refined GitHub](https://github.com/sindresorhus/refined-github)。改进 Github 界面。`ⓒ`
+- [notifier-for-github](https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn): Displays your GitHub notifications unread count. `ⓒ`
 
 ## SVG
 
@@ -260,6 +275,7 @@
 - [aria2](https://github.com/aria2/aria2): 最强大的下载工具
   - [BaiduExporter](https://github.com/acgotaku/BaiduExporter): 百度网盘助手
 - [youtube-dl](https://github.com/rg3/youtube-dl): 视频下载工具
+- [Motrix](https://github.com/agalwood/Motrix): 美观又强大的下载工具
 
 ## Linux
 
@@ -512,7 +528,7 @@
 <a name="git-cal"></a>
 - [git-cal](https://github.com/k4rthik/git-cal): 类似 Github 活动图的命令行版
   - [git-stats](https://github.com/IonicaBizau/git-stats): 同 [git-cal][]
-  - [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 查看自己的 Github 贡献经历
+  - [github-contributions-chart][]
 - [git-extras](https://github.com/tj/git-extras): git 扩展命令
 - [git-lfs](https://github.com/git-lfs/git-lfs): git 支持大文件存储
 - [git-recall](https://github.com/Fakerr/git-recall): 交互式 git log
@@ -543,7 +559,6 @@
 - [Tampermonkey](https://github.com/Tampermonkey/tampermonkey): 开源版油猴。开源前端脚本管理器。
 - [Unsplash Instant](https://chrome.google.com/webstore/detail/unsplash-instant/pejkokffkapolfffcgbmdmhdelanoaih): 新标签页壁纸。太美了
 - [vimium](https://github.com/philc/vimium): vim 风格操作浏览器
-- [octotree](https://github.com/buunguyen/octotree): github 文件浏览器
 - [smart-toc](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba): 根据页面生成 TOC
 - [tamperchrome](https://github.com/google/tamperchrome): 实时拦截并修改请求。不必依赖 Charles 这种代理服务器了
 - [Requestly](https://www.requestly.in/content/documentation/): 拦截修改 HTTP 请求，非常灵活好用！
@@ -551,7 +566,6 @@
 - [JavaScript Errors Notifier](https://chrome.google.com/webstore/detail/javascript-errors-notifie/jafmfknfnkoekkdocjiaipcnmkklaajd)
 - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
 - [Isometric Contributions](https://chrome.google.com/webstore/detail/isometric-contributions/mjoedlfflcchnleknnceiplgaeoegien)
-- [Refined GitHub](https://github.com/sindresorhus/refined-github)
 - [rikaikun](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp): 日语翻译工具
 - [RSS Subscription Extension](https://chrome.google.com/webstore/detail/rss-subscription-extensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd)
 - [Session Buddy](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko): 暂存标签页
@@ -710,7 +724,6 @@
 - [Pushbullet](https://www.pushbullet.com): 设备间消息推送
 - [在线 sed 编辑器](http://sed.js.org)
 - [codelf](http://unbug.github.io/codelf/): 解决命名烦恼
-- [Astral](https://app.astralapp.com): Github Star 管理器
 - [codepile](https://www.codepile.net): 可协作式网页端编辑器
 - https://unicode-table.com/cn/
 - [Wikiwand](http://www.wikiwand.com/): Wikipedia Modernized。非常漂亮的 Wikipedia 阅读器
@@ -736,6 +749,11 @@
 - [apex/up](https://github.com/apex/up): 值得期待
   - https://hackernoon.com/up-b3db1ca930ee
 - [serverless/serverless](https://github.com/serverless/serverless)
+
+## 跳板机/堡垒机
+
+- [jumpserver](https://github.com/jumpserver/jumpserver)
+- [teleport](https://github.com/gravitational/teleport)
 
 ## REPL
 
@@ -777,7 +795,7 @@
 ## 文档处理
 
 - [unified](https://github.com/unifiedjs/unified): https://unified.js.org/
-- [remark](https://github.com/remarkjs/remark): 
+- [remark](https://github.com/remarkjs/remark): markdown processor
 
 ## Markdown
 
@@ -896,7 +914,6 @@
 - Mac 命令 say: `say hello`, `say 你好`, `say こんにちは`
 - [lolcat](https://github.com/busyloop/lolcat): rainbow cat
 - [haxor-news](https://github.com/donnemartin/haxor-news): 终端版 hacker news
-- [isometric-contributions](https://github.com/jasonlong/isometric-contributions): Github contributions 图表重构
 - [wtf](https://linux.die.net/man/6/wtf): 英文缩写解释工具。[使用介绍](https://www.zhihu.com/question/59227720/answer/286727058)
 - [pm](https://github.com/anvaka/pm): 包管理可视化
 - [sorry](https://github.com/xtyxtyx/sorry): 为所欲为 GIF 制作器
@@ -957,6 +974,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 [KeePass]: #user-content-KeePass
 [PlantUML]: #user-content-PlantUML
 [git-cal]: #user-content-git-cal
+[github-contributions-chart]: #user-content-github-contributions-chart
 [Homebrew]: #user-content-Homebrew
 [Caffeine]: #user-content-Caffeine
 

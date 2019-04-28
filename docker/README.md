@@ -7,6 +7,7 @@
 
 <!-- MarkdownTOC GFM -->
 
+- [镜像制作](#镜像制作)
 - [监控](#监控)
 - [安全](#安全)
 - [日志](#日志)
@@ -17,6 +18,11 @@
 - [待评价](#待评价)
 
 <!-- /MarkdownTOC -->
+
+## 镜像制作
+
+- [tini](https://github.com/krallin/tini): init 进程
+- [docker-compose-wait](https://github.com/ufoscout/docker-compose-wait): 等待依赖服务启动后再执行脚本
 
 ## 监控
 
