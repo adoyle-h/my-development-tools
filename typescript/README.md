@@ -23,6 +23,7 @@
   - [@types/json-schema](https://github.com/kriszyp/json-schema)
 - [dts-generator](https://github.com/SitePen/dts-generator): 生成 d.ts 的工具
   - [dts-gen](https://github.com/Microsoft/dts-gen): 生成 d.ts 的工具，必须先全局安装再编译，有点麻烦
+- [type-fest](https://github.com/sindresorhus/type-fest): A collection of essential TypeScript types
 
 
 **[⬆ 返回顶部](#top)**

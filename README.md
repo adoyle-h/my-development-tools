@@ -2,6 +2,17 @@
 
 我的开发工具箱。持续更新中。
 
+只记录我在用的工具，所以
+
+1. 当我不用了或者找到更好的替代品，会移除掉旧记录。
+2. 不接受 Pull Request，有问题可以提 Issue。
+
+## 版权声明 (Copyright and License)
+
+Copyright (c) 2016-2019 ADoyle. The project is licensed under the **BSD 3-clause License**.
+
+See the [LICENSE][] file for the specific language governing permissions and limitations under the License.
+
 ## 说明
 
 - `⨀` 表示 **开源软件**。本文档大部分都是开源的，所以只注明特别的软件；
@@ -130,7 +141,6 @@
 - [待评价](#待评价)
     - [机器学习](#机器学习)
 - [别人的工具列表](#别人的工具列表)
-- [版权声明 (Copyright and License)](#版权声明-copyright-and-license)
 
 <!-- /MarkdownTOC -->
 </details>
@@ -149,6 +159,7 @@
 ## Semver
 
 - [semver-diff](https://github.com/sindresorhus/semver-diff): semver 比较
+- [standard-version](https://github.com/conventional-changelog/standard-version): Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org
 
 ## RFC
 
@@ -185,7 +196,6 @@
 
 - [Snyk](https://snyk.io/): 开源风险收集检测服务。提供 API 和 CLI 做检查。
 - [Scanners-Box](https://github.com/We5ter/Scanners-Box): 安全行业从业者自研开源扫描器合辑
-
 
 ### 逆向工程
 
@@ -253,6 +263,7 @@
 - [ory/editor](https://github.com/ory/editor): 基于 React 和 Redux 的内容编辑器
 - [slate](https://github.com/ianstormtaylor/slate)
 - [trix](https://github.com/basecamp/trix)
+- [editor.js](https://github.com/codex-team/editor.js): A block-styled editor with clean JSON output
 
 ### Online IDE
 
@@ -427,6 +438,8 @@
 - [stylelint](https://github.com/stylelint/stylelint)
   - [csslint](https://github.com/CSSLint/csslint): 备用
 - [hadolint](https://github.com/hadolint/hadolint): Dockerfile Lint
+<a name="commitlint"></a>
+- [commitlint](https://github.com/conventional-changelog/commitlint): Lint git commit messages
 
 ## Mock
 
@@ -533,6 +546,7 @@
 - [git-lfs](https://github.com/git-lfs/git-lfs): git 支持大文件存储
 - [git-recall](https://github.com/Fakerr/git-recall): 交互式 git log
 - [cz-cli](https://github.com/commitizen/cz-cli): git commit message 规范工具
+  - [commitlint][]
 - [GitKraken](https://www.gitkraken.com): Git GUI
   - [Sublime Merge](https://www.sublimemerge.com/): Sublime 作者出品的 Git GUI，查找跳转很方便，但是目前 UI 设计不好，看起来不够直观
 - [git-tips](https://github.com/git-tips/tips): git 使用技巧
@@ -580,6 +594,7 @@
 <a name="PlantUML"></a>
 - [PlantUML](https://github.com/plantuml/plantuml): 用代码画 UML 图或流程图
   - [node-plantuml](https://github.com/markushedvall/node-plantuml): node 命令行 [PlantUML][]
+  - [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML): C4 Model
 - [Mermaid](https://github.com/knsv/mermaid): 类似 PlantUML，另一种基于文本生成图的工具
   - [Mermaid Live Editor](https://mermaidjs.github.io/mermaid-live-editor/)
 - [Monodraw](https://monodraw.helftone.com): ASCII Art 画图工具 `Ⓜ`
@@ -924,6 +939,7 @@
 - [windows95](https://github.com/felixrieseberg/windows95): 💩🚀 Windows 95 in Electron.
 - [v86](https://github.com/copy/v86): 浏览器或 NodeJS 里运行 x86 系统。
 - [cowsay](https://linux.die.net/man/1/cowsay) and [ponysay](https://github.com/erkin/ponysay)
+- [countdown](https://github.com/antonmedv/countdown): 终端倒计时
 
 ### Game
 
@@ -960,12 +976,6 @@
 - [skyseraph/Soft-Tools](https://github.com/skyseraph/Soft-Tools)
 - [Kickball/awesome-selfhosted](https://github.com/Kickball/awesome-selfhosted)
 
-## 版权声明 (Copyright and License)
-
-Copyright (c) 2016-2019 ADoyle. The project is licensed under the **BSD 3-clause License**.
-
-See the [LICENSE][] file for the specific language governing permissions and limitations under the License.
-
 
 **[⬆ 返回顶部](#说明)**
 
@@ -977,6 +987,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 [github-contributions-chart]: #user-content-github-contributions-chart
 [Homebrew]: #user-content-Homebrew
 [Caffeine]: #user-content-Caffeine
+[commitlint]: #user-content-commitlint
 
 <!-- icons -->
 

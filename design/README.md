@@ -54,6 +54,7 @@
 - [avataaars-geneator](https://github.com/fangpenlin/avataaars-geneator): 头像生成器
   - [avataaars React 组件](https://github.com/fangpenlin/avataaars)
   - [avataaars Sketch 插件](https://avataaars.com/)
+- https://lipsum.com/ : Lorem Ipsum，也称乱数假文或者哑元文本，是印刷及排版领域所常用的虚拟文字。支持各种语言。
 
 ## 设计规范
 

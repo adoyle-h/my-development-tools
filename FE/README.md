@@ -211,6 +211,8 @@
 - [react-helmet](https://github.com/nfl/react-helmet): 用于 SPA 中动态改变 HTML 信息
 - [reactopt](https://github.com/reactopt/reactopt): React 性能优化
 - [react-360](https://github.com/facebook/react-360): a framework for the creation of 3D and VR user interfaces. Built on top of React.
+- [react-fast-compare](https://github.com/FormidableLabs/react-fast-compare)
+- [svgr](https://github.com/smooth-code/svgr): SVG 转成 React 组件。
 
 ### Static Generator Environment
 
@@ -283,6 +285,7 @@
 ### 排版 Typography
 
 - [typography.js](https://github.com/kyleamathews/typography.js): A powerful toolkit for building websites with beautiful design
+- [textblock](https://github.com/glyphic-co/textblock): for adjusting size, leading, and grades to cast continuously responsive typography
 - [FlowType.JS](https://github.com/simplefocus/FlowType.JS): 根据容器宽度自动调整字号
 - [typo.css](https://github.com/sofish/typo.css): 中文排版优化
 

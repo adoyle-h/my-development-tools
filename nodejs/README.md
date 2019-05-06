@@ -411,6 +411,7 @@
 - [node-temp](https://github.com/bruce/node-temp): 产生临时目录文件
 - [jsdom](https://github.com/tmpvar/jsdom): 在 nodejs 使用符合 WHATWG 和 HTML 标准的 JS DOM
 - [open](https://github.com/sindresorhus/open): 很方便的打开网站，文件，或可执行文件的命令
+- [fast-deep-equal](https://github.com/epoberezkin/fast-deep-equal)
 
 ## 我关注的人/组
 
