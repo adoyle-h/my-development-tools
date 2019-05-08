@@ -127,12 +127,14 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [OCR](#ocr)
 - [Android](#android)
 - [视音频](#视音频)
-- [NLP](#nlp)
+- [知识图谱](#知识图谱)
+- [互联网关键词趋势](#互联网关键词趋势)
+- [自然语言处理 (NLP)](#自然语言处理-nlp)
     - [工具包](#工具包)
     - [Corpus 语料库](#corpus-语料库)
+    - [信息提取 (Information Extraction)](#信息提取-information-extraction)
     - [Word Segment 分词](#word-segment-分词)
-    - [Information Extraction 信息提取](#information-extraction-信息提取)
-    - [Chinese NLP](#chinese-nlp)
+    - [自然语言生成 (NLG)](#自然语言生成-nlg)
 - [中国特色](#中国特色)
     - [翻墙](#翻墙)
 - [Funny](#funny)
@@ -250,13 +252,14 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [oni](https://github.com/onivim/oni): Neovim GUI 编辑器
 - [Visual Studio Code](https://github.com/Microsoft/vscode): 可能是最棒的开源 IDE
   - [code-settings-sync](https://github.com/shanalikhan/code-settings-sync): VSC 设置备份同步工具
+  - [code-server](https://github.com/cdr/code-server): Run VS Code on a remote server
 - [Sublime](http://www.sublimetext.com): 也许现在比不上其他工具，它是推动编辑器体验进化的功臣。
 
 ### 代码编辑器
 
 - [ace](https://github.com/ajaxorg/ace)
 - [CodeMirror](https://github.com/codemirror/codemirror)
-- [Monaco Editor](https://github.com/Microsoft/monaco-editor)
+- [Monaco Editor](https://github.com/Microsoft/monaco-editor): VS Code 的代码编辑器
 
 ### 富文本编辑器 WYSIWYG
 
@@ -268,9 +271,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ### Online IDE
 
 - [Eclipse Che](https://github.com/eclipse/che/): 很不错的云端 IDE
+- [Theia](https://github.com/theia-ide/theia): Web IDE
 - [Codesandbox](https://github.com/CompuIves/codesandbox-client)
 - [codepan](https://github.com/egoist/codepan): Like codepen and jsbin but works offline. https://codepan.net
-- https://stackblitz.com/ : Online IDE powered by Visual Studio Code
+- https://stackblitz.com/ : StackBlitz, Online IDE powered by Visual Studio Code
   - [源码](https://github.com/stackblitz/core)
 - https://codeanywhere.com/
 
@@ -884,24 +888,39 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [源码 obsproject/obs-studio](https://github.com/obsproject/obs-studio)
 - [Sound Siphon](https://staticz.com/soundsiphon/): Mac 下最好用的音频录制工具。能创建虚拟输入设备。能把任何应用的音频输出转发到另一个应用上。价格有点贵。 `Ⓜ`
 
-## NLP
+## 知识图谱
+
+## 互联网关键词趋势
+
+- [Google Trends](https://trends.google.com/trends/)
+
+## 自然语言处理 (NLP)
 
 - https://github.com/apachecn/AiLearning
+- https://github.com/crownpku/Awesome-Chinese-NLP
 
 ### 工具包
 
-- [HanLP](https://github.com/hankcs/HanLP)
-- [fastNLP](https://github.com/fastnlp/fastNLP)
+- [HanLP](https://github.com/hankcs/HanLP): 一系列中文信息处理的工具库
+- [fastNLP](https://github.com/fastnlp/fastNLP): A Modularized and Extensible NLP Framework
 
 ### Corpus 语料库
 
+- https://github.com/search?q=Corpus&ref=opensearch&s=stars
+
+### 信息提取 (Information Extraction)
+
+- https://prodi.gy/ : 界面和功能很强大
+- [snorkel](https://github.com/HazyResearch/snorkel): A system for rapidly creating, modeling, and managing training data with weak supervision
+- [Information-Extraction-Chinese](https://github.com/crownpku/Information-Extraction-Chinese): 中文实体识别与关系提取
+- [YEDDA](https://github.com/jiesutd/YEDDA): 支持中文
+- [funNLP](https://github.com/fighting41love/funNLP): 一系列信息提取的工具库
+
 ### Word Segment 分词
 
-### Information Extraction 信息提取
+### 自然语言生成 (NLG)
 
-### Chinese NLP
 
-- https://github.com/crownpku/Awesome-Chinese-NLP
 
 ## 中国特色
 
