@@ -31,6 +31,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+- [镜像站](#镜像站)
 - [Semver](#semver)
 - [RFC](#rfc)
 - [License](#license)
@@ -130,7 +131,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [知识图谱](#知识图谱)
 - [互联网关键词趋势](#互联网关键词趋势)
 - [自然语言处理 (NLP)](#自然语言处理-nlp)
-    - [工具包](#工具包)
     - [Corpus 语料库](#corpus-语料库)
     - [信息提取 (Information Extraction)](#信息提取-information-extraction)
     - [Word Segment 分词](#word-segment-分词)
@@ -157,11 +157,16 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [cheatsheets](https://github.com/rstacruz/cheatsheets): pretty cheatsheet
 - https://www.uuidgenerator.net/ : uuid 生成器 `ⱳ`
 
+## 镜像站
+
+- https://opsx.alibaba.com/mirror : 阿里
+- http://mirrors.ustc.edu.cn/ : 中国科技大学
 
 ## Semver
 
 - [semver-diff](https://github.com/sindresorhus/semver-diff): semver 比较
 - [standard-version](https://github.com/conventional-changelog/standard-version): Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org
+- https://semver.npmjs.com/
 
 ## RFC
 
@@ -898,11 +903,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - https://github.com/apachecn/AiLearning
 - https://github.com/crownpku/Awesome-Chinese-NLP
-
-### 工具包
-
 - [HanLP](https://github.com/hankcs/HanLP): 一系列中文信息处理的工具库
 - [fastNLP](https://github.com/fastnlp/fastNLP): A Modularized and Extensible NLP Framework
+- [小明 NLP](https://github.com/SeanLee97/xmnlp): 提供中文分词, 词性标注, 拼写检查，文本转拼音，情感分析，文本摘要，偏旁部首
 
 ### Corpus 语料库
 
