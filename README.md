@@ -383,6 +383,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [fd](https://github.com/sharkdp/fd/): better find
 - [cheat](https://github.com/chrisallenlane/cheat): 命令速查表
   - [tldr](https://github.com/tldr-pages/tldr/): 与 cheat 类似，提供简洁的手册，由社区维护。
+- [trash](https://github.com/sindresorhus/trash): better rm，不直接删除文件而是移到回收站。建议 `alias rm='trash'`
 
 ## [Shell Script Development](./shell-script/README.md)
 
@@ -392,7 +393,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [nnn](https://github.com/jarun/nnn)
 - [rename](http://plasmasturm.org/code/rename): 批量重命名文件。`brew install rename`
 - [massren](https://github.com/laurent22/massren): 用自己的编辑器来批量重命名文件
-- [trash](https://github.com/sindresorhus/trash): 命令行工具替代 rm，把文件移到回收站
 - [fpp](https://github.com/facebook/PathPicker): 快速筛选工具
 
 ## 结构化数据处理
@@ -718,14 +718,13 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [TripMode](https://www.tripmode.ch/): 控制应用的网络流量访问
 - [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html): 当 Mac 电脑被窃听时发出提醒
 - [Sloth](https://github.com/sveinbjornt/Sloth): 查看进程相关的文件。lsof 的 GUI 版
-- [ColorSlurp](https://itunes.apple.com/cn/app/colorslurp/id1287239339): 取色器 `Ⓜ`
+- [ColorSlurp](https://itunes.apple.com/cn/app/colorslurp/id1287239339): 取色器，免费的。 `Ⓜ`
   - [Sip](http://sipapp.io): 备选方案。体验更好。价格贵，年付。 `Ⓜ`
 
 ## Terminal
 
 - [iTerm2](https://www.iterm2.com): terminal `Ⓜ`
 - [Hyper](https://github.com/zeit/hyper): 用前端技术栈做的终端。非常酷炫 `⨀`
-  - 目前存在[中文字符的显示问题](https://github.com/zeit/hyper/issues/2124)，等待修复
   - [awesome-hyper](https://github.com/bnb/awesome-hyper)
 - [cathode](https://itunes.apple.com/us/app/cathode/id656982811): 复古终端模拟器 `Ⓜ`
 - [cmder](https://github.com/cmderdev/cmder): terminal emulator on Windows `ⓦ`
