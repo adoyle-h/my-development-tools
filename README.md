@@ -156,6 +156,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [etcher](https://github.com/resin-io/etcher): 将系统镜像写入外接硬盘的工具
 - [cheatsheets](https://github.com/rstacruz/cheatsheets): pretty cheatsheet
 - https://www.uuidgenerator.net/ : uuid 生成器 `ⱳ`
+- [browserless](https://github.com/joelgriffith/browserless): Chrome as a service in docker
 
 ## 镜像站
 
@@ -190,6 +191,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [isometric-contributions](https://github.com/jasonlong/isometric-contributions): Github contributions 图表重构
 - [Refined GitHub](https://github.com/sindresorhus/refined-github)。改进 Github 界面。`ⓒ`
 - [notifier-for-github](https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn): Displays your GitHub notifications unread count. `ⓒ`
+- [actions-toolkit](https://github.com/JasonEtco/actions-toolkit): A toolkit for building GitHub Actions in Node.js
 
 ## SVG
 

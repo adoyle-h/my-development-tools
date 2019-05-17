@@ -71,6 +71,7 @@
   - [Sip](http://sipapp.io): 备选方案。体验更好。价格贵，年付。 `Ⓜ`
 - https://www.colorhexa.com : 色彩信息计算
 - http://nipponcolors.com : 日系传统色彩。界面超好看！用字很美！
+- http://zhongguose.com/  : 中国传统色彩。
 - http://color.aurlien.net : 把鼠标放在网页上随意移动，会产生对应的颜色
 
 ### 配色

@@ -16,6 +16,7 @@
 - [文件上传](#文件上传)
 - [ECMAScript](#ecmascript)
 - [有限状态机 && Statechart](#有限状态机--statechart)
+- [状态管理](#状态管理)
 - [声音](#声音)
 - [Cheatsheet](#cheatsheet)
 - [存储](#存储)
@@ -131,6 +132,10 @@
 
 - [xstate](https://github.com/davidkpiano/xstate): 有限状态机
   - [use-machine](https://github.com/carloslfu/use-machine)
+
+## 状态管理
+
+- [effector](https://github.com/zerobias/effector): 基于 hook 的状态管理。很干净，没有多余的概念。跨框架。
 
 ## 声音
 
@@ -254,8 +259,8 @@
 - [clean-css](https://github.com/jakubpawlowicz/clean-css)
 - [normalize.css](https://github.com/necolas/normalize.css)
   - [styled-normalize](https://github.com/sergeysova/styled-normalize): normalize.css 的 React 组件
-- [react-css-themr](https://github.com/javivelasco/react-css-themr): 主题化样式，依赖注入
 - https://csstriggers.com/
+- https://github.com/jolaleye/cssfx : Beautifully simple click-to-copy CSS effects
 
 ### 教程
 
