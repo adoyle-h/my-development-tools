@@ -126,6 +126,7 @@
 - [minimist](https://github.com/substack/minimist): 命令行参数解析器（极简）
 - [Inquirer](https://github.com/SBoudrias/Inquirer.js): 命令行交互提示
   - [Enquirer](https://github.com/enquirer/enquirer): 类似 Inquirer，UI 交互更丰富
+  - [qoa](https://github.com/klaussinani/qoa): 备选方案
 - [Caporal.js](https://github.com/mattallty/Caporal.js): 支持自动补全，自动构建帮助，语法友好的 CLI 框架。缺点是不支持 global option，详见 [issue](https://github.com/mattallty/Caporal.js/issues/21)
   - [oclif](https://github.com/oclif/oclif): Heroku 出品。功能跟 Caporal.js 类似。特点是 OOP，Hook，插件更胜一筹
     - [12 Factor CLI App](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46)
@@ -249,7 +250,8 @@
 
 ## 日志
 
-- [winston](https://github.com/winstonjs/winston)
+- [signale](https://github.com/klaussinani/signale): 高度可扩展的 log 库
+- ~~[winston](https://github.com/winstonjs/winston)~~: 备选方案。修复 Issue 太慢，在高并发下可能存在严重的性能问题。
 
 ## 进程
 

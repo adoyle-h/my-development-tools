@@ -8,6 +8,7 @@
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+- [Awesome List](#awesome-list)
 - [设计规范](#设计规范)
 - [颜色 (Color)](#颜色-color)
     - [取色](#取色)
@@ -54,6 +55,11 @@
   - [avataaars React 组件](https://github.com/fangpenlin/avataaars)
   - [avataaars Sketch 插件](https://avataaars.com/)
 - https://lipsum.com/ : Lorem Ipsum，也称乱数假文或者哑元文本，是印刷及排版领域所常用的虚拟文字。支持各种语言。
+
+## Awesome List
+
+- [Awesome Design Tools](https://github.com/LisaDziuba/Awesome-Design-Tools)
+- https://www.designnotes.co/ : 免费的设计资源的集合
 
 ## 设计规范
 
@@ -184,6 +190,7 @@
 
 ## Sketch
 
+- https://sketch.cloud : sketch 官方的共享协作平台，支持私密和公开分享。
 - [Sketch Tool](https://www.sketchapp.com/tool): Sketch 自带的命令行工具
 
 ### Sketch 插件开发
@@ -237,6 +244,7 @@
 - [kactus](https://kactus.io/)
   - [源代码](https://github.com/kactus-io/kactus)
 - [git-sketch-plugin](https://github.com/mathieudutour/git-sketch-plugin): kactus 的前身开源项目
+- [Sympli Versions](https://versions.sympli.io/): 「待评价」「等支持私有仓库」
 
 ### 组件化设计
 

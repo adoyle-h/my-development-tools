@@ -303,6 +303,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ### Commands
 
+- https://wangchujiang.com/linux-command/ : Linux 命令解释搜索工具
+  - [源码](https://github.com/jaywcjlove/linux-command)
 - `brew info coreutils`: Mac 下使用 GNU 软件，比如 realpath
 - sar: linux 命令，查看系统状态
 - stat: 查看文件状态，比 ls 更详细，并且能指定输出哪些状态
@@ -692,8 +694,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [dext](https://github.com/DextApp/dext): 类似 Alfred，JS 写的 launcher `⨀`
   - [Lacona](https://www.lacona.io/): 类似 spotlight。但更酷 `Ⓜ`
 - [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Apple Script，用 Lua 脚本编写程序，支持键盘等事件监听 `Ⓜ`
-- [Monosnap](https://monosnap.com/welcome): 截屏工具
-  - screencapture: 命令行版截屏工具。 mac 自带
+- [Monosnap](https://monosnap.com/welcome): 截图/截屏工具
+  - screencapture: 命令行版截图/截屏工具。 mac 自带
+  - [Snipaste](https://zh.snipaste.com/): windows 截图/截屏工具 `ⓦ`
 - [Copyless](http://copyless.net): 系统剪切板管理器
 - [Yoink](http://eternalstorms.at/yoink/Yoink_-_Simplify_and_Improve_Drag_and_Drop_on_your_Mac/Yoink_-_Simplify_drag_and_drop_on_your_Mac.html): 临时桌面文件
 - [Noizio](http://noiz.io): 白噪音
@@ -956,6 +959,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [pm](https://github.com/anvaka/pm): 包管理可视化
 - [sorry](https://github.com/xtyxtyx/sorry): 为所欲为 GIF 制作器
 - [avataaars generator](https://getavataaars.com/): 很有趣的头像生成器。[源码](https://github.com/fangpenlin/avataaars-geneator)
+- [logoly](https://github.com/bestony/logoly): Pornhub 风格 Logo 生成器
 - [PacVim](https://github.com/jmoon018/PacVim): a game that teaches you vim commands.
 - [browsh](https://github.com/browsh-org/browsh): 运行在终端的网页浏览器
 - [rockstar](https://github.com/dylanbeattie/rockstar): 写的不是代码，是诗
