@@ -124,6 +124,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [Changelog](#changelog)
     - [badges](#badges)
 - [图像处理](#图像处理)
+- [压缩/解压](#压缩解压)
 - [Steganography](#steganography)
 - [OCR](#ocr)
 - [Android](#android)
@@ -874,6 +875,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [jimp](https://github.com/oliver-moran/jimp): 用 JS 写的图像处理类库
 - [ImageOptim](https://github.com/ImageOptim/ImageOptim): 开源的图像压缩优化工具 `Ⓜ`
 
+## 压缩/解压
+
+- [zstd](https://github.com/facebook/zstd): 压缩比率、速度都很高。
+- [snappy](https://github.com/google/snappy): 速度非常快，但压缩比低。
+
 ## Steganography
 
 [参考文章](https://www.jianshu.com/p/08041bcf0f23)
@@ -967,6 +973,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [v86](https://github.com/copy/v86): 浏览器或 NodeJS 里运行 x86 系统。
 - [cowsay](https://linux.die.net/man/1/cowsay) and [ponysay](https://github.com/erkin/ponysay)
 - [countdown](https://github.com/antonmedv/countdown): 终端倒计时
+- [weird-fonts](https://github.com/beizhedenglong/weird-fonts): 𝒕𝒖𝒓𝒏 𝒂𝒍𝒑𝒉𝒂𝒏𝒖𝒎𝒆𝒓𝒊𝒄 𝒄𝒉𝒂𝒓𝒂𝒄𝒕𝒆𝒓𝒔 𝒊𝒏𝒕𝒐 𝒘𝒆𝒊𝒓𝒅 𝒇𝒐𝒏𝒕 𝒔𝒕𝒚𝒍𝒆.
 
 ### Game
 
