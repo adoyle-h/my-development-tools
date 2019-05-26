@@ -9,7 +9,7 @@
 
 <!-- MarkdownTOC GFM -->
 
-- [框架](#框架)
+- [测试](#测试)
 - [颜色](#颜色)
 - [参数解析](#参数解析)
 - [工具集](#工具集)
@@ -21,9 +21,11 @@
 
 <!-- /MarkdownTOC -->
 
-## 框架
+## 测试
 
-- [bats](https://github.com/sstephenson/bats): Bash Automated Testing System
+- [bats-core](https://github.com/bats-core/bats-core): 现代化的 Bash 测试框架
+- [jasonkarns/bats-assert](https://github.com/jasonkarns/bats-assert-1): 原项目没人维护，jasonkarns fork 了一份，且他是 bats-core 的成员。
+  - [jasonkarns/bats-support](https://github.com/jasonkarns/bats-support): bats-assert 依赖 bats-support
 
 ## 颜色
 

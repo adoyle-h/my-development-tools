@@ -208,6 +208,7 @@
 ## React
 
 - [preact](https://github.com/developit/preact): React alternative
+- [htm](https://github.com/developit/htm): JSX Alternative! 使用 JS 字符串模板语法 + HTML DOM 语法。
 - [react-docgen](https://github.com/reactjs/react-docgen): react 组件文档生成器
 - [awesome-react-components](https://github.com/brillout/awesome-react-components)
 - [why-did-you-update](https://github.com/garbles/why-did-you-update)

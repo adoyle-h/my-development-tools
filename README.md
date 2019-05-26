@@ -329,17 +329,17 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## Shell
 
+- [bpkg](https://github.com/bpkg/bpkg): bash 包管理器
 - [dotbot](https://github.com/anishathalye/dotbot/): dotfile 管理器
 - [bash](http://tiswww.case.edu/php/chet/bash/bashtop.html): 注意升级到最新版本的 bash
 - [bash-completion](https://github.com/scop/bash-completion): bash 命令补全
 - [node-tabtab](https://github.com/mklabs/node-tabtab): tab completion helpers, for node cli programs & others
-- [Bash-Snippets](https://github.com/alexanderepstein/Bash-Snippets): A collection of small bash scripts for heavy terminal users
 - [bash-it](https://github.com/Bash-it/bash-it): Bash 脚本管理框架
 - [dotbot](https://github.com/anishathalye/dotbot): dotfile 管理框架
 - [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii): 图片转 ASCII 字符
 - [realpath](https://github.com/sindresorhus/realpath): 获取文件的真实绝对路径
 - [hr](https://github.com/LuRsT/hr): 终端分隔符
-- [sloc](https://github.com/flosse/sloc): 代码行统计
+- [cloc](https://github.com/AlDanial/cloc): 代码行统计
 - [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
 - [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
 - [cash](https://github.com/dthree/cash): 用 nodejs 写的程序，提供一些 linux 命令，拯救 windows 下的终端用户
@@ -348,7 +348,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [the-tao-of-tmux](https://leanpub.com/the-tao-of-tmux/read): 非常详尽的 tmux 使用和配置手册
     - [Github Repo](https://github.com/git-pull/tao-of-tmux)
   - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
-  - [reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题
+  - ~~[reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题~~，[Tmux 2.6+ 不需要这个项目](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard/issues/66#issuecomment-335306334)
 - [pv](http://www.ivarch.com/programs/pv.shtml): 显示 linux 管道数据传输速度
 - [gotty](https://github.com/yudai/gotty): 将终端程序映射成 Web 服务
 - [direnv](https://github.com/direnv/direnv)
@@ -974,6 +974,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [cowsay](https://linux.die.net/man/1/cowsay) and [ponysay](https://github.com/erkin/ponysay)
 - [countdown](https://github.com/antonmedv/countdown): 终端倒计时
 - [weird-fonts](https://github.com/beizhedenglong/weird-fonts): 𝒕𝒖𝒓𝒏 𝒂𝒍𝒑𝒉𝒂𝒏𝒖𝒎𝒆𝒓𝒊𝒄 𝒄𝒉𝒂𝒓𝒂𝒄𝒕𝒆𝒓𝒔 𝒊𝒏𝒕𝒐 𝒘𝒆𝒊𝒓𝒅 𝒇𝒐𝒏𝒕 𝒔𝒕𝒚𝒍𝒆.
+- [pxltrm](https://github.com/dylanaraps/pxltrm): 终端里的画图板
+- [Bash-Snippets](https://github.com/alexanderepstein/Bash-Snippets): A collection of small bash scripts for heavy terminal users
 
 ### Game
 
