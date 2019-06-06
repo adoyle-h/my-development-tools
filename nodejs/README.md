@@ -89,6 +89,7 @@
 
 ## CLI
 
+- [cli-cheatsheet](https://github.com/sw-yx/cli-cheatsheet): 一份手册。收集了很多很棒的类库
 - [blessed](https://github.com/chjj/blessed): 强大的 CLI UI 开发工具集
   - [blessed-contrib](https://github.com/yaronn/blessed-contrib): blessed 扩展
 - [wopr](https://github.com/yaronn/wopr): CLI 图形化报表

@@ -136,6 +136,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [信息提取 (Information Extraction)](#信息提取-information-extraction)
     - [Word Segment 分词](#word-segment-分词)
     - [自然语言生成 (NLG)](#自然语言生成-nlg)
+- [运营](#运营)
 - [中国特色](#中国特色)
     - [翻墙](#翻墙)
 - [Funny](#funny)
@@ -620,7 +621,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [p5.js](https://p5js.org/reference/): processing JS 工具
 - https://processing.org/
   - http://processingjs.org/
-- [gliffy](https://www.gliffy.com/): 画架构图不错，图例很丰富，挺好看的。只不过有点贵
+- [drawio](https://github.com/jgraph/drawio): 非常优秀的开源在线绘图前端库。各种图都有，支持国际化。
 
 
 ## 测试
@@ -726,6 +727,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Sloth](https://github.com/sveinbjornt/Sloth): 查看进程相关的文件。lsof 的 GUI 版
 - [ColorSlurp](https://itunes.apple.com/cn/app/colorslurp/id1287239339): 取色器，免费的。 `Ⓜ`
   - [Sip](http://sipapp.io): 备选方案。体验更好。价格贵，年付。 `Ⓜ`
+- [Awesome MacOS 屏保](https://github.com/agarrharr/awesome-macos-screensavers)
+  - [我用的屏保](https://github.com/Wandmalfarbe/evangelion-clock-screensaver)
 
 ## Terminal
 
@@ -934,6 +937,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ### 自然语言生成 (NLG)
 
 
+## 运营
+
+- https://lab.lyric.im/wxformat/ : Markdown 转微信公众号排版的工具
+  - [源码](https://github.com/lyricat/wechat-format)
 
 ## 中国特色
 
@@ -976,6 +983,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [weird-fonts](https://github.com/beizhedenglong/weird-fonts): 𝒕𝒖𝒓𝒏 𝒂𝒍𝒑𝒉𝒂𝒏𝒖𝒎𝒆𝒓𝒊𝒄 𝒄𝒉𝒂𝒓𝒂𝒄𝒕𝒆𝒓𝒔 𝒊𝒏𝒕𝒐 𝒘𝒆𝒊𝒓𝒅 𝒇𝒐𝒏𝒕 𝒔𝒕𝒚𝒍𝒆.
 - [pxltrm](https://github.com/dylanaraps/pxltrm): 终端里的画图板
 - [Bash-Snippets](https://github.com/alexanderepstein/Bash-Snippets): A collection of small bash scripts for heavy terminal users
+- [pipes.sh](https://github.com/pipeseroni/pipes.sh): 超级酷的终端屏保（管道主题）
 
 ### Game
 
