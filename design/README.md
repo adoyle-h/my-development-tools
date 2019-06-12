@@ -90,6 +90,7 @@
 - https://webgradients.com/ : 渐变色配色
 - http://colormind.io/ : 使用深度学习自动生成配色方案
 - https://palx.jxnblk.com/ : 根据一种基色自动生成配色方案。源码 [palx](https://github.com/jxnblk/palx)
+- [ant-design-colors](https://github.com/ant-design/ant-design-colors)
 
 ### 调色
 

@@ -55,7 +55,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [下载工具](#下载工具)
 - [Linux](#linux)
     - [Commands](#commands)
-    - [Troubleshooting](#troubleshooting)
 - [Shell](#shell)
     - [配色](#配色)
     - [搜索](#搜索)
@@ -74,6 +73,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [SSL](#ssl)
 - [系统](#系统)
     - [监控](#监控)
+    - [Troubleshooting](#troubleshooting)
 - [数据库](#数据库)
 - [数据库设计](#数据库设计)
     - [Database Versioning](#database-versioning)
@@ -157,7 +157,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [franc](https://github.com/wooorm/franc): 自然语言语种推测
 - [etcher](https://github.com/resin-io/etcher): 将系统镜像写入外接硬盘的工具
 - [cheatsheets](https://github.com/rstacruz/cheatsheets): pretty cheatsheet
-- https://www.uuidgenerator.net/ : uuid 生成器 `ⱳ`
 - [browserless](https://github.com/joelgriffith/browserless): Chrome as a service in docker
 
 ## 镜像站
@@ -207,6 +206,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [Snyk](https://snyk.io/): 开源风险收集检测服务。提供 API 和 CLI 做检查。
 - [Scanners-Box](https://github.com/We5ter/Scanners-Box): 安全行业从业者自研开源扫描器合辑
+- [falco](https://github.com/falcosecurity/falco): 「待评价」intrusion and abnormality detection for Cloud Native platforms such as Kubernetes, Mesosphere, and Cloud Foundry. Detect abnormal application behavior.
 
 ### 逆向工程
 
@@ -314,19 +314,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - md5: 计算 md5。[详见](http://adoyle.me/Today-I-Learned/linux/hash-command.html)
   - cksum: crc32 算法
   - shasum: sha1 算法
-- 编辑
-  - ed
-  - vi
-  - vim
-  - nano
-- 阅读
-  - cat
-  - more
-  - less: 分页阅读器。less is more
-
-### Troubleshooting
-
-- [sysdig](https://github.com/draios/sysdig)
+- 编辑:
+  - `ed` `vi` `vim` `nano`
+- 阅读:
+  - `cat` `more` `less`
 
 ## Shell
 
@@ -492,6 +483,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [netdata](https://github.com/firehol/netdata): netdata is a system for distributed real-time performance and health monitoring. It provides unparalleled insights, in real-time, of everything happening on the system it runs (including applications such as web and database servers), using modern interactive web dashboards.
 - [glances](https://github.com/nicolargo/glances): 系统监控，运行在终端, alternative to top/htop
+
+### Troubleshooting
+
+- [sysdig](https://github.com/draios/sysdig): Linux system exploration and troubleshooting tool
+  - [sysdig-inspect](https://github.com/draios/sysdig-inspect): A powerful opensource interface for container troubleshooting and security investigation
 
 ## 数据库
 
@@ -762,6 +758,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://www.vectorizer.io/ : 位图转成矢量图 (SVG)
 - http://ping.pe/ : ip 信息查询
   - https://ifconfig.me/ : 查询当前出口 IP
+- https://www.uuidgenerator.net/ : uuid 生成器
+- https://sm.ms/ : 免费公益的图床
+- https://send.firefox.com/ : 临时文件分享，火狐出品
 
 ### 静态文件托管
 

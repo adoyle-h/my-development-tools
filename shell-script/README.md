@@ -29,7 +29,8 @@
 
 ## 颜色
 
-- [ColorEchoForShell](https://github.com/PeterDaveHello/ColorEchoForShell)
+- [shell-general-colors](https://github.com/adoyle-h/shell-general-colors)
+- [ansi](https://github.com/fidian/ansi)
 
 ## 参数解析
 
