@@ -42,6 +42,7 @@
 - https://github.com/alexanderepstein/Bash-Snippets
 - 形象解释shell 命令：[explainshell.com/](https://explainshell.com/)
 - [BASH CHEATSHEET (中文速查表) - by skywind](https://github.com/skywind3000/awesome-cheatsheets/blob/master/languages/bash.sh)
+- [lobash](https://github.com/adoyle-h/lobash): bash 专用的工具函数集合。类似 JS 的 Lodash。
 
 ## Lint
 

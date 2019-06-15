@@ -350,6 +350,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [taskbook](https://github.com/klaussinani/taskbook): 命令行 Todo List Manager
   - [todo.txt-cli](https://github.com/ginatrapani/todo.txt-cli): 备选
 - [PathPicker](https://github.com/facebook/PathPicker): 「待评价」多条记录选择器。不是很好用
+- [a-bash-prompt](https://github.com/adoyle-h/a-bash-prompt): 很漂亮的 bash 专用的 prompt。另外 zsh 专用的 prompt 有 [pure](https://github.com/sindresorhus/pure)
 
 ### 配色
 
