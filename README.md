@@ -321,6 +321,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## Shell
 
+- [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy): A curated list of Terminal frameworks, plugins & resources for CLI lovers.
 - [bpkg](https://github.com/bpkg/bpkg): bash 包管理器
 - [dotbot](https://github.com/anishathalye/dotbot/): dotfile 管理器
 - [bash](http://tiswww.case.edu/php/chet/bash/bashtop.html): 注意升级到最新版本的 bash
@@ -351,6 +352,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [todo.txt-cli](https://github.com/ginatrapani/todo.txt-cli): 备选
 - [PathPicker](https://github.com/facebook/PathPicker): 「待评价」多条记录选择器。不是很好用
 - [a-bash-prompt](https://github.com/adoyle-h/a-bash-prompt): 很漂亮的 bash 专用的 prompt。另外 zsh 专用的 prompt 有 [pure](https://github.com/sindresorhus/pure)
+- [bash-preexec](https://github.com/rcaloras/bash-preexec): preexec and precmd hook functions for Bash in the style of Zsh.
 
 ### 配色
 
