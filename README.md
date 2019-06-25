@@ -116,6 +116,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [TypeScript](#typescript)
 - [前端开发](#前端开发)
 - [Docker 工具链](#docker-工具链)
+- [Tools in Docker](#tools-in-docker)
 - [文档处理](#文档处理)
 - [Markdown](#markdown)
 - [模板](#模板)
@@ -379,6 +380,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [bat](https://github.com/sharkdp/bat): 除了代码着色，还集成了 git diff、分页器。
 - [multitail](https://github.com/flok99/multitail): 同时 tail 多个文件
 - [tree](http://mama.indstate.edu/users/ice/tree): Mac 没有 tree 命令
+- [pstree](http://www.thp.uni-duisburg.de/pstree/): tree 结构展示 ps 命令
 - [ncdu](https://dev.yorhel.nl/ncdu): better du。递归扫描整个文件夹空间占用，交互式。
 - [fd](https://github.com/sharkdp/fd/): better find
 - [cheat](https://github.com/chrisallenlane/cheat): 命令速查表
@@ -695,7 +697,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [dext](https://github.com/DextApp/dext): 类似 Alfred，JS 写的 launcher `⨀`
   - [Lacona](https://www.lacona.io/): 类似 spotlight。但更酷 `Ⓜ`
 - [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Apple Script，用 Lua 脚本编写程序，支持键盘等事件监听 `Ⓜ`
-- [Monosnap](https://monosnap.com/welcome): 截图/截屏工具
+<a name="Monosnap"></a>
+- [Monosnap](https://monosnap.com/welcome): 免费又强大的截图/截屏/录屏(支持 GIF 和 MP4)
   - screencapture: 命令行版截图/截屏工具。 mac 自带
   - [Snipaste](https://zh.snipaste.com/): windows 截图/截屏工具 `ⓦ`
 - [Copyless](http://copyless.net): 系统剪切板管理器
@@ -764,6 +767,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://www.uuidgenerator.net/ : uuid 生成器
 - https://sm.ms/ : 免费公益的图床
 - https://send.firefox.com/ : 临时文件分享，火狐出品
+- https://extendsclass.com/ : 在线工具集合，有语法校验器，加/解密，格式转换，Diff 工具，各种生成器，前端压缩等工具。
 
 ### 静态文件托管
 
@@ -825,6 +829,15 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## [前端开发](./FE/README.md)
 
 ## [Docker 工具链](./docker/README.md)
+
+## Tools in Docker
+
+- `docker pull pygmy/pgcli` https://hub.docker.com/r/pygmy/pgcli
+- `docker pull adoyle/mycli` https://hub.docker.com/r/adoyle/mycli
+- `docker run -d --name ariang -p 6080:80 leonismoe/ariang` https://hub.docker.com/r/leonismoe/ariang
+- `docker run -ti --rm -v ${HOME}:/root -v $(pwd):/git alpine/git <git_command>` https://hub.docker.com/r/alpine/git
+- https://hub.docker.com/r/jlesage/firefox
+- https://hub.docker.com/_/irssi
 
 ## 文档处理
 
@@ -902,7 +915,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 视音频
 
-- [LICEcap](http://www.cockos.com/licecap): 录屏 `Ⓜ` `ⓦ`
+- [Monosnap](#Monosnap): 支持 GIF 和 MP4 的录屏
   - [kap](https://github.com/wulkano/kap/): 用户体验很好的，开源的录屏工具 `Ⓜ` `⨀`
 - [OBS](https://obsproject.com/): 非常好用的推流和录制工具。免费。
   - [源码 obsproject/obs-studio](https://github.com/obsproject/obs-studio)
