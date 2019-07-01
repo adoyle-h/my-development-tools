@@ -19,7 +19,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - `Ⓜ` 表示兼容 **Mac 平台**；
 - `Ⓛ` 表示兼容 **Linux 平台**；
 - `ⓦ` 表示兼容 **Windows 平台**；
-- `Ⓗ` 表示可以通过 **[Homebrew][]** 安装；
+- `Ⓗ` 表示可以通过 [**Homebrew**](#Homebrew) 安装；
 - `ⱳ` 表示 **Web 服务**；
 - `ⓒ` 表示 Chrome 插件；
 
@@ -36,6 +36,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [RFC](#rfc)
 - [License](#license)
 - [Github](#github)
+    - [Github App](#github-app)
 - [SVG](#svg)
 - [代码质量检查](#代码质量检查)
 - [安全](#安全)
@@ -194,6 +195,13 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Refined GitHub](https://github.com/sindresorhus/refined-github)。改进 Github 界面。`ⓒ`
 - [notifier-for-github](https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn): Displays your GitHub notifications unread count. `ⓒ`
 - [actions-toolkit](https://github.com/JasonEtco/actions-toolkit): A toolkit for building GitHub Actions in Node.js
+
+### Github App
+
+- [ImgBot](https://github.com/marketplace/imgbot)
+- [Travis CI](https://github.com/marketplace/travis-ci/)
+- [WIP](https://github.com/marketplace/wip/)
+- [DCO](https://github.com/apps/dco)
 
 ## SVG
 
@@ -731,6 +739,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [Sip](http://sipapp.io): 备选方案。体验更好。价格贵，年付。 `Ⓜ`
 - [Awesome MacOS 屏保](https://github.com/agarrharr/awesome-macos-screensavers)
   - [我用的屏保](https://github.com/Wandmalfarbe/evangelion-clock-screensaver)
+- [Lepton](https://github.com/hackjutsu/Lepton)
 
 ## Terminal
 
@@ -768,6 +777,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://sm.ms/ : 免费公益的图床
 - https://send.firefox.com/ : 临时文件分享，火狐出品
 - https://extendsclass.com/ : 在线工具集合，有语法校验器，加/解密，格式转换，Diff 工具，各种生成器，前端压缩等工具。
+- https://travis-ci.com/ : CI 服务
+- https://www.clahub.com/ : CLA 签署服务，开源托管。[源码](https://github.com/clahub/clahub)
+- https://tool.chinaz.com/ : 网站网络状态排查工具 (国内)
+- https://check-host.net/ : 网站网络状态排查工具 (国外)
 
 ### 静态文件托管
 

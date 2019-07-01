@@ -24,6 +24,7 @@
 ## 测试
 
 - [bats-core](https://github.com/bats-core/bats-core): 现代化的 Bash 测试框架
+- [zunit](https://github.com/zunit-zsh/zunit): 现代化的 Zsh 测试框架
 - [jasonkarns/bats-assert](https://github.com/jasonkarns/bats-assert-1): 原项目没人维护，jasonkarns fork 了一份，且他是 bats-core 的成员。
   - [jasonkarns/bats-support](https://github.com/jasonkarns/bats-support): bats-assert 依赖 bats-support
 
