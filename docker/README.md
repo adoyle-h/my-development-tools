@@ -11,9 +11,9 @@
 - [监控](#监控)
 - [安全](#安全)
 - [日志](#日志)
-- [资源调度](#资源调度)
 - [Kubernetes 相关](#kubernetes-相关)
-- [UI](#ui)
+    - [Serverless](#serverless)
+- [可视化管理/UI](#可视化管理ui)
 - [其他](#其他)
 - [待评价](#待评价)
 
@@ -37,13 +37,9 @@
 
 - [logspout](https://github.com/gliderlabs/logspout)
 
-## 资源调度
-
-- [shipyard](https://github.com/shipyard/shipyard)
-
 ## Kubernetes 相关
 
-- [kubernetes](https://kubernetes.io/)
+- https://kubernetes.io/
 - [operator-sdk](https://github.com/operator-framework/operator-sdk)
   - [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder): SDK for building Kubernetes APIs using CRDs
 - [kubernetes/helm](https://github.com/kubernetes/helm): Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.
@@ -53,11 +49,17 @@
 - [kubectx](https://github.com/ahmetb/kubectx): 管理切换 kubectl 上下文
 - [skaffold](https://github.com/GoogleContainerTools/skaffold): Build\Test\Deploy\Tag\Push 自动化框架
   - [kaniko](https://github.com/GoogleContainerTools/kaniko): 在 k8s 里构建镜像
+- [kubernetes/minikube](https://github.com/kubernetes/minikube): 本地开发部署单节点 k8s 集群的工具。
+- [kubernetes/kubeadm](https://github.com/kubernetes/kubeadm): 部署多节点 k8s 集群的工具。
+  - [kubernetes/kops](https://github.com/kubernetes/kops): 备选方案
+
+### Serverless
+
 - [kubeless](https://github.com/kubeless/kubeless): FaaS in k8s
 
-## UI
+## 可视化管理/UI
 
-- [portainer](https://github.com/portainer/portainer)
+- [Portainer](https://github.com/portainer/portainer)
 
 ## 其他
 

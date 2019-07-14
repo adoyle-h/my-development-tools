@@ -9,6 +9,8 @@
 
 - [其他](#其他)
 - [Awesome List](#awesome-list)
+- [插图资源 (Illustrations)](#插图资源-illustrations)
+- [Mock](#mock)
 - [设计规范](#设计规范)
 - [颜色 (Color)](#颜色-color)
     - [取色](#取色)
@@ -55,11 +57,27 @@
   - [avataaars React 组件](https://github.com/fangpenlin/avataaars)
   - [avataaars Sketch 插件](https://avataaars.com/)
 - https://lipsum.com/ : Lorem Ipsum，也称乱数假文或者哑元文本，是印刷及排版领域所常用的虚拟文字。支持各种语言。
+- https://www.blobmaker.app/ : 制作圆形形变背景 SVG
 
 ## Awesome List
 
 - [Awesome Design Tools](https://github.com/LisaDziuba/Awesome-Design-Tools)
 - https://www.designnotes.co/ : 免费的设计资源的集合
+
+## 插图资源 (Illustrations)
+
+免费可商用的资源
+
+- https://unsplash.com/ : 摄影作品
+- https://undraw.co/ : 矢量，丰富的使用场景
+- https://www.humaaans.com/ : 矢量，卡通人物
+- https://iradesign.io/ : 矢量，渐变色，开源的
+- https://icons8.com/ouch : 矢量。丰富的使用场景
+- https://gallery.manypixels.co/ : 矢量。丰富的使用场景
+
+## Mock
+
+- https://joeschmoe.io/ : 头像 Mock
 
 ## 设计规范
 

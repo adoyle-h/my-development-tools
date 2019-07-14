@@ -56,6 +56,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [下载工具](#下载工具)
 - [Linux](#linux)
     - [Commands](#commands)
+    - [进程](#进程)
 - [Shell](#shell)
     - [配色](#配色)
     - [搜索](#搜索)
@@ -79,8 +80,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [数据库设计](#数据库设计)
     - [Database Versioning](#database-versioning)
 - [网络](#网络)
+    - [DNS](#dns)
+    - [HTTP](#http-1)
+    - [Websocket](#websocket)
     - [抓包工具](#抓包工具)
-- [服务器](#服务器)
+    - [API Gateway](#api-gateway)
 - [CI/CD](#cicd)
 - [IM](#im)
 - [Git](#git)
@@ -328,10 +332,15 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - 阅读:
   - `cat` `more` `less`
 
+### 进程
+
+- [hotel](https://github.com/typicode/hotel): 本地进程管理服务
+  - [alfred-hotel](https://github.com/exah/alfred-hotel): 查看 hotel app 的 Alfred Workflow
+
 ## Shell
 
 - [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy): A curated list of Terminal frameworks, plugins & resources for CLI lovers.
-- [bpkg](https://github.com/bpkg/bpkg): bash 包管理器
+- [basher](https://github.com/basherpm/basher): bash 包管理器
 - [dotbot](https://github.com/anishathalye/dotbot/): dotfile 管理器
 - [bash](http://tiswww.case.edu/php/chet/bash/bashtop.html): 注意升级到最新版本的 bash
 - [bash-completion](https://github.com/scop/bash-completion): bash 命令补全
@@ -496,6 +505,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [netdata](https://github.com/firehol/netdata): netdata is a system for distributed real-time performance and health monitoring. It provides unparalleled insights, in real-time, of everything happening on the system it runs (including applications such as web and database servers), using modern interactive web dashboards.
 - [glances](https://github.com/nicolargo/glances): 系统监控，运行在终端, alternative to top/htop
+- [Prometheus](https://github.com/prometheus/prometheus): Metrics 存储、查询、监控报警，时序数据库。
+  - [thanos](https://github.com/improbable-eng/thanos): 让 Prometheus 高可用，以及存储可扩展的组件。
+- [cockpit](https://github.com/cockpit-project/cockpit): 「待评价」
+- [statsd](https://github.com/etsy/statsd): Metrics 数据聚合
 
 ### Troubleshooting
 
@@ -515,6 +528,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## 数据库设计
 
 - [sqldbm](https://sqldbm.com/en/Home/): 目前做的最好（没有之一）的 ER 建模工具，目前免费。
+- https://dbdiagram.io/ : 在线 ER 建模工具，通过 [dbml](https://github.com/holistics/dbml) 语法构建 ER 图。支持导出 SQL。
 
 ### Database Versioning
 
@@ -533,23 +547,32 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [comcast](https://github.com/tylertreat/comcast): 模拟网络丢包
 - [ZBench](https://github.com/FunctionClub/ZBench): VPS 网络性能测评脚本
 
+### DNS
+
+- [CoreDNS](https://github.com/coredns/coredns): DNS server。CNCF 项目
+
+### HTTP
+
+- [JSON Server](https://github.com/typicode/json-server): 快速搭建 HTTP RESTFul API Server
+- [http-server](https://github.com/indexzero/http-server): 快速搭建 HTTP 服务器
+  - [serve](https://github.com/zeit/serve): alternative
+- [Varnish](https://github.com/varnishcache/varnish-cache): HTTP 内容缓存服务器
+- [Traefik](https://github.com/containous/traefik): 类似 Nginx。现代化 HTTP 反向代理服务器
+
+### Websocket
+
+- [websocketd](https://github.com/joewalnes/websocketd/): 基于 stdin/stdout 的 WebSocket 服务器，开箱即用
+
 ### 抓包工具
 
 - [wireshark](https://www.wireshark.org/): 功能非常强大，面向专业用户。能够抓 HTTP/TCP/UDP 包。条件查询功能很丰富。
 - [mitmproxy](https://mitmproxy.org/): 命令行版抓包工具。4 种模式，3 种命令行 mitmproxy/mitmdump/mitmweb。mitmweb 提供 web 服务端。
 - [whistle](https://github.com/avwo/whistle): 用 NodeJS 实现的跨平台 HTTP, HTTPS, WebSocket 调试工具
 
-## 服务器
+### API Gateway
 
-- [hotel](https://github.com/typicode/hotel): HTTP 服务进程管理器
-  - [alfred-hotel](https://github.com/exah/alfred-hotel): 查看 hotel app 的 Alfred Workflow
-- [JSON Server](https://github.com/typicode/json-server): 快速搭建 HTTP RESTFul API Server
-- [http-server](https://github.com/indexzero/http-server): 快速搭建 HTTP 服务器
-  - [serve](https://github.com/zeit/serve): alternative
-- [websocketd](https://github.com/joewalnes/websocketd/): 基于 stdin/stdout 的 WebSocket 服务器，开箱即用
-- [statsd](https://github.com/etsy/statsd): Metrics 数据聚合服务器
-- [Varnish](https://github.com/varnishcache/varnish-cache): HTTP 内容缓存服务器
-- [Traefik](https://github.com/containous/traefik): 类似 Nginx。现代化 HTTP 反向代理服务器
+- [Kong](https://github.com/Kong/kong)
+- [tyk](https://github.com/TykTechnologies/tyk)
 
 ## CI/CD
 
@@ -623,6 +646,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [Mermaid Live Editor](https://mermaidjs.github.io/mermaid-live-editor/)
 - [Monodraw](https://monodraw.helftone.com): ASCII Art 画图工具 `Ⓜ`
 - [Pixelmator](http://www.pixelmator.com/mac): 像素画图工具 `Ⓜ`
+- [krita](https://github.com/KDE/krita): 自由、免费、开源、跨平台的像素绘画软件 `Ⓜ` `Ⓛ` `ⓦ`
 - [Sketch](https://www.sketchapp.com/): 矢量画图工具 `Ⓜ`
 - [Quil](https://github.com/quil/quil): 写代码绘画 (Painting)
   - 源自 http://www.tylerlhobbs.com/ https://www.instagram.com/tylerlhobbs/
@@ -973,6 +997,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## 中国特色
 
 - [RevokeChinaCerts](https://github.com/chengr28/RevokeChinaCerts): Revoke China Certificates.  全自动可疑证书吊销工具/全自動可疑憑證撤銷工具
+- [jsproxy](https://github.com/EtherDream/jsproxy): 运行在浏览器里的代理。速度挺快的。
 
 ### 翻墙
 

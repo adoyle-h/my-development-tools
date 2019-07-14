@@ -9,6 +9,7 @@
 
 <!-- MarkdownTOC GFM -->
 
+- [Semver](#semver)
 - [测试](#测试)
 - [颜色](#颜色)
 - [参数解析](#参数解析)
@@ -20,6 +21,10 @@
 - [文件定位](#文件定位)
 
 <!-- /MarkdownTOC -->
+
+## Semver
+
+- [semver-tool](https://github.com/fsaintjacques/semver-tool): 纯 Bash 实现的 Semver 可执行命令
 
 ## 测试
 
