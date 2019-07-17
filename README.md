@@ -120,7 +120,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [NodeJS 开发](#nodejs-开发)
 - [TypeScript](#typescript)
 - [前端开发](#前端开发)
-- [Docker 工具链](#docker-工具链)
+- [Docker 与 K8S](#docker-与-k8s)
 - [Tools in Docker](#tools-in-docker)
 - [文档处理](#文档处理)
 - [Markdown](#markdown)
@@ -524,6 +524,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [SQL 速查表](https://github.com/enochtangg/quick-SQL-cheatsheet/blob/master/README_zh-hans.md)
 - [UNQLite](https://github.com/symisc/unqlite):
 - [SQLite](https://www.sqlite.org)
+- [vitess](https://github.com/vitessio/vitess): MySQL Sharding Proxy。支持 k8s。Youtube 2011 年就开始跑了。
 
 ## 数据库设计
 
@@ -635,6 +636,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [声海盗](https://chrome.google.com/webstore/detail/%E5%A3%B0%E6%B5%B7%E7%9B%97/idleenniidjlnmnjkjmmnocnkmjibadd)
 - [EditThisCookie](https://github.com/fcapano/Edit-This-Cookie)
 - [Wikiwand](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj): 自动将 Wikipedia 的链接跳转到 Wikiwand
+- [hn-special](https://github.com/gabrielecirulli/hn-special): 美化 Hacker News 的界面，交互体验做得非常棒，支持亮/暗色系。
 
 ## 画图
 
@@ -816,8 +818,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [kubernetes](https://kubernetes.io/)
 - [dokku](https://github.com/dokku/dokku): 单机版 PaaS，低门槛
-- [tsuru](https://github.com/tsuru/tsuru): 待评价
-- Docker Swarm
 
 ## Serverless
 
@@ -865,7 +865,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## [前端开发](./FE/README.md)
 
-## [Docker 工具链](./docker/README.md)
+## [Docker 与 K8S](./docker/README.md)
 
 ## Tools in Docker
 

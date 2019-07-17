@@ -1,5 +1,5 @@
 <a name="top"></a>
-# Docker 工具链
+# Docker 与 K8S
 
 [⬅︎ 返回上层](../#docker-工具链)
 
@@ -23,6 +23,7 @@
 
 - [tini](https://github.com/krallin/tini): init 进程
 - [docker-compose-wait](https://github.com/ufoscout/docker-compose-wait): 等待依赖服务启动后再执行脚本
+- [linuxkit](https://github.com/linuxkit/linuxkit): 自由组合多个基础镜像，拼成一个操作系统的镜像。
 
 ## 监控
 
@@ -40,6 +41,7 @@
 ## Kubernetes 相关
 
 - https://kubernetes.io/
+- https://labs.play-with-k8s.com/ : 在线练习 K8S 集群
 - [operator-sdk](https://github.com/operator-framework/operator-sdk)
   - [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder): SDK for building Kubernetes APIs using CRDs
 - [kubernetes/helm](https://github.com/kubernetes/helm): Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.
@@ -69,6 +71,7 @@
 - [dive](https://github.com/wagoodman/dive): 查看 docker 镜像的每一层 layer。支持 diff
 - [gVisor](https://github.com/google/gvisor): 沙盒式容器 runtime，注重安全性。
 - [k3s](https://github.com/rancher/k3s): 轻量级 k8s，用于边缘计算、嵌入式、物联网场景
+- [KubeEdge](https://github.com/kubeedge/kubeedge): 用于边缘计算场景
 
 -----
 
