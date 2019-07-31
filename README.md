@@ -164,6 +164,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [etcher](https://github.com/resin-io/etcher): 将系统镜像写入外接硬盘的工具
 - [cheatsheets](https://github.com/rstacruz/cheatsheets): pretty cheatsheet
 - [browserless](https://github.com/joelgriffith/browserless): Chrome as a service in docker
+- [Chrony](https://chrony.tuxfamily.org/): NTP 时钟同步程序
 
 ## 镜像站
 
@@ -217,9 +218,15 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 安全
 
+- [Kali Linux](https://www.kali.org/)
+  - [Kali Docker Image](https://hub.docker.com/r/kalilinux/kali-linux-docker): [参考资料](https://www.drchaos.com/home/running-kali-linux-on-docker)
 - [Snyk](https://snyk.io/): 开源风险收集检测服务。提供 API 和 CLI 做检查。
 - [Scanners-Box](https://github.com/We5ter/Scanners-Box): 安全行业从业者自研开源扫描器合辑
 - [falco](https://github.com/falcosecurity/falco): 「待评价」intrusion and abnormality detection for Cloud Native platforms such as Kubernetes, Mesosphere, and Cloud Foundry. Detect abnormal application behavior.
+- [fail2ban](https://github.com/fail2ban/fail2ban): 入侵防御软件
+- [nmap](https://github.com/nmap/nmap): 网络扫描工具
+- [Metasploit](https://github.com/rapid7/metasploit-framework)
+- [Tiger](https://www.nongnu.org/tiger/): The Unix security audit and intrusion detection tool
 
 ### 逆向工程
 
@@ -929,6 +936,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [gm](https://github.com/aheckmann/gm): NodeJS 封装 GraphicsMagick and ImageMagick
 - [jimp](https://github.com/oliver-moran/jimp): 用 JS 写的图像处理类库
 - [ImageOptim](https://github.com/ImageOptim/ImageOptim): 开源的图像压缩优化工具 `Ⓜ`
+- https://www.iloveimg.com/zh-cn : 在线压缩、调整大小、加水印、格式转换的图片处理服务
+  - https://docsmall.com : GIF 压缩比很高
 
 ## 压缩/解压
 
@@ -1005,7 +1014,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [gfwlist](https://github.com/gfwlist/gfwlist)
 - ~~[shadowsocks](https://github.com/shadowsocks/shadowsocks)~~: shadowsocks，很好的工具，可惜已沦陷，不建议使用。
 - [V2Ray](https://github.com/v2ray/v2ray-core): V2Ray 是一个模块化的代理软件包，它的目标是提供常用的代理软件模块，简化网络代理软件的开发。强烈推荐。
+  - [V2RayX](https://github.com/Cenmrev/V2RayX): V2Ray 的 MacOS 客户端
+- [GenPAC](https://github.com/JinnLynn/genpac): 基于 gfwlist 的 pac, dnsmasq, wingy 配置生成工具，支持自定义规则。
 - [kcp](https://github.com/skywind3000/kcp):  A Fast and Reliable ARQ Protocol
+- https://github.com/bannedbook/fanqiang/wiki
 
 ## Funny
 

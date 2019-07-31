@@ -62,6 +62,7 @@
 ## 可视化管理/UI
 
 - [Portainer](https://github.com/portainer/portainer)
+- [Kui](https://github.com/IBM/kui): Kubernetes 的另一个 UI。[介绍](https://zhuanlan.zhihu.com/p/66975768)
 
 ## 其他
 
