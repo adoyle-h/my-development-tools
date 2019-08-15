@@ -128,10 +128,10 @@
 - [Inquirer](https://github.com/SBoudrias/Inquirer.js): 命令行交互提示
   - [Enquirer](https://github.com/enquirer/enquirer): 类似 Inquirer，UI 交互更丰富
   - [qoa](https://github.com/klaussinani/qoa): 备选方案
-- [Caporal.js](https://github.com/mattallty/Caporal.js): 支持自动补全，自动构建帮助，语法友好的 CLI 框架。缺点是不支持 global option，详见 [issue](https://github.com/mattallty/Caporal.js/issues/21)
-  - [oclif](https://github.com/oclif/oclif): Heroku 出品。功能跟 Caporal.js 类似。特点是 OOP，Hook，插件更胜一筹
-    - [12 Factor CLI App](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46)
-  - [commander.js](https://github.com/tj/commander.js): 比 Caporal 弱一点。备选方案
+- [Caporal.js](https://github.com/mattallty/Caporal.js): 支持自动补全，自动构建帮助，语法友好的 CLI 框架。上手简单好用。
+- [oclif](https://github.com/oclif/oclif): Heroku 出品。比 Caporal.js 支持更多功能。特点是 OOP，Hook，插件体系。概念较多，比较臃肿。
+  - [12 Factor CLI App](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46)
+  - [an adaptive, intent based CLI "state machine"](https://gist.github.com/sw-yx/3af1e264b8460af8897768045b2c229f)
 
 ### 颜色 (Color)
 

@@ -52,6 +52,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [代码编辑器](#代码编辑器)
     - [富文本编辑器 WYSIWYG](#富文本编辑器-wysiwyg)
     - [Online IDE](#online-ide)
+    - [Vim](#vim)
 - [自动化](#自动化)
 - [下载工具](#下载工具)
 - [Linux](#linux)
@@ -306,6 +307,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://stackblitz.com/ : StackBlitz, Online IDE powered by Visual Studio Code
   - [源码](https://github.com/stackblitz/core)
 - https://codeanywhere.com/
+
+### Vim
+
+- [universal-ctags](https://github.com/universal-ctags/ctags): Universal-ctags 是 Darren Hiebert 的 Exuberant-ctags 的继任
+- [NerdFonts](https://www.nerdfonts.com) 与 [cheat-sheet](https://www.nerdfonts.com/cheat-sheet): 程序员必备字体
 
 ## 自动化
 
@@ -848,6 +854,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [正则表达式编辑器](http://www.regexr.com) `ⱳ`
 - [正则表达式可视化](https://regexper.com) `ⱳ`
 - [regex101](https://regex101.com/) `ⱳ`
+- [Learn regex the easy way](https://github.com/ziishaned/learn-regex)
 
 ## 数据可视化
 
@@ -1049,6 +1056,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [pxltrm](https://github.com/dylanaraps/pxltrm): 终端里的画图板
 - [Bash-Snippets](https://github.com/alexanderepstein/Bash-Snippets): A collection of small bash scripts for heavy terminal users
 - [pipes.sh](https://github.com/pipeseroni/pipes.sh): 超级酷的终端屏保（管道主题）
+- [no-more-secrets](https://github.com/bartobri/no-more-secrets): 超级酷的终端数据解密特效
 
 ### Game
 
@@ -1084,7 +1092,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md)
 - [skyseraph/Soft-Tools](https://github.com/skyseraph/Soft-Tools)
 - [Kickball/awesome-selfhosted](https://github.com/Kickball/awesome-selfhosted)
-
+- [sbilly/awesome-security](https://github.com/sbilly/awesome-security)
 
 **[⬆ 返回顶部](#说明)**
 

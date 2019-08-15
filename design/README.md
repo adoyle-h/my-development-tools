@@ -206,6 +206,7 @@
 - [Lingo](https://www.lingoapp.com/): 设计资源收藏神器
 - [Sketch](https://www.sketchapp.com): 矢量图形设计工具 `Ⓜ`
 - [Adobe XD](https://www.adobe.com/cn/products/xd.html): Sketch 的强力竞争者，跨平台 + 免费，独有的网格编组和滚动的特性，操作体验流畅，兼容最新版的 Sketch 文件。
+- [Figma](https://www.figma.com): Sketch 替代品。
 
 ## Sketch
 

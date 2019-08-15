@@ -24,6 +24,7 @@
 - [tini](https://github.com/krallin/tini): init 进程
 - [docker-compose-wait](https://github.com/ufoscout/docker-compose-wait): 等待依赖服务启动后再执行脚本
 - [linuxkit](https://github.com/linuxkit/linuxkit): 自由组合多个基础镜像，拼成一个操作系统的镜像。
+- [Distroless](https://github.com/GoogleContainerTools/distroless): Google 出品的基础镜像，没有 Shell，只包含最基本的依赖。相对更安全。
 
 ## 监控
 
@@ -43,7 +44,7 @@
 - https://kubernetes.io/
 - https://labs.play-with-k8s.com/ : 在线练习 K8S 集群
 - [operator-sdk](https://github.com/operator-framework/operator-sdk)
-  - [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder): SDK for building Kubernetes APIs using CRDs
+- [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder): SDK for building Kubernetes APIs using CRDs
 - [kubernetes/helm](https://github.com/kubernetes/helm): Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.
 - [kubernetes/charts](https://github.com/kubernetes/charts): Charts are curated application definitions for Kubernetes Helm
 - [Azure/draft](https://github.com/Azure/draft): Draft makes it easy to build applications that run on Kubernetes. Draft targets the "inner loop" of a developer's workflow: as they hack on code, but before code is committed to version control.
@@ -51,9 +52,11 @@
 - [kubectx](https://github.com/ahmetb/kubectx): 管理切换 kubectl 上下文
 - [skaffold](https://github.com/GoogleContainerTools/skaffold): Build\Test\Deploy\Tag\Push 自动化框架
   - [kaniko](https://github.com/GoogleContainerTools/kaniko): 在 k8s 里构建镜像
-- [kubernetes/minikube](https://github.com/kubernetes/minikube): 本地开发部署单节点 k8s 集群的工具。
-- [kubernetes/kubeadm](https://github.com/kubernetes/kubeadm): 部署多节点 k8s 集群的工具。
-  - [kubernetes/kops](https://github.com/kubernetes/kops): 备选方案
+- [minikube](https://github.com/kubernetes/minikube): 本地开发部署单节点 k8s 集群的工具。
+- [kubeadm](https://github.com/kubernetes/kubeadm): 部署多节点 k8s 集群的工具。
+  - [kops](https://github.com/kubernetes/kops): 备选方案
+- [kubespray](https://github.com/kubernetes-sigs/kubespray): 基于 kubeadm 和 ansible 的 k8s+系统部署工具
+- [kustomize](https://github.com/kubernetes-sigs/kustomize): 自定义生成 K8S YAML 配置文件
 
 ### Serverless
 
