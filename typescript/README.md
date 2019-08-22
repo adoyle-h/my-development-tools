@@ -11,6 +11,7 @@
 - [ts-node](https://github.com/TypeStrong/ts-node)
 - [typescript-starter](https://github.com/bitjson/typescript-starter)
 - [Microsoft/web-build-tools](https://github.com/Microsoft/web-build-tools): 微软官方维护的 ts 工具集
+- [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
 
 ## 文档
 

@@ -36,6 +36,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [RFC](#rfc)
 - [License](#license)
 - [Github](#github)
+    - [界面交互](#界面交互)
     - [Github App](#github-app)
 - [SVG](#svg)
 - [代码质量检查](#代码质量检查)
@@ -191,16 +192,40 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## Github
 
-- [all-contributors](https://github.com/all-contributors/all-contributors): 用 `.all-contributorsrc` 文件记录项目维护者列表。
-- [octotree](https://github.com/buunguyen/octotree): Github 文件浏览器。`ⓒ`
+- [actions-toolkit](https://github.com/JasonEtco/actions-toolkit): A toolkit for building GitHub Actions in Node.js
 - [Astral](https://app.astralapp.com): Github Star 管理器。`ⱳ`
-<a name="github-contributions-chart"></a>
+- [all-contributors](https://github.com/all-contributors/all-contributors): 用 `.all-contributorsrc` 文件记录项目维护者列表。
 - [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 生成 Github contributions 图片。类似的还有 [git-cal][]
   - [API](https://github.com/sallar/github-contributions-api)
+
+### 界面交互
+
+- [octotree](https://github.com/buunguyen/octotree): Github 文件浏览器。`ⓒ`
+<a name="github-contributions-chart"></a>
 - [isometric-contributions](https://github.com/jasonlong/isometric-contributions): Github contributions 图表重构
 - [Refined GitHub](https://github.com/sindresorhus/refined-github)。改进 Github 界面。`ⓒ`
 - [notifier-for-github](https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn): Displays your GitHub notifications unread count. `ⓒ`
-- [actions-toolkit](https://github.com/JasonEtco/actions-toolkit): A toolkit for building GitHub Actions in Node.js
+- [github-awesome-autocomplete](https://github.com/algolia/github-awesome-autocomplete): github 搜索栏用 algolia
+- [enhanced-github](https://github.com/softvar/enhanced-github): 增加下载链接，显示仓库文件大小，增加拷贝内容的按钮
+- [Mottie/GitHub-userscripts](https://github.com/Mottie/GitHub-userscripts): 超好用的油猴脚本集合
+  - [GitHub Collapse In Comment](https://greasyfork.org/zh-CN/scripts/20973-github-collapse-in-comment): 折叠 Markdown 里的代码和 Quote Block。默认只针对 issue 生效，可以改代码
+  - [GitHub-code-folding](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-code-folding): Github 代码折叠
+    - [github-code-folding](https://github.com/noam3127/github-code-folding): 替代方案，chrome 插件
+  - [Gist-raw-links](https://github.com/Mottie/GitHub-userscripts/wiki/Gist-raw-links): 显示 Gist 里的 raw links
+  - [GitHub-table-of-contents](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-table-of-contents): Markdown 增加 TOC 浮动窗口
+  - [GitHub-collapse-markdown](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-collapse-markdown): Markdown 折叠 Header
+  - [GitHub-code-show-whitespace](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-code-show-whitespace): 关了 Refined Github 的空格显示功能，用这个。
+  - [GitHub-copy-code-snippet](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-copy-code-snippet): 增加拷贝 Block 的按钮
+  - [GitHub-diff-files-filter](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-diff-files-filter): diff 页面根据文件类型过滤
+  - [GitHub-font-preview](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-font-preview): 预览字体文件
+  - [GitHub-image-preview](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-image-preview): 批量预览图片
+  - [GitHub-indent-comments](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-indent-comments): 编辑框增加代码缩进按钮
+  - [GitHub-issue-add-details](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-issue-add-details): 编辑框增加 Detail 折叠按钮
+  - [GitHub-issue-highlighter](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-issue-highlighter): 高亮当前选中的 issue 评论
+  - [GitHub-label-color-picker](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-label-color-picker): label 改变颜色时增加颜色选择器
+  - [GitHub-search-autocomplete](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-search-autocomplete): 搜索栏提示补全
+  - [GitHub-sort-content](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-sort-content): 增强内容排序
+  - [GitHub-toggle-diff-comments](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-toggle-diff-comments): diff 页面切换评论的隐藏
 
 ### Github App
 
@@ -375,8 +400,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - ~~[reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题~~，[Tmux 2.6+ 不需要这个项目](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard/issues/66#issuecomment-335306334)
 - [pv](http://www.ivarch.com/programs/pv.shtml): 显示 linux 管道数据传输速度
 - [gotty](https://github.com/yudai/gotty): 将终端程序映射成 Web 服务
-- [direnv](https://github.com/direnv/direnv)
+- [direnv](https://github.com/direnv/direnv): 根据当前目录自动执行命令，比如设置一些环境变量什么的，切出目录环境变量会自动变回去
   - [autoenv](https://github.com/kennethreitz/autoenv): README 挺幽默的
+  - [desk](https://github.com/jamesob/desk): 类似方案
 - [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
 - [fkill-cli](https://github.com/sindresorhus/fkill-cli): 灵活的删进程命令，例如 `fkill 1337 safari :8080`，如果不加参数，则是交互式命令。
 - [taskbook](https://github.com/klaussinani/taskbook): 命令行 Todo List Manager
@@ -384,6 +410,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [PathPicker](https://github.com/facebook/PathPicker): 「待评价」多条记录选择器。不是很好用
 - [a-bash-prompt](https://github.com/adoyle-h/a-bash-prompt): 很漂亮的 bash 专用的 prompt。另外 zsh 专用的 prompt 有 [pure](https://github.com/sindresorhus/pure)
 - [bash-preexec](https://github.com/rcaloras/bash-preexec): preexec and precmd hook functions for Bash in the style of Zsh.
+- [sampler](https://github.com/sqshq/sampler): A tool for shell commands execution, visualization and alerting. Configured with a simple YAML file.
 
 ### 配色
 

@@ -45,8 +45,6 @@
 - https://labs.play-with-k8s.com/ : 在线练习 K8S 集群
 - [operator-sdk](https://github.com/operator-framework/operator-sdk)
 - [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder): SDK for building Kubernetes APIs using CRDs
-- [kubernetes/helm](https://github.com/kubernetes/helm): Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.
-- [kubernetes/charts](https://github.com/kubernetes/charts): Charts are curated application definitions for Kubernetes Helm
 - [Azure/draft](https://github.com/Azure/draft): Draft makes it easy to build applications that run on Kubernetes. Draft targets the "inner loop" of a developer's workflow: as they hack on code, but before code is committed to version control.
 - [kompose](https://github.com/kubernetes/kompose): Go from Docker Compose to Kubernetes
 - [kubectx](https://github.com/ahmetb/kubectx): 管理切换 kubectl 上下文
@@ -55,8 +53,11 @@
 - [minikube](https://github.com/kubernetes/minikube): 本地开发部署单节点 k8s 集群的工具。
 - [kubeadm](https://github.com/kubernetes/kubeadm): 部署多节点 k8s 集群的工具。
   - [kops](https://github.com/kubernetes/kops): 备选方案
-- [kubespray](https://github.com/kubernetes-sigs/kubespray): 基于 kubeadm 和 ansible 的 k8s+系统部署工具
-- [kustomize](https://github.com/kubernetes-sigs/kustomize): 自定义生成 K8S YAML 配置文件
+- [kubespray](https://github.com/kubernetes-sigs/kubespray): 基于 kubeadm 和 ansible 的 K8S 和 OS 部署工具
+- [helm](https://github.com/kubernetes/helm): K8S 的包管理工具
+- [kustomize](https://github.com/kubernetes-sigs/kustomize): 使用 Base + Overlay 的方式自定义生成 K8S YAML 配置
+  - [Helm vs Kustomize: Managing Complexity](https://codeengineered.com/blog/2018/helm-kustomize-complexity/)
+- [sealed-secrets](https://github.com/bitnami-labs/sealed-secrets): 「待评价」
 
 ### Serverless
 
