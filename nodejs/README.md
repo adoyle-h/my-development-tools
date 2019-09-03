@@ -106,6 +106,7 @@
 - [gauge](https://github.com/iarna/gauge): 进度条
 - [node-progress](https://github.com/visionmedia/node-progress): 进度条
 - [prettyjson](https://github.com/rafeca/prettyjson): 把 JSON 数据按 YAML 风格打印出来
+- [node-tabtab](https://github.com/mklabs/node-tabtab): Shell 自动补全库
 
 ### 自动补全
 

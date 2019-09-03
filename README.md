@@ -56,15 +56,16 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [Vim](#vim)
 - [自动化](#自动化)
 - [下载工具](#下载工具)
-- [Linux](#linux)
-    - [Commands](#commands)
-    - [进程](#进程)
+- [Terminal](#terminal)
 - [Shell](#shell)
     - [配色](#配色)
-    - [搜索](#搜索)
-    - [Linux command alternatives](#linux-command-alternatives)
-- [Shell Script Development](#shell-script-development)
-- [文件处理](#文件处理)
+    - [Shell Script Development](#shell-script-development)
+- [Cheatsheet](#cheatsheet)
+- [CLI](#cli)
+    - [Builtin Commands](#builtin-commands)
+    - [Builtin Command Alternatives](#builtin-command-alternatives)
+    - [进程](#进程)
+    - [文件处理](#文件处理)
 - [结构化数据处理](#结构化数据处理)
     - [YAML](#yaml)
     - [HCL](#hcl)
@@ -92,7 +93,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Git](#git)
 - [Chrome](#chrome)
     - [Chrome 主题](#chrome-主题)
-    - [CLI](#cli)
     - [Chrome 插件](#chrome-插件)
 - [画图](#画图)
 - [测试](#测试)
@@ -106,7 +106,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [邮件](#邮件)
 - [翻译](#翻译)
 - [Mac App](#mac-app)
-- [Terminal](#terminal)
 - [字体](#字体)
 - [Design](#design)
 - [Emoji](#emoji)
@@ -164,9 +163,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息`Ⓛ` `Ⓜ`
 - [franc](https://github.com/wooorm/franc): 自然语言语种推测
 - [etcher](https://github.com/resin-io/etcher): 将系统镜像写入外接硬盘的工具
-- [cheatsheets](https://github.com/rstacruz/cheatsheets): pretty cheatsheet
 - [browserless](https://github.com/joelgriffith/browserless): Chrome as a service in docker
 - [Chrony](https://chrony.tuxfamily.org/): NTP 时钟同步程序
+- [UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic): 解锁网易云音乐客户端变灰歌曲
+  - [Listen 1](https://github.com/listen1/listen1_chrome_extension)
+  - [ieaseMusic](https://github.com/trazyn/ieaseMusic)
 
 ## 镜像站
 
@@ -352,9 +353,76 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [youtube-dl](https://github.com/rg3/youtube-dl): 视频下载工具
 - [Motrix](https://github.com/agalwood/Motrix): 美观又强大的下载工具
 
-## Linux
+## Terminal
 
-### Commands
+- [iTerm2](https://www.iterm2.com): terminal `Ⓜ`
+- [Hyper](https://github.com/zeit/hyper): 用前端技术栈做的终端。非常酷炫 `⨀`
+  - [awesome-hyper](https://github.com/bnb/awesome-hyper)
+- [cathode](https://itunes.apple.com/us/app/cathode/id656982811): 复古终端模拟器 `Ⓜ`
+- [cmder](https://github.com/cmderdev/cmder): terminal emulator on Windows `ⓦ`
+- [xterm.js](https://github.com/xtermjs/xterm.js): A terminal for the web
+
+## Shell
+
+用来增强 Shell 的交互/开发体验。
+
+- [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy): A curated list of Terminal frameworks, plugins & resources for CLI lovers.
+- [basher](https://github.com/basherpm/basher): bash 包管理器
+- [dotbot](https://github.com/anishathalye/dotbot/): dotfile 管理器
+- [bash](http://tiswww.case.edu/php/chet/bash/bashtop.html): 注意升级到最新版本的 bash
+- [bash-completion](https://github.com/scop/bash-completion): bash 命令补全
+- [bash-it](https://github.com/Bash-it/bash-it): Bash 脚本管理框架
+- [dotbot](https://github.com/anishathalye/dotbot): dotfile 管理框架
+- [PathPicker](https://github.com/facebook/PathPicker): 「待评价」多条记录选择器。不是很好用
+- [a-bash-prompt](https://github.com/adoyle-h/a-bash-prompt): 很漂亮的 bash 专用的 prompt。另外 zsh 专用的 prompt 有 [pure](https://github.com/sindresorhus/pure)
+- [bash-preexec](https://github.com/rcaloras/bash-preexec): preexec and precmd hook functions for Bash in the style of Zsh.
+- [direnv](https://github.com/direnv/direnv): 根据当前目录自动执行命令，比如设置一些环境变量什么的，切出目录环境变量会自动变回去
+  - [autoenv](https://github.com/kennethreitz/autoenv): README 挺幽默的
+  - [desk](https://github.com/jamesob/desk): 类似方案
+
+### 配色
+
+- [lscolors](https://github.com/ggreer/lscolors): LSCOLORS Preview
+- [trapd00r/LS_COLORS](https://github.com/trapd00r/LS_COLORS): LS_COLORS 自定义集合
+- [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes): shell 配色
+
+### [Shell Script Development](./shell-script/README.md)
+
+## Cheatsheet
+
+- [Rico's cheatsheets](https://devhints.io): 网页版，[源码](https://github.com/rstacruz/cheatsheets)
+- [cheat](https://github.com/chrisallenlane/cheat): 命令行工具，手册内容较少。但是本地存储，可以 `cheat -e` 自己编辑维护。
+- [tldr](https://github.com/tldr-pages/tldr/): 命令行工具，手册内容由社区维护，非常详尽。
+- [cheat.sh](https://github.com/chubin/cheat.sh): cheatsheet 服务，可通过 curl 获取内容，内容由社区维护。
+
+## CLI
+
+- [ipcalc](http://jodies.de/ipcalc): 计算/反向计算 IP 网段和掩码。Mac 可用 `brew install ipcalc` 安装。
+  - 在线服务 http://jodies.de/ipcalc
+- [hr](https://github.com/LuRsT/hr): 终端分隔符
+- [cloc](https://github.com/AlDanial/cloc): 代码行统计
+- [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
+- [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii): 图片转 ASCII 字符
+- [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
+- [pv](http://www.ivarch.com/programs/pv.shtml): 显示 linux 管道数据传输速度
+- [gotty](https://github.com/yudai/gotty): 将终端程序映射成 Web 服务
+- [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
+- [fkill-cli](https://github.com/sindresorhus/fkill-cli): 灵活的删进程命令，例如 `fkill 1337 safari :8080`，如果不加参数，则是交互式命令。
+- [taskbook](https://github.com/klaussinani/taskbook): 命令行 Todo List Manager
+  - [todo.txt-cli](https://github.com/ginatrapani/todo.txt-cli): 备选
+- [sampler](https://github.com/sqshq/sampler): A tool for shell commands execution, visualization and alerting. Configured with a simple YAML file.
+- [Mosh](https://github.com/mobile-shell/mosh): 自动重连的 ssh
+- [tmux](https://github.com/tmux/tmux): 多终端管理器
+  - [the-tao-of-tmux](https://leanpub.com/the-tao-of-tmux/read): 非常详尽的 tmux 使用和配置手册
+    - [Github Repo](https://github.com/git-pull/tao-of-tmux)
+  - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
+  - ~~[reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题~~，[Tmux 2.6+ 不需要这个项目](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard/issues/66#issuecomment-335306334)
+- [catimg](https://github.com/posva/catimg): 在终端里打印图片，打印出的都是像素风格的。
+- [sshpass](https://github.com/kevinburke/sshpass): 通过编程方式在 ssh 时输入用户名和密码。不安全，勿用在生产环境。
+
+### Builtin Commands
+
+系统自带且好用的命令
 
 - https://wangchujiang.com/linux-command/ : Linux 命令解释搜索工具
   - [源码](https://github.com/jaywcjlove/linux-command)
@@ -369,61 +437,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - `ed` `vi` `vim` `nano`
 - 阅读:
   - `cat` `more` `less`
+- [realpath](https://github.com/sindresorhus/realpath): 获取文件的真实绝对路径。因为 Mac 系统没有 `realpath`，可以用这个补上。
 
-### 进程
+### Builtin Command Alternatives
 
-- [hotel](https://github.com/typicode/hotel): 本地进程管理服务
-  - [alfred-hotel](https://github.com/exah/alfred-hotel): 查看 hotel app 的 Alfred Workflow
-
-## Shell
-
-- [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy): A curated list of Terminal frameworks, plugins & resources for CLI lovers.
-- [basher](https://github.com/basherpm/basher): bash 包管理器
-- [dotbot](https://github.com/anishathalye/dotbot/): dotfile 管理器
-- [bash](http://tiswww.case.edu/php/chet/bash/bashtop.html): 注意升级到最新版本的 bash
-- [bash-completion](https://github.com/scop/bash-completion): bash 命令补全
-- [node-tabtab](https://github.com/mklabs/node-tabtab): tab completion helpers, for node cli programs & others
-- [bash-it](https://github.com/Bash-it/bash-it): Bash 脚本管理框架
-- [dotbot](https://github.com/anishathalye/dotbot): dotfile 管理框架
-- [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii): 图片转 ASCII 字符
-- [realpath](https://github.com/sindresorhus/realpath): 获取文件的真实绝对路径
-- [hr](https://github.com/LuRsT/hr): 终端分隔符
-- [cloc](https://github.com/AlDanial/cloc): 代码行统计
-- [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
-- [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
-- [cash](https://github.com/dthree/cash): 用 nodejs 写的程序，提供一些 linux 命令，拯救 windows 下的终端用户
-- [Mosh](https://github.com/mobile-shell/mosh): 自动重连的 ssh
-- [tmux](https://github.com/tmux/tmux): 多终端管理器
-  - [the-tao-of-tmux](https://leanpub.com/the-tao-of-tmux/read): 非常详尽的 tmux 使用和配置手册
-    - [Github Repo](https://github.com/git-pull/tao-of-tmux)
-  - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
-  - ~~[reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题~~，[Tmux 2.6+ 不需要这个项目](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard/issues/66#issuecomment-335306334)
-- [pv](http://www.ivarch.com/programs/pv.shtml): 显示 linux 管道数据传输速度
-- [gotty](https://github.com/yudai/gotty): 将终端程序映射成 Web 服务
-- [direnv](https://github.com/direnv/direnv): 根据当前目录自动执行命令，比如设置一些环境变量什么的，切出目录环境变量会自动变回去
-  - [autoenv](https://github.com/kennethreitz/autoenv): README 挺幽默的
-  - [desk](https://github.com/jamesob/desk): 类似方案
-- [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
-- [fkill-cli](https://github.com/sindresorhus/fkill-cli): 灵活的删进程命令，例如 `fkill 1337 safari :8080`，如果不加参数，则是交互式命令。
-- [taskbook](https://github.com/klaussinani/taskbook): 命令行 Todo List Manager
-  - [todo.txt-cli](https://github.com/ginatrapani/todo.txt-cli): 备选
-- [PathPicker](https://github.com/facebook/PathPicker): 「待评价」多条记录选择器。不是很好用
-- [a-bash-prompt](https://github.com/adoyle-h/a-bash-prompt): 很漂亮的 bash 专用的 prompt。另外 zsh 专用的 prompt 有 [pure](https://github.com/sindresorhus/pure)
-- [bash-preexec](https://github.com/rcaloras/bash-preexec): preexec and precmd hook functions for Bash in the style of Zsh.
-- [sampler](https://github.com/sqshq/sampler): A tool for shell commands execution, visualization and alerting. Configured with a simple YAML file.
-
-### 配色
-
-- [lscolors](https://github.com/ggreer/lscolors): LSCOLORS Preview
-- [trapd00r/LS_COLORS](https://github.com/trapd00r/LS_COLORS): LS_COLORS 自定义集合
-- [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes): shell 配色
-
-### 搜索
-
-- [fzf](https://github.com/junegunn/fzf): 模糊搜索
-- [ag](https://github.com/ggreer/the_silver_searcher): 模糊搜索
-
-### Linux command alternatives
+比系统命令更好的替代品。
 
 当想调用原生的命令时，但是存在同名的 alias 或者 function，比如 `alias cat=ccat`，可以使用 `\cat` 或者 `command cat` 调用原生命令。
 详见这篇文章: https://stackoverflow.com/a/16506263/4622308
@@ -440,13 +458,17 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [pstree](http://www.thp.uni-duisburg.de/pstree/): tree 结构展示 ps 命令
 - [ncdu](https://dev.yorhel.nl/ncdu): better du。递归扫描整个文件夹空间占用，交互式。
 - [fd](https://github.com/sharkdp/fd/): better find
-- [cheat](https://github.com/chrisallenlane/cheat): 命令速查表
-  - [tldr](https://github.com/tldr-pages/tldr/): 与 cheat 类似，提供简洁的手册，由社区维护。
 - [trash](https://github.com/sindresorhus/trash): better rm，不直接删除文件而是移到回收站。建议 `alias rm='trash'`
+- [ag](https://github.com/ggreer/the_silver_searcher): 模糊搜索
+  - [fzf](https://github.com/junegunn/fzf): 模糊搜索
+- [cash](https://github.com/dthree/cash): For windows 用户。用 nodejs 写的程序，模拟一些 linux 命令
 
-## [Shell Script Development](./shell-script/README.md)
+### 进程
 
-## 文件处理
+- [hotel](https://github.com/typicode/hotel): 本地进程管理服务
+  - [alfred-hotel](https://github.com/exah/alfred-hotel): 查看 hotel app 的 Alfred Workflow
+
+### 文件处理
 
 - [ranger](https://github.com/ranger/ranger): 命令行版文件管理器
   - [nnn](https://github.com/jarun/nnn)
@@ -508,6 +530,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [hadolint](https://github.com/hadolint/hadolint): Dockerfile Lint
 <a name="commitlint"></a>
 - [commitlint](https://github.com/conventional-changelog/commitlint): Lint git commit messages
+- [ansible-lint](https://github.com/ansible/ansible-lint)
 
 ## Mock
 
@@ -647,14 +670,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## Chrome
 
+- [chrome-cli](https://github.com/prasmussen/chrome-cli): chrome 命令行工具
+
 ### Chrome 主题
 
 - [Robot Theme, inspired by Android™](https://chrome.google.com/webstore/detail/robot-theme-inspired-by-a/oeljdmeofcikjblcoehpmdnooimalbmj): 我用了 5 年
 - [Material Redesign Dark Theme](https://chrome.google.com/webstore/detail/material-redesign-dark-th/eakhnambppkkcdaefeaipbfhiaaifmli): 纯色暗系
-
-### CLI
-
-- [chrome-cli](https://github.com/prasmussen/chrome-cli): chrome 命令行工具
 
 ### Chrome 插件
 
@@ -806,15 +827,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Awesome MacOS 屏保](https://github.com/agarrharr/awesome-macos-screensavers)
   - [我用的屏保](https://github.com/Wandmalfarbe/evangelion-clock-screensaver)
 - [Lepton](https://github.com/hackjutsu/Lepton)
-
-## Terminal
-
-- [iTerm2](https://www.iterm2.com): terminal `Ⓜ`
-- [Hyper](https://github.com/zeit/hyper): 用前端技术栈做的终端。非常酷炫 `⨀`
-  - [awesome-hyper](https://github.com/bnb/awesome-hyper)
-- [cathode](https://itunes.apple.com/us/app/cathode/id656982811): 复古终端模拟器 `Ⓜ`
-- [cmder](https://github.com/cmderdev/cmder): terminal emulator on Windows `ⓦ`
-- [xterm.js](https://github.com/xtermjs/xterm.js): A terminal for the web
 
 ## [字体](./design/README.md#字体)
 
