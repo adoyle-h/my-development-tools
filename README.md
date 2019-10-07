@@ -53,7 +53,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [代码编辑器](#代码编辑器)
     - [富文本编辑器 WYSIWYG](#富文本编辑器-wysiwyg)
     - [Online IDE](#online-ide)
-    - [Vim](#vim)
+    - [IDE 辅助工具](#ide-辅助工具)
 - [自动化](#自动化)
 - [下载工具](#下载工具)
 - [Terminal](#terminal)
@@ -125,7 +125,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Tools in Docker](#tools-in-docker)
 - [文档处理](#文档处理)
 - [Markdown](#markdown)
-- [模板](#模板)
 - [模板引擎](#模板引擎)
 - [文档](#文档)
     - [Changelog](#changelog)
@@ -334,10 +333,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [源码](https://github.com/stackblitz/core)
 - https://codeanywhere.com/
 
-### Vim
+### IDE 辅助工具
 
+- [TabNine](https://github.com/zxqfl/TabNine/): 用深度学习进行自动补全。支持 VS Code, Sublime Text, Vim, Atom, Emacs
 - [universal-ctags](https://github.com/universal-ctags/ctags): Universal-ctags 是 Darren Hiebert 的 Exuberant-ctags 的继任
 - [NerdFonts](https://www.nerdfonts.com) 与 [cheat-sheet](https://www.nerdfonts.com/cheat-sheet): 程序员必备字体
+- [PacVim](https://github.com/jmoon018/PacVim): 用游戏教你学 VIM
 
 ## 自动化
 
@@ -419,6 +420,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - ~~[reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题~~，[Tmux 2.6+ 不需要这个项目](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard/issues/66#issuecomment-335306334)
 - [catimg](https://github.com/posva/catimg): 在终端里打印图片，打印出的都是像素风格的。
 - [sshpass](https://github.com/kevinburke/sshpass): 通过编程方式在 ssh 时输入用户名和密码。不安全，勿用在生产环境。
+- [hhighlighter](https://github.com/paoloantinori/hhighlighter): 用不同颜色高亮多个匹配字符串
 
 ### Builtin Commands
 
@@ -942,8 +944,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [markdown-toc](https://github.com/jonschlinkert/markdown-toc): 根据 markdown heading 文本输出 TOC
 - [mdx](https://github.com/mdx-js/mdx): 在 Markdown 里写 JSX
 
-## 模板
-
 ## 模板引擎
 
 - [envsubst](https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html): GNU 工具，`${VARIABLE}` 语法变量替换
@@ -953,6 +953,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [lodash.template](https://lodash.com/docs/#template): 可以兼容各种模板变量语法，体积较小
 - [nunjucks](https://github.com/mozilla/nunjucks): jinja2 inspired templating engine in nodejs
 - [art-template](https://github.com/aui/art-template): 官宣性能最高的模板引擎
+- [Jinja](https://jinja.palletsprojects.com): Ansible 使用的模板引擎
+  - [Jinja 模板在线渲染](https://cryptic-cliffs-32040.herokuapp.com)
 
 ## 文档
 
@@ -1084,7 +1086,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [sorry](https://github.com/xtyxtyx/sorry): 为所欲为 GIF 制作器
 - [avataaars generator](https://getavataaars.com/): 很有趣的头像生成器。[源码](https://github.com/fangpenlin/avataaars-geneator)
 - [logoly](https://github.com/bestony/logoly): Pornhub 风格 Logo 生成器
-- [PacVim](https://github.com/jmoon018/PacVim): a game that teaches you vim commands.
 - [browsh](https://github.com/browsh-org/browsh): 运行在终端的网页浏览器
 - [rockstar](https://github.com/dylanbeattie/rockstar): 写的不是代码，是诗
 - [windows95](https://github.com/felixrieseberg/windows95): 💩🚀 Windows 95 in Electron.

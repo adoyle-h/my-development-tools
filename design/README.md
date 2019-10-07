@@ -68,12 +68,15 @@
 
 免费可商用的资源
 
-- https://unsplash.com/ : 摄影作品
-- https://undraw.co/ : 矢量，丰富的使用场景
-- https://www.humaaans.com/ : 矢量，卡通人物
-- https://iradesign.io/ : 矢量，渐变色，开源的
-- https://icons8.com/ouch : 矢量。丰富的使用场景
-- https://gallery.manypixels.co/ : 矢量。丰富的使用场景
+- 摄影图
+  - https://unsplash.com/ : 质量非常高的摄影分享社区
+  - https://pixabay.com/zh/ : 免费图片和视频，质量还行
+- 矢量图
+  - https://undraw.co/ : 丰富的使用场景
+  - https://www.humaaans.com/ : 卡通人物
+  - https://iradesign.io/ : 渐变色。开源的
+  - https://icons8.com/ouch : 丰富的使用场景
+  - https://gallery.manypixels.co/ : 丰富的使用场景
 
 ## Mock
 

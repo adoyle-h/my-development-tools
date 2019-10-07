@@ -89,6 +89,8 @@
   - [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator/): 不是很好用
 - [js-beautify](https://github.com/beautify-web/js-beautify): html-beautify css-beautify js-beautify
 - [intro.js](https://github.com/usablica/intro.js): 分步用户引导/导航/介绍的库
+- [highlight.js](https://github.com/highlightjs/highlight.js): 语法高亮前端库
+  - [prism](https://github.com/PrismJS/prism): 备选方案
 
 ## 表单
 
@@ -359,6 +361,7 @@
 - [highcharts](https://github.com/highcharts/highcharts)
 - [c3](https://github.com/c3js/c3)
 - [g2](https://github.com/antvis/g2)
+- [chart.xkcd](https://github.com/timqian/chart.xkcd): xkcd 风格的图表库
 
 ### 组件库
 
