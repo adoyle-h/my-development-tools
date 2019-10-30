@@ -861,6 +861,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://www.clahub.com/ : CLA 签署服务，开源托管。[源码](https://github.com/clahub/clahub)
 - https://tool.chinaz.com/ : 网站网络状态排查工具 (国内)
 - https://check-host.net/ : 网站网络状态排查工具 (国外)
+- [mattermost](https://github.com/mattermost/mattermost-server): slack 的开源替代品。即时聊天。
 
 ### 静态文件托管
 
