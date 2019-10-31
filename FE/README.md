@@ -226,6 +226,7 @@
 - [react-360](https://github.com/facebook/react-360): a framework for the creation of 3D and VR user interfaces. Built on top of React.
 - [react-fast-compare](https://github.com/FormidableLabs/react-fast-compare)
 - [svgr](https://github.com/smooth-code/svgr): SVG 转成 React 组件。
+- [SWR](https://github.com/zeit/swr): 请求数据的 react hook
 
 ### Static Generator Environment
 
