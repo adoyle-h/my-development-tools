@@ -82,6 +82,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [数据库](#数据库)
 - [数据库设计](#数据库设计)
     - [Database Versioning](#database-versioning)
+- [网站](#网站)
 - [网络](#网络)
     - [DNS](#dns)
     - [HTTP](#http-1)
@@ -493,6 +494,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ### YAML
 
 - http://yaml-online-parser.appspot.com/
+- [yq](https://github.com/mikefarah/yq): 类似 jq
 
 ### HCL
 
@@ -503,6 +505,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://www.json.cn/ : JSON 在线解析
 - [jq](https://github.com/stedolan/jq): JSON 静态分析工具
 - [jid](https://github.com/simeji/jid): JSON 动态交互式分析工具
+  - [jiq](https://github.com/fiatjaf/jiq): It's jid with jq.
 - [JSON5](https://github.com/json5/json5): JSON for humans. (Not an official successor to JSON.)
 - [hjson](https://github.com/hjson/hjson): 比 JSON5 更丰富，且相对更标准，有 [RFC 文档](https://hjson.org/rfc.html)。
 - [simdjson](https://github.com/lemire/simdjson): Parsing gigabytes of JSON. 2.2GB/s
@@ -602,6 +605,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [gh-ost](https://github.com/github/gh-ost): 与 flyway 不一样的实现方案，创建 shadow/ghost 表来作 schema migration。功能丰富。不基于 trigger，基于 bin-log。
 - [migrate](https://github.com/mattes/migrate): 用 Go 写的，支持 SQL。缺乏文档和样例。备选
 - [sql-migrate](https://github.com/rubenv/sql-migrate): 用 Go 写的。备选
+
+## 网站
+
+- [sitemap.js](https://github.com/ekalinin/sitemap.js): 生成 sitemap 的工具
 
 ## 网络
 
@@ -862,6 +869,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://tool.chinaz.com/ : 网站网络状态排查工具 (国内)
 - https://check-host.net/ : 网站网络状态排查工具 (国外)
 - [mattermost](https://github.com/mattermost/mattermost-server): slack 的开源替代品。即时聊天。
+- [docker-nfs-server](https://github.com/ehough/docker-nfs-server): A lightweight, robust, flexible, and containerized NFS server.
 
 ### 静态文件托管
 
