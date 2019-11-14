@@ -619,6 +619,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - Linux 命令: `ping`, `nc`, `mtr`, `netstat`, `nettop`, `iftop`
 - [comcast](https://github.com/tylertreat/comcast): 模拟网络丢包
 - [ZBench](https://github.com/FunctionClub/ZBench): VPS 网络性能测评脚本
+- [WireGuard](https://github.com/WireGuard/WireGuard): VPN 软件。受到 Linus 高度评价
 
 ### DNS
 
@@ -790,11 +791,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 <a name="Homebrew"></a>
 - [Homebrew](http://brew.sh): Mac 软件管理器 `Ⓜ`
 - [Homebrew Cask](https://caskroom.github.io): Mac App 软件管理器 `Ⓜ`
+- [mas](https://github.com/mas-cli/mas): 用命令操作 Mac App Store
 - [gnu-sed](http://sed.sourceforge.net): gnu 版本的 sed  #brew
 - [gnupg2](https://www.gnupg.org): gpg 加密
 - [Kaleidoscope](http://www.kaleidoscopeapp.com): Diff GUI 软件 `Ⓜ`
 - [Bartender](https://www.macbartender.com): Mac 菜单栏折叠 `Ⓜ`
-- [BitBar](https://github.com/matryer/bitbar): Mac 菜单栏扩展 `Ⓜ`
 - [iStat Menus](https://bjango.com/mac/istatmenus): Mac 系统状态监控 `Ⓜ`
 - [Alfred](https://www.alfredapp.com): 类似 spotlight `Ⓜ`
   - [alfy](https://github.com/sindresorhus/alfy): JS 语法编写 Alfred Workflow
@@ -810,11 +811,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Noizio](http://noiz.io): 白噪音
 - [HazeOver](https://hazeover.com): 通过虚化所有的背景窗口，自动突出显示前方的应用窗口
 - [AppCleaner](https://freemacsoft.net/appcleaner): 删除 Mac App 用
-- [ShadowsocksX](https://github.com/shadowsocks/ShadowsocksX-NG): Shadowsocks GUI
 - [Gas Mask](https://github.com/2ndalpha/gasmask): hosts 管理器
 <a name="Caffeine"></a>
 - [Caffeine](http://lightheadsw.com/caffeine): Mac 系统不休眠。
-- [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake): 同 [Caffeine][]，开源的。
+  - Amphetamine: 可定时休眠，比 Caffeine 功能更精细
 - [Day-O](http://www.shauninman.com/archive/2016/10/20/day_o_2_mac_menu_bar_clock): 日历
 - [Xee](https://xee.c3.cx): 图片浏览器
 - [Vox](https://vox.rocks/mac-music-player): 音乐播放器
@@ -829,13 +829,14 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [Contexts](https://contexts.co/): 这个看起来更好用，但是更贵  `Ⓜ`
 - [Pixave](http://www.littlehj.com/mac/): 素材管理器
 - [TripMode](https://www.tripmode.ch/): 控制应用的网络流量访问
+  - [LittleSnitch](https://www.obdev.at/products/littlesnitch/index.html)
 - [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html): 当 Mac 电脑被窃听时发出提醒
 - [Sloth](https://github.com/sveinbjornt/Sloth): 查看进程相关的文件。lsof 的 GUI 版
 - [ColorSlurp](https://itunes.apple.com/cn/app/colorslurp/id1287239339): 取色器，免费的。 `Ⓜ`
   - [Sip](http://sipapp.io): 备选方案。体验更好。价格贵，年付。 `Ⓜ`
 - [Awesome MacOS 屏保](https://github.com/agarrharr/awesome-macos-screensavers)
   - [我用的屏保](https://github.com/Wandmalfarbe/evangelion-clock-screensaver)
-- [Lepton](https://github.com/hackjutsu/Lepton)
+- [Lepton](https://github.com/hackjutsu/Lepton): Gist 管理应用
 
 ## [字体](./design/README.md#字体)
 
