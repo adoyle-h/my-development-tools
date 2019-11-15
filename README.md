@@ -168,6 +168,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic): 解锁网易云音乐客户端变灰歌曲
   - [Listen 1](https://github.com/listen1/listen1_chrome_extension)
   - [ieaseMusic](https://github.com/trazyn/ieaseMusic)
+<a name="mpv"></a>
+- [mpv](https://github.com/mpv-player/mpv): 跨平台的媒体播放器，支持命令行
 
 ## 镜像站
 
@@ -786,6 +788,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## Mac App
 
+- [m-cli](https://github.com/rgcr/m-cli): 很方便的 Mac 相关的命令行工具
 - [quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins): Mac 文件 Quick Look 插件。在 Finder 中按空格预览
 - [Nativefier](https://github.com/jiahaog/nativefier): 网页应用打包成 Mac App `Ⓜ`
 <a name="Homebrew"></a>
@@ -806,20 +809,18 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Monosnap](https://monosnap.com/welcome): 免费又强大的截图/截屏/录屏(支持 GIF 和 MP4)
   - screencapture: 命令行版截图/截屏工具。 mac 自带
   - [Snipaste](https://zh.snipaste.com/): windows 截图/截屏工具 `ⓦ`
+- GIF Brewery 3: GIF 制作工具 `ⓦ`
 - [Copyless](http://copyless.net): 系统剪切板管理器
 - [Yoink](http://eternalstorms.at/yoink/Yoink_-_Simplify_and_Improve_Drag_and_Drop_on_your_Mac/Yoink_-_Simplify_drag_and_drop_on_your_Mac.html): 临时桌面文件
 - [Noizio](http://noiz.io): 白噪音
 - [HazeOver](https://hazeover.com): 通过虚化所有的背景窗口，自动突出显示前方的应用窗口
 - [AppCleaner](https://freemacsoft.net/appcleaner): 删除 Mac App 用
 - [Gas Mask](https://github.com/2ndalpha/gasmask): hosts 管理器
-<a name="Caffeine"></a>
-- [Caffeine](http://lightheadsw.com/caffeine): Mac 系统不休眠。
-  - Amphetamine: 可定时休眠，比 Caffeine 功能更精细
+- Amphetamine: 控制 Mac 系统不休眠，可定时 `Ⓜ`
 - [Day-O](http://www.shauninman.com/archive/2016/10/20/day_o_2_mac_menu_bar_clock): 日历
 - [Xee](https://xee.c3.cx): 图片浏览器
 - [Vox](https://vox.rocks/mac-music-player): 音乐播放器
-- [mpv](https://github.com/mpv-player/mpv): 视频播放器 `Ⓜ`
-  - [iina](https://github.com/lhc70000/iina): 基于 mpv 的播放器 `Ⓜ`
+- [iina](https://github.com/lhc70000/iina): 视频播放器。基于 [mpv][] 开发 `Ⓜ`
 - [HyperDock](https://bahoom.com/hyperdock): Mac Dock 栏增强
 - [Tuxera NTFS](https://www.tuxera.com/products/tuxera-ntfs-for-mac): 让 Mac 支持 NTFS 文件系统
 - [DaisyDisk](https://daisydiskapp.com/): 硬盘数据占用空间可视化分析。非常好用！ `Ⓜ`
@@ -1153,7 +1154,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 [git-cal]: #user-content-git-cal
 [github-contributions-chart]: #user-content-github-contributions-chart
 [Homebrew]: #user-content-Homebrew
-[Caffeine]: #user-content-Caffeine
+[mpv]: #user-content-mpv
 [commitlint]: #user-content-commitlint
 
 <!-- icons -->
