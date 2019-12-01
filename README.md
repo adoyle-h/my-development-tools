@@ -200,6 +200,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [all-contributors](https://github.com/all-contributors/all-contributors): 用 `.all-contributorsrc` 文件记录项目维护者列表。
 - [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 生成 Github contributions 图片。类似的还有 [git-cal][]
   - [API](https://github.com/sallar/github-contributions-api)
+- [github-issue-templates](https://github.com/stevemao/github-issue-templates): GitHub Issue 与 PR 的模板
+  - [awesome-github-templates](https://github.com/devspace/awesome-github-templates)
 
 ### 界面交互
 
@@ -395,7 +397,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## Cheatsheet
 
 - [Rico's cheatsheets](https://devhints.io): 网页版，[源码](https://github.com/rstacruz/cheatsheets)
-- [cheat](https://github.com/chrisallenlane/cheat): 命令行工具，手册内容较少。但是本地存储，可以 `cheat -e` 自己编辑维护。
+- [cheat](https://github.com/cheat/cheat): 命令行工具，本地存储，支持多 cheatsheets 扩展。这个仓库只有程序，需要下载官方 cheatsheets 配合使用。还可以 `cheat -e` 自己编辑维护。
+  - [cheat/cheatsheets](https://github.com/cheat/cheatsheets): 官方 cheatsheets
+  - [adoyle-h/my-command-cheat](https://github.com/adoyle-h/my-command-cheat): 我的 cheatsheets
 - [tldr](https://github.com/tldr-pages/tldr/): 命令行工具，手册内容由社区维护，非常详尽。
 - [cheat.sh](https://github.com/chubin/cheat.sh): cheatsheet 服务，可通过 curl 获取内容，内容由社区维护。
 
@@ -477,9 +481,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [ranger](https://github.com/ranger/ranger): 命令行版文件管理器
   - [nnn](https://github.com/jarun/nnn)
-- [rename](http://plasmasturm.org/code/rename): 批量重命名文件。`brew install rename`
-- [massren](https://github.com/laurent22/massren): 用自己的编辑器来批量重命名文件
-- [fpp](https://github.com/facebook/PathPicker): 快速筛选工具
+- [massren](https://github.com/laurent22/massren): 在自己的编辑器编排后批量重命名文件。非常好用！
+  - [rename](http://plasmasturm.org/code/rename): 备选方案。命令式批量重命名文件。`brew install rename`
+- [fpp](https://github.com/facebook/PathPicker): 快速筛选工具（不怎么好用）
 
 ## 结构化数据处理
 
