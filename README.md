@@ -475,8 +475,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [ncdu](https://dev.yorhel.nl/ncdu): better du。递归扫描整个文件夹空间占用，交互式。
 - [fd](https://github.com/sharkdp/fd/): better find
 - [trash](https://github.com/sindresorhus/trash): better rm，不直接删除文件而是移到回收站。建议 `alias rm='trash'`
-- [ag](https://github.com/ggreer/the_silver_searcher): 模糊搜索
-  - [fzf](https://github.com/junegunn/fzf): 模糊搜索
+- [ag](https://github.com/ggreer/the_silver_searcher): 模糊搜索文件内容
+- [fzf](https://github.com/junegunn/fzf): 模糊筛选/搜索任意列表
 - [cash](https://github.com/dthree/cash): For windows 用户。用 nodejs 写的程序，模拟一些 linux 命令
 
 ### 进程
@@ -821,7 +821,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [alfy](https://github.com/sindresorhus/alfy): JS 语法编写 Alfred Workflow
   - [dext](https://github.com/DextApp/dext): 类似 Alfred，JS 写的 launcher `⨀`
   - [Lacona](https://www.lacona.io/): 类似 spotlight。但更酷 `Ⓜ`
-- [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Apple Script，用 Lua 脚本编写程序，支持键盘等事件监听 `Ⓜ`
+- [Phoenix](https://github.com/fabiospampinato/phoenix): Mac 窗口管理器，用 JS 编程
+  - [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Apple Script，用 Lua 脚本编写程序，支持键盘等事件监听 `Ⓜ`
+  - [mjolnir](https://github.com/mjolnirapp/mjolnir)
 <a name="Monosnap"></a>
 - [Monosnap](https://monosnap.com/welcome): 免费又强大的截图/截屏/录屏(支持 GIF 和 MP4)
   - screencapture: 命令行版截图/截屏工具。 mac 自带
@@ -834,7 +836,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [AppCleaner](https://freemacsoft.net/appcleaner): 删除 Mac App 用
 - [Gas Mask](https://github.com/2ndalpha/gasmask): hosts 管理器
 - Amphetamine: 控制 Mac 系统不休眠，可定时 `Ⓜ`
-- [Day-O](http://www.shauninman.com/archive/2016/10/20/day_o_2_mac_menu_bar_clock): 日历
 - [Xee](https://xee.c3.cx): 图片浏览器
 - [Vox](https://vox.rocks/mac-music-player): 音乐播放器
 - [iina](https://github.com/lhc70000/iina): 视频播放器。基于 [mpv][] 开发 `Ⓜ`
@@ -846,9 +847,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [CmdTap](http://www.yingdev.com/projects/cmdtap): 任务切换器增强 `Ⓜ`
   - [Contexts](https://contexts.co/): 这个看起来更好用，但是更贵  `Ⓜ`
 - [Pixave](http://www.littlehj.com/mac/): 素材管理器
-- [TripMode](https://www.tripmode.ch/): 控制应用的网络流量访问
-  - [LittleSnitch](https://www.obdev.at/products/littlesnitch/index.html)
-- [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html): 当 Mac 电脑被窃听时发出提醒
+- [LittleSnitch](https://www.obdev.at/products/littlesnitch/index.html): 实时监控应用的网络流量
+- [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html): 实时监控 Mac 电脑的摄像头、声音输入是否开启
 - [Sloth](https://github.com/sveinbjornt/Sloth): 查看进程相关的文件。lsof 的 GUI 版
 - [ColorSlurp](https://itunes.apple.com/cn/app/colorslurp/id1287239339): 取色器，免费的。 `Ⓜ`
   - [Sip](http://sipapp.io): 备选方案。体验更好。价格贵，年付。 `Ⓜ`
