@@ -40,6 +40,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [Github App](#github-app)
 - [SVG](#svg)
 - [代码质量检查](#代码质量检查)
+- [内核工具 (Kernel Tools)](#内核工具-kernel-tools)
+    - [性能排查](#性能排查)
 - [安全](#安全)
     - [逆向工程](#逆向工程)
     - [漏洞信息平台](#漏洞信息平台)
@@ -96,6 +98,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [Chrome 主题](#chrome-主题)
     - [Chrome 插件](#chrome-插件)
 - [画图](#画图)
+    - [ASCII Art](#ascii-art)
 - [测试](#测试)
     - [字符串测试](#字符串测试)
     - [http 压测](#http-压测)
@@ -119,6 +122,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [正则表达式 (Regex)](#正则表达式-regex)
 - [数据可视化](#数据可视化)
 - [交互式 Notebook](#交互式-notebook)
+- [Go 开发](#go-开发)
 - [NodeJS 开发](#nodejs-开发)
 - [TypeScript](#typescript)
 - [前端开发](#前端开发)
@@ -246,6 +250,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## 代码质量检查
 
 - [SonarQube](https://github.com/SonarSource/sonarqube): 「待评估」
+
+## 内核工具 (Kernel Tools)
+
+### 性能排查
 
 ## 安全
 
@@ -410,7 +418,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [hr](https://github.com/LuRsT/hr): 终端分隔符
 - [cloc](https://github.com/AlDanial/cloc): 代码行统计
 - [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
-- [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii): 图片转 ASCII 字符
 - [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
 - [pv](http://www.ivarch.com/programs/pv.shtml): 显示 linux 管道数据传输速度
 - [gotty](https://github.com/yudai/gotty): 将终端程序映射成 Web 服务
@@ -723,7 +730,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML): C4 Model
 - [Mermaid](https://github.com/knsv/mermaid): 类似 PlantUML，另一种基于文本生成图的工具
   - [Mermaid Live Editor](https://mermaidjs.github.io/mermaid-live-editor/)
-- [Monodraw](https://monodraw.helftone.com): ASCII Art 画图工具 `Ⓜ`
 - [Pixelmator](http://www.pixelmator.com/mac): 像素画图工具 `Ⓜ`
 - [krita](https://github.com/KDE/krita): 自由、免费、开源、跨平台的像素绘画软件 `Ⓜ` `Ⓛ` `ⓦ`
 - [Sketch](https://www.sketchapp.com/): 矢量画图工具 `Ⓜ`
@@ -735,6 +741,13 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - http://processingjs.org/
 - [drawio](https://github.com/jgraph/drawio): 非常优秀的开源在线绘图前端库。各种图都有，支持国际化。
 
+### ASCII Art
+
+- [Monodraw](https://monodraw.helftone.com): ASCII Art 画图工具 `Ⓜ`
+- [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii): 图片转 ASCII 字符
+- ASCII Art 样例库
+  - http://www.ascii-fr.com/
+  - https://asciiart.website/
 
 ## 测试
 
@@ -929,6 +942,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://mybinder.org/
   - 源码 [binderhub](https://github.com/jupyterhub/binderhub)
 
+## [Go 开发](./go/README.md)
 ## [NodeJS 开发](./nodejs/README.md)
 
 ## [TypeScript](./typescript/README.md)
