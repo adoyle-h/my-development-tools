@@ -9,7 +9,7 @@
 
 ## 版权声明 (Copyright and License)
 
-Copyright (c) 2016-2019 ADoyle. The project is licensed under the **BSD 3-clause License**.
+Copyright (c) 2016-2020 ADoyle. The project is licensed under the **BSD 3-clause License**.
 
 See the [LICENSE][] file for the specific language governing permissions and limitations under the License.
 
@@ -177,14 +177,15 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 镜像站
 
-- https://opsx.alibaba.com/mirror : 阿里
+- https://developer.aliyun.com : 阿里
 - http://mirrors.ustc.edu.cn/ : 中国科技大学
 
 ## Semver
 
 - [semver-diff](https://github.com/sindresorhus/semver-diff): semver 比较
 - [standard-version](https://github.com/conventional-changelog/standard-version): Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org
-- https://semver.npmjs.com/
+- https://semver.npmjs.com/ : npm semver calculator
+- [semver-tool](https://github.com/fsaintjacques/semver-tool): 纯 Bash 实现的 Semver 可执行命令
 
 ## RFC
 
