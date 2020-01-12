@@ -465,6 +465,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - diff
   - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 着色增强工具，但只能用管道输出，仍需借助 diff 或 git diff 工具。
   - [icdiff](https://github.com/jeffkaufman/icdiff): 左右分栏 diff，外加着色。
+  - [diff2html](https://github.com/rtfpessoa/diff2html): 将 diff 文件转成 HTML 页面的形式预览。非常漂亮
 - [exa](https://github.com/ogham/exa): much better `ls`
 - [z.lua](https://github.com/skywind3000/z.lua): 路径切换 cd 的增强版。支持多级模糊匹配，交互式搜索等功能
 - [ccat](https://github.com/jingweno/ccat): better cat。输出着色代码的 cat 命令
@@ -854,6 +855,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [Sip](http://sipapp.io): 备选方案。体验更好。价格贵，年付。 `Ⓜ`
 - [Awesome MacOS 屏保](https://github.com/agarrharr/awesome-macos-screensavers)
   - [我用的屏保](https://github.com/Wandmalfarbe/evangelion-clock-screensaver)
+- https://dynamicwallpaper.club/ : 创建动态壁纸
 - [Lepton](https://github.com/hackjutsu/Lepton): Gist 管理应用
 
 ## [字体](./design/README.md#字体)

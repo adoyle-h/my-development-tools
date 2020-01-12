@@ -308,7 +308,6 @@
 
 - [comma](https://github.com/margusholland/comma): 文本处理工具。大小写转换，空格处理，计数等等功能
 - [Rename It](https://github.com/rodi01/renameit): 图层重命名工具，大赞！
-- [zoom-alert](https://github.com/nathco/zoom-alert): 「不兼容最新 sketch」当前缩放提示
 - [Automate Sketch](https://github.com/Ashung/Automate-Sketch): 上百个功能集合
 - [sketch-tiles](https://github.com/kumo/sketch-tiles): 方便制作 Tile 的插件
 - [Sketch-Stickers](https://github.com/romannurik/Sketch-Stickers): Quickly drag+drop stickers in your Sketch Libraries.
