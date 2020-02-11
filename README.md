@@ -551,6 +551,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 <a name="commitlint"></a>
 - [commitlint](https://github.com/conventional-changelog/commitlint): Lint git commit messages
 - [ansible-lint](https://github.com/ansible/ansible-lint)
+- [checkstyle](https://github.com/checkstyle/checkstyle): Java code lint
 
 ## Mock
 
@@ -866,6 +867,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## Emoji
 
+- https://emojipedia.org/
 - http://www.emoji-cheat-sheet.com
   - [源码](https://github.com/WebpageFX/emoji-cheat-sheet.com/)
 - http://unicode.org/emoji/charts-beta/full-emoji-list.html

@@ -91,6 +91,7 @@
 - [intro.js](https://github.com/usablica/intro.js): 分步用户引导/导航/介绍的库
 - [highlight.js](https://github.com/highlightjs/highlight.js): 语法高亮前端库
   - [prism](https://github.com/PrismJS/prism): 备选方案
+- https://custom-elements-everywhere.com/ : Custom Element 在各个框架的适用度测试
 
 ## 表单
 
@@ -103,6 +104,7 @@
 ## HTML
 
 - [HEAD](https://github.com/joshbuchea/HEAD): HEAD 里放什么？
+- [lit-html](https://github.com/polymer/lit-html): HTML in JS
 
 ## A11Y
 
@@ -281,6 +283,7 @@
 - [styled-components](https://github.com/styled-components/styled-components): 字符串模板
 - [emotion](https://github.com/emotion-js/emotion): 比 styled-component 更灵活。可以单独设置样式 (css api)，不基于 DOM 类。可以用字符串模板，也可以用函数传参，结合 styled-components 和 glamorous 的优点。
 - [styled-system](https://github.com/styled-system/styled-system): Style props for rapid UI development
+- [polished](https://github.com/styled-components/polished): CSS helper functions for CSS in JS
 
 ### CSS in JSX
 

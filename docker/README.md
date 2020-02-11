@@ -14,6 +14,7 @@
 - [安全](#安全)
 - [日志](#日志)
 - [Kubernetes 相关](#kubernetes-相关)
+    - [Debug](#debug)
     - [Serverless](#serverless)
 - [可视化管理/UI](#可视化管理ui)
 - [其他](#其他)
@@ -74,6 +75,12 @@
   - [Helm vs Kustomize: Managing Complexity](https://codeengineered.com/blog/2018/helm-kustomize-complexity/)
 - [sealed-secrets](https://github.com/bitnami-labs/sealed-secrets): 「待评价」
 - [krew](https://github.com/kubernetes-sigs/krew): kubectl 插件的包管理器
+
+
+### Debug
+
+- [netshoot](https://github.com/nicolaka/netshoot): a Docker + Kubernetes network trouble-shooting swiss-army container
+- [kubectl-debug](https://github.com/aylei/kubectl-debug): 可以非侵入式地排查 pod 和容器的网络问题。默认使用 netshoot 镜像。相关议题 [Ephemeral Containers](https://github.com/kubernetes/enhancements/blob/master/keps/sig-node/20190212-ephemeral-containers.md#motivation)
 
 ### Serverless
 
