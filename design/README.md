@@ -280,10 +280,8 @@
 
 ### 样式
 
-- [Sketch-Style-Inventory](https://github.com/getflourish/Sketch-Style-Inventory): 导出整个文档用到的样式到各种格式
-- [shared-text-styles](https://github.com/nilshoenson/shared-text-styles): 字体样式集导入导出
+- [sketch-styles-generator](https://github.com/lucaorio/sketch-styles-generator): 根据图层生成共享样式
 - [styledrop](https://github.com/ryanmclaughlin/styledrop): 拷贝单个样式
-- [Disconnect for Sketch](https://github.com/einancunlu/Disconnect-for-Sketch): 分别解除 Symbol、Layer Style、Text Style 关联
 
 ### 图形
 

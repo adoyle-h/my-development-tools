@@ -92,6 +92,7 @@
 - [highlight.js](https://github.com/highlightjs/highlight.js): 语法高亮前端库
   - [prism](https://github.com/PrismJS/prism): 备选方案
 - https://custom-elements-everywhere.com/ : Custom Element 在各个框架的适用度测试
+- [medium-zoom](https://github.com/francoischalifour/medium-zoom): 图片点击放大
 
 ## 表单
 

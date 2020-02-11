@@ -174,6 +174,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [ieaseMusic](https://github.com/trazyn/ieaseMusic)
 <a name="mpv"></a>
 - [mpv](https://github.com/mpv-player/mpv): 跨平台的媒体播放器，支持命令行
+- [MuseScore](https://github.com/musescore/MuseScore): 开源的打谱软件
 
 ## 镜像站
 
@@ -997,8 +998,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - http://devdocs.io/ : 查看文档。开源的 https://github.com/Thibaut/devdocs/ `ⱳ`
 - [zealdocs](https://zealdocs.org/): 查看文档。备选 `Ⓛ`
 - [carbon](https://github.com/dawnlabs/carbon): 写文档做 slide 时，贴代码截图挺好看的
-- [gitbook](https://github.com/GitbookIO/gitbook): 用 markdown 写书的平台工具
-  - [mkdocs](https://github.com/mkdocs/mkdocs): 类似 gitbook，当前没有更优秀的地方
+- [mkdocs](https://github.com/mkdocs/mkdocs): 文档站点生成工具。用 markdown 写文档
+  - [docsify](https://github.com/docsifyjs/docsify): 备选方案。细节做得不是很理想。
+  - [gitbook](https://github.com/GitbookIO/gitbook): 用 markdown 写书的平台。新版 Gitbook 只能在线编辑，不再支持离线编辑。免费版本只支持 10 个项目。
 
 ### Changelog
 
