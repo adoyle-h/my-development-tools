@@ -574,6 +574,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [chrome 自带网页截屏命令](https://www.zhihu.com/question/20075570/answer/206335744)
 - [pageres](https://github.com/sindresorhus/pageres): 网页截屏
 - [temme](https://github.com/shinima/temme): 利用 CSS 语法，从 HTML 提取出 JSON 数据
+- https://archive.org/ : 永久保存网页内容
+  - https://archive.is/ : 同上
 
 ## SSL
 
@@ -860,6 +862,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [我用的屏保](https://github.com/Wandmalfarbe/evangelion-clock-screensaver)
 - https://dynamicwallpaper.club/ : 创建动态壁纸
 - [Lepton](https://github.com/hackjutsu/Lepton): Gist 管理应用
+- [keycastr](https://github.com/keycastr/keycastr): 键盘按下哪个键展示在屏幕上
 
 ## [字体](./design/README.md#字体)
 
