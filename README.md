@@ -125,6 +125,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Go 开发](#go-开发)
 - [NodeJS 开发](#nodejs-开发)
 - [TypeScript](#typescript)
+- [WebAssembly](#webassembly)
 - [前端开发](#前端开发)
 - [Docker 与 K8S](#docker-与-k8s)
 - [Tools in Docker](#tools-in-docker)
@@ -952,9 +953,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - 源码 [binderhub](https://github.com/jupyterhub/binderhub)
 
 ## [Go 开发](./go/README.md)
+
 ## [NodeJS 开发](./nodejs/README.md)
 
 ## [TypeScript](./typescript/README.md)
+
+## [WebAssembly](./wasm.md)
 
 ## [前端开发](./FE/README.md)
 
