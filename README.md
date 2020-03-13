@@ -122,13 +122,15 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [正则表达式 (Regex)](#正则表达式-regex)
 - [数据可视化](#数据可视化)
 - [交互式 Notebook](#交互式-notebook)
-- [Go 开发](#go-开发)
-- [NodeJS 开发](#nodejs-开发)
+- [Python](#python)
+- [Golang](#golang)
+- [NodeJS](#nodejs)
 - [TypeScript](#typescript)
 - [WebAssembly](#webassembly)
 - [前端开发](#前端开发)
 - [Docker 与 K8S](#docker-与-k8s)
 - [Tools in Docker](#tools-in-docker)
+- [虚拟化](#虚拟化)
 - [文档处理](#文档处理)
 - [Markdown](#markdown)
 - [模板引擎](#模板引擎)
@@ -176,11 +178,13 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 <a name="mpv"></a>
 - [mpv](https://github.com/mpv-player/mpv): 跨平台的媒体播放器，支持命令行
 - [MuseScore](https://github.com/musescore/MuseScore): 开源的打谱软件
+- https://learnxinyminutes.com : 快速学习各种编程语言的手册
 
 ## 镜像站
 
 - https://developer.aliyun.com : 阿里
 - http://mirrors.ustc.edu.cn/ : 中国科技大学
+- https://mirrors.tuna.tsinghua.edu.cn : 清华大学
 
 ## Semver
 
@@ -241,10 +245,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ### Github App
 
-- [ImgBot](https://github.com/marketplace/imgbot)
+- [ImgBot](https://github.com/marketplace/imgbot): 自动图片压缩
 - [Travis CI](https://github.com/marketplace/travis-ci/)
-- [WIP](https://github.com/marketplace/wip/)
-- [DCO](https://github.com/apps/dco)
+- [WIP](https://github.com/marketplace/wip/): WIP 检查
+- [DCO](https://github.com/apps/dco): Git Commit 检查 DCO 签名
+- [Stale](https://probot.github.io/apps/stale/): 关闭过期的 Issue 和 Pull Request
 
 ## SVG
 
@@ -952,9 +957,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://mybinder.org/
   - 源码 [binderhub](https://github.com/jupyterhub/binderhub)
 
-## [Go 开发](./go/README.md)
+## [Python](./python.md)
 
-## [NodeJS 开发](./nodejs/README.md)
+## [Golang](./go/README.md)
+
+## [NodeJS](./nodejs/README.md)
 
 ## [TypeScript](./typescript/README.md)
 
@@ -972,6 +979,15 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - `docker run -ti --rm -v ${HOME}:/root -v $(pwd):/git alpine/git <git_command>` https://hub.docker.com/r/alpine/git
 - https://hub.docker.com/r/jlesage/firefox
 - https://hub.docker.com/_/irssi
+
+## 虚拟化
+
+- [VirtualBox](https://www.virtualbox.org/)
+- [Vagrant](https://github.com/hashicorp/vagrant)
+  - https://app.vagrantup.com/ : vagrant box 仓库
+  - [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest): 安装 VirtualBox Guest Additions 以支持宿主机与虚拟机共享目录的双向同步
+  - [Vagrant Manager](http://vagrantmanager.com/): Vagrant 管理器。菜单栏工具。
+  - [bento](https://github.com/chef/bento): build minimal Vagrant baseboxes
 
 ## 文档处理
 
