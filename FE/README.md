@@ -379,6 +379,7 @@
 - [jest](https://github.com/facebook/jest): 测试框架，前后端通用，支持 ts、babel 等扩展。
 - [cypress](https://github.com/cypress-io/cypress): 非常酷炫的，大而全的，前端自动化测试框架。
 - [enzyme](https://github.com/airbnb/enzyme): JavaScript Testing utilities for React
+- [playwright](https://github.com/microsoft/playwright): 浏览器 UI 自动化测试工具。支持多种内核 (Chromium, Webkit, Firefox) 的浏览器自动化操作。微软出品。
 
 ## 响应式
 

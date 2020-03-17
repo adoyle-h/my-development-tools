@@ -1,7 +1,7 @@
 <a name="top"></a>
-# Docker 与 K8S
+# Docker 工具栈
 
-[⬅︎ 返回上层](../#docker-工具链)
+[⬅︎ 返回上层](../#docker)
 
 ## TOC
 
@@ -13,12 +13,8 @@
 - [监控](#监控)
 - [安全](#安全)
 - [日志](#日志)
-- [Kubernetes 相关](#kubernetes-相关)
-    - [Debug](#debug)
-    - [Serverless](#serverless)
 - [可视化管理/UI](#可视化管理ui)
 - [其他](#其他)
-- [待评价](#待评价)
 
 <!-- /MarkdownTOC -->
 
@@ -55,41 +51,9 @@
 
 - [logspout](https://github.com/gliderlabs/logspout)
 
-## Kubernetes 相关
-
-- https://kubernetes.io/
-- https://labs.play-with-k8s.com/ : 在线练习 K8S 集群
-- [operator-sdk](https://github.com/operator-framework/operator-sdk)
-- [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder): SDK for building Kubernetes APIs using CRDs
-- [Azure/draft](https://github.com/Azure/draft): Draft makes it easy to build applications that run on Kubernetes. Draft targets the "inner loop" of a developer's workflow: as they hack on code, but before code is committed to version control.
-- [kompose](https://github.com/kubernetes/kompose): Go from Docker Compose to Kubernetes
-- [kubectx](https://github.com/ahmetb/kubectx): 管理切换 kubectl 上下文
-- [skaffold](https://github.com/GoogleContainerTools/skaffold): Build\Test\Deploy\Tag\Push 自动化框架
-  - [kaniko](https://github.com/GoogleContainerTools/kaniko): 在 k8s 里构建镜像
-- [minikube](https://github.com/kubernetes/minikube): 本地开发部署单节点 k8s 集群的工具。
-- [kubeadm](https://github.com/kubernetes/kubeadm): 部署多节点 k8s 集群的工具。
-  - [kops](https://github.com/kubernetes/kops): 备选方案
-- [kubespray](https://github.com/kubernetes-sigs/kubespray): 基于 kubeadm 和 ansible 的 K8S 和 OS 部署工具
-- [helm](https://github.com/kubernetes/helm): K8S 的包管理工具
-- [kustomize](https://github.com/kubernetes-sigs/kustomize): 使用 Base + Overlay 的方式自定义生成 K8S YAML 配置
-  - [Helm vs Kustomize: Managing Complexity](https://codeengineered.com/blog/2018/helm-kustomize-complexity/)
-- [sealed-secrets](https://github.com/bitnami-labs/sealed-secrets): 「待评价」
-- [krew](https://github.com/kubernetes-sigs/krew): kubectl 插件的包管理器
-
-
-### Debug
-
-- [netshoot](https://github.com/nicolaka/netshoot): a Docker + Kubernetes network trouble-shooting swiss-army container
-- [kubectl-debug](https://github.com/aylei/kubectl-debug): 可以非侵入式地排查 pod 和容器的网络问题。默认使用 netshoot 镜像。相关议题 [Ephemeral Containers](https://github.com/kubernetes/enhancements/blob/master/keps/sig-node/20190212-ephemeral-containers.md#motivation)
-
-### Serverless
-
-- [kubeless](https://github.com/kubeless/kubeless): FaaS in k8s
-
 ## 可视化管理/UI
 
 - [Portainer](https://github.com/portainer/portainer)
-- [Kui](https://github.com/IBM/kui): Kubernetes 的另一个 UI。[介绍](https://zhuanlan.zhihu.com/p/66975768)
 - [Weave Scope](https://github.com/weaveworks/scope): Monitoring, visualisation & management for Docker & Kubernetes
 
 ## 其他
@@ -98,13 +62,6 @@
 - [docker-diff](https://github.com/moul/docker-diff): 比较两个 image 的文件改动
   - [container-diff](https://github.com/GoogleContainerTools/container-diff): 备选方案
 - [dive](https://github.com/wagoodman/dive): 查看 docker 镜像的每一层 layer。支持 diff
-- [gVisor](https://github.com/google/gvisor): 沙盒式容器 runtime，注重安全性。
-- [k3s](https://github.com/rancher/k3s): 轻量级 k8s，用于边缘计算、嵌入式、物联网场景
-- [KubeEdge](https://github.com/kubeedge/kubeedge): 用于边缘计算场景
-
------
-
-## 待评价
 
 
 **[⬆ 返回顶部](#top)**

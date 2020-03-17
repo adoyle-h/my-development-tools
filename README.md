@@ -128,8 +128,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [TypeScript](#typescript)
 - [WebAssembly](#webassembly)
 - [前端开发](#前端开发)
-- [Docker 与 K8S](#docker-与-k8s)
+- [Docker](#docker)
 - [Tools in Docker](#tools-in-docker)
+- [K8S/Kubernetes](#k8skubernetes)
 - [虚拟化](#虚拟化)
 - [文档处理](#文档处理)
 - [Markdown](#markdown)
@@ -969,7 +970,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## [前端开发](./FE/README.md)
 
-## [Docker 与 K8S](./docker/README.md)
+## [Docker](./docker/README.md)
 
 ## Tools in Docker
 
@@ -979,6 +980,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - `docker run -ti --rm -v ${HOME}:/root -v $(pwd):/git alpine/git <git_command>` https://hub.docker.com/r/alpine/git
 - https://hub.docker.com/r/jlesage/firefox
 - https://hub.docker.com/_/irssi
+
+## [K8S/Kubernetes](./k8s.md)
 
 ## 虚拟化
 
