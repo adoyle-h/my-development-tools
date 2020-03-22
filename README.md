@@ -31,7 +31,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
-- [镜像站](#镜像站)
 - [Semver](#semver)
 - [RFC](#rfc)
 - [License](#license)
@@ -154,6 +153,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [运营](#运营)
 - [中国特色](#中国特色)
     - [翻墙](#翻墙)
+    - [镜像站点](#镜像站点)
 - [Funny](#funny)
     - [Game](#game)
     - [教你搜索](#教你搜索)
@@ -180,12 +180,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [mpv](https://github.com/mpv-player/mpv): 跨平台的媒体播放器，支持命令行
 - [MuseScore](https://github.com/musescore/MuseScore): 开源的打谱软件
 - https://learnxinyminutes.com : 快速学习各种编程语言的手册
-
-## 镜像站
-
-- https://developer.aliyun.com : 阿里
-- http://mirrors.ustc.edu.cn/ : 中国科技大学
-- https://mirrors.tuna.tsinghua.edu.cn : 清华大学
 
 ## Semver
 
@@ -991,6 +985,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest): 安装 VirtualBox Guest Additions 以支持宿主机与虚拟机共享目录的双向同步
   - [Vagrant Manager](http://vagrantmanager.com/): Vagrant 管理器。菜单栏工具。
   - [bento](https://github.com/chef/bento): build minimal Vagrant baseboxes
+  - [vagrant-scp](https://github.com/invernizzi/vagrant-scp): Vagrant 支持 scp
 
 ## 文档处理
 
@@ -1128,6 +1123,18 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [GenPAC](https://github.com/JinnLynn/genpac): 基于 gfwlist 的 pac, dnsmasq, wingy 配置生成工具，支持自定义规则。
 - [kcp](https://github.com/skywind3000/kcp):  A Fast and Reliable ARQ Protocol
 - https://github.com/bannedbook/fanqiang/wiki
+
+### 镜像站点
+
+- https://developer.aliyun.com : 阿里
+- http://mirrors.ustc.edu.cn/ : 中国科技大学
+- https://mirrors.tuna.tsinghua.edu.cn : 清华大学
+- http://mirror.azure.cn/ : azure 中国站
+  - http://mirror.azure.cn/help/gcr-proxy-cache.html : GCR 代理
+  - 同样适用于 quay.io，使用 `quay.azk8s.cn` 替代。
+  - https://mirror.azure.cn/kubernetes/ : containernetworking-plugins, etcd, kubectl, containerd 等资源的镜像
+- https://cnpmjs.org/ :
+  - 用法：任意域名加 `.cnpmjs.org`。例如 `git clone https://github.com.cnpmjs.org/etcd-io/etcd.git`
 
 ## Funny
 
