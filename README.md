@@ -78,6 +78,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [HTML/网站](#html网站)
 - [SSL](#ssl)
 - [系统](#系统)
+    - [文件系统](#文件系统)
     - [监控](#监控)
     - [Troubleshooting](#troubleshooting)
 - [数据库](#数据库)
@@ -100,7 +101,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [ASCII Art](#ascii-art)
 - [测试](#测试)
     - [字符串测试](#字符串测试)
-    - [http 压测](#http-压测)
+    - [HTTP Benchmark](#http-benchmark)
+    - [Benchmark](#benchmark)
 - [Blog](#blog)
 - [密码相关](#密码相关)
     - [加密/解密](#加密解密)
@@ -304,6 +306,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## CMS
 
 - [headless cms](https://github.com/netlify/headlesscms.org)
+- [strapi](https://github.com/strapi/strapi)
+- [Ghost](https://github.com/TryGhost/Ghost)
 
 ## JAMstack
 
@@ -490,8 +494,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ### 文件处理
 
-- [ranger](https://github.com/ranger/ranger): 命令行版文件管理器
-  - [nnn](https://github.com/jarun/nnn)
+- [ranger](https://github.com/ranger/ranger): 文件管理器 CLI。Python 写的
+  - [nnn](https://github.com/jarun/nnn): 听说很快。待评价
+  - [fff](https://github.com/dylanaraps/fff): 纯 Bash 写的文件管理器，支持 bash 3.2+。
 - [massren](https://github.com/laurent22/massren): 在自己的编辑器编排后批量重命名文件。非常好用！
   - [rename](http://plasmasturm.org/code/rename): 备选方案。命令式批量重命名文件。`brew install rename`
 - [fpp](https://github.com/facebook/PathPicker): 快速筛选工具（不怎么好用）
@@ -588,6 +593,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## 系统
 
 - [osquery](https://github.com/facebook/osquery/): 使用 SQL 查询系统级别的信息
+
+### 文件系统
+
+- [Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html): 文件系统目录层级标准。[中文翻译参考](https://blog.csdn.net/sunqian666888/article/details/84571397)
 
 ### 监控
 
@@ -764,11 +773,15 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings): 收集了一系列不正常的字符用来测试字符串校验
 
-### http 压测
+### HTTP Benchmark
 
 - [siege](https://github.com/JoeDog/siege)
 - [wrk](https://github.com/wg/wrk): 不容易阅读
 - [loadtest](https://github.com/alexfernandez/loadtest)
+
+### Benchmark
+
+- [hyperfine](https://github.com/sharkdp/hyperfine): 命令 Benchmark
 
 ## Blog
 
@@ -1135,6 +1148,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - https://mirror.azure.cn/kubernetes/ : containernetworking-plugins, etcd, kubectl, containerd 等资源的镜像
 - https://cnpmjs.org/ :
   - 用法：任意域名加 `.cnpmjs.org`。例如 `git clone https://github.com.cnpmjs.org/etcd-io/etcd.git`
+- http[s]://kubernetes-charts.proxy.ustclug.org/ : helm chart 仓库镜像
 
 ## Funny
 
