@@ -39,8 +39,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [Github App](#github-app)
 - [SVG](#svg)
 - [代码质量检查](#代码质量检查)
-- [内核工具 (Kernel Tools)](#内核工具-kernel-tools)
-    - [性能排查](#性能排查)
 - [安全](#安全)
     - [逆向工程](#逆向工程)
     - [漏洞信息平台](#漏洞信息平台)
@@ -77,7 +75,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [HTTP](#http)
 - [HTML/网站](#html网站)
 - [SSL](#ssl)
-- [系统](#系统)
+- [Linux 系统](#linux-系统)
     - [文件系统](#文件系统)
     - [监控](#监控)
     - [Troubleshooting](#troubleshooting)
@@ -256,10 +254,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## 代码质量检查
 
 - [SonarQube](https://github.com/SonarSource/sonarqube): 「待评估」
-
-## 内核工具 (Kernel Tools)
-
-### 性能排查
 
 ## 安全
 
@@ -593,7 +587,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [acme.sh](https://github.com/Neilpang/acme.sh): acme.sh 实现了 acme 协议, 可以从 letsencrypt 生成免费的证书
   - [dehydrated](https://github.com/lukas2511/dehydrated): letsencrypt/acme client implemented as a shell-script – just add water
 
-## 系统
+## Linux 系统
 
 - [osquery](https://github.com/facebook/osquery/): 使用 SQL 查询系统级别的信息
 
@@ -614,6 +608,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [sysdig](https://github.com/draios/sysdig): Linux system exploration and troubleshooting tool
   - [sysdig-inspect](https://github.com/draios/sysdig-inspect): A powerful opensource interface for container troubleshooting and security investigation
+- [bcc](https://github.com/iovisor/bcc): Tools for BPF-based Linux IO analysis, networking, monitoring, and more
 
 ## 数据库
 
