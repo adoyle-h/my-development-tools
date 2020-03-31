@@ -43,6 +43,7 @@
     - [CSS in JSX](#css-in-jsx)
     - [CSS Module](#css-module)
     - [PostCSS](#postcss)
+    - [CSS Schema](#css-schema)
     - [排版 Typography](#排版-typography)
     - [栅格/网格/Grid](#栅格网格grid)
 - [参数可视化](#参数可视化)
@@ -299,6 +300,10 @@
 - [cssnano](https://github.com/ben-eb/cssnano): A modular minifier, built on top of the PostCSS ecosystem
 - [postcss-cssnext](https://github.com/MoOx/postcss-cssnext)
 - [rucksack-css](https://github.com/seaneking/rucksack)
+
+### CSS Schema
+
+- http://schemastore.org/css/
 
 ### 排版 Typography
 

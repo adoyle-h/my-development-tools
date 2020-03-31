@@ -116,6 +116,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Emoji](#emoji)
 - [服务 (Service)](#服务-service)
     - [静态文件托管](#静态文件托管)
+    - [伪数据](#伪数据)
 - [PaaS](#paas)
 - [Serverless](#serverless)
 - [跳板机/堡垒机](#跳板机堡垒机)
@@ -538,6 +539,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://spacetelescope.github.io/understanding-json-schema/index.html : 目前最好的入门教程
 - https://jsonschema.net/ : 根据 JSON 生成 JSON Schema
 - [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker): 根据 JSON Schema 生成数据
+- http://schemastore.org/json/ : 各种现成的 JSON Schema 文件
+  - https://github.com/instrumenta/kubernetes-json-schema : K8S JSON Schema 文件
 
 ## Lint
 
@@ -916,6 +919,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ### 静态文件托管
 
 - http://surge.sh  Static web publishing for Front-End Developers. 设计非常优雅，强烈推荐！
+
+### 伪数据
+
+- https://jsonplaceholder.typicode.com/
+- http://dummy.restapiexample.com/
 
 ## PaaS
 

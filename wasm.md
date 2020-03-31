@@ -22,6 +22,7 @@
 
 ## 环境
 
+- [awesome-wasm-runtimes](https://github.com/appcypher/awesome-wasm-runtimes)
 - [wasmer](https://github.com/wasmerio/wasmer): wasm 运行时平台。
   - [wasmtime](https://github.com/bytecodealliance/wasmtime): 备选方案
 - https://webassembly.sh/ : wasm 浏览器运行终端
