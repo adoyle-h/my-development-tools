@@ -8,8 +8,10 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [镜像与代理](#镜像与代理)
 - [kubectl](#kubectl)
 - [环境](#环境)
+- [编排](#编排)
 - [容器](#容器)
 - [镜像](#镜像)
 - [构建](#构建)
@@ -31,6 +33,13 @@
 - [KubeEdge](https://github.com/kubeedge/kubeedge): 用于边缘计算场景
 - [gVisor](https://github.com/google/gvisor): 容器运行时沙盒。把容器跑在隔离的虚拟容器环境中，提高安全性。
 
+## 镜像与代理
+
+- http://mirror.azure.cn/help/gcr-proxy-cache.html : GCR 代理
+- https://mirror.azure.cn/kubernetes/ : containernetworking-plugins, etcd, kubectl, containerd 等资源的镜像
+- quay.io，使用 `quay.azk8s.cn` 替代。
+- https://kubernetes-charts.proxy.ustclug.org : helm chart 仓库镜像，http、https 都支持
+
 ## kubectl
 
 - [kubectx](https://github.com/ahmetb/kubectx): 管理切换 kubectl 上下文
@@ -43,6 +52,13 @@
 - [kubeadm](https://github.com/kubernetes/kubeadm): 部署多节点 k8s 集群的工具。
 - [kubespray](https://github.com/kubernetes-sigs/kubespray): 基于 kubeadm 和 ansible 的 K8S 部署工具。
 - [kops](https://github.com/kubernetes/kops): 在云厂商部署 k8s 集群的工具。
+
+## 编排
+
+- [k8s-wait-for](https://github.com/groundnuty/k8s-wait-for): 等待 K8S Service, Job 或 Pod to enter a desired state。纯 shell 脚本实现。
+- [wait-for-it](https://github.com/vishnubob/wait-for-it): 等待指定 host:port 可用，执行指定命令。纯 shell 脚本实现。
+  - [wait-for](https://github.com/eficode/wait-for): 备用方案。
+  - [docker-compose-wait](https://github.com/ufoscout/docker-compose-wait): 支持等待多个 host。Rust 实现。
 
 ## 容器
 
@@ -80,8 +96,8 @@
 ## Provisioner
 
 - [local-path-provisioner](https://github.com/rancher/local-path-provisioner): Use HostPath for persistent local storage with Kubernetes
+- [local-volume-provisioner](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner)
 - [storage-lib-external-provisioner](https://github.com/kubernetes-sigs/sig-storage-lib-external-provisioner): A library for writing external provisioners.
-  - [local-volume-provisioner](https://github.com/kubernetes-incubator/external-storage/tree/master/local-volume/provisioner)
 
 ## Debug
 

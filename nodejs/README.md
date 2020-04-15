@@ -306,7 +306,8 @@
 
 ## 工程化
 
-- [node-rfr](https://github.com/warmsea/node-rfr): module.require 增强，避免使用相对路径
+- [module-alias](https://github.com/ilearnio/module-alias): require 避免使用相对路径
+  - 还有很多其他方法，详见 https://gist.github.com/branneman/8048520
 - [tapable](https://github.com/webpack/tapable): 实现插件机制
 - [lerna](https://github.com/lerna/lerna): 在一个代码仓库中维护多个 package 的工具
 
@@ -330,6 +331,9 @@
 - [eslint](https://github.com/eslint/eslint): 规则式代码校验器
   - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
   - [eslint-import-resolver-alias](https://github.com/johvin/eslint-import-resolver-alias)
+  - [eslint-plugin-jsdoc](https://github.com/gajus/eslint-plugin-jsdoc)
+  - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames): Eslint plugin to check filenames.
+- [eslint-config-adoyle-style](https://github.com/adoyle-h/eslint-config-adoyle-style)
 
 ## Profiling
 

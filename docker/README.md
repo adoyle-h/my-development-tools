@@ -29,7 +29,6 @@
 
 - [buildah](https://github.com/containers/buildah): An alternative to docker build。支持 shell 脚本编写镜像制作过程，也支持 Dockerfile 的写法。
 - [tini](https://github.com/krallin/tini): init 进程
-- [docker-compose-wait](https://github.com/ufoscout/docker-compose-wait): 等待依赖服务启动后再执行脚本
 - [linuxkit](https://github.com/linuxkit/linuxkit): 自由组合多个基础镜像，拼成一个操作系统的镜像。
 - [Distroless](https://github.com/GoogleContainerTools/distroless): Google 出品的基础镜像，没有 Shell，只包含最基本的依赖。相对更安全。
 

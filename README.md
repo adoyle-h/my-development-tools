@@ -31,6 +31,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+    - [音乐](#音乐)
+- [Ansible](#ansible)
 - [Semver](#semver)
 - [RFC](#rfc)
 - [License](#license)
@@ -179,8 +181,14 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [ieaseMusic](https://github.com/trazyn/ieaseMusic)
 <a name="mpv"></a>
 - [mpv](https://github.com/mpv-player/mpv): 跨平台的媒体播放器，支持命令行
-- [MuseScore](https://github.com/musescore/MuseScore): 开源的打谱软件
 - https://learnxinyminutes.com : 快速学习各种编程语言的手册
+
+### 音乐
+
+- [MuseScore](https://github.com/musescore/MuseScore): 开源的打谱软件
+- https://musescore.com/ : MuseScore 曲谱分享平台。包含可视化弹奏等强大功能。大部分功能收费。
+
+## [Ansible](./ansible.md)
 
 ## Semver
 
@@ -526,6 +534,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [JSON5](https://github.com/json5/json5): JSON for humans. (Not an official successor to JSON.)
 - [hjson](https://github.com/hjson/hjson): 比 JSON5 更丰富，且相对更标准，有 [RFC 文档](https://hjson.org/rfc.html)。
 - [simdjson](https://github.com/lemire/simdjson): Parsing gigabytes of JSON. 2.2GB/s
+- [JSON Patch](http://jsonpatch.com/): JSON 数据的 add、remove、replace、copy、move、test 操作
+- [JSON Merge Patch](https://tools.ietf.org/html/rfc7386): RFC7386
 
 ### JSON Schema
 
@@ -914,6 +924,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ### 静态文件托管
 
 - http://surge.sh  Static web publishing for Front-End Developers. 设计非常优雅，强烈推荐！
+- https://www.netlify.com/
 
 ### 伪数据
 
@@ -932,6 +943,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [apex/up](https://github.com/apex/up): 值得期待
   - https://hackernoon.com/up-b3db1ca930ee
 - [serverless/serverless](https://github.com/serverless/serverless)
+- https://workers.cloudflare.com/ : cloudflare 提供的边缘计算服务
 
 ## 跳板机/堡垒机
 
@@ -1146,12 +1158,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - http://mirrors.ustc.edu.cn/ : 中国科技大学
 - https://mirrors.tuna.tsinghua.edu.cn : 清华大学
 - http://mirror.azure.cn/ : azure 中国站
-  - http://mirror.azure.cn/help/gcr-proxy-cache.html : GCR 代理
-  - 同样适用于 quay.io，使用 `quay.azk8s.cn` 替代。
-  - https://mirror.azure.cn/kubernetes/ : containernetworking-plugins, etcd, kubectl, containerd 等资源的镜像
 - https://cnpmjs.org/ :
   - 用法：任意域名加 `.cnpmjs.org`。例如 `git clone https://github.com.cnpmjs.org/etcd-io/etcd.git`
-- http[s]://kubernetes-charts.proxy.ustclug.org/ : helm chart 仓库镜像
+- [K8S 与镜像的代理](./k8s.md#镜像与代理)
 
 ## Funny
 
