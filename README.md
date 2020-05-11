@@ -115,6 +115,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [字体](#字体)
 - [Design](#design)
 - [Emoji](#emoji)
+- [命名](#命名)
 - [服务 (Service)](#服务-service)
     - [静态文件托管](#静态文件托管)
     - [伪数据](#伪数据)
@@ -196,6 +197,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [semver-diff](https://github.com/sindresorhus/semver-diff): semver 比较
 - [standard-version](https://github.com/conventional-changelog/standard-version): Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org
+  - [semantic-release](https://github.com/semantic-release/semantic-release): 备选方案
 - https://semver.npmjs.com/ : npm semver calculator
 - [semver-tool](https://github.com/fsaintjacques/semver-tool): 纯 Bash 实现的 Semver 可执行命令
 
@@ -907,12 +909,18 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [源码](https://github.com/WebpageFX/emoji-cheat-sheet.com/)
 - http://unicode.org/emoji/charts-beta/full-emoji-list.html
 
+## 命名
+
+- [codelf](http://unbug.github.io/codelf/): 解决命名烦恼
+- https://namelix.com/ : 解决项目命名困难
+- https://namae.dev/ : 检查名称是否已存在
+  - [源码](https://github.com/uetchy/namae)
+
 ## 服务 (Service)
 
 - [PlantUML Gist](https://github.com/linux-china/plantuml-gist): 基于托管在 Gist 的 [PlantUML][] 在线生成 UML 图
 - [Pushbullet](https://www.pushbullet.com): 设备间消息推送
 - [在线 sed 编辑器](http://sed.js.org)
-- [codelf](http://unbug.github.io/codelf/): 解决命名烦恼
 - [codepile](https://www.codepile.net): 可协作式网页端编辑器
 - https://unicode-table.com/cn/
 - [Wikiwand](http://www.wikiwand.com/): Wikipedia Modernized。非常漂亮的 Wikipedia 阅读器
