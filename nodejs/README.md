@@ -11,6 +11,7 @@
 - [Misc](#misc)
 - [通知](#通知)
 - [事件/Event Emitter](#事件event-emitter)
+- [Scheduler](#scheduler)
 - [随机数](#随机数)
 - [CLI](#cli)
     - [自动补全](#自动补全)
@@ -80,6 +81,10 @@
 ## 事件/Event Emitter
 
 - [tiny-emitter](https://github.com/scottcorgan/tiny-emitter)
+
+## Scheduler
+
+- [bottleneck](https://github.com/SGrondin/bottleneck): Job scheduler and rate limiter, supports Clustering
 
 ## 随机数
 
@@ -225,6 +230,7 @@
 - [micro](https://github.com/zeit/micro): 零配置的 HTTP 服务器，非常轻量好用，主要用于实现简单的逻辑
 - [stoppable](https://github.com/hunterloftis/stoppable): graceful shutdown
 - [terminus](https://github.com/godaddy/terminus): 封装了 stoppable 和进程信号处理，增加了一些进程退出前的自定义回调和 k8s 健康检查的回调。
+- [node-death](https://github.com/jprichardson/node-death): set callback on SIGINT, SIGQUIT, SIGTERM and uncaughtException.
 
 ## 数据生成/Mock
 
@@ -241,6 +247,7 @@
 - [pretty-error](https://github.com/AriaMinaei/pretty-error): 打印人类友好的错误堆栈
 - [koajs/onerror](https://github.com/koajs/onerror): 响应错误页面
 - [node-retry](https://github.com/tim-kos/node-retry): 重试
+  - [p-retry](https://github.com/sindresorhus/p-retry): 异步版本的重试
 - [longjohn](https://github.com/mattinsler/longjohn): 跟踪完整的调用堆栈
 
 ## 配置
@@ -253,7 +260,8 @@
 ## 日志
 
 - [signale](https://github.com/klaussinani/signale): 高度可扩展的 log 库
-- ~~[winston](https://github.com/winstonjs/winston)~~: 备选方案。修复 Issue 太慢，在高并发下可能存在严重的性能问题。
+- [winston](https://github.com/winstonjs/winston): 很灵活的日志库
+  - 注意：[issues/1364](https://github.com/winstonjs/winston/issues/1364)，日志在某些情况下不会触发，因为它是异步处理日志的，不过有对应解决方案。
 
 ## 进程
 
@@ -263,6 +271,7 @@
 
 ## 文件
 
+- [node-fs-extra](https://github.com/jprichardson/node-fs-extra): 封装了 fs 模块的 API。支持 Promise，增加了其他的函数。
 - [npm/ini](https://github.com/npm/ini): `ini` 文件解析器
 - [node-properties-parser](https://github.com/xavi-/node-properties-parser): `.properties` 文件解析器
 - [js-yaml](https://github.com/nodeca/js-yaml): `YAML` 文件解析器
@@ -306,10 +315,12 @@
 
 ## 工程化
 
-- [module-alias](https://github.com/ilearnio/module-alias): require 避免使用相对路径
+- [module-alias](https://github.com/ilearnio/module-alias): require 避免使用相对路径。只能用于应用开发，不能用于模块或框架开发。
   - 还有很多其他方法，详见 https://gist.github.com/branneman/8048520
 - [tapable](https://github.com/webpack/tapable): 实现插件机制
 - [lerna](https://github.com/lerna/lerna): 在一个代码仓库中维护多个 package 的工具
+- [loud-rejection](https://github.com/sindresorhus/loud-rejection): 响应 unhandledRejection 和 rejectionHandled 事件。命令行开发用
+- [hard-rejection](https://github.com/sindresorhus/hard-rejection): 响应 unhandledRejection 事件，服务端开发用
 
 ## 自动化
 
@@ -408,6 +419,7 @@
 
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify): 比原生的 `JSON.stringify()` 快
 - [serialize-javascript](https://github.com/yahoo/serialize-javascript): 序列化 JS，支持函数、正则表达式
+- [protobuf.js](https://github.com/protobufjs/protobuf.js): Protobuf JS SDK
 
 ## 其他
 

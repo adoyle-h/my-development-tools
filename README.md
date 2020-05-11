@@ -91,6 +91,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [Websocket](#websocket)
     - [抓包工具](#抓包工具)
     - [API Gateway](#api-gateway)
+    - [序列化](#序列化)
 - [CI/CD](#cicd)
 - [IM](#im)
 - [Git](#git)
@@ -119,6 +120,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [伪数据](#伪数据)
 - [PaaS](#paas)
 - [Serverless](#serverless)
+- [microVM](#microvm)
 - [跳板机/堡垒机](#跳板机堡垒机)
 - [REPL](#repl)
 - [正则表达式 (Regex)](#正则表达式-regex)
@@ -474,6 +476,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - diff
   - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 着色增强工具，但只能用管道输出，仍需借助 diff 或 git diff 工具。
+    - [delta](https://github.com/dandavison/delta): 备选方案
   - [icdiff](https://github.com/jeffkaufman/icdiff): 左右分栏 diff，外加着色。
   - [diff2html](https://github.com/rtfpessoa/diff2html): 将 diff 文件转成 HTML 页面的形式预览。非常漂亮
 - [exa](https://github.com/ogham/exa): much better `ls`
@@ -669,6 +672,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [serve](https://github.com/zeit/serve): alternative
 - [Varnish](https://github.com/varnishcache/varnish-cache): HTTP 内容缓存服务器
 - [Traefik](https://github.com/containous/traefik): 类似 Nginx。现代化 HTTP 反向代理服务器
+- [h2o](https://github.com/h2o/h2o): the optimized HTTP/1, HTTP/2, HTTP/3 server
 
 ### Websocket
 
@@ -684,6 +688,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [Kong](https://github.com/Kong/kong)
 - [tyk](https://github.com/TykTechnologies/tyk)
+
+### 序列化
+
+- [prototool](https://github.com/uber/prototool): .proto 管理器
+- [buf](https://github.com/bufbuild/buf): .proto 管理器
 
 ## CI/CD
 
@@ -944,6 +953,14 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - https://hackernoon.com/up-b3db1ca930ee
 - [serverless/serverless](https://github.com/serverless/serverless)
 - https://workers.cloudflare.com/ : cloudflare 提供的边缘计算服务
+- [kubeless](https://github.com/kubeless/kubeless): FaaS in k8s
+
+## microVM
+
+- [firecracker](https://github.com/firecracker-microvm/firecracker): Secure and fast microVMs for serverless computing。AWS 出品
+- [weaveworks/ignite](https://github.com/weaveworks/ignite/): a declarative Firecracker microVM administration tool
+- [kubevirt](https://github.com/kubevirt/kubevirt): 「待评价」KubeVirt is a virtual machine management add-on for Kubernetes. The aim is to provide a common ground for virtualization solutions on top of Kubernetes.
+  - https://katacontainers.io/ : 备选方案
 
 ## 跳板机/堡垒机
 

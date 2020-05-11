@@ -104,8 +104,6 @@
 - [netshoot](https://github.com/nicolaka/netshoot): a Docker + Kubernetes network trouble-shooting swiss-army container
 - [kubectl-debug](https://github.com/aylei/kubectl-debug): 可以非侵入式地排查 pod 和容器的网络问题。默认使用 netshoot 镜像。相关议题 [Ephemeral Containers](https://github.com/kubernetes/enhancements/blob/master/keps/sig-node/20190212-ephemeral-containers.md#motivation)
 
-## Serverless
-
-- [kubeless](https://github.com/kubeless/kubeless): FaaS in k8s
+## [Serverless](./README.md#serverless)
 
 **[⬆ 返回顶部](#top)**
