@@ -756,6 +756,13 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [EditThisCookie](https://github.com/fcapano/Edit-This-Cookie)
 - [Wikiwand](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj): 自动将 Wikipedia 的链接跳转到 Wikiwand
 - [hn-special](https://github.com/gabrielecirulli/hn-special): 美化 Hacker News 的界面，交互体验做得非常棒，支持亮/暗色系。
+- [AdBlock](http://getadblock.com/): 广告屏蔽插件
+  - https://easylist.to/ : EasyList 规则列表
+  - https://github.com/easylist/easylist
+  - https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt : 过滤规则文件。包含国内外网站过滤规则，最全。
+  - https://easylist-downloads.adblockplus.org/easylistchina.txt : 过滤规则文件。这个只包含国内网站过滤规则，国外网站规则没在内。
+  - http://abpchina.org/forum/forum.php : AdBlock 中文社区
+- [uBlock](https://github.com/uBlock-LLC/uBlock): 跟 AdBlock 功能类似。开源的。
 
 ## 画图
 
@@ -1236,7 +1243,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [node-travisjs](https://github.com/finnp/node-travisjs): Travis CLI 工具
 - [peco](https://github.com/peco/peco): 类似 fzf
 - [restic](https://github.com/restic/restic): 简单易用的备份工具
-- [WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS): mac OS版微信小助手 功能: 自动回复、消息防撤回、远程控制、微信多开、会话置底、免认证登录、窗口置顶、会话多选删除、通知快捷回复、表情包复制&导出、小助手更新提醒、Alfred扩展
+- [WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS/tree/master): mac OS版微信小助手 功能: 自动回复、消息防撤回、远程控制、微信多开、会话置底、免认证登录、窗口置顶、会话多选删除、通知快捷回复、表情包复制&导出、小助手更新提醒、Alfred扩展
 
 ### 机器学习
 
