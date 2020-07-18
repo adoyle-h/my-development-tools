@@ -140,6 +140,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [文档处理](#文档处理)
 - [Markdown](#markdown)
 - [模板引擎](#模板引擎)
+- [Latex](#latex)
 - [文档](#文档)
     - [Changelog](#changelog)
     - [badges](#badges)
@@ -185,6 +186,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 <a name="mpv"></a>
 - [mpv](https://github.com/mpv-player/mpv): 跨平台的媒体播放器，支持命令行
 - https://learnxinyminutes.com : 快速学习各种编程语言的手册
+- [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail): 代码可视化浏览器
 
 ### 音乐
 
@@ -654,14 +656,16 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 网络
 
-- [polipo](https://github.com/jech/polipo): http => socks 代理
+- [Awesome SDN](https://github.com/sdnds-tw/awesome-sdn): 关于软件定义网络的开源技术
+- [Proxifier](https://www.proxifier.com/): 改变指定应用的网络流量，在应用外设置网络代理，转发到 socks 或 http 代理上。还附带流量监控。`ⓦ` `Ⓜ`
 - [proxychains-ng](https://github.com/rofl0r/proxychains-ng): http 代理
 - [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理
 - [sindresorhus/speed-test](https://github.com/sindresorhus/speed-test): 测试网速。基于 speed-test.net 的命令
 - Linux 命令: `ping`, `nc`, `mtr`, `netstat`, `nettop`, `iftop`
 - [comcast](https://github.com/tylertreat/comcast): 模拟网络丢包
 - [ZBench](https://github.com/FunctionClub/ZBench): VPS 网络性能测评脚本
-- [WireGuard](https://github.com/WireGuard/WireGuard): VPN 软件。受到 Linus 高度评价
+- [WireGuard](https://www.wireguard.com/): VPN 软件。该项目已合并到了 Linux 内核 (5.6 版本起)。
+- [Open vSwitch](https://github.com/openvswitch/ovs): 虚拟化交换机
 
 ### DNS
 
@@ -944,6 +948,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://check-host.net/ : 网站网络状态排查工具 (国外)
 - [mattermost](https://github.com/mattermost/mattermost-server): slack 的开源替代品。即时聊天。
 - [docker-nfs-server](https://github.com/ehough/docker-nfs-server): A lightweight, robust, flexible, and containerized NFS server.
+- https://alternativeto.net/ : 搜索软件或服务其他替代方案
 
 ### 静态文件托管
 
@@ -1071,6 +1076,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [art-template](https://github.com/aui/art-template): 官宣性能最高的模板引擎
 - [Jinja](https://jinja.palletsprojects.com): Ansible 使用的模板引擎
   - [Jinja 模板在线渲染](https://cryptic-cliffs-32040.herokuapp.com)
+
+## Latex
+
+- [awesome-LaTeX](https://github.com/egeerardyn/awesome-LaTeX)
+- [Begin-Latex-in-minutes](https://github.com/luong-komorebi/Begin-Latex-in-minutes/blob/master/Translation-Chinese.md)
+- [TEXMaker](https://www.xm1math.net/texmaker/)
 
 ## 文档
 

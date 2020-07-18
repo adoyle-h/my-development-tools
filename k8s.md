@@ -17,6 +17,7 @@
 - [构建](#构建)
 - [包管理](#包管理)
 - [可视化管理/UI](#可视化管理ui)
+- [监控](#监控)
 - [Operator](#operator)
 - [Add-On](#add-on)
 - [Provisioner](#provisioner)
@@ -67,20 +68,26 @@
 ## 构建
 
 - [skaffold](https://github.com/GoogleContainerTools/skaffold): Build\Test\Deploy\Tag\Push 自动化框架
-  - [kaniko](https://github.com/GoogleContainerTools/kaniko): 在 k8s 里构建镜像
+- [kaniko](https://github.com/GoogleContainerTools/kaniko): 在容器里构建镜像
+  - [img](https://github.com/genuinetools/img): 不依赖 docker daemon 编译镜像
+  - [buildkit](https://github.com/moby/buildkit): 「待评价」
 - [Azure/draft](https://github.com/Azure/draft): Draft makes it easy to build applications that run on Kubernetes. Draft targets the "inner loop" of a developer's workflow: as they hack on code, but before code is committed to version control.
 
 ## 包管理
 
-- [helm](https://github.com/kubernetes/helm): K8S 的包管理工具
 - [kustomize](https://github.com/kubernetes-sigs/kustomize): 使用 Base + Overlay 的方式自定义生成 K8S YAML 配置
   - [Helm vs Kustomize: Managing Complexity](https://codeengineered.com/blog/2018/helm-kustomize-complexity/)
+  - [helm](https://github.com/kubernetes/helm): 备选方案。坑很多。项目质量较差。
 
 ## 可视化管理/UI
 
 - [Portainer](https://github.com/portainer/portainer)
 - [Weave Scope](https://github.com/weaveworks/scope): Monitoring, visualisation & management for Docker & Kubernetes
 - [Kui](https://github.com/IBM/kui): Kubernetes 的另一个 UI。[介绍](https://zhuanlan.zhihu.com/p/66975768)
+
+## 监控
+
+- [SkyWalking](https://github.com/apache/skywalking): 基于 K8S 的无侵入式的网络监控
 
 ## Operator
 

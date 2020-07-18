@@ -21,6 +21,7 @@
 - [颜色](#颜色)
 - [脚本](#脚本)
 - [打包方案](#打包方案)
+- [编译](#编译)
 - [工具集](#工具集)
 - [debug](#debug)
 - [数据校验](#数据校验)
@@ -168,6 +169,12 @@
 方案比较
 - https://github.com/zeit/pkg/issues/42
 - https://github.com/pmq20/node-packer#comparing-with-similar-projects
+
+## 编译
+
+- [v8 - Code caching for JavaScript developers](https://v8.dev/blog/code-caching-for-devs)
+
+- [bytenode](https://github.com/OsamaAbbas/bytenode): 基于 vm.Script 的工具。[相关文章](https://hackernoon.com/how-to-compile-node-js-code-using-bytenode-11dcba856fa9)。
 
 ## 工具集
 
@@ -433,6 +440,7 @@
 - [jsdom](https://github.com/tmpvar/jsdom): 在 nodejs 使用符合 WHATWG 和 HTML 标准的 JS DOM
 - [open](https://github.com/sindresorhus/open): 很方便的打开网站，文件，或可执行文件的命令
 - [fast-deep-equal](https://github.com/epoberezkin/fast-deep-equal)
+- [@kubernetes/client-node](https://github.com/kubernetes-client/javascript)
 
 ## 我关注的人/组
 
