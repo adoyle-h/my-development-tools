@@ -10,6 +10,7 @@
 - [其他](#其他)
 - [Awesome List](#awesome-list)
 - [插图资源 (Illustrations)](#插图资源-illustrations)
+- [背景图生成器](#背景图生成器)
 - [Mock](#mock)
 - [设计规范](#设计规范)
 - [颜色 (Color)](#颜色-color)
@@ -77,6 +78,11 @@
   - https://iradesign.io/ : 渐变色。开源的
   - https://icons8.com/ouch : 丰富的使用场景
   - https://gallery.manypixels.co/ : 丰富的使用场景
+
+## 背景图生成器
+
+- https://coolbackgrounds.io/
+- https://wangyasai.github.io/designtools.html
 
 ## Mock
 

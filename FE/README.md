@@ -8,6 +8,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [框架](#框架)
 - [表单](#表单)
 - [物理引擎](#物理引擎)
 - [HTML](#html)
@@ -95,6 +96,10 @@
 - https://custom-elements-everywhere.com/ : Custom Element 在各个框架的适用度测试
 - [medium-zoom](https://github.com/francoischalifour/medium-zoom): 图片点击放大
 - [MathJax](https://github.com/mathjax/MathJax): JavaScript display engine for LaTeX, MathML, and AsciiMath notation
+
+## 框架
+
+- [single-spa](https://github.com/single-spa/single-spa): Use multiple frameworks on the same page without refreshing the page (React, AngularJS, Angular, Ember, or whatever you're using)
 
 ## 表单
 

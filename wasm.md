@@ -8,6 +8,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [语言](#语言)
 - [环境](#环境)
 - [包管理器](#包管理器)
 - [编译](#编译)
@@ -20,6 +21,10 @@
 - [awesome-wasm](https://github.com/mbasso/awesome-wasm)
 - [awesome-wasm-langs](https://github.com/appcypher/awesome-wasm-langs)
 
+## 语言
+
+- [AssemblyScript](https://github.com/AssemblyScript/assemblyscript): AssemblyScript compiles a strict variant of TypeScript (basically JavaScript with types) to WebAssembly using Binaryen.
+
 ## 环境
 
 - [awesome-wasm-runtimes](https://github.com/appcypher/awesome-wasm-runtimes)
@@ -31,10 +36,10 @@
 ## 包管理器
 
 - [wapm](https://github.com/wasmerio/wapm-cli): wasm 包管理器
+- https://wapm.io/
 
 ## 编译
 
-- [assemblyscript](https://github.com/AssemblyScript/assemblyscript): AssemblyScript compiles a strict subset of TypeScript to WebAssembly
 - [emscripten](https://github.com/emscripten-core/emscripten): LLVM-to-Web Compiler
 - [binaryen](https://github.com/WebAssembly/binaryen): Compiler infrastructure and toolchain library for WebAssembly
 

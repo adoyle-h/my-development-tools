@@ -12,6 +12,7 @@
 - [通知](#通知)
 - [事件/Event Emitter](#事件event-emitter)
 - [Scheduler](#scheduler)
+- [Hash](#hash)
 - [随机数](#随机数)
 - [CLI](#cli)
     - [自动补全](#自动补全)
@@ -87,11 +88,16 @@
 
 - [bottleneck](https://github.com/SGrondin/bottleneck): Job scheduler and rate limiter, supports Clustering
 
+## Hash
+
+- [Wikipedia - List of hash functions](https://www.wikiwand.com/en/List_of_hash_functions)
+- [hashids.js](https://github.com/niieani/hashids.js): generate short unique ids from integers
+
 ## 随机数
 
 - [nano-id-cc](https://zelark.github.io/nano-id-cc/): 碰撞计算器
 - [shortid](https://github.com/dylang/shortid)
-- [nanoid](https://github.com/ai/nanoid)
+- [nanoid](https://github.com/ai/nanoid): A tiny, secure, URL-friendly, unique string ID generator
 
 ## CLI
 
@@ -104,7 +110,8 @@
 - [clui](https://github.com/nathanpeck/clui): Command Line UI toolkit
 - [cli-spinners](https://github.com/sindresorhus/cli-spinners): 终端里的 Spinner
 - [ora](https://github.com/sindresorhus/ora): 同 cli-spinners
-- [cli-table2](https://github.com/jamestalmage/cli-table2): 表格输出
+- [gajus/table](https://github.com/gajus/table): 表格输出
+- [yargs/cliui](https://github.com/yargs/cliui): 列式输出
 - [cliff](https://github.com/flatiron/cliff): 格式化输出
 - [update-notifier](https://github.com/yeoman/update-notifier): 「非常不好用，寻找替代品」命令行版本更新提醒
 - [shelljs](https://github.com/shelljs/shelljs): unix 命令的 nodejs 封装
@@ -139,6 +146,7 @@
 - [oclif](https://github.com/oclif/oclif): Heroku 出品。比 Caporal.js 支持更多功能。特点是 OOP，Hook，插件体系。概念较多，比较臃肿。
   - [12 Factor CLI App](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46)
   - [an adaptive, intent based CLI "state machine"](https://gist.github.com/sw-yx/3af1e264b8460af8897768045b2c229f)
+- [string-to-argv](https://github.com/vladimir-tikhonov/string-to-argv): 把一个命令字符串分解成数组。对于分离字符串里的命令路径和参数很有用。
 
 ### 颜色 (Color)
 
@@ -286,6 +294,7 @@
   - [fast-glob](https://github.com/mrmlnc/fast-glob): alternative
 - [vinyl](https://github.com/gulpjs/vinyl): 用 JS 描述文件
 - [chokidar](https://github.com/paulmillr/chokidar): 监听文件变化
+  - [chokidar-cli](https://github.com/kimmobrunfeldt/chokidar-cli)
 - [jschardet](https://github.com/aadsm/jschardet): Character encoding auto-detection in JavaScript (port of python's chardet)
 
 ### 模板
@@ -426,7 +435,8 @@
 
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify): 比原生的 `JSON.stringify()` 快
 - [serialize-javascript](https://github.com/yahoo/serialize-javascript): 序列化 JS，支持函数、正则表达式
-- [protobuf.js](https://github.com/protobufjs/protobuf.js): Protobuf JS SDK
+- [protobuf.js](https://github.com/protobufjs/protobuf.js): 动态加载的 Protobuf JS SDK
+- [google-protobuf](https://www.npmjs.com/package/google-protobuf): 静态加载的 Protobuf JS SDK
 
 ## 其他
 
@@ -441,6 +451,7 @@
 - [open](https://github.com/sindresorhus/open): 很方便的打开网站，文件，或可执行文件的命令
 - [fast-deep-equal](https://github.com/epoberezkin/fast-deep-equal)
 - [@kubernetes/client-node](https://github.com/kubernetes-client/javascript)
+- [libsys](https://github.com/streamich/libsys): 系统调用 (syscall)
 
 ## 我关注的人/组
 

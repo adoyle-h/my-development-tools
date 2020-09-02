@@ -75,7 +75,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Lint](#lint)
 - [Mock](#mock)
 - [HTTP](#http)
-- [HTML/网站](#html网站)
+- [网站](#网站)
 - [SSL](#ssl)
 - [Linux 系统](#linux-系统)
     - [文件系统](#文件系统)
@@ -84,7 +84,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [数据库](#数据库)
 - [数据库设计](#数据库设计)
     - [Database Versioning](#database-versioning)
-- [网站](#网站)
 - [网络](#网络)
     - [DNS](#dns)
     - [HTTP](#http-1)
@@ -111,6 +110,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [知识管理](#知识管理)
 - [邮件](#邮件)
 - [翻译](#翻译)
+- [Windows App](#windows-app)
 - [Mac App](#mac-app)
 - [字体](#字体)
 - [Design](#design)
@@ -144,6 +144,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [文档](#文档)
     - [Changelog](#changelog)
     - [badges](#badges)
+- [Hash](#hash)
 - [图像处理](#图像处理)
 - [压缩/解压](#压缩解压)
 - [Steganography](#steganography)
@@ -426,6 +427,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [adoyle-h/my-command-cheat](https://github.com/adoyle-h/my-command-cheat): 我的 cheatsheets
 - [tldr](https://github.com/tldr-pages/tldr/): 命令行工具，手册内容由社区维护，非常详尽。
 - [cheat.sh](https://github.com/chubin/cheat.sh): cheatsheet 服务，可通过 curl 获取内容，内容由社区维护。
+- [linux-cheat](https://github.com/cirosantilli/linux-cheat): Linux user-land CLI utilities
 
 ## CLI
 
@@ -493,7 +495,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [ncdu](https://dev.yorhel.nl/ncdu): better du。递归扫描整个文件夹空间占用，交互式。
 - [fd](https://github.com/sharkdp/fd/): better find
 - [trash](https://github.com/sindresorhus/trash): better rm，不直接删除文件而是移到回收站。建议 `alias rm='trash'`
-- [ag](https://github.com/ggreer/the_silver_searcher): 模糊搜索文件内容
+- [ripgrep](https://github.com/BurntSushi/ripgrep): 模糊搜索文件内容，better grep。据说是最快的，搜索大量内容时，确实明显比 ag 快
+  - [ag](https://github.com/ggreer/the_silver_searcher): 备选方案
 - [fzf](https://github.com/junegunn/fzf): 模糊筛选/搜索任意列表
 - [cash](https://github.com/dthree/cash): For windows 用户。用 nodejs 写的程序，模拟一些 linux 命令
 
@@ -589,13 +592,15 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [htrace.sh](https://github.com/trimstray/htrace.sh): 「待评价」Swiss Army knife for http/https troubleshooting and profiling.
 - [Paw](https://paw.cloud): 模拟 HTTP 请求的 GUI 客户端  `Ⓜ`
 
-## HTML/网站
+## 网站
 
 - [chrome 自带网页截屏命令](https://www.zhihu.com/question/20075570/answer/206335744)
 - [pageres](https://github.com/sindresorhus/pageres): 网页截屏
 - [temme](https://github.com/shinima/temme): 利用 CSS 语法，从 HTML 提取出 JSON 数据
 - https://archive.org/ : 永久保存网页内容
   - https://archive.is/ : 同上
+- [sitemap.js](https://github.com/ekalinin/sitemap.js): 生成 sitemap 的工具
+- [Favicon 生成器](https://realfavicongenerator.net/)
 
 ## SSL
 
@@ -649,10 +654,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [gh-ost](https://github.com/github/gh-ost): 与 flyway 不一样的实现方案，创建 shadow/ghost 表来作 schema migration。功能丰富。不基于 trigger，基于 bin-log。
 - [migrate](https://github.com/mattes/migrate): 用 Go 写的，支持 SQL。缺乏文档和样例。备选
 - [sql-migrate](https://github.com/rubenv/sql-migrate): 用 Go 写的。备选
-
-## 网站
-
-- [sitemap.js](https://github.com/ekalinin/sitemap.js): 生成 sitemap 的工具
 
 ## 网络
 
@@ -853,6 +854,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Poedit](https://poedit.net): .po 翻译软件 `Ⓜ`。价格太贵，大版本升级坑。暂无替代方案
 - [OpenCC](https://github.com/BYVoid/OpenCC): 中文简体与繁体转换
 
+## Windows App
+
+- [PowerToys](https://github.com/microsoft/PowerToys): Windows system utilities to maximize productivity
+
 ## Mac App
 
 - [m-cli](https://github.com/rgcr/m-cli): 很方便的 Mac 相关的命令行工具
@@ -904,6 +909,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [Sip](http://sipapp.io): 备选方案。体验更好。价格贵，年付。 `Ⓜ`
 - [Awesome MacOS 屏保](https://github.com/agarrharr/awesome-macos-screensavers)
   - [我用的屏保](https://github.com/Wandmalfarbe/evangelion-clock-screensaver)
+  - [Brooklyn](https://github.com/pedrommcarrasco/Brooklyn): 好看的 Apple Logo 屏保
 - https://dynamicwallpaper.club/ : 创建动态壁纸
 - [Lepton](https://github.com/hackjutsu/Lepton): Gist 管理应用
 - [keycastr](https://github.com/keycastr/keycastr): 键盘按下哪个键展示在屏幕上
@@ -1103,6 +1109,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [forthebadge](http://forthebadge.com/)
 - [shields.io](http://shields.io): 徽章
 - [boennemann/badges](https://github.com/boennemann/badges)
+
+## Hash
+
+- [Wikipedia - List of hash functions](https://www.wikiwand.com/en/List_of_hash_functions)
+- [xxHash](https://github.com/Cyan4973/xxHash)
+- [hashids](https://hashids.org/)
 
 ## 图像处理
 
