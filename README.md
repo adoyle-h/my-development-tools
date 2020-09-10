@@ -1005,6 +1005,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [正则表达式可视化](https://regexper.com) `ⱳ`
 - [regex101](https://regex101.com/) `ⱳ`
 - [Learn regex the easy way](https://github.com/ziishaned/learn-regex)
+- [grex](https://github.com/pemistahl/grex): 根据给出的文本，自动给出合适的正则表达式
 
 ## 数据可视化
 

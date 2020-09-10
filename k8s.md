@@ -33,6 +33,7 @@
 - [k3s](https://github.com/rancher/k3s): 轻量级 k8s，用于边缘计算、嵌入式、物联网场景
 - [KubeEdge](https://github.com/kubeedge/kubeedge): 用于边缘计算场景
 - [gVisor](https://github.com/google/gvisor): 容器运行时沙盒。把容器跑在隔离的虚拟容器环境中，提高安全性。
+- [Kubernetes YAML Generator](https://k8syaml.com/)
 
 ## 镜像与代理
 
