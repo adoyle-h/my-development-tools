@@ -188,6 +188,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [mpv](https://github.com/mpv-player/mpv): 跨平台的媒体播放器，支持命令行
 - https://learnxinyminutes.com : 快速学习各种编程语言的手册
 - [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail): 代码可视化浏览器
+- [Notion](https://www.notion.so/): 笔记工具
+  - https://timelinetool.app/notion/event : 统计公开链接的 PV 的 embed 插件
 
 ### 音乐
 
@@ -224,6 +226,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [API](https://github.com/sallar/github-contributions-api)
 - [github-issue-templates](https://github.com/stevemao/github-issue-templates): GitHub Issue 与 PR 的模板
   - [awesome-github-templates](https://github.com/devspace/awesome-github-templates)
+- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
 
 ### 界面交互
 
@@ -335,6 +338,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [neovim](https://github.com/neovim/neovim): 终端编辑器，用 Python 写的 vim
   - [oni](https://github.com/onivim/oni): Neovim GUI 编辑器
+  - [vimspector](https://github.com/puremourning/vimspector): A multi-language debugging system for Vim
 - [Visual Studio Code](https://github.com/Microsoft/vscode): 可能是最棒的开源 IDE
   - [code-settings-sync](https://github.com/shanalikhan/code-settings-sync): VSC 设置备份同步工具
   - [code-server](https://github.com/cdr/code-server): Run VS Code on a remote server

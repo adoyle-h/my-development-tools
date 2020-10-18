@@ -25,6 +25,7 @@
 - [Fast-Development](#fast-development)
 - [AJAX](#ajax)
 - [Mock](#mock)
+- [模块加载器](#模块加载器)
 - [编译工具](#编译工具)
 - [Webpack](#webpack)
     - [analyzer](#analyzer)
@@ -181,6 +182,10 @@
 
 - [jquery-mockjax](https://github.com/jakerella/jquery-mockjax): 拦截 Ajax 请求返回 mock 数据
 
+## 模块加载器
+
+- [SystemJS](https://github.com/systemjs/systemjs)
+
 ## 编译工具
 
 - webpack: 编译框架或应用的工具。配置项多，方便高端玩家定制
@@ -237,6 +242,7 @@
 - [react-fast-compare](https://github.com/FormidableLabs/react-fast-compare)
 - [svgr](https://github.com/smooth-code/svgr): SVG 转成 React 组件。
 - [SWR](https://github.com/zeit/swr): 请求数据的 react hook
+- [loadable-components](https://github.com/gregberge/loadable-components): 用来分离组件代码，懒加载。它跟 React.lazy 相似，具体区别见[这里](https://loadable-components.com/docs/loadable-vs-react-lazy/)
 
 ### Static Generator Environment
 
@@ -382,7 +388,7 @@
 
 ### 组件库
 
-- [vx](https://github.com/hshoff/vx/): D3 + React 技术栈。容易组合底层组件
+- [visx](https://github.com/airbnb/visx): D3 + React 技术栈。容易组合底层组件
 - [nivo](https://github.com/plouc/nivo): D3 + React 技术栈。拿来即用的组件
 
 ## 测试
