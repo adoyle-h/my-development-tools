@@ -70,10 +70,13 @@
 - [nrm](https://github.com/Pana/nrm): NPM Registry Manager
 - [nvm](https://github.com/creationix/nvm): Node Version Manager
 - [nvs](https://github.com/jasongin/nvs): 与 nvm 类似。只是因为 nvm 对 windows 的支持跟 linux 不一样。用 nvs 命令调用统一。
+- [get-node](https://github.com/ehmicky/get-node): 下载指定版本的 node。类库。兼容 Linux/Mac/Windows，支持代理
 
 ## Misc
 
 - [dependency-check](https://github.com/maxogden/dependency-check): 依赖检查，确保引用的模块已写在 package.json
+  - [depcheck](https://github.com/depcheck/depcheck)
+  - [npm-check](https://github.com/dylang/npm-check)
 - [yn](https://github.com/sindresorhus/yn): 判断值是否为 yes/no
 - [package-json](https://github.com/sindresorhus/package-json): Get metadata of a package from the npm registry. 支持私有 registry
 
@@ -284,6 +287,7 @@
 - [nodemon](https://github.com/remy/nodemon): 守护进程。本地开发用，文件改动时自动重启 node 应用
 - [PM2](https://github.com/Unitech/pm2): 进程管理。生产环境用
 - [pandora](https://github.com/midwayjs/pandora/): Node.js 应用监控管理器，自带 Metrics，请求链路跟踪，可扩展。
+- [execa](https://github.com/sindresorhus/execa): 优化 child_process 模块
 
 ## 文件
 

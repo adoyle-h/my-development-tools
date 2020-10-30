@@ -31,7 +31,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
-    - [音乐](#音乐)
 - [Ansible](#ansible)
 - [Semver](#semver)
 - [RFC](#rfc)
@@ -49,7 +48,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Checklist](#checklist)
 - [CMS](#cms)
 - [JAMstack](#jamstack)
-- [Slide/Presentation](#slidepresentation)
 - [编辑器/IDE](#编辑器ide)
     - [代码编辑器](#代码编辑器)
     - [富文本编辑器 WYSIWYG](#富文本编辑器-wysiwyg)
@@ -137,11 +135,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Tools in Docker](#tools-in-docker)
 - [K8S/Kubernetes](#k8skubernetes)
 - [虚拟化](#虚拟化)
-- [文档处理](#文档处理)
-- [Markdown](#markdown)
 - [模板引擎](#模板引擎)
 - [Latex](#latex)
+- [Slide/Presentation](#slidepresentation)
 - [文档](#文档)
+    - [文档处理](#文档处理)
+    - [Markdown](#markdown)
     - [Changelog](#changelog)
     - [badges](#badges)
 - [Hash](#hash)
@@ -151,6 +150,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [OCR](#ocr)
 - [Android](#android)
 - [视音频](#视音频)
+    - [音乐](#音乐)
 - [知识图谱](#知识图谱)
 - [互联网关键词趋势](#互联网关键词趋势)
 - [自然语言处理 (NLP)](#自然语言处理-nlp)
@@ -190,11 +190,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail): 代码可视化浏览器
 - [Notion](https://www.notion.so/): 笔记工具
   - https://timelinetool.app/notion/event : 统计公开链接的 PV 的 embed 插件
-
-### 音乐
-
-- [MuseScore](https://github.com/musescore/MuseScore): 开源的打谱软件
-- https://musescore.com/ : MuseScore 曲谱分享平台。包含可视化弹奏等强大功能。大部分功能收费。
 
 ## [Ansible](./ansible.md)
 
@@ -325,14 +320,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## JAMstack
 
 - [jamstack.org](https://github.com/jamstack/jamstack.org)
-
-## Slide/Presentation
-
-- [spectacle](https://github.com/FormidableLabs/spectacle): 基于 React 写的 slide
-- [ludus](https://ludus.one/): 给设计师用的 slide 制作 `ⱳ`
-- [bespoke](https://github.com/bespokejs/bespoke): DIY Presentation Micro-Framework
-- [nodeppt](https://github.com/ksky521/nodeppt): 这可能是迄今为止最好的网页版演示库
-- https://slides.com/ : 基于 [reveal.js](https://github.com/hakimel/reveal.js) 的服务，非常好用，但是国内要翻墙 `ⱳ`
 
 ## 编辑器/IDE
 
@@ -857,6 +844,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [Poedit](https://poedit.net): .po 翻译软件 `Ⓜ`。价格太贵，大版本升级坑。暂无替代方案
 - [OpenCC](https://github.com/BYVoid/OpenCC): 中文简体与繁体转换
+- https://www.deepl.com/ : 基于 AI 的翻译器
 
 ## Windows App
 
@@ -1063,19 +1051,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [bento](https://github.com/chef/bento): build minimal Vagrant baseboxes
   - [vagrant-scp](https://github.com/invernizzi/vagrant-scp): Vagrant 支持 scp
 
-## 文档处理
-
-- [unified](https://github.com/unifiedjs/unified): https://unified.js.org/
-- [remark](https://github.com/remarkjs/remark): markdown processor
-
-## Markdown
-
-- [grip](https://github.com/joeyespo/grip): Markdown 即时渲染服务器
-  - [vmd](https://github.com/yoshuawuyts/vmd): Markdown 即时渲染应用。备选方案
-- [json2md](https://github.com/IonicaBizau/json2md): 非常灵活的 Markdown 生成工具，容易自己定制功能
-- [markdown-toc](https://github.com/jonschlinkert/markdown-toc): 根据 markdown heading 文本输出 TOC
-- [mdx](https://github.com/mdx-js/mdx): 在 Markdown 里写 JSX
-
 ## 模板引擎
 
 - [envsubst](https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html): GNU 工具，`${VARIABLE}` 语法变量替换
@@ -1094,16 +1069,37 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Begin-Latex-in-minutes](https://github.com/luong-komorebi/Begin-Latex-in-minutes/blob/master/Translation-Chinese.md)
 - [TEXMaker](https://www.xm1math.net/texmaker/)
 
+## Slide/Presentation
+
+- [spectacle](https://github.com/FormidableLabs/spectacle): 基于 React 写的 slide
+- [bespoke](https://github.com/bespokejs/bespoke): DIY Presentation Micro-Framework
+- [nodeppt](https://github.com/ksky521/nodeppt): 这可能是迄今为止最好的网页版演示库
+- https://slides.com/ : 基于 [reveal.js](https://github.com/hakimel/reveal.js) 的服务，非常好用，但是国内要翻墙 `ⱳ`
+- [mdx-deck](https://github.com/jxnblk/mdx-deck): 基于 MDX 写 slide
+
 ## 文档
 
 - [盤古之白](https://github.com/vinta/pangu.js): 最佳 README
 - [Dash](https://kapeli.com/dash): 查看文档  `Ⓜ`
 - http://devdocs.io/ : 查看文档。开源的 https://github.com/Thibaut/devdocs/ `ⱳ`
 - [zealdocs](https://zealdocs.org/): 查看文档。备选 `Ⓛ`
-- [carbon](https://github.com/dawnlabs/carbon): 写文档做 slide 时，贴代码截图挺好看的
-- [mkdocs](https://github.com/mkdocs/mkdocs): 文档站点生成工具。用 markdown 写文档
-  - [docsify](https://github.com/docsifyjs/docsify): 备选方案。细节做得不是很理想。
-  - [gitbook](https://github.com/GitbookIO/gitbook): 用 markdown 写书的平台。新版 Gitbook 只能在线编辑，不再支持离线编辑。免费版本只支持 10 个项目。
+- [carbon](https://github.com/dawnlabs/carbon): 代码转成图片
+- [docsify](https://github.com/docsifyjs/docsify): 基于 Markdown 的 Web 文档编写工具。在浏览器直接加载 MD 文档实时渲染。细节功能做得不是很理想。
+  - [docute](https://github.com/egoist/docute): 类似技术的备选方案
+- [mdx](https://github.com/mdx-js/mdx): Markdown + JSX = MDX。支持模块导入和导出，支持 React 组件。写 Web 文档利器。
+- [docz](https://github.com/doczjs/docz): 基于 MDX 的文档编写工具。
+
+### 文档处理
+
+- [unified](https://github.com/unifiedjs/unified): https://unified.js.org/
+- [remark](https://github.com/remarkjs/remark): markdown processor
+
+### Markdown
+
+- [grip](https://github.com/joeyespo/grip): Markdown 即时渲染服务器
+  - [vmd](https://github.com/yoshuawuyts/vmd): Markdown 即时渲染应用。备选方案
+- [json2md](https://github.com/IonicaBizau/json2md): 非常灵活的 Markdown 生成工具，容易自己定制功能
+- [markdown-toc](https://github.com/jonschlinkert/markdown-toc): 根据 markdown heading 文本输出 TOC
 
 ### Changelog
 
@@ -1159,6 +1155,15 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [OBS](https://obsproject.com/): 非常好用的推流和录制工具。免费。
   - [源码 obsproject/obs-studio](https://github.com/obsproject/obs-studio)
 - [Sound Siphon](https://staticz.com/soundsiphon/): Mac 下最好用的音频录制工具。能创建虚拟输入设备。能把任何应用的音频输出转发到另一个应用上。价格有点贵。 `Ⓜ`
+  - [loopback](https://rogueamoeba.com/loopback/): 类似的备选方案，价格更贵 `Ⓜ`
+  - [Audio Hijack](https://rogueamoeba.com/audiohijack/): 专业录音工具。不能创建虚拟设备。 `Ⓜ`
+- [forecast](https://overcast.fm/forecast): MP3 metadata 编辑器。做播客会用到。 `Ⓜ`
+
+### 音乐
+
+- [MuseScore](https://github.com/musescore/MuseScore): 开源的打谱软件
+- https://musescore.com/ : MuseScore 曲谱分享平台。包含可视化弹奏等强大功能。大部分功能收费。
+- http://etaaudio.com/ : 遵循 CC 协议分享的音乐库
 
 ## 知识图谱
 
@@ -1266,7 +1271,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 待评价
 
-- [docute](https://github.com/egoist/docute): 网页文档生成器，可以嵌入代码
 - [Inklet](https://tenonedesign.com/inklet.php): 让 Mac 触摸板变成画图板
 - [node-travisjs](https://github.com/finnp/node-travisjs): Travis CLI 工具
 - [peco](https://github.com/peco/peco): 类似 fzf
