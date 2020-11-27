@@ -875,7 +875,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Monosnap](https://monosnap.com/welcome): 免费又强大的截图/截屏/录屏(支持 GIF 和 MP4)
   - screencapture: 命令行版截图/截屏工具。 mac 自带
   - [Snipaste](https://zh.snipaste.com/): windows 截图/截屏工具 `ⓦ`
-- GIF Brewery 3: GIF 制作工具 `ⓦ`
 - [Copyless](http://copyless.net): 系统剪切板管理器
 - [Yoink](http://eternalstorms.at/yoink/Yoink_-_Simplify_and_Improve_Drag_and_Drop_on_your_Mac/Yoink_-_Simplify_drag_and_drop_on_your_Mac.html): 临时桌面文件
 - [Noizio](http://noiz.io): 白噪音
@@ -1127,6 +1126,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [ImageOptim](https://github.com/ImageOptim/ImageOptim): 开源的图像压缩优化工具 `Ⓜ`
 - https://www.iloveimg.com/zh-cn : 在线压缩、调整大小、加水印、格式转换的图片处理服务
   - https://docsmall.com : GIF 压缩比很高
+- GIF Brewery 3: GIF 制作工具。App Store 内购买。 `Ⓜ`
+- [Gifski](https://github.com/sindresorhus/Gifski): 视频转 GIF。开源的。 `Ⓜ`
 
 ## 压缩/解压
 

@@ -151,6 +151,7 @@
   - [12 Factor CLI App](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46)
   - [an adaptive, intent based CLI "state machine"](https://gist.github.com/sw-yx/3af1e264b8460af8897768045b2c229f)
 - [string-to-argv](https://github.com/vladimir-tikhonov/string-to-argv): 把一个命令字符串分解成数组。对于分离字符串里的命令路径和参数很有用。
+  - [split-cmd](https://github.com/thiagodp/split-cmd): 备选方案
 
 ### 颜色 (Color)
 
@@ -227,7 +228,9 @@
 ## 测试
 
 - [jest](https://github.com/facebook/jest): 测试框架，前后端通用，支持 ts、babel 等扩展。
-    - [ava](https://github.com/avajs/ava): 备选方案
+  - [jest-extended](https://github.com/jest-community/jest-extended): jest 的断言函数库
+  - [qunit](https://github.com/qunitjs/qunit): 备选方案
+  - ~~[ava](https://github.com/avajs/ava): 淘汰方案，社区支持力度低，不支持 describe 这种嵌套写法~~
 - [nyc](https://github.com/istanbuljs/nyc): 测试覆盖率
 - [sinon](https://github.com/sinonjs/sinon): Stub/Mock/Spie 工具库
 - [supertest](https://github.com/visionmedia/supertest): 测试 http 服务器
@@ -259,6 +262,7 @@
 - [nuysoft/Mock](https://github.com/nuysoft/Mock): 制造假数据。备选3
 - [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker): 根据 json schema 生成数据
 - [nock](https://github.com/nock/nock): HTTP server mocking and expectations library for Node.js
+- [simple-fake-console](https://www.npmjs.com/package/simple-fake-console)
 
 ## 错误处理
 
@@ -465,6 +469,8 @@
 - [fast-deep-equal](https://github.com/epoberezkin/fast-deep-equal)
 - [@kubernetes/client-node](https://github.com/kubernetes-client/javascript)
 - [libsys](https://github.com/streamich/libsys): 系统调用 (syscall)
+- [import-modules](https://github.com/adoyle-h/import-modules/tree/adoyle): 加载指定目录下的所有文件
+  - [import-all.macro](https://github.com/kentcdodds/import-all.macro): 针对 babel + import 的方案
 
 ## 我关注的人/组
 
