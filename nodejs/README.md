@@ -457,6 +457,7 @@
 
 ## 其他
 
+- [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs): 很有用
 - [license-checker](https://github.com/davglass/license-checker): Check NPM package licenses
 - [cz-cli](https://github.com/commitizen/cz-cli): 规范 git commit message
 - [none](https://github.com/dak0rn/none): 空。在特殊场景可以用到

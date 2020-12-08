@@ -162,6 +162,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [中国特色](#中国特色)
     - [翻墙](#翻墙)
     - [镜像站点](#镜像站点)
+    - [敏感词检测](#敏感词检测)
 - [Funny](#funny)
     - [Game](#game)
     - [教你搜索](#教你搜索)
@@ -1227,6 +1228,13 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://cnpmjs.org/ :
   - 用法：任意域名加 `.cnpmjs.org`。例如 `git clone https://github.com.cnpmjs.org/etcd-io/etcd.git`
 - [K8S 与镜像的代理](./k8s.md#镜像与代理)
+
+### 敏感词检测
+
+未来，可用词组将成为稀缺资源，语言变得破碎，人类无法将意图组织成语句，他们断断续续说着晦涩的词组，没人能听得懂对方在表达什么。
+
+- [NouBan](https://drrouen.github.io/tools/NouBan/): 检测豆瓣敏感词
+  - [NouBan-js](https://github.com/drrouen/NouBan-js)
 
 ## Funny
 
