@@ -1084,15 +1084,17 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - http://devdocs.io/ : 查看文档。开源的 https://github.com/Thibaut/devdocs/ `ⱳ`
 - [zealdocs](https://zealdocs.org/): 查看文档。备选 `Ⓛ`
 - [carbon](https://github.com/dawnlabs/carbon): 代码转成图片
-- [docsify](https://github.com/docsifyjs/docsify): 基于 Markdown 的 Web 文档编写工具。在浏览器直接加载 MD 文档实时渲染。细节功能做得不是很理想。
+- [Gastby](https://github.com/gatsbyjs/gatsby): 基于 React 和 GraphQL 的现代化静态网站生成器。可扩展性好。
+- [docsify](https://github.com/docsifyjs/docsify): 基于 Markdown 的 Web 文档编写工具。在浏览器直接加载 MD 文档实时渲染。细节功能做得不是很理想。`routerMode: 'history'` 针对静态页面托管方案（比如 Github Pages）无效。
   - [docute](https://github.com/egoist/docute): 类似技术的备选方案
 - [mdx](https://github.com/mdx-js/mdx): Markdown + JSX = MDX。支持模块导入和导出，支持 React 组件。写 Web 文档利器。
-- [docz](https://github.com/doczjs/docz): 基于 MDX 的文档编写工具。
+- [docz](https://github.com/doczjs/docz): 基于 MDX 和 Gastby 的，零配置的，文档编写工具。
 
 ### 文档处理
 
 - [unified](https://github.com/unifiedjs/unified): https://unified.js.org/
 - [remark](https://github.com/remarkjs/remark): markdown processor
+- [rehype](https://github.com/rehypejs/rehype): HTML processor
 
 ### Markdown
 

@@ -141,7 +141,7 @@
 
 ### CLI 参数解析
 
-- [yargs](https://github.com/yargs/yargs): 命令行参数解析器（复杂版）。支持子命令，多语言，帮助文档等功能
+- ~~[yargs](https://github.com/yargs/yargs)~~: 「超难用，不好扩展」命令行参数解析器（复杂版）。支持子命令，多语言，帮助文档等功能
 - [minimist](https://github.com/substack/minimist): 命令行参数解析器（极简）
 - [Inquirer](https://github.com/SBoudrias/Inquirer.js): 命令行交互提示
   - [Enquirer](https://github.com/enquirer/enquirer): 类似 Inquirer，UI 交互更丰富
