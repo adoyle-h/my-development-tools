@@ -220,6 +220,7 @@
 
 - [Joi](https://github.com/hapijs/joi): 人类友好的校验 Schema
 - [yup](https://github.com/jquense/yup): 同 Joi，备用
+- [validator.js](https://github.com/validatorjs/validator.js)
 
 ## 脚手架
 
@@ -358,6 +359,8 @@
 ## ORM
 
 没有好用的 ORM
+
+- [js-data](https://github.com/js-data/js-data)
 
 ## AST
 

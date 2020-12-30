@@ -8,6 +8,10 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [静态网站生成器](#静态网站生成器)
+- [静态文件托管](#静态文件托管)
+- [CMS](#cms)
+- [JAMstack](#jamstack)
 - [框架](#框架)
 - [表单](#表单)
 - [物理引擎](#物理引擎)
@@ -33,7 +37,6 @@
     - [Loading Spinner](#loading-spinner)
     - [React 组件](#react-组件)
 - [React](#react)
-    - [Static Generator Environment](#static-generator-environment)
     - [DevTools](#devtools)
     - [UI Component Explorer](#ui-component-explorer)
     - [IDE](#ide)
@@ -97,6 +100,33 @@
 - https://custom-elements-everywhere.com/ : Custom Element 在各个框架的适用度测试
 - [medium-zoom](https://github.com/francoischalifour/medium-zoom): 图片点击放大
 - [MathJax](https://github.com/mathjax/MathJax): JavaScript display engine for LaTeX, MathML, and AsciiMath notation
+
+## 静态网站生成器
+
+- [Gastby](https://github.com/gatsbyjs/gatsby): 基于 React 和 GraphQL 的现代化静态网站生成器。可扩展性好。
+  - [docz](https://github.com/doczjs/docz): 基于 MDX 和 Gastby 的，零配置的，文档生成器
+- [docsify](https://github.com/docsifyjs/docsify): 基于 Markdown 的文档生成器。在浏览器直接加载 Markdown 文档实时渲染。细节功能做得不是很理想。`routerMode: 'history'` 针对静态页面托管方案（比如 Github Pages）无效。
+  - [docute](https://github.com/egoist/docute): 类似技术的备选方案
+- [react-static](https://github.com/nozzle/react-static): 实现 PRPL 模式的静态网页生成工具
+- [bisheng](https://github.com/benjycui/bisheng)
+- [eleventy](https://github.com/11ty/eleventy)
+- [Hexo](https://github.com/hexojs/hexo): 静态博客生成器
+
+## 静态文件托管
+
+- http://surge.sh  Static web publishing for Front-End Developers. 设计非常优雅，强烈推荐！
+- https://www.netlify.com/
+
+## CMS
+
+- [headless cms](https://github.com/netlify/headlesscms.org)
+- [strapi](https://github.com/strapi/strapi)
+- [Ghost](https://github.com/TryGhost/Ghost)
+- [netlify-cms](https://github.com/netlify/netlify-cms): 基于 Git 服务（比如 github、gitlab）的 Open API 的 CMS。开源项目挺有用。商业项目不适合用。
+
+## JAMstack
+
+- [jamstack.org](https://github.com/jamstack/jamstack.org)
 
 ## 框架
 
@@ -229,6 +259,13 @@
 
 ## React
 
+- [create-react-app](https://github.com/facebookincubator/create-react-app): 集前端工程精华之作，React 工程开发环境
+  - 虽然 webpack 和 babel 配置不能修改，但是社区提供了解决方案
+    - [react-app-rewired](https://github.com/timarney/react-app-rewired)，[文章](https://medium.com/@timarney/but-i-dont-wanna-eject-3e3da5826e39) 已经不兼容 CRA v2 版本了，替代方案如下：
+      - [rescripts](https://github.com/rescripts/rescripts)
+      - [craco](https://github.com/sharegate/craco)
+    - [customize-cra](https://github.com/arackaf/customize-cra)
+  - [razzle](https://github.com/jaredpalmer/razzle): 既有 CRA 的特性，又支持自定义修改配置。还支持 SSR。不限制目录结构，不限制技术栈。
 - [preact](https://github.com/developit/preact): React alternative
 - [htm](https://github.com/developit/htm): JSX Alternative! 使用 JS 字符串模板语法 + HTML DOM 语法。
 - [react-docgen](https://github.com/reactjs/react-docgen): react 组件文档生成器
@@ -243,18 +280,6 @@
 - [svgr](https://github.com/smooth-code/svgr): SVG 转成 React 组件。
 - [SWR](https://github.com/zeit/swr): 请求数据的 react hook
 - [loadable-components](https://github.com/gregberge/loadable-components): 用来分离组件代码，懒加载。它跟 React.lazy 相似，具体区别见[这里](https://loadable-components.com/docs/loadable-vs-react-lazy/)
-
-### Static Generator Environment
-
-- [create-react-app](https://github.com/facebookincubator/create-react-app): 集前端工程精华之作，React 工程前端运行环境
-  - 虽然 webpack 和 babel 配置不能修改，但是社区提供了解决方案
-    - [react-app-rewired](https://github.com/timarney/react-app-rewired)，[文章](https://medium.com/@timarney/but-i-dont-wanna-eject-3e3da5826e39) 已经不兼容 CRA v2 版本了，替代方案如下：
-      - [rescripts](https://github.com/rescripts/rescripts)
-      - [craco](https://github.com/sharegate/craco)
-  - [razzle](https://github.com/jaredpalmer/razzle): 既有 CRA 的特性，又支持自定义修改配置。还支持 SSR。不限制目录结构，不限制技术栈。
-- [Gatsby](https://github.com/gatsbyjs/gatsby): 基于 React、GraphQL 的静态网页生成工具
-- [react-static](https://github.com/nozzle/react-static): 实现 PRPL 模式的静态网页生成工具
-- [Cuttlebelle](https://github.com/cuttlebelle/cuttlebelle): YAML 和 Markdown，内容和代码分离的思想很不错
 
 ### DevTools
 

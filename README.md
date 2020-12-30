@@ -31,6 +31,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+- [Authorization](#authorization)
+- [开源项目](#开源项目)
 - [Ansible](#ansible)
 - [Semver](#semver)
 - [RFC](#rfc)
@@ -46,8 +48,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [漏洞靶场](#漏洞靶场)
 - [架构](#架构)
 - [Checklist](#checklist)
-- [CMS](#cms)
-- [JAMstack](#jamstack)
 - [编辑器/IDE](#编辑器ide)
     - [代码编辑器](#代码编辑器)
     - [富文本编辑器 WYSIWYG](#富文本编辑器-wysiwyg)
@@ -101,7 +101,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [字符串测试](#字符串测试)
     - [HTTP Benchmark](#http-benchmark)
     - [Benchmark](#benchmark)
-- [Blog](#blog)
 - [密码相关](#密码相关)
     - [加密/解密](#加密解密)
     - [密码管理](#密码管理)
@@ -115,7 +114,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Emoji](#emoji)
 - [命名](#命名)
 - [服务 (Service)](#服务-service)
-    - [静态文件托管](#静态文件托管)
     - [伪数据](#伪数据)
 - [PaaS](#paas)
 - [Serverless](#serverless)
@@ -192,6 +190,22 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Notion](https://www.notion.so/): 笔记工具
   - https://timelinetool.app/notion/event : 统计公开链接的 PV 的 embed 插件
 
+## Authorization
+
+- [casbin](https://github.com/casbin/casbin): 一个类库。通过设计 PERM 模型来控制认证策略。支持 ACL, RBAC, ABAC 等策略。支持主流语言。
+
+## 开源项目
+
+- 如何选择 License
+  - https://choosealicense.com/
+- 如何写 Issue/PR Template
+  - https://github.com/stevemao/github-issue-templates
+- 如何写 CODE_OF_CONDUCT
+  - https://www.contributor-covenant.org/
+- 如何写 Security Policy
+  - https://docs.github.com/en/free-pro-team@latest/github/managing-security-vulnerabilities/adding-a-security-policy-to-your-repository
+  - https://tools.ietf.org/html/draft-foudil-securitytxt-10
+
 ## [Ansible](./ansible.md)
 
 ## Semver
@@ -260,6 +274,15 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [WIP](https://github.com/marketplace/wip/): WIP 检查
 - [DCO](https://github.com/apps/dco): Git Commit 检查 DCO 签名
 - [Stale](https://probot.github.io/apps/stale/): 关闭过期的 Issue 和 Pull Request
+- [GitHub Settings](https://probot.github.io/apps/settings/): 用 YAML 文件来同步 Github 项目基本设置
+- [Request Info](https://probot.github.io/apps/request-info/): 提示 Issue 和 PR 内容空白
+- [In Solidarity](https://probot.github.io/apps/in-solidarity/): 避免不礼貌的词汇
+- [Move](https://probot.github.io/apps/move/): 移动 Issue
+- [Close Issue](https://probot.github.io/apps/close-issue/)
+- [lock](https://probot.github.io/apps/lock/)
+- [Weekly Digest](https://probot.github.io/apps/weekly-digest/): 自动生成该 Github 项目的周报汇总
+- [Reminders](https://probot.github.io/apps/reminders/): 在 issue 里设置提醒
+- [delete-merged-branch](https://github.com/SvanBoxel/delete-merged-branch): 自动删除已合并的分支
 
 ## SVG
 
@@ -311,16 +334,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [Serverside Checklist](https://github.com/mtdvio/going-to-production/blob/master/serverside-checklist.md)
 - [SPA Checklist](https://github.com/mtdvio/going-to-production/blob/master/spa-checklist.md)
-
-## CMS
-
-- [headless cms](https://github.com/netlify/headlesscms.org)
-- [strapi](https://github.com/strapi/strapi)
-- [Ghost](https://github.com/TryGhost/Ghost)
-
-## JAMstack
-
-- [jamstack.org](https://github.com/jamstack/jamstack.org)
 
 ## 编辑器/IDE
 
@@ -806,11 +819,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [hyperfine](https://github.com/sharkdp/hyperfine): 命令 Benchmark
 
-## Blog
-
-- [Hexo](https://github.com/hexojs/hexo): 静态博客
-- [Gatsby](https://github.com/gatsbyjs/gatsby): 基于 React 的静态网页生成工具
-
 ## 密码相关
 
 ### 加密/解密
@@ -948,11 +956,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [docker-nfs-server](https://github.com/ehough/docker-nfs-server): A lightweight, robust, flexible, and containerized NFS server.
 - https://alternativeto.net/ : 搜索软件或服务其他替代方案
 
-### 静态文件托管
-
-- http://surge.sh  Static web publishing for Front-End Developers. 设计非常优雅，强烈推荐！
-- https://www.netlify.com/
-
 ### 伪数据
 
 - https://jsonplaceholder.typicode.com/
@@ -1084,11 +1087,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - http://devdocs.io/ : 查看文档。开源的 https://github.com/Thibaut/devdocs/ `ⱳ`
 - [zealdocs](https://zealdocs.org/): 查看文档。备选 `Ⓛ`
 - [carbon](https://github.com/dawnlabs/carbon): 代码转成图片
-- [Gastby](https://github.com/gatsbyjs/gatsby): 基于 React 和 GraphQL 的现代化静态网站生成器。可扩展性好。
-- [docsify](https://github.com/docsifyjs/docsify): 基于 Markdown 的 Web 文档编写工具。在浏览器直接加载 MD 文档实时渲染。细节功能做得不是很理想。`routerMode: 'history'` 针对静态页面托管方案（比如 Github Pages）无效。
-  - [docute](https://github.com/egoist/docute): 类似技术的备选方案
 - [mdx](https://github.com/mdx-js/mdx): Markdown + JSX = MDX。支持模块导入和导出，支持 React 组件。写 Web 文档利器。
-- [docz](https://github.com/doczjs/docz): 基于 MDX 和 Gastby 的，零配置的，文档编写工具。
 
 ### 文档处理
 
