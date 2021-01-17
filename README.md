@@ -492,8 +492,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [diff2html](https://github.com/rtfpessoa/diff2html): 将 diff 文件转成 HTML 页面的形式预览。非常漂亮
 - [exa](https://github.com/ogham/exa): much better `ls`
 - [z.lua](https://github.com/skywind3000/z.lua): 路径切换 cd 的增强版。支持多级模糊匹配，交互式搜索等功能
-- [ccat](https://github.com/jingweno/ccat): better cat。输出着色代码的 cat 命令
-  - [bat](https://github.com/sharkdp/bat): 除了代码着色，还集成了 git diff、分页器。
+- [bat](https://github.com/sharkdp/bat): better cat。自动代码着色，自带分页器，显示代码行，支持 diff，自动标记 git 变动，可显示不可见符号。
 - [multitail](https://github.com/flok99/multitail): 同时 tail 多个文件
 - [tree](http://mama.indstate.edu/users/ice/tree): Mac 没有 tree 命令
 - [pstree](http://www.thp.uni-duisburg.de/pstree/): tree 结构展示 ps 命令
@@ -504,6 +503,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [ag](https://github.com/ggreer/the_silver_searcher): 备选方案
 - [fzf](https://github.com/junegunn/fzf): 模糊筛选/搜索任意列表
 - [cash](https://github.com/dthree/cash): For windows 用户。用 nodejs 写的程序，模拟一些 linux 命令
+- [procs](https://lib.rs/crates/procs): better ps
+- [bottom](https://github.com/clementtsang/bottom): better top/htop. A cross-platform graphical process/system monitor with a customizable interface and a multitude of features. Supports Linux, macOS, and Windows.
+
 
 ### 进程
 
