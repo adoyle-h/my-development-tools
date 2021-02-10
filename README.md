@@ -189,6 +189,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail): 代码可视化浏览器
 - [Notion](https://www.notion.so/): 笔记工具
   - https://timelinetool.app/notion/event : 统计公开链接的 PV 的 embed 插件
+- [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved): 强大的哔哩哔哩油猴脚本
 
 ## Authorization
 
@@ -226,6 +227,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - https://spdx.org/licenses/
   - [spdx-license-list](https://github.com/sindresorhus/spdx-license-list): nodejs 包
+  - [license-list-data](https://github.com/spdx/license-list-data): Various data formats for the SPDX License List including RDFa, HTML, Text, and JSON
+- [LicenseFinder](https://github.com/pivotal/LicenseFinder): Find licenses for your project's dependencies.
 
 ## Github
 
@@ -415,6 +418,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [direnv](https://github.com/direnv/direnv): 根据当前目录自动执行命令，比如设置一些环境变量什么的，切出目录环境变量会自动变回去
   - [autoenv](https://github.com/kennethreitz/autoenv): README 挺幽默的
   - [desk](https://github.com/jamesob/desk): 类似方案
+- [pueue](https://github.com/Nukesor/pueue): 将任意 shell 命令托管到后台队列里执行
 
 ### 配色
 
@@ -856,6 +860,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Poedit](https://poedit.net): .po 翻译软件 `Ⓜ`。价格太贵，大版本升级坑。暂无替代方案
 - [OpenCC](https://github.com/BYVoid/OpenCC): 中文简体与繁体转换
 - https://www.deepl.com/ : 基于 AI 的翻译器
+- [Grammarly](https://www.grammarly.com/): 提供英文语法纠错的 Web 服务。有 Chrome 插件，体验不错。
 
 ## Windows App
 

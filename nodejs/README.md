@@ -9,6 +9,7 @@
 
 - [Node 环境](#node-环境)
 - [Misc](#misc)
+- [缓存](#缓存)
 - [通知](#通知)
 - [事件/Event Emitter](#事件event-emitter)
 - [Scheduler](#scheduler)
@@ -79,6 +80,10 @@
   - [npm-check](https://github.com/dylang/npm-check)
 - [yn](https://github.com/sindresorhus/yn): 判断值是否为 yes/no
 - [package-json](https://github.com/sindresorhus/package-json): Get metadata of a package from the npm registry. 支持私有 registry
+
+## 缓存
+
+- [node-lru-cache](https://github.com/isaacs/node-lru-cache): A cache object that deletes the least-recently-used items.
 
 ## 通知
 
@@ -198,6 +203,7 @@
 - [bluebird](https://github.com/petkaantonov/bluebird): 强大的 Promise 库
   - [promise-fun](https://github.com/sindresorhus/promise-fun): 轮子王造的独立的函数库
   - [aigle](https://github.com/suguru03/aigle): bluebird 替代方案
+- [p-state](https://github.com/sindresorhus/p-state): 查看 promise 状态
 - [co](https://github.com/tj/co): 强大的异步处理库
 - [utility-maker](https://github.com/adoyle-h/utility-maker): 定义自己的工具集
 - [is](https://github.com/arasatasaygin/is.js): 类型判断
@@ -300,8 +306,11 @@
 - [npm/ini](https://github.com/npm/ini): `ini` 文件解析器
 - [node-properties-parser](https://github.com/xavi-/node-properties-parser): `.properties` 文件解析器
 - [js-yaml](https://github.com/nodeca/js-yaml): `YAML` 文件解析器
-- [glob](https://github.com/isaacs/node-glob): 文件匹配搜索
+- [globby](https://github.com/sindresorhus/globby): 更方便 glob 库，基于 fast-glob
+  - [glob](https://github.com/isaacs/node-glob): 文件匹配搜索
   - [fast-glob](https://github.com/mrmlnc/fast-glob): alternative
+- [node-ignore](https://github.com/kaelzhang/node-ignore): .gitignore
+  - [node-glob-gitignore](https://github.com/kaelzhang/node-glob-gitignore)
 - [vinyl](https://github.com/gulpjs/vinyl): 用 JS 描述文件
 - [chokidar](https://github.com/paulmillr/chokidar): 监听文件变化
   - [chokidar-cli](https://github.com/kimmobrunfeldt/chokidar-cli)
@@ -414,6 +423,7 @@
 
 ## 压缩/解压
 
+- [node-archiver](https://github.com/archiverjs/node-archiver): A streaming interface for archive generation
 - [compressing](https://github.com/node-modules/compressing): 支持 stream
   - [tar-stream](https://github.com/mafintosh/tar-stream): compressing 依赖 tar-stream
 

@@ -167,6 +167,10 @@
 - [RightFont](https://rightfontapp.com/cn): 字体管理
 - https://font-viewer.com : 字体比较。支持系统字体和 Google Font
 
+#### 像素风格
+
+- [Zpix 最像素](https://github.com/SolidZORO/zpix-pixel-font)
+
 #### 有衬线英文
 
 - [Georgia](https://www.fonts.com/font/microsoft-corporation/georgia): 适合设计
