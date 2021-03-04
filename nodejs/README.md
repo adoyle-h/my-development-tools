@@ -286,6 +286,7 @@
 - [dotenv](https://github.com/motdotla/dotenv): 读取 `.env` 文件设置环境变量。
   - 首先要了解它的[使用场景](https://github.com/motdotla/dotenv#faq)
 - [cosmiconfig](https://github.com/davidtheclark/cosmiconfig): Find and load configuration from a package.json property, rc file, or CommonJS module
+- [find-up](https://github.com/sindresorhus/find-up): 向上递归查找文件
 
 ## 日志
 

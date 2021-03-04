@@ -80,6 +80,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [监控](#监控)
     - [Troubleshooting](#troubleshooting)
 - [数据库](#数据库)
+    - [Embeddable DB](#embeddable-db)
 - [数据库设计](#数据库设计)
     - [Database Versioning](#database-versioning)
 - [网络](#网络)
@@ -121,6 +122,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [跳板机/堡垒机](#跳板机堡垒机)
 - [REPL](#repl)
 - [正则表达式 (Regex)](#正则表达式-regex)
+- [数据](#数据)
 - [数据可视化](#数据可视化)
 - [交互式 Notebook](#交互式-notebook)
 - [Python](#python)
@@ -549,8 +551,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ### JSON
 
 - https://www.json.cn/ : JSON 在线解析
-- [jq](https://github.com/stedolan/jq): JSON 静态分析工具
-- [jid](https://github.com/simeji/jid): JSON 动态交互式分析工具
+- [jv](https://github.com/gistia/json-log-viewer): JSON Log Viewer
+- [fx](https://github.com/antonmedv/fx): JSON Viewer
+  - [jq](https://github.com/stedolan/jq): JSON Viewer
+- [jid](https://github.com/simeji/jid): 交互式 JSON Viewer
   - [jiq](https://github.com/fiatjaf/jiq): It's jid with jq.
 - [JSON5](https://github.com/json5/json5): JSON for humans. (Not an official successor to JSON.)
 - [hjson](https://github.com/hjson/hjson): 比 JSON5 更丰富，且相对更标准，有 [RFC 文档](https://hjson.org/rfc.html)。
@@ -653,6 +657,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [UNQLite](https://github.com/symisc/unqlite):
 - [SQLite](https://www.sqlite.org)
 - [vitess](https://github.com/vitessio/vitess): MySQL Sharding Proxy。支持 k8s。Youtube 2011 年就开始跑了。
+
+### Embeddable DB
+
+- [LokiJS](https://github.com/techfort/LokiJS): javascript embeddable / in-memory database
+- [BuntDB](https://github.com/tidwall/buntdb): an embeddable, in-memory key/value database for Go with custom indexing and geospatial support
 
 ## 数据库设计
 
@@ -1008,6 +1017,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [regex101](https://regex101.com/) `ⱳ`
 - [Learn regex the easy way](https://github.com/ziishaned/learn-regex)
 - [grex](https://github.com/pemistahl/grex): 根据给出的文本，自动给出合适的正则表达式
+
+## 数据
+
+- [Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China): 中国省、地、县、乡、村级数据。
 
 ## 数据可视化
 
