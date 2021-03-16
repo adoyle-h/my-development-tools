@@ -136,7 +136,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [K8S/Kubernetes](#k8skubernetes)
 - [虚拟化](#虚拟化)
 - [模板引擎](#模板引擎)
-- [Latex](#latex)
+- [Tex/Latex](#texlatex)
 - [Slide/Presentation](#slidepresentation)
 - [文档](#文档)
     - [文档处理](#文档处理)
@@ -192,6 +192,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Notion](https://www.notion.so/): 笔记工具
   - https://timelinetool.app/notion/event : 统计公开链接的 PV 的 embed 插件
 - [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved): 强大的哔哩哔哩油猴脚本
+- [smartmontools](https://www.smartmontools.org/): 硬盘 S.M.A.R.T. 检测命令行工具。smartctl and smartd to control and monitor storage systems using the SMART built into most modern ATA/SATA, SCSI/SAS and NVMe disks.
 
 ## Authorization
 
@@ -678,8 +679,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## 网络
 
 - [Awesome SDN](https://github.com/sdnds-tw/awesome-sdn): 关于软件定义网络的开源技术
-- [Proxifier](https://www.proxifier.com/): 改变指定应用的网络流量，在应用外设置网络代理，转发到 socks 或 http 代理上。还附带流量监控。`ⓦ` `Ⓜ`
-- [proxychains-ng](https://github.com/rofl0r/proxychains-ng): http 代理
+- [Awesome Home Networking](https://github.com/blanboom/awesome-home-networking-cn): 家庭网络相关知识
 - [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理
 - [sindresorhus/speed-test](https://github.com/sindresorhus/speed-test): 测试网速。基于 speed-test.net 的命令
 - Linux 命令: `ping`, `nc`, `mtr`, `netstat`, `nettop`, `iftop`
@@ -691,6 +691,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ### DNS
 
 - [CoreDNS](https://github.com/coredns/coredns): DNS server。CNCF 项目
+- https://dns.google/
 
 ### HTTP
 
@@ -1066,6 +1067,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 虚拟化
 
+- [Proxmox VE](https://proxmox.com/en/proxmox-ve): 开源虚拟化方案，基于 KVM，支持 LXC
 - [VirtualBox](https://www.virtualbox.org/)
 - [Vagrant](https://github.com/hashicorp/vagrant)
   - https://app.vagrantup.com/ : vagrant box 仓库
@@ -1086,11 +1088,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Jinja](https://jinja.palletsprojects.com): Ansible 使用的模板引擎
   - [Jinja 模板在线渲染](https://cryptic-cliffs-32040.herokuapp.com)
 
-## Latex
+## Tex/Latex
 
 - [awesome-LaTeX](https://github.com/egeerardyn/awesome-LaTeX)
 - [Begin-Latex-in-minutes](https://github.com/luong-komorebi/Begin-Latex-in-minutes/blob/master/Translation-Chinese.md)
 - [TEXMaker](https://www.xm1math.net/texmaker/)
+- [KaTeX](https://github.com/KaTeX/KaTeX): Fast math typesetting for the web.
 
 ## Slide/Presentation
 
@@ -1231,14 +1234,39 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ### 翻墙
 
-- [googlehosts/hosts](https://github.com/googlehosts/hosts)
-- [gfwlist](https://github.com/gfwlist/gfwlist)
+- https://github.com/bannedbook/fanqiang/wiki
+- [kcp](https://github.com/skywind3000/kcp):  A Fast and Reliable ARQ Protocol
+- [Proxifier](https://www.proxifier.com/): 改变指定应用的网络流量，在应用外设置网络代理，转发到 socks 或 http 代理上。还附带流量监控。`ⓦ` `Ⓜ`
+- [proxychains-ng](https://github.com/rofl0r/proxychains-ng): http 代理
+
+#### 客户端
+
 - ~~[shadowsocks](https://github.com/shadowsocks/shadowsocks)~~: shadowsocks，很好的工具，可惜已沦陷，不建议使用。
 - [V2Ray](https://github.com/v2ray/v2ray-core): V2Ray 是一个模块化的代理软件包，它的目标是提供常用的代理软件模块，简化网络代理软件的开发。强烈推荐。
-  - [V2RayX](https://github.com/Cenmrev/V2RayX): V2Ray 的 MacOS 客户端
+  - [V2RayX](https://github.com/Cenmrev/V2RayX): MacOS 客户端
+  - [V2RayNG](https://github.com/2dust/v2rayNG): Android 客户端
+- [Clash](https://github.com/Dreamacro/clash): A rule-based tunnel in Go.
+  - [ClashX](https://github.com/yichengchen/clashX): Mac 客户端
+  - [ClashForAndroid](https://github.com/Kr328/ClashForAndroid): Android 客户端
+- QuantumultX: iOS 客户端，很贵，功能强大，界面交互好
+  - ShadowRocket: iOS 客户端，便宜，功能还行
+
+#### 翻墙规则
+
+- [googlehosts/hosts](https://github.com/googlehosts/hosts)
+- [gfwlist](https://github.com/gfwlist/gfwlist)
+- [lhie1/Rules](https://github.com/lhie1/Rules/tree/master): 支持 Clash、QuantumultX、Quantumult、Shadowrocket、Surge
 - [GenPAC](https://github.com/JinnLynn/genpac): 基于 gfwlist 的 pac, dnsmasq, wingy 配置生成工具，支持自定义规则。
-- [kcp](https://github.com/skywind3000/kcp):  A Fast and Reliable ARQ Protocol
-- https://github.com/bannedbook/fanqiang/wiki
+
+#### 机场
+
+- [苏打云](https://v2.suda.moe/)
+- [V2VN 薇恩](https://v2vn.com/)
+- [少数派](https://shaoshupai.org/)
+- [极客云](https://jike0.net/)
+- 免费机场，后果自负
+  - https://github.com/aries15/freess/tree/dev
+  - https://github.com/freefq/free
 
 ### 镜像站点
 

@@ -326,6 +326,7 @@
 ## 网络
 
 - [address](https://github.com/node-modules/address): 获取本机的网络地址(ipv4/ipv6/mac/dns)
+- [node-netmask](https://github.com/rs/node-netmask): 解析 CIDR
 - [detect-port](https://github.com/node-modules/detect-port): 获取可用端口
 
 ## 文档
