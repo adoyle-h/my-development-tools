@@ -1216,6 +1216,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Information-Extraction-Chinese](https://github.com/crownpku/Information-Extraction-Chinese): 中文实体识别与关系提取
 - [YEDDA](https://github.com/jiesutd/YEDDA): 支持中文
 - [funNLP](https://github.com/fighting41love/funNLP): 一系列信息提取的工具库
+- [UBIAI](https://ubiai.tools/): The fastest way to create training data for your NLP model
 
 ### Word Segment 分词
 
