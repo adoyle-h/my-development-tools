@@ -309,6 +309,7 @@
 - [clean-css](https://github.com/jakubpawlowicz/clean-css)
 - [normalize.css](https://github.com/necolas/normalize.css)
   - [styled-normalize](https://github.com/sergeysova/styled-normalize): normalize.css 的 React 组件
+  - [modern-normalize](https://github.com/sindresorhus/modern-normalize): 替代方案
 - https://csstriggers.com/
 - https://github.com/jolaleye/cssfx : Beautifully simple click-to-copy CSS effects
 

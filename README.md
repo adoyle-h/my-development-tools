@@ -9,7 +9,7 @@
 
 ## 版权声明 (Copyright and License)
 
-Copyright (c) 2016-2020 ADoyle. The project is licensed under the **BSD 3-clause License**.
+Copyright 2016-2021 ADoyle (adoyle.h@gmail.com). The project is licensed under the **BSD 3-clause License**.
 
 See the [LICENSE][] file for the specific language governing permissions and limitations under the License.
 
@@ -145,6 +145,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [badges](#badges)
 - [Hash](#hash)
 - [图像处理](#图像处理)
+- [视频处理](#视频处理)
 - [压缩/解压](#压缩解压)
 - [Steganography](#steganography)
 - [OCR](#ocr)
@@ -403,6 +404,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [cathode](https://itunes.apple.com/us/app/cathode/id656982811): 复古终端模拟器 `Ⓜ`
 - [cmder](https://github.com/cmderdev/cmder): terminal emulator on Windows `ⓦ`
 - [xterm.js](https://github.com/xtermjs/xterm.js): A terminal for the web
+- [edex-ui](https://github.com/GitSquared/edex-ui): 非常酷！
 
 ## Shell
 
@@ -562,6 +564,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [simdjson](https://github.com/lemire/simdjson): Parsing gigabytes of JSON. 2.2GB/s
 - [JSON Patch](http://jsonpatch.com/): JSON 数据的 add、remove、replace、copy、move、test 操作
 - [JSON Merge Patch](https://tools.ietf.org/html/rfc7386): RFC7386
+- https://www.json-generator.com/ : 根据语法随机生成 JSON 对象
 
 ### JSON Schema
 
@@ -617,6 +620,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - https://archive.is/ : 同上
 - [sitemap.js](https://github.com/ekalinin/sitemap.js): 生成 sitemap 的工具
 - [Favicon 生成器](https://realfavicongenerator.net/)
+- [rrweb](https://github.com/rrweb-io/rrweb): 网页浏览录制和回放
+  - [Open Replay](https://github.com/openreplay/openreplay)
 
 ## SSL
 
@@ -658,6 +663,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [UNQLite](https://github.com/symisc/unqlite):
 - [SQLite](https://www.sqlite.org)
 - [vitess](https://github.com/vitessio/vitess): MySQL Sharding Proxy。支持 k8s。Youtube 2011 年就开始跑了。
+- [dolt](https://github.com/dolthub/dolt): 功能类似 Git 的数据库
 
 ### Embeddable DB
 
@@ -692,6 +698,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [CoreDNS](https://github.com/coredns/coredns): DNS server。CNCF 项目
 - https://dns.google/
+- https://www.nslookup.io/ : 查询 DNS 记录
 
 ### HTTP
 
@@ -808,6 +815,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://processing.org/
   - http://processingjs.org/
 - [drawio](https://github.com/jgraph/drawio): 非常优秀的开源在线绘图前端库。各种图都有，支持国际化。
+- https://excalidraw.com/ : 手绘风格的绘图工具。开源，[源码](https://github.com/excalidraw/excalidraw)
 
 ### ASCII Art
 
@@ -1149,10 +1157,15 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [gm](https://github.com/aheckmann/gm): NodeJS 封装 GraphicsMagick and ImageMagick
 - [jimp](https://github.com/oliver-moran/jimp): 用 JS 写的图像处理类库
 - [ImageOptim](https://github.com/ImageOptim/ImageOptim): 开源的图像压缩优化工具 `Ⓜ`
+  - [Caesium](https://github.com/Lymphatus/caesium-image-compressor): 开源的，跨平台，图像压缩工具
 - https://www.iloveimg.com/zh-cn : 在线压缩、调整大小、加水印、格式转换的图片处理服务
   - https://docsmall.com : GIF 压缩比很高
 - GIF Brewery 3: GIF 制作工具。App Store 内购买。 `Ⓜ`
 - [Gifski](https://github.com/sindresorhus/Gifski): 视频转 GIF。开源的。 `Ⓜ`
+
+## 视频处理
+
+- [Remotion](https://github.com/JonnyBurger/remotion): 用 React 制作视频
 
 ## 压缩/解压
 
