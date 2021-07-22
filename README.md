@@ -70,6 +70,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [HCL](#hcl)
     - [JSON](#json)
     - [JSON Schema](#json-schema)
+    - [JSON Path](#json-path)
 - [Lint](#lint)
 - [Mock](#mock)
 - [HTTP](#http)
@@ -217,6 +218,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [semver-diff](https://github.com/sindresorhus/semver-diff): semver 比较
 - [standard-version](https://github.com/conventional-changelog/standard-version): Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org
+  - conventional-changelog 的 [.versionrc 配置](https://github.com/conventional-changelog/conventional-changelog-config-spec/)
   - [semantic-release](https://github.com/semantic-release/semantic-release): 备选方案
 - https://semver.npmjs.com/ : npm semver calculator
 - [semver-tool](https://github.com/fsaintjacques/semver-tool): 纯 Bash 实现的 Semver 可执行命令
@@ -574,6 +576,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker): 根据 JSON Schema 生成数据
 - http://schemastore.org/json/ : 各种现成的 JSON Schema 文件
   - https://github.com/instrumenta/kubernetes-json-schema : K8S JSON Schema 文件
+
+### JSON Path
+
+- [JsonPath](https://github.com/json-path/JsonPath)
+- https://jsonpath.com/ : JSONPath Online Evaluator
+  - http://jsonpath.herokuapp.com/
 
 ## Lint
 
@@ -1105,6 +1113,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## Slide/Presentation
 
+- [slidev](https://github.com/slidevjs/slidev): https://sli.dev/
 - [spectacle](https://github.com/FormidableLabs/spectacle): 基于 React 写的 slide
 - [bespoke](https://github.com/bespokejs/bespoke): DIY Presentation Micro-Framework
 - [nodeppt](https://github.com/ksky521/nodeppt): 这可能是迄今为止最好的网页版演示库
