@@ -75,9 +75,8 @@
 
 ## Misc
 
-- [dependency-check](https://github.com/maxogden/dependency-check): 依赖检查，确保引用的模块已写在 package.json
-  - [depcheck](https://github.com/depcheck/depcheck)
-  - [npm-check](https://github.com/dylang/npm-check)
+- [npm-check](https://github.com/dylang/npm-check): 检查 unused 和 missing 的依赖，并检查是否有新版本。可作为程序/类库使用。
+  - [depcheck](https://github.com/depcheck/depcheck): 只检查 unused 和 missing 的依赖。可作为程序/类库使用。
 - [yn](https://github.com/sindresorhus/yn): 判断值是否为 yes/no
 - [package-json](https://github.com/sindresorhus/package-json): Get metadata of a package from the npm registry. 支持私有 registry
 

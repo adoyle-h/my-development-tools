@@ -125,6 +125,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [正则表达式 (Regex)](#正则表达式-regex)
 - [数据](#数据)
 - [数据可视化](#数据可视化)
+    - [日志](#日志)
 - [交互式 Notebook](#交互式-notebook)
 - [Python](#python)
 - [Golang](#golang)
@@ -195,6 +196,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - https://timelinetool.app/notion/event : 统计公开链接的 PV 的 embed 插件
 - [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved): 强大的哔哩哔哩油猴脚本
 - [smartmontools](https://www.smartmontools.org/): 硬盘 S.M.A.R.T. 检测命令行工具。smartctl and smartd to control and monitor storage systems using the SMART built into most modern ATA/SATA, SCSI/SAS and NVMe disks.
+- [Ventoy](https://github.com/ventoy/Ventoy): 制作系统启动 U 盘的开源工具
 
 ## Authorization
 
@@ -250,6 +252,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ### 界面交互
 
 - [octotree](https://github.com/buunguyen/octotree): Github 文件浏览器。`ⓒ`
+- [Git Master](https://github.com/ineo6/git-master): 很多功能。支持 GitHub、GitLab、Gitee、Gitea、Gogs
 <a name="github-contributions-chart"></a>
 - [isometric-contributions](https://github.com/jasonlong/isometric-contributions): Github contributions 图表重构
 - [Refined GitHub](https://github.com/sindresorhus/refined-github)。改进 Github 界面。`ⓒ`
@@ -1042,6 +1045,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## 数据可视化
 
 - [Grafana](https://grafana.com/grafana)
+
+### 日志
+
+- [goaccess](https://github.com/allinurl/goaccess): GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.
 
 ## 交互式 Notebook
 
