@@ -230,6 +230,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://tools.ietf.org/ : 查看 IETF RFC 文档的工具。
 - https://www.rfc-editor.org/ : 查看 IETF RFC 文档的工具。
   - https://everyrfc.org/ : 备选。RFC 搜索引擎
+- Markdown 生成 RFC 文档的工具
+  - https://github.com/mmarkdown/mmark
+  - https://github.com/cabo/kramdown-rfc2629
+  - 例子：https://github.com/danyork/writing-internet-drafts-in-markdown
 
 ## License
 
@@ -237,6 +241,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [spdx-license-list](https://github.com/sindresorhus/spdx-license-list): nodejs 包
   - [license-list-data](https://github.com/spdx/license-list-data): Various data formats for the SPDX License List including RDFa, HTML, Text, and JSON
 - [LicenseFinder](https://github.com/pivotal/LicenseFinder): Find licenses for your project's dependencies.
+- [scancode-toolkit](https://github.com/nexB/scancode-toolkit): detects licenses, copyrights, package manifests & dependencies and more by scanning code ... to discover and inventory open source and third-party packages used in your code.
 
 ## Github
 
@@ -883,6 +888,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [mjml](https://mjml.io/): 邮件模板语言
 - https://www.mailgun.com/ : 发邮件的服务 `ⱳ`
 - http://mailchimp.com/ : 搭建邮件&发邮件的服务 `ⱳ`
+- [nodemailer](https://github.com/nodemailer/nodemailer): 邮件类库 (NodeJS)
 
 ## 翻译
 
@@ -897,6 +903,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## Mac App
 
+- [Awesome macOS open source applications](https://github.com/serhii-londar/open-source-mac-os-apps)
 - [m-cli](https://github.com/rgcr/m-cli): 很方便的 Mac 相关的命令行工具
 - [quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins): Mac 文件 Quick Look 插件。在 Finder 中按空格预览
 - [Nativefier](https://github.com/jiahaog/nativefier): 网页应用打包成 Mac App `Ⓜ`
@@ -1123,6 +1130,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [slidev](https://github.com/slidevjs/slidev): https://sli.dev/
 - [spectacle](https://github.com/FormidableLabs/spectacle): 基于 React 写的 slide
 - [bespoke](https://github.com/bespokejs/bespoke): DIY Presentation Micro-Framework
+- [impress.js](https://github.com/impress/impress.js): 类似 prezi.com 的 slide 框架
 - [nodeppt](https://github.com/ksky521/nodeppt): 这可能是迄今为止最好的网页版演示库
 - https://slides.com/ : 基于 [reveal.js](https://github.com/hakimel/reveal.js) 的服务，非常好用，但是国内要翻墙 `ⱳ`
 - [mdx-deck](https://github.com/jxnblk/mdx-deck): 基于 MDX 写 slide

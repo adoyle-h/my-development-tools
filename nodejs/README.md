@@ -126,7 +126,7 @@
 - [node-draftlog](https://github.com/ivanseidel/node-draftlog): 单行动态变化的终端打印
 - [gauge](https://github.com/iarna/gauge): 进度条
 - [node-progress](https://github.com/visionmedia/node-progress): 进度条
-- [prettyjson](https://github.com/rafeca/prettyjson): 把 JSON 数据按 YAML 风格打印出来
+- [prettyoutput](https://github.com/keepitcool/prettyoutput): 把 JSON 数据按 YAML 风格打印出来
 - [node-tabtab](https://github.com/mklabs/node-tabtab): Shell 自动补全库
 
 ### 自动补全
@@ -309,6 +309,7 @@
 - [globby](https://github.com/sindresorhus/globby): 更方便 glob 库，基于 fast-glob
   - [glob](https://github.com/isaacs/node-glob): 文件匹配搜索
   - [fast-glob](https://github.com/mrmlnc/fast-glob): alternative
+- [picomatch](https://github.com/micromatch/picomatch): Blazing fast and accurate glob matcher written JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.
 - [node-ignore](https://github.com/kaelzhang/node-ignore): .gitignore
   - [node-glob-gitignore](https://github.com/kaelzhang/node-glob-gitignore)
 - [vinyl](https://github.com/gulpjs/vinyl): 用 JS 描述文件

@@ -78,6 +78,8 @@
   - https://iradesign.io/ : 渐变色。开源的
   - https://icons8.com/ouch : 丰富的使用场景
   - https://gallery.manypixels.co/ : 丰富的使用场景
+- 可定制的
+  - https://doodleipsum.com/ : 支持定制、随机生成、生成 URL、API 请求
 
 ## 背景图生成器
 
