@@ -1003,6 +1003,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - https://jsonplaceholder.typicode.com/
 - http://dummy.restapiexample.com/
+- 临时接收手机短信
+  - https://sms24.me/en/ (这个有中国号码，下面那些没有)
+  - https://jiemahao.com/
+  - https://yunduanxin.net/Countries/
+  - https://pingme.tel/receive-sms-online-cn/
 
 ## PaaS
 
