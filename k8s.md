@@ -31,6 +31,8 @@
 - https://kubernetes.io/
 - [kompose](https://github.com/kubernetes/kompose): Go from Docker Compose to Kubernetes
 - [k3s](https://github.com/rancher/k3s): 轻量级 k8s，用于边缘计算、嵌入式、物联网场景
+- [k0s](https://github.com/k0sproject/k0s): 同上
+- [k9s](https://github.com/derailed/k9s): 交互式 CLI 工具，用于管理 K8S 集群。
 - [KubeEdge](https://github.com/kubeedge/kubeedge): 用于边缘计算场景
 - [gVisor](https://github.com/google/gvisor): 容器运行时沙盒。把容器跑在隔离的虚拟容器环境中，提高安全性。
 - [Kubernetes YAML Generator](https://k8syaml.com/)
