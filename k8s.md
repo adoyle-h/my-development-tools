@@ -46,7 +46,7 @@
 
 ## kubectl
 
-- [kubectx](https://github.com/ahmetb/kubectx): 管理切换 kubectl 上下文
+- [kubectx](https://github.com/ahmetb/kubectx): 方便操作 kubectl。kubens 用来管理、切换 namespace，kubectx 用来管理、切换 k8s 集群
 - [krew](https://github.com/kubernetes-sigs/krew): kubectl 插件的包管理器
 
 ## 环境

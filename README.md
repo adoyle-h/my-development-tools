@@ -107,6 +107,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [密码相关](#密码相关)
     - [加密/解密](#加密解密)
     - [密码管理](#密码管理)
+- [编码](#编码)
 - [知识管理](#知识管理)
 - [邮件](#邮件)
 - [翻译](#翻译)
@@ -389,6 +390,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ### IDE 辅助工具
 
 - [TabNine](https://github.com/zxqfl/TabNine/): 用深度学习进行自动补全。支持 VS Code, Sublime Text, Vim, Atom, Emacs
+  - [GitHub Copilot](https://copilot.github.com/): 同上
 - [universal-ctags](https://github.com/universal-ctags/ctags): Universal-ctags 是 Darren Hiebert 的 Exuberant-ctags 的继任
 - [NerdFonts](https://www.nerdfonts.com) 与 [cheat-sheet](https://www.nerdfonts.com/cheat-sheet): 程序员必备字体
 - [PacVim](https://github.com/jmoon018/PacVim): 用游戏教你学 VIM
@@ -889,6 +891,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Keepass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android&hl=zh_CN): [KeePass][] 的安卓客户端
   - [Keepass2Android 离线版](https://play.google.com/store/apps/details?id=keepass2android.keepass2android_nonet)
 
+## 编码
+
+- https://www.punycoder.com/ : Punycode
+
 ## 知识管理
 
 - [iThoughtsX](https://www.toketaware.com): 思维导图 `Ⓜ`
@@ -911,7 +917,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## Windows App
 
-- [PowerToys](https://github.com/microsoft/PowerToys): Windows system utilities to maximize productivity
+- [PowerToys](https://github.com/microsoft/PowerToys): Windows 官方出品的生产力工具：唤醒工具，颜色选取器，窗口管理器，预览窗口，图像大小调整器，键盘管理器，批量重命名，类似 Spotlight 的启动器，快捷键指南
+- Windows 包管理器
+  - [winget](https://github.com/microsoft/winget-cli)
+  - [Scoop](https://scoop.sh/)
+  - [chocolatey](https://chocolatey.org/)
+- [WSLg](https://github.com/microsoft/wslg): 让 WSL 支持 GUI 环境
 
 ## Mac App
 
@@ -1160,6 +1171,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [zealdocs](https://zealdocs.org/): 查看文档。备选 `Ⓛ`
 - [carbon](https://github.com/dawnlabs/carbon): 代码转成图片
 - [mdx](https://github.com/mdx-js/mdx): Markdown + JSX = MDX。支持模块导入和导出，支持 React 组件。写 Web 文档利器。
+- [outline](https://github.com/outline/outline): 类似 Notion 的知识库、WIKI 平台
 
 ### 文档处理
 
