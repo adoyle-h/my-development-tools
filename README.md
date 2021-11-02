@@ -79,6 +79,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Linux 系统](#linux-系统)
     - [文件系统](#文件系统)
     - [监控](#监控)
+    - [运维](#运维)
     - [Troubleshooting](#troubleshooting)
 - [数据库](#数据库)
     - [Embeddable DB](#embeddable-db)
@@ -199,6 +200,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved): 强大的哔哩哔哩油猴脚本
 - [smartmontools](https://www.smartmontools.org/): 硬盘 S.M.A.R.T. 检测命令行工具。smartctl and smartd to control and monitor storage systems using the SMART built into most modern ATA/SATA, SCSI/SAS and NVMe disks.
 - [Ventoy](https://github.com/ventoy/Ventoy): 制作系统启动 U 盘的开源工具
+  - [rufus](https://github.com/pbatard/rufus): 备选方案
+  - [etcher](https://github.com/balena-io/etcher): 备选方案
 
 ## Authorization
 
@@ -653,7 +656,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## Linux 系统
 
-- [osquery](https://github.com/facebook/osquery/): 使用 SQL 查询系统级别的信息
 
 ### 文件系统
 
@@ -665,8 +667,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [glances](https://github.com/nicolargo/glances): 系统监控，运行在终端, alternative to top/htop
 - [Prometheus](https://github.com/prometheus/prometheus): Metrics 存储、查询、监控报警，时序数据库。
   - [thanos](https://github.com/improbable-eng/thanos): 让 Prometheus 高可用，以及存储可扩展的组件。
-- [cockpit](https://github.com/cockpit-project/cockpit): 「待评价」
 - [statsd](https://github.com/etsy/statsd): Metrics 数据聚合
+
+### 运维
+
+- [cockpit](https://cockpit-project.org/): 通过 Web 服务运维系统
+- [osquery](https://github.com/facebook/osquery/): 使用 SQL 查询系统级别的信息
 
 ### Troubleshooting
 
@@ -939,6 +945,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Kaleidoscope](http://www.kaleidoscopeapp.com): Diff GUI 软件 `Ⓜ`
 - [Bartender](https://www.macbartender.com): Mac 菜单栏折叠 `Ⓜ`
 - [iStat Menus](https://bjango.com/mac/istatmenus): Mac 系统状态监控 `Ⓜ`
+  - [stats](https://github.com/exelban/stats): 开源替代方案
 - [Alfred](https://www.alfredapp.com): 类似 spotlight `Ⓜ`
   - [alfy](https://github.com/sindresorhus/alfy): JS 语法编写 Alfred Workflow
   - [dext](https://github.com/DextApp/dext): 类似 Alfred，JS 写的 launcher `⨀`
@@ -1133,6 +1140,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [Vagrant Manager](http://vagrantmanager.com/): Vagrant 管理器。菜单栏工具。
   - [bento](https://github.com/chef/bento): build minimal Vagrant baseboxes
   - [vagrant-scp](https://github.com/invernizzi/vagrant-scp): Vagrant 支持 scp
+- KVM
+  - [kimchi](https://github.com/kimchi-project/kimchi): Kimchi manages KVM guests through libvirt. The management interface is accessed over the web using a browser that supports HTML5.
+  - [WebVirtCloud](https://github.com/retspen/webvirtcloud): virtualization web interface for admins and users
 
 ## 模板引擎
 
