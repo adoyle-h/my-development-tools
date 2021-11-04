@@ -1132,17 +1132,17 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 虚拟化
 
-- [Proxmox VE](https://proxmox.com/en/proxmox-ve): 开源虚拟化方案，基于 KVM，支持 LXC
-- [VirtualBox](https://www.virtualbox.org/)
-- [Vagrant](https://github.com/hashicorp/vagrant)
+- [KVM](https://www.linux-kvm.org/page/Main_Page): 开源免费，最强大的虚拟化工具
+  - [kimchi](https://github.com/kimchi-project/kimchi): Kimchi manages KVM guests through libvirt. The management interface is accessed over the web using a browser that supports HTML5.
+  - [WebVirtCloud](https://github.com/retspen/webvirtcloud): virtualization web interface for admins and users
+- [Proxmox VE](https://proxmox.com/en/proxmox-ve): 开源方案，基于 Debian 开发的 Linux 系统。支持 KVM 和 LXC。
+- [VirtualBox](https://www.virtualbox.org/): 家用、商用方案
+- [Vagrant](https://github.com/hashicorp/vagrant): 家用、商用方案
   - https://app.vagrantup.com/ : vagrant box 仓库
   - [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest): 安装 VirtualBox Guest Additions 以支持宿主机与虚拟机共享目录的双向同步
   - [Vagrant Manager](http://vagrantmanager.com/): Vagrant 管理器。菜单栏工具。
   - [bento](https://github.com/chef/bento): build minimal Vagrant baseboxes
   - [vagrant-scp](https://github.com/invernizzi/vagrant-scp): Vagrant 支持 scp
-- KVM
-  - [kimchi](https://github.com/kimchi-project/kimchi): Kimchi manages KVM guests through libvirt. The management interface is accessed over the web using a browser that supports HTML5.
-  - [WebVirtCloud](https://github.com/retspen/webvirtcloud): virtualization web interface for admins and users
 
 ## 模板引擎
 
