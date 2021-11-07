@@ -61,6 +61,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [Shell Script Development](#shell-script-development)
 - [Cheatsheet](#cheatsheet)
 - [CLI](#cli)
+- [Commands in Docker](#commands-in-docker)
     - [Builtin Commands](#builtin-commands)
     - [Builtin Command Alternatives](#builtin-command-alternatives)
     - [进程](#进程)
@@ -77,13 +78,15 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [网站](#网站)
 - [SSL](#ssl)
 - [Linux 系统](#linux-系统)
+    - [时间](#时间)
     - [文件系统](#文件系统)
     - [监控](#监控)
     - [运维](#运维)
     - [Troubleshooting](#troubleshooting)
-- [数据库](#数据库)
+- [数据库/存储](#数据库存储)
+    - [文件同步/备份](#文件同步备份)
     - [Embeddable DB](#embeddable-db)
-- [数据库设计](#数据库设计)
+    - [数据库设计](#数据库设计)
     - [Database Versioning](#database-versioning)
 - [网络](#网络)
     - [DNS](#dns)
@@ -137,8 +140,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [WebAssembly](#webassembly)
 - [前端开发](#前端开发)
 - [Docker](#docker)
-- [Tools in Docker](#tools-in-docker)
 - [K8S/Kubernetes](#k8skubernetes)
+- [硬件](#硬件)
 - [虚拟化](#虚拟化)
 - [模板引擎](#模板引擎)
 - [Tex/Latex](#texlatex)
@@ -155,7 +158,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Steganography](#steganography)
 - [OCR](#ocr)
 - [Android](#android)
-- [视音频](#视音频)
+- [视频/音频](#视频音频)
     - [音乐](#音乐)
 - [知识图谱](#知识图谱)
 - [互联网关键词趋势](#互联网关键词趋势)
@@ -187,12 +190,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [franc](https://github.com/wooorm/franc): 自然语言语种推测
 - [etcher](https://github.com/resin-io/etcher): 将系统镜像写入外接硬盘的工具
 - [browserless](https://github.com/joelgriffith/browserless): Chrome as a service in docker
-- [Chrony](https://chrony.tuxfamily.org/): NTP 时钟同步程序
 - [UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic): 解锁网易云音乐客户端变灰歌曲
   - [Listen 1](https://github.com/listen1/listen1_chrome_extension)
   - [ieaseMusic](https://github.com/trazyn/ieaseMusic)
-<a name="mpv"></a>
-- [mpv](https://github.com/mpv-player/mpv): 跨平台的媒体播放器，支持命令行
 - https://learnxinyminutes.com : 快速学习各种编程语言的手册
 - [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail): 代码可视化浏览器
 - [Notion](https://www.notion.so/): 笔记工具
@@ -463,7 +463,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## CLI
 
-- [ipcalc](http://jodies.de/ipcalc): 计算/反向计算 IP 网段和掩码。Mac 可用 `brew install ipcalc` 安装。
+- https://command-not-found.com/ : 如果找不到命令，可以快速搜索到对应的安装方式。
+  - [commando](https://github.com/lukaszlach/commando): 封装了各种命令的容器镜像
+- [ipcalc](https://gitlab.com/ipcalc/ipcalc): 计算/反向计算 IP 网段和掩码。Mac 可用 `brew install ipcalc` 安装。Linux 系统安装 `ipcalc-ng`
   - 在线服务 http://jodies.de/ipcalc
 - [hr](https://github.com/LuRsT/hr): 终端分隔符
 - [cloc](https://github.com/AlDanial/cloc): 代码行统计
@@ -485,6 +487,16 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [catimg](https://github.com/posva/catimg): 在终端里打印图片，打印出的都是像素风格的。
 - [sshpass](https://github.com/kevinburke/sshpass): 通过编程方式在 ssh 时输入用户名和密码。不安全，勿用在生产环境。
 - [hhighlighter](https://github.com/paoloantinori/hhighlighter): 用不同颜色高亮多个匹配字符串
+
+## Commands in Docker
+
+- `docker pull pygmy/pgcli` https://hub.docker.com/r/pygmy/pgcli
+- `docker pull adoyle/mycli` https://hub.docker.com/r/adoyle/mycli
+- `docker run -d --name ariang -p 6080:80 leonismoe/ariang` https://hub.docker.com/r/leonismoe/ariang
+- `docker run -ti --rm -v ${HOME}:/root -v $(pwd):/git alpine/git <git_command>` https://hub.docker.com/r/alpine/git
+- https://hub.docker.com/r/jlesage/firefox
+- https://hub.docker.com/_/irssi
+- [commando](https://github.com/lukaszlach/commando): 封装了各种命令的容器镜像
 
 ### Builtin Commands
 
@@ -656,6 +668,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## Linux 系统
 
+### 时间
+
+- [Chrony](https://chrony.tuxfamily.org/): NTP 时钟同步程序
 
 ### 文件系统
 
@@ -680,7 +695,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [sysdig-inspect](https://github.com/draios/sysdig-inspect): A powerful opensource interface for container troubleshooting and security investigation
 - [bcc](https://github.com/iovisor/bcc): Tools for BPF-based Linux IO analysis, networking, monitoring, and more
 
-## 数据库
+## 数据库/存储
 
 - [DataGrip](https://www.jetbrains.com/datagrip): 数据库 GUI  `Ⓜ`
 - [mycli](https://github.com/dbcli/mycli): mysql 命令行客户端
@@ -691,13 +706,21 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [SQLite](https://www.sqlite.org)
 - [vitess](https://github.com/vitessio/vitess): MySQL Sharding Proxy。支持 k8s。Youtube 2011 年就开始跑了。
 - [dolt](https://github.com/dolthub/dolt): 功能类似 Git 的数据库
+- [minio](https://github.com/minio/minio): 对象存储，高性能，K8S-Native
+- [ceph](https://github.com/ceph/ceph): 块存储，对象存储，文件存储
+
+### 文件同步/备份
+
+- [syncthing](https://github.com/syncthing/syncthing): 文件自动同步
+- [Nextcloud](https://github.com/nextcloud/server): 开源网盘方案，平台客户端满足日常需求
+- [restic](https://github.com/restic/restic): 简单易用的备份工具。支持快照，加密
 
 ### Embeddable DB
 
 - [LokiJS](https://github.com/techfort/LokiJS): javascript embeddable / in-memory database
 - [BuntDB](https://github.com/tidwall/buntdb): an embeddable, in-memory key/value database for Go with custom indexing and geospatial support
 
-## 数据库设计
+### 数据库设计
 
 - [sqldbm](https://sqldbm.com/en/Home/): 目前做的最好（没有之一）的 ER 建模工具，目前免费。
 - https://dbdiagram.io/ : 在线 ER 建模工具，通过 [dbml](https://github.com/holistics/dbml) 语法构建 ER 图。支持导出 SQL。
@@ -1019,7 +1042,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - https://ifconfig.me/ : 查询当前出口 IP
 - https://www.uuidgenerator.net/ : uuid 生成器
 - https://sm.ms/ : 免费公益的图床
-- https://send.firefox.com/ : 临时文件分享，火狐出品
+- https://cowtransfer.com/ : 临时文件分享，很好用。国内服务
 - https://extendsclass.com/ : 在线工具集合，有语法校验器，加/解密，格式转换，Diff 工具，各种生成器，前端压缩等工具。
 - https://travis-ci.com/ : CI 服务
 - https://www.clahub.com/ : CLA 签署服务，开源托管。[源码](https://github.com/clahub/clahub)
@@ -1119,16 +1142,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## [Docker](./docker/README.md)
 
-## Tools in Docker
-
-- `docker pull pygmy/pgcli` https://hub.docker.com/r/pygmy/pgcli
-- `docker pull adoyle/mycli` https://hub.docker.com/r/adoyle/mycli
-- `docker run -d --name ariang -p 6080:80 leonismoe/ariang` https://hub.docker.com/r/leonismoe/ariang
-- `docker run -ti --rm -v ${HOME}:/root -v $(pwd):/git alpine/git <git_command>` https://hub.docker.com/r/alpine/git
-- https://hub.docker.com/r/jlesage/firefox
-- https://hub.docker.com/_/irssi
-
 ## [K8S/Kubernetes](./k8s.md)
+
+## [硬件](./hardware.md)
 
 ## 虚拟化
 
@@ -1250,7 +1266,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [awesome-adb](https://github.com/mzlogin/awesome-adb): ADB，即 Android Debug Bridge，它是 Android 开发/测试人员不可替代的强大工具，也是 Android 设备玩家的好玩具。
 
-## 视音频
+## 视频/音频
 
 - [Monosnap](#Monosnap): 支持 GIF 和 MP4 的录屏
   - [kap](https://github.com/wulkano/kap/): 用户体验很好的，开源的录屏工具 `Ⓜ` `⨀`
@@ -1260,6 +1276,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [loopback](https://rogueamoeba.com/loopback/): 类似的备选方案，价格更贵 `Ⓜ`
   - [Audio Hijack](https://rogueamoeba.com/audiohijack/): 专业录音工具。不能创建虚拟设备。 `Ⓜ`
 - [forecast](https://overcast.fm/forecast): MP3 metadata 编辑器。做播客会用到。 `Ⓜ`
+<a name="mpv"></a>
+- [mpv](https://github.com/mpv-player/mpv): 跨平台的媒体播放器，支持命令行
 
 ### 音乐
 
@@ -1409,8 +1427,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Inklet](https://tenonedesign.com/inklet.php): 让 Mac 触摸板变成画图板
 - [node-travisjs](https://github.com/finnp/node-travisjs): Travis CLI 工具
 - [peco](https://github.com/peco/peco): 类似 fzf
-- [restic](https://github.com/restic/restic): 简单易用的备份工具
-- [WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS/tree/master): mac OS版微信小助手 功能: 自动回复、消息防撤回、远程控制、微信多开、会话置底、免认证登录、窗口置顶、会话多选删除、通知快捷回复、表情包复制&导出、小助手更新提醒、Alfred扩展
 
 ### 机器学习
 
