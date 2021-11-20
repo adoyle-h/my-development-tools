@@ -105,7 +105,8 @@
 
 - [nano-id-cc](https://zelark.github.io/nano-id-cc/): 碰撞计算器
 - [shortid](https://github.com/dylang/shortid)
-- [nanoid](https://github.com/ai/nanoid): A tiny, secure, URL-friendly, unique string ID generator
+- [uid](https://github.com/lukeed/uuidid): 性能最高
+  - [nanoid](https://github.com/ai/nanoid): A tiny, secure, URL-friendly, unique string ID generator
 
 ## CLI
 

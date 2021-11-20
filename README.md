@@ -122,7 +122,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Emoji](#emoji)
 - [命名](#命名)
 - [服务 (Service)](#服务-service)
-    - [伪数据](#伪数据)
+- [伪数据](#伪数据)
 - [PaaS](#paas)
 - [Serverless](#serverless)
 - [microVM](#microvm)
@@ -652,12 +652,14 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [chrome 自带网页截屏命令](https://www.zhihu.com/question/20075570/answer/206335744)
 - [pageres](https://github.com/sindresorhus/pageres): 网页截屏
 - [temme](https://github.com/shinima/temme): 利用 CSS 语法，从 HTML 提取出 JSON 数据
-- https://archive.org/ : 永久保存网页内容
-  - https://archive.is/ : 同上
+- https://archive.ph/ : 永久保存网页内容。保存的页面来自用户提交的，不做自动抓取。生成短链接
+  - https://archive.org/ : 永久保存网页内容。保存的页面来自用户提交的和自动抓取的。生成链接很长
+  - https://perma.cc/ : 备用方案
 - [sitemap.js](https://github.com/ekalinin/sitemap.js): 生成 sitemap 的工具
 - [Favicon 生成器](https://realfavicongenerator.net/)
 - [rrweb](https://github.com/rrweb-io/rrweb): 网页浏览录制和回放
   - [Open Replay](https://github.com/openreplay/openreplay)
+- [umami](https://github.com/mikecao/umami): website analytics alternative to Google Analytics.
 
 ## SSL
 
@@ -667,6 +669,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [dehydrated](https://github.com/lukas2511/dehydrated): letsencrypt/acme client implemented as a shell-script – just add water
 
 ## Linux 系统
+
+- [docker-deb-builder](https://github.com/tsaarni/docker-deb-builder): use Docker to build Debian packages
 
 ### 时间
 
@@ -1052,7 +1056,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [docker-nfs-server](https://github.com/ehough/docker-nfs-server): A lightweight, robust, flexible, and containerized NFS server.
 - https://alternativeto.net/ : 搜索软件或服务其他替代方案
 
-### 伪数据
+## 伪数据
 
 - https://jsonplaceholder.typicode.com/
 - http://dummy.restapiexample.com/
