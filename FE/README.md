@@ -231,6 +231,7 @@
 - [jarvis](https://github.com/zouhir/jarvis): 浏览器版 Webpack dashboard
 - [webpack-dashboard](https://github.com/FormidableLabs/webpack-dashboard): CLI 版 Webpack dashboard
 - [progress-bar-webpack-plugin](https://github.com/clessg/progress-bar-webpack-plugin): 显示编译进度
+- [webpack-manifest-plugin](https://github.com/shellscape/webpack-manifest-plugin): webpack plugin for generating asset manifests
 
 ### analyzer
 
@@ -273,6 +274,7 @@
 - [why-did-you-update](https://github.com/garbles/why-did-you-update)
 - [react-media](https://github.com/reacttraining/react-media): 媒体查询工具
 - [react-loadable](https://github.com/jamiebuilds/react-loadable): 动态加载组件的工具
+  - [react-loadable-ssr-addon](https://github.com/themgoncalves/react-loadable-ssr-addon): 用于 SSR 场景下动态加载组件。
 - [react-helmet](https://github.com/nfl/react-helmet): 用于 SPA 中动态改变 HTML 信息
 - [reactopt](https://github.com/reactopt/reactopt): React 性能优化
 - [react-360](https://github.com/facebook/react-360): a framework for the creation of 3D and VR user interfaces. Built on top of React.

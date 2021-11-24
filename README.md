@@ -741,6 +741,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Awesome SDN](https://github.com/sdnds-tw/awesome-sdn): 关于软件定义网络的开源技术
 - [Awesome Home Networking](https://github.com/blanboom/awesome-home-networking-cn): 家庭网络相关知识
 - [sindresorhus/speed-test](https://github.com/sindresorhus/speed-test): 测试网速。基于 speed-test.net 的命令
+- [iperf](https://iperf.fr/): The ultimate speed test tool for TCP, UDP and SCTP
 - Linux 命令: `ping`, `nc`, `mtr`, `netstat`, `nettop`, `iftop`
 - [comcast](https://github.com/tylertreat/comcast): 模拟网络丢包
 - [ZBench](https://github.com/FunctionClub/ZBench): VPS 网络性能测评脚本
@@ -1347,6 +1348,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Clash](https://github.com/Dreamacro/clash): A rule-based tunnel in Go.
   - [ClashX](https://github.com/yichengchen/clashX): Mac 客户端
   - [ClashForAndroid](https://github.com/Kr328/ClashForAndroid): Android 客户端
+  - [clash-dashboard](https://github.com/Dreamacro/clash-dashboard):Clash Web Dashboard
 - QuantumultX: iOS 客户端，很贵，功能强大，界面交互好
   - ShadowRocket: iOS 客户端，便宜，功能还行
 

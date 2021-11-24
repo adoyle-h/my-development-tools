@@ -453,9 +453,11 @@
 ## 依赖管理
 
 - [verdaccio](https://github.com/verdaccio/verdaccio): NPM 私有仓库
-  - [cnpmjs.org](https://github.com/cnpm/cnpmjs.org)
-- [yarn](https://github.com/yarnpkg/yarn): 安装速度确实比 NPM 快很多
-  - [yarn-completion](https://github.com/dsifford/yarn-completion): bash 自动补全
+  - [cnpmjs.org](https://github.com/cnpm/cnpmjs.org): 备用方案
+- 包管理器
+  - [yarn](https://github.com/yarnpkg/yarn)
+    - [yarn-completion](https://github.com/dsifford/yarn-completion): bash 自动补全
+  - [pnpm](https://github.com/pnpm/pnpm)
 - [np](https://github.com/sindresorhus/np): A better `npm publish`
 - [npm-force-resolutions](https://github.com/rogeriochaves/npm-force-resolutions): 让 NPM 支持 [YARN 的 resolutions 机制](https://classic.yarnpkg.com/en/docs/selective-version-resolutions/)
 
