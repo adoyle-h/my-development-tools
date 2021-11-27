@@ -39,6 +39,7 @@
 - [文件](#文件)
     - [模板](#模板)
 - [网络](#网络)
+    - [Proxy](#proxy)
 - [文档](#文档)
 - [时间](#时间)
 - [单位换算](#单位换算)
@@ -329,6 +330,10 @@
 - [address](https://github.com/node-modules/address): 获取本机的网络地址(ipv4/ipv6/mac/dns)
 - [node-netmask](https://github.com/rs/node-netmask): 解析 CIDR
 - [detect-port](https://github.com/node-modules/detect-port): 获取可用端口
+
+### Proxy
+
+- [node-http-proxy](https://github.com/http-party/node-http-proxy): HTTP programmable proxying library that supports websockets.
 
 ## 文档
 

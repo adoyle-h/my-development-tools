@@ -92,7 +92,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [DNS](#dns)
     - [HTTP](#http-1)
     - [Websocket](#websocket)
-    - [抓包工具](#抓包工具)
+    - [抓包、流量分析](#抓包流量分析)
     - [API Gateway](#api-gateway)
     - [Tunnel](#tunnel)
 - [ProtoBuf](#protobuf)
@@ -113,6 +113,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [密码管理](#密码管理)
 - [编码](#编码)
 - [知识管理](#知识管理)
+- [搜索引擎](#搜索引擎)
 - [邮件](#邮件)
 - [翻译](#翻译)
 - [Windows App](#windows-app)
@@ -130,7 +131,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [REPL](#repl)
 - [正则表达式 (Regex)](#正则表达式-regex)
 - [数据](#数据)
-- [数据可视化](#数据可视化)
+    - [可视化分析](#可视化分析)
     - [日志](#日志)
 - [交互式 Notebook](#交互式-notebook)
 - [Python](#python)
@@ -202,6 +203,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Ventoy](https://github.com/ventoy/Ventoy): 制作系统启动 U 盘的开源工具
   - [rufus](https://github.com/pbatard/rufus): 备选方案
   - [etcher](https://github.com/balena-io/etcher): 备选方案
+- [insect](https://github.com/sharkdp/insect): 很不错的计算器，单位换算很方便。提供网页在线服务，也提供终端程序。开源。跨平台。
 
 ## Authorization
 
@@ -473,6 +475,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
 - [pv](http://www.ivarch.com/programs/pv.shtml): 显示 linux 管道数据传输速度
 - [gotty](https://github.com/yudai/gotty): 将终端程序映射成 Web 服务
+  - [shell2http](https://github.com/msoap/shell2http): HTTP-server to execute shell commands. Designed for development, prototyping or remote control.
 - [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
 - [fkill-cli](https://github.com/sindresorhus/fkill-cli): 灵活的删进程命令，例如 `fkill 1337 safari :8080`，如果不加参数，则是交互式命令。
 - [taskbook](https://github.com/klaussinani/taskbook): 命令行 Todo List Manager
@@ -663,10 +666,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## SSL
 
-- [certbot](https://github.com/certbot/certbot): letsencrypt
-- [mkcert](https://github.com/FiloSottile/mkcert): 零配置快速制作证书
-- [acme.sh](https://github.com/Neilpang/acme.sh): acme.sh 实现了 acme 协议, 可以从 letsencrypt 生成免费的证书
-  - [dehydrated](https://github.com/lukas2511/dehydrated): letsencrypt/acme client implemented as a shell-script – just add water
+- [certbot](https://github.com/certbot/certbot): letsencrypt 官方证书生成工具
+- [acme.sh](https://github.com/Neilpang/acme.sh): 证书生成工具, 支持 ZeroSSL.com、Letsencrypt.org、BuyPass.com、SSL.com、Pebble strict Mode，以及其他遵循 RFC8555 的 CA。支持模式 Webroot，Standalone，Standalone tls-alp，Apach，Nginx，DNS，DNS alias，Stateless。
+  - [dehydrated](https://github.com/lukas2511/dehydrated): 备选方案
+- [mkcert](https://github.com/FiloSottile/mkcert): 零配置生成自签名证书
 
 ## Linux 系统
 
@@ -716,7 +719,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ### 文件同步/备份
 
 - [syncthing](https://github.com/syncthing/syncthing): 文件自动同步
-- [Nextcloud](https://github.com/nextcloud/server): 开源网盘方案，平台客户端满足日常需求
+- [Nextcloud](https://github.com/nextcloud/server): 开源的网盘方案，客户端支持很多平台。用户体验很好，可与商业产品竞争。支持插件。
 - [restic](https://github.com/restic/restic): 简单易用的备份工具。支持快照，加密
 
 ### Embeddable DB
@@ -766,11 +769,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [websocketd](https://github.com/joewalnes/websocketd/): 基于 stdin/stdout 的 WebSocket 服务器，开箱即用
 
-### 抓包工具
+### 抓包、流量分析
 
 - [wireshark](https://www.wireshark.org/): 功能非常强大，面向专业用户。能够抓 HTTP/TCP/UDP 包。条件查询功能很丰富。
 - [mitmproxy](https://mitmproxy.org/): 命令行版抓包工具。4 种模式，3 种命令行 mitmproxy/mitmdump/mitmweb。mitmweb 提供 web 服务端。
 - [whistle](https://github.com/avwo/whistle): 用 NodeJS 实现的跨平台 HTTP, HTTPS, WebSocket 调试工具
+- [nethogs](https://github.com/raboof/nethogs): 按进程实时统计网络流量
 
 ### API Gateway
 
@@ -924,6 +928,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [MacPass](https://github.com/mstarke/MacPass): [KeePass][] 的 Mac GUI 客户端 `Ⓜ`
 - [Keepass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android&hl=zh_CN): [KeePass][] 的安卓客户端
   - [Keepass2Android 离线版](https://play.google.com/store/apps/details?id=keepass2android.keepass2android_nonet)
+- [Bitwarden](https://github.com/bitwarden/server): 类似商业密码管理器的开源方案
 
 ## 编码
 
@@ -933,6 +938,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [iThoughtsX](https://www.toketaware.com): 思维导图 `Ⓜ`
   - [Thoughts-Search](https://github.com/adoyle-h/iThoughts-Search): iThoughtsX 命令行搜索工具 `⨀`
+
+## 搜索引擎
+
+- [MeiliSearch](https://github.com/meilisearch/MeiliSearch): 用于搜索。Rust 实现
+- [ElasticSearch](https://github.com/elastic/elasticsearch): 用于复杂查询和分析。Java 实现
+- [Algolia](https://www.algolia.com/): 商业搜索引擎
 
 ## 邮件
 
@@ -991,6 +1002,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [HazeOver](https://hazeover.com): 通过虚化所有的背景窗口，自动突出显示前方的应用窗口
 - [AppCleaner](https://freemacsoft.net/appcleaner): 删除 Mac App 用
 - [Gas Mask](https://github.com/2ndalpha/gasmask): hosts 管理器
+  - [SwitchHosts](https://github.com/oldj/SwitchHosts): 备选方案
 - Amphetamine: 控制 Mac 系统不休眠，可定时 `Ⓜ`
 - [Xee](https://xee.c3.cx): 图片浏览器
 - [Vox](https://vox.rocks/mac-music-player): 音乐播放器
@@ -998,8 +1010,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [HyperDock](https://bahoom.com/hyperdock): Mac Dock 栏增强
 - [Tuxera NTFS](https://www.tuxera.com/products/tuxera-ntfs-for-mac): 让 Mac 支持 NTFS 文件系统
 - [DaisyDisk](https://daisydiskapp.com/): 硬盘数据占用空间可视化分析。非常好用！ `Ⓜ`
-- [numi](https://numi.io/): 设计优美，操作人性化的计算器 `Ⓜ`
-  - 支持 [Alfred 插件](http://numi.io/docs/#alfred)
 - [CmdTap](http://www.yingdev.com/projects/cmdtap): 任务切换器增强 `Ⓜ`
   - [Contexts](https://contexts.co/): 这个看起来更好用，但是更贵  `Ⓜ`
 - [Pixave](http://www.littlehj.com/mac/): 素材管理器
@@ -1112,9 +1122,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China): 中国省、地、县、乡、村级数据。
 
-## 数据可视化
+### 可视化分析
 
 - [Grafana](https://grafana.com/grafana)
+- [kibana](https://github.com/elastic/kibana)
 
 ### 日志
 
@@ -1326,6 +1337,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - https://lab.lyric.im/wxformat/ : Markdown 转微信公众号排版的工具
   - [源码](https://github.com/lyricat/wechat-format)
+- [Wechatsync](https://github.com/wechatsync/Wechatsync): 一键多平台同步发布文章。支持微信公众号、知乎、微博、今日头条、BiliBili、WordPress、简书、掘金、typecho 等平台
+
 
 ## 中国特色
 
