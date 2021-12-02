@@ -7,7 +7,9 @@
 
 <!-- MarkdownTOC GFM -->
 
-- [容器](#容器)
+- [For MacOS](#for-macos)
+- [CLI](#cli)
+    - [OCI](#oci)
 - [镜像制作](#镜像制作)
 - [镜像管理](#镜像管理)
 - [监控](#监控)
@@ -18,12 +20,26 @@
 
 <!-- /MarkdownTOC -->
 
-## 容器
+## For MacOS
 
-- [runc](https://github.com/opencontainers/runc): 符合 OCI 规范的容器管理的命令行工具
-- [libpod (Podman)](https://github.com/containers/libpod): 替代 docker daemon。参考自 k8s pod 概念，独立实现的工具。
+- [lima](https://github.com/lima-vm/lima)
+
+## CLI
+
+- [Podman](https://github.com/containers/podman): 兼容 docker CLI。无 daemon 的容器管理工具，命令式启动容器。
   - https://developers.redhat.com/blog/2019/01/15/podman-managing-containers-pods/
-  - 没有 daemon 的容器管理，需要配合 systemd 使用，看这个[介绍](https://igene.tw/podman-intro)
+  - [介绍](https://igene.tw/podman-intro)
+- [Nerdctl](https://github.com/containerd/nerdctl): 兼容 docker CLI。containerd 的上层封装。
+  - [containerd](https://github.com/containerd/containerd): 替代 docker daemon。K8S 和 Docker 的容器运行时依赖组件。
+- [crictl](https://github.com/kubernetes-sigs/cri-tools): 不兼容 docker CLI
+- [ctr](https://github.com/containerd/containerd/tree/main/cmd/ctr): 不兼容 docker CLI
+
+### OCI
+
+- [runc](https://github.com/opencontainers/runc): 业界最通用的 OCI 实现。Go 语言
+- [gVisor](https://github.com/google/gvisor): 隔离宿主机的内核，更安全
+- [crun](https://github.com/containers/crun) 用 C 语言实现的 OCI
+- [youki](https://github.com/containers/youki) 用 Rust 语言实现的 OCI
 
 ## 镜像制作
 
