@@ -71,8 +71,9 @@
 
 - [nrm](https://github.com/Pana/nrm): NPM Registry Manager
 - [nvm](https://github.com/creationix/nvm): Node Version Manager
-- [nvs](https://github.com/jasongin/nvs): 与 nvm 类似。只是因为 nvm 对 windows 的支持跟 linux 不一样。用 nvs 命令调用统一。
-- [get-node](https://github.com/ehmicky/get-node): 下载指定版本的 node。类库。兼容 Linux/Mac/Windows，支持代理
+  - [n](https://github.com/tj/n): 备用方案
+- [nvs](https://github.com/jasongin/nvs): 类似 nvm。Windows 平台使用这个。
+- [get-node](https://github.com/ehmicky/get-node): 这是一个类库。功能是下载指定版本的 node。兼容 Linux/Mac/Windows，支持代理
 
 ## Misc
 
