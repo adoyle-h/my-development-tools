@@ -78,6 +78,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [网站](#网站)
 - [SSL](#ssl)
 - [Linux 系统](#linux-系统)
+    - [init](#init)
     - [时间](#时间)
     - [文件系统](#文件系统)
     - [监控](#监控)
@@ -675,6 +676,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [docker-deb-builder](https://github.com/tsaarni/docker-deb-builder): use Docker to build Debian packages
 
+### init
+
+- [runit](http://smarden.org/runit/)
+
 ### 时间
 
 - [Chrony](https://chrony.tuxfamily.org/): NTP 时钟同步程序
@@ -786,6 +791,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [awesome-tunneling](https://github.com/anderspitman/awesome-tunneling)
 - [WireGuard](https://www.wireguard.com/): VPN 软件。该项目已合并到了 Linux 内核 (5.6 版本起)。
 - [frp](https://github.com/fatedier/frp): 内网穿透
+  - [nps](https://github.com/ehang-io/nps): 备选方案
 - [ZeroTier](https://github.com/zerotier/ZeroTierOne): 类似 VPN，不过更灵活。构建点对点通信网络。开源的，也有托管服务。支持多平台 Windows、Mac、Linux、IOS、Android、NAS。
 - [Clash](https://github.com/Dreamacro/clash): A rule-based tunnel in Go.
 - [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理
