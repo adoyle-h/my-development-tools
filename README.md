@@ -90,6 +90,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [数据库设计](#数据库设计)
     - [Database Versioning](#database-versioning)
 - [网络](#网络)
+    - [防火墙](#防火墙)
     - [DNS](#dns)
     - [HTTP](#http-1)
     - [Websocket](#websocket)
@@ -108,7 +109,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [测试](#测试)
     - [字符串测试](#字符串测试)
     - [HTTP Benchmark](#http-benchmark)
-    - [Benchmark](#benchmark)
+    - [基准测试 (Benchmark Test)](#基准测试-benchmark-test)
+    - [压测 (Stress Test)](#压测-stress-test)
 - [密码相关](#密码相关)
     - [加密/解密](#加密解密)
     - [密码管理](#密码管理)
@@ -205,6 +207,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [rufus](https://github.com/pbatard/rufus): 备选方案
   - [etcher](https://github.com/balena-io/etcher): 备选方案
 - [insect](https://github.com/sharkdp/insect): 很不错的计算器，单位换算很方便。提供网页在线服务，也提供终端程序。开源。跨平台。
+- [asdf](https://github.com/asdf-vm/asdf): 通用的程序版本管理工具。类似 gvm、nvm、rbenv，不过每种语言管理器作为 asdf plugin 使用。
 
 ## Authorization
 
@@ -253,6 +256,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## Github
 
+- https://ghproxy.com/ : GitHub 文件, Releases, archive, gist, raw.githubusercontent.com 文件代理加速下载服务
+  - 就是个重定向，实际用的是 cnpm 提供的服务 https://github.com.cnpmjs.org/
+  - 备用方案 https://fastgit.org/
 - [actions-toolkit](https://github.com/JasonEtco/actions-toolkit): A toolkit for building GitHub Actions in Node.js
 - [Astral](https://app.astralapp.com): Github Star 管理器。`ⱳ`
 - [all-contributors](https://github.com/all-contributors/all-contributors): 用 `.all-contributorsrc` 文件记录项目维护者列表。
@@ -724,6 +730,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ### 文件同步/备份
 
 - [syncthing](https://github.com/syncthing/syncthing): 文件自动同步
+- [Dropbox](https://dropbox.com/)
+  - [Maestral](https://maestral.app/): 开源的 Dropbox 客户端。有 CLI 工具，支持 Linux。
 - [Nextcloud](https://github.com/nextcloud/server): 开源的网盘方案，客户端支持很多平台。用户体验很好，可与商业产品竞争。支持插件。
 - [restic](https://github.com/restic/restic): 简单易用的备份工具。支持快照，加密
 
@@ -754,6 +762,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [comcast](https://github.com/tylertreat/comcast): 模拟网络丢包
 - [ZBench](https://github.com/FunctionClub/ZBench): VPS 网络性能测评脚本
 - [Open vSwitch](https://github.com/openvswitch/ovs): 虚拟化交换机
+
+### 防火墙
+
+- [OpenSnitch](https://github.com/evilsocket/opensnitch): Linux 应用防火墙
 
 ### DNS
 
@@ -913,9 +925,16 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [wrk](https://github.com/wg/wrk): 不容易阅读
 - [loadtest](https://github.com/alexfernandez/loadtest)
 
-### Benchmark
+### 基准测试 (Benchmark Test)
 
-- [hyperfine](https://github.com/sharkdp/hyperfine): 命令 Benchmark
+- [bench-scripts](https://github.com/haydenjames/bench-scripts)
+- [hyperfine](https://github.com/sharkdp/hyperfine): 对某个命令进行 Benchmark
+- [sysbench](https://github.com/akopytov/sysbench): 对数据库和操作系统的 benchmark。支持 lua 脚本
+
+### 压测 (Stress Test)
+
+- [stress-ng](https://github.com/ColinIanKing/stress-ng): 对操作系统的压力测试
+  - [stress](https://fossies.org/linux/privat/old/stress-1.0.4.tar.gz/stress-1.0.4/doc/stress.html)
 
 ## 密码相关
 
