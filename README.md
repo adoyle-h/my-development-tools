@@ -676,7 +676,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [certbot](https://github.com/certbot/certbot): letsencrypt 官方证书生成工具
 - [acme.sh](https://github.com/Neilpang/acme.sh): 证书生成工具, 支持 ZeroSSL.com、Letsencrypt.org、BuyPass.com、SSL.com、Pebble strict Mode，以及其他遵循 RFC8555 的 CA。支持模式 Webroot，Standalone，Standalone tls-alp，Apach，Nginx，DNS，DNS alias，Stateless。
   - [dehydrated](https://github.com/lukas2511/dehydrated): 备选方案
-- [mkcert](https://github.com/FiloSottile/mkcert): 零配置生成自签名证书
+- [mkcert](https://github.com/FiloSottile/mkcert): 零配置生成自签名证书。默认有效时间 825 天。
+- [Fishdrowned/ssl](https://github.com/Fishdrowned/ssl): 零配置生成自签名证书。比 mkcert 提供更丰富的配置选项。
 
 ## Linux 系统
 
@@ -757,7 +758,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Awesome SDN](https://github.com/sdnds-tw/awesome-sdn): 关于软件定义网络的开源技术
 - [Awesome Home Networking](https://github.com/blanboom/awesome-home-networking-cn): 家庭网络相关知识
 - [sindresorhus/speed-test](https://github.com/sindresorhus/speed-test): 测试网速。基于 speed-test.net 的命令
-- [iperf](https://iperf.fr/): The ultimate speed test tool for TCP, UDP and SCTP
+- [iPerf3](https://iperf.fr/): 点对点测速。支持 TCP, UDP, SCTP with IPv4 and IPv6
 - Linux 命令: `ping`, `nc`, `mtr`, `netstat`, `nettop`, `iftop`
 - [comcast](https://github.com/tylertreat/comcast): 模拟网络丢包
 - [ZBench](https://github.com/FunctionClub/ZBench): VPS 网络性能测评脚本
