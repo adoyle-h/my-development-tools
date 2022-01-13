@@ -84,8 +84,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [监控](#监控)
     - [运维](#运维)
     - [Troubleshooting](#troubleshooting)
+- [文件同步/备份/快照](#文件同步备份快照)
+- [ISO 镜像制作与刻录](#iso-镜像制作与刻录)
 - [数据库/存储](#数据库存储)
-    - [文件同步/备份](#文件同步备份)
     - [Embeddable DB](#embeddable-db)
     - [数据库设计](#数据库设计)
     - [Database Versioning](#database-versioning)
@@ -203,11 +204,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - https://timelinetool.app/notion/event : 统计公开链接的 PV 的 embed 插件
 - [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved): 强大的哔哩哔哩油猴脚本
 - [smartmontools](https://www.smartmontools.org/): 硬盘 S.M.A.R.T. 检测命令行工具。smartctl and smartd to control and monitor storage systems using the SMART built into most modern ATA/SATA, SCSI/SAS and NVMe disks.
-- [Ventoy](https://github.com/ventoy/Ventoy): 制作系统启动 U 盘的开源工具
-  - [rufus](https://github.com/pbatard/rufus): 备选方案
-  - [etcher](https://github.com/balena-io/etcher): 备选方案
 - [insect](https://github.com/sharkdp/insect): 很不错的计算器，单位换算很方便。提供网页在线服务，也提供终端程序。开源。跨平台。
 - [asdf](https://github.com/asdf-vm/asdf): 通用的程序版本管理工具。类似 gvm、nvm、rbenv，不过每种语言管理器作为 asdf plugin 使用。
+
 
 ## Authorization
 
@@ -714,6 +713,25 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [sysdig-inspect](https://github.com/draios/sysdig-inspect): A powerful opensource interface for container troubleshooting and security investigation
 - [bcc](https://github.com/iovisor/bcc): Tools for BPF-based Linux IO analysis, networking, monitoring, and more
 
+## 文件同步/备份/快照
+
+- [syncthing](https://github.com/syncthing/syncthing): 文件自动同步
+- [Dropbox](https://dropbox.com/)
+  - [Maestral](https://maestral.app/): 开源的 Dropbox 客户端。有 CLI 工具，支持 Linux。
+- [Nextcloud](https://github.com/nextcloud/server): 开源的网盘方案，客户端支持很多平台。用户体验很好，可与商业产品竞争。支持插件。
+- [restic](https://github.com/restic/restic): 简单易用的备份工具。支持快照，加密
+- [timeshift](https://github.com/teejee2008/timeshift): 基于 rsync + hard link。支持快照、增量备份、BTRFS、自定义路径（默认屏蔽用户目录）。
+  - [backintime](https://github.com/bit-team/backintime): 备选方案
+- [Clonezilla](https://clonezilla.org/): 镜像和备份程序，不支持快照。
+
+## ISO 镜像制作与刻录
+
+- mkisofs: 制作 ISO 镜像。Linux 命令
+- 制作启动 U 盘
+  - [Ventoy](https://github.com/ventoy/Ventoy): 支持多个不同类型的镜像共存。只支持在 Windows/Linux/虚拟机 制作。
+  - [rufus](https://github.com/pbatard/rufus): 操作简单，可配置。只支持在 Windows 制作。
+  - [etcher](https://github.com/balena-io/etcher): 一键操作，不可配置。支持在 Windows/Linux/MacOS 制作。
+
 ## 数据库/存储
 
 - [DataGrip](https://www.jetbrains.com/datagrip): 数据库 GUI  `Ⓜ`
@@ -727,14 +745,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [dolt](https://github.com/dolthub/dolt): 功能类似 Git 的数据库
 - [minio](https://github.com/minio/minio): 对象存储，高性能，K8S-Native
 - [ceph](https://github.com/ceph/ceph): 块存储，对象存储，文件存储
-
-### 文件同步/备份
-
-- [syncthing](https://github.com/syncthing/syncthing): 文件自动同步
-- [Dropbox](https://dropbox.com/)
-  - [Maestral](https://maestral.app/): 开源的 Dropbox 客户端。有 CLI 工具，支持 Linux。
-- [Nextcloud](https://github.com/nextcloud/server): 开源的网盘方案，客户端支持很多平台。用户体验很好，可与商业产品竞争。支持插件。
-- [restic](https://github.com/restic/restic): 简单易用的备份工具。支持快照，加密
 
 ### Embeddable DB
 
