@@ -9,7 +9,7 @@
 
 ## 版权声明 (Copyright and License)
 
-Copyright 2016-2021 ADoyle (adoyle.h@gmail.com). The project is licensed under the **BSD 3-clause License**.
+Copyright 2016-2022 ADoyle (adoyle.h@gmail.com). The project is licensed under the **BSD 3-clause License**.
 
 See the [LICENSE][] file for the specific language governing permissions and limitations under the License.
 
@@ -325,7 +325,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## 安全
 
 - [Kali Linux](https://www.kali.org/)
-  - [Kali Docker Image](https://hub.docker.com/r/kalilinux/kali-linux-docker): [参考资料](https://www.drchaos.com/home/running-kali-linux-on-docker)
+  - [Kali Docker Image](https://hub.docker.com/r/kalilinux/kali-linux-docker): [参考资料](https://archive.ph/zh0wk)
 - [Snyk](https://snyk.io/): 开源风险收集检测服务。提供 API 和 CLI 做检查。
 - [Scanners-Box](https://github.com/We5ter/Scanners-Box): 安全行业从业者自研开源扫描器合辑
 - [falco](https://github.com/falcosecurity/falco): 「待评价」intrusion and abnormality detection for Cloud Native platforms such as Kubernetes, Mesosphere, and Cloud Foundry. Detect abnormal application behavior.
@@ -545,6 +545,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [tree](http://mama.indstate.edu/users/ice/tree): Mac 没有 tree 命令
 - [pstree](http://www.thp.uni-duisburg.de/pstree/): tree 结构展示 ps 命令
 - [ncdu](https://dev.yorhel.nl/ncdu): better du。递归扫描整个文件夹空间占用，交互式。
+- [du](https://github.com/nachoparker/dutree): du 的树形结构展示版本
 - [fd](https://github.com/sharkdp/fd/): better find
 - [trash](https://github.com/sindresorhus/trash): better rm，不直接删除文件而是移到回收站。建议 `alias rm='trash'`
 - [ripgrep](https://github.com/BurntSushi/ripgrep): 模糊搜索文件内容，better grep。据说是最快的，搜索大量内容时，确实明显比 ag 快
@@ -692,7 +693,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ### 文件系统
 
-- [Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html): 文件系统目录层级标准。[中文翻译参考](https://blog.csdn.net/sunqian666888/article/details/84571397)
+- [Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html): 文件系统目录层级标准。[中文翻译参考](https://archive.ph/EcAvr)
 
 ### 监控
 
@@ -719,10 +720,21 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Dropbox](https://dropbox.com/)
   - [Maestral](https://maestral.app/): 开源的 Dropbox 客户端。有 CLI 工具，支持 Linux。
 - [Nextcloud](https://github.com/nextcloud/server): 开源的网盘方案，客户端支持很多平台。用户体验很好，可与商业产品竞争。支持插件。
-- [restic](https://github.com/restic/restic): 简单易用的备份工具。支持快照，加密
-- [timeshift](https://github.com/teejee2008/timeshift): 基于 rsync + hard link。支持快照、增量备份、BTRFS、自定义路径（默认屏蔽用户目录）。
+- tar
+  - 参考文章: https://archive.ph/7R49W
+- rsync
+- [rclone](https://github.com/rclone/rclone): rsync for cloud storage. To sync files and directories to and from different cloud storage providers.
+- [restic](https://github.com/restic/restic): 简单易用的备份工具。支持快照，加密。可与 rclone 搭配。不支持软链接，restore 会[报错](https://github.com/restic/restic/issues/2578)。
+- [timeshift](https://github.com/teejee2008/timeshift): 备选方案。基于 rsync + hard link。支持快照、增量备份、BTRFS、自定义路径（默认屏蔽用户目录）。**不支持云存储**
+- [bupstash](https://github.com/andrewchambers/bupstash): 据说性能很高
+- [borg](https://github.com/borgbackup/borg): 备选方案
+- [duplicity](https://gitlab.com/duplicity/duplicity): 支持增量备份，软链接。不支持硬链接。
+  - [duply](): duplicity 的前端程序
+- [Clonezilla](https://clonezilla.org/): 镜像和备份程序，不支持快照。使用命令行备份貌似难度很高。还原到不同大小分区也可能出问题。
+- 其他备份工具
   - [backintime](https://github.com/bit-team/backintime): 备选方案
-- [Clonezilla](https://clonezilla.org/): 镜像和备份程序，不支持快照。
+ - https://github.com/restic/others
+
 
 ## ISO 镜像制作与刻录
 
@@ -921,6 +933,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - ASCII Art 样例库
   - http://www.ascii-fr.com/
   - https://asciiart.website/
+- [FIGlet](http://www.figlet.org/): ASCII Art 字体程序
+  - [figlet-fonts](https://github.com/xero/figlet-fonts)
+  - [figlet.js](https://github.com/patorjk/figlet.js)
+  - [ascii-art](https://github.com/khrome/ascii-art): A Node.js library for ansi codes, figlet fonts, ascii art and other ASCII graphics
+- http://patorjk.com/software/taag/ 网页版
 
 ## 测试
 
@@ -1060,6 +1077,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://dynamicwallpaper.club/ : 创建动态壁纸
 - [Lepton](https://github.com/hackjutsu/Lepton): Gist 管理应用
 - [keycastr](https://github.com/keycastr/keycastr): 键盘按下哪个键展示在屏幕上
+- [Carbon Copy Cloner](https://bombich.com): 吊打 Time Machine 的备份软件
 
 ## [字体](./design/README.md#字体)
 

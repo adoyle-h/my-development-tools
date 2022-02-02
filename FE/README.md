@@ -482,7 +482,7 @@
 - [Chromatic](https://github.com/meteor/chromatic/): for Meteor + React
 - [Vue Play](https://github.com/vue-play/vue-play): for Vue
 
-> 参考自 https://blog.hichroma.com/the-crucial-tool-for-modern-frontend-engineers-fb849b06187a
+> 参考自 https://archive.ph/LDHnV
 
 -----
 

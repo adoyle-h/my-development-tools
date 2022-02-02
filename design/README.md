@@ -298,7 +298,7 @@
 ### 图形
 
 - [Looper](https://github.com/sureskumar/Looper): 根据算法生成各种图形。非常漂亮
-  - [其他参考教程](https://www.toptal.com/designers/sketch/amazing-illustrations-with-sketch-and-looper)
+  - [其他参考教程](https://archive.ph/wNnsa)
 
 ### Icon
 
