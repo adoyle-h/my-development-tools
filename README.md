@@ -77,7 +77,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [HTTP](#http)
 - [网站](#网站)
 - [SSL](#ssl)
+- [BSD 系统](#bsd-系统)
 - [Linux 系统](#linux-系统)
+    - [Linux 发行版](#linux-发行版)
+    - [桌面系统](#桌面系统)
+    - [窗口管理器](#窗口管理器)
     - [init](#init)
     - [时间](#时间)
     - [文件系统](#文件系统)
@@ -85,6 +89,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [运维](#运维)
     - [Troubleshooting](#troubleshooting)
 - [文件同步/备份/快照](#文件同步备份快照)
+    - [云盘](#云盘)
 - [ISO 镜像制作与刻录](#iso-镜像制作与刻录)
 - [数据库/存储](#数据库存储)
     - [Embeddable DB](#embeddable-db)
@@ -127,6 +132,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Emoji](#emoji)
 - [命名](#命名)
 - [服务 (Service)](#服务-service)
+- [爬虫代理池](#爬虫代理池)
 - [伪数据](#伪数据)
 - [PaaS](#paas)
 - [Serverless](#serverless)
@@ -134,9 +140,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [跳板机/堡垒机](#跳板机堡垒机)
 - [REPL](#repl)
 - [正则表达式 (Regex)](#正则表达式-regex)
-- [数据](#数据)
-    - [可视化分析](#可视化分析)
-    - [日志](#日志)
+- [数据可视化](#数据可视化)
+    - [地图](#地图)
+- [日志](#日志)
 - [交互式 Notebook](#交互式-notebook)
 - [Python](#python)
 - [Golang](#golang)
@@ -148,10 +154,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [K8S/Kubernetes](#k8skubernetes)
 - [硬件](#硬件)
 - [虚拟化](#虚拟化)
+    - [libvirt/KVM](#libvirtkvm)
 - [模板引擎](#模板引擎)
 - [Tex/Latex](#texlatex)
 - [Slide/Presentation](#slidepresentation)
 - [文档](#文档)
+    - [文档系统](#文档系统)
     - [文档处理](#文档处理)
     - [Markdown](#markdown)
     - [Changelog](#changelog)
@@ -200,17 +208,20 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [ieaseMusic](https://github.com/trazyn/ieaseMusic)
 - https://learnxinyminutes.com : 快速学习各种编程语言的手册
 - [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail): 代码可视化浏览器
-- [Notion](https://www.notion.so/): 笔记工具
-  - https://timelinetool.app/notion/event : 统计公开链接的 PV 的 embed 插件
 - [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved): 强大的哔哩哔哩油猴脚本
 - [smartmontools](https://www.smartmontools.org/): 硬盘 S.M.A.R.T. 检测命令行工具。smartctl and smartd to control and monitor storage systems using the SMART built into most modern ATA/SATA, SCSI/SAS and NVMe disks.
 - [insect](https://github.com/sharkdp/insect): 很不错的计算器，单位换算很方便。提供网页在线服务，也提供终端程序。开源。跨平台。
 - [asdf](https://github.com/asdf-vm/asdf): 通用的程序版本管理工具。类似 gvm、nvm、rbenv，不过每种语言管理器作为 asdf plugin 使用。
+- [7zip](https://www.7-zip.org/): 免费开源的压缩软件。支持多种压缩算法、多种压缩等级、加密、分片。
+- [shlink](https://github.com/shlinkio/shlink): 短链服务。功能挺全。
+  - [YOURLS](https://github.com/YOURLS/YOURLS): 备选方案
 
 
 ## Authorization
 
 - [casbin](https://github.com/casbin/casbin): 一个类库。通过设计 PERM 模型来控制认证策略。支持 ACL, RBAC, ABAC 等策略。支持主流语言。
+- [hydra](https://github.com/ory/hydra): OpenID Connect and OAuth Provider written in Go
+  - [dex](https://github.com/dexidp/dex): 备选方案
 
 ## 开源项目
 
@@ -410,6 +421,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [hubot](https://github.com/github/hubot): 交互机器人
 - [robotjs](https://github.com/octalmage/robotjs): 用 NodeJS 定制 GUI 自动化流程。支持 Windows, Mac, Linux 系统
+  - [nut.js](https://github.com/nut-tree/nut.js): 备选方案
 - https://danger.systems/ : code review 时挺有用的自动化工具
   - [danger-js](https://github.com/danger/danger-js): JS 版本
 
@@ -679,9 +691,43 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [mkcert](https://github.com/FiloSottile/mkcert): 零配置生成自签名证书。默认有效时间 825 天。
 - [Fishdrowned/ssl](https://github.com/Fishdrowned/ssl): 零配置生成自签名证书。比 mkcert 提供更丰富的配置选项。
 
+## BSD 系统
+
+- [FreeBSD](https://www.freebsd.org/)
+- [hackintosh](https://hackintosh.com/)
+
 ## Linux 系统
 
 - [docker-deb-builder](https://github.com/tsaarni/docker-deb-builder): use Docker to build Debian packages
+- [fan2go](https://github.com/markusressel/fan2go): 风扇控制
+- [hcache](https://github.com/silenceshell/hcache): The top tool for page cache
+- [ufw](https://packages.debian.org/stable/admin/ufw): 防火墙
+
+### Linux 发行版
+
+- https://livecdlist.com/ : Linux LiveCD 发行版列表
+- https://distrochooser.de : 帮你选择 Linux 发行版
+- [SystemRescue](https://www.system-rescue.org/): 基于 Arch Linux，预装了一堆 linux 系统工具。用于系统恢复和硬盘处理。是 Live CD，开箱即用。
+- [debian](): 服务器场景推荐
+- [manjaro](https://manjaro.org/): 新手入门
+- [ubuntu](): 新手入门
+- [ubuntu core](): 用于低端硬件配置场景
+- [Clean Linux](): Intel 出品
+- [Arch Linux](): Wiki 文档最全面
+- [Kali Linux](https://www.kali.org/): 专注于安全渗透
+- [Tails](https://tails.boum.org/index.en.html): 专注于安全
+- [Puppy Linux](https://puppylinux.com/)
+- [mint](https://linuxmint.com/)
+
+### 桌面系统
+
+- [xfce](https://xfce.org/)
+- [kde](https://kde.org/)
+- [gnome](https://www.gnome.org/)
+
+### 窗口管理器
+
+- [awesome wm](https://awesomewm.org/)
 
 ### init
 
@@ -702,6 +748,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Prometheus](https://github.com/prometheus/prometheus): Metrics 存储、查询、监控报警，时序数据库。
   - [thanos](https://github.com/improbable-eng/thanos): 让 Prometheus 高可用，以及存储可扩展的组件。
 - [statsd](https://github.com/etsy/statsd): Metrics 数据聚合
+- [pcp](https://github.com/performancecopilot/pcp): Performance Co-Pilot。系统性能监控
 
 ### 运维
 
@@ -717,9 +764,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## 文件同步/备份/快照
 
 - [syncthing](https://github.com/syncthing/syncthing): 文件自动同步
-- [Dropbox](https://dropbox.com/)
-  - [Maestral](https://maestral.app/): 开源的 Dropbox 客户端。有 CLI 工具，支持 Linux。
-- [Nextcloud](https://github.com/nextcloud/server): 开源的网盘方案，客户端支持很多平台。用户体验很好，可与商业产品竞争。支持插件。
 - tar
   - 参考文章: https://archive.ph/7R49W
 - rsync
@@ -735,6 +779,13 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [backintime](https://github.com/bit-team/backintime): 备选方案
  - https://github.com/restic/others
 
+### 云盘
+
+- [阿里云盘](https://www.aliyundrive.com/)
+- [Dropbox](https://dropbox.com/)
+  - [Maestral](https://maestral.app/): 开源的 Dropbox 客户端。有 CLI 工具，支持 Linux。
+- [Nextcloud](https://github.com/nextcloud/server): 开源的网盘方案，客户端支持很多平台。用户体验很好，可与商业产品竞争。支持插件。
+- [Seafile](https://github.com/haiwen/seafile)
 
 ## ISO 镜像制作与刻录
 
@@ -742,7 +793,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - 制作启动 U 盘
   - [Ventoy](https://github.com/ventoy/Ventoy): 支持多个不同类型的镜像共存。只支持在 Windows/Linux/虚拟机 制作。
   - [rufus](https://github.com/pbatard/rufus): 操作简单，可配置。只支持在 Windows 制作。
-  - [etcher](https://github.com/balena-io/etcher): 一键操作，不可配置。支持在 Windows/Linux/MacOS 制作。
+  - [etcher](https://github.com/balena-io/etcher): 一键操作，不可配置。支持在 Windows/MacOS/Linux（不支持命令行）制作。
+  - [bootiso](https://github.com/jsamr/bootiso): 只支持在 Linux 制作，且用于安装 Linux 系统。
 
 ## 数据库/存储
 
@@ -814,6 +866,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [wireshark](https://www.wireshark.org/): 功能非常强大，面向专业用户。能够抓 HTTP/TCP/UDP 包。条件查询功能很丰富。
 - [mitmproxy](https://mitmproxy.org/): 命令行版抓包工具。4 种模式，3 种命令行 mitmproxy/mitmdump/mitmweb。mitmweb 提供 web 服务端。
 - [whistle](https://github.com/avwo/whistle): 用 NodeJS 实现的跨平台 HTTP, HTTPS, WebSocket 调试工具
+  - [lightproxy](https://github.com/alibaba/lightproxy): 备选方案
 - [nethogs](https://github.com/raboof/nethogs): 按进程实时统计网络流量
 
 ### API Gateway
@@ -849,6 +902,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## Git
 
+- [Gitea](https://github.com/go-gitea/gitea): MIT 协议开源的 Git 托管服务。后端采用 Go 编写
 <a name="git-cal"></a>
 - [git-cal](https://github.com/k4rthik/git-cal): 类似 Github 活动图的命令行版
   - [git-stats](https://github.com/IonicaBizau/git-stats): 同 [git-cal][]
@@ -925,6 +979,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - http://processingjs.org/
 - [drawio](https://github.com/jgraph/drawio): 非常优秀的开源在线绘图前端库。各种图都有，支持国际化。
 - https://excalidraw.com/ : 手绘风格的绘图工具。开源，[源码](https://github.com/excalidraw/excalidraw)
+- [MagicaVoxel](https://ephtracy.github.io/): 体素建模工具
 
 ### ASCII Art
 
@@ -1061,7 +1116,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Vox](https://vox.rocks/mac-music-player): 音乐播放器
 - [iina](https://github.com/lhc70000/iina): 视频播放器。基于 [mpv][] 开发 `Ⓜ`
 - [HyperDock](https://bahoom.com/hyperdock): Mac Dock 栏增强
-- [Tuxera NTFS](https://www.tuxera.com/products/tuxera-ntfs-for-mac): 让 Mac 支持 NTFS 文件系统
+- [mounty](https://mounty.app/): 让 Mac 支持 NTFS 文件系统
+  - [Tuxera NTFS](https://ntfsformac.tuxera.com/): 备选方案。商业的
 - [DaisyDisk](https://daisydiskapp.com/): 硬盘数据占用空间可视化分析。非常好用！ `Ⓜ`
 - [CmdTap](http://www.yingdev.com/projects/cmdtap): 任务切换器增强 `Ⓜ`
   - [Contexts](https://contexts.co/): 这个看起来更好用，但是更贵  `Ⓜ`
@@ -1120,6 +1176,13 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [mattermost](https://github.com/mattermost/mattermost-server): slack 的开源替代品。即时聊天。
 - [docker-nfs-server](https://github.com/ehough/docker-nfs-server): A lightweight, robust, flexible, and containerized NFS server.
 - https://alternativeto.net/ : 搜索软件或服务其他替代方案
+- https://snapdrop.net/ : 通过网页在局域网内端到端传输文件
+  - [开源项目](https://github.com/RobinLinus/snapdrop)，可自己用 Docker 部署服务。
+
+## 爬虫代理池
+
+- [proxy_pool](https://github.com/jhao104/proxy_pool)
+- https://proxy.mimvp.com/
 
 ## 伪数据
 
@@ -1172,16 +1235,18 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Learn regex the easy way](https://github.com/ziishaned/learn-regex)
 - [grex](https://github.com/pemistahl/grex): 根据给出的文本，自动给出合适的正则表达式
 
-## 数据
+## 数据可视化
 
 - [Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China): 中国省、地、县、乡、村级数据。
-
-### 可视化分析
-
 - [Grafana](https://grafana.com/grafana)
 - [kibana](https://github.com/elastic/kibana)
 
-### 日志
+### 地图
+
+- [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/guides/): 地图可视化
+- [derive](https://github.com/erik/derive): 足迹热力图
+
+## 日志
 
 - [goaccess](https://github.com/allinurl/goaccess): GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.
 
@@ -1218,9 +1283,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 虚拟化
 
-- [KVM](https://www.linux-kvm.org/page/Main_Page): 开源免费，最强大的虚拟化工具
-  - [kimchi](https://github.com/kimchi-project/kimchi): Kimchi manages KVM guests through libvirt. The management interface is accessed over the web using a browser that supports HTML5.
-  - [WebVirtCloud](https://github.com/retspen/webvirtcloud): virtualization web interface for admins and users
 - [Proxmox VE](https://proxmox.com/en/proxmox-ve): 开源方案，基于 Debian 开发的 Linux 系统。支持 KVM 和 LXC。
 - [VirtualBox](https://www.virtualbox.org/): 家用、商用方案
 - [Vagrant](https://github.com/hashicorp/vagrant): 家用、商用方案
@@ -1229,6 +1291,13 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [Vagrant Manager](http://vagrantmanager.com/): Vagrant 管理器。菜单栏工具。
   - [bento](https://github.com/chef/bento): build minimal Vagrant baseboxes
   - [vagrant-scp](https://github.com/invernizzi/vagrant-scp): Vagrant 支持 scp
+
+### libvirt/KVM
+
+- [KVM](https://www.linux-kvm.org/page/Main_Page): 开源免费，最强大的虚拟化工具
+- [kimchi](https://github.com/kimchi-project/kimchi): Kimchi manages KVM guests through libvirt. The management interface is accessed over the web using a browser that supports HTML5.
+- [WebVirtCloud](https://github.com/retspen/webvirtcloud): virtualization web interface for admins and users
+- [barrier](https://github.com/debauchee/barrier): KVM switch
 
 ## 模板引擎
 
@@ -1267,7 +1336,14 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [zealdocs](https://zealdocs.org/): 查看文档。备选 `Ⓛ`
 - [carbon](https://github.com/dawnlabs/carbon): 代码转成图片
 - [mdx](https://github.com/mdx-js/mdx): Markdown + JSX = MDX。支持模块导入和导出，支持 React 组件。写 Web 文档利器。
+
+### 文档系统
+
+- [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy): 类似 Notion 的笔记系统。基于 Flutter 和 Rust 开发
 - [outline](https://github.com/outline/outline): 类似 Notion 的知识库、WIKI 平台
+- [Notion](https://www.notion.so/): 笔记工具
+  - https://timelinetool.app/notion/event : 统计公开链接的 PV 的 embed 插件
+- [wiki.js](https://github.com/Requarks/wiki): 现代化的 WIKI。AGPL-3.0 License
 
 ### 文档处理
 
@@ -1428,10 +1504,15 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 #### 翻墙规则
 
-- [googlehosts/hosts](https://github.com/googlehosts/hosts)
+- [googlehosts/hosts](https://github.com/googlehosts/hosts): [修改 Hosts 可能无用](https://github.com/googlehosts/hosts/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98#%E8%BF%99%E4%B8%AAhosts%E4%B8%80%E7%82%B9%E7%94%A8%E9%83%BD%E6%B2%A1%E6%9C%89%E5%8D%8A%E5%81%9C%E6%9B%B4%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D)
 - [gfwlist](https://github.com/gfwlist/gfwlist)
 - [lhie1/Rules](https://github.com/lhie1/Rules/tree/master): 支持 Clash、QuantumultX、Quantumult、Shadowrocket、Surge
 - [GenPAC](https://github.com/JinnLynn/genpac): 基于 gfwlist 的 pac, dnsmasq, wingy 配置生成工具，支持自定义规则。
+- [proxypool](https://github.com/zu1k/proxypool): 自动抓取tg频道、订阅地址、公开互联网上的ss、ssr、vmess、trojan节点信息，聚合去重后提供节点列表
+  - https://free886.herokuapp.com/clash
+  - https://proxy.leefake.xyz/clash
+  - http://8.135.91.61/clash
+  - http://118.31.77.3/clash
 
 #### 机场
 

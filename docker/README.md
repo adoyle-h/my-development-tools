@@ -61,6 +61,7 @@
 
 - [clair](https://github.com/coreos/clair): Vulnerability Static Analysis for Containers
 - [dockersh](https://github.com/Yelp/dockersh): 让每个 ssh 用户在对应独立的 docker 容器里操作
+- [imgcrypt](https://github.com/containerd/imgcrypt): containerd 支持镜像加密/解密
 
 ## 日志
 
