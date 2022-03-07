@@ -42,6 +42,8 @@
     - [IDE](#ide)
     - [教程](#教程)
 - [React-Native](#react-native)
+- [排版 Typography](#排版-typography)
+    - [中文排版](#中文排版)
 - [CSS](#css)
     - [教程](#教程-1)
     - [CSS in JS](#css-in-js)
@@ -49,7 +51,6 @@
     - [CSS Module](#css-module)
     - [PostCSS](#postcss)
     - [CSS Schema](#css-schema)
-    - [排版 Typography](#排版-typography)
     - [栅格/网格/Grid](#栅格网格grid)
 - [参数可视化](#参数可视化)
 - [动效](#动效)
@@ -307,6 +308,17 @@
 
 - [reactotron](https://github.com/infinitered/reactotron): 状态检视
 
+## 排版 Typography
+
+- [typography.js](https://github.com/kyleamathews/typography.js): A powerful toolkit for building websites with beautiful design
+- [textblock](https://github.com/glyphic-co/textblock): for adjusting size, leading, and grades to cast continuously responsive typography
+- [FlowType.JS](https://github.com/simplefocus/FlowType.JS): 根据容器宽度自动调整字号
+
+### 中文排版
+
+- [typo.css](https://github.com/sofish/typo.css)
+- [charch](https://github.com/shuding/charch)
+
 ## CSS
 
 - [clean-css](https://github.com/jakubpawlowicz/clean-css)
@@ -345,13 +357,6 @@
 ### CSS Schema
 
 - http://schemastore.org/css/
-
-### 排版 Typography
-
-- [typography.js](https://github.com/kyleamathews/typography.js): A powerful toolkit for building websites with beautiful design
-- [textblock](https://github.com/glyphic-co/textblock): for adjusting size, leading, and grades to cast continuously responsive typography
-- [FlowType.JS](https://github.com/simplefocus/FlowType.JS): 根据容器宽度自动调整字号
-- [typo.css](https://github.com/sofish/typo.css): 中文排版优化
 
 ### 栅格/网格/Grid
 

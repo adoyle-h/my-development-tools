@@ -837,6 +837,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [comcast](https://github.com/tylertreat/comcast): 模拟网络丢包
 - [ZBench](https://github.com/FunctionClub/ZBench): VPS 网络性能测评脚本
 - [Open vSwitch](https://github.com/openvswitch/ovs): 虚拟化交换机
+- [mininet](https://github.com/mininet/mininet): 在一台主机上创建任意的网络拓扑，用于做网络实验。
 
 ### 防火墙
 
@@ -1523,6 +1524,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - 免费机场，后果自负
   - https://github.com/aries15/freess/tree/dev
   - https://github.com/freefq/free
+  - https://github.com/ermaozi/get_subscribe
 
 ### 镜像站点
 

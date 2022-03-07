@@ -79,7 +79,9 @@
   - https://icons8.com/ouch : 丰富的使用场景
   - https://gallery.manypixels.co/ : 丰富的使用场景
 - 可定制的
-  - https://doodleipsum.com/ : 支持定制、随机生成、生成 URL、API 请求
+  - https://doodleipsum.com/ : 卡通插图，支持定制、随机生成、生成 URL、API 请求
+  - https://blush.design/ : 卡通插图，定制生成 PNG、SVG
+  - https://icons8.com/mega-creator : 卡通插图 + 照片
 
 ## 背景图生成器
 
