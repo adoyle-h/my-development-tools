@@ -31,6 +31,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+- [桌面应用开发](#桌面应用开发)
 - [Authorization](#authorization)
 - [开源项目](#开源项目)
 - [Ansible](#ansible)
@@ -131,9 +132,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Design](#design)
 - [Emoji](#emoji)
 - [命名](#命名)
+- [团队协作](#团队协作)
 - [服务 (Service)](#服务-service)
 - [爬虫代理池](#爬虫代理池)
 - [伪数据](#伪数据)
+- [静态文件托管](#静态文件托管)
+- [CMS](#cms)
 - [PaaS](#paas)
 - [Serverless](#serverless)
 - [microVM](#microvm)
@@ -180,6 +184,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [信息提取 (Information Extraction)](#信息提取-information-extraction)
     - [Word Segment 分词](#word-segment-分词)
     - [自然语言生成 (NLG)](#自然语言生成-nlg)
+- [语音识别](#语音识别)
+    - [语音转文字](#语音转文字)
 - [运营](#运营)
 - [中国特色](#中国特色)
     - [翻墙](#翻墙)
@@ -215,7 +221,16 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [7zip](https://www.7-zip.org/): 免费开源的压缩软件。支持多种压缩算法、多种压缩等级、加密、分片。
 - [shlink](https://github.com/shlinkio/shlink): 短链服务。功能挺全。
   - [YOURLS](https://github.com/YOURLS/YOURLS): 备选方案
+- [RIME](https://rime.im/download/): 开源输入法。支持 Windows/Mac/Linux/Android
+  - [iRime](https://apps.apple.com/cn/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E4%BA%94%E7%AC%94%E9%83%91%E7%A0%81%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977): iOS 用 iR
+- [remark42](https://github.com/umputun/remark42): 评论系统
+  - [waline](https://github.com/walinejs/waline): 备选方案
+  - [Artalk](https://github.com/ArtalkJS/Artalk): 备选方案
 
+## 桌面应用开发
+
+- [electron](https://github.com/electron/electron): 用 Web 技术栈开发跨平台的桌面应用
+- [tauri](https://github.com/tauri-apps/tauri): 用 Web + Rust + JS 开发跨平台的桌面应用。Web 技术做窗口渲染，Rust 做后端引擎。linux 下使用 GTK + WebKitGTK，windows 使用 windows-rs + WebView2，MacOS 使用 AppKit + WKWebView。Android 和 iOS 的支持还在开发中。包大小、内存占用，都优于 electron。
 
 ## Authorization
 
@@ -408,6 +423,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://stackblitz.com/ : StackBlitz, Online IDE powered by Visual Studio Code
   - [源码](https://github.com/stackblitz/core)
 - https://codeanywhere.com/
+- [code-server](https://github.com/coder/code-server): VSCode in the browser
+- [gitpod](https://github.com/gitpod-io/gitpod): VSCode in the browser + workspace
+
 
 ### IDE 辅助工具
 
@@ -449,6 +467,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 用来增强 Shell 的交互/开发体验。
 
 - [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy): A curated list of Terminal frameworks, plugins & resources for CLI lovers.
+- [fig](https://fig.io/): 非常酷的补全工具。目前只支持 MacOS。
 - [basher](https://github.com/basherpm/basher): bash 包管理器
 - [dotbot](https://github.com/anishathalye/dotbot/): dotfile 管理器
 - [bash](http://tiswww.case.edu/php/chet/bash/bashtop.html): 注意升级到最新版本的 bash
@@ -584,6 +603,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 结构化数据处理
 
+- [dasel](https://github.com/TomWright/dasel): JSON, TOML, YAML, XML, CSV 增删改查、格式转换工具
 - [Structured text tools](https://github.com/dbohdan/structured-text-tools)
 - [Awesome JSON - What's Next?](https://github.com/json-next/awesome-json-next)
 - 我喜欢的面向人类的配置文件语法
@@ -868,7 +888,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [mitmproxy](https://mitmproxy.org/): 命令行版抓包工具。4 种模式，3 种命令行 mitmproxy/mitmdump/mitmweb。mitmweb 提供 web 服务端。
 - [whistle](https://github.com/avwo/whistle): 用 NodeJS 实现的跨平台 HTTP, HTTPS, WebSocket 调试工具
   - [lightproxy](https://github.com/alibaba/lightproxy): 备选方案
-- [nethogs](https://github.com/raboof/nethogs): 按进程实时统计网络流量
+- [nethogs](https://github.com/raboof/nethogs): 按进程实时监控网络流量
+- [sniffer](https://github.com/chenjiandongx/sniffer): 按进程和链接实时监控网络流量
 
 ### API Gateway
 
@@ -1102,7 +1123,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Apple Script，用 Lua 脚本编写程序，支持键盘等事件监听 `Ⓜ`
   - [mjolnir](https://github.com/mjolnirapp/mjolnir)
 <a name="Monosnap"></a>
-- [Monosnap](https://monosnap.com/welcome): 免费又强大的截图/截屏/录屏(支持 GIF 和 MP4)
+- [iShot](https://apps.apple.com/cn/app/ishot-%E6%88%AA%E5%9B%BE-%E9%95%BF%E6%88%AA%E5%9B%BE-%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7/id1485844094): 支持截图/截屏/滚动截屏/录屏/录音/OCR 识别/标注。
+  - [Monosnap](https://monosnap.com/welcome): 免费又强大的截图/截屏/录屏(支持 GIF 和 MP4)。不支持滚动截屏。
+  - [CleanShot X](https://cleanshot.com/): 用户体验很优秀。价格略贵。
   - screencapture: 命令行版截图/截屏工具。 mac 自带
   - [Snipaste](https://zh.snipaste.com/): windows 截图/截屏工具 `ⓦ`
 - [Copyless](http://copyless.net): 系统剪切板管理器
@@ -1135,6 +1158,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Lepton](https://github.com/hackjutsu/Lepton): Gist 管理应用
 - [keycastr](https://github.com/keycastr/keycastr): 键盘按下哪个键展示在屏幕上
 - [Carbon Copy Cloner](https://bombich.com): 吊打 Time Machine 的备份软件
+- [alt-tab-macos](https://github.com/lwouis/alt-tab-macos): windows 风格的 Tab 切换 `Ⓜ`
+- [vimac](https://github.com/dexterleng/vimac): 用键盘滚动和点击程序（vim 风格） `Ⓜ`
+- https://objective-see.com/products.html : Mac 平台的开源安全工具，都挺不错的
 
 ## [字体](./design/README.md#字体)
 
@@ -1154,6 +1180,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://namelix.com/ : 解决项目命名困难
 - https://namae.dev/ : 检查名称是否已存在
   - [源码](https://github.com/uetchy/namae)
+
+## 团队协作
+
+- [airtable](https://www.airtable.com/): 商业方案，小团队免费
+  - [nocodb](https://github.com/nocodb/nocodb): 备选方案。开源的
 
 ## 服务 (Service)
 
@@ -1194,6 +1225,21 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - https://jiemahao.com/
   - https://yunduanxin.net/Countries/
   - https://pingme.tel/receive-sms-online-cn/
+
+## 静态文件托管
+
+- http://surge.sh  Static web publishing for Front-End Developers. 设计非常优雅，强烈推荐！
+- https://www.netlify.com/
+
+## CMS
+
+- [headless cms](https://github.com/netlify/headlesscms.org)
+- [strapi](https://github.com/strapi/strapi)
+- [Ghost](https://github.com/TryGhost/Ghost)
+- [netlify-cms](https://github.com/netlify/netlify-cms): 基于 Git 服务（比如 github、gitlab）的 Open API 的 CMS。开源项目挺有用。商业项目不适合用。
+- [ROAPI](https://github.com/roapi/roapi): 把数据源直接以 GraphQL、SQL、RESTful API 暴露。
+- [keystone](https://github.com/keystonejs/keystone): Headless CMS. Built with GraphQL and React
+
 
 ## PaaS
 
@@ -1298,7 +1344,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [KVM](https://www.linux-kvm.org/page/Main_Page): 开源免费，最强大的虚拟化工具
 - [kimchi](https://github.com/kimchi-project/kimchi): Kimchi manages KVM guests through libvirt. The management interface is accessed over the web using a browser that supports HTML5.
 - [WebVirtCloud](https://github.com/retspen/webvirtcloud): virtualization web interface for admins and users
-- [barrier](https://github.com/debauchee/barrier): KVM switch
+- [barrier](https://github.com/debauchee/barrier): KVM switch over http
+  - [TinyPilot](https://github.com/tiny-pilot/tinypilot): KVM over IP
 
 ## 模板引擎
 
@@ -1331,12 +1378,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 文档
 
-- [盤古之白](https://github.com/vinta/pangu.js): 最佳 README
 - [Dash](https://kapeli.com/dash): 查看文档  `Ⓜ`
-- http://devdocs.io/ : 查看文档。开源的 https://github.com/Thibaut/devdocs/ `ⱳ`
-- [zealdocs](https://zealdocs.org/): 查看文档。备选 `Ⓛ`
-- [carbon](https://github.com/dawnlabs/carbon): 代码转成图片
-- [mdx](https://github.com/mdx-js/mdx): Markdown + JSX = MDX。支持模块导入和导出，支持 React 组件。写 Web 文档利器。
+  - http://devdocs.io/ : 查看文档。开源的 https://github.com/Thibaut/devdocs/ `ⱳ`
+  - [zealdocs](https://zealdocs.org/): 查看文档。备选 `Ⓛ`
 
 ### 文档系统
 
@@ -1344,13 +1388,21 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [outline](https://github.com/outline/outline): 类似 Notion 的知识库、WIKI 平台
 - [Notion](https://www.notion.so/): 笔记工具
   - https://timelinetool.app/notion/event : 统计公开链接的 PV 的 embed 插件
+- 基于 Notion 的网站
+  - https://popsy.co/ : 自定义域名免费。收费功能 8 刀/月
+  - https://super.so/ : 用户体验优秀。自定义域名收费。收费功能 12 刀/月
 - [wiki.js](https://github.com/Requarks/wiki): 现代化的 WIKI。AGPL-3.0 License
+- [sphinx-doc](https://www.sphinx-doc.org): reStructuredText 文档渲染工具
 
 ### 文档处理
 
+- [pandoc](https://pandoc.org/): 各种格式的文档转换工具
 - [unified](https://github.com/unifiedjs/unified): https://unified.js.org/
 - [remark](https://github.com/remarkjs/remark): markdown processor
 - [rehype](https://github.com/rehypejs/rehype): HTML processor
+- [carbon](https://github.com/dawnlabs/carbon): 代码转成图片
+- [mdx](https://github.com/mdx-js/mdx): Markdown + JSX = MDX。支持模块导入和导出，支持 React 组件。写 Web 文档利器。
+- [盤古之白](https://github.com/vinta/pangu.js): 给文档加空格
 
 ### Markdown
 
@@ -1470,6 +1522,14 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ### 自然语言生成 (NLG)
 
+## 语音识别
+
+### 语音转文字
+
+- [科大讯飞听见](https://www.iflyrec.com/)
+- [网易见外](https://sight.youdao.com/)
+- [mozilla/DeepSpeech](https://github.com/mozilla/DeepSpeech)
+- [coqui-ai/STT](https://github.com/coqui-ai/STT)
 
 ## 运营
 

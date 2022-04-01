@@ -9,8 +9,6 @@
 
 - [其他](#其他)
 - [静态网站生成器](#静态网站生成器)
-- [静态文件托管](#静态文件托管)
-- [CMS](#cms)
 - [JAMstack](#jamstack)
 - [框架](#框架)
 - [表单](#表单)
@@ -114,18 +112,6 @@
 - [eleventy](https://github.com/11ty/eleventy)
 - [Hexo](https://github.com/hexojs/hexo): 静态博客生成器
 
-## 静态文件托管
-
-- http://surge.sh  Static web publishing for Front-End Developers. 设计非常优雅，强烈推荐！
-- https://www.netlify.com/
-
-## CMS
-
-- [headless cms](https://github.com/netlify/headlesscms.org)
-- [strapi](https://github.com/strapi/strapi)
-- [Ghost](https://github.com/TryGhost/Ghost)
-- [netlify-cms](https://github.com/netlify/netlify-cms): 基于 Git 服务（比如 github、gitlab）的 Open API 的 CMS。开源项目挺有用。商业项目不适合用。
-
 ## JAMstack
 
 - [jamstack.org](https://github.com/jamstack/jamstack.org)
@@ -145,7 +131,7 @@
 ## HTML
 
 - [HEAD](https://github.com/joshbuchea/HEAD): HEAD 里放什么？
-- [lit-html](https://github.com/polymer/lit-html): HTML in JS
+- [lit](https://github.com/lit/lit): a simple library for building fast, lightweight web components
 
 ## A11Y
 

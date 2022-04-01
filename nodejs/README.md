@@ -485,7 +485,7 @@
 - [license-checker](https://github.com/davglass/license-checker): Check NPM package licenses
 - [cz-cli](https://github.com/commitizen/cz-cli): 规范 git commit message
 - [none](https://github.com/dak0rn/none): 空。在特殊场景可以用到
-- [cheerio](https://github.com/cheeriojs/cheerio): 服务端运行的 jQuery
+- [cheerio](https://github.com/cheeriojs/cheerio): 服务端运行的 jQuery，解析 DOM
 - [jsdiff](https://github.com/kpdecker/jsdiff): diff library
 - [franc](https://github.com/wooorm/franc): 自然语言判断
 - [node-temp](https://github.com/bruce/node-temp): 产生临时目录文件
