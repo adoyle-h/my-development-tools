@@ -31,6 +31,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+- [ChatOps](#chatops)
 - [桌面应用开发](#桌面应用开发)
 - [Authorization](#authorization)
 - [开源项目](#开源项目)
@@ -147,6 +148,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [数据可视化](#数据可视化)
     - [地图](#地图)
 - [日志](#日志)
+- [电子书](#电子书)
 - [交互式 Notebook](#交互式-notebook)
 - [Python](#python)
 - [Golang](#golang)
@@ -227,6 +229,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [waline](https://github.com/walinejs/waline): 备选方案
   - [Artalk](https://github.com/ArtalkJS/Artalk): 备选方案
 
+## ChatOps
+
+- [wechaty](https://github.com/wechaty/wechaty): 聊天机器人开发框架
+
 ## 桌面应用开发
 
 - [electron](https://github.com/electron/electron): 用 Web 技术栈开发跨平台的桌面应用
@@ -265,7 +271,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - https://tools.ietf.org/ : 查看 IETF RFC 文档的工具。
 - https://www.rfc-editor.org/ : 查看 IETF RFC 文档的工具。
-  - https://everyrfc.org/ : 备选。RFC 搜索引擎
 - Markdown 生成 RFC 文档的工具
   - https://github.com/mmarkdown/mmark
   - https://github.com/cabo/kramdown-rfc2629
@@ -868,6 +873,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [CoreDNS](https://github.com/coredns/coredns): DNS server。CNCF 项目
 - https://dns.google/
 - https://www.nslookup.io/ : 查询 DNS 记录
+- [nali](https://github.com/zu1k/nali): 查询IP地理信息和CDN服务提供商的离线终端工具
 
 ### HTTP
 
@@ -1160,6 +1166,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Carbon Copy Cloner](https://bombich.com): 吊打 Time Machine 的备份软件
 - [alt-tab-macos](https://github.com/lwouis/alt-tab-macos): windows 风格的 Tab 切换 `Ⓜ`
 - [vimac](https://github.com/dexterleng/vimac): 用键盘滚动和点击程序（vim 风格） `Ⓜ`
+  - [VimMotionApp](https://github.com/dwarvesf/VimMotionApp): 备用方案
 - https://objective-see.com/products.html : Mac 平台的开源安全工具，都挺不错的
 
 ## [字体](./design/README.md#字体)
@@ -1296,6 +1303,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## 日志
 
 - [goaccess](https://github.com/allinurl/goaccess): GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.
+
+## 电子书
+
+- https://bookfere.com/tools
 
 ## 交互式 Notebook
 

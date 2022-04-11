@@ -206,7 +206,9 @@
 
 ## 编译工具
 
-- webpack: 编译框架或应用的工具。配置项多，方便高端玩家定制
+- [webpack](https://github.com/webpack/webpack): 编译框架或应用的工具。配置项多，方便高端玩家定制
+- [esbuild](https://github.com/evanw/esbuild): 超级快
+  - [esbuild-loader](https://github.com/privatenumber/esbuild-loader): 在 webpack 里调用 esbuild
 - [parcel](https://github.com/parcel-bundler/parcel): 编译框架或应用的工具。零配置
 - [rollup](https://github.com/rollup/rollup): 编译类库时首选工具。零配置
 - [fuse-box](https://github.com/fuse-box/fuse-box): 「待评估」
@@ -280,6 +282,7 @@
 
 - [storybook](https://github.com/storybooks/storybook): 组件预览 for React & React Native
 - [react-styleguidist](https://github.com/styleguidist/react-styleguidist): 类似 storybook，提供实时预览的工具
+- [Component Story Format (CSF)](https://github.com/ComponentDriven/csf): 组件展示的一种社区标准格式
 
 ### IDE
 
@@ -462,6 +465,9 @@
 ## CDN
 
 - [unpkg](https://github.com/unpkg/unpkg): The CDN for everything on npm
+- https://esm.sh/ : A fast, global content delivery network for NPM packages with ES Module format.
+- https://jspm.org/ : JSPM provides a module CDN and package management for import maps
+- https://www.skypack.dev/ : Load optimized npm packages with no install and no build tools.
 
 -----
 
