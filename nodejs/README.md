@@ -48,6 +48,8 @@
 - [ORM](#orm)
 - [AST](#ast)
 - [Code Lint](#code-lint)
+- [Code Format](#code-format)
+- [Code Check](#code-check)
 - [Profiling](#profiling)
 - [HTTP](#http)
 - [安全](#安全)
@@ -365,7 +367,8 @@
 - [module-alias](https://github.com/ilearnio/module-alias): require 避免使用相对路径。只能用于应用开发，不能用于模块或框架开发。
   - 还有很多其他方法，详见 https://gist.github.com/branneman/8048520
 - [tapable](https://github.com/webpack/tapable): 实现插件机制
-- [lerna](https://github.com/lerna/lerna): 在一个代码仓库中维护多个 package 的工具
+- [lerna](https://github.com/lerna/lerna): monorepo 项目管理工具，简单易上手。已停止维护。
+- [nx](https://github.com/nrwl/nx): 前端 monorepo 项目管理工具，支持插件，功能丰富，过于复杂，不容易上手。复杂的依赖版本绑定是个问题。
 - [loud-rejection](https://github.com/sindresorhus/loud-rejection): 响应 unhandledRejection 和 rejectionHandled 事件。命令行开发用
 - [hard-rejection](https://github.com/sindresorhus/hard-rejection): 响应 unhandledRejection 事件，服务端开发用
 
@@ -394,6 +397,16 @@
   - [eslint-plugin-jsdoc](https://github.com/gajus/eslint-plugin-jsdoc)
   - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames): Eslint plugin to check filenames.
 - [eslint-config-adoyle-style](https://github.com/adoyle-h/eslint-config-adoyle-style)
+
+## Code Format
+
+- [prettier](https://github.com/prettier/prettier): monorepo 使用有个[问题](https://github.com/prettier/prettier/issues/4081)
+  - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+
+## Code Check
+
+- [license-checker](https://github.com/davglass/license-checker): Check NPM package licenses
+- [cz-cli](https://github.com/commitizen/cz-cli): 规范 git commit message
 
 ## Profiling
 
@@ -482,8 +495,6 @@
 ## 其他
 
 - [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs): 很有用
-- [license-checker](https://github.com/davglass/license-checker): Check NPM package licenses
-- [cz-cli](https://github.com/commitizen/cz-cli): 规范 git commit message
 - [none](https://github.com/dak0rn/none): 空。在特殊场景可以用到
 - [cheerio](https://github.com/cheeriojs/cheerio): 服务端运行的 jQuery，解析 DOM
 - [jsdiff](https://github.com/kpdecker/jsdiff): diff library

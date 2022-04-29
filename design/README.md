@@ -10,8 +10,9 @@
 - [其他](#其他)
 - [Awesome List](#awesome-list)
 - [插图资源 (Illustrations)](#插图资源-illustrations)
-- [背景图生成器](#背景图生成器)
 - [Mock](#mock)
+    - [头像](#头像)
+    - [背景图](#背景图)
 - [设计规范](#设计规范)
 - [颜色 (Color)](#颜色-color)
     - [取色](#取色)
@@ -54,9 +55,6 @@
 ## 其他
 
 - [psmirror](http://www.psmirror.cn/zh): 设计稿实时预览工具，支持 iOS/Android/Web，支持 PS、Adobe、Sketch
-- [avataaars-geneator](https://github.com/fangpenlin/avataaars-geneator): 头像生成器
-  - [avataaars React 组件](https://github.com/fangpenlin/avataaars)
-  - [avataaars Sketch 插件](https://avataaars.com/)
 - https://lipsum.com/ : Lorem Ipsum，也称乱数假文或者哑元文本，是印刷及排版领域所常用的虚拟文字。支持各种语言。
 - https://www.blobmaker.app/ : 制作圆形形变背景 SVG
 
@@ -71,7 +69,8 @@
 
 - 摄影图
   - https://unsplash.com/ : 质量非常高的摄影分享社区
-  - https://pixabay.com/zh/ : 免费图片和视频，质量还行
+  - https://pixabay.com/ : 免费图片和视频，质量还行
+  - https://www.pexels.com/
 - 矢量图
   - https://undraw.co/ : 丰富的使用场景
   - https://www.humaaans.com/ : 卡通人物
@@ -83,14 +82,20 @@
   - https://blush.design/ : 卡通插图，定制生成 PNG、SVG
   - https://icons8.com/mega-creator : 卡通插图 + 照片
 
-## 背景图生成器
+## Mock
+
+### 头像
+
+- https://joeschmoe.io/ : 头像 Mock
+- https://mastergo.com/omg : 卡通头像
+- [avataaars-geneator](https://github.com/fangpenlin/avataaars-geneator): 头像生成器
+  - [avataaars React 组件](https://github.com/fangpenlin/avataaars)
+  - [avataaars Sketch 插件](https://avataaars.com/)
+
+### 背景图
 
 - https://coolbackgrounds.io/
 - https://wangyasai.github.io/designtools.html
-
-## Mock
-
-- https://joeschmoe.io/ : 头像 Mock
 
 ## 设计规范
 
@@ -224,6 +229,7 @@
 - [Sketch](https://www.sketchapp.com): 矢量图形设计工具 `Ⓜ`
 - [Adobe XD](https://www.adobe.com/cn/products/xd.html): Sketch 的强力竞争者，跨平台 + 免费，独有的网格编组和滚动的特性，操作体验流畅，兼容最新版的 Sketch 文件。
 - [Figma](https://www.figma.com): Sketch 替代品。
+- [MasterGo](https://mastergo.com/): 国产 sketch + figma，功能和 UI 做的挺不错，而且跨多平台，就是用起来有点卡。
 
 ## Sketch
 

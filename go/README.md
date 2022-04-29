@@ -10,12 +10,14 @@
 - [其他](#其他)
 - [开发必备](#开发必备)
 - [Cheatsheet](#cheatsheet)
+- [Logger](#logger)
 - [错误处理](#错误处理)
 - [结构化数据处理](#结构化数据处理)
     - [JSON](#json)
 - [CLI](#cli)
 - [测试](#测试)
 - [HTTP](#http)
+- [容器](#容器)
 
 <!-- /MarkdownTOC -->
 
@@ -41,6 +43,11 @@
 
 - https://github.com/a8m/golang-cheat-sheet
 
+## Logger
+
+- [zap](https://github.com/uber-go/zap)
+- [logrus](https://github.com/sirupsen/logrus)
+
 ## 错误处理
 
 ## 结构化数据处理
@@ -52,6 +59,7 @@
 ## CLI
 
 - [cobra](https://github.com/spf13/cobra)
+- [bubbletea](https://github.com/charmbracelet/bubbletea)
 
 ## 测试
 
@@ -62,5 +70,9 @@
 ## HTTP
 
 - [mux](https://github.com/gorilla/mux): a request router and dispatcher
+
+## 容器
+
+- [automaxprocs](https://github.com/uber-go/automaxprocs): 在容器中正确设置 GOMAXPROCS
 
 **[⬆ 返回顶部](#top)**

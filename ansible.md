@@ -3,6 +3,10 @@
 
 [⬅︎ 返回上层](../#ansible)
 
+## UI
+
+- [semaphore](https://github.com/ansible-semaphore/semaphore)
+
 ## Role
 
 - [molecule](https://github.com/ansible-community/molecule): 开发、测试 Ansible Role 的工具

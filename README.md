@@ -162,7 +162,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [虚拟化](#虚拟化)
     - [libvirt/KVM](#libvirtkvm)
 - [模板引擎](#模板引擎)
-- [Tex/Latex](#texlatex)
+- [TeX/LaTeX](#texlatex)
 - [Slide/Presentation](#slidepresentation)
 - [文档](#文档)
     - [文档系统](#文档系统)
@@ -206,6 +206,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 其他
 
+- [hashcat](https://github.com/hashcat/hashcat): 很快的密码破解工具
 - [irssi](https://github.com/irssi/irssi): IRC Client
 - [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息`Ⓛ` `Ⓜ`
 - [franc](https://github.com/wooorm/franc): 自然语言语种推测
@@ -266,6 +267,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [semantic-release](https://github.com/semantic-release/semantic-release): 备选方案
 - https://semver.npmjs.com/ : npm semver calculator
 - [semver-tool](https://github.com/fsaintjacques/semver-tool): 纯 Bash 实现的 Semver 可执行命令
+- [commitlint][]
 
 ## RFC
 
@@ -418,6 +420,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [slate](https://github.com/ianstormtaylor/slate)
 - [trix](https://github.com/basecamp/trix)
 - [editor.js](https://github.com/codex-team/editor.js): A block-styled editor with clean JSON output
+- [lexical](https://github.com/facebook/lexical): facebook 出品
 
 ### Online IDE
 
@@ -927,6 +930,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## IM
 
 - [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat): 开源版 Slack。built with Meteor
+- [Mattermost](https://mattermost.com/)
 
 ## Git
 
@@ -1370,12 +1374,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Jinja](https://jinja.palletsprojects.com): Ansible 使用的模板引擎
   - [Jinja 模板在线渲染](https://cryptic-cliffs-32040.herokuapp.com)
 
-## Tex/Latex
+## TeX/LaTeX
 
 - [awesome-LaTeX](https://github.com/egeerardyn/awesome-LaTeX)
 - [Begin-Latex-in-minutes](https://github.com/luong-komorebi/Begin-Latex-in-minutes/blob/master/Translation-Chinese.md)
 - [TEXMaker](https://www.xm1math.net/texmaker/)
-- [KaTeX](https://github.com/KaTeX/KaTeX): Fast math typesetting for the web.
+- [KaTeX](https://github.com/KaTeX/KaTeX): Fast math typesetting for the web. https://katex.org/
 
 ## Slide/Presentation
 
@@ -1402,6 +1406,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - 基于 Notion 的网站
   - https://popsy.co/ : 自定义域名免费。收费功能 8 刀/月
   - https://super.so/ : 用户体验优秀。自定义域名收费。收费功能 12 刀/月
+  - [react-notion](https://github.com/splitbee/react-notion)
+  - [react-notion-x](https://github.com/NotionX/react-notion-x)
+  - [notion-blog](https://github.com/ijjk/notion-blog)
+  - [nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit)
+  - [notion-sdk-js](https://github.com/makenotion/notion-sdk-js)
 - [wiki.js](https://github.com/Requarks/wiki): 现代化的 WIKI。AGPL-3.0 License
 - [sphinx-doc](https://www.sphinx-doc.org): reStructuredText 文档渲染工具
 
@@ -1451,6 +1460,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - https://docsmall.com : GIF 压缩比很高
 - GIF Brewery 3: GIF 制作工具。App Store 内购买。 `Ⓜ`
 - [Gifski](https://github.com/sindresorhus/Gifski): 视频转 GIF。开源的。 `Ⓜ`
+- [pixelmatch](https://github.com/mapbox/pixelmatch): The smallest, simplest and fastest JavaScript pixel-level image comparison library
+- [libvips](https://github.com/libvips/libvips): A fast image processing library with low memory needs.
+  - [libvips CLI: vips](https://www.libvips.org/API/current/using-cli.html)
+  - [sharp](https://github.com/lovell/sharp): libvips for NodeJS
+  - [govips](https://github.com/davidbyttow/govips): libvips for Go
 
 ## 视频处理
 

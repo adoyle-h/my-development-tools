@@ -7,7 +7,7 @@
 
 <!-- MarkdownTOC GFM -->
 
-- [For MacOS](#for-macos)
+- [其他](#其他)
 - [CLI](#cli)
     - [OCI](#oci)
 - [镜像制作](#镜像制作)
@@ -16,13 +16,16 @@
 - [安全](#安全)
 - [日志](#日志)
 - [可视化管理/UI](#可视化管理ui)
-- [其他](#其他)
 
 <!-- /MarkdownTOC -->
 
-## For MacOS
+## 其他
 
-- [lima](https://github.com/lima-vm/lima)
+- [awesome-docker](https://github.com/veggiemonk/awesome-docker)
+- [docker-diff](https://github.com/moul/docker-diff): 比较两个 image 的文件改动
+  - [container-diff](https://github.com/GoogleContainerTools/container-diff): 备选方案
+- [dive](https://github.com/wagoodman/dive): 查看 docker 镜像的每一层 layer。支持 diff
+- [lima](https://github.com/lima-vm/lima): 运行在 Mac 上的虚拟机
 
 ## CLI
 
@@ -71,13 +74,6 @@
 
 - [Portainer](https://github.com/portainer/portainer)
 - [Weave Scope](https://github.com/weaveworks/scope): Monitoring, visualisation & management for Docker & Kubernetes
-
-## 其他
-
-- [awesome-docker](https://github.com/veggiemonk/awesome-docker)
-- [docker-diff](https://github.com/moul/docker-diff): 比较两个 image 的文件改动
-  - [container-diff](https://github.com/GoogleContainerTools/container-diff): 备选方案
-- [dive](https://github.com/wagoodman/dive): 查看 docker 镜像的每一层 layer。支持 diff
 
 
 **[⬆ 返回顶部](#top)**
