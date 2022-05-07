@@ -79,8 +79,9 @@
 
 ## Misc
 
-- [npm-check](https://github.com/dylang/npm-check): 检查 unused 和 missing 的依赖，并检查是否有新版本。可作为程序/类库使用。
-  - [depcheck](https://github.com/depcheck/depcheck): 只检查 unused 和 missing 的依赖。可作为程序/类库使用。
+- [npm-check-updates](https://github.com/raineorshine/npm-check-updates): 检查依赖包是否有新版本。可一键升级依赖版本。可作为命令或类库使用。
+- [npm-check](https://github.com/dylang/npm-check): 检查依赖包是否有未使用或者缺失有新版本。可一键升级依赖版本。可作为命令或类库使用。年久失修。
+  - [depcheck](https://github.com/depcheck/depcheck): 备用方案。年久失修。
 - [yn](https://github.com/sindresorhus/yn): 判断值是否为 yes/no
 - [package-json](https://github.com/sindresorhus/package-json): Get metadata of a package from the npm registry. 支持私有 registry
 
@@ -507,6 +508,7 @@
 - [libsys](https://github.com/streamich/libsys): 系统调用 (syscall)
 - [import-modules](https://github.com/adoyle-h/import-modules/tree/adoyle): 加载指定目录下的所有文件
   - [import-all.macro](https://github.com/kentcdodds/import-all.macro): 针对 babel + import 的方案
+- [esm](https://github.com/standard-things/esm): 在 CJS 里加载 ESM
 
 ## 我关注的人/组
 

@@ -150,6 +150,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [日志](#日志)
 - [电子书](#电子书)
 - [交互式 Notebook](#交互式-notebook)
+- [Lua](#lua)
 - [Python](#python)
 - [Golang](#golang)
 - [NodeJS](#nodejs)
@@ -229,6 +230,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [remark42](https://github.com/umputun/remark42): 评论系统
   - [waline](https://github.com/walinejs/waline): 备选方案
   - [Artalk](https://github.com/ArtalkJS/Artalk): 备选方案
+- [Mastodon](https://github.com/mastodon/mastodon): 微博客社区
 
 ## ChatOps
 
@@ -403,6 +405,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [neovim](https://github.com/neovim/neovim): 终端编辑器，用 Python 写的 vim
   - [oni](https://github.com/onivim/oni): Neovim GUI 编辑器
   - [vimspector](https://github.com/puremourning/vimspector): A multi-language debugging system for Vim
+  - [vim colors chemes](https://vimcolorschemes.com/)
+  - [nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide)
 - [Visual Studio Code](https://github.com/Microsoft/vscode): 可能是最棒的开源 IDE
   - [code-settings-sync](https://github.com/shanalikhan/code-settings-sync): VSC 设置备份同步工具
   - [code-server](https://github.com/cdr/code-server): Run VS Code on a remote server
@@ -899,6 +903,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [lightproxy](https://github.com/alibaba/lightproxy): 备选方案
 - [nethogs](https://github.com/raboof/nethogs): 按进程实时监控网络流量
 - [sniffer](https://github.com/chenjiandongx/sniffer): 按进程和链接实时监控网络流量
+- [Proxyman](https://proxyman.io/): 功能超强的 HTTP 抓包工具
 
 ### API Gateway
 
@@ -1324,6 +1329,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [kajero](https://github.com/joelotter/kajero): 「无人维护」Interactive JavaScript notebooks with clever graphing
 - https://mybinder.org/
   - 源码 [binderhub](https://github.com/jupyterhub/binderhub)
+
+## [Lua](./lua.md)
 
 ## [Python](./python.md)
 

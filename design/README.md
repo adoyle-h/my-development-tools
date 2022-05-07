@@ -10,14 +10,14 @@
 - [其他](#其他)
 - [Awesome List](#awesome-list)
 - [插图资源 (Illustrations)](#插图资源-illustrations)
+- [纹理 Patterns](#纹理-patterns)
 - [Mock](#mock)
     - [头像](#头像)
     - [背景图](#背景图)
 - [设计规范](#设计规范)
 - [颜色 (Color)](#颜色-color)
-    - [取色](#取色)
-    - [配色](#配色)
     - [调色](#调色)
+    - [配色](#配色)
     - [无障碍配色](#无障碍配色)
 - [Icon](#icon)
 - [Typography](#typography)
@@ -82,6 +82,10 @@
   - https://blush.design/ : 卡通插图，定制生成 PNG、SVG
   - https://icons8.com/mega-creator : 卡通插图 + 照片
 
+## 纹理 Patterns
+
+- https://www.toptal.com/designers/subtlepatterns/
+
 ## Mock
 
 ### 头像
@@ -106,32 +110,28 @@
 ## 颜色 (Color)
 
 - [色彩原理](http://www.charts.kh.edu.tw/teaching-web/98color/color.htm)
-
-### 取色
-
 - [ColorSlurp](https://itunes.apple.com/cn/app/colorslurp/id1287239339): 取色器，免费的。 `Ⓜ`
   - [Sip](http://sipapp.io): 备选方案。体验更好。价格贵，年付。 `Ⓜ`
+
+### 调色
+
 - https://www.colorhexa.com : 色彩信息计算
+- https://www.toptal.com/designers/colourcode : 移动鼠标选择配色
+  - http://color.aurlien.net : 备选方案
 - http://nipponcolors.com : 日系传统色彩。界面超好看！用字很美！
 - http://zhongguose.com/  : 中国传统色彩。
-- http://color.aurlien.net : 把鼠标放在网页上随意移动，会产生对应的颜色
+- http://paletton.com : 色轮调色
+- https://color.adobe.com/zh/create/color-wheel/ : 色轮调色
+- http://www.calmar.ws/vim/256-xterm-24bit-rgb-color-chart.html : 终端色表
 
 ### 配色
 
-- https://www.colorbox.io/ : 参数简单好用，且考虑了颜色无障碍标准
-  - [介绍](https://zhuanlan.zhihu.com/p/45489054)与[源码](https://github.com/lyft/coloralgorithm)
-- [PleaseJS](https://github.com/Fooidge/PleaseJS): 随机生成颜色搭配。
-- https://coolors.co : 配色生成工具。五种色
+- https://coolors.co : 按空格生成配色方案
 - http://colorhunt.co : 别人提供的配色方案。四种色
 - https://webgradients.com/ : 渐变色配色
 - http://colormind.io/ : 使用深度学习自动生成配色方案
 - https://palx.jxnblk.com/ : 根据一种基色自动生成配色方案。源码 [palx](https://github.com/jxnblk/palx)
 - [ant-design-colors](https://github.com/ant-design/ant-design-colors)
-
-### 调色
-
-- http://paletton.com : 色轮调色工具
-- https://color.adobe.com/zh/create/color-wheel/ : 色轮调色工具
 
 ### 无障碍配色
 
