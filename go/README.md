@@ -26,6 +26,7 @@
 - https://awesome-go.com/
 - [sprig](https://github.com/Masterminds/sprig): Useful template functions for Go templates
 - [gore](https://github.com/motemen/gore): Go REPL
+  - [gomacro](https://github.com/cosmos72/gomacro): 备用方案
 
 
 ## 开发必备

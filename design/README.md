@@ -9,6 +9,7 @@
 
 - [其他](#其他)
 - [Awesome List](#awesome-list)
+- [3D 建模](#3d-建模)
 - [插图资源 (Illustrations)](#插图资源-illustrations)
 - [纹理 Patterns](#纹理-patterns)
 - [Mock](#mock)
@@ -62,6 +63,10 @@
 
 - [Awesome Design Tools](https://github.com/LisaDziuba/Awesome-Design-Tools)
 - https://www.designnotes.co/ : 免费的设计资源的集合
+
+## 3D 建模
+
+- [blender](https://github.com/blender/blender): 免费开源的 3D 建模工具
 
 ## 插图资源 (Illustrations)
 
@@ -157,6 +162,7 @@
   - [源代码](https://github.com/ionic-team/ionicons)
 - [octicons](https://github.com/primer/octicons): Github 出品的 Icon
 - [cssicon](https://github.com/wentin/cssicon): 完全用 CSS 做的 Icon
+- [devicon](https://github.com/devicons/devicon): Set of icons representing programming languages, designing & development tools
 
 ## Typography
 

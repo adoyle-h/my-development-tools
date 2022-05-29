@@ -100,6 +100,7 @@
 - [medium-zoom](https://github.com/francoischalifour/medium-zoom): 图片点击放大
 - [MathJax](https://github.com/mathjax/MathJax): JavaScript display engine for LaTeX, MathML, and AsciiMath notation
 - [xterm.js](https://github.com/xtermjs/xterm.js): 浏览器里模拟终端
+- [dflex](https://github.com/dflex-js/dflex): 框架兼容性很好的 DOM 拖拽库
 
 ## 静态网站生成器
 
