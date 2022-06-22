@@ -25,9 +25,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## TOC
 
-<!-- toc -->
-<details>
-  <summary>目录</summary>
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
@@ -202,8 +199,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [别人的工具列表](#别人的工具列表)
 
 <!-- /MarkdownTOC -->
-</details>
-<!-- tocstop -->
 
 ## 其他
 
