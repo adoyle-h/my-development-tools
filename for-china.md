@@ -5,7 +5,6 @@
 
 
 - [RevokeChinaCerts](https://github.com/chengr28/RevokeChinaCerts): Revoke China Certificates.  全自动可疑证书吊销工具/全自動可疑憑證撤銷工具
-- [jsproxy](https://github.com/EtherDream/jsproxy): 运行在浏览器里的代理。速度挺快的。
 
 ### 翻墙
 
@@ -31,24 +30,24 @@
 
 - [googlehosts/hosts](https://github.com/googlehosts/hosts): [修改 Hosts 可能无用](https://github.com/googlehosts/hosts/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98#%E8%BF%99%E4%B8%AAhosts%E4%B8%80%E7%82%B9%E7%94%A8%E9%83%BD%E6%B2%A1%E6%9C%89%E5%8D%8A%E5%81%9C%E6%9B%B4%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D)
 - [gfwlist](https://github.com/gfwlist/gfwlist)
-- [lhie1/Rules](https://github.com/lhie1/Rules/tree/master): 支持 Clash、QuantumultX、Quantumult、Shadowrocket、Surge
 - [GenPAC](https://github.com/JinnLynn/genpac): 基于 gfwlist 的 pac, dnsmasq, wingy 配置生成工具，支持自定义规则。
+- [SS-Rule-Snippet](https://github.com/Hackl0us/SS-Rule-Snippet): 搜集、整理、维护 Surge / Quantumult (X) / Shadowrocket / Surfboard / clash (Premium) 实用规则。
 - [proxypool](https://github.com/zu1k/proxypool): 自动抓取tg频道、订阅地址、公开互联网上的ss、ssr、vmess、trojan节点信息，聚合去重后提供节点列表
-  - https://free886.herokuapp.com/clash
-  - https://proxy.leefake.xyz/clash
-  - http://8.135.91.61/clash
-  - http://118.31.77.3/clash
+
+#### VPN
+
+- https://surfshark.com/ : 稳定
 
 #### 机场
 
-- [苏打云](https://v2.suda.moe/)
-- [V2VN 薇恩](https://v2vn.com/)
-- [少数派](https://shaoshupai.org/)
-- [极客云](https://jike0.net/)
+- [苏打云](https://v2.suda.moe/): 价格亲民。速度挺快。不稳定，在不能说的日子会必挂。
+- [V2VN 薇恩](https://v2vn.com/): 没用过
+- [少数派](https://shaoshupai.org/): 没用过
+- [HutaoCloud](https://hutao.cloud/): 价格亲民。没用过
+- [极客云](https://jike0.net/): 没用过
 - 免费机场，后果自负
-  - https://github.com/aries15/freess/tree/dev
-  - https://github.com/freefq/free
   - https://github.com/ermaozi/get_subscribe
+  - https://github.com/freefq/free
 
 ### 镜像站点
 

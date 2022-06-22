@@ -31,6 +31,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+- [统计数据](#统计数据)
+- [数学](#数学)
 - [ChatOps](#chatops)
 - [桌面应用开发](#桌面应用开发)
 - [Authorization](#authorization)
@@ -229,6 +231,15 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [waline](https://github.com/walinejs/waline): 备选方案
   - [Artalk](https://github.com/ArtalkJS/Artalk): 备选方案
 - [Mastodon](https://github.com/mastodon/mastodon): 微博客社区
+
+## 统计数据
+
+- [国家统计局](http://www.stats.gov.cn/tjsj/)
+
+## 数学
+
+- [中文数学 Wiki](https://math.fandom.com/zh/wiki/%E4%B8%AD%E6%96%87%E6%95%B0%E5%AD%A6_Wiki:%E4%B8%BB%E9%A1%B5)
+- [3Blue1Brown](https://space.bilibili.com/88461692)
 
 ## ChatOps
 
@@ -1138,10 +1149,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Apple Script，用 Lua 脚本编写程序，支持键盘等事件监听 `Ⓜ`
   - [mjolnir](https://github.com/mjolnirapp/mjolnir)
 <a name="Monosnap"></a>
-- [iShot](https://apps.apple.com/cn/app/ishot-%E6%88%AA%E5%9B%BE-%E9%95%BF%E6%88%AA%E5%9B%BE-%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7/id1485844094): 支持截图/截屏/滚动截屏/录屏/录音/OCR 识别/标注。
+- [CleanShot X](https://cleanshot.com/): 用户体验很优秀。价格略贵。支持截图/窗口截图/截屏/滚动截屏/录屏/录音/OCR 识别/标注
   - [Monosnap](https://monosnap.com/welcome): 免费又强大的截图/截屏/录屏(支持 GIF 和 MP4)。不支持滚动截屏。
-  - [CleanShot X](https://cleanshot.com/): 用户体验很优秀。价格略贵。
-  - screencapture: 命令行版截图/截屏工具。 mac 自带
+  - [iShot](https://apps.apple.com/cn/app/ishot-%E6%88%AA%E5%9B%BE-%E9%95%BF%E6%88%AA%E5%9B%BE-%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7/id1485844094): 支持截图/截屏/滚动截屏/录屏/录音/OCR 识别/标注。过了试用期后能用，但是图片会带水印。
+  - Mac 系统自带截图工具。不支持滚动截屏，其他功能都有。Safari 支持滚动截屏。
+  - screencapture:  Mac 自带命令，截图/截屏工具。
   - [Snipaste](https://zh.snipaste.com/): windows 截图/截屏工具 `ⓦ`
 - [Copyless](http://copyless.net): 系统剪切板管理器
 - [Yoink](http://eternalstorms.at/yoink/Yoink_-_Simplify_and_Improve_Drag_and_Drop_on_your_Mac/Yoink_-_Simplify_drag_and_drop_on_your_Mac.html): 临时桌面文件
