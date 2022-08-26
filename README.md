@@ -28,7 +28,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+- [短信](#短信)
 - [统计数据](#统计数据)
+    - [地理数据](#地理数据)
+    - [网络数据](#网络数据)
+- [伪数据](#伪数据)
+- [政务信息](#政务信息)
 - [数学](#数学)
 - [ChatOps](#chatops)
 - [桌面应用开发](#桌面应用开发)
@@ -135,7 +140,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [团队协作](#团队协作)
 - [服务 (Service)](#服务-service)
 - [爬虫代理池](#爬虫代理池)
-- [伪数据](#伪数据)
 - [静态文件托管](#静态文件托管)
 - [CMS](#cms)
 - [PaaS](#paas)
@@ -226,10 +230,38 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [waline](https://github.com/walinejs/waline): 备选方案
   - [Artalk](https://github.com/ArtalkJS/Artalk): 备选方案
 - [Mastodon](https://github.com/mastodon/mastodon): 微博客社区
+- [rustdesk](https://github.com/rustdesk/rustdesk): 开源的远程控制软件 (VNC)。支持手机控制电脑，电脑控制手机。支持全平台、多语言。国产软件。
+  - [rustdesk-server](https://github.com/rustdesk/rustdesk-server): 自建中继服务器
+
+## 短信
+
+- [SmsForwarder](https://github.com/pppscn/SmsForwarder): 短信转发器（安卓系统）
+- 临时接收手机短信
+  - https://sms24.me/en/ (这个有中国号码，下面那些没有)
+  - https://jiemahao.com/
+  - https://yunduanxin.net/Countries/
+  - https://pingme.tel/receive-sms-online-cn/
 
 ## 统计数据
 
 - [国家统计局](http://www.stats.gov.cn/tjsj/)
+- [国家能源局](http://www.nea.gov.cn/)
+- [北京大学开放研究数据平台](https://opendata.pku.edu.cn/)
+
+### 地理数据
+
+- https://www.poi86.com/ : POI 数据
+
+### 网络数据
+
+## 伪数据
+
+- https://jsonplaceholder.typicode.com/
+- http://dummy.restapiexample.com/
+
+## 政务信息
+
+- [全国人大网](http://www.npc.gov.cn/)
 
 ## 数学
 
@@ -886,6 +918,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://dns.google/
 - https://www.nslookup.io/ : 查询 DNS 记录
 - [nali](https://github.com/zu1k/nali): 查询IP地理信息和CDN服务提供商的离线终端工具
+- https://dnsdumpster.com/ : 搜索子域名用，Domain Map 很好用
 
 ### HTTP
 
@@ -1239,16 +1272,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [proxy_pool](https://github.com/jhao104/proxy_pool)
 - https://proxy.mimvp.com/
 
-## 伪数据
-
-- https://jsonplaceholder.typicode.com/
-- http://dummy.restapiexample.com/
-- 临时接收手机短信
-  - https://sms24.me/en/ (这个有中国号码，下面那些没有)
-  - https://jiemahao.com/
-  - https://yunduanxin.net/Countries/
-  - https://pingme.tel/receive-sms-online-cn/
-
 ## 静态文件托管
 
 - http://surge.sh  Static web publishing for Front-End Developers. 设计非常优雅，强烈推荐！
@@ -1525,6 +1548,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [forecast](https://overcast.fm/forecast): MP3 metadata 编辑器。做播客会用到。 `Ⓜ`
 <a name="mpv"></a>
 - [mpv](https://github.com/mpv-player/mpv): 跨平台的媒体播放器，支持命令行
+  - [vlc](https://github.com/videolan/vlc): 备选方案
+- [iina](https://github.com/lhc70000/iina): 视频播放器。基于 [mpv][] 开发 `Ⓜ`
+- [HandBrake](https://github.com/HandBrake/HandBrake): 视频转码器
 
 ### 音乐
 
@@ -1612,6 +1638,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Bash-Snippets](https://github.com/alexanderepstein/Bash-Snippets): A collection of small bash scripts for heavy terminal users
 - [pipes.sh](https://github.com/pipeseroni/pipes.sh): 超级酷的终端屏保（管道主题）
 - [no-more-secrets](https://github.com/bartobri/no-more-secrets): 超级酷的终端数据解密特效
+- [福音戰士標題生成器](https://lab.magiconch.com/eva-title/)
 
 ### Game
 
