@@ -14,6 +14,10 @@
 
 <!-- /MarkdownTOC -->
 
+## 手机
+
+- [Device Specifications](https://www.devicespecifications.com/): 手机设备详细参数
+
 ## 嵌入式
 
 - [Yocto Project](https://www.yoctoproject.org): 自定义面向嵌入式设备的 Linux 系统。兼容各种硬件架构

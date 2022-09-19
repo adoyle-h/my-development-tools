@@ -61,7 +61,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [IDE 辅助工具](#ide-辅助工具)
 - [自动化](#自动化)
 - [下载工具](#下载工具)
-- [Terminal](#terminal)
+- [终端 Terminal](#终端-terminal)
 - [Shell](#shell)
     - [配色](#配色)
     - [Shell Script Development](#shell-script-development)
@@ -499,7 +499,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [youtube-dl](https://github.com/rg3/youtube-dl): 视频下载工具
 - [Motrix](https://github.com/agalwood/Motrix): 美观又强大的下载工具
 
-## Terminal
+## 终端 Terminal
 
 - [iTerm2](https://www.iterm2.com): Mac 系统，推荐用这个终端 `Ⓜ`
 - [Windows Terminal](https://github.com/microsoft/terminal): Windows 系统，推荐用这个终端 `ⓦ`

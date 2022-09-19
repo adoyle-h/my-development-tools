@@ -84,6 +84,7 @@
   - [depcheck](https://github.com/depcheck/depcheck): 备用方案。年久失修。
 - [yn](https://github.com/sindresorhus/yn): 判断值是否为 yes/no
 - [package-json](https://github.com/sindresorhus/package-json): Get metadata of a package from the npm registry. 支持私有 registry
+- [cjstoesm](https://github.com/wessberg/cjstoesm): A tool that can transform CommonJS to ESM
 
 ## 缓存
 
@@ -509,6 +510,7 @@
 - [import-modules](https://github.com/adoyle-h/import-modules/tree/adoyle): 加载指定目录下的所有文件
   - [import-all.macro](https://github.com/kentcdodds/import-all.macro): 针对 babel + import 的方案
 - [esm](https://github.com/standard-things/esm): 在 CJS 里加载 ESM
+- https://node.green/ : NodeJS 各版本的 ES Feature 支持列表
 
 ## 我关注的人/组
 

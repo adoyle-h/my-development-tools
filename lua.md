@@ -9,11 +9,13 @@
 - [inspect](https://github.com/kikito/inspect.lua): 查看变量结构
 - [sumneko lsp](https://github.com/sumneko/lua-language-server): Lua LSP Server
   - [Alloyed/lua-lsp](https://github.com/Alloyed/lua-lsp): 备选方案
+- [LuaFormatter](https://github.com/Koihik/LuaFormatter): sumneko lsp 也有 Format 功能，但这个的 Format 规则更多。虽然不是很理想。
 - [luacheck](https://github.com/mpeterv/luacheck): Lua Code Linter
 
 ## 测试
 
 - [busted](https://github.com/Olivine-Labs/busted): Lua 单元测试框架
+- [luassert](https://github.com/lunarmodules/luassert): assert 库
 
 ## 文档
 
