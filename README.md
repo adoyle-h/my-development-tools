@@ -35,7 +35,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [伪数据](#伪数据)
 - [政务信息](#政务信息)
 - [数学](#数学)
-- [ChatOps](#chatops)
 - [桌面应用开发](#桌面应用开发)
 - [Authorization](#authorization)
 - [开源项目](#开源项目)
@@ -95,7 +94,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [运维](#运维)
     - [Troubleshooting](#troubleshooting)
 - [文件同步/备份/快照](#文件同步备份快照)
-    - [云盘](#云盘)
 - [ISO 镜像制作与刻录](#iso-镜像制作与刻录)
 - [数据库/存储](#数据库存储)
     - [Embeddable DB](#embeddable-db)
@@ -103,6 +101,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [Database Versioning](#database-versioning)
 - [网络](#网络)
     - [防火墙](#防火墙)
+    - [IP](#ip)
     - [DNS](#dns)
     - [HTTP](#http-1)
     - [Websocket](#websocket)
@@ -138,7 +137,12 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Emoji](#emoji)
 - [命名](#命名)
 - [团队协作](#团队协作)
+    - [即时通讯](#即时通讯)
+- [ChatOps](#chatops)
 - [服务 (Service)](#服务-service)
+- [图床](#图床)
+- [网盘](#网盘)
+- [临时共享](#临时共享)
 - [爬虫代理池](#爬虫代理池)
 - [静态文件托管](#静态文件托管)
 - [CMS](#cms)
@@ -267,10 +271,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [中文数学 Wiki](https://math.fandom.com/zh/wiki/%E4%B8%AD%E6%96%87%E6%95%B0%E5%AD%A6_Wiki:%E4%B8%BB%E9%A1%B5)
 - [3Blue1Brown](https://space.bilibili.com/88461692)
-
-## ChatOps
-
-- [wechaty](https://github.com/wechaty/wechaty): 聊天机器人开发框架
 
 ## 桌面应用开发
 
@@ -615,8 +615,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - diff
   - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 着色增强工具，但只能用管道输出，仍需借助 diff 或 git diff 工具。
-    - [delta](https://github.com/dandavison/delta): 备选方案
-  - [icdiff](https://github.com/jeffkaufman/icdiff): 左右分栏 diff，外加着色。
+    - [delta](https://github.com/dandavison/delta): 语义化 Diff，功能丰富。Git 配置不友好
+    - [difftastic](https://github.com/Wilfred/difftastic): 基于 tree-sitter 的 diff。Git 配置不友好
   - [diff2html](https://github.com/rtfpessoa/diff2html): 将 diff 文件转成 HTML 页面的形式预览。非常漂亮
 - [exa](https://github.com/ogham/exa): much better `ls`
 - [z.lua](https://github.com/skywind3000/z.lua): 路径切换 cd 的增强版。支持多级模糊匹配，交互式搜索等功能
@@ -848,14 +848,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [backintime](https://github.com/bit-team/backintime): 备选方案
  - https://github.com/restic/others
 
-### 云盘
-
-- [阿里云盘](https://www.aliyundrive.com/)
-- [Dropbox](https://dropbox.com/)
-  - [Maestral](https://maestral.app/): 开源的 Dropbox 客户端。有 CLI 工具，支持 Linux。
-- [Nextcloud](https://github.com/nextcloud/server): 开源的网盘方案，客户端支持很多平台。用户体验很好，可与商业产品竞争。支持插件。
-- [Seafile](https://github.com/haiwen/seafile)
-
 ## ISO 镜像制作与刻录
 
 - mkisofs: 制作 ISO 镜像。Linux 命令
@@ -907,10 +899,17 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [ZBench](https://github.com/FunctionClub/ZBench): VPS 网络性能测评脚本
 - [Open vSwitch](https://github.com/openvswitch/ovs): 虚拟化交换机
 - [mininet](https://github.com/mininet/mininet): 在一台主机上创建任意的网络拓扑，用于做网络实验。
+- https://tool.chinaz.com/ : 网站网络状态排查工具 (国内)
+- https://check-host.net/ : 网站网络状态排查工具 (国外)
 
 ### 防火墙
 
 - [OpenSnitch](https://github.com/evilsocket/opensnitch): Linux 应用防火墙
+
+### IP
+
+- http://ping.pe/ : ip 信息查询
+- https://ifconfig.me/ : 查询当前出口 IP
 
 ### DNS
 
@@ -1242,30 +1241,49 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [airtable](https://www.airtable.com/): 商业方案，小团队免费
   - [nocodb](https://github.com/nocodb/nocodb): 备选方案。开源的
 
+### 即时通讯
+
+- [mattermost](https://github.com/mattermost/mattermost-server): slack 的开源替代品。即时聊天。
+
+## ChatOps
+
+- [wechaty](https://github.com/wechaty/wechaty): 聊天机器人开发框架
+
 ## 服务 (Service)
 
 - [PlantUML Gist](https://github.com/linux-china/plantuml-gist): 基于托管在 Gist 的 [PlantUML][] 在线生成 UML 图
-- [Pushbullet](https://www.pushbullet.com): 设备间消息推送
 - [在线 sed 编辑器](http://sed.js.org)
-- [codepile](https://www.codepile.net): 可协作式网页端编辑器
 - https://unicode-table.com/cn/
 - [Wikiwand](http://www.wikiwand.com/): Wikipedia Modernized。非常漂亮的 Wikipedia 阅读器
 - https://www.vectorizer.io/ : 位图转成矢量图 (SVG)
-- http://ping.pe/ : ip 信息查询
-  - https://ifconfig.me/ : 查询当前出口 IP
 - https://www.uuidgenerator.net/ : uuid 生成器
-- https://sm.ms/ : 免费公益的图床
-- https://cowtransfer.com/ : 临时文件分享，很好用。国内服务
 - https://extendsclass.com/ : 在线工具集合，有语法校验器，加/解密，格式转换，Diff 工具，各种生成器，前端压缩等工具。
 - https://travis-ci.com/ : CI 服务
 - https://www.clahub.com/ : CLA 签署服务，开源托管。[源码](https://github.com/clahub/clahub)
-- https://tool.chinaz.com/ : 网站网络状态排查工具 (国内)
-- https://check-host.net/ : 网站网络状态排查工具 (国外)
-- [mattermost](https://github.com/mattermost/mattermost-server): slack 的开源替代品。即时聊天。
 - [docker-nfs-server](https://github.com/ehough/docker-nfs-server): A lightweight, robust, flexible, and containerized NFS server.
 - https://alternativeto.net/ : 搜索软件或服务其他替代方案
+
+## 图床
+
+- https://sm.ms/ : 免费公益的图床
+- https://cloudinary.com/
+
+## 网盘
+
+- [阿里云盘](https://www.aliyundrive.com/)
+- [Dropbox](https://dropbox.com/)
+  - [Maestral](https://maestral.app/): 开源的 Dropbox 客户端。有 CLI 工具，支持 Linux。
+- [Nextcloud](https://github.com/nextcloud/server): 开源的网盘方案，客户端支持很多平台。用户体验很好，可与商业产品竞争。支持插件。
+- [Seafile](https://github.com/haiwen/seafile)
+- [Trainbit](https://trainbit.com/)
+
+## 临时共享
+
+- [奶牛快传](https://cowtransfer.com/) : 临时文件分享，很好用。国内服务
+- [transfer.sh](https://github.com/dutchcoders/transfer.sh)
 - https://snapdrop.net/ : 通过网页在局域网内端到端传输文件
   - [开源项目](https://github.com/RobinLinus/snapdrop)，可自己用 Docker 部署服务。
+- https://uploadpie.com/
 
 ## 爬虫代理池
 
