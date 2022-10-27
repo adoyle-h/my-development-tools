@@ -16,10 +16,11 @@
 
 - [busted](https://github.com/Olivine-Labs/busted): Lua 单元测试框架
 - [luassert](https://github.com/lunarmodules/luassert): assert 库
+- [vusted](https://github.com/notomo/vusted): A busted wrapper for testing neovim plugin
 
 ## 文档
 
 - [LDoc](https://github.com/lunarmodules/LDoc): [语法](https://stevedonovan.github.io/ldoc/manual/doc.md.html)
-- [SumnekoLSP - EmmyLua Annotations](https://github.com/sumneko/lua-language-server/wiki/EmmyLua-Annotations)
+- [SumnekoLSP - Annotations](https://github.com/sumneko/lua-language-server/wiki/Annotations)
 
 **[⬆ 返回顶部](#top)**

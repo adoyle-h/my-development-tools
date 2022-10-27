@@ -9,17 +9,20 @@
 
 <!-- MarkdownTOC GFM -->
 
+- [其他](#其他)
 - [测试](#测试)
 - [颜色](#颜色)
 - [参数解析](#参数解析)
 - [工具集](#工具集)
 - [Lint](#lint)
-- [静态检查](#静态检查)
+- [格式化 Formater](#格式化-formater)
 - [自动补全](#自动补全)
 - [日志](#日志)
 - [文件定位](#文件定位)
 
 <!-- /MarkdownTOC -->
+
+## 其他
 
 ## 测试
 
@@ -44,14 +47,16 @@
 - 形象解释shell 命令：[explainshell.com/](https://explainshell.com/)
 - [BASH CHEATSHEET (中文速查表) - by skywind](https://github.com/skywind3000/awesome-cheatsheets/blob/master/languages/bash.sh)
 - [lobash](https://github.com/adoyle-h/lobash): bash 专用的工具函数集合。类似 JS 的 Lodash。
+- [readlinkf](https://github.com/ko1nksm/readlinkf): 跨平台、POSIX 兼容的 `readlink -f`
+  - [bashup/realpaths](https://github.com/bashup/realpaths): 备选方案
 
 ## Lint
 
 - [shellcheck](https://github.com/koalaman/shellcheck): linux shell script lint
 
-## 静态检查
+## 格式化 Formater
 
-- [github.com/koalaman/shellcheck](https://github.com/koalaman/shellcheck)
+- [mvdan/sh](https://github.com/mvdan/sh)
 
 ## 自动补全
 

@@ -185,6 +185,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Steganography](#steganography)
 - [OCR](#ocr)
 - [Android](#android)
+- [截图/录屏](#截图录屏)
 - [视频/音频](#视频音频)
     - [音乐](#音乐)
 - [知识图谱](#知识图谱)
@@ -200,7 +201,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [中国特色](#中国特色)
 - [人文](#人文)
 - [Funny](#funny)
-    - [Game](#game)
+    - [游戏 Game](#游戏-game)
     - [教你搜索](#教你搜索)
 - [待评价](#待评价)
     - [机器学习](#机器学习)
@@ -236,6 +237,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Mastodon](https://github.com/mastodon/mastodon): 微博客社区
 - [rustdesk](https://github.com/rustdesk/rustdesk): 开源的远程控制软件 (VNC)。支持手机控制电脑，电脑控制手机。支持全平台、多语言。国产软件。
   - [rustdesk-server](https://github.com/rustdesk/rustdesk-server): 自建中继服务器
+- [Dub](https://github.com/steven-tey/dub): 开源的短链接服务，自带访问统计
 
 ## 短信
 
@@ -498,6 +500,13 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [BaiduExporter](https://github.com/acgotaku/BaiduExporter): 百度网盘助手
 - [youtube-dl](https://github.com/rg3/youtube-dl): 视频下载工具
 - [Motrix](https://github.com/agalwood/Motrix): 美观又强大的下载工具
+- https://youtube.iiilab.com/ : 下载 Youtube 视频，需要关注微信公众号
+  - https://snapsave.io/ : 支持 1080p，需要翻墙
+- https://bilibili.iiilab.com/ : 下载 B 站视频，需要关注微信公众号
+- https://twitter.iiilab.com/ : 下载 Twitter 视频/照片，需要关注微信公众号
+  - https://www.downloadtwittervideo.com/ : 需要翻墙
+- https://instagram.iiilab.com/ : 下载 Instagram 视频/照片，需要关注微信公众号
+- https://yunyinyue.iiilab.com/ : 下载网易云音乐的歌，需要关注微信公众号
 
 ## 终端 Terminal
 
@@ -620,6 +629,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [diff2html](https://github.com/rtfpessoa/diff2html): 将 diff 文件转成 HTML 页面的形式预览。非常漂亮
 - [exa](https://github.com/ogham/exa): much better `ls`
 - [z.lua](https://github.com/skywind3000/z.lua): 路径切换 cd 的增强版。支持多级模糊匹配，交互式搜索等功能
+  - [zoxide](https://github.com/ajeetdsouza/zoxide): 备选方案，rust 实现的
 - [bat](https://github.com/sharkdp/bat): better cat。自动代码着色，自带分页器，显示代码行，支持 diff，自动标记 git 变动，可显示不可见符号。
 - [multitail](https://github.com/flok99/multitail): 同时 tail 多个文件
 - [tree](http://mama.indstate.edu/users/ice/tree): Mac 没有 tree 命令
@@ -737,6 +747,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [httpie](https://github.com/jakubroztocil/httpie/): a CLI, cURL-like tool for humans
 - [htrace.sh](https://github.com/trimstray/htrace.sh): 「待评价」Swiss Army knife for http/https troubleshooting and profiling.
 - [Paw](https://paw.cloud): 模拟 HTTP 请求的 GUI 客户端  `Ⓜ`
+- [restcli](https://github.com/restcli/restcli): CLI for IntelliJ http-request.
+- [IntelliJ HTTP request syntax](https://www.jetbrains.com/help/idea/exploring-http-syntax.html#using_request_vars)
+
 
 ## 网站
 
@@ -1063,11 +1076,13 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - ASCII Art 样例库
   - http://www.ascii-fr.com/
   - https://asciiart.website/
+  - https://fsymbols.com/text-art/
 - [FIGlet](http://www.figlet.org/): ASCII Art 字体程序
   - [figlet-fonts](https://github.com/xero/figlet-fonts)
   - [figlet.js](https://github.com/patorjk/figlet.js)
   - [ascii-art](https://github.com/khrome/ascii-art): A Node.js library for ansi codes, figlet fonts, ascii art and other ASCII graphics
 - http://patorjk.com/software/taag/ 网页版
+- http://www.network-science.de/ascii/ : ASCII Art 网页版生成器
 
 ## 测试
 
@@ -1175,13 +1190,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Phoenix](https://github.com/fabiospampinato/phoenix): Mac 窗口管理器，用 JS 编程
   - [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Apple Script，用 Lua 脚本编写程序，支持键盘等事件监听 `Ⓜ`
   - [mjolnir](https://github.com/mjolnirapp/mjolnir)
-<a name="Monosnap"></a>
-- [CleanShot X](https://cleanshot.com/): 用户体验很优秀。价格略贵。支持截图/窗口截图/截屏/滚动截屏/录屏/录音/OCR 识别/标注
-  - [Monosnap](https://monosnap.com/welcome): 免费又强大的截图/截屏/录屏(支持 GIF 和 MP4)。不支持滚动截屏。
-  - [iShot](https://apps.apple.com/cn/app/ishot-%E6%88%AA%E5%9B%BE-%E9%95%BF%E6%88%AA%E5%9B%BE-%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7/id1485844094): 支持截图/截屏/滚动截屏/录屏/录音/OCR 识别/标注。过了试用期后能用，但是图片会带水印。
-  - Mac 系统自带截图工具。不支持滚动截屏，其他功能都有。Safari 支持滚动截屏。
-  - screencapture:  Mac 自带命令，截图/截屏工具。
-  - [Snipaste](https://zh.snipaste.com/): windows 截图/截屏工具 `ⓦ`
 - [Copyless](http://copyless.net): 系统剪切板管理器
 - [Yoink](http://eternalstorms.at/yoink/Yoink_-_Simplify_and_Improve_Drag_and_Drop_on_your_Mac/Yoink_-_Simplify_drag_and_drop_on_your_Mac.html): 临时桌面文件
 - [Noizio](http://noiz.io): 白噪音
@@ -1340,9 +1348,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 正则表达式 (Regex)
 
-- [正则表达式编辑器](http://www.regexr.com) `ⱳ`
-- [正则表达式可视化](https://regexper.com) `ⱳ`
-- [regex101](https://regex101.com/) `ⱳ`
+- https://regexr.com/ : 正则表达式编辑器。仅支持 JS/PHP
+  - https://regex101.com/ : 支持 JS/PHP/Python/Go/Java/C#
+- https://regexper.com : 正则表达式可视化 `ⱳ`
 - [Learn regex the easy way](https://github.com/ziishaned/learn-regex)
 - [grex](https://github.com/pemistahl/grex): 根据给出的文本，自动给出合适的正则表达式
 
@@ -1513,7 +1521,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [Caesium](https://github.com/Lymphatus/caesium-image-compressor): 开源的，跨平台，图像压缩工具
 - https://www.iloveimg.com/zh-cn : 在线压缩、调整大小、加水印、格式转换的图片处理服务
   - https://docsmall.com : GIF 压缩比很高
-- GIF Brewery 3: GIF 制作工具。App Store 内购买。 `Ⓜ`
+- [GIF Brewery 3](https://gfycat.com/gifbrewery): 视频转 GIF，GIF 编辑、裁减、压缩。App Store 内购买。 `Ⓜ`
 - [Gifski](https://github.com/sindresorhus/Gifski): 视频转 GIF。开源的。 `Ⓜ`
 - [pixelmatch](https://github.com/mapbox/pixelmatch): The smallest, simplest and fastest JavaScript pixel-level image comparison library
 - [libvips](https://github.com/libvips/libvips): A fast image processing library with low memory needs.
@@ -1554,10 +1562,18 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [termux-services](https://github.com/termux/termux-services): termux 默认没有 systemd 这类服务管理器，因此要装这个来支持服务管理。
 - [f-droid](https://www.f-droid.org/): 安卓开源应用市场
 
+## 截图/录屏
+
+- [CleanShot X](https://cleanshot.com/): 用户体验很优秀。价格略贵。支持截图/窗口截图/截屏/滚动截屏/录屏/录音/OCR 识别/标注
+- [Monosnap](https://monosnap.com/welcome): 免费又强大的截图/截屏/录屏(支持 GIF 和 MP4)。不支持滚动截屏。 <a name="Monosnap"></a>
+- [iShot](https://apps.apple.com/cn/app/ishot-%E6%88%AA%E5%9B%BE-%E9%95%BF%E6%88%AA%E5%9B%BE-%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7/id1485844094): 支持截图/截屏/滚动截屏/录屏/录音/OCR 识别/标注。过了试用期后能用，但是图片会带水印。
+- Mac 系统自带截图工具。不支持滚动截屏，其他功能都有。Safari 支持滚动截屏。
+- screencapture:  Mac 自带命令，截图/截屏工具。
+- [Snipaste](https://zh.snipaste.com/): windows 截图/截屏工具 `ⓦ`
+- [kap](https://github.com/wulkano/kap/): 用户体验很好的，开源的录屏工具，支持 GIF, MP4, WebM, APNG `Ⓜ` `⨀`
+
 ## 视频/音频
 
-- [Monosnap](#Monosnap): 支持 GIF 和 MP4 的录屏
-  - [kap](https://github.com/wulkano/kap/): 用户体验很好的，开源的录屏工具 `Ⓜ` `⨀`
 - [OBS](https://obsproject.com/): 非常好用的推流和录制工具。免费。
   - [源码 obsproject/obs-studio](https://github.com/obsproject/obs-studio)
 - [Sound Siphon](https://staticz.com/soundsiphon/): Mac 下最好用的音频录制工具。能创建虚拟输入设备。能把任何应用的音频输出转发到另一个应用上。价格有点贵。 `Ⓜ`
@@ -1658,8 +1674,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [no-more-secrets](https://github.com/bartobri/no-more-secrets): 超级酷的终端数据解密特效
 - [福音戰士標題生成器](https://lab.magiconch.com/eva-title/)
 
-### Game
+### 游戏 Game
 
+- [SteamTools](https://github.com/BeyondDimension/SteamTools): 「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。
 - [A Dark Room](https://github.com/doublespeakgames/adarkroom): 文字冒险游戏
 
 ### 教你搜索
