@@ -28,6 +28,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 <!-- MarkdownTOC depth=2 GFM -->
 
 - [其他](#其他)
+- [编译器](#编译器)
+- [财务](#财务)
 - [短信](#短信)
 - [统计数据](#统计数据)
     - [地理数据](#地理数据)
@@ -175,6 +177,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [文档](#文档)
     - [文档系统](#文档系统)
     - [文档处理](#文档处理)
+    - [文档排版](#文档排版)
     - [Markdown](#markdown)
     - [Changelog](#changelog)
     - [badges](#badges)
@@ -238,6 +241,23 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [rustdesk](https://github.com/rustdesk/rustdesk): 开源的远程控制软件 (VNC)。支持手机控制电脑，电脑控制手机。支持全平台、多语言。国产软件。
   - [rustdesk-server](https://github.com/rustdesk/rustdesk-server): 自建中继服务器
 - [Dub](https://github.com/steven-tey/dub): 开源的短链接服务，自带访问统计
+- [kaitai](https://github.com/kaitai-io/kaitai_struct): 可以用 YAML 描述二进制文件的格式，从而解析二进制文件提取出自己想要的信息。它根据 YAML 生成各种语言的库。
+  - https://kaitai.io/
+  - 有很多[应用场景](https://formats.kaitai.io/)。模型，归档文件，安装包，文件系统，字体，图片，数据库，日志，网络协议。
+  - Web IDE：https://ide.kaitai.io/
+
+## 编译器
+
+- [llvm](https://llvm.org/)
+- https://godbolt.org/ : 在线预览汇编码的工具，支持各种版本和架构下的 clang，gcc，甚至还能查看 wasm 指令。
+
+## 财务
+
+- [beancount](https://github.com/beancount/beancount): 复式记账语言，纯文本编辑，命令行操作，提供类似 SQL 的查询
+  - [参考](https://www.bmpi.dev/self/beancount-my-accounting-tool-v2/)
+  - [ledger](https://github.com/ledger/ledger): 备选方案
+- [fava](https://github.com/beancount/fava): beancount 的 Web 界面
+- [double-entry-generator](https://github.com/deb-sig/double-entry-generator): 根据支付宝、微信的账单生成 beancount 代码
 
 ## 短信
 
@@ -444,7 +464,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [oni](https://github.com/onivim/oni): Neovim GUI 编辑器
   - [vimspector](https://github.com/puremourning/vimspector): A multi-language debugging system for Vim
   - [vim colors chemes](https://vimcolorschemes.com/)
-  - [nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide)
+  - [nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide): nvim 编程圣经
   - [awesome-neovim](https://github.com/rockerBOO/awesome-neovim)
 - [Visual Studio Code](https://github.com/Microsoft/vscode): 可能是最棒的开源 IDE
   - [code-settings-sync](https://github.com/shanalikhan/code-settings-sync): VSC 设置备份同步工具
@@ -675,6 +695,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ### YAML
 
+- [yaml-sucks](https://github.com/cblp/yaml-sucks): YAML 的缺点列表
 - http://yaml-online-parser.appspot.com/
 - [yq](https://github.com/mikefarah/yq): 类似 jq
 
@@ -1008,6 +1029,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [git-history](https://github.com/pomber/git-history): 可视化单个文件的 diff
 - [git-secret](https://github.com/sobolevn/git-secret): 将敏感信息加密再存储到 Git
   - [blackbox](https://github.com/StackExchange/blackbox): 支持 Git/Mercurial/Subversion
+  - [git-crypt](https://github.com/AGWA/git-crypt): 备选方案
 
 ## Chrome
 
@@ -1486,6 +1508,14 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [carbon](https://github.com/dawnlabs/carbon): 代码转成图片
 - [mdx](https://github.com/mdx-js/mdx): Markdown + JSX = MDX。支持模块导入和导出，支持 React 组件。写 Web 文档利器。
 - [盤古之白](https://github.com/vinta/pangu.js): 给文档加空格
+  - https://github.com/vinta/pangu.space : Web API
+
+### 文档排版
+
+- [中文排版需求](https://www.w3.org/TR/clreq/)
+  - https://github.com/w3c/clreq
+- [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
+- [赫蹏（hètí）](https://github.com/sivan/heti): css 样式
 
 ### Markdown
 

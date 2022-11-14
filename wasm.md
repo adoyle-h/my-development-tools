@@ -32,6 +32,8 @@
   - [wasmtime](https://github.com/bytecodealliance/wasmtime): 备选方案
 - https://webassembly.sh/ : wasm 浏览器运行终端
 - [wasmer-js](https://github.com/wasmerio/wasmer-js): wasm 模块 JS 工具包。
+- [WasmEdge](https://wasmedge.org/)
+  - [docker 已支持 wasm 容器](https://www.docker.com/blog/docker-wasm-technical-preview/)
 
 ## 包管理器
 

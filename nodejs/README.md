@@ -384,6 +384,7 @@
 没有好用的 ORM
 
 - [js-data](https://github.com/js-data/js-data)
+- [prisma](https://github.com/prisma/prisma): 待评价
 
 ## AST
 

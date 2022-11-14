@@ -24,6 +24,8 @@
 
 ## 其他
 
+- [docopt](http://docopt.org/): 如何写命令的 help 文档
+
 ## 测试
 
 - [bats-core](https://github.com/bats-core/bats-core): 现代化的 Bash 测试框架

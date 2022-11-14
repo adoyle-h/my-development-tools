@@ -11,6 +11,12 @@
   - [Alloyed/lua-lsp](https://github.com/Alloyed/lua-lsp): 备选方案
 - [LuaFormatter](https://github.com/Koihik/LuaFormatter): sumneko lsp 也有 Format 功能，但这个的 Format 规则更多。虽然不是很理想。
 - [luacheck](https://github.com/mpeterv/luacheck): Lua Code Linter
+- [luvit](https://github.com/luvit/luvit): Lua + libUV + jIT
+- [luv](https://github.com/luvit/luv): Bare libuv bindings for lua
+
+## 编译
+
+- [luajit](http://luajit.org/)
 
 ## 测试
 
