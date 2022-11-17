@@ -9,6 +9,10 @@
 
 - [其他](#其他)
 - [开发必备](#开发必备)
+- [DAP](#dap)
+- [Code Generator](#code-generator)
+- [Formater](#formater)
+- [Linter](#linter)
 - [Cheatsheet](#cheatsheet)
 - [Logger](#logger)
 - [错误处理](#错误处理)
@@ -34,11 +38,26 @@
 - https://pkg.go.dev
 - [gopls](https://github.com/golang/tools/tree/master/gopls): an LSP server for Go
 - [godef](https://github.com/rogpeppe/godef): find symbol information in Go source
-- [golint](https://github.com/golang/lint): Linter，格式固定唯一，不可扩展
-- [golangci-lint](https://golangci-lint.run/): 易扩展的 Linter。配合 golint 一起使用。
+
+## DAP
+
+- [delve](https://github.com/go-delve/delve): a debugger for the Go
+
+## Code Generator
+
+- [stringer](https://pkg.go.dev/golang.org/x/tools/cmd/stringer): `String()` 方法的代码生成器
+
+## Formater
+
 - [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports): `go get golang.org/x/tools/cmd/goimports`. 自动化加入 import，或去除 import 里未使用的包。同时也会自动格式化代码，类似 gofmt。
 - [gofmt](https://golang.org/cmd/gofmt/): 格式化代码用
-- [stringer](https://pkg.go.dev/golang.org/x/tools/cmd/stringer): `String()` 方法的代码生成器
+
+## Linter
+
+- [golangci-lint](https://golangci-lint.run/): a Go linters aggregator.
+- [golint](https://github.com/golang/lint): Linter，格式固定唯一，无选项。
+- [Staticcheck](https://github.com/dominikh/go-tools): Using static analysis, it finds bugs and performance issues, offers simplifications, and enforces style rules.
+- [revive](https://github.com/mgechev/revive): ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint
 
 ## Cheatsheet
 

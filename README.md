@@ -5,7 +5,7 @@
 只记录我在用的工具，所以
 
 1. 当我不用了或者找到更好的替代品，会移除掉旧记录。
-2. 不接受 Pull Request，有问题可以提 Issue。
+2. 不接受 Pull Request，有问题可以在 [Discussions](https://github.com/adoyle-h/my-development-tools/discussions) 交流。
 
 ## 版权声明 (Copyright and License)
 
@@ -24,6 +24,9 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - `ⓒ` 表示 Chrome 插件；
 
 ## TOC
+
+<details close>
+<summary>点击展开/折叠目录</summary>
 
 <!-- MarkdownTOC depth=2 GFM -->
 
@@ -45,6 +48,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [RFC](#rfc)
 - [License](#license)
 - [Github](#github)
+    - [Github Pages](#github-pages)
+    - [Github Actions](#github-actions)
     - [界面交互](#界面交互)
     - [Github App](#github-app)
 - [SVG](#svg)
@@ -67,8 +72,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [配色](#配色)
     - [Shell Script Development](#shell-script-development)
 - [Cheatsheet](#cheatsheet)
+- [diff](#diff)
+    - [image diff](#image-diff)
 - [CLI](#cli)
-- [Commands in Docker](#commands-in-docker)
+    - [Commands in Docker](#commands-in-docker)
     - [Builtin Commands](#builtin-commands)
     - [Builtin Command Alternatives](#builtin-command-alternatives)
     - [进程](#进程)
@@ -212,6 +219,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 <!-- /MarkdownTOC -->
 
+</details>
+
 ## 其他
 
 - [hashcat](https://github.com/hashcat/hashcat): 很快的密码破解工具
@@ -351,14 +360,28 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://ghproxy.com/ : GitHub 文件, Releases, archive, gist, raw.githubusercontent.com 文件代理加速下载服务
   - 就是个重定向，实际用的是 cnpm 提供的服务 https://github.com.cnpmjs.org/
   - 备用方案 https://fastgit.org/
-- [actions-toolkit](https://github.com/JasonEtco/actions-toolkit): A toolkit for building GitHub Actions in Node.js
 - [Astral](https://app.astralapp.com): Github Star 管理器。`ⱳ`
 - [all-contributors](https://github.com/all-contributors/all-contributors): 用 `.all-contributorsrc` 文件记录项目维护者列表。
 - [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 生成 Github contributions 图片。类似的还有 [git-cal][]
   - [API](https://github.com/sallar/github-contributions-api)
 - [github-issue-templates](https://github.com/stevemao/github-issue-templates): GitHub Issue 与 PR 的模板
   - [awesome-github-templates](https://github.com/devspace/awesome-github-templates)
-- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
+- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats): 获取动态生成的 GitHub 统计信息
+- [upptime](https://github.com/upptime/upptime):
+  - GitHub Actions is used as an uptime monitor
+  - GitHub Issues is used for incident reports
+  - GitHub Pages is used for the status website
+
+### Github Pages
+
+- [just-the-docs](https://github.com/just-the-docs/just-the-docs): A modern, high customizable, responsive Jekyll theme for documentation with built-in search.
+- [jekyll-toc](https://github.com/allejo/jekyll-toc): 给 Github Page 的 jekyll 主题增加 TOC
+- [online-cv](https://github.com/sharu725/online-cv): A minimal Jekyll Theme to host your resume (CV)
+
+### Github Actions
+
+- [actions-toolkit](https://github.com/JasonEtco/actions-toolkit): A toolkit for building GitHub Actions in Node.js
+- [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages): 生成 Github Page 的 action
 
 ### 界面交互
 
@@ -578,6 +601,21 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [cheat.sh](https://github.com/chubin/cheat.sh): cheatsheet 服务，可通过 curl 获取内容，内容由社区维护。
 - [linux-cheat](https://github.com/cirosantilli/linux-cheat): Linux user-land CLI utilities
 
+## diff
+
+- diff: linux 内置命令
+- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 着色增强工具，但只能用管道输出，仍需借助 diff 或 git diff 工具。
+  - [delta](https://github.com/dandavison/delta): 语义化 Diff，功能丰富。Git 配置不友好
+  - [difftastic](https://github.com/Wilfred/difftastic): 基于 tree-sitter 的 diff。Git 配置不友好
+- [diff2html](https://github.com/rtfpessoa/diff2html): 将 diff 文件转成 HTML 页面的形式预览。非常漂亮
+- [Kaleidoscope](http://www.kaleidoscopeapp.com): Diff GUI 软件。支持比较文本、图片、目录 `Ⓜ`
+
+### image diff
+
+- https://www.diffchecker.com/image-diff/ : 在线服务，图片 diff
+- [pixelmatch](https://github.com/mapbox/pixelmatch)
+  - [image-diff](https://github.com/uber-archive/image-diff)
+
 ## CLI
 
 - https://command-not-found.com/ : 如果找不到命令，可以快速搜索到对应的安装方式。
@@ -606,7 +644,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [sshpass](https://github.com/kevinburke/sshpass): 通过编程方式在 ssh 时输入用户名和密码。不安全，勿用在生产环境。
 - [hhighlighter](https://github.com/paoloantinori/hhighlighter): 用不同颜色高亮多个匹配字符串
 
-## Commands in Docker
+### Commands in Docker
 
 - `docker pull pygmy/pgcli` https://hub.docker.com/r/pygmy/pgcli
 - `docker pull adoyle/mycli` https://hub.docker.com/r/adoyle/mycli
@@ -642,11 +680,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 当想调用原生的命令时，但是存在同名的 alias 或者 function，比如 `alias cat=ccat`，可以使用 `\cat` 或者 `command cat` 调用原生命令。
 详见这篇文章: https://stackoverflow.com/a/16506263/4622308
 
-- diff
-  - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 着色增强工具，但只能用管道输出，仍需借助 diff 或 git diff 工具。
-    - [delta](https://github.com/dandavison/delta): 语义化 Diff，功能丰富。Git 配置不友好
-    - [difftastic](https://github.com/Wilfred/difftastic): 基于 tree-sitter 的 diff。Git 配置不友好
-  - [diff2html](https://github.com/rtfpessoa/diff2html): 将 diff 文件转成 HTML 页面的形式预览。非常漂亮
 - [exa](https://github.com/ogham/exa): much better `ls`
 - [z.lua](https://github.com/skywind3000/z.lua): 路径切换 cd 的增强版。支持多级模糊匹配，交互式搜索等功能
   - [zoxide](https://github.com/ajeetdsouza/zoxide): 备选方案，rust 实现的
@@ -919,7 +952,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [flyway](https://github.com/flyway/flyway): 用 Java 写的，支持 SQL 和 Java 写 migration。没有 revert 概念。
 - [gh-ost](https://github.com/github/gh-ost): 与 flyway 不一样的实现方案，创建 shadow/ghost 表来作 schema migration。功能丰富。不基于 trigger，基于 bin-log。
-- [migrate](https://github.com/mattes/migrate): 用 Go 写的，支持 SQL。缺乏文档和样例。备选
+- [migrate](https://github.com/golang-migrate/migrate): 用 Go 写的，支持 SQL，支持命令行和 Go 编程。
 - [sql-migrate](https://github.com/rubenv/sql-migrate): 用 Go 写的。备选
 
 ## 网络
@@ -1175,6 +1208,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 翻译
 
+- [translate-shell](https://github.com/soimort/translate-shell): Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
 - [Poedit](https://poedit.net): .po 翻译软件 `Ⓜ`。价格太贵，大版本升级坑。暂无替代方案
 - [OpenCC](https://github.com/BYVoid/OpenCC): 中文简体与繁体转换
 - https://www.deepl.com/ : 基于 AI 的翻译器
@@ -1201,7 +1235,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [mas](https://github.com/mas-cli/mas): 用命令操作 Mac App Store
 - [gnu-sed](http://sed.sourceforge.net): gnu 版本的 sed  #brew
 - [gnupg2](https://www.gnupg.org): gpg 加密
-- [Kaleidoscope](http://www.kaleidoscopeapp.com): Diff GUI 软件 `Ⓜ`
+- [Kaleidoscope](http://www.kaleidoscopeapp.com): Diff GUI 软件。支持比较文本、图片、目录 `Ⓜ`
 - [Bartender](https://www.macbartender.com): Mac 菜单栏折叠 `Ⓜ`
 - [iStat Menus](https://bjango.com/mac/istatmenus): Mac 系统状态监控 `Ⓜ`
   - [stats](https://github.com/exelban/stats): 开源替代方案
