@@ -124,6 +124,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Chrome](#chrome)
     - [Chrome 主题](#chrome-主题)
     - [Chrome 插件](#chrome-插件)
+- [Bookmarklet](#bookmarklet)
 - [画图](#画图)
     - [ASCII Art](#ascii-art)
 - [测试](#测试)
@@ -223,6 +224,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 其他
 
+- https://www.compart.com/en/unicode : 找 unicode 字符
 - [hashcat](https://github.com/hashcat/hashcat): 很快的密码破解工具
 - [irssi](https://github.com/irssi/irssi): IRC Client
 - [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息`Ⓛ` `Ⓜ`
@@ -331,9 +333,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## Semver
 
 - [semver-diff](https://github.com/sindresorhus/semver-diff): semver 比较
-- [standard-version](https://github.com/conventional-changelog/standard-version): Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org
-  - conventional-changelog 的 [.versionrc 配置](https://github.com/conventional-changelog/conventional-changelog-config-spec/)
-  - [semantic-release](https://github.com/semantic-release/semantic-release): 备选方案
 - https://semver.npmjs.com/ : npm semver calculator
 - [semver-tool](https://github.com/fsaintjacques/semver-tool): 纯 Bash 实现的 Semver 可执行命令
 - [commitlint][]
@@ -360,7 +359,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://ghproxy.com/ : GitHub 文件, Releases, archive, gist, raw.githubusercontent.com 文件代理加速下载服务
   - 就是个重定向，实际用的是 cnpm 提供的服务 https://github.com.cnpmjs.org/
   - 备用方案 https://fastgit.org/
-- [Astral](https://app.astralapp.com): Github Star 管理器。`ⱳ`
 - [all-contributors](https://github.com/all-contributors/all-contributors): 用 `.all-contributorsrc` 文件记录项目维护者列表。
 - [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 生成 Github contributions 图片。类似的还有 [git-cal][]
   - [API](https://github.com/sallar/github-contributions-api)
@@ -371,6 +369,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - GitHub Actions is used as an uptime monitor
   - GitHub Issues is used for incident reports
   - GitHub Pages is used for the status website
+- [gh](https://github.com/cli/cli): Github CLI
+  - [gh-actions-cache](https://github.com/actions/gh-actions-cache): 操作 github action cache 的 CLI 插件
 
 ### Github Pages
 
@@ -380,8 +380,16 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ### Github Actions
 
+- [act](https://github.com/nektos/act): Run your GitHub Actions locally
+- [starter-workflows](https://github.com/actions/starter-workflows): github actions 入门样例
+- [github-actions/expressions](https://docs.github.com/cn/actions/learn-github-actions/expressions)
+- [actions/runner](https://github.com/actions/runner): github action runner
 - [actions-toolkit](https://github.com/JasonEtco/actions-toolkit): A toolkit for building GitHub Actions in Node.js
 - [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages): 生成 Github Page 的 action
+- https://github.com/actions/checkout : checkout Git 仓库
+https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文件
+- https://github.com/actions/cache : 缓存
+- https://github.com/actions/runner-images
 
 ### 界面交互
 
@@ -576,7 +584,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [bash-it](https://github.com/Bash-it/bash-it): Bash 脚本管理框架
 - [dotbot](https://github.com/anishathalye/dotbot): dotfile 管理框架
 - [PathPicker](https://github.com/facebook/PathPicker): 「待评价」多条记录选择器。不是很好用
-- [a-bash-prompt](https://github.com/adoyle-h/a-bash-prompt): 很漂亮的 bash 专用的 prompt。另外 zsh 专用的 prompt 有 [pure](https://github.com/sindresorhus/pure)
+- [starship](https://github.com/starship/starship): 漂亮且快速，功能丰富且支持自定义的 prompt。支持很多种 shell。rust 实现的。
+  - [a-bash-prompt](https://github.com/adoyle-h/a-bash-prompt): 备选方案。bash 专用的 prompt。纯 bash 实现的。
+  - [pure](https://github.com/sindresorhus/pure): zsh 专用的 prompt
+- [ble.sh](https://github.com/akinomyoga/ble.sh): 让 bash 也拥有 zsh 那样的语法高亮、自动补全等功能。超强！
 - [bash-preexec](https://github.com/rcaloras/bash-preexec): preexec and precmd hook functions for Bash in the style of Zsh.
 - [direnv](https://github.com/direnv/direnv): 根据当前目录自动执行命令，比如设置一些环境变量什么的，切出目录环境变量会自动变回去
   - [autoenv](https://github.com/kennethreitz/autoenv): README 挺幽默的
@@ -604,6 +615,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## diff
 
 - diff: linux 内置命令
+- diffstat: linux 内置命令 `diff -u | diffstat -C`
 - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 着色增强工具，但只能用管道输出，仍需借助 diff 或 git diff 工具。
   - [delta](https://github.com/dandavison/delta): 语义化 Diff，功能丰富。Git 配置不友好
   - [difftastic](https://github.com/Wilfred/difftastic): 基于 tree-sitter 的 diff。Git 配置不友好
@@ -813,6 +825,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://archive.ph/ : 永久保存网页内容。保存的页面来自用户提交的，不做自动抓取。生成短链接
   - https://archive.org/ : 永久保存网页内容。保存的页面来自用户提交的和自动抓取的。生成链接很长
   - https://perma.cc/ : 备用方案
+- [ArchiveBox](https://github.com/ArchiveBox/ArchiveBox): 自己搭建 Archive 网站。
 - [sitemap.js](https://github.com/ekalinin/sitemap.js): 生成 sitemap 的工具
 - [Favicon 生成器](https://realfavicongenerator.net/)
 - [rrweb](https://github.com/rrweb-io/rrweb): 网页浏览录制和回放
@@ -1103,8 +1116,16 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [uBlock](https://github.com/uBlock-LLC/uBlock): 跟 AdBlock 功能类似。开源的。
 - [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg): 截图插件
 
+## Bookmarklet
+
+- https://mcdlr.com/css-inject/
+- https://mcdlr.com/js-inject/
+- https://adrianroselli.com/2015/01/css-bookmarklets-for-testing-and-fixing.html
+- https://css-tricks.com/web-development-bookmarklets/
+
 ## 画图
 
+- [d2](https://github.com/terrastruct/d2): D2 is a modern diagram scripting language that turns text to diagrams.
 <a name="PlantUML"></a>
 - [PlantUML](https://github.com/plantuml/plantuml): 用代码画 UML 图或流程图
   - [node-plantuml](https://github.com/markushedvall/node-plantuml): node 命令行 [PlantUML][]
@@ -1326,6 +1347,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://www.clahub.com/ : CLA 签署服务，开源托管。[源码](https://github.com/clahub/clahub)
 - [docker-nfs-server](https://github.com/ehough/docker-nfs-server): A lightweight, robust, flexible, and containerized NFS server.
 - https://alternativeto.net/ : 搜索软件或服务其他替代方案
+- https://sesme.co/ : 阅后即焚
 
 ## 图床
 
@@ -1561,6 +1583,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ### Changelog
 
 - http://keepachangelog.com/  Changelog 书写规约
+- [release-please](https://github.com/googleapis/release-please): 结合 Github Action 自动执行：生成 Changelog，打 tag，发 Release
+- [git-chglog](https://github.com/git-chglog/git-chglog): CHANGELOG generator implemented in Go
+- [standard-version](https://github.com/conventional-changelog/standard-version): Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org (现在无人维护)
+  - conventional-changelog 的 [.versionrc 配置](https://github.com/conventional-changelog/conventional-changelog-config-spec/)
+  - [semantic-release](https://github.com/semantic-release/semantic-release): 备选方案
 
 ### badges
 
