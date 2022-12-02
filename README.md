@@ -1348,6 +1348,8 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 - [docker-nfs-server](https://github.com/ehough/docker-nfs-server): A lightweight, robust, flexible, and containerized NFS server.
 - https://alternativeto.net/ : 搜索软件或服务其他替代方案
 - https://sesme.co/ : 阅后即焚
+- https://github.com/zu1k/zlib-searcher
+  - https://zlib.knat.network/
 
 ## 图床
 
