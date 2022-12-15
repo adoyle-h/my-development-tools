@@ -48,9 +48,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [RFC](#rfc)
 - [License](#license)
 - [Github](#github)
+    - [Github Badages](#github-badages)
     - [Github Pages](#github-pages)
     - [Github Actions](#github-actions)
-    - [界面交互](#界面交互)
+    - [Github UI](#github-ui)
     - [Github App](#github-app)
 - [SVG](#svg)
 - [代码质量检查](#代码质量检查)
@@ -188,7 +189,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [文档排版](#文档排版)
     - [Markdown](#markdown)
     - [Changelog](#changelog)
-    - [badges](#badges)
 - [Hash](#hash)
 - [图像处理](#图像处理)
 - [视频处理](#视频处理)
@@ -201,13 +201,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [音乐](#音乐)
 - [知识图谱](#知识图谱)
 - [互联网关键词趋势](#互联网关键词趋势)
-- [自然语言处理 (NLP)](#自然语言处理-nlp)
-    - [Corpus 语料库](#corpus-语料库)
-    - [信息提取 (Information Extraction)](#信息提取-information-extraction)
-    - [Word Segment 分词](#word-segment-分词)
-    - [自然语言生成 (NLG)](#自然语言生成-nlg)
-- [语音识别](#语音识别)
-    - [语音转文字](#语音转文字)
+- [机器学习](#机器学习)
 - [运营](#运营)
 - [中国特色](#中国特色)
 - [人文](#人文)
@@ -215,7 +209,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [游戏 Game](#游戏-game)
     - [教你搜索](#教你搜索)
 - [待评价](#待评价)
-    - [机器学习](#机器学习)
 - [别人的工具列表](#别人的工具列表)
 
 <!-- /MarkdownTOC -->
@@ -256,11 +249,14 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - https://kaitai.io/
   - 有很多[应用场景](https://formats.kaitai.io/)。模型，归档文件，安装包，文件系统，字体，图片，数据库，日志，网络协议。
   - Web IDE：https://ide.kaitai.io/
+- [neofetch](https://github.com/dylanaraps/neofetch): 终端中打印系统信息，纯 Bash 实现。
 
 ## 编译器
 
 - [llvm](https://llvm.org/)
 - https://godbolt.org/ : 在线预览汇编码的工具，支持各种版本和架构下的 clang，gcc，甚至还能查看 wasm 指令。
+- `make` 与 `makefile`: 缺点是不能跨平台，优点是调用 shell 命令很简单
+- [xmake](https://github.com/xmake-io/xmake): 基于 Lua 的轻量级跨平台构建工具
 
 ## 财务
 
@@ -364,13 +360,21 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [API](https://github.com/sallar/github-contributions-api)
 - [github-issue-templates](https://github.com/stevemao/github-issue-templates): GitHub Issue 与 PR 的模板
   - [awesome-github-templates](https://github.com/devspace/awesome-github-templates)
-- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats): 获取动态生成的 GitHub 统计信息
 - [upptime](https://github.com/upptime/upptime):
   - GitHub Actions is used as an uptime monitor
   - GitHub Issues is used for incident reports
   - GitHub Pages is used for the status website
 - [gh](https://github.com/cli/cli): Github CLI
   - [gh-actions-cache](https://github.com/actions/gh-actions-cache): 操作 github action cache 的 CLI 插件
+- [github-star-stats](https://github.com/zerosoul/github-star-stats): 显示项目 Star 数量历史曲线
+
+### Github Badages
+
+- http://shields.io
+- https://github.com/Ileriayo/markdown-badges
+- https://forthebadge.com/
+- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats): 获取动态生成的 GitHub 统计信息
+- [github-profile-views-counter](https://github.com/antonkomarev/github-profile-views-counter): Github 访问量统计
 
 ### Github Pages
 
@@ -391,7 +395,7 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 - https://github.com/actions/cache : 缓存
 - https://github.com/actions/runner-images
 
-### 界面交互
+### Github UI
 
 - [octotree](https://github.com/buunguyen/octotree): Github 文件浏览器。`ⓒ`
 - [Git Master](https://github.com/ineo6/git-master): 很多功能。支持 GitHub、GitLab、Gitee、Gitea、Gogs
@@ -1115,6 +1119,7 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
   - http://abpchina.org/forum/forum.php : AdBlock 中文社区
 - [uBlock](https://github.com/uBlock-LLC/uBlock): 跟 AdBlock 功能类似。开源的。
 - [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg): 截图插件
+- [ChatGPT Google 插件](https://github.com/wong2/chat-gpt-google-extension)
 
 ## Bookmarklet
 
@@ -1207,6 +1212,9 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 ## 编码
 
 - https://www.punycoder.com/ : Punycode
+- [leet](https://www.wikiwand.com/en/Leet)
+  - https://1337.me/
+  - https://www.gamehouse.com/blog/leet-speak-cheat-sheet/
 
 ## 知识管理
 
@@ -1560,11 +1568,10 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 ### 文档处理
 
 - [pandoc](https://pandoc.org/): 各种格式的文档转换工具
-- [unified](https://github.com/unifiedjs/unified): https://unified.js.org/
-- [remark](https://github.com/remarkjs/remark): markdown processor
+<a name="unified"></a>
+- [unified](https://github.com/unifiedjs/unified): interface for parsing, inspecting, transforming, and serializing content through syntax trees
 - [rehype](https://github.com/rehypejs/rehype): HTML processor
 - [carbon](https://github.com/dawnlabs/carbon): 代码转成图片
-- [mdx](https://github.com/mdx-js/mdx): Markdown + JSX = MDX。支持模块导入和导出，支持 React 组件。写 Web 文档利器。
 - [盤古之白](https://github.com/vinta/pangu.js): 给文档加空格
   - https://github.com/vinta/pangu.space : Web API
 
@@ -1581,6 +1588,10 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
   - [vmd](https://github.com/yoshuawuyts/vmd): Markdown 即时渲染应用。备选方案
 - [json2md](https://github.com/IonicaBizau/json2md): 非常灵活的 Markdown 生成工具，容易自己定制功能
 - [markdown-toc](https://github.com/jonschlinkert/markdown-toc): 根据 markdown heading 文本输出 TOC
+- [unified](#unified)
+  - [marked](https://github.com/markedjs/marked): 备用方案
+- [remark](https://github.com/remarkjs/remark): markdown processor
+- [mdx](https://github.com/mdx-js/mdx): Markdown + JSX = MDX。支持模块导入和导出，支持 React 组件。写 Web 文档利器。
 
 ### Changelog
 
@@ -1590,12 +1601,6 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 - [standard-version](https://github.com/conventional-changelog/standard-version): Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org (现在无人维护)
   - conventional-changelog 的 [.versionrc 配置](https://github.com/conventional-changelog/conventional-changelog-config-spec/)
   - [semantic-release](https://github.com/semantic-release/semantic-release): 备选方案
-
-### badges
-
-- [forthebadge](http://forthebadge.com/)
-- [shields.io](http://shields.io): 徽章
-- [boennemann/badges](https://github.com/boennemann/badges)
 
 ## Hash
 
@@ -1639,10 +1644,7 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 
 - [stego-toolkit](https://github.com/DominicBreuker/stego-toolkit): 这套隐写工具集很棒，集成了 mp3、wav、纯文本、png、jpg 隐写到图片里
 
-## OCR
-
-- [tesseract](https://github.com/tesseract-ocr/tesseract): 开源 OCR 引擎
-- [tesseract.js](https://github.com/naptha/tesseract.js): 用 JS 重新实现的 tesseract
+## [OCR](./ML/README.md#ocr)
 
 ## Android
 
@@ -1691,39 +1693,7 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 
 - [Google Trends](https://trends.google.com/trends/)
 
-## 自然语言处理 (NLP)
-
-- https://github.com/apachecn/AiLearning
-- https://github.com/crownpku/Awesome-Chinese-NLP
-- [HanLP](https://github.com/hankcs/HanLP): 一系列中文信息处理的工具库
-- [fastNLP](https://github.com/fastnlp/fastNLP): A Modularized and Extensible NLP Framework
-- [小明 NLP](https://github.com/SeanLee97/xmnlp): 提供中文分词, 词性标注, 拼写检查，文本转拼音，情感分析，文本摘要，偏旁部首
-
-### Corpus 语料库
-
-- https://github.com/search?q=Corpus&ref=opensearch&s=stars
-
-### 信息提取 (Information Extraction)
-
-- https://prodi.gy/ : 界面和功能很强大
-- [snorkel](https://github.com/HazyResearch/snorkel): A system for rapidly creating, modeling, and managing training data with weak supervision
-- [Information-Extraction-Chinese](https://github.com/crownpku/Information-Extraction-Chinese): 中文实体识别与关系提取
-- [YEDDA](https://github.com/jiesutd/YEDDA): 支持中文
-- [funNLP](https://github.com/fighting41love/funNLP): 一系列信息提取的工具库
-- [UBIAI](https://ubiai.tools/): Easy-to-use text annotation tool for teams with most comprehensive auto-annotation features. Supports NER, relations and document classification as well as OCR annotation for invoice labeling.
-
-### Word Segment 分词
-
-### 自然语言生成 (NLG)
-
-## 语音识别
-
-### 语音转文字
-
-- [科大讯飞听见](https://www.iflyrec.com/)
-- [网易见外](https://sight.youdao.com/)
-- [mozilla/DeepSpeech](https://github.com/mozilla/DeepSpeech)
-- [coqui-ai/STT](https://github.com/coqui-ai/STT)
+## [机器学习](./ML/README.md)
 
 ## 运营
 
@@ -1784,13 +1754,6 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 - [Inklet](https://tenonedesign.com/inklet.php): 让 Mac 触摸板变成画图板
 - [node-travisjs](https://github.com/finnp/node-travisjs): Travis CLI 工具
 - [peco](https://github.com/peco/peco): 类似 fzf
-
-### 机器学习
-
-- [tensorflow](https://github.com/tensorflow/tensorflow)
-  - [tfjs](https://github.com/tensorflow/tfjs): TensorFlow JS 库
-- [pytorch](https://github.com/pytorch/pytorch)
-- [autokeras](https://github.com/jhfjhfj1/autokeras): AutoML
 
 -----
 

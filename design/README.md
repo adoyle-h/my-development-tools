@@ -202,6 +202,7 @@
 #### 无衬线中文
 
 - PingFang CS
+- [得意黑 Smiley Sans](https://github.com/atelier-anchor/smiley-sans)
 
 ## 像素风格 8-Bit
 
