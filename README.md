@@ -208,7 +208,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Funny](#funny)
     - [游戏 Game](#游戏-game)
     - [教你搜索](#教你搜索)
-- [待评价](#待评价)
 - [别人的工具列表](#别人的工具列表)
 
 <!-- /MarkdownTOC -->
@@ -280,6 +279,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [国家统计局](http://www.stats.gov.cn/tjsj/)
 - [国家能源局](http://www.nea.gov.cn/)
 - [北京大学开放研究数据平台](https://opendata.pku.edu.cn/)
+- [国家药品监督管理局](https://www.nmpa.gov.cn/datasearch/home-index.html)
 
 ### 地理数据
 
@@ -314,11 +314,13 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 开源项目
 
+- 必读
+  - https://opensource.guide/
 - 如何选择 License
   - https://choosealicense.com/
 - 如何写 Issue/PR Template
   - https://github.com/stevemao/github-issue-templates
-- 如何写 CODE_OF_CONDUCT
+- 如何写 Code of Conduct
   - https://www.contributor-covenant.org/
 - 如何写 Security Policy
   - https://docs.github.com/en/free-pro-team@latest/github/managing-security-vulnerabilities/adding-a-security-policy-to-your-repository
@@ -367,14 +369,21 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [gh](https://github.com/cli/cli): Github CLI
   - [gh-actions-cache](https://github.com/actions/gh-actions-cache): 操作 github action cache 的 CLI 插件
 - [github-star-stats](https://github.com/zerosoul/github-star-stats): 显示项目 Star 数量历史曲线
+- [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg): 动态生成打字 SVG
+- [github-profile-header-generator](https://github.com/leviarista/github-profile-header-generator)
 
 ### Github Badages
 
 - http://shields.io
 - https://github.com/Ileriayo/markdown-badges
 - https://forthebadge.com/
+- [alexandresanlim/Badges4-README.md-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile)
 - [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats): 获取动态生成的 GitHub 统计信息
+- [gists-readme](https://github.com/Yizack/gists-readme): Gist 统计卡片
 - [github-profile-views-counter](https://github.com/antonkomarev/github-profile-views-counter): Github 访问量统计
+  - [visitor-badge](https://github.com/jwenjian/visitor-badge): 备选方案
+- https://www.vectorlogo.zone/
+- https://github.com/devicons/devicon
 
 ### Github Pages
 
@@ -397,7 +406,6 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 
 ### Github UI
 
-- [octotree](https://github.com/buunguyen/octotree): Github 文件浏览器。`ⓒ`
 - [Git Master](https://github.com/ineo6/git-master): 很多功能。支持 GitHub、GitLab、Gitee、Gitea、Gogs
 <a name="github-contributions-chart"></a>
 - [isometric-contributions](https://github.com/jasonlong/isometric-contributions): Github contributions 图表重构
@@ -428,7 +436,6 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 ### Github App
 
 - [ImgBot](https://github.com/marketplace/imgbot): 自动图片压缩
-- [Travis CI](https://github.com/marketplace/travis-ci/)
 - [WIP](https://github.com/marketplace/wip/): WIP 检查
 - [DCO](https://github.com/apps/dco): Git Commit 检查 DCO 签名
 - [Stale](https://probot.github.io/apps/stale/): 关闭过期的 Issue 和 Pull Request
@@ -1052,6 +1059,7 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 
 - [drone](https://github.com/drone/drone): Drone is a Continuous Delivery platform built on Docker, written in Go
 - [GoCD](https://github.com/gocd/gocd): written in java
+- [Travis CI](https://github.com/marketplace/travis-ci/): 付费服务
 
 ## IM
 
@@ -1351,7 +1359,7 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 - https://www.vectorizer.io/ : 位图转成矢量图 (SVG)
 - https://www.uuidgenerator.net/ : uuid 生成器
 - https://extendsclass.com/ : 在线工具集合，有语法校验器，加/解密，格式转换，Diff 工具，各种生成器，前端压缩等工具。
-- https://travis-ci.com/ : CI 服务
+- [CyberChef](https://gchq.github.io/CyberChef/): 开源的在线工具集合。编码/解码，压缩，数据分析，时间戳，代码格式化。
 - https://www.clahub.com/ : CLA 签署服务，开源托管。[源码](https://github.com/clahub/clahub)
 - [docker-nfs-server](https://github.com/ehough/docker-nfs-server): A lightweight, robust, flexible, and containerized NFS server.
 - https://alternativeto.net/ : 搜索软件或服务其他替代方案
@@ -1671,7 +1679,9 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 
 - [OBS](https://obsproject.com/): 非常好用的推流和录制工具。免费。
   - [源码 obsproject/obs-studio](https://github.com/obsproject/obs-studio)
+- [obs-ndi](https://github.com/Palakis/obs-ndi): 采集窗口的视频和音频
 - [Sound Siphon](https://staticz.com/soundsiphon/): Mac 下最好用的音频录制工具。能创建虚拟输入设备。能把任何应用的音频输出转发到另一个应用上。价格有点贵。 `Ⓜ`
+  - [BlackHole](https://github.com/ExistentialAudio/BlackHole): 免费的开源方案
   - [loopback](https://rogueamoeba.com/loopback/): 类似的备选方案，价格更贵 `Ⓜ`
   - [Audio Hijack](https://rogueamoeba.com/audiohijack/): 专业录音工具。不能创建虚拟设备。 `Ⓜ`
 - [forecast](https://overcast.fm/forecast): MP3 metadata 编辑器。做播客会用到。 `Ⓜ`
@@ -1746,14 +1756,6 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 
 - http://lmgtfy.com/ : 帮你 google/bing/duckduckgo
 - http://www.baidu-x.com/ : 帮你百度下
-
------
-
-## 待评价
-
-- [Inklet](https://tenonedesign.com/inklet.php): 让 Mac 触摸板变成画图板
-- [node-travisjs](https://github.com/finnp/node-travisjs): Travis CLI 工具
-- [peco](https://github.com/peco/peco): 类似 fzf
 
 -----
 

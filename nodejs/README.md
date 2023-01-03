@@ -109,10 +109,9 @@
 
 ## 随机数
 
-- [nano-id-cc](https://zelark.github.io/nano-id-cc/): 碰撞计算器
-- [shortid](https://github.com/dylang/shortid)
-- [uid](https://github.com/lukeed/uuidid): 性能最高
-  - [nanoid](https://github.com/ai/nanoid): A tiny, secure, URL-friendly, unique string ID generator
+- [nanoid](https://github.com/ai/nanoid): 不可排序，时间无关。碰撞概率低，可自定义长度，自定义字符表，URL 友好，多语言支持
+  - [nano-id-cc](https://zelark.github.io/nano-id-cc/): 碰撞计算器
+- [ulid](https://github.com/ulid/spec): 128 位长度，按时间排序，URL 友好，自定义字符表，多语言支持
 
 ## CLI
 

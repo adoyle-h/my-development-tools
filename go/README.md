@@ -22,6 +22,7 @@
 - [测试](#测试)
 - [HTTP](#http)
 - [容器](#容器)
+- [终端](#终端)
 
 <!-- /MarkdownTOC -->
 
@@ -32,6 +33,8 @@
 - [gore](https://github.com/motemen/gore): Go REPL
   - [gomacro](https://github.com/cosmos72/gomacro): 备用方案
 - https://tmc.github.io/json-to-struct/ : JSON 转 Go Struct
+- [gvm](https://github.com/moovweb/gvm): Go 版本管理器
+  - [update-golang](https://github.com/udhos/update-golang): a script to easily fetch and install new Golang releases with minimum system intrusion
 
 ## 开发必备
 
@@ -94,5 +97,10 @@
 ## 容器
 
 - [automaxprocs](https://github.com/uber-go/automaxprocs): 在容器中正确设置 GOMAXPROCS
+
+## 终端
+
+- [tview](https://github.com/rivo/tview)
+- [tcell](https://github.com/gdamore/tcell)
 
 **[⬆ 返回顶部](#top)**
