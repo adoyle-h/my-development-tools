@@ -13,6 +13,7 @@
 - [luacheck](https://github.com/mpeterv/luacheck): Lua Code Linter
 - [luvit](https://github.com/luvit/luvit): Lua + libUV + jIT
 - [luv](https://github.com/luvit/luv): Bare libuv bindings for lua
+- [Penlight](https://github.com/lunarmodules/Penlight): 工具函数库
 
 ## 编译
 

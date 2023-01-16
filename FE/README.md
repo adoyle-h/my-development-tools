@@ -173,6 +173,8 @@
 ## 状态管理
 
 - [effector](https://github.com/zerobias/effector): 基于 hook 的状态管理。很干净，没有多余的概念。跨框架。
+- [zustand](https://github.com/pmndrs/zustand): 待评价
+- [jotai](https://github.com/pmndrs/jotai): 待评价
 
 ## 声音
 

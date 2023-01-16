@@ -146,6 +146,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [字体](#字体)
 - [Design](#design)
 - [Emoji](#emoji)
+- [Unicode](#unicode)
 - [命名](#命名)
 - [团队协作](#团队协作)
     - [即时通讯](#即时通讯)
@@ -168,6 +169,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [日志](#日志)
 - [电子书](#电子书)
 - [交互式 Notebook](#交互式-notebook)
+- [Zig](#zig)
 - [Lua](#lua)
 - [Python](#python)
 - [Golang](#golang)
@@ -216,7 +218,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## 其他
 
-- https://www.compart.com/en/unicode : 找 unicode 字符
 - [hashcat](https://github.com/hashcat/hashcat): 很快的密码破解工具
 - [irssi](https://github.com/irssi/irssi): IRC Client
 - [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息`Ⓛ` `Ⓜ`
@@ -383,7 +384,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [github-profile-views-counter](https://github.com/antonkomarev/github-profile-views-counter): Github 访问量统计
   - [visitor-badge](https://github.com/jwenjian/visitor-badge): 备选方案
 - https://www.vectorlogo.zone/
-- https://github.com/devicons/devicon
+- https://devicon.dev/
+  - https://github.com/devicons/devicon
 
 ### Github Pages
 
@@ -400,7 +402,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [actions-toolkit](https://github.com/JasonEtco/actions-toolkit): A toolkit for building GitHub Actions in Node.js
 - [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages): 生成 Github Page 的 action
 - https://github.com/actions/checkout : checkout Git 仓库
-https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文件
+- https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文件
 - https://github.com/actions/cache : 缓存
 - https://github.com/actions/runner-images
 
@@ -720,6 +722,7 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 - [cash](https://github.com/dthree/cash): For windows 用户。用 nodejs 写的程序，模拟一些 linux 命令
 - [procs](https://lib.rs/crates/procs): better ps
 - [bottom](https://github.com/clementtsang/bottom): better top/htop. A cross-platform graphical process/system monitor with a customizable interface and a multitude of features. Supports Linux, macOS, and Windows.
+- [sysz](https://github.com/joehillen/sysz): systemctl + fzf
 
 
 ### 进程
@@ -961,6 +964,7 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 - [dolt](https://github.com/dolthub/dolt): 功能类似 Git 的数据库
 - [minio](https://github.com/minio/minio): 对象存储，高性能，K8S-Native
 - [ceph](https://github.com/ceph/ceph): 块存储，对象存储，文件存储
+- [alist](https://github.com/alist-org/alist): 支持多种云盘存储的文件管理程序
 
 ### Embeddable DB
 
@@ -1088,6 +1092,7 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 - [git-secret](https://github.com/sobolevn/git-secret): 将敏感信息加密再存储到 Git
   - [blackbox](https://github.com/StackExchange/blackbox): 支持 Git/Mercurial/Subversion
   - [git-crypt](https://github.com/AGWA/git-crypt): 备选方案
+- [forgit](https://github.com/wfxr/forgit): 基于 fzf 和 shellscript 实现的 git 增强插件
 
 ## Chrome
 
@@ -1322,13 +1327,17 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 
 ## [Design](./design/README.md)
 
-
 ## Emoji
 
 - https://emojipedia.org/
 - http://www.emoji-cheat-sheet.com
   - [源码](https://github.com/WebpageFX/emoji-cheat-sheet.com/)
 - http://unicode.org/emoji/charts-beta/full-emoji-list.html
+
+## Unicode
+
+- https://unicode-table.com/cn/
+- https://www.compart.com/en/unicode : 找 unicode 字符
 
 ## 命名
 
@@ -1354,7 +1363,6 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
 
 - [PlantUML Gist](https://github.com/linux-china/plantuml-gist): 基于托管在 Gist 的 [PlantUML][] 在线生成 UML 图
 - [在线 sed 编辑器](http://sed.js.org)
-- https://unicode-table.com/cn/
 - [Wikiwand](http://www.wikiwand.com/): Wikipedia Modernized。非常漂亮的 Wikipedia 阅读器
 - https://www.vectorizer.io/ : 位图转成矢量图 (SVG)
 - https://www.uuidgenerator.net/ : uuid 生成器
@@ -1481,6 +1489,8 @@ https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文�
   - [kajero](https://github.com/joelotter/kajero): 「无人维护」Interactive JavaScript notebooks with clever graphing
 - https://mybinder.org/
   - 源码 [binderhub](https://github.com/jupyterhub/binderhub)
+
+## [Zig](./zig.md)
 
 ## [Lua](./lua.md)
 
