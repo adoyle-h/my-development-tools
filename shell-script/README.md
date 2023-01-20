@@ -11,6 +11,7 @@
 
 - [其他](#其他)
 - [测试](#测试)
+- [TUI](#tui)
 - [颜色](#颜色)
 - [参数解析](#参数解析)
 - [工具集](#工具集)
@@ -37,6 +38,12 @@
 - [shellspec](https://github.com/shellspec/shellspec): A full-featured BDD unit testing framework for bash, ksh, zsh, dash and all POSIX shells
 - [shunit2](https://github.com/kward/shunit2): unit test framework
 
+## TUI
+
+- [gum](https://github.com/charmbracelet/gum): 超酷的工具
+- [fzf](https://github.com/junegunn/fzf): 模糊筛选/搜索任意列表
+- [bat](https://github.com/sharkdp/bat): better cat。自动代码着色，自带分页器，显示代码行，支持 diff，自动标记 git 变动，可显示不可见符号。
+
 ## 颜色
 
 - [shell-general-colors](https://github.com/adoyle-h/shell-general-colors)
@@ -51,8 +58,6 @@
 - [composure](https://github.com/erichs/composure/): 超好用的工具链
 - [shellfire](https://github.com/shellfire-dev/shellfire): 提供很多便利的函数，用于 shell 脚本开发
 - https://github.com/alexanderepstein/Bash-Snippets
-- 形象解释shell 命令：[explainshell.com/](https://explainshell.com/)
-- [BASH CHEATSHEET (中文速查表) - by skywind](https://github.com/skywind3000/awesome-cheatsheets/blob/master/languages/bash.sh)
 - [lobash](https://github.com/adoyle-h/lobash): bash 专用的工具函数集合。类似 JS 的 Lodash。
 - [readlinkf](https://github.com/ko1nksm/readlinkf): 跨平台、POSIX 兼容的 `readlink -f`
   - [bashup/realpaths](https://github.com/bashup/realpaths): 备选方案

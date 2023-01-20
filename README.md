@@ -606,6 +606,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [autoenv](https://github.com/kennethreitz/autoenv): README 挺幽默的
   - [desk](https://github.com/jamesob/desk): 类似方案
 - [pueue](https://github.com/Nukesor/pueue): 将任意 shell 命令托管到后台队列里执行
+- [vhs](https://github.com/charmbracelet/vhs): 声明式制作命令行演示 GIF 动图
 
 ### 配色
 
@@ -623,6 +624,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [adoyle-h/my-command-cheat](https://github.com/adoyle-h/my-command-cheat): 我的 cheatsheets
 - [tldr](https://github.com/tldr-pages/tldr/): 命令行工具，手册内容由社区维护，非常详尽。
 - [cheat.sh](https://github.com/chubin/cheat.sh): cheatsheet 服务，可通过 curl 获取内容，内容由社区维护。
+- [explainshell.com/](https://explainshell.com/): 形象解释 shell 命令
+- [BASH CHEATSHEET (中文速查表) - by skywind](https://github.com/skywind3000/awesome-cheatsheets/blob/master/languages/bash.sh)
 - [linux-cheat](https://github.com/cirosantilli/linux-cheat): Linux user-land CLI utilities
 
 ## diff
@@ -1366,8 +1369,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Wikiwand](http://www.wikiwand.com/): Wikipedia Modernized。非常漂亮的 Wikipedia 阅读器
 - https://www.vectorizer.io/ : 位图转成矢量图 (SVG)
 - https://www.uuidgenerator.net/ : uuid 生成器
-- https://extendsclass.com/ : 在线工具集合，有语法校验器，加/解密，格式转换，Diff 工具，各种生成器，前端压缩等工具。
-- [CyberChef](https://gchq.github.io/CyberChef/): 开源的在线工具集合。编码/解码，压缩，数据分析，时间戳，代码格式化。
+- https://extendsclass.com/ : 在线工具箱，有语法校验器，加/解密，格式转换，Diff 工具，各种生成器，前端压缩等工具。
+- [CyberChef](https://gchq.github.io/CyberChef/): 开源的工具箱，在线提供编码/解码，压缩，数据分析，时间戳，代码格式化等功能。
 - https://www.clahub.com/ : CLA 签署服务，开源托管。[源码](https://github.com/clahub/clahub)
 - [docker-nfs-server](https://github.com/ehough/docker-nfs-server): A lightweight, robust, flexible, and containerized NFS server.
 - https://alternativeto.net/ : 搜索软件或服务其他替代方案
@@ -1392,10 +1395,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## 临时共享
 
 - [奶牛快传](https://cowtransfer.com/) : 临时文件分享，很好用。国内服务
-- [transfer.sh](https://github.com/dutchcoders/transfer.sh)
-- https://snapdrop.net/ : 通过网页在局域网内端到端传输文件
-  - [开源项目](https://github.com/RobinLinus/snapdrop)，可自己用 Docker 部署服务。
-- https://uploadpie.com/
+- https://snapdrop.net/ : 通过网页在局域网内端到端传输文件，可用 Docker 自己部署
+  - [源码](https://github.com/RobinLinus/snapdrop)
+- https://wormhole.app/ : 端到端加密，自动过期，单个文件最大 10 GB
+- [transfer.sh](https://github.com/dutchcoders/transfer.sh): 共享文件的命令行程序
 
 ## 爬虫代理池
 

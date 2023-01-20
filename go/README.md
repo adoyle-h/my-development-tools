@@ -83,6 +83,7 @@
 
 - [cobra](https://github.com/spf13/cobra)
 - [bubbletea](https://github.com/charmbracelet/bubbletea)
+- [lipgloss](https://github.com/charmbracelet/lipgloss)
 
 ## 测试
 
