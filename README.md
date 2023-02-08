@@ -39,6 +39,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [网络数据](#网络数据)
 - [伪数据](#伪数据)
 - [政务信息](#政务信息)
+- [法律](#法律)
 - [数学](#数学)
 - [桌面应用开发](#桌面应用开发)
 - [Authorization](#authorization)
@@ -71,6 +72,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [终端 Terminal](#终端-terminal)
 - [Shell](#shell)
     - [配色](#配色)
+    - [TUI](#tui)
     - [Shell Script Development](#shell-script-development)
 - [Cheatsheet](#cheatsheet)
 - [diff](#diff)
@@ -152,7 +154,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
     - [即时通讯](#即时通讯)
 - [ChatOps](#chatops)
 - [服务 (Service)](#服务-service)
-- [图床](#图床)
+    - [电子书](#电子书)
+    - [图床](#图床)
 - [网盘](#网盘)
 - [临时共享](#临时共享)
 - [爬虫代理池](#爬虫代理池)
@@ -167,7 +170,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [数据可视化](#数据可视化)
     - [地图](#地图)
 - [日志](#日志)
-- [电子书](#电子书)
+- [电子书](#电子书-1)
 - [交互式 Notebook](#交互式-notebook)
 - [Zig](#zig)
 - [Lua](#lua)
@@ -296,6 +299,13 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## 政务信息
 
 - [全国人大网](http://www.npc.gov.cn/)
+- [互联网信息服务投诉平台](https://ts.isc.org.cn/#/complaint/default)
+
+## 法律
+
+知法才能避免犯法。写程序也容易违法。
+
+- [中国法律检索系统](http://law.pkulaw.com/)
 
 ## 数学
 
@@ -389,9 +399,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ### Github Pages
 
-- [just-the-docs](https://github.com/just-the-docs/just-the-docs): A modern, high customizable, responsive Jekyll theme for documentation with built-in search.
 - [jekyll-toc](https://github.com/allejo/jekyll-toc): 给 Github Page 的 jekyll 主题增加 TOC
-- [online-cv](https://github.com/sharu725/online-cv): A minimal Jekyll Theme to host your resume (CV)
+- [jekyll-remote-theme](https://github.com/benbalter/jekyll-remote-theme): 自动安装 jekyll 主题
+- [just-the-docs](https://github.com/just-the-docs/just-the-docs): 适用于生成项目文档。搜索功能强大。但是导航栏的编排很冗余。
+- [online-cv](https://github.com/sharu725/online-cv): 适用于生成简历文档
 
 ### Github Actions
 
@@ -441,7 +452,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [WIP](https://github.com/marketplace/wip/): WIP 检查
 - [DCO](https://github.com/apps/dco): Git Commit 检查 DCO 签名
 - [Stale](https://probot.github.io/apps/stale/): 关闭过期的 Issue 和 Pull Request
-- [GitHub Settings](https://probot.github.io/apps/settings/): 用 YAML 文件来同步 Github 项目基本设置
+- [github/safe-settings](https://github.com/github/safe-settings): 用 YAML 设置 Github 项目基本配置。只能作用于组织下的所有项目，不能作用于单个项目。
+- [GitHub Settings](https://probot.github.io/apps/settings/): 用 YAML 设置 Github 项目基本配置。只能作用于单个项目。
 - [Request Info](https://probot.github.io/apps/request-info/): 提示 Issue 和 PR 内容空白
 - [In Solidarity](https://probot.github.io/apps/in-solidarity/): 避免不礼貌的词汇
 - [Move](https://probot.github.io/apps/move/): 移动 Issue
@@ -470,6 +482,10 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [nmap](https://github.com/nmap/nmap): 网络扫描工具
 - [Metasploit](https://github.com/rapid7/metasploit-framework)
 - [Tiger](https://www.nongnu.org/tiger/): The Unix security audit and intrusion detection tool
+- CVE
+  - https://www.cve.org/
+  - [GitHub Security Lab](https://securitylab.github.com/)
+  - https://www.cvedetails.com/
 
 ### 逆向工程
 
@@ -607,12 +623,23 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [desk](https://github.com/jamesob/desk): 类似方案
 - [pueue](https://github.com/Nukesor/pueue): 将任意 shell 命令托管到后台队列里执行
 - [vhs](https://github.com/charmbracelet/vhs): 声明式制作命令行演示 GIF 动图
+- [browsh](https://github.com/browsh-org/browsh): 运行在终端的网页浏览器
+- [carbonyl](https://github.com/fathyb/carbonyl): 在终端运行 Chromium。
 
 ### 配色
 
 - [lscolors](https://github.com/ggreer/lscolors): LSCOLORS Preview
 - [trapd00r/LS_COLORS](https://github.com/trapd00r/LS_COLORS): LS_COLORS 自定义集合
 - [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes): shell 配色
+
+### TUI
+
+- [gum](https://github.com/charmbracelet/gum): 超酷的工具
+- [fzf](https://github.com/junegunn/fzf): 模糊筛选/搜索任意列表
+- [bat](https://github.com/sharkdp/bat): better cat。自动代码着色，自带分页器，显示代码行，支持 diff，自动标记 git 变动，可显示不可见符号。
+- [aalib](https://aa-project.sourceforge.net/index.html): 图片、视频转 ASCII art
+  - [libcaca](http://caca.zoy.org/wiki/libcaca): 终端绘制图片
+  - [hiptext](https://github.com/jart/hiptext)
 
 ### [Shell Script Development](./shell-script/README.md)
 
@@ -797,6 +824,8 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## Lint
 
+- [editorconfig](http://editorconfig.org/): 最基础的代码风格规约
+- [editorconfig-checker](https://github.com/editorconfig-checker/editorconfig-checker): 兼容 .editorconfig，且可忽略文件。它提供额外的配置选项 .ecrc
 - [shellcheck](https://github.com/koalaman/shellcheck): linux shell script lint
 - [vint](https://github.com/Kuniwak/vint): vim script lint
 - [yamllint](https://github.com/adrienverge/yamllint): YAML lint
@@ -943,7 +972,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Clonezilla](https://clonezilla.org/): 镜像和备份程序，不支持快照。使用命令行备份貌似难度很高。还原到不同大小分区也可能出问题。
 - 其他备份工具
   - [backintime](https://github.com/bit-team/backintime): 备选方案
- - https://github.com/restic/others
+  - https://github.com/restic/others
 
 ## ISO 镜像制作与刻录
 
@@ -1271,6 +1300,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 ## Mac App
 
 - [Awesome macOS open source applications](https://github.com/serhii-londar/open-source-mac-os-apps)
+- https://macmenubar.com/ : Menu Bar App 列表
 - [m-cli](https://github.com/rgcr/m-cli): 很方便的 Mac 相关的命令行工具
 - [quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins): Mac 文件 Quick Look 插件。在 Finder 中按空格预览
 - [Nativefier](https://github.com/jiahaog/nativefier): 网页应用打包成 Mac App `Ⓜ`
@@ -1332,10 +1362,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ## Emoji
 
-- https://emojipedia.org/
+- https://emojifinder.com/ : 根据输入搜索相关的 emoji
+- https://emojipedia.org/ : emoji 百科
 - http://www.emoji-cheat-sheet.com
   - [源码](https://github.com/WebpageFX/emoji-cheat-sheet.com/)
-- http://unicode.org/emoji/charts-beta/full-emoji-list.html
+- http://unicode.org/emoji/charts-beta/full-emoji-list.html : 完整的 emoji 列表
 
 ## Unicode
 
@@ -1375,10 +1406,19 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [docker-nfs-server](https://github.com/ehough/docker-nfs-server): A lightweight, robust, flexible, and containerized NFS server.
 - https://alternativeto.net/ : 搜索软件或服务其他替代方案
 - https://sesme.co/ : 阅后即焚
-- https://github.com/zu1k/zlib-searcher
-  - https://zlib.knat.network/
+- [ossinsight](https://github.com/pingcap/ossinsight): https://ossinsight.io/ Analysis, Comparison, Trends, Rankings of Github Repos and events
 
-## 图床
+### 电子书
+
+交流学习使用，请勿用于非法用途。
+
+- https://zlib.app/
+- https://bookpan.net/
+- https://ylibrary.org/
+- https://search.zhelper.net/ : 搜索前端，调用其他电子书平台的 API。直接打开链接是不可用的。需查阅[使用帮助](https://docs.zhelper.net/search/)。
+  - https://zlib.knat.network/ : 类似 zhelper 的搜索前端
+
+### 图床
 
 - https://sm.ms/ : 免费公益的图床
 - https://cloudinary.com/
@@ -1391,6 +1431,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Nextcloud](https://github.com/nextcloud/server): 开源的网盘方案，客户端支持很多平台。用户体验很好，可与商业产品竞争。支持插件。
 - [Seafile](https://github.com/haiwen/seafile)
 - [Trainbit](https://trainbit.com/)
+- [百度网盘秒传链接转存](https://rapidupload.1kbtool.com/)
 
 ## 临时共享
 
@@ -1747,7 +1788,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [sorry](https://github.com/xtyxtyx/sorry): 为所欲为 GIF 制作器
 - [avataaars generator](https://getavataaars.com/): 很有趣的头像生成器。[源码](https://github.com/fangpenlin/avataaars-geneator)
 - [logoly](https://github.com/bestony/logoly): Pornhub 风格 Logo 生成器
-- [browsh](https://github.com/browsh-org/browsh): 运行在终端的网页浏览器
 - [rockstar](https://github.com/dylanbeattie/rockstar): 写的不是代码，是诗
 - [windows95](https://github.com/felixrieseberg/windows95): 💩🚀 Windows 95 in Electron.
 - [v86](https://github.com/copy/v86): 浏览器或 NodeJS 里运行 x86 系统。
@@ -1759,6 +1799,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [pipes.sh](https://github.com/pipeseroni/pipes.sh): 超级酷的终端屏保（管道主题）
 - [no-more-secrets](https://github.com/bartobri/no-more-secrets): 超级酷的终端数据解密特效
 - [福音戰士標題生成器](https://lab.magiconch.com/eva-title/)
+- [wenyan](https://github.com/wenyan-lang/wenyan): 文言文編程語言
 
 ### 游戏 Game
 

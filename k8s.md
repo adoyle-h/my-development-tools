@@ -8,6 +8,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [Dashboard](#dashboard)
 - [镜像与代理](#镜像与代理)
 - [kubectl](#kubectl)
 - [环境](#环境)
@@ -37,6 +38,10 @@
 - [gVisor](https://github.com/google/gvisor): 容器运行时沙盒。把容器跑在隔离的虚拟容器环境中，提高安全性。
 - [Kubernetes YAML Generator](https://k8syaml.com/)
 - [ksync](https://github.com/ksync/ksync): 同步 POD 里的文件
+
+## Dashboard
+
+- [kuboard](https://github.com/eip-work/kuboard-press): K8S 的管理界面。全中文。
 
 ## 镜像与代理
 

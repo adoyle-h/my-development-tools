@@ -11,7 +11,6 @@
 
 - [其他](#其他)
 - [测试](#测试)
-- [TUI](#tui)
 - [颜色](#颜色)
 - [参数解析](#参数解析)
 - [工具集](#工具集)
@@ -37,12 +36,6 @@
 - [zunit](https://github.com/zunit-zsh/zunit): 现代化的 Zsh 测试框架
 - [shellspec](https://github.com/shellspec/shellspec): A full-featured BDD unit testing framework for bash, ksh, zsh, dash and all POSIX shells
 - [shunit2](https://github.com/kward/shunit2): unit test framework
-
-## TUI
-
-- [gum](https://github.com/charmbracelet/gum): 超酷的工具
-- [fzf](https://github.com/junegunn/fzf): 模糊筛选/搜索任意列表
-- [bat](https://github.com/sharkdp/bat): better cat。自动代码着色，自带分页器，显示代码行，支持 diff，自动标记 git 变动，可显示不可见符号。
 
 ## 颜色
 

@@ -35,6 +35,7 @@
 - https://tmc.github.io/json-to-struct/ : JSON 转 Go Struct
 - [gvm](https://github.com/moovweb/gvm): Go 版本管理器
   - [update-golang](https://github.com/udhos/update-golang): a script to easily fetch and install new Golang releases with minimum system intrusion
+- [project-layout](https://github.com/golang-standards/project-layout): go 项目结构模板
 
 ## 开发必备
 
@@ -87,8 +88,8 @@
 
 ## 测试
 
-- [goconvey](https://github.com/smartystreets/goconvey)
-- [testify](https://github.com/stretchr/testify)
+- [goconvey](https://github.com/smartystreets/goconvey): Go testing in the browser. Integrates with `go test`
+- [testify](https://github.com/stretchr/testify): 提供 assert, require, mock, suit 工具函数
 - [gomock](https://github.com/golang/mock/)
 
 ## HTTP
