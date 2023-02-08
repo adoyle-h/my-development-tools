@@ -5,8 +5,7 @@ nav_order: 1
 # ADoyle's Dev Toolbox
 {: .no_toc }
 
-ADoyle 的开发工具箱。持续更新中。
-请访问 <https://tools.adoyle.me>
+ADoyle 的开发工具箱。持续更新中。https://tools.adoyle.me
 
 本文档只记录我在用的工具，所以
 
@@ -43,35 +42,46 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [hashcat](https://github.com/hashcat/hashcat): 很快的密码破解工具
 - [irssi](https://github.com/irssi/irssi): IRC Client
 - [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息`Ⓛ` `Ⓜ`
+  - [neofetch](https://github.com/dylanaraps/neofetch): 终端中打印系统信息，纯 Bash 实现。
 - [franc](https://github.com/wooorm/franc): 自然语言语种推测
 - [etcher](https://github.com/resin-io/etcher): 将系统镜像写入外接硬盘的工具
 - [browserless](https://github.com/joelgriffith/browserless): Chrome as a service in docker
 - [UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic): 解锁网易云音乐客户端变灰歌曲
   - [Listen 1](https://github.com/listen1/listen1_chrome_extension)
   - [ieaseMusic](https://github.com/trazyn/ieaseMusic)
-- https://learnxinyminutes.com : 快速学习各种编程语言的手册
-- [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail): 代码可视化浏览器
 - [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved): 强大的哔哩哔哩油猴脚本
-- [smartmontools](https://www.smartmontools.org/): 硬盘 S.M.A.R.T. 检测命令行工具。smartctl and smartd to control and monitor storage systems using the SMART built into most modern ATA/SATA, SCSI/SAS and NVMe disks.
 - [insect](https://github.com/sharkdp/insect): 很不错的计算器，单位换算很方便。提供网页在线服务，也提供终端程序。开源。跨平台。
 - [asdf](https://github.com/asdf-vm/asdf): 通用的程序版本管理工具。类似 gvm、nvm、rbenv，不过每种语言管理器作为 asdf plugin 使用。
 - [7zip](https://www.7-zip.org/): 免费开源的压缩软件。支持多种压缩算法、多种压缩等级、加密、分片。
-- [shlink](https://github.com/shlinkio/shlink): 短链服务。功能挺全。
-  - [YOURLS](https://github.com/YOURLS/YOURLS): 备选方案
 - [RIME](https://rime.im/download/): 开源输入法。支持 Windows/Mac/Linux/Android
   - [iRime](https://apps.apple.com/cn/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E4%BA%94%E7%AC%94%E9%83%91%E7%A0%81%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977): iOS 用 iR
 - [remark42](https://github.com/umputun/remark42): 评论系统
   - [waline](https://github.com/walinejs/waline): 备选方案
   - [Artalk](https://github.com/ArtalkJS/Artalk): 备选方案
-- [Mastodon](https://github.com/mastodon/mastodon): 微博客社区
-- [rustdesk](https://github.com/rustdesk/rustdesk): 开源的远程控制软件 (VNC)。支持手机控制电脑，电脑控制手机。支持全平台、多语言。国产软件。
-  - [rustdesk-server](https://github.com/rustdesk/rustdesk-server): 自建中继服务器
-- [Dub](https://github.com/steven-tey/dub): 开源的短链接服务，自带访问统计
 - [kaitai](https://github.com/kaitai-io/kaitai_struct): 可以用 YAML 描述二进制文件的格式，从而解析二进制文件提取出自己想要的信息。它根据 YAML 生成各种语言的库。
   - https://kaitai.io/
   - 有很多[应用场景](https://formats.kaitai.io/)。模型，归档文件，安装包，文件系统，字体，图片，数据库，日志，网络协议。
   - Web IDE：https://ide.kaitai.io/
-- [neofetch](https://github.com/dylanaraps/neofetch): 终端中打印系统信息，纯 Bash 实现。
+
+### 历史遗珠
+
+那些有意义却不为众人所知或被众人遗忘的项目。
+
+- [Plan 9](https://9p.io/plan9/)
+- [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail): 代码可视化浏览器
+
+## 手册 Cheatsheet
+
+- https://learnxinyminutes.com : 快速学习各种编程语言的手册
+- [Rico's cheatsheets](https://devhints.io): 网页版，[源码](https://github.com/rstacruz/cheatsheets)
+- [cheat](https://github.com/cheat/cheat): 命令行工具，本地存储，支持多 cheatsheets 扩展。这个仓库只有程序，需要下载官方 cheatsheets 配合使用。还可以 `cheat -e` 自己编辑维护。
+  - [cheat/cheatsheets](https://github.com/cheat/cheatsheets): 官方 cheatsheets
+  - [adoyle-h/my-command-cheat](https://github.com/adoyle-h/my-command-cheat): 我的 cheatsheets
+- [tldr](https://github.com/tldr-pages/tldr/): 命令行工具，手册内容由社区维护，非常详尽。
+- [cheat.sh](https://github.com/chubin/cheat.sh): cheatsheet 服务，可通过 curl 获取内容，内容由社区维护。
+- [explainshell.com/](https://explainshell.com/): 形象解释 shell 命令
+- [BASH CHEATSHEET (中文速查表) - by skywind](https://github.com/skywind3000/awesome-cheatsheets/blob/master/languages/bash.sh)
+- [linux-cheat](https://github.com/cirosantilli/linux-cheat): Linux user-land CLI utilities
 
 ## 编译器
 
@@ -461,18 +471,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [hiptext](https://github.com/jart/hiptext)
 
 ### [Shell Script Development](./shell-script/README.md)
-
-## Cheatsheet
-
-- [Rico's cheatsheets](https://devhints.io): 网页版，[源码](https://github.com/rstacruz/cheatsheets)
-- [cheat](https://github.com/cheat/cheat): 命令行工具，本地存储，支持多 cheatsheets 扩展。这个仓库只有程序，需要下载官方 cheatsheets 配合使用。还可以 `cheat -e` 自己编辑维护。
-  - [cheat/cheatsheets](https://github.com/cheat/cheatsheets): 官方 cheatsheets
-  - [adoyle-h/my-command-cheat](https://github.com/adoyle-h/my-command-cheat): 我的 cheatsheets
-- [tldr](https://github.com/tldr-pages/tldr/): 命令行工具，手册内容由社区维护，非常详尽。
-- [cheat.sh](https://github.com/chubin/cheat.sh): cheatsheet 服务，可通过 curl 获取内容，内容由社区维护。
-- [explainshell.com/](https://explainshell.com/): 形象解释 shell 命令
-- [BASH CHEATSHEET (中文速查表) - by skywind](https://github.com/skywind3000/awesome-cheatsheets/blob/master/languages/bash.sh)
-- [linux-cheat](https://github.com/cirosantilli/linux-cheat): Linux user-land CLI utilities
 
 ## diff
 
@@ -1226,6 +1224,15 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - https://alternativeto.net/ : 搜索软件或服务其他替代方案
 - https://sesme.co/ : 阅后即焚
 - [ossinsight](https://github.com/pingcap/ossinsight): https://ossinsight.io/ Analysis, Comparison, Trends, Rankings of Github Repos and events
+- [Mastodon](https://github.com/mastodon/mastodon): 微博客社区
+
+### 自部署的服务 (Self-Host Service)
+
+- [Dub](https://github.com/steven-tey/dub): 开源的短链接服务，自带访问统计
+- [shlink](https://github.com/shlinkio/shlink): 短链服务。功能挺全。
+  - [YOURLS](https://github.com/YOURLS/YOURLS): 备选方案
+- [rustdesk](https://github.com/rustdesk/rustdesk): 开源的远程控制软件 (VNC)。支持手机控制电脑，电脑控制手机。支持全平台、多语言。国产软件。
+  - [rustdesk-server](https://github.com/rustdesk/rustdesk-server): 自建中继服务器
 
 ### 电子书
 
@@ -1352,6 +1359,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - [kajero](https://github.com/joelotter/kajero): 「无人维护」Interactive JavaScript notebooks with clever graphing
 - https://mybinder.org/
   - 源码 [binderhub](https://github.com/jupyterhub/binderhub)
+- [Quarto](https://quarto.org/): an open-source scientific and technical publishing system built on Pandoc
 
 ## [Zig](./zig.md)
 

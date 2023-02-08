@@ -31,7 +31,7 @@
 ## 硬件信息
 
 - [hwloc](https://github.com/open-mpi/hwloc): 直观展示主机的硬件资源架构
-- [smartctl](https://www.smartmontools.org/): 硬盘健康检测
+- [smartmontools](https://www.smartmontools.org/): 硬盘健康检测
 - [powertop](https://github.com/fenrus75/powertop): 查询各个硬件的实际功耗
 
 ## IPMI/BMC
