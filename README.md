@@ -1647,7 +1647,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [Kickball/awesome-selfhosted](https://github.com/Kickball/awesome-selfhosted)
 - [sbilly/awesome-security](https://github.com/sbilly/awesome-security)
 
-**[⬆ 返回顶部](#说明)**
 
 <!-- anchors -->
 
