@@ -1,4 +1,3 @@
-<a name="top"></a>
 # Kubernetes 工具栈
 
 [⬅︎ 返回上层](../#k8skubernetes)
@@ -126,5 +125,3 @@
 - [MetalLB](https://github.com/metallb/metallb): a load-balancer implementation for bare metal Kubernetes clusters
 
 ## [Serverless](./README.md#serverless)
-
-**[⬆ 返回顶部](#top)**

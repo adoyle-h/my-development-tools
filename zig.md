@@ -1,4 +1,3 @@
-<a name="top"></a>
 # Zig 工具栈
 
 [⬅︎ 返回上层](../#zig)
@@ -28,6 +27,3 @@
 
 - https://github.com/michal-z/zig-gamedev
 - [mach](https://github.com/hexops/mach): 用 Zig 实现的游戏引擎
-
-
-**[⬆ 返回顶部](#top)**

@@ -1,4 +1,3 @@
-<a name="top"></a>
 # Docker 工具栈
 
 [⬅︎ 返回上层](../#docker)
@@ -74,6 +73,3 @@
 
 - [Portainer](https://github.com/portainer/portainer)
 - [Weave Scope](https://github.com/weaveworks/scope): Monitoring, visualisation & management for Docker & Kubernetes
-
-
-**[⬆ 返回顶部](#top)**

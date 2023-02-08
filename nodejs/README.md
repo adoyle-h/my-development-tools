@@ -1,4 +1,3 @@
-<a name="top"></a>
 # NodeJS 开发工具栈
 
 [⬅︎ 返回上层](../#nodejs)
@@ -65,7 +64,6 @@
 - [RPC](#rpc)
 - [其他](#其他)
 - [我关注的人/组](#我关注的人组)
-- [待评价](#待评价)
 
 <!-- /MarkdownTOC -->
 
@@ -522,10 +520,3 @@
 - https://github.com/isaacs?utf8=%E2%9C%93&tab=repositories&q=&type=source
 
 - https://github.com/node-modules
-
-----
-
-## 待评价
-
-
-**[⬆ 返回顶部](#top)**

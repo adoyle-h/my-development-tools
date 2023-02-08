@@ -17,21 +17,21 @@ exclude:
 remote_theme: just-the-docs/just-the-docs
 
 # Default config: https://github.com/just-the-docs/just-the-docs/blob/main/_config.yml
-url: https://adoyle.me
-baseurl: /my-development-tools/
+url: https://tools.adoyle.me
+baseurl: /
 title: ADoyle 的工具箱
 description: 只记录我在用的工具。持续更新中。
 logo: https://media.githubusercontent.com/media/adoyle-h/_imgs/master/assets/logo.png
 favicon_ico: ./.jekyll/assets/favicon.ico
-permalink: pretty
+permalink: none
 footer_content:
   Copyright 2016-2023 ADoyle (adoyle.h@gmail.com). The project is licensed under <b>BSD 3-clause License</b>.<br>
   Source code at <a href="https://github.com/adoyle-h/my-development-tools">https://github.com/adoyle-h/my-development-tools</a>
 
 last_edit_timestamp: true
 color_scheme: dark
-back_to_top: false
-back_to_top_text: "Back to Top"
+back_to_top: true
+back_to_top_text: "⬆ 返回顶部"
 
 search_enabled: true
 search:

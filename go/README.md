@@ -1,4 +1,3 @@
-<a name="top"></a>
 # Golang 开发工具栈
 
 [⬅︎ 返回上层](../#go)
@@ -104,5 +103,3 @@
 
 - [tview](https://github.com/rivo/tview)
 - [tcell](https://github.com/gdamore/tcell)
-
-**[⬆ 返回顶部](#top)**

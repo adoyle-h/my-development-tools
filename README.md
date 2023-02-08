@@ -2,15 +2,16 @@
 title: Home
 nav_order: 1
 ---
-# My Development Tools
+# ADoyle's Dev Toolbox
 {: .no_toc }
 
-我的开发工具箱。持续更新中。
+ADoyle 的开发工具箱。持续更新中。
+请访问 <https://tools.adoyle.me>
 
-只记录我在用的工具，所以
+本文档只记录我在用的工具，所以
 
-1. 当我不用了或者找到更好的替代品，会移除掉旧记录。
-2. 不接受 Pull Request，有问题可以在 [Discussions](https://github.com/adoyle-h/my-development-tools/discussions) 交流。
+1. 当我不用了或者找到更好的替代品，会移除旧记录。
+2. 不接受 Pull Request。有想法可以在 [Discussions](https://github.com/adoyle-h/my-development-tools/discussions) 交流。
 
 ## 版权声明 (Copyright and License)
 

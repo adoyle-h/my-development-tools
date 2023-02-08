@@ -1,4 +1,3 @@
-<a name="top"></a>
 # WebAssembly 工具栈
 
 [⬅︎ 返回上层](../#webassembly)
@@ -48,6 +47,3 @@
 ## 调试
 
 - [wabt](https://github.com/WebAssembly/wabt): wasm 二进制调试工具。
-
-
-**[⬆ 返回顶部](#top)**

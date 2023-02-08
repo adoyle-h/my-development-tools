@@ -1,4 +1,3 @@
-<a name="top"></a>
 # 硬件
 
 [⬅︎ 返回上层](../#硬件)
@@ -7,6 +6,7 @@
 
 <!-- MarkdownTOC GFM -->
 
+- [手机](#手机)
 - [嵌入式](#嵌入式)
 - [包管理器](#包管理器)
 - [硬件信息](#硬件信息)
@@ -38,5 +38,3 @@
 
 - [pikvm](https://github.com/pikvm/pikvm)
 - [OpenBMC](https://github.com/facebook/openbmc)
-
-**[⬆ 返回顶部](#top)**

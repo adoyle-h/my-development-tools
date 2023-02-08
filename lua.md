@@ -1,7 +1,17 @@
-<a name="top"></a>
 # Lua 工具栈
 
 [⬅︎ 返回上层](../#lua)
+
+## TOC
+
+<!-- MarkdownTOC GFM -->
+
+- [其他](#其他)
+- [编译](#编译)
+- [测试](#测试)
+- [文档](#文档)
+
+<!-- /MarkdownTOC -->
 
 ## 其他
 
@@ -29,5 +39,3 @@
 
 - [LDoc](https://github.com/lunarmodules/LDoc): [语法](https://stevedonovan.github.io/ldoc/manual/doc.md.html)
 - [SumnekoLSP - Annotations](https://github.com/sumneko/lua-language-server/wiki/Annotations)
-
-**[⬆ 返回顶部](#top)**

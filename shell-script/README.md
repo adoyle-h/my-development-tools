@@ -1,4 +1,3 @@
-<a name="top"></a>
 # Shell Script Development
 
 主要面向 Bash。
@@ -78,5 +77,3 @@ https://github.com/scop/bash-completion
 ## 文件定位
 
 - [lookup.sh](https://github.com/adoyle-h/lookup.sh): Look up project directory based on a locator file. Never write ../../ relative path format.
-
-**[⬆ 返回顶部](#top)**

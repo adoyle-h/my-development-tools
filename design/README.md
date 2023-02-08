@@ -1,4 +1,3 @@
-<a name="top"></a>
 # Design
 
 [⬅︎ 返回上层](../#design)
@@ -346,6 +345,3 @@
 
 - [haiku](https://www.haiku.ai/): AE+Lottie+Sketch == Haiku+Sketch
 - [lottie](http://airbnb.io/lottie/): 导出 AE 稿至移动端渲染动效
-
-
-**[⬆ 返回顶部](#top)**
