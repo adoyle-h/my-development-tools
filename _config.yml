@@ -1,1 +1,59 @@
-theme: jekyll-theme-hacker
+includes_dir: .jekyll/includes
+sass:
+  sass_dir: .jekyll/sass
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-feed
+
+include: []
+
+exclude:
+  - README.md
+  - .github
+
+remote_theme: just-the-docs/just-the-docs
+
+# Default config: https://github.com/just-the-docs/just-the-docs/blob/main/_config.yml
+url: https://adoyle.me
+baseurl: /my-development-tools/
+title: ADoyle 的工具箱
+description: 只记录我在用的工具。持续更新中。
+logo: https://media.githubusercontent.com/media/adoyle-h/_imgs/master/assets/logo.png
+favicon_ico: ./.jekyll/assets/favicon.ico
+permalink: pretty
+footer_content:
+  Copyright 2016-2023 ADoyle (adoyle.h@gmail.com). The project is licensed under <b>BSD 3-clause License</b>.<br>
+  Source code at <a href="https://github.com/adoyle-h/my-development-tools">https://github.com/adoyle-h/my-development-tools</a>
+
+last_edit_timestamp: true
+color_scheme: dark
+back_to_top: false
+back_to_top_text: "Back to Top"
+
+search_enabled: true
+search:
+  # Split pages into sections that can be searched individually
+  # Supports 1 - 6, default: 2
+  heading_level: 2
+  # Maximum amount of previews per search result
+  # Default: 3
+  previews: 3
+  # Maximum amount of words to display before a matched word in the preview
+  # Default: 5
+  preview_words_before: 5
+  # Maximum amount of words to display after a matched word in the preview
+  # Default: 10
+  preview_words_after: 10
+  # Set the search token separator
+  # Default: /[\s\-/]+/
+  # Example: enable support for hyphenated search words
+  tokenizer_separator: /[\s/]+/
+  # Display the relative url in search results
+  # Supports true (default) or false
+  rel_url: true
+  # Enable or disable the search button that appears in the bottom right corner of every page
+  # Supports true or false (default)
+  button: false
