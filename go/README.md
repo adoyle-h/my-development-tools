@@ -35,6 +35,7 @@
 - [gvm](https://github.com/moovweb/gvm): Go 版本管理器
   - [update-golang](https://github.com/udhos/update-golang): a script to easily fetch and install new Golang releases with minimum system intrusion
 - [project-layout](https://github.com/golang-standards/project-layout): go 项目结构模板
+- [statik](https://github.com/rakyll/statik): Embed files into a Go executable
 
 ## 开发必备
 

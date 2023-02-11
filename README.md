@@ -3,7 +3,6 @@ title: Home
 nav_order: 1
 ---
 # ADoyle's Dev Toolbox
-{: .no_toc }
 
 ADoyle 的开发工具箱。持续更新中。https://tools.adoyle.me
 
@@ -14,9 +13,12 @@ ADoyle 的开发工具箱。持续更新中。https://tools.adoyle.me
 
 ## 版权声明 (Copyright and License)
 
-Copyright 2016-2023 ADoyle (adoyle.h@gmail.com). The project is licensed under the **BSD 3-clause License**.
+Copyright 2016-2023 ADoyle (adoyle.h@gmail.com). Some Rights Reserved.
+The project is licensed under the **BSD 3-clause License**.
 
-See the [LICENSE][] file for the specific language governing permissions and limitations under the License.
+Read the [LICENSE][] file for the specific language governing permissions and limitations under the License.
+
+Read the [NOTICE][] file distributed with this work for additional information regarding copyright ownership.
 
 ## 说明
 
@@ -27,15 +29,6 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - `Ⓗ` 表示可以通过 [**Homebrew**](#Homebrew) 安装；
 - `ⱳ` 表示 **Web 服务**；
 - `ⓒ` 表示 Chrome 插件；
-
-## TOC
-{: .no_toc }
-
-<details close markdown="block">
-<summary>点击展开/折叠目录（网页端有效）</summary>
-- TOC
-{:toc}
-</details>
 
 ## 其他
 
@@ -62,6 +55,11 @@ See the [LICENSE][] file for the specific language governing permissions and lim
   - https://kaitai.io/
   - 有很多[应用场景](https://formats.kaitai.io/)。模型，归档文件，安装包，文件系统，字体，图片，数据库，日志，网络协议。
   - Web IDE：https://ide.kaitai.io/
+- [distrobox](https://github.com/89luca89/distrobox): 在容器里运行各种 linux 发行版。
+- [uutils/coreutils](https://github.com/uutils/coreutils): 用 Rust 重写 GNU coreutils。MIT 协议开源。
+- [uutils/findutils](https://github.com/uutils/findutils): 用 Rust 重写 GNU findutils。MIT 协议开源。
+- [toybox](https://github.com/landley/toybox)：类似 buxybox。MIT 协议开源。
+  - [busybox](https://busybox.net/): 精简版 GNU coreutils，all in one。GPL 协议开源。
 
 ### 历史遗珠
 
@@ -102,6 +100,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [SmsForwarder](https://github.com/pppscn/SmsForwarder): 短信转发器（安卓系统）
 - 临时接收手机短信
+  - https://sms-activate.org/ : 最靠谱的平台，价格不贵
   - https://sms24.me/en/ (这个有中国号码，下面那些没有)
   - https://jiemahao.com/
   - https://yunduanxin.net/Countries/
@@ -192,105 +191,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [LicenseFinder](https://github.com/pivotal/LicenseFinder): Find licenses for your project's dependencies.
 - [scancode-toolkit](https://github.com/nexB/scancode-toolkit): detects licenses, copyrights, package manifests & dependencies and more by scanning code ... to discover and inventory open source and third-party packages used in your code.
 
-## Github
-
-- https://ghproxy.com/ : GitHub 文件, Releases, archive, gist, raw.githubusercontent.com 文件代理加速下载服务
-  - 就是个重定向，实际用的是 cnpm 提供的服务 https://github.com.cnpmjs.org/
-  - 备用方案 https://fastgit.org/
-- [all-contributors](https://github.com/all-contributors/all-contributors): 用 `.all-contributorsrc` 文件记录项目维护者列表。
-- [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 生成 Github contributions 图片。类似的还有 [git-cal][]
-  - [API](https://github.com/sallar/github-contributions-api)
-- [github-issue-templates](https://github.com/stevemao/github-issue-templates): GitHub Issue 与 PR 的模板
-  - [awesome-github-templates](https://github.com/devspace/awesome-github-templates)
-- [upptime](https://github.com/upptime/upptime):
-  - GitHub Actions is used as an uptime monitor
-  - GitHub Issues is used for incident reports
-  - GitHub Pages is used for the status website
-- [gh](https://github.com/cli/cli): Github CLI
-  - [gh-actions-cache](https://github.com/actions/gh-actions-cache): 操作 github action cache 的 CLI 插件
-- [github-star-stats](https://github.com/zerosoul/github-star-stats): 显示项目 Star 数量历史曲线
-- [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg): 动态生成打字 SVG
-- [github-profile-header-generator](https://github.com/leviarista/github-profile-header-generator)
-
-### Github Badages
-
-- http://shields.io
-- https://github.com/Ileriayo/markdown-badges
-- https://forthebadge.com/
-- [alexandresanlim/Badges4-README.md-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile)
-- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats): 获取动态生成的 GitHub 统计信息
-- [gists-readme](https://github.com/Yizack/gists-readme): Gist 统计卡片
-- [github-profile-views-counter](https://github.com/antonkomarev/github-profile-views-counter): Github 访问量统计
-  - [visitor-badge](https://github.com/jwenjian/visitor-badge): 备选方案
-- https://www.vectorlogo.zone/
-- https://devicon.dev/
-  - https://github.com/devicons/devicon
-
-### Github Pages
-
-- [jekyll-toc](https://github.com/allejo/jekyll-toc): 给 Github Page 的 jekyll 主题增加 TOC
-- [jekyll-remote-theme](https://github.com/benbalter/jekyll-remote-theme): 自动安装 jekyll 主题
-- [just-the-docs](https://github.com/just-the-docs/just-the-docs): 适用于生成项目文档。搜索功能强大。但是导航栏的编排很冗余。
-- [online-cv](https://github.com/sharu725/online-cv): 适用于生成简历文档
-
-### Github Actions
-
-- [act](https://github.com/nektos/act): Run your GitHub Actions locally
-- [starter-workflows](https://github.com/actions/starter-workflows): github actions 入门样例
-- [github-actions/expressions](https://docs.github.com/cn/actions/learn-github-actions/expressions)
-- [actions/runner](https://github.com/actions/runner): github action runner
-- [actions-toolkit](https://github.com/JasonEtco/actions-toolkit): A toolkit for building GitHub Actions in Node.js
-- [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages): 生成 Github Page 的 action
-- https://github.com/actions/checkout : checkout Git 仓库
-- https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文件
-- https://github.com/actions/cache : 缓存
-- https://github.com/actions/runner-images
-
-### Github UI
-
-- [Git Master](https://github.com/ineo6/git-master): 很多功能。支持 GitHub、GitLab、Gitee、Gitea、Gogs
-<a name="github-contributions-chart"></a>
-- [isometric-contributions](https://github.com/jasonlong/isometric-contributions): Github contributions 图表重构
-- [Refined GitHub](https://github.com/sindresorhus/refined-github)。改进 Github 界面。`ⓒ`
-- [notifier-for-github](https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn): Displays your GitHub notifications unread count. `ⓒ`
-- [github-awesome-autocomplete](https://github.com/algolia/github-awesome-autocomplete): github 搜索栏用 algolia
-- [enhanced-github](https://github.com/softvar/enhanced-github): 增加下载链接，显示仓库文件大小，增加拷贝内容的按钮
-- [Mottie/GitHub-userscripts](https://github.com/Mottie/GitHub-userscripts): 超好用的油猴脚本集合
-  - [GitHub Collapse In Comment](https://greasyfork.org/zh-CN/scripts/20973-github-collapse-in-comment): 折叠 Markdown 里的代码和 Quote Block。默认只针对 issue 生效，可以改代码
-  - [GitHub-code-folding](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-code-folding): Github 代码折叠
-    - [github-code-folding](https://github.com/noam3127/github-code-folding): 替代方案，chrome 插件
-  - [Gist-raw-links](https://github.com/Mottie/GitHub-userscripts/wiki/Gist-raw-links): 显示 Gist 里的 raw links
-  - [GitHub-table-of-contents](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-table-of-contents): Markdown 增加 TOC 浮动窗口
-  - [GitHub-collapse-markdown](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-collapse-markdown): Markdown 折叠 Header
-  - [GitHub-code-show-whitespace](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-code-show-whitespace): 关了 Refined Github 的空格显示功能，用这个。
-  - [GitHub-copy-code-snippet](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-copy-code-snippet): 增加拷贝 Block 的按钮
-  - [GitHub-diff-files-filter](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-diff-files-filter): diff 页面根据文件类型过滤
-  - [GitHub-font-preview](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-font-preview): 预览字体文件
-  - [GitHub-image-preview](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-image-preview): 批量预览图片
-  - [GitHub-indent-comments](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-indent-comments): 编辑框增加代码缩进按钮
-  - [GitHub-issue-add-details](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-issue-add-details): 编辑框增加 Detail 折叠按钮
-  - [GitHub-issue-highlighter](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-issue-highlighter): 高亮当前选中的 issue 评论
-  - [GitHub-label-color-picker](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-label-color-picker): label 改变颜色时增加颜色选择器
-  - [GitHub-search-autocomplete](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-search-autocomplete): 搜索栏提示补全
-  - [GitHub-sort-content](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-sort-content): 增强内容排序
-  - [GitHub-toggle-diff-comments](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-toggle-diff-comments): diff 页面切换评论的隐藏
-
-### Github App
-
-- [ImgBot](https://github.com/marketplace/imgbot): 自动图片压缩
-- [WIP](https://github.com/marketplace/wip/): WIP 检查
-- [DCO](https://github.com/apps/dco): Git Commit 检查 DCO 签名
-- [Stale](https://probot.github.io/apps/stale/): 关闭过期的 Issue 和 Pull Request
-- [github/safe-settings](https://github.com/github/safe-settings): 用 YAML 设置 Github 项目基本配置。只能作用于组织下的所有项目，不能作用于单个项目。
-- [GitHub Settings](https://probot.github.io/apps/settings/): 用 YAML 设置 Github 项目基本配置。只能作用于单个项目。
-- [Request Info](https://probot.github.io/apps/request-info/): 提示 Issue 和 PR 内容空白
-- [In Solidarity](https://probot.github.io/apps/in-solidarity/): 避免不礼貌的词汇
-- [Move](https://probot.github.io/apps/move/): 移动 Issue
-- [Close Issue](https://probot.github.io/apps/close-issue/)
-- [lock](https://probot.github.io/apps/lock/)
-- [Weekly Digest](https://probot.github.io/apps/weekly-digest/): 自动生成该 Github 项目的周报汇总
-- [Reminders](https://probot.github.io/apps/reminders/): 在 issue 里设置提醒
-- [delete-merged-branch](https://github.com/SvanBoxel/delete-merged-branch): 自动删除已合并的分支
+## [Github](./github/README.md)
 
 ## SVG
 
@@ -454,6 +355,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 - [vhs](https://github.com/charmbracelet/vhs): 声明式制作命令行演示 GIF 动图
 - [browsh](https://github.com/browsh-org/browsh): 运行在终端的网页浏览器
 - [carbonyl](https://github.com/fathyb/carbonyl): 在终端运行 Chromium。
+- [progress](https://github.com/Xfennec/progress): 显示 cp, mv, dd 等命令的进度条 `Ⓜ` `Ⓛ`
 
 ### 配色
 
@@ -865,6 +767,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 ### HTTP
 
+- [一行代码运行 HTTP 服务](https://gist.github.com/willurd/5720255)
 - [JSON Server](https://github.com/typicode/json-server): 快速搭建 HTTP RESTFul API Server
 - [http-server](https://github.com/indexzero/http-server): 快速搭建 HTTP 服务器
   - [serve](https://github.com/zeit/serve): alternative
@@ -923,9 +826,7 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 
 - [Gitea](https://github.com/go-gitea/gitea): MIT 协议开源的 Git 托管服务。后端采用 Go 编写
 <a name="git-cal"></a>
-- [git-cal](https://github.com/k4rthik/git-cal): 类似 Github 活动图的命令行版
-  - [git-stats](https://github.com/IonicaBizau/git-stats): 同 [git-cal][]
-  - [github-contributions-chart][]
+- [git-stats](https://github.com/IonicaBizau/git-stats): 类似 Github 活动图的命令行版
 - [git-extras](https://github.com/tj/git-extras): git 扩展命令
 - [git-lfs](https://github.com/git-lfs/git-lfs): git 支持大文件存储
 - [git-recall](https://github.com/Fakerr/git-recall): 交互式 git log
@@ -1665,3 +1566,4 @@ See the [LICENSE][] file for the specific language governing permissions and lim
 <!-- links -->
 
 [LICENSE]: ./LICENSE
+[NOTICE]: ./NOTICE
