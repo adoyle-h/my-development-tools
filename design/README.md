@@ -162,6 +162,7 @@
 - [octicons](https://github.com/primer/octicons): Github 出品的 Icon
 - [cssicon](https://github.com/wentin/cssicon): 完全用 CSS 做的 Icon
 - [devicon](https://github.com/devicons/devicon): Set of icons representing programming languages, designing & development tools
+- [IconPark](https://github.com/bytedance/IconPark): 支持 React/Vue/SVG 的开源图标库，字节跳动出品。
 
 ## Typography
 
@@ -236,6 +237,10 @@
 - [Adobe XD](https://www.adobe.com/cn/products/xd.html): Sketch 的强力竞争者，跨平台 + 免费，独有的网格编组和滚动的特性，操作体验流畅，兼容最新版的 Sketch 文件。
 - [Figma](https://www.figma.com): Sketch 替代品。
 - [MasterGo](https://mastergo.com/): 国产 sketch + figma，功能和 UI 做的挺不错，而且跨多平台，就是用起来有点卡。
+- [krita](https://krita.org/): 自由开源的免费绘画软件，适用于草图、插画、漫画、动画、接景和 3D 贴图。支持中文。`Ⓜ` `Ⓛ` `ⓦ`
+- [Photoshop](https://www.adobe.com/ca/products/photoshop.html)
+- [Affinity Designer](https://affinity.serif.com/zh-cn/designer/)
+- [pixso](https://pixso.cn/): 免费在线设计工具，插件生态做得很完善。缺点是没有色彩空间选项。
 
 ## Sketch
 

@@ -14,6 +14,7 @@
 - [Linter](#linter)
 - [Cheatsheet](#cheatsheet)
 - [Logger](#logger)
+- [模板引擎](#模板引擎)
 - [错误处理](#错误处理)
 - [结构化数据处理](#结构化数据处理)
     - [JSON](#json)
@@ -28,7 +29,6 @@
 ## 其他
 
 - https://awesome-go.com/
-- [sprig](https://github.com/Masterminds/sprig): Useful template functions for Go templates
 - [gore](https://github.com/motemen/gore): Go REPL
   - [gomacro](https://github.com/cosmos72/gomacro): 备用方案
 - https://tmc.github.io/json-to-struct/ : JSON 转 Go Struct
@@ -71,6 +71,11 @@
 
 - [zap](https://github.com/uber-go/zap)
 - [logrus](https://github.com/sirupsen/logrus)
+
+## 模板引擎
+
+- [sprig](https://github.com/Masterminds/sprig): Useful template functions for Go templates
+- [gomplate](https://github.com/hairyhenderson/gomplate): 虽然不支持 sprig，但提供了等价的丰富的函数库
 
 ## 错误处理
 
