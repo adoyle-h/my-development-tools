@@ -33,6 +33,7 @@
 - [tensorflow](https://github.com/tensorflow/tensorflow)
   - [tfjs](https://github.com/tensorflow/tfjs): TensorFlow JS 库
 - [pytorch](https://github.com/pytorch/pytorch)
+- [ColossalAI](https://github.com/hpcaitech/ColossalAI): 低成本（单张消费级显卡）训练 AI
 
 ## GPT
 

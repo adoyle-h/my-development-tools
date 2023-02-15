@@ -35,6 +35,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 <details close>
 <summary>点击展开/折叠目录</summary>
 
+（在网页端，中文跳转和搜索都有 BUG）
+
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
@@ -1521,6 +1523,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - 导航栏的编排很冗余。必须要给 markdown 文档加内容。
     - `{:toc}` 这类语法依赖 kramdown，如果 _config.yml 修改了 markdown 解析器，这类语法[将会失效](https://github.com/just-the-docs/just-the-docs/issues/1159)。
     - 搜索栏默认[不支持中文](https://github.com/just-the-docs/just-the-docs/issues/59)，它使用 [lunr.js](https://github.com/olivernn/lunr.js)，需要自己添加[语言包](https://github.com/MihaiValentin/lunr-languages)，得改很多东西。
+- [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy): 支持中文，TOC，搜索。
 - [online-cv](https://github.com/sharu725/online-cv): 适用于生成简历文档
 - [Hugo](https://github.com/gohugoio/hugo): Go 生态。
 - [gatsby](https://github.com/gatsbyjs/gatsby): JS + React 生态。适合与 CMS、API、数据库搭配使用。
