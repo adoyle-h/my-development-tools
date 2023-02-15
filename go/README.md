@@ -22,7 +22,7 @@
 - [测试](#测试)
 - [HTTP](#http)
 - [容器](#容器)
-- [终端](#终端)
+- [终端 Shell](#终端-shell)
 
 <!-- /MarkdownTOC -->
 
@@ -105,7 +105,8 @@
 
 - [automaxprocs](https://github.com/uber-go/automaxprocs): 在容器中正确设置 GOMAXPROCS
 
-## 终端
+## 终端 Shell
 
 - [tview](https://github.com/rivo/tview)
 - [tcell](https://github.com/gdamore/tcell)
+- [posener/complete](https://github.com/posener/complete/tree/master): 构建补全命令的库，支持 bash, zsh, fish

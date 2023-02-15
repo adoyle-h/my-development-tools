@@ -7,8 +7,6 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
-- [静态网站生成器](#静态网站生成器)
-- [JAMstack](#jamstack)
 - [框架](#框架)
 - [表单](#表单)
 - [物理引擎](#物理引擎)
@@ -100,21 +98,6 @@
 - [MathJax](https://github.com/mathjax/MathJax): JavaScript display engine for LaTeX, MathML, and AsciiMath notation
 - [xterm.js](https://github.com/xtermjs/xterm.js): 浏览器里模拟终端
 - [dflex](https://github.com/dflex-js/dflex): 框架兼容性很好的 DOM 拖拽库
-
-## 静态网站生成器
-
-- [Gastby](https://github.com/gatsbyjs/gatsby): 基于 React 和 GraphQL 的现代化静态网站生成器。可扩展性好。
-  - [docz](https://github.com/doczjs/docz): 基于 MDX 和 Gastby 的，零配置的，文档生成器
-- [docsify](https://github.com/docsifyjs/docsify): 基于 Markdown 的文档生成器。在浏览器直接加载 Markdown 文档实时渲染。细节功能做得不是很理想。`routerMode: 'history'` 针对静态页面托管方案（比如 Github Pages）无效。
-  - [docute](https://github.com/egoist/docute): 类似技术的备选方案
-- [react-static](https://github.com/nozzle/react-static): 实现 PRPL 模式的静态网页生成工具
-- [bisheng](https://github.com/benjycui/bisheng)
-- [eleventy](https://github.com/11ty/eleventy)
-- [Hexo](https://github.com/hexojs/hexo): 静态博客生成器
-
-## JAMstack
-
-- [jamstack.org](https://github.com/jamstack/jamstack.org)
 
 ## 框架
 

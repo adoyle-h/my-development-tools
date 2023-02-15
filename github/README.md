@@ -2,6 +2,21 @@
 
 [⬅︎ 返回上层](../#github)
 
+## TOC
+
+<!-- MarkdownTOC GFM -->
+
+- [其他](#其他)
+    - [Github Badages](#github-badages)
+    - [Github Pages](#github-pages)
+    - [Github Actions](#github-actions)
+    - [Github UI](#github-ui)
+    - [Github App](#github-app)
+
+<!-- /MarkdownTOC -->
+
+## 其他
+
 - https://github.com/notifications/subscriptions : 我订阅的 issue 列表。
 
 - https://ghproxy.com/ : GitHub 文件, Releases, archive, gist, raw.githubusercontent.com 文件代理加速下载服务
@@ -40,10 +55,7 @@
 ### Github Pages
 
 - [github/pages-gem](https://github.com/github/pages-gem): A simple Ruby Gem to bootstrap dependencies for setting up and maintaining a local Jekyll environment in sync with GitHub Pages
-- [jekyll-toc](https://github.com/allejo/jekyll-toc): 给 Github Page 的 jekyll 主题增加 TOC
-- [jekyll-remote-theme](https://github.com/benbalter/jekyll-remote-theme): 自动安装 jekyll 主题
-- [just-the-docs](https://github.com/just-the-docs/just-the-docs): 适用于生成项目文档。搜索功能强大。但是导航栏的编排很冗余。
-- [online-cv](https://github.com/sharu725/online-cv): 适用于生成简历文档
+- [SSG](../README.md#ssg-static-site-generator)
 
 ### Github Actions
 

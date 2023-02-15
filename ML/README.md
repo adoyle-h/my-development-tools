@@ -85,8 +85,12 @@
 - [JioNLP](https://github.com/dongrixinyu/JioNLP): 中文 NLP 预处理、解析工具包
 - [OpenCC](https://github.com/BYVoid/OpenCC): 繁体/简体中文转换
 - [ckiplab](https://github.com/ckiplab): 台湾中研院资讯所、语言所的研究项目
+- [Chinese-Word-Vectors](https://github.com/Embedding/Chinese-Word-Vectors): 预训练的中文词向量
 
 ### Word Segment 分词
+
+- [jieba](https://github.com/fxsjy/jieba): 结巴中文分词 python 版。
+- [jieba-rs](https://github.com/messense/jieba-rs): 结巴中文分词 rust 版。
 
 ### 自然语言生成 (NLG)
 

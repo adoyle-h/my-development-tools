@@ -40,7 +40,10 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [其他](#其他)
     - [历史遗珠](#历史遗珠)
 - [手册 Cheatsheet](#手册-cheatsheet)
-- [编译器](#编译器)
+- [编译](#编译)
+- [自动化](#自动化)
+    - [自动化构建](#自动化构建)
+    - [自动化机器人](#自动化机器人)
 - [财务](#财务)
 - [短信](#短信)
 - [统计数据](#统计数据)
@@ -71,7 +74,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [富文本编辑器 WYSIWYG](#富文本编辑器-wysiwyg)
     - [Online IDE](#online-ide)
     - [IDE 辅助工具](#ide-辅助工具)
-- [自动化](#自动化)
+- [Telegram](#telegram)
 - [下载工具](#下载工具)
 - [终端 Terminal](#终端-terminal)
 - [Shell](#shell)
@@ -128,8 +131,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [IM](#im)
 - [Git](#git)
 - [Chrome](#chrome)
-    - [Chrome 主题](#chrome-主题)
-    - [Chrome 插件](#chrome-插件)
 - [Bookmarklet](#bookmarklet)
 - [画图](#画图)
     - [ASCII Art](#ascii-art)
@@ -143,7 +144,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [密码管理](#密码管理)
 - [编码](#编码)
 - [知识管理](#知识管理)
-- [搜索引擎](#搜索引擎)
+- [搜索引擎 Search Bar](#搜索引擎-search-bar)
 - [邮件](#邮件)
 - [翻译](#翻译)
 - [Windows App](#windows-app)
@@ -191,6 +192,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [模板引擎](#模板引擎)
 - [TeX/LaTeX](#texlatex)
 - [Slide/Presentation](#slidepresentation)
+- [SSG: Static Site Generator](#ssg-static-site-generator)
+    - [JAMstack](#jamstack)
 - [文档](#文档)
     - [文档系统](#文档系统)
     - [文档处理](#文档处理)
@@ -272,12 +275,26 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [BASH CHEATSHEET (中文速查表) - by skywind](https://github.com/skywind3000/awesome-cheatsheets/blob/master/languages/bash.sh)
 - [linux-cheat](https://github.com/cirosantilli/linux-cheat): Linux user-land CLI utilities
 
-## 编译器
+## 编译
 
 - [llvm](https://llvm.org/)
 - https://godbolt.org/ : 在线预览汇编码的工具，支持各种版本和架构下的 clang，gcc，甚至还能查看 wasm 指令。
-- `make` 与 `makefile`: 缺点是不能跨平台，优点是调用 shell 命令很简单
+
+## 自动化
+
+### 自动化构建
+
+- `make` 与 `makefile`: 缺点是不能跨平台，优点是能够直接调用 shell 命令和环境变量
+  - [Makefile 简易教程](https://seisman.github.io/how-to-write-makefile/introduction.html)
 - [xmake](https://github.com/xmake-io/xmake): 基于 Lua 的轻量级跨平台构建工具
+- https://danger.systems/ : code review 时挺有用的自动化工具
+  - [danger-js](https://github.com/danger/danger-js): JS 版本
+
+### 自动化机器人
+
+- [hubot](https://github.com/github/hubot): 交互机器人
+- [robotjs](https://github.com/octalmage/robotjs): 用 NodeJS 定制 GUI 自动化流程。支持 Windows, Mac, Linux 系统
+  - [nut.js](https://github.com/nut-tree/nut.js): 备选方案
 
 ## 财务
 
@@ -442,11 +459,14 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## 编辑器/IDE
 
 - [neovim](https://github.com/neovim/neovim): 终端编辑器，用 Python 写的 vim
+  - [one.nvim](https://github.com/adoyle-h/one.nvim): All-in-one neovim config framework in Lua.
   - [oni](https://github.com/onivim/oni): Neovim GUI 编辑器
   - [vimspector](https://github.com/puremourning/vimspector): A multi-language debugging system for Vim
   - [vim colors chemes](https://vimcolorschemes.com/)
   - [nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide): nvim 编程圣经
   - [awesome-neovim](https://github.com/rockerBOO/awesome-neovim)
+- vim
+  - [vim-fast](https://github.com/chenxuan520/vim-fast): 提供了无插件的 vim 配置。（待评测）
 - [Visual Studio Code](https://github.com/Microsoft/vscode): 可能是最棒的开源 IDE
   - [code-settings-sync](https://github.com/shanalikhan/code-settings-sync): VSC 设置备份同步工具
   - [code-server](https://github.com/cdr/code-server): Run VS Code on a remote server
@@ -487,13 +507,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [NerdFonts](https://www.nerdfonts.com) 与 [cheat-sheet](https://www.nerdfonts.com/cheat-sheet): 程序员必备字体
 - [PacVim](https://github.com/jmoon018/PacVim): 用游戏教你学 VIM
 
-## 自动化
-
-- [hubot](https://github.com/github/hubot): 交互机器人
-- [robotjs](https://github.com/octalmage/robotjs): 用 NodeJS 定制 GUI 自动化流程。支持 Windows, Mac, Linux 系统
-  - [nut.js](https://github.com/nut-tree/nut.js): 备选方案
-- https://danger.systems/ : code review 时挺有用的自动化工具
-  - [danger-js](https://github.com/danger/danger-js): JS 版本
+## [Telegram](./telegram/README.md)
 
 ## 下载工具
 
@@ -526,6 +540,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 用来增强 Shell 的交互/开发体验。
 
 - [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy): A curated list of Terminal frameworks, plugins & resources for CLI lovers.
+- [nushell](https://github.com/nushell/nushell): 超级酷的 Shell
 - [fig](https://fig.io/): 非常酷的补全工具。目前只支持 MacOS。
 - [basher](https://github.com/basherpm/basher): bash 包管理器
 - [dotbot](https://github.com/anishathalye/dotbot/): dotfile 管理器
@@ -1036,45 +1051,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [git-crypt](https://github.com/AGWA/git-crypt): 备选方案
 - [forgit](https://github.com/wfxr/forgit): 基于 fzf 和 shellscript 实现的 git 增强插件
 
-## Chrome
-
-- [chrome-cli](https://github.com/prasmussen/chrome-cli): chrome 命令行工具
-
-### Chrome 主题
-
-- [Robot Theme, inspired by Android™](https://chrome.google.com/webstore/detail/robot-theme-inspired-by-a/oeljdmeofcikjblcoehpmdnooimalbmj): 我用了 5 年
-- [Material Redesign Dark Theme](https://chrome.google.com/webstore/detail/material-redesign-dark-th/eakhnambppkkcdaefeaipbfhiaaifmli): 纯色暗系
-
-### Chrome 插件
-
-- [Tampermonkey](https://github.com/Tampermonkey/tampermonkey): 开源版油猴。开源前端脚本管理器。
-- [Unsplash Instant](https://chrome.google.com/webstore/detail/unsplash-instant/pejkokffkapolfffcgbmdmhdelanoaih): 新标签页壁纸。太美了
-- [vimium](https://github.com/philc/vimium): vim 风格操作浏览器
-- [smart-toc](https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba): 根据页面生成 TOC
-- [tamperchrome](https://github.com/google/tamperchrome): 实时拦截并修改请求。不必依赖 Charles 这种代理服务器了
-- [Requestly](https://www.requestly.in/content/documentation/): 拦截修改 HTTP 请求，非常灵活好用！
-- [Chrono](http://www.chronodownloader.net/): 下载管理器
-- [JavaScript Errors Notifier](https://chrome.google.com/webstore/detail/javascript-errors-notifie/jafmfknfnkoekkdocjiaipcnmkklaajd)
-- [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
-- [Isometric Contributions](https://chrome.google.com/webstore/detail/isometric-contributions/mjoedlfflcchnleknnceiplgaeoegien)
-- [rikaikun](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp): 日语翻译工具
-- [RSS Subscription Extension](https://chrome.google.com/webstore/detail/rss-subscription-extensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd)
-- [Session Buddy](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko): 暂存标签页
-- [The Great Suspender](https://github.com/deanoemcke/thegreatsuspender): 拯救你的内存被 Chrome 吃光
-- [ShowIp](https://chrome.google.com/webstore/detail/showip/agoljmemkbciolpigpabjfkagboolkcj)
-- [声海盗](https://chrome.google.com/webstore/detail/%E5%A3%B0%E6%B5%B7%E7%9B%97/idleenniidjlnmnjkjmmnocnkmjibadd)
-- [EditThisCookie](https://github.com/fcapano/Edit-This-Cookie)
-- [Wikiwand](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj): 自动将 Wikipedia 的链接跳转到 Wikiwand
-- [hn-special](https://github.com/gabrielecirulli/hn-special): 美化 Hacker News 的界面，交互体验做得非常棒，支持亮/暗色系。
-- [AdBlock](http://getadblock.com/): 广告屏蔽插件
-  - https://easylist.to/ : EasyList 规则列表
-  - https://github.com/easylist/easylist
-  - https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt : 过滤规则文件。包含国内外网站过滤规则，最全。
-  - https://easylist-downloads.adblockplus.org/easylistchina.txt : 过滤规则文件。这个只包含国内网站过滤规则，国外网站规则没在内。
-  - http://abpchina.org/forum/forum.php : AdBlock 中文社区
-- [uBlock](https://github.com/uBlock-LLC/uBlock): 跟 AdBlock 功能类似。开源的。
-- [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg): 截图插件
-- [ChatGPT Google 插件](https://github.com/wong2/chat-gpt-google-extension)
+## [Chrome](./chrome/README.md)
 
 ## Bookmarklet
 
@@ -1176,11 +1153,20 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [iThoughtsX](https://www.toketaware.com): 思维导图 `Ⓜ`
   - [Thoughts-Search](https://github.com/adoyle-h/iThoughts-Search): iThoughtsX 命令行搜索工具 `⨀`
 
-## 搜索引擎
+## 搜索引擎 Search Bar
 
-- [MeiliSearch](https://github.com/meilisearch/MeiliSearch): 用于搜索。Rust 实现
-- [ElasticSearch](https://github.com/elastic/elasticsearch): 用于复杂查询和分析。Java 实现
+- [ElasticSearch](https://github.com/elastic/elasticsearch): 企业级搜索引擎。Java 实现
 - [Algolia](https://www.algolia.com/): 商业搜索引擎
+  - [docsearch](https://github.com/algolia/docsearch): 基于 algolia 服务的搜索框，搜索时需要请求 algolia api。
+- [typesense](https://github.com/typesense/typesense): 类似 algolia。C++ 实现的。索引全存内存。
+  - 可自己托管，也可以选择 [typesense cloud](https://cloud.typesense.org/) 服务，但它没有靠近中国的数据中心。
+- [MeiliSearch](https://github.com/meilisearch/meilisearch): Rust 实现
+- [sonic](https://github.com/valeriansaliou/sonic): Rust 实现。
+- [lunr.js](https://github.com/olivernn/lunr.js): 轻量级的搜索方案。无须部署服务。支持多语言。现已无人维护。
+  - [lunr-languages](https://github.com/MihaiValentin/lunr-languages): 语言包。中文包的依赖加载有问题。
+  - [全文索引](https://lunrjs.com/guides/index_prebuilding.html)存储在本地的一个 JSON 文件里，每次加载页面都会加载全文索引。如果网站内容很多，索引文件会很大。
+- [flexsearch](https://github.com/nextapps-de/flexsearch): 类似 lunr.js。虽然支持中文，但分词功能可能需要自己开发。
+- [solr](https://solr.apache.org/): 基于 Lucene 的开源企业级搜索平台
 
 ## 邮件
 
@@ -1352,6 +1338,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Seafile](https://github.com/haiwen/seafile)
 - [Trainbit](https://trainbit.com/)
 - [百度网盘秒传链接转存](https://rapidupload.1kbtool.com/)
+- [钛盘](https://ttttt.link)
+  - [国际版](https://tmp.link)
 
 ## 临时共享
 
@@ -1522,6 +1510,36 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - https://slides.com/ : 基于 [reveal.js](https://github.com/hakimel/reveal.js) 的服务，非常好用，但是国内要翻墙 `ⱳ`
 - [mdx-deck](https://github.com/jxnblk/mdx-deck): 基于 MDX 写 slide
 
+## SSG: Static Site Generator
+
+- [Jekyll](https://jekyllrb.com/): Ruby 生态。Github Page 默认 SSG。markdown 文本编译成网页。主题和插件生态非常丰富。
+  - [我的使用经验](https://adoyle.me/Today-I-Learned/others/jekyll.html)
+  - [jekyll-toc](https://github.com/allejo/jekyll-toc): 给 Github Page 的 jekyll 主题增加 TOC
+  - [jekyll-remote-theme](https://github.com/benbalter/jekyll-remote-theme): 自动安装 jekyll 主题
+- [just-the-docs](https://github.com/just-the-docs/just-the-docs): 基于 Jekyll，适用于生成项目文档。搜索功能强大。
+  - 缺点
+    - 导航栏的编排很冗余。必须要给 markdown 文档加内容。
+    - `{:toc}` 这类语法依赖 kramdown，如果 _config.yml 修改了 markdown 解析器，这类语法[将会失效](https://github.com/just-the-docs/just-the-docs/issues/1159)。
+    - 搜索栏默认[不支持中文](https://github.com/just-the-docs/just-the-docs/issues/59)，它使用 [lunr.js](https://github.com/olivernn/lunr.js)，需要自己添加[语言包](https://github.com/MihaiValentin/lunr-languages)，得改很多东西。
+- [online-cv](https://github.com/sharu725/online-cv): 适用于生成简历文档
+- [Hugo](https://github.com/gohugoio/hugo): Go 生态。
+- [gatsby](https://github.com/gatsbyjs/gatsby): JS + React 生态。适合与 CMS、API、数据库搭配使用。
+- [Hexo](https://hexo.io/): 适用于搭建个人博客。JS 生态。
+- [Zola](https://github.com/getzola/zola): Rust 生态。自带搜索栏。
+- [Gastby](https://github.com/gatsbyjs/gatsby): 基于 React 和 GraphQL 的现代化静态网站生成器。可扩展性好。
+  - [docz](https://github.com/doczjs/docz): 基于 MDX 和 Gastby 的，零配置的，文档生成器
+- [docsify](https://github.com/docsifyjs/docsify): 基于 Markdown 的文档生成器。在浏览器直接加载 Markdown 文档实时渲染。细节功能做得不是很理想。`routerMode: 'history'` 针对静态页面托管方案（比如 Github Pages）无效。
+  - [docute](https://github.com/egoist/docute): 类似技术的备选方案
+- [docusaurus](https://github.com/facebook/docusaurus): JS + React + MDX
+- [next.js](https://github.com/vercel/next.js): 「待评价」
+- [astro](https://github.com/withastro/astro): 「待评价」
+- [eleventy](https://github.com/11ty/eleventy): 「待评价」
+- [bisheng](https://github.com/benjycui/bisheng): 「待评价」
+
+### JAMstack
+
+- [jamstack.org](https://github.com/jamstack/jamstack.org)
+
 ## 文档
 
 - [Dash](https://kapeli.com/dash): 查看文档  `Ⓜ`
@@ -1537,8 +1555,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - 基于 Notion 的网站
   - https://popsy.co/ : 自定义域名免费。收费功能 8 刀/月
   - https://super.so/ : 用户体验优秀。自定义域名收费。收费功能 12 刀/月
-  - [react-notion](https://github.com/splitbee/react-notion)
-  - [react-notion-x](https://github.com/NotionX/react-notion-x)
+- 基于 Notion 自建网站
+  - [react-notion-x](https://github.com/NotionX/react-notion-x): 用 react 组件搭建 notion page
   - [notion-blog](https://github.com/ijjk/notion-blog)
   - [nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit)
   - [notion-sdk-js](https://github.com/makenotion/notion-sdk-js)
