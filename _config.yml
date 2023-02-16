@@ -13,8 +13,9 @@ include: []
 exclude:
   - README.md
   - .github
+  - .git
 
-markdown: GFM
+# markdown: GFM
 permalink: none
 remote_theme: just-the-docs/just-the-docs
 

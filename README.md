@@ -11,6 +11,10 @@ ADoyle 的开发工具箱。持续更新中。https://tools.adoyle.me
 1. 当我不用了或者找到更好的替代品，会移除旧记录。
 2. 不接受 Pull Request。有想法可以在 [Discussions](https://github.com/adoyle-h/my-development-tools/discussions) 交流。
 
+
+在网页端，搜索英文建议用最上方的搜索框，体验比较好。
+搜索框不支持中文，搜中文信息建议用浏览器自带的搜索功能。
+
 ## 版权声明 (Copyright and License)
 
 Copyright 2016-2023 ADoyle (adoyle.h@gmail.com). Some Rights Reserved.
@@ -32,10 +36,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## TOC
 
-<details close>
-<summary>点击展开/折叠目录</summary>
-
-（在网页端，中文跳转和搜索都有 BUG）
+<!-- <details close> -->
+<!-- <summary>点击展开/折叠目录</summary> -->
 
 <!-- MarkdownTOC GFM -->
 
@@ -197,6 +199,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [SSG: Static Site Generator](#ssg-static-site-generator)
     - [JAMstack](#jamstack)
 - [文档](#文档)
+    - [查阅文档](#查阅文档)
     - [文档系统](#文档系统)
     - [文档处理](#文档处理)
     - [文档排版](#文档排版)
@@ -224,7 +227,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [别人的工具列表](#别人的工具列表)
 
 <!-- /MarkdownTOC -->
-</details>
+<!-- </details> -->
 
 ## 其他
 
@@ -1330,6 +1333,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - https://sm.ms/ : 免费公益的图床
 - https://cloudinary.com/
+- [PicGo](https://github.com/Molunerfinn/PicGo): 图床管理软件，支持各种图床服务，包括 Github。Mac 安装失败见 FAQ。
 
 ## 网盘
 
@@ -1545,9 +1549,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## 文档
 
-- [Dash](https://kapeli.com/dash): 查看文档  `Ⓜ`
-  - http://devdocs.io/ : 查看文档。开源的 https://github.com/Thibaut/devdocs/ `ⱳ`
-  - [zealdocs](https://zealdocs.org/): 查看文档。备选 `Ⓛ`
+### 查阅文档
+
+- [Dash](https://kapeli.com/dash): 桌面程序。Mac 专用。 `Ⓜ`
+- http://devdocs.io/ : 社区维护内容。在线网页，也支持 PWA。[开源的](https://github.com/Thibaut/devdocs/)
+- [zealdocs](https://zealdocs.org/): 桌面程序。跨平台
 
 ### 文档系统
 
