@@ -42,8 +42,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+    - [教你搜索](#教你搜索)
     - [历史遗珠](#历史遗珠)
-- [手册 Cheatsheet](#手册-cheatsheet)
+- [手册](#手册)
+    - [Cheatsheet 管理器](#cheatsheet-管理器)
+    - [Cheatsheet](#cheatsheet)
 - [编译](#编译)
 - [自动化](#自动化)
     - [自动化构建](#自动化构建)
@@ -136,8 +139,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Git](#git)
 - [Chrome](#chrome)
 - [Bookmarklet](#bookmarklet)
-- [画图](#画图)
-    - [ASCII Art](#ascii-art)
 - [测试](#测试)
     - [字符串测试](#字符串测试)
     - [HTTP Benchmark](#http-benchmark)
@@ -199,7 +200,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [SSG: Static Site Generator](#ssg-static-site-generator)
     - [JAMstack](#jamstack)
 - [文档](#文档)
-    - [查阅文档](#查阅文档)
     - [文档系统](#文档系统)
     - [文档处理](#文档处理)
     - [文档排版](#文档排版)
@@ -209,7 +209,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [图像处理](#图像处理)
 - [视频处理](#视频处理)
 - [压缩/解压](#压缩解压)
-- [Steganography](#steganography)
 - [OCR](#ocr)
 - [Android](#android)
 - [截图/录屏](#截图录屏)
@@ -222,8 +221,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [中国特色](#中国特色)
 - [人文](#人文)
 - [Funny](#funny)
-    - [游戏 Game](#游戏-game)
-    - [教你搜索](#教你搜索)
 - [别人的工具列表](#别人的工具列表)
 
 <!-- /MarkdownTOC -->
@@ -260,6 +257,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [toybox](https://github.com/landley/toybox)：类似 buxybox。MIT 协议开源。
   - [busybox](https://busybox.net/): 精简版 GNU coreutils，all in one。GPL 协议开源。
 
+### 教你搜索
+
+- http://lmgtfy.com/ : 帮你 google/bing/duckduckgo
+- http://www.baidu-x.com/ : 帮你百度下
+
 ### 历史遗珠
 
 那些有意义却不为众人所知或被众人遗忘的项目。
@@ -267,15 +269,23 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Plan 9](https://9p.io/plan9/)
 - [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail): 代码可视化浏览器
 
-## 手册 Cheatsheet
+## 手册
 
-- https://learnxinyminutes.com : 快速学习各种编程语言的手册
-- [Rico's cheatsheets](https://devhints.io): 网页版，[源码](https://github.com/rstacruz/cheatsheets)
+### Cheatsheet 管理器
+
+- [Dash](https://kapeli.com/dash): 桌面程序。Mac 专用。 `Ⓜ`
+- http://devdocs.io/ : 社区维护内容。在线网页，也支持 PWA。[开源的](https://github.com/Thibaut/devdocs/)
+- [zealdocs](https://zealdocs.org/): 桌面程序。跨平台
 - [cheat](https://github.com/cheat/cheat): 命令行工具，本地存储，支持多 cheatsheets 扩展。这个仓库只有程序，需要下载官方 cheatsheets 配合使用。还可以 `cheat -e` 自己编辑维护。
   - [cheat/cheatsheets](https://github.com/cheat/cheatsheets): 官方 cheatsheets
   - [adoyle-h/my-command-cheat](https://github.com/adoyle-h/my-command-cheat): 我的 cheatsheets
 - [tldr](https://github.com/tldr-pages/tldr/): 命令行工具，手册内容由社区维护，非常详尽。
+
+### Cheatsheet
+
+- https://learnxinyminutes.com : 快速学习各种编程语言的手册
 - [cheat.sh](https://github.com/chubin/cheat.sh): cheatsheet 服务，可通过 curl 获取内容，内容由社区维护。
+- [Rico's cheatsheets](https://devhints.io): 网页版，[源码](https://github.com/rstacruz/cheatsheets)
 - [explainshell.com/](https://explainshell.com/): 形象解释 shell 命令
 - [BASH CHEATSHEET (中文速查表) - by skywind](https://github.com/skywind3000/awesome-cheatsheets/blob/master/languages/bash.sh)
 - [linux-cheat](https://github.com/cirosantilli/linux-cheat): Linux user-land CLI utilities
@@ -1034,27 +1044,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat): 开源版 Slack。built with Meteor
 - [Mattermost](https://mattermost.com/)
 
-## Git
-
-- [Gitea](https://github.com/go-gitea/gitea): MIT 协议开源的 Git 托管服务。后端采用 Go 编写
-<a name="git-cal"></a>
-- [git-stats](https://github.com/IonicaBizau/git-stats): 类似 Github 活动图的命令行版
-- [git-extras](https://github.com/tj/git-extras): git 扩展命令
-- [git-lfs](https://github.com/git-lfs/git-lfs): git 支持大文件存储
-- [git-recall](https://github.com/Fakerr/git-recall): 交互式 git log
-- [cz-cli](https://github.com/commitizen/cz-cli): git commit message 规范工具
-  - [commitlint][]
-- [GitKraken](https://www.gitkraken.com): Git GUI
-  - [Sublime Merge](https://www.sublimemerge.com/): Sublime 作者出品的 Git GUI，查找跳转很方便，但是目前 UI 设计不好，看起来不够直观
-- [git-tips](https://github.com/git-tips/tips): git 使用技巧
-- [Gource](https://github.com/acaudwell/Gource): 版本控制历史可视化
-- [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git): 用 JS 实现的 git
-- [sourcegraph](https://about.sourcegraph.com/): 在浏览器辅助看代码的工具，支持 GitHub, Phabricator, Bitbucket
-- [git-history](https://github.com/pomber/git-history): 可视化单个文件的 diff
-- [git-secret](https://github.com/sobolevn/git-secret): 将敏感信息加密再存储到 Git
-  - [blackbox](https://github.com/StackExchange/blackbox): 支持 Git/Mercurial/Subversion
-  - [git-crypt](https://github.com/AGWA/git-crypt): 备选方案
-- [forgit](https://github.com/wfxr/forgit): 基于 fzf 和 shellscript 实现的 git 增强插件
+## [Git](./git.md)
 
 ## [Chrome](./chrome/README.md)
 
@@ -1064,43 +1054,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - https://mcdlr.com/js-inject/
 - https://adrianroselli.com/2015/01/css-bookmarklets-for-testing-and-fixing.html
 - https://css-tricks.com/web-development-bookmarklets/
-
-## 画图
-
-- [d2](https://github.com/terrastruct/d2): D2 is a modern diagram scripting language that turns text to diagrams.
-<a name="PlantUML"></a>
-- [PlantUML](https://github.com/plantuml/plantuml): 用代码画 UML 图或流程图
-  - [node-plantuml](https://github.com/markushedvall/node-plantuml): node 命令行 [PlantUML][]
-  - [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML): C4 Model
-- [Mermaid](https://github.com/knsv/mermaid): 类似 PlantUML，另一种基于文本生成图的工具
-  - [Mermaid Live Editor](https://mermaidjs.github.io/mermaid-live-editor/)
-- [Pixelmator](http://www.pixelmator.com/mac): 像素画图工具 `Ⓜ`
-- [krita](https://github.com/KDE/krita): 自由、免费、开源、跨平台的像素绘画软件 `Ⓜ` `Ⓛ` `ⓦ`
-- [Sketch](https://www.sketchapp.com/): 矢量画图工具 `Ⓜ`
-- [Quil](https://github.com/quil/quil): 写代码绘画 (Painting)
-  - 源自 http://www.tylerlhobbs.com/ https://www.instagram.com/tylerlhobbs/
-  - [教程](http://www.tylerlhobbs.com/writings/using-quil-for-artwork) [教程](http://www.tylerlhobbs.com/writings)
-- [p5.js](https://p5js.org/reference/): processing JS 工具
-- https://processing.org/
-  - http://processingjs.org/
-- [drawio](https://github.com/jgraph/drawio): 非常优秀的开源在线绘图前端库。各种图都有，支持国际化。
-- https://excalidraw.com/ : 手绘风格的绘图工具。开源，[源码](https://github.com/excalidraw/excalidraw)
-- [MagicaVoxel](https://ephtracy.github.io/): 体素建模工具
-
-### ASCII Art
-
-- [Monodraw](https://monodraw.helftone.com): ASCII Art 画图工具 `Ⓜ`
-- [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii): 图片转 ASCII 字符
-- ASCII Art 样例库
-  - http://www.ascii-fr.com/
-  - https://asciiart.website/
-  - https://fsymbols.com/text-art/
-- [FIGlet](http://www.figlet.org/): ASCII Art 字体程序
-  - [figlet-fonts](https://github.com/xero/figlet-fonts)
-  - [figlet.js](https://github.com/patorjk/figlet.js)
-  - [ascii-art](https://github.com/khrome/ascii-art): A Node.js library for ansi codes, figlet fonts, ascii art and other ASCII graphics
-- http://patorjk.com/software/taag/ 网页版
-- http://www.network-science.de/ascii/ : ASCII Art 网页版生成器
 
 ## 测试
 
@@ -1549,12 +1502,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## 文档
 
-### 查阅文档
-
-- [Dash](https://kapeli.com/dash): 桌面程序。Mac 专用。 `Ⓜ`
-- http://devdocs.io/ : 社区维护内容。在线网页，也支持 PWA。[开源的](https://github.com/Thibaut/devdocs/)
-- [zealdocs](https://zealdocs.org/): 桌面程序。跨平台
-
 ### 文档系统
 
 - [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy): 类似 Notion 的笔记系统。基于 Flutter 和 Rust 开发
@@ -1615,25 +1562,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [xxHash](https://github.com/Cyan4973/xxHash)
 - [hashids](https://hashids.org/)
 
-## 图像处理
-
-- [ImageMagick](http://www.imagemagick.org/): 图像处理系统，支持 200 多种格式，包括: PNG, JPEG, JPEG-2000, GIF, TIFF, DPX, EXR, WebP, Postscript, PDF, SVG。
-- [GraphicsMagick](http://www.graphicsmagick.org/): ImageMagick 的一个分支。没有社区讨论，文档示例太少，学习门槛较高。
-  - ImageMagick 与 GraphicsMagick 的由来和区别介绍: https://www.linux.com/news/imagemagick-or-graphicsmagick
-- [gm](https://github.com/aheckmann/gm): NodeJS 封装 GraphicsMagick and ImageMagick
-- [jimp](https://github.com/oliver-moran/jimp): 用 JS 写的图像处理类库
-- [ImageOptim](https://github.com/ImageOptim/ImageOptim): 开源的图像压缩优化工具 `Ⓜ`
-  - [Caesium](https://github.com/Lymphatus/caesium-image-compressor): 开源的，跨平台，图像压缩工具
-- https://www.iloveimg.com/zh-cn : 在线压缩、调整大小、加水印、格式转换的图片处理服务
-  - https://docsmall.com : GIF 压缩比很高
-- [GIF Brewery 3](https://gfycat.com/gifbrewery): 视频转 GIF，GIF 编辑、裁减、压缩。App Store 内购买。 `Ⓜ`
-- [Gifski](https://github.com/sindresorhus/Gifski): 视频转 GIF。开源的。 `Ⓜ`
-- [pixelmatch](https://github.com/mapbox/pixelmatch): The smallest, simplest and fastest JavaScript pixel-level image comparison library
-- [libvips](https://github.com/libvips/libvips): A fast image processing library with low memory needs.
-  - [libvips CLI: vips](https://www.libvips.org/API/current/using-cli.html)
-  - [sharp](https://github.com/lovell/sharp): libvips for NodeJS
-  - [govips](https://github.com/davidbyttow/govips): libvips for Go
-- [squoosh](https://github.com/GoogleChromeLabs/squoosh): 图片格式转换、压缩工具。支持浏览器和命令行
+## [图像处理](./picture/README.md)
 
 ## 视频处理
 
@@ -1644,12 +1573,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [zstd](https://github.com/facebook/zstd): 压缩比率、速度都很高。
 - [snappy](https://github.com/google/snappy): 速度非常快，但压缩比低。
 - [mozjpeg](https://github.com/mozilla/mozjpeg): mozilla 出品的 JPEG 图像压缩算法，压缩率很高
-
-## Steganography
-
-[参考文章](https://www.jianshu.com/p/08041bcf0f23)
-
-- [stego-toolkit](https://github.com/DominicBreuker/stego-toolkit): 这套隐写工具集很棒，集成了 mp3、wav、纯文本、png、jpg 隐写到图片里
 
 ## [OCR](./ML/README.md#ocr)
 
@@ -1714,47 +1637,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## [人文](./humanities.md)
 
-## Funny
-
-开发需要娱乐
-
-- `curl wttr.in`: 查看天气预报，https://github.com/chubin/wttr.in
-- [sl](https://github.com/mtoyoda/sl): 开火车
-- [nyancat](https://github.com/klange/nyancat): NyanCat
-- [nyancat.js](https://github.com/niftylettuce/nyancat.js): 刷屏利器
-- [doge](https://github.com/thiderman/doge): Doge
-- [jsfuck](https://github.com/aemkei/jsfuck)
-- [Tickeys](https://github.com/yingDev/Tickeys): 用 mac 键盘打出机械键盘的感觉。还有打字机、剑气...
-- Mac 命令 say: `say hello`, `say 你好`, `say こんにちは`
-- [lolcat](https://github.com/busyloop/lolcat): rainbow cat
-- [haxor-news](https://github.com/donnemartin/haxor-news): 终端版 hacker news
-- [wtf](https://linux.die.net/man/6/wtf): 英文缩写解释工具。[使用介绍](https://www.zhihu.com/question/59227720/answer/286727058)
-- [pm](https://github.com/anvaka/pm): 包管理可视化
-- [sorry](https://github.com/xtyxtyx/sorry): 为所欲为 GIF 制作器
-- [avataaars generator](https://getavataaars.com/): 很有趣的头像生成器。[源码](https://github.com/fangpenlin/avataaars-geneator)
-- [logoly](https://github.com/bestony/logoly): Pornhub 风格 Logo 生成器
-- [rockstar](https://github.com/dylanbeattie/rockstar): 写的不是代码，是诗
-- [windows95](https://github.com/felixrieseberg/windows95): 💩🚀 Windows 95 in Electron.
-- [v86](https://github.com/copy/v86): 浏览器或 NodeJS 里运行 x86 系统。
-- [cowsay](https://linux.die.net/man/1/cowsay) and [ponysay](https://github.com/erkin/ponysay)
-- [countdown](https://github.com/antonmedv/countdown): 终端倒计时
-- [weird-fonts](https://github.com/beizhedenglong/weird-fonts): 𝒕𝒖𝒓𝒏 𝒂𝒍𝒑𝒉𝒂𝒏𝒖𝒎𝒆𝒓𝒊𝒄 𝒄𝒉𝒂𝒓𝒂𝒄𝒕𝒆𝒓𝒔 𝒊𝒏𝒕𝒐 𝒘𝒆𝒊𝒓𝒅 𝒇𝒐𝒏𝒕 𝒔𝒕𝒚𝒍𝒆.
-- [pxltrm](https://github.com/dylanaraps/pxltrm): 终端里的画图板
-- [Bash-Snippets](https://github.com/alexanderepstein/Bash-Snippets): A collection of small bash scripts for heavy terminal users
-- [pipes.sh](https://github.com/pipeseroni/pipes.sh): 超级酷的终端屏保（管道主题）
-- [no-more-secrets](https://github.com/bartobri/no-more-secrets): 超级酷的终端数据解密特效
-- [福音戰士標題生成器](https://lab.magiconch.com/eva-title/)
-- [wenyan](https://github.com/wenyan-lang/wenyan): 文言文編程語言
-
-### 游戏 Game
-
-- [SteamTools](https://github.com/BeyondDimension/SteamTools): 「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。
-- [A Dark Room](https://github.com/doublespeakgames/adarkroom): 文字冒险游戏
-
-### 教你搜索
-
-- http://lmgtfy.com/ : 帮你 google/bing/duckduckgo
-- http://www.baidu-x.com/ : 帮你百度下
+## [Funny](./funny.md)
 
 -----
 
@@ -1770,15 +1653,9 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 [KeePass]: #user-content-KeePass
 [PlantUML]: #user-content-PlantUML
-[git-cal]: #user-content-git-cal
-[github-contributions-chart]: #user-content-github-contributions-chart
 [Homebrew]: #user-content-Homebrew
 [mpv]: #user-content-mpv
 [commitlint]: #user-content-commitlint
-
-<!-- icons -->
-
-[free]: https://jaywcjlove.github.io/sb/ico/min-free.svg
 
 <!-- links -->
 
