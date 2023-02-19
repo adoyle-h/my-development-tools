@@ -1187,8 +1187,9 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Vox](https://vox.rocks/mac-music-player): 音乐播放器
 - [iina](https://github.com/lhc70000/iina): 视频播放器。基于 [mpv][] 开发 `Ⓜ`
 - [HyperDock](https://bahoom.com/hyperdock): Mac Dock 栏增强
-- [mounty](https://mounty.app/): 让 Mac 支持 NTFS 文件系统
+- [NTFS Disk by Omi](https://omiapps.com/product/1585757563): 让 Mac 支持 NTFS 文件系统
   - [Tuxera NTFS](https://ntfsformac.tuxera.com/): 备选方案。商业的
+  - [mounty](https://mounty.app/): 免费的，备选方案
 - [DaisyDisk](https://daisydiskapp.com/): 硬盘数据占用空间可视化分析。非常好用！ `Ⓜ`
 - [CmdTap](http://www.yingdev.com/projects/cmdtap): 任务切换器增强 `Ⓜ`
   - [Contexts](https://contexts.co/): 这个看起来更好用，但是更贵  `Ⓜ`

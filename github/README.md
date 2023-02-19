@@ -69,6 +69,7 @@
 - https://github.com/marketplace/actions/checkout-files : 只 checkout 指定文件
 - https://github.com/actions/cache : 缓存
 - https://github.com/actions/runner-images
+- [action-gh-release](https://github.com/softprops/action-gh-release): 自动发布 github release
 
 ### Github UI
 
