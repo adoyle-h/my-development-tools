@@ -49,6 +49,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [Cheatsheet](#cheatsheet)
 - [编译](#编译)
 - [自动化](#自动化)
+    - [CI/CD](#cicd)
     - [自动化构建](#自动化构建)
     - [自动化机器人](#自动化机器人)
 - [财务](#财务)
@@ -90,12 +91,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [Shell Script Development](#shell-script-development)
 - [diff](#diff)
     - [image diff](#image-diff)
-- [CLI](#cli)
-    - [Commands in Docker](#commands-in-docker)
-    - [Builtin Commands](#builtin-commands)
-    - [Builtin Command Alternatives](#builtin-command-alternatives)
-    - [进程](#进程)
-    - [文件处理](#文件处理)
+- [命令行 CLI](#命令行-cli)
 - [结构化数据处理](#结构化数据处理)
     - [YAML](#yaml)
     - [HCL](#hcl)
@@ -104,7 +100,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [JSON Path](#json-path)
 - [Lint](#lint)
 - [Mock](#mock)
-- [HTTP](#http)
 - [网站](#网站)
 - [SSL](#ssl)
 - [BSD 系统](#bsd-系统)
@@ -118,6 +113,10 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [监控](#监控)
     - [运维](#运维)
     - [Troubleshooting](#troubleshooting)
+- [进程管理](#进程管理)
+- [文件管理](#文件管理)
+    - [文件查找](#文件查找)
+    - [文件大小](#文件大小)
 - [文件同步/备份/快照](#文件同步备份快照)
 - [ISO 镜像制作与刻录](#iso-镜像制作与刻录)
 - [数据库/存储](#数据库存储)
@@ -125,16 +124,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [数据库设计](#数据库设计)
     - [Database Versioning](#database-versioning)
 - [网络](#网络)
-    - [防火墙](#防火墙)
-    - [IP](#ip)
-    - [DNS](#dns)
-    - [HTTP](#http-1)
-    - [Websocket](#websocket)
-    - [抓包、流量分析](#抓包流量分析)
-    - [API Gateway](#api-gateway)
-    - [Tunnel](#tunnel)
 - [ProtoBuf](#protobuf)
-- [CI/CD](#cicd)
 - [IM](#im)
 - [Git](#git)
 - [Chrome](#chrome)
@@ -296,6 +286,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - https://godbolt.org/ : 在线预览汇编码的工具，支持各种版本和架构下的 clang，gcc，甚至还能查看 wasm 指令。
 
 ## 自动化
+
+### CI/CD
+
+- [drone](https://github.com/drone/drone): Drone is a Continuous Delivery platform built on Docker, written in Go
+- [GoCD](https://github.com/gocd/gocd): written in java
+- [Travis CI](https://github.com/marketplace/travis-ci/): 付费服务
 
 ### 自动化构建
 
@@ -612,103 +608,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [pixelmatch](https://github.com/mapbox/pixelmatch)
   - [image-diff](https://github.com/uber-archive/image-diff)
 
-## CLI
-
-- https://command-not-found.com/ : 如果找不到命令，可以快速搜索到对应的安装方式。
-  - [commando](https://github.com/lukaszlach/commando): 封装了各种命令的容器镜像
-- [ipcalc](https://gitlab.com/ipcalc/ipcalc): 计算/反向计算 IP 网段和掩码。Mac 可用 `brew install ipcalc` 安装。Linux 系统安装 `ipcalc-ng`
-  - 在线服务 http://jodies.de/ipcalc
-- [hr](https://github.com/LuRsT/hr): 终端分隔符
-- [cloc](https://github.com/AlDanial/cloc): 代码行统计
-- [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
-- [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
-- [pv](http://www.ivarch.com/programs/pv.shtml): 显示 linux 管道数据传输速度
-- [gotty](https://github.com/yudai/gotty): 将终端程序映射成 Web 服务
-  - [shell2http](https://github.com/msoap/shell2http): HTTP-server to execute shell commands. Designed for development, prototyping or remote control.
-- [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
-- [fkill-cli](https://github.com/sindresorhus/fkill-cli): 灵活的删进程命令，例如 `fkill 1337 safari :8080`，如果不加参数，则是交互式命令。
-- [taskbook](https://github.com/klaussinani/taskbook): 命令行 Todo List Manager
-  - [todo.txt-cli](https://github.com/ginatrapani/todo.txt-cli): 备选
-- [sampler](https://github.com/sqshq/sampler): A tool for shell commands execution, visualization and alerting. Configured with a simple YAML file.
-- [Mosh](https://github.com/mobile-shell/mosh): 自动重连的 ssh
-- [tmux](https://github.com/tmux/tmux): 多终端管理器
-  - [the-tao-of-tmux](https://leanpub.com/the-tao-of-tmux/read): 非常详尽的 tmux 使用和配置手册
-    - [Github Repo](https://github.com/git-pull/tao-of-tmux)
-  - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
-  - ~~[reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题~~，[Tmux 2.6+ 不需要这个项目](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard/issues/66#issuecomment-335306334)
-- [catimg](https://github.com/posva/catimg): 在终端里打印图片，打印出的都是像素风格的。
-- [sshpass](https://github.com/kevinburke/sshpass): 通过编程方式在 ssh 时输入用户名和密码。不安全，勿用在生产环境。
-- [hhighlighter](https://github.com/paoloantinori/hhighlighter): 用不同颜色高亮多个匹配字符串
-
-### Commands in Docker
-
-- `docker pull pygmy/pgcli` https://hub.docker.com/r/pygmy/pgcli
-- `docker pull adoyle/mycli` https://hub.docker.com/r/adoyle/mycli
-- `docker run -d --name ariang -p 6080:80 leonismoe/ariang` https://hub.docker.com/r/leonismoe/ariang
-- `docker run -ti --rm -v ${HOME}:/root -v $(pwd):/git alpine/git <git_command>` https://hub.docker.com/r/alpine/git
-- https://hub.docker.com/r/jlesage/firefox
-- https://hub.docker.com/_/irssi
-- [commando](https://github.com/lukaszlach/commando): 封装了各种命令的容器镜像
-
-### Builtin Commands
-
-系统自带且好用的命令
-
-- https://wangchujiang.com/linux-command/ : Linux 命令解释搜索工具
-  - [源码](https://github.com/jaywcjlove/linux-command)
-- `brew info coreutils`: Mac 下使用 GNU 软件，比如 realpath
-- sar: linux 命令，查看系统状态
-- stat: 查看文件状态，比 ls 更详细，并且能指定输出哪些状态
-- file: 查看文件类型。[详见](http://adoyle.me/Today-I-Learned/linux/file-command.html)
-- md5: 计算 md5。[详见](http://adoyle.me/Today-I-Learned/linux/hash-command.html)
-  - cksum: crc32 算法
-  - shasum: sha1 算法
-- 编辑:
-  - `ed` `vi` `vim` `nano`
-- 阅读:
-  - `cat` `more` `less`
-- [realpath](https://github.com/sindresorhus/realpath): 获取文件的真实绝对路径。因为 Mac 系统没有 `realpath`，可以用这个补上。
-
-### Builtin Command Alternatives
-
-比系统命令更好的替代品。
-
-当想调用原生的命令时，但是存在同名的 alias 或者 function，比如 `alias cat=ccat`，可以使用 `\cat` 或者 `command cat` 调用原生命令。
-详见这篇文章: https://stackoverflow.com/a/16506263/4622308
-
-- [exa](https://github.com/ogham/exa): much better `ls`
-- [z.lua](https://github.com/skywind3000/z.lua): 路径切换 cd 的增强版。支持多级模糊匹配，交互式搜索等功能
-  - [zoxide](https://github.com/ajeetdsouza/zoxide): 备选方案，rust 实现的
-- [bat](https://github.com/sharkdp/bat): better cat。自动代码着色，自带分页器，显示代码行，支持 diff，自动标记 git 变动，可显示不可见符号。
-- [multitail](https://github.com/flok99/multitail): 同时 tail 多个文件
-- [tree](http://mama.indstate.edu/users/ice/tree): Mac 没有 tree 命令
-- [pstree](http://www.thp.uni-duisburg.de/pstree/): tree 结构展示 ps 命令
-- [ncdu](https://dev.yorhel.nl/ncdu): better du。递归扫描整个文件夹空间占用，交互式。
-- [du](https://github.com/nachoparker/dutree): du 的树形结构展示版本
-- [fd](https://github.com/sharkdp/fd/): better find
-- [trash](https://github.com/sindresorhus/trash): better rm，不直接删除文件而是移到回收站。建议 `alias rm='trash'`
-- [ripgrep](https://github.com/BurntSushi/ripgrep): 模糊搜索文件内容，better grep。据说是最快的，搜索大量内容时，确实明显比 ag 快
-  - [ag](https://github.com/ggreer/the_silver_searcher): 备选方案
-- [fzf](https://github.com/junegunn/fzf): 模糊筛选/搜索任意列表
-- [cash](https://github.com/dthree/cash): For windows 用户。用 nodejs 写的程序，模拟一些 linux 命令
-- [procs](https://lib.rs/crates/procs): better ps
-- [bottom](https://github.com/clementtsang/bottom): better top/htop. A cross-platform graphical process/system monitor with a customizable interface and a multitude of features. Supports Linux, macOS, and Windows.
-- [sysz](https://github.com/joehillen/sysz): systemctl + fzf
-
-
-### 进程
-
-- [hotel](https://github.com/typicode/hotel): 本地进程管理服务
-  - [alfred-hotel](https://github.com/exah/alfred-hotel): 查看 hotel app 的 Alfred Workflow
-
-### 文件处理
-
-- [ranger](https://github.com/ranger/ranger): 文件管理器 CLI。Python 写的
-  - [nnn](https://github.com/jarun/nnn): 听说很快。待评价
-  - [fff](https://github.com/dylanaraps/fff): 纯 Bash 写的文件管理器，支持 bash 3.2+。
-- [massren](https://github.com/laurent22/massren): 在自己的编辑器编排后批量重命名文件。非常好用！
-  - [rename](http://plasmasturm.org/code/rename): 备选方案。命令式批量重命名文件。`brew install rename`
-- [fpp](https://github.com/facebook/PathPicker): 快速筛选工具（不怎么好用）
+## [命令行 CLI](./CLI/README.md)
 
 ## 结构化数据处理
 
@@ -791,19 +691,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [mockbin](https://mockbin.com/): Mock, Test & Track HTTP Requests and Responses
   - https://github.com/Mashape/mockbin
 
-## HTTP
-
-- [httpstat](https://github.com/reorx/httpstat): httpstat visualizes curl(1) statistics in a way of beauty and clarity
-  - [node 版 httpstat](https://github.com/yosuke-furukawa/httpstat)
-  - [bash 版 httpstat](https://github.com/b4b4r07/httpstat)
-- [httping](https://github.com/flok99/httping): 以 HTTP 协议角度测量 HTTP 延迟
-- [httpie](https://github.com/jakubroztocil/httpie/): a CLI, cURL-like tool for humans
-- [htrace.sh](https://github.com/trimstray/htrace.sh): 「待评价」Swiss Army knife for http/https troubleshooting and profiling.
-- [Paw](https://paw.cloud): 模拟 HTTP 请求的 GUI 客户端  `Ⓜ`
-- [restcli](https://github.com/restcli/restcli): CLI for IntelliJ http-request.
-- [IntelliJ HTTP request syntax](https://www.jetbrains.com/help/idea/exploring-http-syntax.html#using_request_vars)
-
-
 ## 网站
 
 - [chrome 自带网页截屏命令](https://www.zhihu.com/question/20075570/answer/206335744)
@@ -880,11 +767,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ### 监控
 
 - [netdata](https://github.com/firehol/netdata): netdata is a system for distributed real-time performance and health monitoring. It provides unparalleled insights, in real-time, of everything happening on the system it runs (including applications such as web and database servers), using modern interactive web dashboards.
-- [glances](https://github.com/nicolargo/glances): 系统监控，运行在终端, alternative to top/htop
 - [Prometheus](https://github.com/prometheus/prometheus): Metrics 存储、查询、监控报警，时序数据库。
   - [thanos](https://github.com/improbable-eng/thanos): 让 Prometheus 高可用，以及存储可扩展的组件。
 - [statsd](https://github.com/etsy/statsd): Metrics 数据聚合
 - [pcp](https://github.com/performancecopilot/pcp): Performance Co-Pilot。系统性能监控
+- 终端工具请看 [Builtin Command Alternatives 的 better `top` 部分](./CLI/README.md#builtin-command-alternatives)
 
 ### 运维
 
@@ -896,6 +783,48 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [sysdig](https://github.com/draios/sysdig): Linux system exploration and troubleshooting tool
   - [sysdig-inspect](https://github.com/draios/sysdig-inspect): A powerful opensource interface for container troubleshooting and security investigation
 - [bcc](https://github.com/iovisor/bcc): Tools for BPF-based Linux IO analysis, networking, monitoring, and more
+
+## 进程管理
+
+- [hotel](https://github.com/typicode/hotel): 本地进程管理服务
+  - [alfred-hotel](https://github.com/exah/alfred-hotel): 查看 hotel app 的 Alfred Workflow
+- better `ps`
+  - [pstree](http://www.thp.uni-duisburg.de/pstree/): 。树形结构展示 ps 命令
+  - [procs](https://github.com/dalance/procs)
+- better `top` and `htop`
+  - [bottom](https://github.com/clementtsang/bottom): 跨平台。Rust 实现。只支持缩放，不支持水平滚动。
+  - [glances](https://github.com/nicolargo/glances): 支持网页访问。Python 实现。
+  - [gtop](https://github.com/aksakalli/gtop): 备选方案。JS 实现。
+- better `kill`
+  - [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
+  - [fkill-cli](https://github.com/sindresorhus/fkill-cli): 灵活的删进程命令，例如 `fkill 1337 safari :8080`，如果不加参数，则是交互式命令。
+
+## 文件管理
+
+- [ranger](https://github.com/ranger/ranger): 文件管理器 CLI。Python 写的
+  - [nnn](https://github.com/jarun/nnn): 听说很快。待评价
+  - [fff](https://github.com/dylanaraps/fff): 纯 Bash 写的文件管理器，支持 bash 3.2+。
+- [massren](https://github.com/laurent22/massren): 在自己的编辑器编排后批量重命名文件。非常好用！
+  - [rename](http://plasmasturm.org/code/rename): 备选方案。命令式批量重命名文件。`brew install rename`
+- [fpp](https://github.com/facebook/PathPicker): 快速筛选工具（不怎么好用）
+- [trash](https://github.com/sindresorhus/trash): better `rm`。不直接删除文件而是移到回收站。建议 `alias rm='trash'`
+- [exa](https://github.com/ogham/exa): better `ls`
+
+### 文件查找
+
+- [fd](https://github.com/sharkdp/fd/): better `find`
+- better `grep`
+  - [ripgrep](https://github.com/BurntSushi/ripgrep): 模糊搜索文件内容。据说是最快的，搜索大量内容时，确实明显比 ag 快
+  - [ag](https://github.com/ggreer/the_silver_searcher): 备选方案
+
+### 文件大小
+
+- better `du`
+  - [dust](https://github.com/bootandy/dust): rust 实现
+  - [ncdu](https://dev.yorhel.nl/ncdu): 递归扫描整个文件夹空间占用，交互式。zig 实现
+  - [dutree](https://github.com/nachoparker/dutree): du 的树形结构展示版本。rust 实现
+- better `df`
+  - [duf](https://github.com/muesli/duf): Go 实现
 
 ## 文件同步/备份/快照
 
@@ -956,88 +885,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [migrate](https://github.com/golang-migrate/migrate): 用 Go 写的，支持 SQL，支持命令行和 Go 编程。
 - [sql-migrate](https://github.com/rubenv/sql-migrate): 用 Go 写的。备选
 
-## 网络
-
-- [Awesome SDN](https://github.com/sdnds-tw/awesome-sdn): 关于软件定义网络的开源技术
-- [Awesome Home Networking](https://github.com/blanboom/awesome-home-networking-cn): 家庭网络相关知识
-- [sindresorhus/speed-test](https://github.com/sindresorhus/speed-test): 测试网速。基于 speed-test.net 的命令
-- [iPerf3](https://iperf.fr/): 点对点测速。支持 TCP, UDP, SCTP with IPv4 and IPv6
-- Linux 命令: `ping`, `nc`, `mtr`, `netstat`, `nettop`, `iftop`
-- [comcast](https://github.com/tylertreat/comcast): 模拟网络丢包
-- [ZBench](https://github.com/FunctionClub/ZBench): VPS 网络性能测评脚本
-- [Open vSwitch](https://github.com/openvswitch/ovs): 虚拟化交换机
-- [mininet](https://github.com/mininet/mininet): 在一台主机上创建任意的网络拓扑，用于做网络实验。
-- https://tool.chinaz.com/ : 网站网络状态排查工具 (国内)
-- https://check-host.net/ : 网站网络状态排查工具 (国外)
-
-### 防火墙
-
-- [OpenSnitch](https://github.com/evilsocket/opensnitch): Linux 应用防火墙
-
-### IP
-
-- http://ping.pe/ : ip 信息查询
-- https://ifconfig.me/ : 查询当前出口 IP
-
-### DNS
-
-- [CoreDNS](https://github.com/coredns/coredns): DNS server。CNCF 项目
-- https://dns.google/
-- https://www.nslookup.io/ : 查询 DNS 记录
-- [nali](https://github.com/zu1k/nali): 查询IP地理信息和CDN服务提供商的离线终端工具
-- https://dnsdumpster.com/ : 搜索子域名用，Domain Map 很好用
-
-### HTTP
-
-- [一行代码运行 HTTP 服务](https://gist.github.com/willurd/5720255)
-- [JSON Server](https://github.com/typicode/json-server): 快速搭建 HTTP RESTFul API Server
-- [http-server](https://github.com/indexzero/http-server): 快速搭建 HTTP 服务器
-  - [serve](https://github.com/zeit/serve): alternative
-- [Varnish](https://github.com/varnishcache/varnish-cache): HTTP 内容缓存服务器
-- [Traefik](https://github.com/containous/traefik): 类似 Nginx。现代化 HTTP 反向代理服务器
-- [h2o](https://github.com/h2o/h2o): the optimized HTTP/1, HTTP/2, HTTP/3 server
-
-### Websocket
-
-- [websocketd](https://github.com/joewalnes/websocketd/): 基于 stdin/stdout 的 WebSocket 服务器，开箱即用
-
-### 抓包、流量分析
-
-- [wireshark](https://www.wireshark.org/): 功能非常强大，面向专业用户。能够抓 HTTP/TCP/UDP 包。条件查询功能很丰富。
-- [mitmproxy](https://mitmproxy.org/): 命令行版抓包工具。4 种模式，3 种命令行 mitmproxy/mitmdump/mitmweb。mitmweb 提供 web 服务端。
-- [whistle](https://github.com/avwo/whistle): 用 NodeJS 实现的跨平台 HTTP, HTTPS, WebSocket 调试工具
-  - [lightproxy](https://github.com/alibaba/lightproxy): 备选方案
-- [nethogs](https://github.com/raboof/nethogs): 按进程实时监控网络流量
-- [sniffer](https://github.com/chenjiandongx/sniffer): 按进程和链接实时监控网络流量
-- [Proxyman](https://proxyman.io/): 功能超强的 HTTP 抓包工具
-
-### API Gateway
-
-- [Kong](https://github.com/Kong/kong)
-- [tyk](https://github.com/TykTechnologies/tyk)
-
-### Tunnel
-
-- [awesome-tunneling](https://github.com/anderspitman/awesome-tunneling)
-- [WireGuard](https://www.wireguard.com/): VPN 软件。该项目已合并到了 Linux 内核 (5.6 版本起)。
-- [frp](https://github.com/fatedier/frp): 内网穿透
-  - [nps](https://github.com/ehang-io/nps): 备选方案
-- [ZeroTier](https://github.com/zerotier/ZeroTierOne): 类似 VPN，不过更灵活。构建点对点通信网络。开源的，也有托管服务。支持多平台 Windows、Mac、Linux、IOS、Android、NAS。
-- [Clash](https://github.com/Dreamacro/clash): A rule-based tunnel in Go.
-- [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理
-- [localtunnel](https://github.com/localtunnel/localtunnel): HTTP 服务内网穿透工具，开发用很方便
-  - [localtunnel server](https://github.com/localtunnel/server): 可以自建服务器
+## [网络](./network/README.md)
 
 ## ProtoBuf
 
 - [prototool](https://github.com/uber/prototool): .proto 管理器
 - [buf](https://github.com/bufbuild/buf): .proto 管理器
-
-## CI/CD
-
-- [drone](https://github.com/drone/drone): Drone is a Continuous Delivery platform built on Docker, written in Go
-- [GoCD](https://github.com/gocd/gocd): written in java
-- [Travis CI](https://github.com/marketplace/travis-ci/): 付费服务
 
 ## IM
 
@@ -1063,17 +916,14 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings): 收集了一系列不正常的字符用来测试字符串校验
 
-### HTTP Benchmark
-
-- [siege](https://github.com/JoeDog/siege)
-- [wrk](https://github.com/wg/wrk): 不容易阅读
-- [loadtest](https://github.com/alexfernandez/loadtest)
+### [HTTP Benchmark](./network/README.md#http-benchmark)
 
 ### 基准测试 (Benchmark Test)
 
-- [bench-scripts](https://github.com/haydenjames/bench-scripts)
+- [bench-scripts](https://github.com/haydenjames/bench-scripts): 对 Linux 系统进行 Benchmark 的脚本
 - [hyperfine](https://github.com/sharkdp/hyperfine): 对某个命令进行 Benchmark
 - [sysbench](https://github.com/akopytov/sysbench): 对数据库和操作系统的 benchmark。支持 lua 脚本
+- [Programming Language and compiler](https://programming-language-benchmarks.vercel.app/): 对各种编程语言做 Benchmark。很全面。
 
 ### 压测 (Stress Test)
 
