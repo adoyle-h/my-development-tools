@@ -55,10 +55,6 @@
 
 - https://wangchujiang.com/linux-command/ : Linux 命令解释搜索工具
   - [源码](https://github.com/jaywcjlove/linux-command)
-- `brew info coreutils`: Mac 下使用 GNU coreutils，比如 realpath
-- `brew info gsed`: Mac 安装 GNU sed
-- `brew info gawk`: Mac 安装 GNU awk
-- `brew info tree`: Mac 安装 tree 命令
 - sar: linux 命令，查看系统状态
 - stat: 查看文件状态，比 ls 更详细，并且能指定输出哪些状态
 - file: 查看文件类型。[详见](http://adoyle.me/Today-I-Learned/linux/file-command.html)
