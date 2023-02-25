@@ -192,6 +192,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [文档](#文档)
     - [文档系统](#文档系统)
     - [文档处理](#文档处理)
+    - [文档检查](#文档检查)
     - [文档排版](#文档排版)
     - [Markdown](#markdown)
     - [Changelog](#changelog)
@@ -279,6 +280,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [explainshell.com/](https://explainshell.com/): 形象解释 shell 命令
 - [BASH CHEATSHEET (中文速查表) - by skywind](https://github.com/skywind3000/awesome-cheatsheets/blob/master/languages/bash.sh)
 - [linux-cheat](https://github.com/cirosantilli/linux-cheat): Linux user-land CLI utilities
+- [GNU Make Cheatsheet](https://gist.github.com/rueycheng/42e355d1480fd7a33ee81c866c7fdf78)
+- [ANSI Escape Sequences](https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797)
 
 ## 编译
 
@@ -576,6 +579,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [carbonyl](https://github.com/fathyb/carbonyl): 在终端运行 Chromium。
 - [progress](https://github.com/Xfennec/progress): 显示 cp, mv, dd 等命令的进度条 `Ⓜ` `Ⓛ`
 - [glow](https://github.com/charmbracelet/glow): markdown 终端阅读工具
+- [theme.sh](https://github.com/lemnos/theme.sh): shell 配色设置，动态预览
 
 ### 配色
 
@@ -1324,6 +1328,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [carbon](https://github.com/dawnlabs/carbon): 代码转成图片
 - [盤古之白](https://github.com/vinta/pangu.js): 给文档加空格
   - https://github.com/vinta/pangu.space : Web API
+
+### 文档检查
+
+- [lychee](https://github.com/lycheeverse/lychee): Rust 写的
+  - [markdown-link-check](https://github.com/tcort/markdown-link-check): 备用方案。没人维护。JS 写的
 
 ### 文档排版
 

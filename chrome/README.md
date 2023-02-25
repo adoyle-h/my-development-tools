@@ -52,3 +52,4 @@
 - [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg): 截图插件
 - [ChatGPT Google 插件](https://github.com/wong2/chat-gpt-google-extension)
 - [MinerBlock](https://github.com/xd4rker/MinerBlock): 挖矿提示
+- [Wayback Machine](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak)
