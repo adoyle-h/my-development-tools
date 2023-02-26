@@ -30,7 +30,7 @@
   - [the-tao-of-tmux](https://leanpub.com/the-tao-of-tmux/read): 非常详尽的 tmux 使用和配置手册
     - [Github Repo](https://github.com/git-pull/tao-of-tmux)
   - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
-  - ~~[reattach-to-user-namespace](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard): 主要解决 Mac 下 Tmux 和 Screen 与系统剪切板的问题~~，[Tmux 2.6+ 不需要这个项目](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard/issues/66#issuecomment-335306334)
+- [tio](https://github.com/tio/tio): 连接 TTY 的工具。
 - [catimg](https://github.com/posva/catimg): 在终端里打印图片，打印出的都是像素风格的。
 - [sshpass](https://github.com/kevinburke/sshpass): 通过编程方式在 ssh 时输入用户名和密码。不安全，勿用在生产环境。
 - [hhighlighter](https://github.com/paoloantinori/hhighlighter): 用不同颜色高亮多个匹配字符串

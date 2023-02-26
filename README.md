@@ -44,6 +44,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [其他](#其他)
     - [教你搜索](#教你搜索)
     - [历史遗珠](#历史遗珠)
+    - [社区](#社区)
 - [手册](#手册)
     - [Cheatsheet 管理器](#cheatsheet-管理器)
     - [Cheatsheet](#cheatsheet)
@@ -259,6 +260,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [Plan 9](https://9p.io/plan9/)
 - [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail): 代码可视化浏览器
+
+### 社区
+
+- [Tech Talks](https://github.com/just-talks/tech-talks): 纯技术交流的中文论坛。
+- [V2EX](http://www.v2ex.com/): 创意工作者们的社区。
 
 ## 手册
 

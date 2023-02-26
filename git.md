@@ -8,14 +8,13 @@
 - [git-lfs](https://github.com/git-lfs/git-lfs): git 支持大文件存储
 - [git-recall](https://github.com/Fakerr/git-recall): 交互式 git log
 - [cz-cli](https://github.com/commitizen/cz-cli): git commit message 规范工具
-  - [commitlint][]
+  - [commitlint](./README.md#commitlint)
 - [GitKraken](https://www.gitkraken.com): Git GUI
   - [Sublime Merge](https://www.sublimemerge.com/): Sublime 作者出品的 Git GUI，查找跳转很方便，但是目前 UI 设计不好，看起来不够直观
 - [git-tips](https://github.com/git-tips/tips): git 使用技巧
-- [Gource](https://github.com/acaudwell/Gource): 版本控制历史可视化
 - [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git): 用 JS 实现的 git
 - [sourcegraph](https://about.sourcegraph.com/): 在浏览器辅助看代码的工具，支持 GitHub, Phabricator, Bitbucket
-- [git-history](https://github.com/pomber/git-history): 可视化单个文件的 diff
+- [git-history](https://github.com/pomber/git-history): 网页端可视化文件变更历史。支持本地部署。支持 VSCode 插件。
 - [git-secret](https://github.com/sobolevn/git-secret): 将敏感信息加密再存储到 Git
   - [blackbox](https://github.com/StackExchange/blackbox): 支持 Git/Mercurial/Subversion
   - [git-crypt](https://github.com/AGWA/git-crypt): 备选方案
