@@ -7,6 +7,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [图像处理](#图像处理)
+- [绘图语言](#绘图语言)
 - [画图软件](#画图软件)
 - [ASCII Art](#ascii-art)
 - [Steganography](#steganography)
@@ -33,15 +34,18 @@
   - [govips](https://github.com/davidbyttow/govips): libvips for Go
 - [squoosh](https://github.com/GoogleChromeLabs/squoosh): 图片格式转换、压缩工具。支持浏览器和命令行
 
-## 画图软件
+## 绘图语言
 
-- [d2](https://github.com/terrastruct/d2): D2 is a modern diagram scripting language that turns text to diagrams.
+- [d2](https://github.com/terrastruct/d2): 新的绘图语言
 <a name="PlantUML"></a>
 - [PlantUML](https://github.com/plantuml/plantuml): 用代码画 UML 图或流程图
   - [node-plantuml](https://github.com/markushedvall/node-plantuml): node 命令行 [PlantUML][]
   - [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML): C4 Model
-- [Mermaid](https://github.com/knsv/mermaid): 类似 PlantUML，另一种基于文本生成图的工具
+- [Mermaid](https://github.com/mermaid-js/mermaid): 类似 PlantUML，另一种基于文本生成图的工具
   - [Mermaid Live Editor](https://mermaidjs.github.io/mermaid-live-editor/)
+
+## 画图软件
+
 - [Pixelmator](http://www.pixelmator.com/mac): 像素画图工具 `Ⓜ`
 - [krita](https://github.com/KDE/krita): 自由、免费、开源、跨平台的像素绘画软件 `Ⓜ` `Ⓛ` `ⓦ`
 - [Sketch](https://www.sketchapp.com/): 矢量画图工具。不是适合设计印刷品。 `Ⓜ`
@@ -52,7 +56,7 @@
 - https://processing.org/
   - http://processingjs.org/
 - [drawio](https://github.com/jgraph/drawio): 非常优秀的开源在线绘图前端库。各种图都有，支持国际化。
-- https://excalidraw.com/ : 手绘风格的绘图工具。开源，[源码](https://github.com/excalidraw/excalidraw)
+- https://excalidraw.com/ : 开源的白板软件。支持实时多人协作。手绘风格。[源码](https://github.com/excalidraw/excalidraw)
 - [MagicaVoxel](https://ephtracy.github.io/): 体素建模工具
 - [Affinity Designer](https://affinity.serif.com/zh-cn/designer/): 非常好用，非常专业的图像编辑器。跨平台。
 

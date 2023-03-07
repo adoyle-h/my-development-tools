@@ -48,6 +48,7 @@
 - [Lepton](https://github.com/hackjutsu/Lepton): Gist 管理应用
 - [keycastr](https://github.com/keycastr/keycastr): 键盘按下哪个键展示在屏幕上
 - https://objective-see.com/products.html : Mac 平台的开源安全工具，都挺不错的
+- [NUMI](https://github.com/nikolaeu/numi): 体验很好的计算器。App 本身不开源，开源的是 NUMI 插件和 Alfred 插件。它用 JS 写插件，非常灵活。
 
 ## 快捷键
 
@@ -87,6 +88,7 @@
 - `brew info gawk`: Mac 安装 GNU awk
 - `brew info gmake`: Mac 自带的 make 版本是 3.81 (2006 年)。现在都出到了 4.4。
 - `brew info tree`: Mac 默认没安装 tree 命令
+- `brew info gnu-time`: Mac 安装 GNU time
 
 ## 监控
 

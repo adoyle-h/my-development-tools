@@ -97,6 +97,7 @@
 - [medium-zoom](https://github.com/francoischalifour/medium-zoom): 图片点击放大
 - [MathJax](https://github.com/mathjax/MathJax): JavaScript display engine for LaTeX, MathML, and AsciiMath notation
 - [xterm.js](https://github.com/xtermjs/xterm.js): 浏览器里模拟终端
+- [LiveTerm](https://github.com/Cveinnt/LiveTerm): 快速构建终端风格的网站
 - [dflex](https://github.com/dflex-js/dflex): 框架兼容性很好的 DOM 拖拽库
 
 ## 框架
@@ -232,6 +233,8 @@
 - [rebass](https://github.com/rebassjs/rebass): React primitive UI components built with styled-system
   - [rebassjs/space](https://github.com/rebassjs/space): 源码用了 React.cloneElement，不太好
   - [rebassjs/grid](https://github.com/rebassjs/grid)
+- [kbar](https://github.com/timc1/kbar): 类似 Alfred 的 Launcher 组件。
+- [flash-list](https://github.com/Shopify/flash-list): 列表组件
 
 ## React
 

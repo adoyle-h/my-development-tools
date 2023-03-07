@@ -29,6 +29,7 @@
     - [Design System - Sketch](#design-system---sketch)
     - [Color System](#color-system)
 - [设计工具](#设计工具)
+    - [P 图工具](#p-图工具)
 - [Sketch](#sketch)
     - [Sketch 插件开发](#sketch-插件开发)
     - [工作流 (Workflow)](#工作流-workflow)
@@ -241,6 +242,10 @@
 - [Photoshop](https://www.adobe.com/ca/products/photoshop.html)
 - [Affinity Designer](https://affinity.serif.com/zh-cn/designer/)
 - [pixso](https://pixso.cn/): 免费在线设计工具，插件生态做得很完善。缺点是没有色彩空间选项。
+
+### P 图工具
+
+- [lama-cleaner](https://github.com/Sanster/lama-cleaner): AI 算法 P 图工具。它提供 [Docker](https://lama-cleaner-docs.vercel.app/install/docker)，也有[在线版](https://huggingface.co/spaces/Sanster/Lama-Cleaner-lama)，试了一下效果相当好。它可以选择用 CPU 计算还是用 GPU 计算。
 
 ## Sketch
 

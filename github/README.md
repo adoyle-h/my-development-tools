@@ -71,6 +71,8 @@
 - https://github.com/actions/cache : 缓存
 - https://github.com/actions/runner-images
 - [action-gh-release](https://github.com/softprops/action-gh-release): 自动发布 github release
+- [actions/label-syncer](https://github.com/micnncim/action-label-syncer): 根据文件同步 label 设置
+- [label-exporter](https://github.com/micnncim/label-exporter): 导出现有的 label 到文件
 
 ### Github UI
 

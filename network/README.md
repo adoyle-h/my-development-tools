@@ -88,7 +88,7 @@
 - [wireshark](https://www.wireshark.org/): 功能非常强大，面向专业用户。能够抓 HTTP/TCP/UDP 包。条件查询功能很丰富。
 - [mitmproxy](https://mitmproxy.org/): 命令行版抓包工具。4 种模式，3 种命令行 mitmproxy/mitmdump/mitmweb。mitmweb 提供 web 服务端。
 - [whistle](https://github.com/avwo/whistle): 用 NodeJS 实现的跨平台 HTTP, HTTPS, WebSocket 调试工具
-  - [lightproxy](https://github.com/alibaba/lightproxy): 备选方案
+  - [iProxy](https://github.com/xcodebuild/iProxy): 备选方案
 - [nethogs](https://github.com/raboof/nethogs): 按进程实时监控网络流量
 - [sniffer](https://github.com/chenjiandongx/sniffer): 按进程和链接实时监控网络流量
 - [Proxyman](https://proxyman.io/): 功能超强的 HTTP 抓包工具

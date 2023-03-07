@@ -24,6 +24,8 @@
 ## 其他
 
 - [docopt](http://docopt.org/): 如何写命令的 help 文档
+- [Command Line Interface Guidelines](https://clig.dev/)
+  - [开源项目](https://github.com/cli-guidelines/cli-guidelines)
 
 ## 测试
 

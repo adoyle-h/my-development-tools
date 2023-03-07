@@ -30,6 +30,7 @@
   - [the-tao-of-tmux](https://leanpub.com/the-tao-of-tmux/read): 非常详尽的 tmux 使用和配置手册
     - [Github Repo](https://github.com/git-pull/tao-of-tmux)
   - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
+  - [tmux-menus](https://github.com/jaclu/tmux-menus): 很强大的菜单插件
 - [tio](https://github.com/tio/tio): 连接 TTY 的工具。
 - [catimg](https://github.com/posva/catimg): 在终端里打印图片，打印出的都是像素风格的。
 - [sshpass](https://github.com/kevinburke/sshpass): 通过编程方式在 ssh 时输入用户名和密码。不安全，勿用在生产环境。
@@ -38,6 +39,7 @@
 - [cash](https://github.com/dthree/cash): For windows 用户。用 nodejs 写的程序，模拟一些 linux 命令
 - [specsheet](https://github.com/ogham/specsheet): 声明式检查
 - [pv](http://www.ivarch.com/programs/pv.shtml): 显示 linux 管道数据传输速度
+- [noti](https://github.com/variadico/noti): 进程完成后，触发系统通知。
 
 ## Commands in Docker
 
@@ -74,6 +76,7 @@
 当存在与系统自带命令同名的 alias 或者 function 时，比如 `alias cat=ccat`，可以使用 `\cat` 或者 `command cat` 调用原命令。
 详见这篇文章: https://stackoverflow.com/a/16506263/4622308
 
+- [modern-unix](https://github.com/ibraheemdev/modern-unix)
 - better `cd`
   - [z.lua](https://github.com/skywind3000/z.lua): 路径跳转。支持多级模糊匹配，交互式搜索等功能。lua 实现。
   - [zoxide](https://github.com/ajeetdsouza/zoxide): 备选方案，rust 实现的。
@@ -81,11 +84,12 @@
 - better `cat`
   - [bat](https://github.com/sharkdp/bat): 自动代码着色，自带分页器，显示代码行，支持 diff，自动标记 git 变动，可显示不可见符号。
 - better `tail`
-  - [multitail](https://github.com/flok99/multitail): 同时 tail 多个文件
+  - [multitail](https://github.com/halturin/multitail): 同时 tail 多个文件
 - better `systemctl`
   - [sysz](https://github.com/joehillen/sysz): systemctl + fzf
 - better `awk` and `cut`
   - [choose](https://github.com/theryangeary/choose)
 - better `sed`
   - [sd](https://github.com/chmln/sd): 支持替换换行符（sed 的痛点）
-- [modern-unix](https://github.com/ibraheemdev/modern-unix)
+- better `watch`
+  - [entr](https://github.com/eradman/entr/): 监听文件变化，执行命令

@@ -38,6 +38,7 @@
 ## GPT
 
 - https://github.com/elyase/awesome-gpt3
+- [chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web): 轻松搭建 ChatGPT 交互网站
 
 ## 强化学习 (Reinforcement Learning)
 

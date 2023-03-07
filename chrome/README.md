@@ -53,3 +53,4 @@
 - [ChatGPT Google 插件](https://github.com/wong2/chat-gpt-google-extension)
 - [MinerBlock](https://github.com/xd4rker/MinerBlock): 挖矿提示
 - [Wayback Machine](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak)
+- [omni](https://github.com/alyssaxuu/omni): all-in-one Launch Bar

@@ -73,7 +73,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [SVG](#svg)
 - [代码质量检查](#代码质量检查)
 - [安全](#安全)
-    - [逆向工程](#逆向工程)
     - [漏洞信息平台](#漏洞信息平台)
     - [漏洞靶场](#漏洞靶场)
 - [架构](#架构)
@@ -93,6 +92,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [diff](#diff)
     - [image diff](#image-diff)
 - [命令行 CLI](#命令行-cli)
+- [逆向工程](#逆向工程)
+    - [二进制分析](#二进制分析)
 - [结构化数据处理](#结构化数据处理)
     - [YAML](#yaml)
     - [HCL](#hcl)
@@ -155,6 +156,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [ChatOps](#chatops)
 - [服务 (Service)](#服务-service)
     - [自部署的服务 (Self-Host Service)](#自部署的服务-self-host-service)
+    - [评论系统](#评论系统)
     - [电子书](#电子书)
     - [图床](#图床)
 - [网盘](#网盘)
@@ -213,6 +215,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [中国特色](#中国特色)
 - [人文](#人文)
 - [Funny](#funny)
+- [游戏开发](#游戏开发)
 - [别人的工具列表](#别人的工具列表)
 
 <!-- /MarkdownTOC -->
@@ -236,14 +239,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [7zip](https://www.7-zip.org/): 免费开源的压缩软件。支持多种压缩算法、多种压缩等级、加密、分片。
 - [RIME](https://rime.im/download/): 开源输入法。支持 Windows/Mac/Linux/Android
   - [iRime](https://apps.apple.com/cn/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E4%BA%94%E7%AC%94%E9%83%91%E7%A0%81%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977): iOS 用 iR
-- [remark42](https://github.com/umputun/remark42): 评论系统
-  - [waline](https://github.com/walinejs/waline): 备选方案
-  - [Artalk](https://github.com/ArtalkJS/Artalk): 备选方案
-- [kaitai](https://github.com/kaitai-io/kaitai_struct): 可以用 YAML 描述二进制文件的格式，从而解析二进制文件提取出自己想要的信息。它根据 YAML 生成各种语言的库。
-  - https://kaitai.io/
-  - 有很多[应用场景](https://formats.kaitai.io/)。模型，归档文件，安装包，文件系统，字体，图片，数据库，日志，网络协议。
-  - Web IDE：https://ide.kaitai.io/
-- [distrobox](https://github.com/89luca89/distrobox): 在容器里运行各种 linux 发行版。
 - [uutils/coreutils](https://github.com/uutils/coreutils): 用 Rust 重写 GNU coreutils。MIT 协议开源。
 - [uutils/findutils](https://github.com/uutils/findutils): 用 Rust 重写 GNU findutils。MIT 协议开源。
 - [toybox](https://github.com/landley/toybox)：类似 buxybox。MIT 协议开源。
@@ -295,6 +290,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - https://godbolt.org/ : 在线预览汇编码的工具，支持各种版本和架构下的 clang，gcc，甚至还能查看 wasm 指令。
 
 ## 自动化
+
+- [maestro](https://github.com/d-dev-inc/maestro): 使用声明式语法，在移动端执行自动化操作。
 
 ### CI/CD
 
@@ -446,10 +443,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - https://www.cve.org/
   - [GitHub Security Lab](https://securitylab.github.com/)
   - https://www.cvedetails.com/
-
-### 逆向工程
-
-- [Ghidra](https://github.com/NationalSecurityAgency/ghidra): 「待评估」美国国家安全局开源的逆向工程框架
 
 ### 漏洞信息平台
 
@@ -622,6 +615,19 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## [命令行 CLI](./CLI/README.md)
 
+## 逆向工程
+
+### 二进制分析
+
+- [kaitai](https://github.com/kaitai-io/kaitai_struct): 可以用 YAML 描述二进制文件的格式，从而解析二进制文件提取出自己想要的信息。它根据 YAML 生成各种语言的库。
+  - https://kaitai.io/
+  - 有很多[应用场景](https://formats.kaitai.io/)。模型，归档文件，安装包，文件系统，字体，图片，数据库，日志，网络协议。
+  - Web IDE：https://ide.kaitai.io/
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra): 美国国家安全局开源的逆向工程框架
+- [protobuf-inspector](https://github.com/mildsunrise/protobuf-inspector): 逆向解析 protobuf
+- [radare2](https://github.com/radareorg/radare2): 逆向解析二进制文件的命令行工具集
+  - [iaito](https://github.com/radareorg/iaito): radare2 的 GUI 工具
+
 ## 结构化数据处理
 
 - [dasel](https://github.com/TomWright/dasel): JSON, TOML, YAML, XML, CSV 增删改查、格式转换工具
@@ -753,6 +759,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Tails](https://tails.boum.org/index.en.html): 专注于安全
 - [Puppy Linux](https://puppylinux.com/)
 - [mint](https://linuxmint.com/)
+- [distrobox](https://github.com/89luca89/distrobox): 在容器里运行各种 linux 发行版。
 
 ### 桌面系统
 
@@ -1076,6 +1083,13 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [rustdesk](https://github.com/rustdesk/rustdesk): 开源的远程控制软件 (VNC)。支持手机控制电脑，电脑控制手机。支持全平台、多语言。国产软件。
   - [rustdesk-server](https://github.com/rustdesk/rustdesk-server): 自建中继服务器
 
+### 评论系统
+
+- [remark42](https://github.com/umputun/remark42): 评论系统
+  - [waline](https://github.com/walinejs/waline): 备选方案
+  - [Artalk](https://github.com/ArtalkJS/Artalk): 备选方案
+- [cusdis](https://github.com/djyde/cusdis): Disqus 替代品
+
 ### 电子书
 
 交流学习使用，请勿用于非法用途。
@@ -1139,6 +1153,13 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [kubernetes](https://kubernetes.io/)
 - [dokku](https://github.com/dokku/dokku): 单机版 PaaS，低门槛
+- [planetscale](https://planetscale.com/): Serverless MySQL 服务，5GB 免费使用量。
+- [railway.app](https://railway.app/): 非常棒的应用托管平台。每月赠送 $5，500 小时的免费用量。缺点是部署后就不能停止服务，只能删了部署重来。
+- https://fly.io/ 免费版支持 3 shared-cpu-1x 256mb VMs, 3GB 存储，160GB 输出带宽。
+- https://deta.space/ 免费服务
+- https://www.koyeb.com/
+- https://qoddi.com/
+- https://adaptable.io/
 
 ## Serverless
 
@@ -1449,6 +1470,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## [人文](./humanities.md)
 
 ## [Funny](./funny.md)
+
+## 游戏开发
+
+- [cheat-engine](https://github.com/cheat-engine/cheat-engine/): 游戏内存修改器。支持 Mac。
+- [godot](https://github.com/godotengine/godot): 免费的游戏引擎。MIT License
+- [godot-lang-support](https://github.com/Vivraan/godot-lang-support): godot 其他编程语言扩展
 
 -----
 
