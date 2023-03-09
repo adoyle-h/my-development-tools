@@ -9,11 +9,15 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [平台&社区](#平台社区)
+- [可视化](#可视化)
 - [GPT](#gpt)
 - [强化学习 (Reinforcement Learning)](#强化学习-reinforcement-learning)
 - [AutoML](#automl)
 - [OpenAI](#openai)
 - [数据集 (Dataset)](#数据集-dataset)
+    - [文字识别数据集 Text Detection and Recognition](#文字识别数据集-text-detection-and-recognition)
+    - [计算机视觉数据集](#计算机视觉数据集)
     - [语料库 (Corpus)](#语料库-corpus)
 - [信息提取 (Information Extraction)](#信息提取-information-extraction)
 - [自然语言处理 (NLP)](#自然语言处理-nlp)
@@ -22,7 +26,6 @@
 - [语音识别](#语音识别)
     - [语音转文字](#语音转文字)
 - [计算机视觉](#计算机视觉)
-    - [计算机视觉数据集](#计算机视觉数据集)
     - [OCR](#ocr)
 - [其他人的列表](#其他人的列表)
 
@@ -30,10 +33,23 @@
 
 ## 其他
 
-- [tensorflow](https://github.com/tensorflow/tensorflow)
+- [TensorFlow](https://github.com/tensorflow/tensorflow): 如果你需要在生产环境中部署大规模的深度学习模型，那么 TensorFlow 可能更适合你。它具有良好的可扩展性和分布式计算能力，支持多种编程语言，并且被广泛应用于工业界。
   - [tfjs](https://github.com/tensorflow/tfjs): TensorFlow JS 库
-- [pytorch](https://github.com/pytorch/pytorch)
+- [PyTorch](https://github.com/pytorch/pytorch): 如果你更关注研究，而不仅仅是实现，那么 PyTorch 可能更适合你。它的设计理念是“define-by-run”，即按照代码运行的方式定义计算图，这使得实验更加灵活和直观。
+- [Keras](https://github.com/keras-team/keras): 如果你是初学者，或者想快速构建和训练神经网络模型，那么 Keras 可能是更好的选择。它具有简单易用的API和高层抽象，可以帮助你快速搭建和训练神经网络。
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI): 低成本（单张消费级显卡）训练 AI
+
+## 平台&社区
+
+- https://www.kaggle.com/
+- https://huggingface.co/
+- https://civitai.com/ : 研究文字生成图像的社区
+- https://paperswithcode.com/
+- https://openbayes.com/ : 中国的人工智能研究机构
+
+## 可视化
+
+- [Netron](https://github.com/lutzroeder/netron): a viewer for neural network, deep learning and machine learning models.
 
 ## GPT
 
@@ -57,6 +73,25 @@
 ## 数据集 (Dataset)
 
 - https://commoncrawl.org/
+- https://zenodo.org/
+- https://www.v7labs.com/open-datasets
+
+### 文字识别数据集 Text Detection and Recognition
+
+- ICDAR 2013
+- ICDAR 2015
+- ICDAR 2017
+- ICDAR 2019
+- [ICDAR 2021](https://zenodo.org/record/4817662) https://icdar21-mapseg.github.io/
+- [COCO-Text V2.0](https://bgshih.github.io/cocotext/): contains 63,686 images with 239,506 annotated text instances.
+- [SynthText](https://github.com/ankush-me/SynthText): 有很多干扰元素的文字识别数据集
+- [Text Recognition Data](https://www.robots.ox.ac.uk/~vgg/data/text/): 9 million images covering 90k English words,
+- [SCUT-CTW1500](https://github.com/Yuliang-Liu/Curve-Text-Detector): contains 1,500 images: 1,000 for training and 500 for testing. In particular, it provides 10,751 cropped text instance images, including 3,530 with curved text. The images are manually harvested from the Internet, image libraries such as Google Open-Image, or phone cameras. The dataset contains a lot of horizontal and multi-oriented text.
+- [Total-Text](https://github.com/cs-chan/Total-Text-Dataset): It consists of 1555 images with more than 3 different text orientations: Horizontal, Multi-Oriented, and Curved, one of a kind.
+
+### 计算机视觉数据集
+
+- https://visualdata.io/discovery
 
 ### 语料库 (Corpus)
 
@@ -111,15 +146,12 @@
 - [pytorch-image-models](https://github.com/rwightman/pytorch-image-models): PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more
 - [yolov5](https://github.com/ultralytics/yolov5)
 
-### 计算机视觉数据集
-
-- https://visualdata.io/discovery
-
 ### OCR
 
 - [EasyOCR](https://github.com/JaidedAI/EasyOCR): Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
 - [tesseract](https://github.com/tesseract-ocr/tesseract): 开源 OCR 引擎
 - [tesseract.js](https://github.com/naptha/tesseract.js): 用 JS 重新实现的 tesseract
+- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 
 ## 其他人的列表
 

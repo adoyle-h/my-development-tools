@@ -54,3 +54,6 @@
 - [MinerBlock](https://github.com/xd4rker/MinerBlock): 挖矿提示
 - [Wayback Machine](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak)
 - [omni](https://github.com/alyssaxuu/omni): all-in-one Launch Bar
+- [LocalCDN](https://codeberg.org/nobody/LocalCDN): 重定向 JS 和 CSS 文件
+- [2captcha](https://2captcha.com/): 反验证码插件
+- [图片助手](http://www.pullywood.com/ImageAssistant/): 批量下载网页上的图片。

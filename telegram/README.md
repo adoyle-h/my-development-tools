@@ -12,5 +12,5 @@
 
 ## 机器人
 
-- @bailansgbot：摆烂社工bot。完全免费
+- [社工机器人](../README.md#社工库)
 - https://www.ff98sha.me/archives/147

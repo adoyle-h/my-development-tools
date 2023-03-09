@@ -102,8 +102,12 @@
 
 - [awesome-tunneling](https://github.com/anderspitman/awesome-tunneling)
 - [WireGuard](https://www.wireguard.com/): VPN 软件。该项目已合并到了 Linux 内核 (5.6 版本起)。
+- [tailscale](https://tailscale.com/): 基于 WireGuard 搭建 VPN 网络。支持各种平台，用户体验很好。半开源
+  - [headscale](https://github.com/juanfont/headscale): 开源的 Tailscale 控制服务器。headscale + tailscale 实现全开源方案。
 - [frp](https://github.com/fatedier/frp): 内网穿透
-  - [nps](https://github.com/ehang-io/nps): 备选方案
+- 免费的 frp 服务
+  - https://freefrp.net
+  - https://afrps.cn/
 - [ZeroTier](https://github.com/zerotier/ZeroTierOne): 类似 VPN，不过更灵活。构建点对点通信网络。开源的，也有托管服务。支持多平台 Windows、Mac、Linux、IOS、Android、NAS。
 - [Clash](https://github.com/Dreamacro/clash): A rule-based tunnel in Go.
 - [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理

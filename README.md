@@ -73,6 +73,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [SVG](#svg)
 - [代码质量检查](#代码质量检查)
 - [安全](#安全)
+    - [社工库](#社工库)
     - [漏洞信息平台](#漏洞信息平台)
     - [漏洞靶场](#漏洞靶场)
 - [架构](#架构)
@@ -243,6 +244,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [uutils/findutils](https://github.com/uutils/findutils): 用 Rust 重写 GNU findutils。MIT 协议开源。
 - [toybox](https://github.com/landley/toybox)：类似 buxybox。MIT 协议开源。
   - [busybox](https://busybox.net/): 精简版 GNU coreutils，all in one。GPL 协议开源。
+- [OSX-KVM](https://github.com/kholia/OSX-KVM): 在 KVM 里运行 MacOS
+- [Docker-OSX](https://github.com/sickcodes/Docker-OSX): 在 Docker 里运行 MacOS
 
 ### 教你搜索
 
@@ -443,6 +446,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - https://www.cve.org/
   - [GitHub Security Lab](https://securitylab.github.com/)
   - https://www.cvedetails.com/
+
+### 社工库
+
+- [暗精灵社工库](https://t.me/AJLSGK_bot?start=9Vd56q8uTa)
+- [TGsgkbot](https://t.me/SGKmainNEWbot?start=IVT62B06286)
+- [sgk520_bot]( https://t.me/sgk520_bot?start=DMT534Ai5D)
 
 ### 漏洞信息平台
 
@@ -1160,6 +1169,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - https://www.koyeb.com/
 - https://qoddi.com/
 - https://adaptable.io/
+- https://render.com/
 
 ## Serverless
 
