@@ -674,6 +674,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [JSON Patch](http://jsonpatch.com/): JSON 数据的 add、remove、replace、copy、move、test 操作
 - [JSON Merge Patch](https://tools.ietf.org/html/rfc7386): RFC7386
 - https://www.json-generator.com/ : 根据语法随机生成 JSON 对象
+- [extendsclass](https://extendsclass.com/json-generator.html): JSON data generator
 
 ### JSON Schema
 
