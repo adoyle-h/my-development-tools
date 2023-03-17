@@ -246,6 +246,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [busybox](https://busybox.net/): 精简版 GNU coreutils，all in one。GPL 协议开源。
 - [OSX-KVM](https://github.com/kholia/OSX-KVM): 在 KVM 里运行 MacOS
 - [Docker-OSX](https://github.com/sickcodes/Docker-OSX): 在 Docker 里运行 MacOS
+- [go-musicfox](https://github.com/go-musicfox/go-musicfox): 在终端里听网易云音乐
 
 ### 教你搜索
 
@@ -795,7 +796,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ### 监控
 
-- [netdata](https://github.com/firehol/netdata): netdata is a system for distributed real-time performance and health monitoring. It provides unparalleled insights, in real-time, of everything happening on the system it runs (including applications such as web and database servers), using modern interactive web dashboards.
+- [netdata](https://github.com/firehol/netdata): 实时监控。支持 Linux、MacOS、K8S、IoT。支持容器安装。
 - [Prometheus](https://github.com/prometheus/prometheus): Metrics 存储、查询、监控报警，时序数据库。
   - [thanos](https://github.com/improbable-eng/thanos): 让 Prometheus 高可用，以及存储可扩展的组件。
 - [statsd](https://github.com/etsy/statsd): Metrics 数据聚合
@@ -1165,6 +1166,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [dokku](https://github.com/dokku/dokku): 单机版 PaaS，低门槛
 - [planetscale](https://planetscale.com/): Serverless MySQL 服务，5GB 免费使用量。
 - [railway.app](https://railway.app/): 非常棒的应用托管平台。每月赠送 $5，500 小时的免费用量。缺点是部署后就不能停止服务，只能删了部署重来。
+- https://vercel.com/
 - https://fly.io/ 免费版支持 3 shared-cpu-1x 256mb VMs, 3GB 存储，160GB 输出带宽。
 - https://deta.space/ 免费服务
 - https://www.koyeb.com/

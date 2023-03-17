@@ -9,6 +9,7 @@
 - [其他](#其他)
 - [Chrome 主题](#chrome-主题)
 - [Chrome 插件](#chrome-插件)
+- [油猴脚本](#油猴脚本)
 
 <!-- /MarkdownTOC -->
 
@@ -57,3 +58,7 @@
 - [LocalCDN](https://codeberg.org/nobody/LocalCDN): 重定向 JS 和 CSS 文件
 - [2captcha](https://2captcha.com/): 反验证码插件
 - [图片助手](http://www.pullywood.com/ImageAssistant/): 批量下载网页上的图片。
+
+## 油猴脚本
+
+- [空格之神](https://greasyfork.org/zh-CN/scripts/444252-%E7%A9%BA%E6%A0%BC%E4%B9%8B%E7%A5%9E): 中英文之间自动加空格。
