@@ -175,6 +175,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [地图](#地图)
 - [日志](#日志)
 - [交互式 Notebook](#交互式-notebook)
+- [简历](#简历)
 - [Zig](#zig)
 - [Lua](#lua)
 - [Python](#python)
@@ -279,7 +280,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ### Cheatsheet
 
-- https://learnxinyminutes.com : 快速学习各种编程语言的手册
+- https://learnxinyminutes.com : 快速学习各种编程语言的手册。[源码](https://github.com/adambard/learnxinyminutes-docs)
 - [cheat.sh](https://github.com/chubin/cheat.sh): cheatsheet 服务，可通过 curl 获取内容，内容由社区维护。
 - [Rico's cheatsheets](https://devhints.io): 网页版，[源码](https://github.com/rstacruz/cheatsheets)
 - [explainshell.com/](https://explainshell.com/): 形象解释 shell 命令
@@ -537,9 +538,13 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## 下载工具
 
 - [aria2](https://github.com/aria2/aria2): 最强大的下载工具
-  - [BaiduExporter](https://github.com/acgotaku/BaiduExporter): 百度网盘助手
+  - [AriaNg](https://github.com/mayswind/AriaNg): aria2 的前端界面
+  - [aria2-ariang-docker](https://github.com/hurlenko/aria2-ariang-docker): Docker 镜像
+- bt tracker
+  - https://github.com/XIU2/TrackersListCollection
+  - https://github.com/ngosang/trackerslist
 - [youtube-dl](https://github.com/rg3/youtube-dl): 视频下载工具
-- [Motrix](https://github.com/agalwood/Motrix): 美观又强大的下载工具
+- [Motrix](https://github.com/agalwood/Motrix): 美观又强大的下载工具（目前没人维护，[作者创业中](https://github.com/agalwood/Motrix/issues/1396)）
 - https://youtube.iiilab.com/ : 下载 Youtube 视频，需要关注微信公众号
   - https://snapsave.io/ : 支持 1080p，需要翻墙
 - https://bilibili.iiilab.com/ : 下载 B 站视频，需要关注微信公众号
@@ -641,6 +646,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## 结构化数据处理
 
 - [dasel](https://github.com/TomWright/dasel): JSON, TOML, YAML, XML, CSV 增删改查、格式转换工具
+- [miller](https://github.com/johnkerl/miller): 「待评价，看起来参数很复杂」like awk, sed, cut, join, and sort for data formats such as CSV, TSV, JSON, JSON Lines, and positionally-indexed.
 - [Structured text tools](https://github.com/dbohdan/structured-text-tools)
 - [Awesome JSON - What's Next?](https://github.com/json-next/awesome-json-next)
 - 我喜欢的面向人类的配置文件语法
@@ -1237,6 +1243,13 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - 源码 [binderhub](https://github.com/jupyterhub/binderhub)
 - [Quarto](https://quarto.org/): an open-source scientific and technical publishing system built on Pandoc
 
+## 简历
+
+- [resumed](https://github.com/rbardini/resumed): 基于 jsonresume 生成静态网页
+  - https://jsonresume.org/ : 用 JSON 描述简历
+  - https://jsonresume.org/themes/ : 别人基于 jsonresume 做的主题
+- [online-cv](https://github.com/sharu725/online-cv): 适用于生成简历文档
+
 ## [Zig](./zig.md)
 
 ## [Lua](./lua.md)
@@ -1320,7 +1333,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - `{:toc}` 这类语法依赖 kramdown，如果 _config.yml 修改了 markdown 解析器，这类语法[将会失效](https://github.com/just-the-docs/just-the-docs/issues/1159)。
     - 搜索栏默认[不支持中文](https://github.com/just-the-docs/just-the-docs/issues/59)，它使用 [lunr.js](https://github.com/olivernn/lunr.js)，需要自己添加[语言包](https://github.com/MihaiValentin/lunr-languages)，得改很多东西。
 - [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy): 支持中文，TOC，搜索。
-- [online-cv](https://github.com/sharu725/online-cv): 适用于生成简历文档
 - [Hugo](https://github.com/gohugoio/hugo): Go 生态。
 - [gatsby](https://github.com/gatsbyjs/gatsby): JS + React 生态。适合与 CMS、API、数据库搭配使用。
 - [Hexo](https://hexo.io/): 适用于搭建个人博客。JS 生态。
