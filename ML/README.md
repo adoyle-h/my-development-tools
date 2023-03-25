@@ -12,6 +12,8 @@
 - [平台&社区](#平台社区)
 - [可视化](#可视化)
 - [GPT](#gpt)
+- [Prompt 工程](#prompt-工程)
+    - [Prompt 快捷指令](#prompt-快捷指令)
 - [强化学习 (Reinforcement Learning)](#强化学习-reinforcement-learning)
 - [AutoML](#automl)
 - [OpenAI](#openai)
@@ -55,6 +57,17 @@
 
 - https://github.com/elyase/awesome-gpt3
 - [chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web): 轻松搭建 ChatGPT 交互网站
+
+## Prompt 工程
+
+- [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) ([中文翻译](https://github.com/wangxuqi/Prompt-Engineering-Guide-Chinese))
+- [ChatGPT 中文调教指南](https://chatguide.plexpt.com/)
+- [Prompt 常用模式](https://www.clickprompt.org/zh-CN/chatgpt-general/)
+
+### Prompt 快捷指令
+
+- [ChatGPT 指令大全](https://www.explainthis.io/zh-hans/chatgpt)
+- [ChatGPT 快捷指令](https://newzone.top/chatgpt/)
 
 ## 强化学习 (Reinforcement Learning)
 
