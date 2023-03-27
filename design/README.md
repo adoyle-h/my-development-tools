@@ -8,6 +8,11 @@
 
 - [其他](#其他)
 - [Awesome List](#awesome-list)
+- [矢量绘图工具](#矢量绘图工具)
+- [绘图工具](#绘图工具)
+- [P 图工具](#p-图工具)
+- [原型设计](#原型设计)
+- [动效 Motion Graphics](#动效-motion-graphics)
 - [3D 建模](#3d-建模)
 - [插图资源 (Illustrations)](#插图资源-illustrations)
 - [纹理 Patterns](#纹理-patterns)
@@ -28,8 +33,6 @@
     - [Awesome Design System List](#awesome-design-system-list)
     - [Design System - Sketch](#design-system---sketch)
     - [Color System](#color-system)
-- [设计工具](#设计工具)
-    - [P 图工具](#p-图工具)
 - [Sketch](#sketch)
     - [Sketch 插件开发](#sketch-插件开发)
     - [工作流 (Workflow)](#工作流-workflow)
@@ -47,15 +50,12 @@
     - [数据填充](#数据填充)
     - [等轴测图](#等轴测图)
     - [其他插件](#其他插件)
-- [原型设计](#原型设计)
-- [动效](#动效)
 
 <!-- /MarkdownTOC -->
 
 
 ## 其他
 
-- [psmirror](http://www.psmirror.cn/zh): 设计稿实时预览工具，支持 iOS/Android/Web，支持 PS、Adobe、Sketch
 - https://lipsum.com/ : Lorem Ipsum，也称乱数假文或者哑元文本，是印刷及排版领域所常用的虚拟文字。支持各种语言。
 - https://www.blobmaker.app/ : 制作圆形形变背景 SVG
 
@@ -63,6 +63,39 @@
 
 - [Awesome Design Tools](https://github.com/LisaDziuba/Awesome-Design-Tools)
 - https://www.designnotes.co/ : 免费的设计资源的集合
+
+## 矢量绘图工具
+
+- [Sketch](https://www.sketchapp.com): 矢量图形设计工具 `Ⓜ`
+  - [Adobe XD](https://www.adobe.com/cn/products/xd.html): Sketch 的强力竞争者，跨平台 + 免费，独有的网格编组和滚动的特性，操作体验流畅，兼容最新版的 Sketch 文件。
+  - [Figma](https://www.figma.com): Sketch 替代品。
+- [Affinity Designer](https://affinity.serif.com/zh-cn/designer/)
+- [MasterGo](https://mastergo.com/): 国产 sketch + figma，功能和 UI 做的挺不错，而且跨多平台，就是用起来有点卡。
+- [pixso](https://pixso.cn/): 免费在线设计工具，插件生态做得很完善。缺点是没有色彩空间选项。
+
+## 绘图工具
+
+- [Photoshop](https://www.adobe.com/ca/products/photoshop.html)
+- [krita](https://krita.org/): 自由开源的免费绘画软件，适用于草图、插画、漫画、动画、接景和 3D 贴图。支持中文。`Ⓜ` `Ⓛ` `ⓦ`
+- [ArtRage](https://www.artrage.com/): 可以模仿油画、铅笔、水彩画等笔触的写实绘画工具。
+
+## P 图工具
+
+- [lama-cleaner](https://github.com/Sanster/lama-cleaner): AI 算法 P 图工具。它提供 [Docker](https://lama-cleaner-docs.vercel.app/install/docker)，也有[在线版](https://huggingface.co/spaces/Sanster/Lama-Cleaner-lama)，试了一下效果相当好。它可以选择用 CPU 计算还是用 GPU 计算。
+
+## 原型设计
+
+- [ProtoPie](https://www.protopie.io): 体验一流的原型设计工具
+- [Pencil](https://github.com/evolus/pencil/): 开源的，待改进
+
+## 动效 Motion Graphics
+
+- [Adobe AE](https://www.adobe.com/products/aftereffects.html): 商业收费的动效设计工具。
+- [Natron](https://github.com/NatronGitHub/Natron): 开源免费的动效设计工具。
+- [Apple Motion](https://www.apple.com.cn/final-cut-pro/motion/): 价格 328 元。
+- [lottie](http://airbnb.io/lottie/): 开源的动效工具，支持 Web、Android、iOS 端，使用 React Native 实现。
+- [Haiku Animator](https://github.com/HaikuTeam/animator/): 开源工具，创建 Lottie 动效和 Web 组件（支持 React, Vue, Angular）
+- [Bodymovin](https://github.com/airbnb/lottie-web): 可以将 Adobe AE 动画导出成 lottie 数据。
 
 ## 3D 建模
 
@@ -231,22 +264,6 @@
 
 - [Open Color](https://github.com/yeun/open-color)
 
-## 设计工具
-
-- [Lingo](https://www.lingoapp.com/): 设计资源收藏神器
-- [Sketch](https://www.sketchapp.com): 矢量图形设计工具 `Ⓜ`
-- [Adobe XD](https://www.adobe.com/cn/products/xd.html): Sketch 的强力竞争者，跨平台 + 免费，独有的网格编组和滚动的特性，操作体验流畅，兼容最新版的 Sketch 文件。
-- [Figma](https://www.figma.com): Sketch 替代品。
-- [MasterGo](https://mastergo.com/): 国产 sketch + figma，功能和 UI 做的挺不错，而且跨多平台，就是用起来有点卡。
-- [krita](https://krita.org/): 自由开源的免费绘画软件，适用于草图、插画、漫画、动画、接景和 3D 贴图。支持中文。`Ⓜ` `Ⓛ` `ⓦ`
-- [Photoshop](https://www.adobe.com/ca/products/photoshop.html)
-- [Affinity Designer](https://affinity.serif.com/zh-cn/designer/)
-- [pixso](https://pixso.cn/): 免费在线设计工具，插件生态做得很完善。缺点是没有色彩空间选项。
-
-### P 图工具
-
-- [lama-cleaner](https://github.com/Sanster/lama-cleaner): AI 算法 P 图工具。它提供 [Docker](https://lama-cleaner-docs.vercel.app/install/docker)，也有[在线版](https://huggingface.co/spaces/Sanster/Lama-Cleaner-lama)，试了一下效果相当好。它可以选择用 CPU 计算还是用 GPU 计算。
-
 ## Sketch
 
 - https://sketch.cloud : sketch 官方的共享协作平台，支持私密和公开分享。
@@ -345,13 +362,3 @@
 - [Automate Sketch](https://github.com/Ashung/Automate-Sketch): 上百个功能集合
 - [sketch-tiles](https://github.com/kumo/sketch-tiles): 方便制作 Tile 的插件
 - [Sketch-Stickers](https://github.com/romannurik/Sketch-Stickers): Quickly drag+drop stickers in your Sketch Libraries.
-
-## 原型设计
-
-- [ProtoPie](https://www.protopie.io): 体验一流的原型设计工具
-- [Pencil](https://github.com/evolus/pencil/): 开源的，待改进
-
-## 动效
-
-- [haiku](https://www.haiku.ai/): AE+Lottie+Sketch == Haiku+Sketch
-- [lottie](http://airbnb.io/lottie/): 导出 AE 稿至移动端渲染动效
