@@ -37,6 +37,7 @@
   - [update-golang](https://github.com/udhos/update-golang): a script to easily fetch and install new Golang releases with minimum system intrusion
 - [project-layout](https://github.com/golang-standards/project-layout): go 项目结构模板
 - [statik](https://github.com/rakyll/statik): Embed files into a Go executable
+- [markers](https://pkg.go.dev/sigs.k8s.io/controller-tools/pkg/markers): kubebuilder 里的 marker 注释语法解析工具。
 
 ## 开发必备
 

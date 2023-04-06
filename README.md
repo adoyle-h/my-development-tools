@@ -213,6 +213,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [知识图谱](#知识图谱)
 - [互联网关键词趋势](#互联网关键词趋势)
 - [机器学习](#机器学习)
+- [AI 工具集](#ai-工具集)
 - [运营](#运营)
 - [中国特色](#中国特色)
 - [人文](#人文)
@@ -248,6 +249,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [OSX-KVM](https://github.com/kholia/OSX-KVM): 在 KVM 里运行 MacOS
 - [Docker-OSX](https://github.com/sickcodes/Docker-OSX): 在 Docker 里运行 MacOS
 - [go-musicfox](https://github.com/go-musicfox/go-musicfox): 在终端里听网易云音乐
+- [upx](https://github.com/upx/upx): 压缩可执行文件
 
 ### 教你搜索
 
@@ -333,6 +335,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [SmsForwarder](https://github.com/pppscn/SmsForwarder): 短信转发器（安卓系统）
 - 临时接收手机短信
   - https://sms-activate.org/ : 最靠谱的平台，价格不贵
+  - https://5sim.net/zh : 似乎挺便宜的
   - https://sms24.me/en/ (这个有中国号码，下面那些没有)
   - https://jiemahao.com/
   - https://yunduanxin.net/Countries/
@@ -619,7 +622,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 着色增强工具，但只能用管道输出，仍需借助 diff 或 git diff 工具。
   - [delta](https://github.com/dandavison/delta): 语义化 Diff，功能丰富。Git 配置不友好
   - [difftastic](https://github.com/Wilfred/difftastic): 基于 tree-sitter 的 diff。Git 配置不友好
-- [diff2html](https://github.com/rtfpessoa/diff2html): 将 diff 文件转成 HTML 页面的形式预览。非常漂亮
+- [diff2html-cli](https://github.com/rtfpessoa/diff2html-cli): 将 diff 文件转成 HTML 页面的形式预览。非常漂亮
+  - https://diffy.org/ : 在线服务，支持链接共享。
 - [Kaleidoscope](http://www.kaleidoscopeapp.com): Diff GUI 软件。支持比较文本、图片、目录 `Ⓜ`
 
 ### image diff
@@ -740,6 +744,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [rrweb](https://github.com/rrweb-io/rrweb): 网页浏览录制和回放
   - [Open Replay](https://github.com/openreplay/openreplay)
 - [umami](https://github.com/mikecao/umami): website analytics alternative to Google Analytics.
+- [不蒜子 busuanzi](https://busuanzi.ibruce.info/): 两行代码搞定站点访问统计
 
 ## SSL
 
@@ -1106,6 +1111,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [waline](https://github.com/walinejs/waline): 备选方案
   - [Artalk](https://github.com/ArtalkJS/Artalk): 备选方案
 - [cusdis](https://github.com/djyde/cusdis): Disqus 替代品
+- [Disqus](https://disqus.com/): 国外的免费商业评论系统，用户体验好。但国内被墙
+  - [DisqusJS](https://github.com/SukkaW/DisqusJS): 让 Disqus 可以在国内访问，但是只读，不能发表评论
 
 ### 电子书
 
@@ -1121,6 +1128,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ### 图床
 
 - https://sm.ms/ : 免费公益的图床
+- https://imgur.com/ : 国外的图床
 - https://cloudinary.com/
 - [PicGo](https://github.com/Molunerfinn/PicGo): 图床管理软件，支持各种图床服务，包括 Github。Mac 安装失败见 FAQ。
 
@@ -1483,6 +1491,15 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Google Trends](https://trends.google.com/trends/)
 
 ## [机器学习](./ML/README.md)
+
+## AI 工具集
+
+- https://www.futuretools.io/
+- https://ai-bot.cn/
+- https://www.gptcases.com/
+- https://convert.leiapix.com/ : 2D 图片添加 3D 效果。
+- https://flowgpt.ai/ : 这个工具能够用流程图的形式，把 ChartGPT 问答串联起来。适合做教学模板。
+- https://www.chatpdf.com/ : 帮助用户阅读电子书
 
 ## 运营
 

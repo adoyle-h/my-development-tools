@@ -32,7 +32,8 @@
   - [the-tao-of-tmux](https://leanpub.com/the-tao-of-tmux/read): 非常详尽的 tmux 使用和配置手册
     - [Github Repo](https://github.com/git-pull/tao-of-tmux)
   - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
-  - [tmux-menus](https://github.com/jaclu/tmux-menus): 很强大的菜单插件
+  - [tmux-menus](https://github.com/jaclu/tmux-menus): 很强大的菜单插件。功能固定，无法自定义。
+  - [tmux-easy-menu](https://github.com/Ja-sonYun/tmux-easy-menu): 自定义菜单
 - [tio](https://github.com/tio/tio): 连接 TTY 的工具。
 - [catimg](https://github.com/posva/catimg): 在终端里打印图片，打印出的都是像素风格的。
 - [sshpass](https://github.com/kevinburke/sshpass): 通过编程方式在 ssh 时输入用户名和密码。不安全，勿用在生产环境。

@@ -452,6 +452,8 @@
 
 ## CDN
 
+- https://cdn.baomitu.com/ : 国内的 CDN
+- https://cdnjs.com/ : 国外的 CDN，国内也能访问
 - [unpkg](https://github.com/unpkg/unpkg): The CDN for everything on npm
 - https://esm.sh/ : A fast, global content delivery network for NPM packages with ES Module format.
 - https://jspm.org/ : JSPM provides a module CDN and package management for import maps

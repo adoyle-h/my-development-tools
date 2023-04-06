@@ -101,6 +101,7 @@
 
 - [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder): SDK for building Kubernetes APIs using CRDs
 - [operator-sdk](https://github.com/operator-framework/operator-sdk)
+- [shell-operator](https://github.com/flant/shell-operator): 用 shell 脚本写 operator
 
 ## Add-On
 
