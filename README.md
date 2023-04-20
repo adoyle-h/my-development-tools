@@ -155,10 +155,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [团队协作](#团队协作)
     - [即时通讯](#即时通讯)
 - [ChatOps](#chatops)
+- [电子书](#电子书)
+    - [电子书阅读器](#电子书阅读器)
 - [服务 (Service)](#服务-service)
     - [自部署的服务 (Self-Host Service)](#自部署的服务-self-host-service)
     - [评论系统](#评论系统)
-    - [电子书](#电子书)
     - [图床](#图床)
 - [网盘](#网盘)
 - [临时共享](#临时共享)
@@ -241,7 +242,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [asdf](https://github.com/asdf-vm/asdf): 通用的程序版本管理工具。类似 gvm、nvm、rbenv，不过每种语言管理器作为 asdf plugin 使用。
 - [7zip](https://www.7-zip.org/): 免费开源的压缩软件。支持多种压缩算法、多种压缩等级、加密、分片。
 - [RIME](https://rime.im/download/): 开源输入法。支持 Windows/Mac/Linux/Android
-  - [iRime](https://apps.apple.com/cn/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E4%BA%94%E7%AC%94%E9%83%91%E7%A0%81%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977): iOS 用 iR
+  - [rime/plum](https://github.com/rime/plum): RIME 的配置管理工具
+  - [rime-ice 雾凇拼音](https://github.com/iDvel/rime-ice): RIME 的简体词库
+  - [鼠须管 squirrel](https://github.com/rime/squirrel): Rime for MacOS
+  - [iRime](https://apps.apple.com/cn/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E4%BA%94%E7%AC%94%E9%83%91%E7%A0%81%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977): Rime for iOS
+  - [同文输入法](https://github.com/osfans/trime): Rime for Android
 - [uutils/coreutils](https://github.com/uutils/coreutils): 用 Rust 重写 GNU coreutils。MIT 协议开源。
 - [uutils/findutils](https://github.com/uutils/findutils): 用 Rust 重写 GNU findutils。MIT 协议开源。
 - [toybox](https://github.com/landley/toybox)：类似 buxybox。MIT 协议开源。
@@ -1081,6 +1086,26 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [wechaty](https://github.com/wechaty/wechaty): 聊天机器人开发框架
 
+## 电子书
+
+交流学习使用，请勿用于非法用途。
+
+- https://zlib.app/
+- https://bookpan.net/
+- https://ylibrary.org/
+- https://search.zhelper.net/ : 搜索前端，调用其他电子书平台的 API。直接打开链接是不可用的。需查阅[使用帮助](https://docs.zhelper.net/search/)。
+  - https://zlib.knat.network/ : 类似 zhelper 的搜索前端
+- https://bookfere.com/tools （[永久链接](https://archive.md/pKKqS)）
+
+### 电子书阅读器
+
+- [calibre](https://github.com/kovidgoyal/calibre/): 开源电子书管理器，支持格式转换。
+  - [DeDRM_tools](https://github.com/noDRM/DeDRM_tools/): calibre 插件。去除电子书的 DRM
+  - [calibre-web](https://github.com/janeczku/calibre-web)
+- [koodo-reader](https://github.com/troyeguo/koodo-reader): 跨平台的电子书阅读器。不支持移动端
+- [legado](https://github.com/gedoor/legado): 安卓平台的电子书阅读器
+- [koreader](https://github.com/koreader/koreader): 转为水墨屏设计的电子书阅读器
+
 ## 服务 (Service)
 
 - [PlantUML Gist](https://github.com/linux-china/plantuml-gist): 基于托管在 Gist 的 [PlantUML][] 在线生成 UML 图
@@ -1113,17 +1138,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [cusdis](https://github.com/djyde/cusdis): Disqus 替代品
 - [Disqus](https://disqus.com/): 国外的免费商业评论系统，用户体验好。但国内被墙
   - [DisqusJS](https://github.com/SukkaW/DisqusJS): 让 Disqus 可以在国内访问，但是只读，不能发表评论
-
-### 电子书
-
-交流学习使用，请勿用于非法用途。
-
-- https://zlib.app/
-- https://bookpan.net/
-- https://ylibrary.org/
-- https://search.zhelper.net/ : 搜索前端，调用其他电子书平台的 API。直接打开链接是不可用的。需查阅[使用帮助](https://docs.zhelper.net/search/)。
-  - https://zlib.knat.network/ : 类似 zhelper 的搜索前端
-- https://bookfere.com/tools （[永久链接](https://archive.md/pKKqS)）
 
 ### 图床
 

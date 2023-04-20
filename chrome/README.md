@@ -58,6 +58,8 @@
 - [LocalCDN](https://codeberg.org/nobody/LocalCDN): 重定向 JS 和 CSS 文件
 - [2captcha](https://2captcha.com/): 反验证码插件
 - [图片助手](http://www.pullywood.com/ImageAssistant/): 批量下载网页上的图片。
+- [reddit-enhancement-suite](https://chrome.google.com/webstore/detail/reddit-enhancement-suite/kbmfpngjjgdllneeigpgjifpgocmfgmb): reddit 增强插件
+- [bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome): 能够绕过 Medium、纽约时报、彭博社等网站的付费墙。缺点是这些网站无法登录账号。
 
 ## 油猴脚本
 

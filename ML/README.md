@@ -63,6 +63,7 @@
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) ([中文翻译](https://github.com/wangxuqi/Prompt-Engineering-Guide-Chinese))
 - [ChatGPT 中文调教指南](https://chatguide.plexpt.com/)
 - [Prompt 常用模式](https://www.clickprompt.org/zh-CN/chatgpt-general/)
+- [Learn Prompting](https://learnprompting.org/zh-Hans/docs/intro)
 
 ### Prompt 快捷指令
 
