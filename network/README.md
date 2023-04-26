@@ -16,7 +16,7 @@
 - [抓包、流量分析](#抓包流量分析)
 - [API Gateway](#api-gateway)
 - [隧道 Tunnel](#隧道-tunnel)
-- [HTTP Benchmark](#http-benchmark)
+- [Network Benchmark](#network-benchmark)
 
 <!-- /MarkdownTOC -->
 
@@ -116,9 +116,11 @@
 - [localtunnel](https://github.com/localtunnel/localtunnel): HTTP 服务内网穿透工具，开发用很方便
   - [localtunnel server](https://github.com/localtunnel/server): 可以自建服务器
 
-## HTTP Benchmark
+## Network Benchmark
 
 - [siege](https://github.com/JoeDog/siege)
 - [wrk](https://github.com/wg/wrk): 不容易阅读
 - [loadtest](https://github.com/alexfernandez/loadtest)
 - [ZBench](https://github.com/FunctionClub/ZBench): 设备网络性能 Benchmark 脚本
+- [hey](https://github.com/rakyll/hey): HTTP 压测工具
+- [ghz](https://github.com/bojand/ghz): gRPC 压测工具
