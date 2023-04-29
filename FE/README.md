@@ -382,6 +382,7 @@
 ### 3D
 
 - [three.js](https://github.com/mrdoob/three.js)
+  - [react-three-fiber](https://github.com/pmndrs/react-three-fiber): A React renderer for Three.js
 - [whs.js](https://github.com/WhitestormJS/whs.js): 3D framework Based on Three.js
 
 ### 数据可视化

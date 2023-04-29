@@ -10,8 +10,12 @@
 
 - [其他](#其他)
 - [平台&社区](#平台社区)
+    - [AI Image](#ai-image)
 - [可视化](#可视化)
 - [GPT](#gpt)
+- [Diffusion 模型](#diffusion-模型)
+- [Stable Diffusion](#stable-diffusion)
+    - [Stable Diffusion Prompt](#stable-diffusion-prompt)
 - [Prompt 工程](#prompt-工程)
     - [Prompt 快捷指令](#prompt-快捷指令)
 - [强化学习 (Reinforcement Learning)](#强化学习-reinforcement-learning)
@@ -45,9 +49,18 @@
 
 - https://www.kaggle.com/
 - https://huggingface.co/
-- https://civitai.com/ : 研究文字生成图像的社区
+- https://replicate.com/ : 提供模型训练和运行的云环境，价格实惠
+  - [在线训练你的 LoRA 模型](https://replicate.com/blog/lora-faster-fine-tuning-of-stable-diffusion)
 - https://paperswithcode.com/
 - https://openbayes.com/ : 中国的人工智能研究机构
+
+### AI Image
+
+text-to-image 社区
+
+- https://civitai.com/
+- https://lexica.art/
+- https://arthub.ai/
 
 ## 可视化
 
@@ -57,6 +70,25 @@
 
 - https://github.com/elyase/awesome-gpt3
 - [chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web): 轻松搭建 ChatGPT 交互网站
+
+## Diffusion 模型
+
+- [deep-floyd/IF](https://github.com/deep-floyd/IF)
+
+## Stable Diffusion
+
+- [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion): A latent text-to-image diffusion model
+- [Stability-AI/stablediffusion](https://github.com/Stability-AI/stablediffusion): High-Resolution Image Synthesis with Latent Diffusion Models
+  - https://huggingface.co/stabilityai/stable-diffusion-2-base
+- [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion): 把 SD 模型转换成苹果的 Core ML 模型
+- [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui): 最流行的 WebUI for SD
+  - [stable-diffusion-webui-chinese](https://github.com/VinsonLaro/stable-diffusion-webui-chinese): WebUI 中文语言包
+- https://spell.novelai.dev/ : 从 Stable Diffusion 生成的图片反向生成 prompt。[源码](https://github.com/Akegarasu/stable-diffusion-inspector)
+
+### Stable Diffusion Prompt
+
+- https://openart.ai/promptbook : prompt 基础教程
+- [咒语生成器](https://www.wujieai.com/tag-generator)
 
 ## Prompt 工程
 
