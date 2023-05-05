@@ -1030,6 +1030,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - https://www.mailgun.com/ : 发邮件的服务 `ⱳ`
 - http://mailchimp.com/ : 搭建邮件&发邮件的服务 `ⱳ`
 - [nodemailer](https://github.com/nodemailer/nodemailer): 邮件类库 (NodeJS)
+- https://mail.tm/ : 临时邮件账号，注销很方便。记录临时账号的密码可以下次登录。
 
 ## 翻译
 

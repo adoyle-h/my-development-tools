@@ -83,12 +83,13 @@ text-to-image 社区
 - [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion): 把 SD 模型转换成苹果的 Core ML 模型
 - [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui): 最流行的 WebUI for SD
   - [stable-diffusion-webui-chinese](https://github.com/VinsonLaro/stable-diffusion-webui-chinese): WebUI 中文语言包
-- https://spell.novelai.dev/ : 从 Stable Diffusion 生成的图片反向生成 prompt。[源码](https://github.com/Akegarasu/stable-diffusion-inspector)
+- [Draw Things](https://drawthings.ai/): Mac/iPhone 平台可用的 stable diffusion，支持自定义模型、Lora、ControlNet。[没有 token 限制](https://www.reddit.com/r/StableDiffusion/comments/yqknyp/comment/jeo594i/?utm_source=share&utm_medium=web2x&context=3)
 
 ### Stable Diffusion Prompt
 
 - https://openart.ai/promptbook : prompt 基础教程
 - [咒语生成器](https://www.wujieai.com/tag-generator)
+- https://spell.novelai.dev/ : 从 Stable Diffusion 生成的图片反向生成 prompt。[源码](https://github.com/Akegarasu/stable-diffusion-inspector)
 
 ## Prompt 工程
 
