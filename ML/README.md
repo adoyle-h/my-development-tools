@@ -73,6 +73,7 @@ text-to-image 社区
 
 ## Diffusion 模型
 
+- [ControlNet](https://github.com/lllyasviel/ControlNet): 通过添加额外的条件来控制 Diffusion 模型
 - [deep-floyd/IF](https://github.com/deep-floyd/IF)
 
 ## Stable Diffusion

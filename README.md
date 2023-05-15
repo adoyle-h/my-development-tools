@@ -42,6 +42,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+    - [养生](#养生)
     - [教你搜索](#教你搜索)
     - [历史遗珠](#历史遗珠)
     - [社区](#社区)
@@ -257,6 +258,10 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [go-musicfox](https://github.com/go-musicfox/go-musicfox): 在终端里听网易云音乐
 - [upx](https://github.com/upx/upx): 压缩可执行文件
 
+### 养生
+
+- [人体系统调优不完全指南](https://github.com/zijie0/HumanSystemOptimization)
+
 ### 教你搜索
 
 - http://lmgtfy.com/ : 帮你 google/bing/duckduckgo
@@ -460,7 +465,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ### 社工库
 
-- [暗精灵社工库](https://t.me/AJLSGK_bot?start=9Vd56q8uTa)
+- [暗精灵社工库](https://t.me/AJL01_bot?start=9Vd56q8uTa)
 - [TGsgkbot](https://t.me/SGKmainNEWbot?start=IVT62B06286)
 - [sgk520_bot]( https://t.me/sgk520_bot?start=DMT534Ai5D)
 
