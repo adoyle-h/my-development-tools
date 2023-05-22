@@ -144,6 +144,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [编码](#编码)
 - [知识管理](#知识管理)
 - [搜索引擎 Search Bar](#搜索引擎-search-bar)
+    - [停止词 Stop Words](#停止词-stop-words)
 - [邮件](#邮件)
 - [翻译](#翻译)
 - [Windows App](#windows-app)
@@ -660,7 +661,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## 结构化数据处理
 
-- [dasel](https://github.com/TomWright/dasel): JSON, TOML, YAML, XML, CSV 增删改查、格式转换工具
+- [dasel](https://github.com/TomWright/dasel): JSON, TOML, YAML, XML, CSV 增删改查、格式转换工具。缺点：无法直接 put 数组。
 - [miller](https://github.com/johnkerl/miller): 「待评价，看起来参数很复杂」like awk, sed, cut, join, and sort for data formats such as CSV, TSV, JSON, JSON Lines, and positionally-indexed.
 - [Structured text tools](https://github.com/dbohdan/structured-text-tools)
 - [Awesome JSON - What's Next?](https://github.com/json-next/awesome-json-next)
@@ -1028,6 +1029,15 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [flexsearch](https://github.com/nextapps-de/flexsearch): 类似 lunr.js。虽然支持中文，但分词功能可能需要自己开发。
 - [solr](https://solr.apache.org/): 基于 Lucene 的开源企业级搜索平台
 
+### 停止词 Stop Words
+
+停用词是指在信息检索中，为节省存储空间和提高搜索效率，在处理自然语言数据（或文本）之前或之后会自动过滤掉某些字或词，这些字或词即被称为 Stop Words（停用词）。
+这些停用词都是人工输入、非自动化生成的，生成后的停用词会形成一个停用词表。但是，并没有一个明确的停用词表能够适用于所有的工具。
+
+- 中文停止词
+  - [goto456/stopwords](https://github.com/goto456/stopwords)
+- 英文停止词
+
 ## 邮件
 
 - [Newton](https://cloudmagic.com/k/newton): 邮件客户端。也支持移动端 `Ⓜ`
@@ -1039,6 +1049,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## 翻译
 
+- [沉浸式翻译](https://github.com/immersive-translate/immersive-translate): 浏览器插件，开源免费，体验很好。
 - [translate-shell](https://github.com/soimort/translate-shell): Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
 - [Poedit](https://poedit.net): .po 翻译软件 `Ⓜ`。价格太贵，大版本升级坑。暂无替代方案
 - [OpenCC](https://github.com/BYVoid/OpenCC): 中文简体与繁体转换
@@ -1434,6 +1445,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [marked](https://github.com/markedjs/marked): 备用方案
 - [remark](https://github.com/remarkjs/remark): markdown processor
 - [mdx](https://github.com/mdx-js/mdx): Markdown + JSX = MDX。支持模块导入和导出，支持 React 组件。写 Web 文档利器。
+  - [Code Hike](https://github.com/code-hike/codehike): MDX 的 remark 插件。使用场景：code walkthrough。
 
 ### Changelog
 

@@ -12,6 +12,7 @@
   - [termux-api](https://github.com/termux/termux-api): 通过命令调用系统 API
   - [termux-services](https://github.com/termux/termux-services): termux 默认没有 systemd 这类服务管理器，因此要装这个来支持服务管理。
 - [f-droid](https://www.f-droid.org/): 安卓开源应用市场
+- [截屏大师](https://play.google.com/store/apps/details?id=pro.capture.screenshot&hl=zh&gl=US): 把多张图片自动拼接成一张长图。[介绍](https://github.com/just-talks/tech-talks/discussions/50)
 
 ## Xposed
 
