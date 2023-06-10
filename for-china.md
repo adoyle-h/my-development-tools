@@ -67,10 +67,12 @@
 
 ## 镜像站点
 
-- https://developer.aliyun.com : 阿里
+- https://developer.aliyun.com : 阿里云
 - http://mirrors.ustc.edu.cn/ : 中国科技大学
 - https://mirrors.tuna.tsinghua.edu.cn : 清华大学
 - http://mirror.azure.cn/ : azure 中国站
+- https://mirrors.huaweicloud.com/home : 华为云。debian 源推荐用这个，比清华的快。
+- https://mirrors.nju.edu.cn/ : 南京大学
 - https://cnpmjs.org/ :
   - 用法：任意域名加 `.cnpmjs.org`。例如 `git clone https://github.com.cnpmjs.org/etcd-io/etcd.git`
 - [K8S 与镜像的代理](./k8s.md#镜像与代理)

@@ -7,6 +7,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [配置](#配置)
 - [开发必备](#开发必备)
 - [DAP](#dap)
 - [Code Generator](#code-generator)
@@ -40,6 +41,10 @@
 - [markers](https://pkg.go.dev/sigs.k8s.io/controller-tools/pkg/markers): kubebuilder 里的 marker 注释语法解析工具。
 - [gods](https://github.com/emirpasic/gods): Go 基本数据结构
 - [TheAlgorithms/Go](https://github.com/TheAlgorithms/Go): Algorithms and Data Structures implemented in Go
+
+## 配置
+
+- [viper](https://github.com/spf13/viper): 支持环境变量，配置文件 (JSON, TOML, YAML, HCL, envfile, Java properties config files)，命令行参数。
 
 ## 开发必备
 

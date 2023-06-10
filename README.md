@@ -258,6 +258,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Docker-OSX](https://github.com/sickcodes/Docker-OSX): 在 Docker 里运行 MacOS
 - [go-musicfox](https://github.com/go-musicfox/go-musicfox): 在终端里听网易云音乐
 - [upx](https://github.com/upx/upx): 压缩可执行文件
+- [wakeonlan](https://github.com/jpoliv/wakeonlan): 网络唤醒工具
 
 ### 养生
 
@@ -516,7 +517,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ### 代码编辑器
 
 - [ace](https://github.com/ajaxorg/ace)
-- [CodeMirror](https://github.com/codemirror/codemirror)
+- [CodeMirror](https://github.com/codemirror/dev/)
 - [Monaco Editor](https://github.com/Microsoft/monaco-editor): VS Code 的代码编辑器
 
 ### 富文本编辑器 WYSIWYG
@@ -575,8 +576,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [cmder](https://github.com/cmderdev/cmder): 备选方案
 - [Hyper](https://github.com/zeit/hyper): 用前端技术栈做的终端。非常酷炫 `⨀`
   - [awesome-hyper](https://github.com/bnb/awesome-hyper)
+- [tabby](https://github.com/Eugeny/tabby): 前端技术栈做的终端，可以用 CSS 定制界面，功能完善，支持 Windows/MacOS/Linux。注意：关闭「输入时滚动」选项，否则很容易屏幕闪烁。缺点：无法输入中文标点。
 - [cathode](https://itunes.apple.com/us/app/cathode/id656982811): 复古终端模拟器 `Ⓜ`
-- [tabby](https://github.com/Eugeny/tabby): for Windows, macOS and Linux
 - [xterm.js](https://github.com/xtermjs/xterm.js): A terminal for the web
 - [edex-ui](https://github.com/GitSquared/edex-ui): 非常酷！
 
@@ -777,18 +778,20 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [fan2go](https://github.com/markusressel/fan2go): 风扇控制
 - [hcache](https://github.com/silenceshell/hcache): The top tool for page cache
 - [ufw](https://packages.debian.org/stable/admin/ufw): 防火墙
+- [snap](https://snapcraft.io/): 兼容各种 linux 系统的包管理器
+- [clamav](https://github.com/Cisco-Talos/clamav): 杀毒软件
 
 ### Linux 发行版
 
 - https://livecdlist.com/ : Linux LiveCD 发行版列表
 - https://distrochooser.de : 帮你选择 Linux 发行版
 - [SystemRescue](https://www.system-rescue.org/): 基于 Arch Linux，预装了一堆 linux 系统工具。用于系统恢复和硬盘处理。是 Live CD，开箱即用。
-- [debian](): 服务器场景推荐
+- [debian](https://www.debian.org/): 服务器场景推荐
 - [manjaro](https://manjaro.org/): 新手入门
-- [ubuntu](): 新手入门
-- [ubuntu core](): 用于低端硬件配置场景
-- [Clean Linux](): Intel 出品
-- [Arch Linux](): Wiki 文档最全面
+- [ubuntu](https://ubuntu.com): 新手入门
+- [ubuntu core](https://ubuntu.com/core): 用于低端硬件配置场景
+- [Clean Linux](https://clearlinux.org/): Intel 出品
+- [Arch Linux](https://archlinux.org/): Wiki 文档最全面
 - [Kali Linux](https://www.kali.org/): 专注于安全渗透
 - [Tails](https://tails.boum.org/index.en.html): 专注于安全
 - [Puppy Linux](https://puppylinux.com/)
