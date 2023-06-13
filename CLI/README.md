@@ -19,7 +19,6 @@
   - [commando](https://github.com/lukaszlach/commando): 封装了各种命令的容器镜像
 - [hr](https://github.com/LuRsT/hr): 终端分隔符
 - [cloc](https://github.com/AlDanial/cloc): 代码行统计
-- [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
 - [ttyd](https://github.com/tsl0922/ttyd): 将终端程序映射成 Web 服务。包括 shell 本身也可以封装成 Web 服务。
   - [wetty](https://github.com/butlerx/wetty): nodejs 实现的
   - [shell2http](https://github.com/msoap/shell2http): 不同点在于它把程序映射到 uri 上。

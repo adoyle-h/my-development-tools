@@ -223,6 +223,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [人文](#人文)
 - [Funny](#funny)
 - [游戏开发](#游戏开发)
+- [二维码](#二维码)
 - [别人的工具列表](#别人的工具列表)
 
 <!-- /MarkdownTOC -->
@@ -1547,6 +1548,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [cheat-engine](https://github.com/cheat-engine/cheat-engine/): 游戏内存修改器。支持 Mac。
 - [godot](https://github.com/godotengine/godot): 免费的游戏引擎。MIT License
 - [godot-lang-support](https://github.com/Vivraan/godot-lang-support): godot 其他编程语言扩展
+
+## 二维码
+
+- [二维码生成器](https://qrbtf.com/)
+- [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
 
 -----
 
