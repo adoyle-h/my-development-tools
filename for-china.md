@@ -76,6 +76,7 @@
 - https://cnpmjs.org/ :
   - 用法：任意域名加 `.cnpmjs.org`。例如 `git clone https://github.com.cnpmjs.org/etcd-io/etcd.git`
 - [K8S 与镜像的代理](./k8s.md#镜像与代理)
+- https://mirror.iscas.ac.cn/ : ISCAS 开源镜像站。很多镜像站不存 arm 源，这个镜像站有。
 
 ## 敏感词检测
 

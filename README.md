@@ -191,6 +191,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Docker](#docker)
 - [K8S/Kubernetes](#k8skubernetes)
 - [硬件](#硬件)
+- [HASS (Home Assistant)](#hass-home-assistant)
 - [虚拟化](#虚拟化)
     - [libvirt/KVM](#libvirtkvm)
 - [模板引擎](#模板引擎)
@@ -795,6 +796,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Arch Linux](https://archlinux.org/): Wiki 文档最全面
 - [Kali Linux](https://www.kali.org/): 专注于安全渗透
 - [Tails](https://tails.boum.org/index.en.html): 专注于安全
+- [armbian](https://www.armbian.com/): 适合 arm 架构的设备（x86 架构其实也支持）。有 ubuntu 和 debian 两种版本，操作类似。使用 apt 包管理。
+  - [ophub/amlogic-s9xxx-armbian](https://github.com/ophub/amlogic-s9xxx-armbian): 国内的机顶盒刷 armbian，需要用这个工具。
 - [Puppy Linux](https://puppylinux.com/)
 - [mint](https://linuxmint.com/)
 - [distrobox](https://github.com/89luca89/distrobox): 在容器里运行各种 linux 发行版。
@@ -1317,6 +1320,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## [K8S/Kubernetes](./k8s.md)
 
 ## [硬件](./hardware.md)
+
+## [HASS (Home Assistant)](./hass/README.md)
 
 ## 虚拟化
 

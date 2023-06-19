@@ -33,6 +33,7 @@
   - [dext](https://github.com/DextApp/dext): 类似 Alfred，JS 写的 launcher `⨀`
   - [Lacona](https://www.lacona.io/): 类似 spotlight。但更酷 `Ⓜ`
 - [Raycast](https://www.raycast.com/): 免费的 Launcher 工具，功能似乎比 Alfred 做得更好。
+  - [raycast/script-commands](https://github.com/raycast/script-commands)
 - [Copyless](http://copyless.net): 系统剪切板管理器
 - [Yoink](http://eternalstorms.at/yoink/Yoink_-_Simplify_and_Improve_Drag_and_Drop_on_your_Mac/Yoink_-_Simplify_drag_and_drop_on_your_Mac.html): 临时桌面文件
 - [Noizio](http://noiz.io): 白噪音
