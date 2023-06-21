@@ -7,6 +7,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-last-modified-at
 
 include: []
 
@@ -34,6 +35,7 @@ aux_links:
   "Give Me a Github Star":
     - https://github.com/adoyle-h/my-development-tools
 last_edit_timestamp: true
+last_edit_time_format: "%Y-%m-%d %H:%M:%S %z"
 color_scheme: dark
 back_to_top: true
 back_to_top_text: ⬆ 返回顶部

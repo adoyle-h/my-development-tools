@@ -73,6 +73,9 @@
 - [action-gh-release](https://github.com/softprops/action-gh-release): 自动发布 github release
 - [actions/label-syncer](https://github.com/micnncim/action-label-syncer): 根据文件同步 label 设置
 - [label-exporter](https://github.com/micnncim/label-exporter): 导出现有的 label 到文件
+- [docker/build-push-action](https://github.com/docker/build-push-action): 构建镜像并推送到 registry
+- [docker/login-action](https://github.com/docker/login-action): 登录各种 Registry
+- [dorny/paths-filter](https://github.com/dorny/paths-filter): 根据指定文件是否修改，决定是否执行 workflow
 
 ### Github UI
 

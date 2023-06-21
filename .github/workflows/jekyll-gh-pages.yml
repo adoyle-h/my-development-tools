@@ -1,9 +1,12 @@
 name: Deploy GitHub Pages
 
 on:
+  schedule:
+    - cron:  '0 0 * * *'
+
   # Runs on pushes targeting the default branch
-  push:
-    branches: ["master"]
+  # push:
+  #   branches: ["master"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -20,9 +23,28 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      md: ${{ steps.changes.outputs.md }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - uses: dorny/paths-filter@v2
+        id: changes
+        with:
+          base: ${{ github.ref }}
+          filters: |
+            md:
+              - '**/*.md'
+
   # Build job
   build:
     runs-on: ubuntu-latest
+    needs: changes
+    if: needs.changes.outputs.md == 'true'
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -31,7 +53,7 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+        uses: adoyle-h/jekyll-build-pages@v1.0.7-ad-4
         with:
           source: ./
           destination: ./_site
