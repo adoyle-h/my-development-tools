@@ -7,6 +7,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [镜像加速](#镜像加速)
 - [CLI](#cli)
     - [OCI](#oci)
 - [镜像制作](#镜像制作)
@@ -25,6 +26,13 @@
   - [container-diff](https://github.com/GoogleContainerTools/container-diff): 备选方案
 - [dive](https://github.com/wagoodman/dive): 查看 docker 镜像的每一层 layer。支持 diff
 - [lima](https://github.com/lima-vm/lima): 运行在 Mac 上的虚拟机
+
+## 镜像加速
+
+- [上海交大镜像站](https://mirrors.sjtug.sjtu.edu.cn/docs/docker-registry): 仅支持 Docker Hub。
+- [南京大学镜像站](https://doc.nju.edu.cn/books/35f4a): 支持 Docker Hub, GCR, GHCR, NGC, QUAY。
+- [Docker Proxy](https://dockerproxy.com/docs): 支持 Docker Hub, GCR, K8S.GCR, GHCR, QUAY。
+- 更多详见 https://gist.github.com/y0ngb1n/7e8f16af3242c7815e7ca2f0833d3ea6
 
 ## CLI
 

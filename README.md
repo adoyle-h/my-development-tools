@@ -118,6 +118,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [运维](#运维)
     - [Troubleshooting](#troubleshooting)
 - [进程管理](#进程管理)
+- [资源管理](#资源管理)
 - [文件管理](#文件管理)
     - [文件查找](#文件查找)
     - [文件大小](#文件大小)
@@ -466,6 +467,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - https://www.cve.org/
   - [GitHub Security Lab](https://securitylab.github.com/)
   - https://www.cvedetails.com/
+- [gitleaks](https://github.com/gitleaks/gitleaks): 检测密码泄露
 
 ### 社工库
 
@@ -858,6 +860,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - better `kill`
   - [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
   - [fkill-cli](https://github.com/sindresorhus/fkill-cli): 灵活的删进程命令，例如 `fkill 1337 safari :8080`，如果不加参数，则是交互式命令。
+
+## 资源管理
 
 ## 文件管理
 
