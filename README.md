@@ -167,6 +167,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [网盘](#网盘)
 - [临时共享](#临时共享)
 - [爬虫代理池](#爬虫代理池)
+- [HTTP 静态文件服务](#http-静态文件服务)
 - [静态文件托管](#静态文件托管)
 - [CMS](#cms)
 - [PaaS](#paas)
@@ -188,6 +189,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [NodeJS](#nodejs)
 - [TypeScript](#typescript)
 - [WebAssembly](#webassembly)
+- [Nix](#nix)
 - [前端开发](#前端开发)
 - [Docker](#docker)
 - [K8S/Kubernetes](#k8skubernetes)
@@ -251,6 +253,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [rime/plum](https://github.com/rime/plum): RIME 的配置管理工具
   - [rime-ice 雾凇拼音](https://github.com/iDvel/rime-ice): RIME 的简体词库
   - [鼠须管 squirrel](https://github.com/rime/squirrel): Rime for MacOS
+    - [Squirrel-Designer](https://github.com/LEOYoon-Tsaw/Squirrel-Designer): 鼠须管皮肤制作工具
   - [iRime](https://apps.apple.com/cn/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E4%BA%94%E7%AC%94%E9%83%91%E7%A0%81%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977): Rime for iOS
   - [同文输入法](https://github.com/osfans/trime): Rime for Android
 - [uutils/coreutils](https://github.com/uutils/coreutils): 用 Rust 重写 GNU coreutils。MIT 协议开源。
@@ -784,6 +787,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [ufw](https://packages.debian.org/stable/admin/ufw): 防火墙
 - [snap](https://snapcraft.io/): 兼容各种 linux 系统的包管理器
 - [clamav](https://github.com/Cisco-Talos/clamav): 杀毒软件
+- [CRIU](https://github.com/checkpoint-restore/criu): 进程快照和恢复。[使用场景](https://criu.org/Usage_scenarios)
 
 ### Linux 发行版
 
@@ -991,8 +995,10 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ### 压测 (Stress Test)
 
-- [stress-ng](https://github.com/ColinIanKing/stress-ng): 对操作系统的压力测试
+- [stress-ng](https://github.com/ColinIanKing/stress-ng): 对 CPU、内存、IO 的压力测试
   - [stress](https://fossies.org/linux/privat/old/stress-1.0.4.tar.gz/stress-1.0.4/doc/stress.html)
+- [FIO](https://github.com/axboe/fio): 测试硬盘 IO。开源。
+- [Geekbench](https://www.geekbench.com/): 对操作系统的压测工具。闭源。压测报告会自动上传到官网，多个压测报告可以进行比较。
 
 ## 密码相关
 
@@ -1200,6 +1206,13 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [proxy_pool](https://github.com/jhao104/proxy_pool)
 - https://proxy.mimvp.com/
 
+## HTTP 静态文件服务
+
+- [static-web-server](https://github.com/static-web-server/static-web-server): Rust 写的。[Docker Alpine 镜像](https://hub.docker.com/r/joseluisq/static-web-server)大小 3 MB。
+- [caddy](https://github.com/caddyserver/caddy): Go 写的。[Docker Alpine 镜像](https://hub.docker.com/_/caddy)大小 16 MB。
+- [http-server](https://github.com/http-party/http-server): NodeJS 写的。
+- [lipanski/docker-static-website](https://github.com/lipanski/docker-static-website): 基于 busybox 自带的 httpd 程序。Docker 镜像大小 154KB。功能有限。
+
 ## 静态文件托管
 
 - http://surge.sh  Static web publishing for Front-End Developers. 设计非常优雅，强烈推荐！
@@ -1316,6 +1329,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## [TypeScript](./typescript/README.md)
 
 ## [WebAssembly](./wasm.md)
+
+## [Nix](./nix/README.md)
 
 ## [前端开发](./FE/README.md)
 

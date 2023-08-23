@@ -38,7 +38,7 @@
 - [Clash](https://github.com/Dreamacro/clash): A rule-based tunnel in Go.
   - [ClashX](https://github.com/yichengchen/clashX): Mac 客户端
   - [ClashForAndroid](https://github.com/Kr328/ClashForAndroid): Android 客户端
-  - [clash-dashboard](https://github.com/Dreamacro/clash-dashboard):Clash Web Dashboard
+  - [clash-dashboard](https://github.com/Dreamacro/clash-dashboard): Clash Web Dashboard
 - QuantumultX: iOS 客户端，很贵，功能强大，界面交互好
   - ShadowRocket: iOS 客户端，便宜，功能还行
 

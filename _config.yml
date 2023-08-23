@@ -20,6 +20,9 @@ exclude:
 permalink: none
 remote_theme: just-the-docs/just-the-docs
 
+autolinks:
+  link_attr: target="_blank"
+
 # Default config: https://github.com/just-the-docs/just-the-docs/blob/main/_config.yml
 url: https://tools.adoyle.me
 # baseurl: /

@@ -70,7 +70,8 @@
 ## Node 环境
 
 - [nrm](https://github.com/Pana/nrm): NPM Registry Manager
-- [nvm](https://github.com/creationix/nvm): Node Version Manager
+- [fnm](https://github.com/Schniz/fnm): Node Version Manager
+  - [nvm](https://github.com/creationix/nvm): 备用方案
   - [n](https://github.com/tj/n): 备用方案
 - [nvs](https://github.com/jasongin/nvs): 类似 nvm。Windows 平台使用这个。
 - [get-node](https://github.com/ehmicky/get-node): 这是一个类库。功能是下载指定版本的 node。兼容 Linux/Mac/Windows，支持代理

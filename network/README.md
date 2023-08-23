@@ -32,6 +32,7 @@
 - Linux 命令: `ping`, `nc`, `mtr`, `netstat`, `nettop`, `iftop`
 - 网络拨测工具
   - https://boce.aliyun.com/detect/http 支持 http/ping/dns/mtr/tranceroute
+- [域名污染检测](https://www.boce.com/pollute)
 
 ## 网络命令
 
@@ -70,6 +71,7 @@
 - [nali](https://github.com/zu1k/nali): 查询IP地理信息和CDN服务提供商的离线终端工具
 - https://dnsdumpster.com/ : 搜索子域名用，Domain Map 很好用
 - [dog](https://github.com/ogham/dog): better `dig`
+- [ddns-go](https://github.com/jeessy2/ddns-go): DDNS Server
 
 ## HTTP 服务
 

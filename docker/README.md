@@ -26,6 +26,8 @@
   - [container-diff](https://github.com/GoogleContainerTools/container-diff): 备选方案
 - [dive](https://github.com/wagoodman/dive): 查看 docker 镜像的每一层 layer。支持 diff
 - [lima](https://github.com/lima-vm/lima): 运行在 Mac 上的虚拟机
+- [colima](https://github.com/abiosoft/colima): Docker Desktop 替代品。基于 lima。
+- [orbstack](https://orbstack.dev/): 在 Mac 运行 Docker 和 Linux 虚拟机的工具。启动秒开，轻量级，高性能。
 
 ## 镜像加速
 
