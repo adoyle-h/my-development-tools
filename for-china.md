@@ -39,6 +39,8 @@
   - [ClashX](https://github.com/yichengchen/clashX): Mac 客户端
   - [ClashForAndroid](https://github.com/Kr328/ClashForAndroid): Android 客户端
   - [clash-dashboard](https://github.com/Dreamacro/clash-dashboard): Clash Web Dashboard
+  - [subconverter](https://github.com/tindy2013/subconverter): 订阅格式转换服务。很多机场提供的编码过的订阅源，需要经过格式转换。很多客户端自带转换功能。如果自己部署 clash 服务，可能会需要这个。
+  - [sub-web](https://github.com/CareyWang/sub-web): 基于 subconverter 的前端 UI。
 - QuantumultX: iOS 客户端，很贵，功能强大，界面交互好
   - ShadowRocket: iOS 客户端，便宜，功能还行
 
@@ -49,6 +51,7 @@
 - [GenPAC](https://github.com/JinnLynn/genpac): 基于 gfwlist 的 pac, dnsmasq, wingy 配置生成工具，支持自定义规则。
 - [SS-Rule-Snippet](https://github.com/Hackl0us/SS-Rule-Snippet): 搜集、整理、维护 Surge / Quantumult (X) / Shadowrocket / Surfboard / clash (Premium) 实用规则。
 - [proxypool](https://github.com/zu1k/proxypool): 自动抓取tg频道、订阅地址、公开互联网上的ss、ssr、vmess、trojan节点信息，聚合去重后提供节点列表
+- [anti-AD](https://github.com/privacy-protection-tools/anti-AD): DNS 反广告和反跟踪规则
 
 ### VPN
 

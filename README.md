@@ -1184,7 +1184,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## 网盘
 
 - [阿里云盘](https://www.aliyundrive.com/)
-- [Dropbox](https://dropbox.com/)
+- [Mega](https://mega.nz/): 免费版 25G 空间。需要翻墙
+- [Dropbox](https://dropbox.com/): 免费版 3.8G 空间。需要翻墙
   - [Maestral](https://maestral.app/): 开源的 Dropbox 客户端。有 CLI 工具，支持 Linux。
 - [Nextcloud](https://github.com/nextcloud/server): 开源的网盘方案，客户端支持很多平台。用户体验很好，可与商业产品竞争。支持插件。
 - [Seafile](https://github.com/haiwen/seafile)

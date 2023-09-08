@@ -7,6 +7,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [手机](#手机)
+- [路由器](#路由器)
 - [嵌入式](#嵌入式)
 - [包管理器](#包管理器)
 - [硬件信息](#硬件信息)
@@ -17,6 +18,10 @@
 ## 手机
 
 - [Device Specifications](https://www.devicespecifications.com/): 手机设备详细参数
+
+## 路由器
+
+- [Xwrt-Vortex](https://xvtx.ru/xwrt/index.htm)
 
 ## 嵌入式
 

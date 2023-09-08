@@ -11,6 +11,7 @@
 - [防火墙](#防火墙)
 - [IP](#ip)
 - [DNS](#dns)
+    - [公共 DNS](#公共-dns)
 - [HTTP 服务](#http-服务)
 - [Websocket](#websocket)
 - [抓包、流量分析](#抓包流量分析)
@@ -66,12 +67,24 @@
 ## DNS
 
 - [CoreDNS](https://github.com/coredns/coredns): DNS server。CNCF 项目
+- [Dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html): 轻量级 DNS/DHCP/TFTP 服务器
 - https://dns.google/
 - https://www.nslookup.io/ : 查询 DNS 记录
 - [nali](https://github.com/zu1k/nali): 查询IP地理信息和CDN服务提供商的离线终端工具
 - https://dnsdumpster.com/ : 搜索子域名用，Domain Map 很好用
 - [dog](https://github.com/ogham/dog): better `dig`
 - [ddns-go](https://github.com/jeessy2/ddns-go): DDNS Server
+- [DNSPerf](https://www.dnsperf.com/): DNS 服务性能对比
+- [ADGuard Home](https://github.com/AdguardTeam/AdGuardHome): 反广告和跟踪的 DNS 服务器。交互设计很棒，功能强大。可自定义规则。
+  - [SmartDNS](https://github.com/pymumu/smartdns)
+  - [Pi-hole](https://pi-hole.net/)
+
+### 公共 DNS
+
+- [Google Public DNS](https://developers.google.com/speed/public-dns/docs/using): 8.8.8.8
+- [Cisco Umbrella](https://umbrella.cisco.com/products/recursive-dns-services): Cisco 的公共 DNS 服务，国内访问速度不错。比 Cloudflare DNS 和 Google DNS 都快。
+- [Quad9](https://quad9.net/): 9.9.9.9
+- [Cloudflare Public DNS](https://1.1.1.1/dns/): 1.1.1.1
 
 ## HTTP 服务
 
