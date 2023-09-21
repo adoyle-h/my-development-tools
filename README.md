@@ -46,6 +46,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [教你搜索](#教你搜索)
     - [历史遗珠](#历史遗珠)
     - [社区](#社区)
+- [输入法](#输入法)
 - [手册](#手册)
     - [Cheatsheet 管理器](#cheatsheet-管理器)
     - [Cheatsheet](#cheatsheet)
@@ -106,17 +107,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Mock](#mock)
 - [网站](#网站)
 - [SSL](#ssl)
-- [BSD 系统](#bsd-系统)
-- [Linux 系统](#linux-系统)
-    - [Linux 发行版](#linux-发行版)
-    - [桌面系统](#桌面系统)
-    - [窗口管理器](#窗口管理器)
-    - [init](#init)
-    - [时间](#时间)
-    - [文件系统](#文件系统)
-    - [监控](#监控)
-    - [运维](#运维)
-    - [Troubleshooting](#troubleshooting)
+- [BSD](#bsd)
+- [Linux](#linux)
 - [进程管理](#进程管理)
 - [资源管理](#资源管理)
 - [文件管理](#文件管理)
@@ -228,6 +220,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Funny](#funny)
 - [游戏开发](#游戏开发)
 - [二维码](#二维码)
+- [FTP](#ftp)
 - [别人的工具列表](#别人的工具列表)
 
 <!-- /MarkdownTOC -->
@@ -248,18 +241,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved): 强大的哔哩哔哩油猴脚本
 - [insect](https://github.com/sharkdp/insect): 很不错的计算器，单位换算很方便。提供网页在线服务，也提供终端程序。开源。跨平台。
 - [asdf](https://github.com/asdf-vm/asdf): 通用的程序版本管理工具。类似 gvm、nvm、rbenv，不过每种语言管理器作为 asdf plugin 使用。
-- [7zip](https://www.7-zip.org/): 免费开源的压缩软件。支持多种压缩算法、多种压缩等级、加密、分片。
-- [RIME](https://rime.im/download/): 开源输入法。支持 Windows/Mac/Linux/Android
-  - [rime/plum](https://github.com/rime/plum): RIME 的配置管理工具
-  - [rime-ice 雾凇拼音](https://github.com/iDvel/rime-ice): RIME 的简体词库
-  - [鼠须管 squirrel](https://github.com/rime/squirrel): Rime for MacOS
-    - [Squirrel-Designer](https://github.com/LEOYoon-Tsaw/Squirrel-Designer): 鼠须管皮肤制作工具
-  - [iRime](https://apps.apple.com/cn/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E4%BA%94%E7%AC%94%E9%83%91%E7%A0%81%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977): Rime for iOS
-  - [同文输入法](https://github.com/osfans/trime): Rime for Android
-- [uutils/coreutils](https://github.com/uutils/coreutils): 用 Rust 重写 GNU coreutils。MIT 协议开源。
-- [uutils/findutils](https://github.com/uutils/findutils): 用 Rust 重写 GNU findutils。MIT 协议开源。
-- [toybox](https://github.com/landley/toybox)：类似 buxybox。MIT 协议开源。
-  - [busybox](https://busybox.net/): 精简版 GNU coreutils，all in one。GPL 协议开源。
+- [7zip](https://www.7-zip.org/): 免费开源的压缩软件。支持多种压缩算法、多种压缩等级、加密、分片。支持命令行和桌面端。
 - [OSX-KVM](https://github.com/kholia/OSX-KVM): 在 KVM 里运行 MacOS
 - [Docker-OSX](https://github.com/sickcodes/Docker-OSX): 在 Docker 里运行 MacOS
 - [go-musicfox](https://github.com/go-musicfox/go-musicfox): 在终端里听网易云音乐
@@ -286,6 +268,16 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [Tech Talks](https://github.com/just-talks/tech-talks): 纯技术交流的中文论坛。
 - [V2EX](http://www.v2ex.com/): 创意工作者们的社区。
+
+## 输入法
+
+- [RIME](https://rime.im/download/): 开源输入法。支持 Windows/Mac/Linux/Android
+- [rime/plum](https://github.com/rime/plum): RIME 的配置管理工具
+- [rime-ice 雾凇拼音](https://github.com/iDvel/rime-ice): RIME 的简体词库
+- [鼠须管 squirrel](https://github.com/rime/squirrel): Rime for MacOS
+  - [Squirrel-Designer](https://github.com/LEOYoon-Tsaw/Squirrel-Designer): 鼠须管皮肤制作工具
+- [iRime](https://apps.apple.com/cn/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E4%BA%94%E7%AC%94%E9%83%91%E7%A0%81%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977): Rime for iOS
+- [同文输入法](https://github.com/osfans/trime): Rime for Android
 
 ## 手册
 
@@ -404,6 +396,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [casbin](https://github.com/casbin/casbin): 一个类库。通过设计 PERM 模型来控制认证策略。支持 ACL, RBAC, ABAC 等策略。支持主流语言。
 - [hydra](https://github.com/ory/hydra): OpenID Connect and OAuth Provider written in Go
   - [dex](https://github.com/dexidp/dex): 备选方案
+- [2FAS](https://2fas.com/): 2FA 客户端，支持 iOS 和 Android。支持 TOTP 和 HOTP。用户体验好，功能丰富。开源。支持浏览器插件（同步需要翻墙）
 
 ## 开源项目
 
@@ -563,7 +556,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [aria2](https://github.com/aria2/aria2): 最强大的下载工具
   - [AriaNg](https://github.com/mayswind/AriaNg): aria2 的前端界面
   - [aria2-ariang-docker](https://github.com/hurlenko/aria2-ariang-docker): Docker 镜像
-- bt tracker
+  - [P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf): aria2 参考配置
+- bt tracker: BT 下载必须设置 tracker，否则没有速度。
   - https://github.com/XIU2/TrackersListCollection
   - https://github.com/ngosang/trackerslist
 - [youtube-dl](https://github.com/rg3/youtube-dl): 视频下载工具
@@ -774,81 +768,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [mkcert](https://github.com/FiloSottile/mkcert): 零配置生成自签名证书。默认有效时间 825 天。
 - [Fishdrowned/ssl](https://github.com/Fishdrowned/ssl): 零配置生成自签名证书。比 mkcert 提供更丰富的配置选项。
 
-## BSD 系统
+## BSD
 
 - [FreeBSD](https://www.freebsd.org/)
 - [hackintosh](https://hackintosh.com/)
 
-## Linux 系统
-
-- [docker-deb-builder](https://github.com/tsaarni/docker-deb-builder): use Docker to build Debian packages
-- [fan2go](https://github.com/markusressel/fan2go): 风扇控制
-- [hcache](https://github.com/silenceshell/hcache): The top tool for page cache
-- [ufw](https://packages.debian.org/stable/admin/ufw): 防火墙
-- [snap](https://snapcraft.io/): 兼容各种 linux 系统的包管理器
-- [clamav](https://github.com/Cisco-Talos/clamav): 杀毒软件
-- [CRIU](https://github.com/checkpoint-restore/criu): 进程快照和恢复。[使用场景](https://criu.org/Usage_scenarios)
-
-### Linux 发行版
-
-- https://livecdlist.com/ : Linux LiveCD 发行版列表
-- https://distrochooser.de : 帮你选择 Linux 发行版
-- [SystemRescue](https://www.system-rescue.org/): 基于 Arch Linux，预装了一堆 linux 系统工具。用于系统恢复和硬盘处理。是 Live CD，开箱即用。
-- [debian](https://www.debian.org/): 服务器场景推荐
-- [manjaro](https://manjaro.org/): 新手入门
-- [ubuntu](https://ubuntu.com): 新手入门
-- [ubuntu core](https://ubuntu.com/core): 用于低端硬件配置场景
-- [Clean Linux](https://clearlinux.org/): Intel 出品
-- [Arch Linux](https://archlinux.org/): Wiki 文档最全面
-- [Kali Linux](https://www.kali.org/): 专注于安全渗透
-- [Tails](https://tails.boum.org/index.en.html): 专注于安全
-- [armbian](https://www.armbian.com/): 适合 arm 架构的设备（x86 架构其实也支持）。有 ubuntu 和 debian 两种版本，操作类似。使用 apt 包管理。
-  - [ophub/amlogic-s9xxx-armbian](https://github.com/ophub/amlogic-s9xxx-armbian): 国内的机顶盒刷 armbian，需要用这个工具。
-- [Puppy Linux](https://puppylinux.com/)
-- [mint](https://linuxmint.com/)
-- [distrobox](https://github.com/89luca89/distrobox): 在容器里运行各种 linux 发行版。
-
-### 桌面系统
-
-- [xfce](https://xfce.org/)
-- [kde](https://kde.org/)
-- [gnome](https://www.gnome.org/)
-
-### 窗口管理器
-
-- [awesome wm](https://awesomewm.org/)
-
-### init
-
-- [runit](http://smarden.org/runit/)
-
-### 时间
-
-- [Chrony](https://chrony.tuxfamily.org/): NTP 时钟同步程序
-
-### 文件系统
-
-- [Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html): 文件系统目录层级标准。[中文翻译参考](https://archive.ph/EcAvr)
-
-### 监控
-
-- [netdata](https://github.com/firehol/netdata): 实时监控。支持 Linux、MacOS、K8S、IoT。支持容器安装。
-- [Prometheus](https://github.com/prometheus/prometheus): Metrics 存储、查询、监控报警，时序数据库。
-  - [thanos](https://github.com/improbable-eng/thanos): 让 Prometheus 高可用，以及存储可扩展的组件。
-- [statsd](https://github.com/etsy/statsd): Metrics 数据聚合
-- [pcp](https://github.com/performancecopilot/pcp): Performance Co-Pilot。系统性能监控
-- 终端工具请看 [Builtin Command Alternatives 的 better `top` 部分](./CLI/README.md#builtin-command-alternatives)
-
-### 运维
-
-- [cockpit](https://cockpit-project.org/): 通过 Web 服务运维系统
-- [osquery](https://github.com/facebook/osquery/): 使用 SQL 查询系统级别的信息
-
-### Troubleshooting
-
-- [sysdig](https://github.com/draios/sysdig): Linux system exploration and troubleshooting tool
-  - [sysdig-inspect](https://github.com/draios/sysdig-inspect): A powerful opensource interface for container troubleshooting and security investigation
-- [bcc](https://github.com/iovisor/bcc): Tools for BPF-based Linux IO analysis, networking, monitoring, and more
+## [Linux](./linux/README.md)
 
 ## 进程管理
 
@@ -858,9 +783,10 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [pstree](http://www.thp.uni-duisburg.de/pstree/): 。树形结构展示 ps 命令
   - [procs](https://github.com/dalance/procs)
 - better `top` and `htop`
+  - [btop](https://github.com/aristocratos/btop)
+  - [atop](https://www.atoptool.nl/index.php)
   - [bottom](https://github.com/clementtsang/bottom): 跨平台。Rust 实现。只支持缩放，不支持水平滚动。
   - [glances](https://github.com/nicolargo/glances): 支持网页访问。Python 实现。
-  - [gtop](https://github.com/aksakalli/gtop): 备选方案。JS 实现。
 - better `kill`
   - [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
   - [fkill-cli](https://github.com/sindresorhus/fkill-cli): 灵活的删进程命令，例如 `fkill 1337 safari :8080`，如果不加参数，则是交互式命令。
@@ -871,7 +797,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [ranger](https://github.com/ranger/ranger): 文件管理器 CLI。Python 写的
   - [nnn](https://github.com/jarun/nnn): 听说很快。待评价
-  - [fff](https://github.com/dylanaraps/fff): 纯 Bash 写的文件管理器，支持 bash 3.2+。
 - [massren](https://github.com/laurent22/massren): 在自己的编辑器编排后批量重命名文件。非常好用！
   - [rename](http://plasmasturm.org/code/rename): 备选方案。命令式批量重命名文件。`brew install rename`
 - [fpp](https://github.com/facebook/PathPicker): 快速筛选工具（不怎么好用）
@@ -1578,6 +1503,14 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [二维码生成器](https://qrbtf.com/)
 - [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
+
+## FTP
+
+- [vsftpd](https://security.appspot.com/vsftpd.html): Very Secure FTP Daemon
+- [uftp](https://uftp-multicast.sourceforge.net/): 基于 UDP 的 FTP 服务器和客户端
+- [ncftp](https://www.ncftp.com/ncftp/): ftp 命令行客户端，macos、linux 平台通用。缺点是不支持 ftp over ssl。
+  - [lftp](https://lftp.yar.ru): macos、linux 平台通用。支持 ftp over TLS or OpenSSL。缺点是没有 lls 这样的指令。只能用 `!`。
+- [Transmit](https://panic.com/transmit/): Mac 平台的 FTP/SFTP/WebDAV/S3/Backblaze B2/Box/Google Drive/DreamObjects/Dropbox/Microsoft Azure/Rackspace Cloud Files 客户端 APP。
 
 -----
 

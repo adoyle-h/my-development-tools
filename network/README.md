@@ -11,6 +11,7 @@
 - [防火墙](#防火墙)
 - [IP](#ip)
 - [DNS](#dns)
+- [ADblock/ADGuard](#adblockadguard)
     - [公共 DNS](#公共-dns)
 - [HTTP 服务](#http-服务)
 - [Websocket](#websocket)
@@ -75,9 +76,20 @@
 - [dog](https://github.com/ogham/dog): better `dig`
 - [ddns-go](https://github.com/jeessy2/ddns-go): DDNS Server
 - [DNSPerf](https://www.dnsperf.com/): DNS 服务性能对比
+
+## ADblock/ADGuard
+
+- [AdBlock](http://getadblock.com/): 闭源的。广告屏蔽插件。AdBlock 会和知乎首页起冲突。支持过滤统计。
+  - https://easylist.to/ : EasyList 规则列表
+  - https://github.com/easylist/easylist
+  - https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt : 过滤规则文件。包含国内外网站过滤规则，最全。
+  - https://easylist-downloads.adblockplus.org/easylistchina.txt : 过滤规则文件。这个只包含国内网站过滤规则，国外网站规则没在内。
+  - http://abpchina.org/forum/forum.php : AdBlock 中文社区
 - [ADGuard Home](https://github.com/AdguardTeam/AdGuardHome): 反广告和跟踪的 DNS 服务器。交互设计很棒，功能强大。可自定义规则。
   - [SmartDNS](https://github.com/pymumu/smartdns)
   - [Pi-hole](https://pi-hole.net/)
+- [AdBlock-Acceleration](https://github.com/Silentely/AdBlock-Acceleration): 提供各大规则项目的国内加速链接
+- [dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list): 基于 dnsmasq 的 DNS 分流规则。数据比较全。可以自己写脚本改成别的格式。
 
 ### 公共 DNS
 
@@ -85,6 +97,8 @@
 - [Cisco Umbrella](https://umbrella.cisco.com/products/recursive-dns-services): Cisco 的公共 DNS 服务，国内访问速度不错。比 Cloudflare DNS 和 Google DNS 都快。
 - [Quad9](https://quad9.net/): 9.9.9.9
 - [Cloudflare Public DNS](https://1.1.1.1/dns/): 1.1.1.1
+- https://dns.sb/: 它家的 DoH 可以用
+- [AdGuard 信任的 DNS 供应商名单](https://adguard-dns.io/kb/zh-CN/general/dns-providers/)
 
 ## HTTP 服务
 

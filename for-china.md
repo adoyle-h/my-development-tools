@@ -52,6 +52,7 @@
 - [SS-Rule-Snippet](https://github.com/Hackl0us/SS-Rule-Snippet): 搜集、整理、维护 Surge / Quantumult (X) / Shadowrocket / Surfboard / clash (Premium) 实用规则。
 - [proxypool](https://github.com/zu1k/proxypool): 自动抓取tg频道、订阅地址、公开互联网上的ss、ssr、vmess、trojan节点信息，聚合去重后提供节点列表
 - [anti-AD](https://github.com/privacy-protection-tools/anti-AD): DNS 反广告和反跟踪规则
+- [Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever): ShadowRocket 专用。分流+去广告。
 
 ### VPN
 
@@ -67,6 +68,7 @@
 - 免费机场，后果自负
   - https://github.com/ermaozi/get_subscribe
   - https://github.com/freefq/free
+  - https://github.com/abshare/abshare.github.io
 
 ## 镜像站点
 

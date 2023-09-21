@@ -45,17 +45,12 @@
 - [hn-special](https://github.com/gabrielecirulli/hn-special): 美化 Hacker News 的界面，交互体验做得非常棒，支持亮/暗色系。
 - [uBlock](https://github.com/uBlock-LLC/uBlock): 开源的。跟 AdBlock 功能类似。AdBlock 会允许部分广告。uBlock 会阻止所有广告。不支持全局的过滤统计。
 - [AdBlock](http://getadblock.com/): 闭源的。广告屏蔽插件。AdBlock 会和知乎首页起冲突。支持过滤统计。
-  - https://easylist.to/ : EasyList 规则列表
-  - https://github.com/easylist/easylist
-  - https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt : 过滤规则文件。包含国内外网站过滤规则，最全。
-  - https://easylist-downloads.adblockplus.org/easylistchina.txt : 过滤规则文件。这个只包含国内网站过滤规则，国外网站规则没在内。
-  - http://abpchina.org/forum/forum.php : AdBlock 中文社区
+- [LocalCDN](https://codeberg.org/nobody/LocalCDN): 重定向 JS 和 CSS 文件到本地缓存。**慎用**，缺点：它可能会使用不同版本的 JS/CSS 资源（比如网站使用 jQuery v2.0.3，但实际加载 v2.2.4 或者 v2.0.0），导致网页 bug。
 - [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg): 截图插件。支持捕捉整个页面或者选定 DOM。支持导出 PDF。
 - [ChatGPT Google 插件](https://github.com/wong2/chat-gpt-google-extension)
 - [MinerBlock](https://github.com/xd4rker/MinerBlock): 挖矿提示
 - [Wayback Machine](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak)
 - [omni](https://github.com/alyssaxuu/omni): all-in-one Launch Bar
-- [LocalCDN](https://codeberg.org/nobody/LocalCDN): 重定向 JS 和 CSS 文件到本地缓存。**慎用**，缺点：它可能会使用不同版本的 JS/CSS 资源（比如网站使用 jQuery v2.0.3，但实际加载 v2.2.4 或者 v2.0.0），导致网页 bug。
 - [2captcha](https://2captcha.com/): 反验证码插件
 - [图片助手](http://www.pullywood.com/ImageAssistant/): 批量下载网页上的图片。
 - [reddit-enhancement-suite](https://chrome.google.com/webstore/detail/reddit-enhancement-suite/kbmfpngjjgdllneeigpgjifpgocmfgmb): reddit 增强插件

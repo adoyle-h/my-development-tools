@@ -83,6 +83,8 @@
   - [z.lua](https://github.com/skywind3000/z.lua): 路径跳转。支持多级模糊匹配，交互式搜索等功能。lua 实现。
   - [zoxide](https://github.com/ajeetdsouza/zoxide): 备选方案，rust 实现的。
   - [broot](https://github.com/Canop/broot): 展示树形目录，并且可以直接 cd。
+- better `ls`
+  - [eza](https://github.com/eza-community/eza): exa 的继任者
 - better `cat`
   - [bat](https://github.com/sharkdp/bat): 自动代码着色，自带分页器，显示代码行，支持 diff，自动标记 git 变动，可显示不可见符号。
 - better `tail`
