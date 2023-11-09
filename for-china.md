@@ -49,7 +49,7 @@
 - [googlehosts/hosts](https://github.com/googlehosts/hosts): [修改 Hosts 可能无用](https://github.com/googlehosts/hosts/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98#%E8%BF%99%E4%B8%AAhosts%E4%B8%80%E7%82%B9%E7%94%A8%E9%83%BD%E6%B2%A1%E6%9C%89%E5%8D%8A%E5%81%9C%E6%9B%B4%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D)
 - [gfwlist](https://github.com/gfwlist/gfwlist)
 - [GenPAC](https://github.com/JinnLynn/genpac): 基于 gfwlist 的 pac, dnsmasq, wingy 配置生成工具，支持自定义规则。
-- [SS-Rule-Snippet](https://github.com/Hackl0us/SS-Rule-Snippet): 搜集、整理、维护 Surge / Quantumult (X) / Shadowrocket / Surfboard / clash (Premium) 实用规则。
+- [SS-Rule-Snippet](https://github.com/Hackl0us/SS-Rule-Snippet): 搜集、整理、维护 Surge / Quantumult (X) / Shadowrocket / Surfboard / clash (Premium) 实用规则。（似乎没维护了）
 - [proxypool](https://github.com/zu1k/proxypool): 自动抓取tg频道、订阅地址、公开互联网上的ss、ssr、vmess、trojan节点信息，聚合去重后提供节点列表
 - [anti-AD](https://github.com/privacy-protection-tools/anti-AD): DNS 反广告和反跟踪规则
 - [Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever): ShadowRocket 专用。分流+去广告。

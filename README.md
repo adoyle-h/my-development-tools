@@ -88,13 +88,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Telegram](#telegram)
 - [下载工具](#下载工具)
 - [终端 Terminal](#终端-terminal)
-- [Shell](#shell)
-    - [配色](#配色)
-    - [TUI](#tui)
-    - [Shell Script Development](#shell-script-development)
 - [diff](#diff)
     - [image diff](#image-diff)
-- [命令行 CLI](#命令行-cli)
 - [逆向工程](#逆向工程)
     - [二进制分析](#二进制分析)
 - [结构化数据处理](#结构化数据处理)
@@ -109,11 +104,9 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [SSL](#ssl)
 - [BSD](#bsd)
 - [Linux](#linux)
-- [进程管理](#进程管理)
-- [资源管理](#资源管理)
-- [文件管理](#文件管理)
-    - [文件查找](#文件查找)
-    - [文件大小](#文件大小)
+- [RTOS](#rtos)
+- [命令行 CLI](#命令行-cli)
+- [Shell Script Development](#shell-script-development)
 - [文件同步/备份/快照](#文件同步备份快照)
 - [ISO 镜像制作与刻录](#iso-镜像制作与刻录)
 - [数据库/存储](#数据库存储)
@@ -247,6 +240,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [go-musicfox](https://github.com/go-musicfox/go-musicfox): 在终端里听网易云音乐
 - [upx](https://github.com/upx/upx): 压缩可执行文件
 - [wakeonlan](https://github.com/jpoliv/wakeonlan): 网络唤醒工具
+- [plasmo](https://github.com/PlasmoHQ/plasmo): 浏览器插件开发框架
 
 ### 养生
 
@@ -397,6 +391,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [hydra](https://github.com/ory/hydra): OpenID Connect and OAuth Provider written in Go
   - [dex](https://github.com/dexidp/dex): 备选方案
 - [2FAS](https://2fas.com/): 2FA 客户端，支持 iOS 和 Android。支持 TOTP 和 HOTP。用户体验好，功能丰富。开源。支持浏览器插件（同步需要翻墙）
+- [otpauth](https://github.com/dim13/otpauth): 导出 Google Authenticator 里存储的数据
 
 ## 开源项目
 
@@ -582,53 +577,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [xterm.js](https://github.com/xtermjs/xterm.js): A terminal for the web
 - [edex-ui](https://github.com/GitSquared/edex-ui): 非常酷！
 
-## Shell
-
-用来增强 Shell 的交互/开发体验。
-
-- [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy): A curated list of Terminal frameworks, plugins & resources for CLI lovers.
-- [nushell](https://github.com/nushell/nushell): 超级酷的 Shell
-- [fig](https://fig.io/): 非常酷的补全工具。目前只支持 MacOS。
-- [basher](https://github.com/basherpm/basher): bash 包管理器
-- [dotbot](https://github.com/anishathalye/dotbot/): dotfile 管理器
-- [bash](http://tiswww.case.edu/php/chet/bash/bashtop.html): 注意升级到最新版本的 bash
-- [bash-completion](https://github.com/scop/bash-completion): bash 命令补全
-- [bash-it](https://github.com/Bash-it/bash-it): Bash 脚本管理框架
-- [dotbot](https://github.com/anishathalye/dotbot): dotfile 管理框架
-- [PathPicker](https://github.com/facebook/PathPicker): 「待评价」多条记录选择器。不是很好用
-- [starship](https://github.com/starship/starship): 漂亮且快速，功能丰富且支持自定义的 prompt。支持很多种 shell。rust 实现的。
-  - [a-bash-prompt](https://github.com/adoyle-h/a-bash-prompt): 备选方案。bash 专用的 prompt。纯 bash 实现的。
-  - [pure](https://github.com/sindresorhus/pure): zsh 专用的 prompt
-- [ble.sh](https://github.com/akinomyoga/ble.sh): 让 bash 也拥有 zsh 那样的语法高亮、自动补全等功能。超强！
-- [bash-preexec](https://github.com/rcaloras/bash-preexec): preexec and precmd hook functions for Bash in the style of Zsh.
-- [direnv](https://github.com/direnv/direnv): 根据当前目录自动执行命令，比如设置一些环境变量什么的，切出目录环境变量会自动变回去
-  - [autoenv](https://github.com/kennethreitz/autoenv): README 挺幽默的
-  - [desk](https://github.com/jamesob/desk): 类似方案
-- [pueue](https://github.com/Nukesor/pueue): 将任意 shell 命令托管到后台队列里执行
-- [vhs](https://github.com/charmbracelet/vhs): 声明式制作命令行演示 GIF 动图
-- [browsh](https://github.com/browsh-org/browsh): 运行在终端的网页浏览器
-- [carbonyl](https://github.com/fathyb/carbonyl): 在终端运行 Chromium。
-- [progress](https://github.com/Xfennec/progress): 显示 cp, mv, dd 等命令的进度条 `Ⓜ` `Ⓛ`
-- [glow](https://github.com/charmbracelet/glow): markdown 终端阅读工具
-- [theme.sh](https://github.com/lemnos/theme.sh): shell 配色设置，动态预览
-
-### 配色
-
-- [lscolors](https://github.com/ggreer/lscolors): LSCOLORS Preview
-- [trapd00r/LS_COLORS](https://github.com/trapd00r/LS_COLORS): LS_COLORS 自定义集合
-- [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes): shell 配色
-
-### TUI
-
-- [gum](https://github.com/charmbracelet/gum): 超酷的工具
-- [fzf](https://github.com/junegunn/fzf): 模糊筛选/搜索任意列表
-- [bat](https://github.com/sharkdp/bat): better cat。自动代码着色，自带分页器，显示代码行，支持 diff，自动标记 git 变动，可显示不可见符号。
-- [aalib](https://aa-project.sourceforge.net/index.html): 图片、视频转 ASCII art
-  - [libcaca](http://caca.zoy.org/wiki/libcaca): 终端绘制图片
-  - [hiptext](https://github.com/jart/hiptext)
-
-### [Shell Script Development](./shell-script/README.md)
-
 ## diff
 
 - diff: linux 内置命令
@@ -646,8 +594,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [pixelmatch](https://github.com/mapbox/pixelmatch)
   - [image-diff](https://github.com/uber-archive/image-diff)
 
-## [命令行 CLI](./CLI/README.md)
-
 ## 逆向工程
 
 ### 二进制分析
@@ -660,6 +606,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [protobuf-inspector](https://github.com/mildsunrise/protobuf-inspector): 逆向解析 protobuf
 - [radare2](https://github.com/radareorg/radare2): 逆向解析二进制文件的命令行工具集
   - [iaito](https://github.com/radareorg/iaito): radare2 的 GUI 工具
+- [binwalk](https://github.com/ReFirmLabs/binwalk): 固件分析工具。
 
 ## 结构化数据处理
 
@@ -775,49 +722,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## [Linux](./linux/README.md)
 
-## 进程管理
+## [RTOS](./rtos/README.md)
 
-- [hotel](https://github.com/typicode/hotel): 本地进程管理服务
-  - [alfred-hotel](https://github.com/exah/alfred-hotel): 查看 hotel app 的 Alfred Workflow
-- better `ps`
-  - [pstree](http://www.thp.uni-duisburg.de/pstree/): 。树形结构展示 ps 命令
-  - [procs](https://github.com/dalance/procs)
-- better `top` and `htop`
-  - [btop](https://github.com/aristocratos/btop)
-  - [atop](https://www.atoptool.nl/index.php)
-  - [bottom](https://github.com/clementtsang/bottom): 跨平台。Rust 实现。只支持缩放，不支持水平滚动。
-  - [glances](https://github.com/nicolargo/glances): 支持网页访问。Python 实现。
-- better `kill`
-  - [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
-  - [fkill-cli](https://github.com/sindresorhus/fkill-cli): 灵活的删进程命令，例如 `fkill 1337 safari :8080`，如果不加参数，则是交互式命令。
+## [命令行 CLI](./CLI/README.md)
 
-## 资源管理
-
-## 文件管理
-
-- [ranger](https://github.com/ranger/ranger): 文件管理器 CLI。Python 写的
-  - [nnn](https://github.com/jarun/nnn): 听说很快。待评价
-- [massren](https://github.com/laurent22/massren): 在自己的编辑器编排后批量重命名文件。非常好用！
-  - [rename](http://plasmasturm.org/code/rename): 备选方案。命令式批量重命名文件。`brew install rename`
-- [fpp](https://github.com/facebook/PathPicker): 快速筛选工具（不怎么好用）
-- [trash](https://github.com/sindresorhus/trash): better `rm`。不直接删除文件而是移到回收站。建议 `alias rm='trash'`
-- [exa](https://github.com/ogham/exa): better `ls`
-
-### 文件查找
-
-- [fd](https://github.com/sharkdp/fd/): better `find`
-- better `grep`
-  - [ripgrep](https://github.com/BurntSushi/ripgrep): 模糊搜索文件内容。据说是最快的，搜索大量内容时，确实明显比 ag 快
-  - [ag](https://github.com/ggreer/the_silver_searcher): 备选方案
-
-### 文件大小
-
-- better `du`
-  - [dust](https://github.com/bootandy/dust): rust 实现
-  - [ncdu](https://dev.yorhel.nl/ncdu): 递归扫描整个文件夹空间占用，交互式。zig 实现
-  - [dutree](https://github.com/nachoparker/dutree): du 的树形结构展示版本。rust 实现
-- better `df`
-  - [duf](https://github.com/muesli/duf): Go 实现
+## [Shell Script Development](./shell-script/README.md)
 
 ## 文件同步/备份/快照
 
@@ -832,7 +741,9 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [borg](https://github.com/borgbackup/borg): 备选方案
 - [duplicity](https://gitlab.com/duplicity/duplicity): 支持增量备份，软链接。不支持硬链接。
   - [duply](): duplicity 的前端程序
-- [Clonezilla](https://clonezilla.org/): 镜像和备份程序，不支持快照。使用命令行备份貌似难度很高。还原到不同大小分区也可能出问题。
+- [rescuezilla](https://rescuezilla.com/): 专门用来备份和恢复的 Linux 系统。基于 ubuntu。支持压缩。不支持加密。兼容 Clonezilla 导出的备份文件。支持各种虚拟硬盘(vdi、b)。图形化界面。有中文。全盘备份，不支持按文件备份。自带镜像文件浏览器
+  - [Clonezilla](https://clonezilla.org/): 备选方案。备份和恢复系统。命令行交互菜单。全盘备份，不支持按文件备份，不支持快照。使用命令行备份貌似难度很高。还原到不同大小分区也可能出问题。
+- [FreeFileSync](https://freefilesync.org/): 跨平台、开源。同步目录文件，可以 diff 文件列表。GUI 工具。
 - 其他备份工具
   - [backintime](https://github.com/bit-team/backintime): 备选方案
   - https://github.com/restic/others
@@ -998,14 +909,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - https://www.deepl.com/ : 基于 AI 的翻译器
 - [Grammarly](https://www.grammarly.com/): 提供英文语法纠错的 Web 服务。有 Chrome 插件，体验不错。
 
-## Windows App
-
-- [PowerToys](https://github.com/microsoft/PowerToys): Windows 官方出品的生产力工具：唤醒工具，颜色选取器，窗口管理器，预览窗口，图像大小调整器，键盘管理器，批量重命名，类似 Spotlight 的启动器，快捷键指南
-- Windows 包管理器
-  - [winget](https://github.com/microsoft/winget-cli)
-  - [Scoop](https://scoop.sh/)
-  - [chocolatey](https://chocolatey.org/)
-- [WSLg](https://github.com/microsoft/wslg): 让 WSL 支持 GUI 环境
+## [Windows App](./Windows/README.md)
 
 ## [Mac App](./Mac/README.md)
 
@@ -1124,6 +1028,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [奶牛快传](https://cowtransfer.com/) : 临时文件分享，很好用。国内服务
 - https://snapdrop.net/ : 通过网页在局域网内端到端传输文件，可用 Docker 自己部署
   - [源码](https://github.com/RobinLinus/snapdrop)
+- [localsend](https://github.com/localsend/localsend): 类似 snapdrop。只不过是安装 app，不是网页形式。全平台支持。
 - https://wormhole.app/ : 端到端加密，自动过期，单个文件最大 10 GB
 - [transfer.sh](https://github.com/dutchcoders/transfer.sh): 共享文件的命令行程序
 
@@ -1457,6 +1362,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [vlc](https://github.com/videolan/vlc): 备选方案
 - [iina](https://github.com/lhc70000/iina): 视频播放器。基于 [mpv][] 开发 `Ⓜ`
 - [HandBrake](https://github.com/HandBrake/HandBrake): 视频转码器
+- [ffmpeg](https://ffmpeg.org/): 非常强大的视音频处理软件。命令行或者 API 编程用。
+- [µStreamer](https://github.com/pikvm/ustreamer): 轻量级的 MJPEG 转 HTTP 推流服务。支持 VGA 和 HDMI 采集卡。
 
 ### 音乐
 
@@ -1511,6 +1418,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [ncftp](https://www.ncftp.com/ncftp/): ftp 命令行客户端，macos、linux 平台通用。缺点是不支持 ftp over ssl。
   - [lftp](https://lftp.yar.ru): macos、linux 平台通用。支持 ftp over TLS or OpenSSL。缺点是没有 lls 这样的指令。只能用 `!`。
 - [Transmit](https://panic.com/transmit/): Mac 平台的 FTP/SFTP/WebDAV/S3/Backblaze B2/Box/Google Drive/DreamObjects/Dropbox/Microsoft Azure/Rackspace Cloud Files 客户端 APP。
+- [WinSCP](https://winscp.net/): windows 专用。免费开源的 FTP GUI 客户端。也支持 SCP、WebDAV、S3。支持中文文件名。
+- [muCommander](https://www.mucommander.com/): 开源、跨平台的 FTP GUI 客户端。支持 FTP, SFTP, SMB, NFS, HTTP, Amazon S3, Hadoop HDFS, Bonjour。缺点：中文文件名会显示乱码。
 
 -----
 

@@ -59,10 +59,12 @@
 - [alt-tab-macos](https://github.com/lwouis/alt-tab-macos): windows 风格的 Tab 切换 `Ⓜ`
 - [CmdTap](http://www.yingdev.com/projects/cmdtap): 任务切换器增强 `Ⓜ`
   - [Contexts](https://contexts.co/): 这个看起来更好用，但是更贵  `Ⓜ`
+- [skhd](https://github.com/koekeishiya/skhd): simple hotkey daemon for macOS
 
 ## 硬盘
 
 - [DaisyDisk](https://daisydiskapp.com/): 硬盘数据占用空间可视化分析。非常好用！ `Ⓜ`
+  - [squirreldisk](https://github.com/adileo/squirreldisk): 开源的，rust 实现，速度很快。
 - [Carbon Copy Cloner](https://bombich.com): 吊打 Time Machine 的备份软件
 
 ## 壁纸屏保
@@ -105,6 +107,7 @@
 - [Phoenix](https://github.com/kasper/phoenix): Mac 窗口管理器，用 JS 编程。参考[别人的配置](https://github.com/fabiospampinato/phoenix)
 - [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Apple Script，用 Lua 脚本编写程序，支持键盘等事件监听 `Ⓜ`
 - [Amethyst](https://github.com/ianyh/Amethyst): 开源的备选方案
+- [yabai](https://github.com/koekeishiya/yabai): 窗口自动平铺软件
 
 ## NTFS
 

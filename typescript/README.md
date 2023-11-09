@@ -17,6 +17,7 @@
 - https://www.typescriptlang.org/play/  : 在线编译预览
 - [awesome-typescript](https://github.com/dzharii/awesome-typescript)
 - [ts-node](https://github.com/TypeStrong/ts-node)
+- [swc-node](https://github.com/swc-project/swc-node): Faster ts-node without typecheck
 - [typescript-starter](https://github.com/bitjson/typescript-starter)
 - [Microsoft/web-build-tools](https://github.com/Microsoft/web-build-tools): 微软官方维护的 ts 工具集
 - [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)

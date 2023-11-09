@@ -231,6 +231,7 @@
 - [Joi](https://github.com/hapijs/joi): 人类友好的校验 Schema
 - [yup](https://github.com/jquense/yup): 同 Joi，备用
 - [validator.js](https://github.com/validatorjs/validator.js)
+- [zod](https://github.com/colinhacks/zod): TypeScript-first schema declaration and validation library.
 
 ## 脚手架
 

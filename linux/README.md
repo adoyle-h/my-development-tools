@@ -38,20 +38,18 @@
 
 - https://livecdlist.com/ : Linux LiveCD 发行版列表
 - https://distrochooser.de : 帮你选择 Linux 发行版
-- [SystemRescue](https://www.system-rescue.org/): 基于 Arch Linux，预装了一堆 linux 系统工具。用于系统恢复和硬盘处理。是 Live CD，开箱即用。
+- [SystemRescue](https://www.system-rescue.org/): 基于 Arch Linux，预装了一堆[系统工具](https://www.system-rescue.org/System-tools/)。用于系统恢复和硬盘处理。是 Live CD，开箱即用。启动默认进入终端，输入 `startx` 会进入图形化界面。
 - [debian](https://www.debian.org/): 服务器场景推荐
 - [manjaro](https://manjaro.org/): 新手入门
 - [ubuntu](https://ubuntu.com): 新手入门
-- [ubuntu core](https://ubuntu.com/core): 用于低端硬件配置场景
 - [Clean Linux](https://clearlinux.org/): Intel 出品
 - [Arch Linux](https://archlinux.org/): Wiki 文档最全面
 - [Kali Linux](https://www.kali.org/): 专注于安全渗透
 - [Tails](https://tails.boum.org/index.en.html): 专注于安全
-- [armbian](https://www.armbian.com/): 适合 arm 架构的设备（x86 架构其实也支持）。有 ubuntu 和 debian 两种版本，操作类似。使用 apt 包管理。
-  - [ophub/amlogic-s9xxx-armbian](https://github.com/ophub/amlogic-s9xxx-armbian): 国内的机顶盒刷 armbian，需要用这个工具。
 - [Puppy Linux](https://puppylinux.com/)
 - [mint](https://linuxmint.com/)
 - [distrobox](https://github.com/89luca89/distrobox): 在容器里运行各种 linux 发行版。
+- [嵌入式 Linux](../hardware.md#嵌入式-linux)
 
 ## 桌面系统
 

@@ -194,8 +194,10 @@
 ## 编译工具
 
 - [webpack](https://github.com/webpack/webpack): 编译框架或应用的工具。配置项多，方便高端玩家定制
-- [esbuild](https://github.com/evanw/esbuild): 超级快
+- [esbuild](https://github.com/evanw/esbuild): Go 开发的，超级快
   - [esbuild-loader](https://github.com/privatenumber/esbuild-loader): 在 webpack 里调用 esbuild
+- [SWC](https://swc.rs/): Rust 开发的，超级快
+-[turbo](https://turbo.build/): Rust 开发的。「待评价」
 - [parcel](https://github.com/parcel-bundler/parcel): 编译框架或应用的工具。零配置
 - [rollup](https://github.com/rollup/rollup): 编译类库时首选工具。零配置
 - [fuse-box](https://github.com/fuse-box/fuse-box): 「待评估」
