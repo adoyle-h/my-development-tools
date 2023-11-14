@@ -1012,6 +1012,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## 网盘
 
+- [123 云盘](https://www.123pan.com/): 上传和下载速度都能跑满。2T 免费空间。很赞。
 - [阿里云盘](https://www.aliyundrive.com/)
 - [Mega](https://mega.nz/): 免费版 25G 空间。需要翻墙
 - [Dropbox](https://dropbox.com/): 免费版 3.8G 空间。需要翻墙

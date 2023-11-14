@@ -76,6 +76,8 @@
 - [dog](https://github.com/ogham/dog): better `dig`
 - [ddns-go](https://github.com/jeessy2/ddns-go): DDNS Server
 - [DNSPerf](https://www.dnsperf.com/): DNS 服务性能对比
+- [dnspyre](https://github.com/Tantalor93/dnspyre): DNS 压测工具
+  - [dnsperf](https://github.com/DNS-OARC/dnsperf): 备选方案
 
 ## ADblock/ADGuard
 
