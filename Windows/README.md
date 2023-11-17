@@ -21,6 +21,9 @@
 - [Wox](https://github.com/Wox-launcher/Wox): 类似 Alfred 的启动器。跨平台，开源。Windows 平台基于 Everything 搜索。
   - [keypirinha](https://keypirinha.com/): 备选方案
   - [utools](https://www.u.tools/): 备选方案。国产软件。
+- [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher): 让 Windows 11 的部分 UI 改回 Windows 10 的风格
+  - [中文 Fork](https://github.com/zetaloop/ExplorerPatcher)
+- [Portmaster](https://safing.io/): 「待观察」开源的。类似 MacOS 的 Little Snitch 应用。它监控并管理所有网络链接。问题是我用了有很多问题，它会导致网络不通很难排查问题。慎用。
 
 ## WinPE
 
@@ -44,8 +47,8 @@
 
 ## WSL
 
-- usbip: 通过 IP 与其他机器共享 USB。
-- [usbipd-win](https://github.com/dorssel/usbipd-win): 让 Windows 宿主机与 WSL 共享 USB。必须是 WSL 2。但似乎对 ADB 不管用。
+- usbip: 通过 IP 与其他机器共享本地的 USB 设备。
+- [usbipd-win](https://github.com/dorssel/usbipd-win): 让 Windows 宿主机与 WSL 通过 IP 共享本地的 USB 设备。安装 usbipd 前需要升级 wsl2 版本 `wsl --update`。如果遇到问题，可参考[这个链接](https://github.com/adoyle-h/my-development-tools/discussions/8)。
 
 ## 硬盘
 

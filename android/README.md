@@ -14,6 +14,8 @@
 - [f-droid](https://www.f-droid.org/): 安卓开源应用市场
 - [截屏大师](https://play.google.com/store/apps/details?id=pro.capture.screenshot&hl=zh&gl=US): 把多张图片自动拼接成一张长图。[介绍](https://github.com/just-talks/tech-talks/discussions/50)
 - [Magisk](https://github.com/topjohnwu/Magisk)
+- [Android File Transfer](https://www.android.com/filetransfer/): Android 手机与电脑传输文件
+- [adoyle-h/android-unpackbootimg](https://github.com/adoyle-h/android-unpackbootimg): boot.img 解包和封包的工具。action 里有编译好的文件。arm64 和 x86 的。
 
 ## Xposed
 

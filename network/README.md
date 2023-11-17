@@ -10,6 +10,7 @@
 - [网络命令](#网络命令)
 - [防火墙](#防火墙)
 - [IP](#ip)
+    - [IP 归属地 (GeoIP)](#ip-归属地-geoip)
 - [DNS](#dns)
 - [ADblock/ADGuard](#adblockadguard)
     - [公共 DNS](#公共-dns)
@@ -64,6 +65,13 @@
 - [ipcalc](https://gitlab.com/ipcalc/ipcalc): 计算/反向计算 IP 网段和掩码。Mac 可用 `brew install ipcalc` 安装。Linux 系统安装 `ipcalc-ng`
   - 在线服务 http://jodies.de/ipcalc
 - [iponmap](https://github.com/nogizhopaboroda/iponmap): 命令行版 ip 定位世界地图
+
+### IP 归属地 (GeoIP)
+
+- https://www.chaipip.com/ : 高精度 IP 归属地查询
+- http://www.ipip.net/ : 国内老牌企业
+- https://cz88.net/ : 纯真 IP
+- https://www.ipplus360.com/ : 埃文科技
 
 ## DNS
 
