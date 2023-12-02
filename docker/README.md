@@ -57,6 +57,7 @@
 
 - [buildah](https://github.com/containers/buildah): 替代 `docker build`。不依赖 daemon 或容器，直接编译出镜像文件。支持 shell 脚本编写镜像制作过程，也支持 Dockerfile 的写法。
 - [tini](https://github.com/krallin/tini): init 进程
+  - [dumb-init](https://github.com/Yelp/dumb-init): 备选方案
 - [linuxkit](https://github.com/linuxkit/linuxkit): 自由组合多个基础镜像，拼成一个操作系统的镜像。
 - [Distroless](https://github.com/GoogleContainerTools/distroless): Google 出品的基础镜像，没有 Shell，只包含最基本的依赖。相对更安全。
 

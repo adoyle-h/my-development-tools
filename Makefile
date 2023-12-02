@@ -25,3 +25,7 @@ debug-gh-pages:
 	docker run -it --rm -p 4000:4000 -v "${PWD}:/src/site" \
 		--entrypoint ash \
 		${GH_PAGE_IMAGE}
+
+for-jekyll:
+	@printf -- '---\ntitle: Home\nnav_order: 1\n---\n\n' >./index.md
+	@cat ./README.md >>./index.md

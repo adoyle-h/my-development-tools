@@ -1,7 +1,3 @@
----
-title: Home
-nav_order: 1
----
 # ADoyle's Dev Toolbox
 
 ADoyle 的开发工具箱。持续更新中。https://tools.adoyle.me
@@ -108,6 +104,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [命令行 CLI](#命令行-cli)
 - [Shell Script Development](#shell-script-development)
 - [文件同步/备份/快照](#文件同步备份快照)
+- [数据恢复](#数据恢复)
 - [ISO 镜像制作与刻录](#iso-镜像制作与刻录)
 - [数据库/存储](#数据库存储)
     - [Embeddable DB](#embeddable-db)
@@ -146,6 +143,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [电子书](#电子书)
     - [电子书阅读器](#电子书阅读器)
 - [服务 (Service)](#服务-service)
+    - [在线工具箱 (Online Toolbox)](#在线工具箱-online-toolbox)
     - [自部署的服务 (Self-Host Service)](#自部署的服务-self-host-service)
     - [评论系统](#评论系统)
     - [图床](#图床)
@@ -542,6 +540,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [GitHub Copilot](https://copilot.github.com/): 同上
 - [universal-ctags](https://github.com/universal-ctags/ctags): Universal-ctags 是 Darren Hiebert 的 Exuberant-ctags 的继任
 - [NerdFonts](https://www.nerdfonts.com) 与 [cheat-sheet](https://www.nerdfonts.com/cheat-sheet): 程序员必备字体
+  - [nerdfix](https://github.com/loichyan/nerdfix): nerdfonts 升级用的工具
 - [PacVim](https://github.com/jmoon018/PacVim): 用游戏教你学 VIM
 
 ## [Telegram](./telegram/README.md)
@@ -709,8 +708,9 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## SSL
 
-- [certbot](https://github.com/certbot/certbot): letsencrypt 官方证书生成工具
-- [acme.sh](https://github.com/Neilpang/acme.sh): 证书生成工具, 支持 ZeroSSL.com、Letsencrypt.org、BuyPass.com、SSL.com、Pebble strict Mode，以及其他遵循 RFC8555 的 CA。支持模式 Webroot，Standalone，Standalone tls-alp，Apach，Nginx，DNS，DNS alias，Stateless。
+- [lego](https://github.com/go-acme/lego): 免费证书生成工具。简单好用，文档清晰。
+  - [certbot](https://github.com/certbot/certbot): 备选方案。letsencrypt 官方证书生成工具
+  - [acme.sh](https://github.com/Neilpang/acme.sh): 备选方案。支持 ZeroSSL.com、Letsencrypt.org、BuyPass.com、SSL.com、Pebble strict Mode，以及其他遵循 RFC8555 的 CA。支持模式 Webroot，Standalone，Standalone tls-alp，Apach，Nginx，DNS，DNS alias，Stateless。
   - [dehydrated](https://github.com/lukas2511/dehydrated): 备选方案
 - [mkcert](https://github.com/FiloSottile/mkcert): 零配置生成自签名证书。默认有效时间 825 天。
 - [Fishdrowned/ssl](https://github.com/Fishdrowned/ssl): 零配置生成自签名证书。比 mkcert 提供更丰富的配置选项。
@@ -748,6 +748,10 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [backintime](https://github.com/bit-team/backintime): 备选方案
   - https://github.com/restic/others
 
+## 数据恢复
+
+- [testdisk](https://www.cgsecurity.org/wiki/TestDisk_CN)
+
 ## ISO 镜像制作与刻录
 
 - mkisofs: 制作 ISO 镜像。Linux 命令
@@ -770,7 +774,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [dolt](https://github.com/dolthub/dolt): 功能类似 Git 的数据库
 - [minio](https://github.com/minio/minio): 对象存储，高性能，K8S-Native
 - [ceph](https://github.com/ceph/ceph): 块存储，对象存储，文件存储
-- [alist](https://github.com/alist-org/alist): 支持多种云盘存储的文件管理程序
+- [alist](https://github.com/alist-org/alist): 支持多种云盘存储的文件管理程序。支持在线浏览图片、视音频。支持流式传输。
+  - [xlist](https://github.com/xlist-io/xlist): alist 的 iOS 和 Android 客户端。
 
 ### Embeddable DB
 
@@ -977,14 +982,18 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Wikiwand](http://www.wikiwand.com/): Wikipedia Modernized。非常漂亮的 Wikipedia 阅读器
 - https://www.vectorizer.io/ : 位图转成矢量图 (SVG)
 - https://www.uuidgenerator.net/ : uuid 生成器
-- https://extendsclass.com/ : 在线工具箱，有语法校验器，加/解密，格式转换，Diff 工具，各种生成器，前端压缩等工具。
-- [CyberChef](https://gchq.github.io/CyberChef/): 开源的工具箱，在线提供编码/解码，压缩，数据分析，时间戳，代码格式化等功能。
 - https://www.clahub.com/ : CLA 签署服务，开源托管。[源码](https://github.com/clahub/clahub)
 - [docker-nfs-server](https://github.com/ehough/docker-nfs-server): A lightweight, robust, flexible, and containerized NFS server.
 - https://alternativeto.net/ : 搜索软件或服务其他替代方案
 - https://sesme.co/ : 阅后即焚
 - [ossinsight](https://github.com/pingcap/ossinsight): https://ossinsight.io/ Analysis, Comparison, Trends, Rankings of Github Repos and events
 - [Mastodon](https://github.com/mastodon/mastodon): 微博客社区
+
+### 在线工具箱 (Online Toolbox)
+
+- [CyberChef](https://gchq.github.io/CyberChef/): 开源的，在线提供编码/解码，压缩，数据分析，时间戳，代码格式化等功能。
+- https://it-tools.tech/ : 开源的，可以用 Docker 自部署。
+- https://extendsclass.com/ : 有语法校验器，加/解密，格式转换，Diff 工具，各种生成器，前端压缩等工具。
 
 ### 自部署的服务 (Self-Host Service)
 
@@ -1032,6 +1041,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [localsend](https://github.com/localsend/localsend): 类似 snapdrop。只不过是安装 app，不是网页形式。全平台支持。
 - https://wormhole.app/ : 端到端加密，自动过期，单个文件最大 10 GB
 - [transfer.sh](https://github.com/dutchcoders/transfer.sh): 共享文件的命令行程序
+- [OnionShare](https://github.com/onionshare/onionshare): 开源工具，可让您使用 Tor 网络安全、匿名地共享文件、托管网站并与朋友聊天。
+  - [onionshare-android](https://github.com/onionshare/onionshare-android)
 
 ## 爬虫代理池
 

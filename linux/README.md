@@ -46,6 +46,8 @@
 - [Arch Linux](https://archlinux.org/): Wiki 文档最全面
 - [Kali Linux](https://www.kali.org/): 专注于安全渗透
 - [Tails](https://tails.boum.org/index.en.html): 专注于安全
+- [Whonix](https://www.whonix.org/): 专注于安全的 Linux 发行版。其主要目标在于保护线上的隐私、安全与匿名。这个操作系统包含两个虚拟机，一个工作站与一个基于 Tor 的网关机，这两个虚拟机均基于 Debian。系统会迫使所有网络连接都经过 Tor。可以在其他操作系统上安装 Whonix 应用程序。
+- [Qubes OS](https://www.qubes-os.org/): 专注于安全的 Linux 发行版。内置了 Whonix。
 - [Puppy Linux](https://puppylinux.com/)
 - [mint](https://linuxmint.com/)
 - [distrobox](https://github.com/89luca89/distrobox): 在容器里运行各种 linux 发行版。
@@ -63,7 +65,10 @@
 
 ## init
 
-- [runit](http://smarden.org/runit/)
+- [runit](http://smarden.org/runit/): 支持 GNU/Linux, *BSD, MacOSX, Solaris 等 unix 系统。
+- [openrc](https://github.com/OpenRC/openrc): Gentoo、Alpine 使用的 init 系统。
+- [tini](https://github.com/krallin/tini): 容器专用 init
+  - [dumb-init](https://github.com/Yelp/dumb-init): 备选方案
 
 ## 时间
 
