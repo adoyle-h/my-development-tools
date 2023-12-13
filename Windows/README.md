@@ -24,6 +24,7 @@
 - [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher): 让 Windows 11 的部分 UI 改回 Windows 10 的风格
   - [中文 Fork](https://github.com/zetaloop/ExplorerPatcher)
 - [Portmaster](https://safing.io/): 「待观察」开源的。类似 MacOS 的 Little Snitch 应用。它监控并管理所有网络链接。问题是我用了有很多问题，它会导致网络不通很难排查问题。慎用。
+- [twinkle-tray](https://github.com/xanderfrangos/twinkle-tray): 用软件调整屏幕亮度（台式机也可以）。支持多显示器。开源的。
 
 ## WinPE
 

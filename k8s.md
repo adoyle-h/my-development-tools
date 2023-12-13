@@ -118,7 +118,7 @@
 ## Debug
 
 - [netshoot](https://github.com/nicolaka/netshoot): a Docker + Kubernetes network trouble-shooting swiss-army container
-- [kubectl-debug](https://github.com/aylei/kubectl-debug): 可以非侵入式地排查 pod 和容器的网络问题。默认使用 netshoot 镜像。相关议题 [Ephemeral Containers](https://github.com/kubernetes/enhancements/blob/master/keps/sig-node/20190212-ephemeral-containers.md#motivation)
+- [kubectl-debug](https://github.com/JamesTGrant/kubectl-debug): 可以非侵入式地排查 pod 和容器的网络问题。默认使用 netshoot 镜像。相关议题 [Ephemeral Containers](https://github.com/kubernetes/enhancements/blob/master/keps/sig-node/20190212-ephemeral-containers.md#motivation)
 - [ksniff](https://github.com/eldadru/ksniff): Kubectl plugin to ease sniffing on kubernetes pods using tcpdump and wireshark
 - [telepresence](https://github.com/telepresenceio/telepresence): 将远端 k8s 集群的流量转发到本地的服务，便于调试。
 

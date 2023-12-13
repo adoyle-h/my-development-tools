@@ -85,6 +85,7 @@
   - [thanos](https://github.com/improbable-eng/thanos): 让 Prometheus 高可用，以及存储可扩展的组件。
 - [statsd](https://github.com/etsy/statsd): Metrics 数据聚合
 - [pcp](https://github.com/performancecopilot/pcp): Performance Co-Pilot。系统性能监控
+- [uptime-kuma](https://github.com/louislam/uptime-kuma): 功能强大的可用性监控服务。
 - 终端工具请看 [Builtin Command Alternatives 的 better `top` 部分](./CLI/README.md#builtin-command-alternatives)
 
 ## 运维

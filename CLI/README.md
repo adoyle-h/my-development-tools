@@ -131,6 +131,7 @@
   - [ranger](https://github.com/ranger/ranger/wiki/Integration-with-other-programs#changing-directories) 也可以做到。
 - better `ls`
   - [eza](https://github.com/eza-community/eza): exa 的继任者
+  - [lsd](https://github.com/lsd-rs/lsd): 备选方案
 - better `rm`
   - [trash](https://github.com/sindresorhus/trash): 不直接删除文件而是移到回收站。建议 `alias rm='trash'`。
 - better `cat`

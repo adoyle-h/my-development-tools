@@ -26,7 +26,10 @@
     - [无障碍配色](#无障碍配色)
 - [Icon](#icon)
 - [Typography](#typography)
-    - [字体](#字体)
+- [字体](#字体)
+    - [像素字体](#像素字体)
+    - [英文字体](#英文字体)
+    - [中文字体](#中文字体)
 - [像素风格 8-Bit](#像素风格-8-bit)
     - [立体像素 Voxel](#立体像素-voxel)
 - [Design System](#design-system)
@@ -208,7 +211,7 @@
   - https://www.modularscale.com/ 备用
 - https://grtcalculator.com/ : Golden Ratio Typography
 
-### 字体
+## 字体
 
 - [fontface.ninja](https://fontface.ninja/): 查看网页所用的字体
 - [FontForge](https://github.com/fontforge/fontforge): 字体设计工具
@@ -216,27 +219,38 @@
 - [RightFont](https://rightfontapp.com/cn): 字体管理
 - https://font-viewer.com : 字体比较。支持系统字体和 Google Font
 
-#### 像素风格
+### 像素字体
 
 - [Zpix 最像素](https://github.com/SolidZORO/zpix-pixel-font)
 
-#### 有衬线英文
+### 英文字体
 
-- [Georgia](https://www.fonts.com/font/microsoft-corporation/georgia): 适合设计
+- 有衬线英文
+  - [Georgia](https://www.fonts.com/font/microsoft-corporation/georgia): 适合设计
 
-#### 无衬线英文
+- 无衬线英文
+  - [Helvetica Neue](https://www.fonts.com/font/linotype/neue-helvetica): 适合设计
+  - DejaVu Sans Mono : 适合编程
+  - [Consolas](https://www.fonts.com/font/microsoft-corporation/consolas): 适合编程
+  - [Quicksand](https://fonts.google.com/specimen/Quicksand): 适合设计
 
-- [Helvetica Neue](https://www.fonts.com/font/linotype/neue-helvetica): 适合设计
-- DejaVu Sans Mono : 适合编程
-- [Consolas](https://www.fonts.com/font/microsoft-corporation/consolas): 适合编程
-- [Quicksand](https://fonts.google.com/specimen/Quicksand): 适合设计
+### 中文字体
 
-#### 有衬线中文
+- [noto-cjk](https://github.com/notofonts/noto-cjk): Google 出品的去除豆腐字的中文字体
+- [DrXie/OSFCC](https://github.com/DrXie/OSFCC): 中文开源字体集
 
-#### 无衬线中文
+- 有衬线中文
 
-- PingFang CS
-- [得意黑 Smiley Sans](https://github.com/atelier-anchor/smiley-sans)
+- 有衬线繁体中文
+  - [昭源宋體](https://github.com/chiron-fonts/chiron-sung-hk)
+
+- 无衬线中文
+  - PingFang CS
+  - [得意黑 Smiley Sans](https://github.com/atelier-anchor/smiley-sans)
+  - [思源黑体](https://github.com/adobe-fonts/source-han-sans)
+
+- 无衬线繁体中文
+  - [昭源黑體](https://github.com/chiron-fonts/chiron-hei-hk)
 
 ## 像素风格 8-Bit
 

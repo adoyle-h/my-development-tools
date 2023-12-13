@@ -36,6 +36,7 @@
   - [V2RayX](https://github.com/Cenmrev/V2RayX): MacOS 客户端
   - [V2RayNG](https://github.com/2dust/v2rayNG): Android 客户端
 - [Clash](https://github.com/Dreamacro/clash): A rule-based tunnel in Go.
+  - [clash-in-container](https://github.com/adoyle-h/clash-in-container): compose.yaml for clash, clash-dashboard, subconverter.
   - [ClashX](https://github.com/yichengchen/clashX): Mac 客户端
   - [ClashForAndroid](https://github.com/Kr328/ClashForAndroid): Android 客户端
   - [clash-dashboard](https://github.com/Dreamacro/clash-dashboard): Clash Web Dashboard

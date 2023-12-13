@@ -191,6 +191,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [文档检查](#文档检查)
     - [文档排版](#文档排版)
     - [Markdown](#markdown)
+    - [Markdown 编辑器](#markdown-编辑器)
     - [Changelog](#changelog)
 - [Hash](#hash)
 - [图像处理](#图像处理)
@@ -199,6 +200,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [OCR](#ocr)
 - [Android](#android)
 - [截图/录屏](#截图录屏)
+- [漫画](#漫画)
 - [视频/音频](#视频音频)
     - [音乐](#音乐)
 - [知识图谱](#知识图谱)
@@ -239,6 +241,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [upx](https://github.com/upx/upx): 压缩可执行文件
 - [wakeonlan](https://github.com/jpoliv/wakeonlan): 网络唤醒工具
 - [plasmo](https://github.com/PlasmoHQ/plasmo): 浏览器插件开发框架
+- [homepage](https://github.com/gethomepage/homepage): 用 YAML 配置的导航首页。简单好用。
 
 ### 养生
 
@@ -549,7 +552,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [aria2](https://github.com/aria2/aria2): 最强大的下载工具
   - [AriaNg](https://github.com/mayswind/AriaNg): aria2 的前端界面
-  - [aria2-ariang-docker](https://github.com/hurlenko/aria2-ariang-docker): Docker 镜像
+  - [aria2-in-container](https://github.com/adoyle-h/aria2-in-container): aria2 + ariang 的 Docker 镜像
   - [P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf): aria2 参考配置
 - bt tracker: BT 下载必须设置 tracker，否则没有速度。
   - https://github.com/XIU2/TrackersListCollection
@@ -635,10 +638,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - https://www.json.cn/ : JSON 在线解析
 - [jv](https://github.com/gistia/json-log-viewer): JSON Log Viewer
-- [fx](https://github.com/antonmedv/fx): JSON Viewer
-  - [jq](https://github.com/stedolan/jq): JSON Viewer
-- [jid](https://github.com/simeji/jid): 交互式 JSON Viewer
+- [fx](https://github.com/antonmedv/fx): JSON Viewer，体验最好
+  - [jq](https://github.com/stedolan/jq): JSON Viewer，命令行，无交互
+  - [jid](https://github.com/simeji/jid): 交互式 JSON Viewer
   - [jiq](https://github.com/fiatjaf/jiq): It's jid with jq.
+  - [jless](https://github.com/PaulJuliusMartinez/jless): 类似 fx。备选方案。
 - [JSON5](https://github.com/json5/json5): JSON for humans. (Not an official successor to JSON.)
 - [hjson](https://github.com/hjson/hjson): 比 JSON5 更丰富，且相对更标准，有 [RFC 文档](https://hjson.org/rfc.html)。
 - [simdjson](https://github.com/lemire/simdjson): Parsing gigabytes of JSON. 2.2GB/s
@@ -766,6 +770,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [DataGrip](https://www.jetbrains.com/datagrip): 数据库 GUI  `Ⓜ`
 - [mycli](https://github.com/dbcli/mycli): mysql 命令行客户端
 - [pgcli](https://github.com/dbcli/pgcli): postgres 命令行客户端
+- [pgweb](https://github.com/sosedoff/pgweb): postgres web 客户端
 - [medis](https://github.com/luin/medis): Redis GUI Client  `Ⓜ`
 - [SQL 速查表](https://github.com/enochtangg/quick-SQL-cheatsheet/blob/master/README_zh-hans.md)
 - [UNQLite](https://github.com/symisc/unqlite):
@@ -988,6 +993,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - https://sesme.co/ : 阅后即焚
 - [ossinsight](https://github.com/pingcap/ossinsight): https://ossinsight.io/ Analysis, Comparison, Trends, Rankings of Github Repos and events
 - [Mastodon](https://github.com/mastodon/mastodon): 微博客社区
+- [whoami](https://github.com/traefik/whoami): 返回请求者的 http request 信息。
 
 ### 在线工具箱 (Online Toolbox)
 
@@ -1318,6 +1324,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [mdx](https://github.com/mdx-js/mdx): Markdown + JSX = MDX。支持模块导入和导出，支持 React 组件。写 Web 文档利器。
   - [Code Hike](https://github.com/code-hike/codehike): MDX 的 remark 插件。使用场景：code walkthrough。
 
+### Markdown 编辑器
+
+- [marktext](https://github.com/marktext/marktext): 跨平台的 Markdown 编辑器，GUI 应用
+- [stackedit](https://github.com/benweet/stackedit): 运行在浏览器中的 Markdown 编辑器。文件存储在浏览器的 localstorage 中，也可以导出到文本到本地磁盘、Google Drive、Dropbox，或你的 GitHub 账户下。详见[链接](https://github.com/benweet/stackedit/blob/6dce2a5e36b755a0c244522b48a06c91a2df0f59/src/data/welcomeFile.md)。
+
 ### Changelog
 
 - http://keepachangelog.com/  Changelog 书写规约
@@ -1359,6 +1370,10 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Snipaste](https://zh.snipaste.com/): windows 截图/截屏工具 `ⓦ`
 - [kap](https://github.com/wulkano/kap/): 用户体验很好的，开源的录屏工具，支持 GIF, MP4, WebM, APNG `Ⓜ` `⨀`
 
+## 漫画
+
+- [Kavita](https://github.com/Kareadita/Kavita): 支持 docker 部署。
+
 ## 视频/音频
 
 - [OBS](https://obsproject.com/): 非常好用的推流和录制工具。免费。
@@ -1376,6 +1391,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [HandBrake](https://github.com/HandBrake/HandBrake): 视频转码器
 - [ffmpeg](https://ffmpeg.org/): 非常强大的视音频处理软件。命令行或者 API 编程用。
 - [µStreamer](https://github.com/pikvm/ustreamer): 轻量级的 MJPEG 转 HTTP 推流服务。支持 VGA 和 HDMI 采集卡。
+- [jellyfin](https://github.com/jellyfin/jellyfin): 多媒体系统。可以看电源和图片。支持 docker 自部署、IPTV、硬解、外挂字幕。UI 颜值不错。
+  - [awesome-jellyfin](https://github.com/awesome-jellyfin/awesome-jellyfin): jellyfin 开源生态
+  - [jellyfin-plugin-skin-manager](https://github.com/danieladov/jellyfin-plugin-skin-manager): 皮肤管理器
+  - [jellyfin-plugin-metashark](https://github.com/cxfksword/jellyfin-plugin-metashark): 电影元数据插件，数据来自豆瓣
+  - [jellyfin-plugin-bangumi](https://github.com/kookxiang/jellyfin-plugin-bangumi): 动漫元数据插件，数据来自 bangumi
 
 ### 音乐
 

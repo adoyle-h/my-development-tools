@@ -7,6 +7,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [虚拟机](#虚拟机)
 - [镜像加速](#镜像加速)
 - [CLI](#cli)
     - [OCI](#oci)
@@ -25,6 +26,9 @@
 - [docker-diff](https://github.com/moul/docker-diff): 比较两个 image 的文件改动
   - [container-diff](https://github.com/GoogleContainerTools/container-diff): 备选方案
 - [dive](https://github.com/wagoodman/dive): 查看 docker 镜像的每一层 layer。支持 diff
+
+## 虚拟机
+
 - [lima](https://github.com/lima-vm/lima): 运行在 Mac 上的虚拟机
 - [colima](https://github.com/abiosoft/colima): Docker Desktop 替代品。基于 lima。
 - [orbstack](https://orbstack.dev/): 在 Mac 运行 Docker 和 Linux 虚拟机的工具。启动秒开，轻量级，高性能。
@@ -81,5 +85,6 @@
 
 ## 可视化管理/UI
 
-- [Portainer](https://github.com/portainer/portainer)
-- [Weave Scope](https://github.com/weaveworks/scope): Monitoring, visualisation & management for Docker & Kubernetes
+- [Portainer](https://github.com/portainer/portainer): docker web dashboard
+- [Yacht](https://github.com/SelfhostedPro/Yacht): docker web dashboard
+- [lazydocker](https://github.com/jesseduffield/lazydocker): 管理 docker 的 TUI 工具
