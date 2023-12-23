@@ -105,10 +105,11 @@
 ### 公共 DNS
 
 - [Google Public DNS](https://developers.google.com/speed/public-dns/docs/using): 8.8.8.8
-- [Cisco Umbrella](https://umbrella.cisco.com/products/recursive-dns-services): Cisco 的公共 DNS 服务，国内访问速度不错。比 Cloudflare DNS 和 Google DNS 都快。
+- [Cloudflare Public DNS](https://1.1.1.1/dns/): 1.1.1.1 DoH/DoT 在国内可用
+- [Quad101](https://101.101.101.101/): 101.101.101.101 DoH/DoT 在国内可用。速度比 Cloudflare 的快一点。
 - [Quad9](https://quad9.net/): 9.9.9.9
-- [Cloudflare Public DNS](https://1.1.1.1/dns/): 1.1.1.1
-- https://dns.sb/: 它家的 DoH 可以用
+- https://dns.sb/: 有亚洲日本 DNS 节点，ping 值在 70 左右。DoH/DoT 在国内不可用
+- [Cisco Umbrella](https://umbrella.cisco.com/products/recursive-dns-services): Cisco 的公共 DNS 服务，国内访问速度不错。比 Cloudflare DNS 和 Google DNS 都快。
 - [AdGuard 信任的 DNS 供应商名单](https://adguard-dns.io/kb/zh-CN/general/dns-providers/)
 
 ## HTTP 服务

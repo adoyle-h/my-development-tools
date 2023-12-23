@@ -26,6 +26,7 @@
 - [docker-diff](https://github.com/moul/docker-diff): 比较两个 image 的文件改动
   - [container-diff](https://github.com/GoogleContainerTools/container-diff): 备选方案
 - [dive](https://github.com/wagoodman/dive): 查看 docker 镜像的每一层 layer。支持 diff
+- [containerd](https://github.com/containerd/containerd): 替代 docker daemon。K8S 和 Docker 的容器运行时依赖组件。
 
 ## 虚拟机
 
@@ -46,7 +47,7 @@
   - https://developers.redhat.com/blog/2019/01/15/podman-managing-containers-pods/
   - [介绍](https://igene.tw/podman-intro)
 - [Nerdctl](https://github.com/containerd/nerdctl): 兼容 docker CLI。containerd 的上层封装。
-  - [containerd](https://github.com/containerd/containerd): 替代 docker daemon。K8S 和 Docker 的容器运行时依赖组件。
+  - [nerdctld](https://github.com/afbjorklund/nerdctld): 创建 nerdctl.sock 代替 docker.sock。目前有很多 API 未实现，基本不可用。
 - [crictl](https://github.com/kubernetes-sigs/cri-tools): 不兼容 docker CLI
 - [ctr](https://github.com/containerd/containerd/tree/main/cmd/ctr): 不兼容 docker CLI
 
@@ -85,6 +86,6 @@
 
 ## 可视化管理/UI
 
-- [Portainer](https://github.com/portainer/portainer): docker web dashboard
+- [Portainer](https://github.com/portainer/portainer): docker web dashboard。目前[不能完全支持 podman 和 nerdctl](https://github.com/orgs/portainer/discussions/9770)。
 - [Yacht](https://github.com/SelfhostedPro/Yacht): docker web dashboard
 - [lazydocker](https://github.com/jesseduffield/lazydocker): 管理 docker 的 TUI 工具

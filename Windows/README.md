@@ -34,6 +34,7 @@
 
 - https://next.itellyou.cn/ : 包括到 ARM 架构的镜像
 - https://www.xitongku.com/
+- [Atlas](https://github.com/Atlas-OS/Atlas): 轻量版 Windows 10。最大 1.2G RAM，1.49GB ISO。
 
 ## Windows App
 

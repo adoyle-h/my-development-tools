@@ -55,6 +55,7 @@
 - [图片助手](http://www.pullywood.com/ImageAssistant/): 批量下载网页上的图片。
 - [reddit-enhancement-suite](https://chrome.google.com/webstore/detail/reddit-enhancement-suite/kbmfpngjjgdllneeigpgjifpgocmfgmb): reddit 增强插件
 - [bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome): 能够绕过 Medium、纽约时报、彭博社等网站的付费墙。缺点是这些网站无法登录账号。
+- [medium-unlocker](https://github.com/und3fined/medium-unlocker): 解锁 medium 付费内容。
 - [Stylebot](https://github.com/ankit/stylebot): 自定义网页样式，所见即所得，并且持久化保存自定义样式。
   - [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe): 不要用，有黑历史。
 - [Pauan/AutoScroll](https://chrome.google.com/webstore/detail/autoscroll/occjjkgifpmdgodlplnacmkejpdionan/): 自动滚屏，简单好用。缺点是有些链接没法点击。
