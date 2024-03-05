@@ -156,6 +156,7 @@
 
 - [massren](https://github.com/laurent22/massren): 用编辑器批量重命名文件。非常好用！
 - [rename](http://plasmasturm.org/code/rename): 用命令行批量重命名文件。`brew install rename`
+- [nnn](https://github.com/jarun/nnn) 的 r 快捷键也可以批量重命名
 
 ## 文件查找
 

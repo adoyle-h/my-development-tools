@@ -75,7 +75,7 @@
 
 ## DNS
 
-- [CoreDNS](https://github.com/coredns/coredns): DNS server。CNCF 项目
+- [CoreDNS](https://github.com/coredns/coredns): DNS server。支持插件。K8S 的 DNS 组件。
 - [Dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html): 轻量级 DNS/DHCP/TFTP 服务器
 - https://dns.google/
 - https://www.nslookup.io/ : 查询 DNS 记录

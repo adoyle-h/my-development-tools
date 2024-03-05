@@ -7,6 +7,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [终端](#终端)
 - [WinPE](#winpe)
 - [Windows 镜像](#windows-镜像)
 - [Windows App](#windows-app)
@@ -22,9 +23,15 @@
   - [keypirinha](https://keypirinha.com/): 备选方案
   - [utools](https://www.u.tools/): 备选方案。国产软件。
 - [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher): 让 Windows 11 的部分 UI 改回 Windows 10 的风格
-  - [中文 Fork](https://github.com/zetaloop/ExplorerPatcher)
 - [Portmaster](https://safing.io/): 「待观察」开源的。类似 MacOS 的 Little Snitch 应用。它监控并管理所有网络链接。问题是我用了有很多问题，它会导致网络不通很难排查问题。慎用。
 - [twinkle-tray](https://github.com/xanderfrangos/twinkle-tray): 用软件调整屏幕亮度（台式机也可以）。支持多显示器。开源的。
+- [CopyQ](https://github.com/hluk/CopyQ): 开源的剪切板管理器。
+- [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts): Windows 与 Office 激活工具。支持 Ohook (离线永久激活) 与 KMS (在线激活到 2038 年)。
+- [sysinternals](https://learn.microsoft.com/en-us/sysinternals/): Windows 系统工具。ProcDump, Process Monitor 很有用。
+
+## 终端
+
+- [mobaxterm](https://mobaxterm.mobatek.net/): 功能丰富的终端软件。支持 SSH, Telnet, Rlogin, RDP, VNC, XDMCP, FTP, SFTP，串口通信。 
 
 ## WinPE
 

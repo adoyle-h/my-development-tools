@@ -9,10 +9,14 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
-- [平台&社区](#平台社区)
+- [运行平台](#运行平台)
+- [线上平台与社区](#线上平台与社区)
     - [AI Image](#ai-image)
+- [AI 工具集](#ai-工具集)
+- [生成器](#生成器)
+- [数字人](#数字人)
 - [可视化](#可视化)
-- [GPT](#gpt)
+- [Chat](#chat)
 - [Diffusion 模型](#diffusion-模型)
 - [Stable Diffusion](#stable-diffusion)
     - [Stable Diffusion Prompt](#stable-diffusion-prompt)
@@ -39,13 +43,21 @@
 
 ## 其他
 
+- [shell_gpt](https://github.com/TheR1D/shell_gpt): 在命令行中调用 OpenAI 或者 Ollama 来处理文件内容。支持 shell 管道。
+- [litellm](https://github.com/BerriAI/litellm): Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100+ LLMs)
+
+## 运行平台
+
 - [TensorFlow](https://github.com/tensorflow/tensorflow): 如果你需要在生产环境中部署大规模的深度学习模型，那么 TensorFlow 可能更适合你。它具有良好的可扩展性和分布式计算能力，支持多种编程语言，并且被广泛应用于工业界。
   - [tfjs](https://github.com/tensorflow/tfjs): TensorFlow JS 库
 - [PyTorch](https://github.com/pytorch/pytorch): 如果你更关注研究，而不仅仅是实现，那么 PyTorch 可能更适合你。它的设计理念是“define-by-run”，即按照代码运行的方式定义计算图，这使得实验更加灵活和直观。
 - [Keras](https://github.com/keras-team/keras): 如果你是初学者，或者想快速构建和训练神经网络模型，那么 Keras 可能是更好的选择。它具有简单易用的API和高层抽象，可以帮助你快速搭建和训练神经网络。
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI): 低成本（单张消费级显卡）训练 AI
 
-## 平台&社区
+- [llama.cpp](https://github.com/ggerganov/llama.cpp): 通过压缩模型参数的精度，让 LLM 在消费级电脑上也能运行。虽然准确率会下降。
+- [Ollama](https://ollama.com/): 基于 llama.cpp，支持在本地运行 LLM。支持 MacOS/Linux/Windows 系统。支持命令行交互。支持 HTTP API 交互。提供模型下载和管理，官方维护一套[已量化的模型](https://ollama.com/library)。也可以编写 [Modelfile](https://github.com/ollama/ollama/blob/main/docs/modelfile.md) 根据 gguf 模型自己微调模型。支持容器启动。
+
+## 线上平台与社区
 
 - https://www.kaggle.com/
 - https://huggingface.co/
@@ -62,12 +74,33 @@ text-to-image 社区
 - https://lexica.art/
 - https://arthub.ai/
 
+## AI 工具集
+
+- https://www.futuretools.io/
+- https://ai-bot.cn/
+- https://www.gptcases.com/
+- https://convert.leiapix.com/ : 2D 图片添加 3D 效果。
+- https://flowgpt.ai/ : 这个工具能够用流程图的形式，把 ChartGPT 问答串联起来。适合做教学模板。
+- https://www.chatpdf.com/ : 帮助用户阅读电子书
+
+## 生成器
+
+- https://mubert.com/ : 根据文字生成音乐
+
+## 数字人
+
+- [d-id](https://studio.d-id.com/): 商业服务
+- https://synclabs.so/ : 商业服务
+- [SadTalker](https://github.com/OpenTalker/SadTalker): 开源软件。通过一张人脸图片和一段音频生成说话人脸视频
+
 ## 可视化
 
 - [Netron](https://github.com/lutzroeder/netron): a viewer for neural network, deep learning and machine learning models.
 
-## GPT
+## Chat
 
+- [lobe-chat](https://github.com/lobehub/lobe-chat): Chat WebUI。支持连接 OpenAI、Ollama。
+  - [open-webui](https://github.com/open-webui/open-webui): 备选方案。About User-friendly WebUI for LLMs
 - https://github.com/elyase/awesome-gpt3
 - [chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web): 轻松搭建 ChatGPT 交互网站
 

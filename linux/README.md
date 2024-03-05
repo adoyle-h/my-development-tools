@@ -8,6 +8,7 @@
 
 - [工具](#工具)
 - [Linux 发行版](#linux-发行版)
+- [Bootloader](#bootloader)
 - [桌面系统](#桌面系统)
 - [窗口管理器](#窗口管理器)
 - [init](#init)
@@ -52,6 +53,14 @@
 - [mint](https://linuxmint.com/)
 - [distrobox](https://github.com/89luca89/distrobox): 在容器里运行各种 linux 发行版。
 - [嵌入式 Linux](../hardware.md#嵌入式-linux)
+
+## Bootloader
+
+- [GNU GRUB](https://www.gnu.org/software/grub/): Linux 系统的 Bootloader
+- [uboot](https://www.denx.de/wiki/U-Boot/): 用于嵌入式设备。
+- [syslinux](https://wiki.syslinux.org/wiki/index.php?title=The_Syslinux_Project): bootloader 套装。常用来从硬盘（包括 MS-DOS FAT  文件系统）、USB、光盘或网络引导启动 Linux 系统。它包括 syslinux, isolinux, pxelinux, extlinux, memlinux 等工具。
+- [Etherboot (gPXE)](http://etherboot.org/wiki/): 从网络启动的 bootloader
+- [limine](https://github.com/limine-bootloader/limine): 比较新的 bootloader「待评价」
 
 ## 桌面系统
 

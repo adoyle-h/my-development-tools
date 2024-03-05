@@ -7,6 +7,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [K8S YAML](#k8s-yaml)
 - [Dashboard](#dashboard)
 - [镜像与代理](#镜像与代理)
 - [kubectl](#kubectl)
@@ -35,8 +36,14 @@
 - [k9s](https://github.com/derailed/k9s): 交互式 CLI 工具，用于管理 K8S 集群。
 - [KubeEdge](https://github.com/kubeedge/kubeedge): 用于边缘计算场景
 - [gVisor](https://github.com/google/gvisor): 容器运行时沙盒。把容器跑在隔离的虚拟容器环境中，提高安全性。
-- [Kubernetes YAML Generator](https://k8syaml.com/)
 - [ksync](https://github.com/ksync/ksync): 同步 POD 里的文件
+
+## K8S YAML
+
+- [kube-linter](https://github.com/stackrox/kube-linter): a static analysis tool that checks Kubernetes YAML files and Helm charts 
+- [Kubernetes YAML Generator](https://k8syaml.com/)
+- `kubectl create $kind $name --dry-run=client -oyaml` 通过命令行创建 YAML 文件。去掉 `--dry-run` 会直接创建资源。
+  - `kubectl create --help`, `kubectl create deploy --help`
 
 ## Dashboard
 

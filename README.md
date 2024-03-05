@@ -206,7 +206,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [知识图谱](#知识图谱)
 - [互联网关键词趋势](#互联网关键词趋势)
 - [机器学习](#机器学习)
-- [AI 工具集](#ai-工具集)
 - [运营](#运营)
 - [中国特色](#中国特色)
 - [人文](#人文)
@@ -1302,7 +1301,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ### 文档检查
 
-- [lychee](https://github.com/lycheeverse/lychee): Rust 写的
+- [lychee](https://github.com/lycheeverse/lychee): 命令行工具，检查文档中的链接和邮件地址是否有效
   - [markdown-link-check](https://github.com/tcort/markdown-link-check): 备用方案。没人维护。JS 写的
 
 ### 文档排版
@@ -1410,15 +1409,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Google Trends](https://trends.google.com/trends/)
 
 ## [机器学习](./ML/README.md)
-
-## AI 工具集
-
-- https://www.futuretools.io/
-- https://ai-bot.cn/
-- https://www.gptcases.com/
-- https://convert.leiapix.com/ : 2D 图片添加 3D 效果。
-- https://flowgpt.ai/ : 这个工具能够用流程图的形式，把 ChartGPT 问答串联起来。适合做教学模板。
-- https://www.chatpdf.com/ : 帮助用户阅读电子书
 
 ## 运营
 
