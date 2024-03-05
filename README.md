@@ -936,7 +936,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## Unicode
 
-- https://unicode-table.com/cn/
+- https://symbl.cc/cn/
 - https://www.compart.com/en/unicode : 找 unicode 字符
 
 ## 命名
