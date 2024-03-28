@@ -107,7 +107,8 @@
 - [Phoenix](https://github.com/kasper/phoenix): Mac 窗口管理器，用 JS 编程。参考[别人的配置](https://github.com/fabiospampinato/phoenix)
 - [hammerspoon](https://github.com/Hammerspoon/hammerspoon): 类似 Apple Script，用 Lua 脚本编写程序，支持键盘等事件监听 `Ⓜ`
 - [Amethyst](https://github.com/ianyh/Amethyst): 开源的备选方案
-- [yabai](https://github.com/koekeishiya/yabai): 窗口自动平铺软件
+- [yabai](https://github.com/koekeishiya/yabai): 窗口自动平铺软件，开源的
+- [Loop](https://github.com/MrKai77/Loop): 交互优雅的窗口管理软件，开源的
 
 ## NTFS
 

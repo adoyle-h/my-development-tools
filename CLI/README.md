@@ -163,8 +163,7 @@
 - better `find`
   - [fd](https://github.com/sharkdp/fd/): 搜索文件名
 - better `grep`
-  - [ripgrep](https://github.com/BurntSushi/ripgrep): 模糊搜索文件内容。据说是最快的，搜索大量内容时，确实明显比 ag 快
-  - [ag](https://github.com/ggreer/the_silver_searcher): 备选方案
+  - [ripgrep](https://github.com/BurntSushi/ripgrep): 模糊搜索文件内容，速度很快
 
 ## 文件大小
 

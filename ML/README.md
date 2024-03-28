@@ -89,9 +89,9 @@ text-to-image 社区
 
 ## 数字人
 
-- [d-id](https://studio.d-id.com/): 商业服务
-- https://synclabs.so/ : 商业服务
-- [SadTalker](https://github.com/OpenTalker/SadTalker): 开源软件。通过一张人脸图片和一段音频生成说话人脸视频
+- [d-id](https://studio.d-id.com/): 商业服务。通过(人脸图片+文本/音频)生成说话人脸视频。支持调整音频语言、语调。
+- https://synclabs.so/ : 商业服务。同上。支持 API 调用。
+- [SadTalker](https://github.com/OpenTalker/SadTalker): 开源软件。同上。
 
 ## 可视化
 
