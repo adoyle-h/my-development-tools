@@ -24,6 +24,8 @@
 
 ## Chrome 插件
 
+- [SwitchyOmega](https://chromewebstore.google.com/detail/padekgcemlokbadohgkifijomclgjgif): 浏览器内的代理工具
+  - [SwitchyOmega-Whitelist](https://github.com/entr0pia/SwitchyOmega-Whitelist): 白名单规则。默认流量走代理，匹配规则的直连。
 - [Tampermonkey](https://github.com/Tampermonkey/tampermonkey): 开源版油猴。开源前端脚本管理器。
 - [Unsplash Instant](https://chrome.google.com/webstore/detail/unsplash-instant/pejkokffkapolfffcgbmdmhdelanoaih): 新标签页壁纸。太美了
 - [vimium](https://github.com/philc/vimium): vim 风格操作浏览器
@@ -63,3 +65,4 @@
 ## 油猴脚本
 
 - [空格之神](https://greasyfork.org/zh-CN/scripts/444252-%E7%A9%BA%E6%A0%BC%E4%B9%8B%E7%A5%9E): 中英文之间自动加空格。
+- [CSDNGreener](https://greasyfork.org/zh-CN/scripts/378351-csdngreener-csdn%E5%B9%BF%E5%91%8A%E5%AE%8C%E5%85%A8%E8%BF%87%E6%BB%A4-%E5%85%8D%E7%99%BB%E5%BD%95-%E4%B8%AA%E6%80%A7%E5%8C%96%E6%8E%92%E7%89%88-%E6%9C%80%E5%BC%BA%E8%80%81%E7%89%8C%E8%84%9A%E6%9C%AC-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0): CSDN 广告过滤、免登录、个性化排版

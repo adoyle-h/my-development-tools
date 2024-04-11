@@ -100,7 +100,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [SSL](#ssl)
 - [BSD](#bsd)
 - [Linux](#linux)
-- [RTOS](#rtos)
 - [命令行 CLI](#命令行-cli)
 - [Shell Script Development](#shell-script-development)
 - [文件同步/备份/快照](#文件同步备份快照)
@@ -724,8 +723,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [hackintosh](https://hackintosh.com/)
 
 ## [Linux](./linux/README.md)
-
-## [RTOS](./rtos/README.md)
 
 ## [命令行 CLI](./CLI/README.md)
 
