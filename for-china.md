@@ -35,11 +35,12 @@
 - [V2Ray](https://github.com/v2ray/v2ray-core): V2Ray 是一个模块化的代理软件包，它的目标是提供常用的代理软件模块，简化网络代理软件的开发。强烈推荐。
   - [V2RayX](https://github.com/Cenmrev/V2RayX): MacOS 客户端
   - [V2RayNG](https://github.com/2dust/v2rayNG): Android 客户端
-- [Clash](https://github.com/Dreamacro/clash): A rule-based tunnel in Go.
+- ~~[Clash](https://github.com/Dreamacro/clash): A rule-based tunnel in Go.~~ 作者已删库跑路。**注意不要信任所有自称 Clash 官网的网站**
+- [Clash Meta](https://github.com/MetaCubeX/mihomo): Clash Meta 是基于原 Clash 核心的重写项目，支持 Clash Premium 核心的大部分功能。这是命令行程序，不是 APP。作者很有幽默感，切换到 Meta 分支看源码。
+  - [metacubexd](https://github.com/MetaCubeX/metacubexd): Clash Meta 的 Web Dashboard。
+  - [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/tree/meta): Mac 客户端
+  - [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid): Android 客户端。**注意[Google Play 的版本不是作者维护的](https://github.com/MetaCubeX/ClashMetaForAndroid/discussions/201)**
   - [clash-in-container](https://github.com/adoyle-h/clash-in-container): compose.yaml for clash, clash-dashboard, subconverter.
-  - [ClashX](https://github.com/yichengchen/clashX): Mac 客户端
-  - [ClashForAndroid](https://github.com/Kr328/ClashForAndroid): Android 客户端
-  - [clash-dashboard](https://github.com/Dreamacro/clash-dashboard): Clash Web Dashboard
   - [subconverter](https://github.com/tindy2013/subconverter): 订阅格式转换服务。很多机场提供的编码过的订阅源，需要经过格式转换。很多客户端自带转换功能。如果自己部署 clash 服务，可能会需要这个。
   - [sub-web](https://github.com/CareyWang/sub-web): 基于 subconverter 的前端 UI。
 - QuantumultX: iOS 客户端，很贵，功能强大，界面交互好
@@ -54,6 +55,7 @@
 - [proxypool](https://github.com/zu1k/proxypool): 自动抓取tg频道、订阅地址、公开互联网上的ss、ssr、vmess、trojan节点信息，聚合去重后提供节点列表
 - [anti-AD](https://github.com/privacy-protection-tools/anti-AD): DNS 反广告和反跟踪规则
 - [Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever): ShadowRocket 专用。分流+去广告。
+- [clash-rules](https://github.com/Loyalsoldier/clash-rules): Clash Premium 规则集
 
 ### VPN
 
