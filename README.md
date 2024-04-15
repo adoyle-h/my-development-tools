@@ -642,7 +642,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [jiq](https://github.com/fiatjaf/jiq): It's jid with jq.
   - [jless](https://github.com/PaulJuliusMartinez/jless): 类似 fx。备选方案。
 - [JSON5](https://github.com/json5/json5): JSON for humans. (Not an official successor to JSON.)
-- [hjson](https://github.com/hjson/hjson): 比 JSON5 更丰富，且相对更标准，有 [RFC 文档](https://hjson.org/rfc.html)。
+- [hjson](https://github.com/hjson/hjson): 比 JSON5 更丰富，且相对更标准，有 [RFC 文档](https://hjson.github.io/rfc.html)。
 - [simdjson](https://github.com/lemire/simdjson): Parsing gigabytes of JSON. 2.2GB/s
 - [JSON Patch](http://jsonpatch.com/): JSON 数据的 add、remove、replace、copy、move、test 操作
 - [JSON Merge Patch](https://tools.ietf.org/html/rfc7386): RFC7386
@@ -1118,8 +1118,9 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## 正则表达式 (Regex)
 
 - https://regexr.com/ : 正则表达式编辑器。仅支持 JS/PHP
-  - https://regex101.com/ : 支持 JS/PHP/Python/Go/Java/C#
+- https://regex101.com/ : 支持 JS/PHP/Python/Go/Java/C#
 - https://regexper.com : 正则表达式可视化 `ⱳ`
+- https://pythonium.net/regex : 正则表达式编辑器和可视化。仅支持 Python
 - [Learn regex the easy way](https://github.com/ziishaned/learn-regex)
 - [grex](https://github.com/pemistahl/grex): 根据给出的文本，自动给出合适的正则表达式
 
