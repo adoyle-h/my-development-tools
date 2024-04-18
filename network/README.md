@@ -101,6 +101,7 @@
   - [Pi-hole](https://pi-hole.net/)
 - [AdBlock-Acceleration](https://github.com/Silentely/AdBlock-Acceleration): 提供各大规则项目的国内加速链接
 - [dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list): 基于 dnsmasq 的 DNS 分流规则。数据比较全。可以自己写脚本改成别的格式。
+  - [dnsmasq-china-list/bogus-nxdomain](https://github.com/felixonmars/dnsmasq-china-list/blob/master/bogus-nxdomain.china.conf) 某些运营商会将不存在的域名解析重定向到有广告的 IP 上，该文件统计了这些有问题的 IP。你可以在比如 adguard home 的 `dns.bogus_nxdomain` 配置过滤这些 IP。
 
 ### 公共 DNS
 

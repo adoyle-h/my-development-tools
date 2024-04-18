@@ -13,7 +13,7 @@ ADoyle 的开发工具箱。持续更新中。https://tools.adoyle.me
 
 ## 版权声明 (Copyright and License)
 
-Copyright 2016-2023 ADoyle (adoyle.h@gmail.com). Some Rights Reserved.
+Copyright 2016-2024 ADoyle (adoyle.h@gmail.com). Some Rights Reserved.
 The project is licensed under the **BSD 3-clause License**.
 
 Read the [LICENSE][] file for the specific language governing permissions and limitations under the License.
@@ -1117,10 +1117,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## 正则表达式 (Regex)
 
-- https://regexr.com/ : 正则表达式编辑器。仅支持 JS/PHP
-- https://regex101.com/ : 支持 JS/PHP/Python/Go/Java/C#
-- https://regexper.com : 正则表达式可视化 `ⱳ`
-- https://pythonium.net/regex : 正则表达式编辑器和可视化。仅支持 Python
+- 正则表达式编辑器
+  - https://regexr.com/ : 仅支持 JS/PHP/Perl
+  - https://regex101.com/ : 仅支持 JS/PHP/Perl/Python/Go/Java/C#/Rust
+- 正则表达式可视化
+  - https://regexper.com
+  - https://pythonium.net/regex : 可视化和校验。仅支持 Python
 - [Learn regex the easy way](https://github.com/ziishaned/learn-regex)
 - [grex](https://github.com/pemistahl/grex): 根据给出的文本，自动给出合适的正则表达式
 

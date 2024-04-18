@@ -61,6 +61,7 @@
 - [Stylebot](https://github.com/ankit/stylebot): 自定义网页样式，所见即所得，并且持久化保存自定义样式。
   - [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe): 不要用，有黑历史。
 - [Pauan/AutoScroll](https://chrome.google.com/webstore/detail/autoscroll/occjjkgifpmdgodlplnacmkejpdionan/): 自动滚屏，简单好用。缺点是有些链接没法点击。
+- [Volume Master](https://chromewebstore.google.com/detail/volume-master-%E9%9F%B3%E9%87%8F%E6%8E%A7%E5%88%B6%E5%99%A8/jghecgabfgfdldnmbfkhmffcabddioke): 给每个网页单独调整音量，音量范围 0-600%。
 
 ## 油猴脚本
 
