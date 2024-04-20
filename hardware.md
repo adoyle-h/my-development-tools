@@ -8,6 +8,7 @@
 
 - [手机](#手机)
 - [路由器](#路由器)
+- [硬件工具](#硬件工具)
 - [嵌入式](#嵌入式)
     - [嵌入式 Linux](#嵌入式-linux)
     - [RTOS](#rtos)
@@ -33,6 +34,11 @@
 
 - [Xwrt-Vortex](https://xvtx.ru/xwrt/index.htm)
 
+## 硬件工具
+
+- [PulseView](https://sigrok.org/wiki/PulseView): 开源的逻辑分析仪的上位机软件
+- Fnirsi DMT-99 万用表: 设计新潮，功能丰富，简单好用
+
 ## 嵌入式
 
 - [OpenOCD](https://openocd.org/): 开源的 SOC debugger
@@ -43,7 +49,8 @@
   - [OpenEmbedded](http://openembedded.org/)
 - [Buildroot](https://buildroot.org/): 嵌入式 Linux 系统构建框架。使用 linux 内核工具链来开发。简单、快速。OpenWRT 使用 Buildroot 构建系统。
 - [OpenWRT](https://github.com/openwrt/openwrt): 适用于嵌入式设备的 linux 发行版
-- [HandsomeMod](https://github.com/HandsomeMod/HandsomeMod): 基于 OpenWrt，适用于全志(Allwinner)、高通(Qualcomm)、龙芯(Loongson) 设备的操作系统
+  - [HandsomeMod](https://github.com/HandsomeMod/HandsomeMod): 基于 OpenWrt，适用于全志(Allwinner)、高通(Qualcomm)、龙芯(Loongson) 设备的操作系统
+  - [immortalwrt](https://github.com/immortalwrt/immortalwrt): 基于 OpenWrt。为中国用户增加了很多功能和适配。具体差别见[这里](https://github.com/immortalwrt/immortalwrt/discussions/1109#discussioncomment-8073987)。
 - [armbian](https://www.armbian.com/): 适合 arm 架构的设备（x86 架构其实也支持）。有 ubuntu 和 debian 两种版本，操作类似。使用 apt 包管理。
   - [ophub/amlogic-s9xxx-armbian](https://github.com/ophub/amlogic-s9xxx-armbian): 国内的机顶盒刷 armbian，需要用这个工具。
 - [ubuntu core](https://ubuntu.com/core): 用于低端硬件配置场景

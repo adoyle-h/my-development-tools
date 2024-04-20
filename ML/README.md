@@ -99,8 +99,8 @@ text-to-image 社区
 
 ## Chat
 
-- [lobe-chat](https://github.com/lobehub/lobe-chat): Chat WebUI。支持连接 OpenAI、Ollama。
-  - [open-webui](https://github.com/open-webui/open-webui): 备选方案。About User-friendly WebUI for LLMs
+- [open-webui](https://github.com/open-webui/open-webui): User-friendly WebUI for LLMs。支持连接 OpenAI、Ollama。支持 RAG 和文档上传。
+  - [lobe-chat](https://github.com/lobehub/lobe-chat): 备选方案。Chat WebUI。支持连接 OpenAI、Ollama。不支持文档上传。Ollama 模型同步暂且有问题。
 - https://github.com/elyase/awesome-gpt3
 - [chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web): 轻松搭建 ChatGPT 交互网站
 
