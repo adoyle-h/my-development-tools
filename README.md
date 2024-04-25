@@ -148,7 +148,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [图床](#图床)
 - [网盘](#网盘)
 - [临时共享](#临时共享)
-- [爬虫代理池](#爬虫代理池)
+- [爬虫/Archive](#爬虫archive)
+    - [爬虫代理池](#爬虫代理池)
 - [HTTP 静态文件服务](#http-静态文件服务)
 - [静态文件托管](#静态文件托管)
 - [CMS](#cms)
@@ -694,13 +695,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## 网站
 
-- [chrome 自带网页截屏命令](https://www.zhihu.com/question/20075570/answer/206335744)
 - [pageres](https://github.com/sindresorhus/pageres): 网页截屏
 - [temme](https://github.com/shinima/temme): 利用 CSS 语法，从 HTML 提取出 JSON 数据
 - https://archive.ph/ : 永久保存网页内容。保存的页面来自用户提交的，不做自动抓取。生成短链接
   - https://archive.org/ : 永久保存网页内容。保存的页面来自用户提交的和自动抓取的。生成链接很长
   - https://perma.cc/ : 备用方案
-- [ArchiveBox](https://github.com/ArchiveBox/ArchiveBox): 自己搭建 Archive 网站。
 - [sitemap.js](https://github.com/ekalinin/sitemap.js): 生成 sitemap 的工具
 - [Favicon 生成器](https://realfavicongenerator.net/)
 - [rrweb](https://github.com/rrweb-io/rrweb): 网页浏览录制和回放
@@ -1046,7 +1045,15 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [OnionShare](https://github.com/onionshare/onionshare): 开源工具，可让您使用 Tor 网络安全、匿名地共享文件、托管网站并与朋友聊天。
   - [onionshare-android](https://github.com/onionshare/onionshare-android)
 
-## 爬虫代理池
+## 爬虫/Archive
+
+- [ArchiveBox](https://github.com/ArchiveBox/ArchiveBox): 自己搭建 Archive 网站。
+- [httrack](https://www.httrack.com/): 命令行或者图形化的爬虫工具，参数很丰富
+- `wget -r`: 简易版，有诸多限制
+- [colly](https://github.com/gocolly/colly): Go 语言编写的爬虫框架
+- [katana](https://github.com/projectdiscovery/katana): 「待评价」
+
+### 爬虫代理池
 
 - [proxy_pool](https://github.com/jhao104/proxy_pool)
 - https://proxy.mimvp.com/
