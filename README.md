@@ -1446,8 +1446,9 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [uftp](https://uftp-multicast.sourceforge.net/): 基于 UDP 的 FTP 服务器和客户端
 - [ncftp](https://www.ncftp.com/ncftp/): ftp 命令行客户端，macos、linux 平台通用。缺点是不支持 ftp over ssl。
   - [lftp](https://lftp.yar.ru): macos、linux 平台通用。支持 ftp over TLS or OpenSSL。缺点是没有 lls 这样的指令。只能用 `!`。
-- [Transmit](https://panic.com/transmit/): Mac 平台的 FTP/SFTP/WebDAV/S3/Backblaze B2/Box/Google Drive/DreamObjects/Dropbox/Microsoft Azure/Rackspace Cloud Files 客户端 APP。
-- [WinSCP](https://winscp.net/): windows 专用。免费开源的 FTP GUI 客户端。也支持 SCP、WebDAV、S3。支持中文文件名。
+- [Transmit](https://panic.com/transmit/): FTP/SFTP/WebDAV/S3/Backblaze B2/Box/Google Drive/DreamObjects/Dropbox/Microsoft Azure/Rackspace Cloud Files 客户端 APP。 `Ⓜ` 
+- [Transfer](https://www.intuitibits.com/products/transfer/): 简单好用的 TFTP/HTTP/FTP/SFTP 服务器 `Ⓜ` 
+- [WinSCP](https://winscp.net/): 免费开源的 FTP GUI 客户端。也支持 SCP、WebDAV、S3。支持中文文件名。`ⓦ`
 - [muCommander](https://www.mucommander.com/): 开源、跨平台的 FTP GUI 客户端。支持 FTP, SFTP, SMB, NFS, HTTP, Amazon S3, Hadoop HDFS, Bonjour。缺点：中文文件名会显示乱码。
 
 -----

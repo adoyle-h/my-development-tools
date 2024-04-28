@@ -51,6 +51,8 @@
 - [keycastr](https://github.com/keycastr/keycastr): 键盘按下哪个键展示在屏幕上
 - https://objective-see.com/products.html : Mac 平台的开源安全工具，都挺不错的
 - [NUMI](https://github.com/nikolaeu/numi): 体验很好的计算器。App 本身不开源，开源的是 NUMI 插件和 Alfred 插件。它用 JS 写插件，非常灵活。
+- [Transmit](https://panic.com/transmit/): FTP/SFTP/WebDAV/S3/Backblaze B2/Box/Google Drive/DreamObjects/Dropbox/Microsoft Azure/Rackspace Cloud Files 客户端 APP。 `Ⓜ` 
+- [Transfer](https://www.intuitibits.com/products/transfer/): 简单好用的 TFTP/HTTP/FTP/SFTP 服务器 `Ⓜ` 
 
 ## 快捷键
 
