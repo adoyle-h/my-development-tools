@@ -39,6 +39,7 @@
 
 ## Windows 镜像
 
+- https://uupdump.net/ : 很新，很全，ARM 架构的镜像也有，可定制。支持 ESD 镜像。直接从微软官方下载。
 - https://next.itellyou.cn/ : 包括到 ARM 架构的镜像
 - https://www.xitongku.com/
 - [Atlas](https://github.com/Atlas-OS/Atlas): 轻量版 Windows 10。最大 1.2G RAM，1.49GB ISO。

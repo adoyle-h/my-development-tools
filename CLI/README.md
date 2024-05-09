@@ -40,6 +40,7 @@
 - [catimg](https://github.com/posva/catimg): 在终端里打印图片，打印出的都是像素风格的。
 - [hhighlighter](https://github.com/paoloantinori/hhighlighter): 用不同颜色高亮多个匹配字符串
 - [fzf](https://github.com/junegunn/fzf): 模糊筛选/搜索任意列表
+- [atuin](https://github.com/atuinsh/atuin): 使用 SQLite 数据库存储 shell 命令历史。可以通过 Atuin 服务器同步记录，也可单机本地离线使用。适合经常开多窗口的用户。
 - [cash](https://github.com/dthree/cash): For windows 用户。用 nodejs 写的程序，模拟一些 linux 命令
 - [specsheet](https://github.com/ogham/specsheet): 声明式检查
 - [pv](http://www.ivarch.com/programs/pv.shtml): 显示 linux 管道数据传输速度
