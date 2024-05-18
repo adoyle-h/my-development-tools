@@ -17,9 +17,7 @@
 
 - [luarocks](https://github.com/luarocks/luarocks): 包管理器
 - [inspect](https://github.com/kikito/inspect.lua): 查看变量结构
-- [sumneko lsp](https://github.com/LuaLS/lua-language-server): Lua LSP Server
-  - [Alloyed/lua-lsp](https://github.com/Alloyed/lua-lsp): 备选方案
-- [LuaFormatter](https://github.com/Koihik/LuaFormatter): sumneko lsp 也有 Format 功能，但这个的 Format 规则更多。虽然不是很理想。
+- [lua-language-server](https://github.com/LuaLS/lua-language-server): LSP Server。它使用 [EmmyLuaCodeStyle](https://github.com/CppCXY/EmmyLuaCodeStyle) 格式化代码
 - [luacheck](https://github.com/mpeterv/luacheck): Lua Code Linter
 - [luvit](https://github.com/luvit/luvit): Lua + libUV + jIT
 - [luv](https://github.com/luvit/luv): Bare libuv bindings for lua

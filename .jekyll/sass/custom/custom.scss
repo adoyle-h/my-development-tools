@@ -4,8 +4,7 @@
 }
 
 .site-logo-title {
-  font-size: 0.6em;
-  max-width: 60%;
+  font-size: 18px;
   line-height: 1.2;
 }
 
@@ -35,12 +34,87 @@
 }
 
 .nav-list .nav-list-item {
+
   .nav-list-link:hover,
   .nav-list-link.active {
+    color: #3d89ff !important;
     background-image: linear-gradient(-90deg, #262831 0%, #1e2d4f 80%, rgba(32, 31, 35, 0) 100%);
   }
 }
 
 .main-content a {
   text-decoration: none;
+}
+
+.main-content {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .main-content {
+
+    .anchor-heading,
+    h2>.anchor-heading,
+    h3>.anchor-heading,
+    h4>.anchor-heading,
+    h5>.anchor-heading,
+    h6>.anchor-heading {
+      svg {
+        visibility: visible;
+      }
+    }
+  }
+
+}
+
+h1,
+.text-alpha {
+  font-size: 2.25rem !important;
+  font-weight: 500;
+}
+
+h2,
+.text-beta,
+#toctitle {
+  font-size: 1.5rem !important;
+  font-weight: 500;
+}
+
+h3,
+.text-gamma {
+  font-size: 1.2rem !important;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1rem !important;
+  font-weight: 500;
+}
+
+.side-bar {
+  @media (max-width: 900px) {
+    border-bottom: 2px solid #323232;
+  }
+}
+
+.breadcrumb-nav-list-item {
+  font-size: 0.8rem !important;
+}
+
+.site-nav::-webkit-scrollbar-track {
+  background-color: #2c2c2c;
+}
+
+.site-nav {
+  scrollbar-width: thin;
+  scrollbar-color: #888888 #2c2c2c;
 }

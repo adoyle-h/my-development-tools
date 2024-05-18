@@ -13,6 +13,7 @@
 - [颜色](#颜色)
 - [参数解析](#参数解析)
 - [工具集](#工具集)
+- [LSP](#lsp)
 - [Lint](#lint)
 - [格式化 Formater](#格式化-formater)
 - [自动补全](#自动补全)
@@ -56,13 +57,17 @@
 - [readlinkf](https://github.com/ko1nksm/readlinkf): 跨平台、POSIX 兼容的 `readlink -f`
   - [bashup/realpaths](https://github.com/bashup/realpaths): 备选方案
 
+## LSP
+
+- [bash-language-server](https://github.com/bash-lsp/bash-language-server): LSP server。如果安装了 shfmt，会自动用它来格式化代码。
+
 ## Lint
 
 - [shellcheck](https://github.com/koalaman/shellcheck): linux shell script lint
 
 ## 格式化 Formater
 
-- [mvdan/sh](https://github.com/mvdan/sh)
+- [shfmt](https://github.com/mvdan/sh)
 
 ## 自动补全
 
