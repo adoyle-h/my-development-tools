@@ -49,7 +49,8 @@
   - [curlie](https://github.com/rs/curlie)
   - [httpie](https://github.com/jakubroztocil/httpie/): a CLI, cURL-like tool for humans
 - [htrace.sh](https://github.com/trimstray/htrace.sh): Swiss Army knife for http/https troubleshooting and profiling.
-- [Paw](https://paw.cloud): 模拟 HTTP 请求的 GUI 客户端  `Ⓜ`
+- [Paw/RapidAPI](https://paw.cloud): Mac 平台的 API 客户端，功能强大，颜值很高  `Ⓜ`
+- [ATAC](https://github.com/Julien-cpsn/ATAC): 运行在终端的类似 POSTMAN 的 API 客户端工具。
 - [restcli](https://github.com/restcli/restcli): CLI for IntelliJ http-request.
 - [IntelliJ HTTP request syntax](https://www.jetbrains.com/help/idea/exploring-http-syntax.html#using_request_vars)
 

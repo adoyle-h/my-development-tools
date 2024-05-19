@@ -1246,6 +1246,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [nodeppt](https://github.com/ksky521/nodeppt): 这可能是迄今为止最好的网页版演示库
 - https://slides.com/ : 基于 [reveal.js](https://github.com/hakimel/reveal.js) 的服务，非常好用，但是国内要翻墙 `ⱳ`
 - [mdx-deck](https://github.com/jxnblk/mdx-deck): 基于 MDX 写 slide
+- [presenterm](https://github.com/mfontanini/presenterm): 在终端播放 slide
 
 ## SSG: Static Site Generator
 
