@@ -1,4 +1,4 @@
-GH_PAGE_IMAGE=adoyle/gh-pages:v228.5
+GH_PAGE_IMAGE=adoyle/gh-pages:v231.1
 
 .PHONY: check-links
 check-links:
