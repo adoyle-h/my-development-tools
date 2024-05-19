@@ -1,10 +1,11 @@
-GH_PAGE_IMAGE=adoyle/gh-pages:v228
+GH_PAGE_IMAGE=adoyle/gh-pages:v228.5
 
 .PHONY: check-links
 check-links:
 	# https://github.com/tcort/markdown-link-check
 	ag --md -l | xargs -n1 markdown-link-check
 
+# @TODO: bundle add webrick
 .PHONY: serve
 serve:
 	echo "You should press 'ctrl-c' when \"Auto-regeneration: enabled for '/src/site'\" appeared."
@@ -13,6 +14,9 @@ serve:
 build:
 	docker run -it --rm -v "${PWD}:/src/site" ${GH_PAGE_IMAGE} \
 		build --verbose
+
+sh:
+	docker run -it --rm -p 4000:4000 --entrypoint sh -v "${PWD}:/src/site" ${GH_PAGE_IMAGE}
 
 build-gh:
 	docker run -it --rm -v "${PWD}:/src/site" --entrypoint github-pages ${GH_PAGE_IMAGE} \

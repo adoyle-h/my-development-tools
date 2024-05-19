@@ -556,10 +556,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - bt tracker: BT 下载必须设置 tracker，否则没有速度。
   - https://github.com/XIU2/TrackersListCollection
   - https://github.com/ngosang/trackerslist
-- [youtube-dl](https://github.com/rg3/youtube-dl): 视频下载工具
 - [Motrix](https://github.com/agalwood/Motrix): 美观又强大的下载工具（目前没人维护，[作者创业中](https://github.com/agalwood/Motrix/issues/1396)）
-- https://youtube.iiilab.com/ : 下载 Youtube 视频，需要关注微信公众号
-  - https://snapsave.io/ : 支持 1080p，需要翻墙
+- https://y2meta.app/ : Youtube 下载工具，在线服务。支持 1080p，没广告，没套路，下载速度很快
+  - [youtube-dl](https://github.com/rg3/youtube-dl): 开源的视频下载工具，命令行操作
+  - https://snapsave.io/ : 备选方案，在线服务
+- https://downsub.com/ : Youtube 字幕下载，支持各种语言以及双语字幕
 - https://bilibili.iiilab.com/ : 下载 B 站视频，需要关注微信公众号
 - https://twitter.iiilab.com/ : 下载 Twitter 视频/照片，需要关注微信公众号
   - https://www.downloadtwittervideo.com/ : 需要翻墙
