@@ -1,0 +1,43 @@
+name: Create a report on Discussion weekly
+
+on:
+  schedule:
+    - cron: 0 0 * * 1  # At 00:00 (UTC-0) on every monday.
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Scan
+        id: report
+        run: >
+          git --no-pager  whatchanged --no-color --since="1 week ago" -p -U0  -- README.md |
+          grep -v -E -e '^    update' -e '^(diff|index|@@|\-\-\-|\+\+\+) '
+
+      - name: Create a new GitHub Discussion
+        uses: abirismyname/create-discussion@v1.x
+        if: ${{ steps.rerport.stdout != '' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          title: "ADoyle's Tools Weekly ($(date +'%Y-%m-%d'))"
+          body: |
+            What changed in last week:
+
+            ```diff
+            ${{steps.rerport.stdout}}
+            ```
+
+            Details in https://tools.adoyle.me/
+
+          # https://github.com/marketplace/actions/create-github-discussion#obtaining-the-repository-id-and-category-id
+          repository-id: MDEwOlJlcG9zaXRvcnk3Nzc4NzYzOA==
+          category-id: DIC_kwDOBKLx9s4CfgjA
+
+      - name: Print discussion url and id
+        run: |
+          echo discussion-id: ${{steps.create-discussion.outputs.discussion-id}}
+          echo discussion-url: ${{steps.create-discussion.outputs.discussion-url}}
