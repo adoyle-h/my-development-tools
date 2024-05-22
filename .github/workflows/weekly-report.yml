@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: 0 0 * * 1  # At 00:00 (UTC-0) on every monday.
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -13,14 +16,14 @@ jobs:
 
       - name: Scan
         id: report
-        run: >
-          # MUST use GNU sed, not BSD sed!
-          git --no-pager  log --no-color --since='1 week ago' -p -U0 -- '*.md' ':!index.md' |
-          grep -v -E -e '^    update' -e '^(Author:|index|new file mode|\-\-\-|\+\+\+) ' |
-          sed -e ':a;N;$!ba;s/\n\n\n/\n/g' |
-          sed -E '/^\s*$/ i\'$'\n''```' |
-          sed -E -e '/^diff / a\'$'\n''\'$'\n''```diff' -e 's|^diff --git a/(.+) b/.+|```\n\n### \1|g' -e 's|^commit (.+)|\n## Commit [\1](https://github.com/adoyle-h/my-development-tools/commit/\1)\n|g' |
-          sed -E '/^Date: /{N;s/^(Date: .+)\n```/\1/}'
+        run: |
+          c=$(git rev-list --all --since '1 week ago' --reverse  | head -n1 || true)
+          if [ -n ${c:-} ]; then
+            git --no-pager diff --no-color -U0 "$c" HEAD -- '*.md' ':!index.md' |
+            grep -v -E '^(index|new file mode|deleted file mode|\-\-\-) ' |
+            sed -E -e 's|^diff --git a/(.+) b/.+|```\n\n### \1\n|g' -e 's/^\+\+\+.+/```diff/' |
+            tail +2
+          fi
 
       - name: Create a new GitHub Discussion
         uses: abirismyname/create-discussion@v1.x
