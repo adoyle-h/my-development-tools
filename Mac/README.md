@@ -53,6 +53,7 @@
 - [NUMI](https://github.com/nikolaeu/numi): 体验很好的计算器。App 本身不开源，开源的是 NUMI 插件和 Alfred 插件。它用 JS 写插件，非常灵活。
 - [Transmit](https://panic.com/transmit/): FTP/SFTP/WebDAV/S3/Backblaze B2/Box/Google Drive/DreamObjects/Dropbox/Microsoft Azure/Rackspace Cloud Files 客户端 APP。 `Ⓜ` 
 - [Transfer](https://www.intuitibits.com/products/transfer/): 简单好用的 TFTP/HTTP/FTP/SFTP 服务器 `Ⓜ` 
+- [Suspicious Package](https://mothersruin.com/software/SuspiciousPackage/): 可以查看 pkg 包的内容，可以打开嵌套的 pkg。非常有用。
 
 ## 快捷键
 

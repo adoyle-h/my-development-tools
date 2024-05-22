@@ -76,6 +76,7 @@
 - [docker/build-push-action](https://github.com/docker/build-push-action): 构建镜像并推送到 registry
 - [docker/login-action](https://github.com/docker/login-action): 登录各种 Registry
 - [dorny/paths-filter](https://github.com/dorny/paths-filter): 根据指定文件是否修改，决定是否执行 workflow
+- [create-discussion](https://github.com/abirismyname/create-discussion): 创建 Discussion
 
 ### Github UI
 
