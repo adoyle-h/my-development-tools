@@ -2,6 +2,9 @@
 
 ADoyle 的开发工具箱。持续更新中。https://tools.adoyle.me
 
+推荐订阅 [Weekly Report](https://github.com/adoyle-h/my-development-tools/discussions/categories/weekly-report)。每周一获取每周总结。
+订阅方法：点击 [Github](https://github.com/adoyle-h/my-development-tools) 右上角的 watch 按钮。
+
 本文档只记录我在用的工具，所以
 
 1. 当我不用了或者找到更好的替代品，会移除旧记录。
