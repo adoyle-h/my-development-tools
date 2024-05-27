@@ -11,34 +11,43 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
+      - id: date
+        run:
+          echo "DATE=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 30
 
       - name: Scan
         id: report
         run: |
           c=$(git rev-list --all --since '1 week ago' --reverse  | head -n1 || true)
-          if [ -n ${c:-} ]; then
-            git --no-pager diff --no-color -U0 "$c" HEAD -- '*.md' ':!index.md' |
-            grep -v -E '^(index|new file mode|deleted file mode|\-\-\-) ' |
-            sed -E -e 's|^diff --git a/(.+) b/.+|```\n\n### \1\n|g' -e 's/^\+\+\+.+/```diff/' |
-            tail +2
-          fi
+          [ -z ${c:-} ] && exit 31
+
+          git --no-pager diff --no-color -U0 "$c" HEAD -- '*.md' ':!index.md' |
+          grep -v -E '^(index|new file mode|deleted file mode|\-\-\-) ' |
+          sed -E -e 's|^diff --git a/(.+) b/.+|```\n\n### \1\n|g' -e 's/^\+\+\+.+/```diff/' |
+          tail +2 > _report
+
+          [ -s _report ] || exit 32
+
+          {
+            echo 'What changed in last week:'
+            cat _report
+            printf '```\n\n%s\n' 'Details in https://tools.adoyle.me/'
+          } > ./new_report
 
       - name: Create a new GitHub Discussion
-        uses: abirismyname/create-discussion@v1.x
-        if: ${{ steps.rerport.stdout != '' }}
+        uses: abirismyname/create-discussion@main
+        id: create-discussion
+        if: ${{ steps.report.conclusion == 'success' }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          title: "ADoyle's Tools Weekly ($(date +'%Y-%m-%d'))"
-          body: |
-            What changed in last week:
-
-            ${{steps.rerport.stdout}}
-            ```
-
-            Details in https://tools.adoyle.me/
+          title: "ADoyle's Tools Weekly (${{ steps.date.outputs.DATE }})"
+          body-filepath: ./new_report
 
           # https://github.com/marketplace/actions/create-github-discussion#obtaining-the-repository-id-and-category-id
           repository-id: MDEwOlJlcG9zaXRvcnk3Nzc4NzYzOA==
