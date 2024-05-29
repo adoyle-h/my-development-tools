@@ -77,7 +77,7 @@
 - [docker/login-action](https://github.com/docker/login-action): 登录各种 Registry
 - [dorny/paths-filter](https://github.com/dorny/paths-filter): 根据指定文件是否修改，决定是否执行 workflow
 - [create-discussion](https://github.com/abirismyname/create-discussion): 创建 Discussion
-- [action-upterm](https://github.com/lhotari/action-upterm): 用于调试 github action。将运行时 workflow 暴露到公网，然后通过 ssh 连接到 workflow 环境
+- [action-upterm](https://github.com/owenthereal/action-upterm): 用于调试 github action。将运行时 workflow 暴露到公网，然后通过 ssh 连接到 workflow 环境
 
 ### Github UI
 

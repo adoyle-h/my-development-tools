@@ -610,6 +610,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Ghidra](https://github.com/NationalSecurityAgency/ghidra): 美国国家安全局开源的逆向工程框架
 - [protobuf-inspector](https://github.com/mildsunrise/protobuf-inspector): 逆向解析 protobuf
 - [radare2](https://github.com/radareorg/radare2): 逆向解析二进制文件的命令行工具集
+  - [Radare2 official book](https://book.rada.re/)
   - [iaito](https://github.com/radareorg/iaito): radare2 的 GUI 工具。跨平台，功能非常强大。ARM 架构的 MacOS 需要自己编译，很简单的。
 - [binwalk](https://github.com/ReFirmLabs/binwalk): 固件分析工具。
 

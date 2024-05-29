@@ -22,7 +22,8 @@
 - [IPMI/BMC](#ipmibmc)
 - [随身 WiFi](#随身-wifi)
 - [串口](#串口)
-- [CNC](#cnc)
+- [CNC 数控机床](#cnc-数控机床)
+- [SMT 贴片](#smt-贴片)
 
 <!-- /MarkdownTOC -->
 
@@ -120,8 +121,12 @@
 - [tio](https://github.com/tio/tio): 串口调试工具（推荐）
 - [minicom](https://linux.die.net/man/1/minicom): 同上
 
-## CNC
+## CNC 数控机床
 
 - [PrintNC](https://wiki.printnc.info/): 开源的 CNC 方案
 - [LinuxCNC](https://github.com/LinuxCNC/linuxcnc): 基于 Linux 系统的 CNC 控制器，支持 Arm64 和 x86 系统。需要内核开启 RT 模块。
 - [grblHAL](https://github.com/grblHAL): 简单好用的 CNC 控制器，支持各种单片机比如 STM32、ESP32。
+
+## SMT 贴片
+
+- [openpnp](https://github.com/openpnp/openpnp): 开源的贴片方案

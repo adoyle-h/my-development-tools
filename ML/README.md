@@ -34,7 +34,8 @@
     - [Word Segment 分词](#word-segment-分词)
     - [自然语言生成 (NLG)](#自然语言生成-nlg)
 - [语音识别](#语音识别)
-    - [语音转文字](#语音转文字)
+    - [语音转文字 (STT)](#语音转文字-stt)
+    - [文字转语音 (TTS)](#文字转语音-tts)
 - [计算机视觉](#计算机视觉)
     - [OCR](#ocr)
 - [其他人的列表](#其他人的列表)
@@ -218,12 +219,17 @@ text-to-image 社区
 
 ## 语音识别
 
-### 语音转文字
+### 语音转文字 (STT)
 
 - [科大讯飞听见](https://www.iflyrec.com/)
 - [网易见外](https://sight.youdao.com/)
-- [mozilla/DeepSpeech](https://github.com/mozilla/DeepSpeech)
-- [coqui-ai/STT](https://github.com/coqui-ai/STT)
+- [whisper](https://github.com/openai/whisper): 开源的
+
+### 文字转语音 (TTS)
+
+- [ChatTTS](https://github.com/2noise/ChatTTS): 开源的中英双语 TTS 模型。不支持语音克隆功能。
+- [coqui-ai/TTS](https://github.com/coqui-ai/TTS): 开源的。支持 16 种语言。支持语音克隆功能。
+- [MockingBird](https://github.com/babysor/MockingBird): 支持语音克隆功能。中文支持比较好。
 
 ## 计算机视觉
 
