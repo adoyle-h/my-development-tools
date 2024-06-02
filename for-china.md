@@ -39,10 +39,11 @@
 - [Clash Meta](https://github.com/MetaCubeX/mihomo): Clash Meta 是基于原 Clash 核心的重写项目，支持 Clash Premium 核心的大部分功能。这是命令行程序，不是 APP。作者很有幽默感，切换到 Meta 分支看源码。
   - [metacubexd](https://github.com/MetaCubeX/metacubexd): Clash Meta 的 Web Dashboard。
   - [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/tree/meta): Mac 客户端。其控制台界面用的是 metacubexd。
-    - [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev): 备选方案
+  - [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev): Windows, MacOS, Linux 客户端
+    - [clash-nyanpasu](https://github.com/LibNyanpasu/clash-nyanpasu): 备选方案。Windows, MacOS, Linux 客户端
   - [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid): Android 客户端。**注意[Google Play 的版本不是作者维护的](https://github.com/MetaCubeX/ClashMetaForAndroid/discussions/201)**
   - [Stash](https://stash.wiki/): 苹果客户端。需要付费。最多可在 6 台设备上同时使用，包括 iOS、iPadOS、macOS。
-  - [clash-in-container](https://github.com/adoyle-h/clash-in-container): compose.yaml for clash, clash-dashboard, subconverter.
+  - [clash-in-container](https://github.com/adoyle-h/clash-in-container): compose.yaml for clash-meta, clash-dashboard, subconverter.
   - [subconverter](https://github.com/tindy2013/subconverter): 订阅格式转换服务。很多机场提供的编码过的订阅源，需要经过格式转换。很多客户端自带转换功能。如果自己部署 clash 服务，可能会需要这个。
   - [sub-web](https://github.com/CareyWang/sub-web): 基于 subconverter 的前端 UI。
 - QuantumultX: iOS 客户端，很贵，功能强大，界面交互好
@@ -59,6 +60,7 @@
 - [Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever): ShadowRocket 专用。分流+去广告。
 - [clash-rules](https://github.com/Loyalsoldier/clash-rules): Clash Premium 规则集
 - [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat): GEOIP 规则，dat 和 mmdb
+- [ios_rule_script](https://github.com/blackmatrix7/ios_rule_script): 分流规则很丰富，可以复用
 
 ### VPN
 

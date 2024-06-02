@@ -860,6 +860,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [KeePass](http://keepass.info): 密码管理器
   - 推荐将密码文件保存到（私有）网盘里，避免密码文件丢失。
 - [KeeWeb](https://github.com/keeweb/keeweb): [KeePass][] 的 GUI 客户端，跨平台
+  - [keeweb-connect](https://chromewebstore.google.com/detail/keeweb-connect/pikpfmjfkekaeinceagbebpfkmkdlcjk): Chrome 插件，链接 KeeWeb 提供密码自动填充功能
+  - [Keeweb Online](https://app.keeweb.info/): KeeWeb 网页版。备用方案
 - [MacPass](https://github.com/mstarke/MacPass): [KeePass][] 的 Mac GUI 客户端 `Ⓜ`
 - [Keepass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android&hl=zh_CN): [KeePass][] 的安卓客户端
   - [Keepass2Android 离线版](https://play.google.com/store/apps/details?id=keepass2android.keepass2android_nonet)
@@ -1033,6 +1035,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Dropbox](https://dropbox.com/): 免费版 3.8G 空间。需要翻墙
   - [Maestral](https://maestral.app/): 开源的 Dropbox 客户端。有 CLI 工具，支持 Linux。
 - [Nextcloud](https://github.com/nextcloud/server): 开源的网盘方案，客户端支持很多平台。用户体验很好，可与商业产品竞争。支持插件。
+  - [linuxserver/nextcloud](https://hub.docker.com/r/linuxserver/nextcloud): nextcloud 官方的 AIO 镜像太烂，推荐用 linuxserver 的
 - [Seafile](https://github.com/haiwen/seafile)
 - [Trainbit](https://trainbit.com/)
 - [百度网盘秒传链接转存](https://rapidupload.1kbtool.com/)
