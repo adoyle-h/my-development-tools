@@ -68,11 +68,9 @@
 
 ### 机场
 
+- https://duangks.com/ : 很好用机场评测网站。提供节点分析、流媒体解锁分析、测速图。
+- [xfltd](https://xfltd.org/#/register?code=y8yKhElL): 便宜，性价比高，提供不限时按量套餐，延迟有点高。
 - [苏打云](https://v2.suda.moe/): 价格亲民。速度挺快。不稳定，在不能说的日子会必挂。
-- [V2VN 薇恩](https://v2vn.com/): 没用过
-- [少数派](https://shaoshupai.org/): 没用过
-- [HutaoCloud](https://hutao.cloud/): 价格亲民。没用过
-- [极客云](https://jike0.net/): 没用过
 - 免费机场，后果自负
   - https://github.com/ermaozi/get_subscribe
   - https://github.com/freefq/free

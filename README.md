@@ -865,7 +865,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [MacPass](https://github.com/mstarke/MacPass): [KeePass][] 的 Mac GUI 客户端 `Ⓜ`
 - [Keepass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android&hl=zh_CN): [KeePass][] 的安卓客户端
   - [Keepass2Android 离线版](https://play.google.com/store/apps/details?id=keepass2android.keepass2android_nonet)
-- [Bitwarden](https://github.com/bitwarden/server): 类似商业密码管理器的开源方案
+- [strongbox](https://strongboxsafe.com/): iPhone 平台的 KeePass 密码管理器
 
 ## 编码
 
