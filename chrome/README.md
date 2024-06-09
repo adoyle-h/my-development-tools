@@ -68,3 +68,4 @@
 
 - [空格之神](https://greasyfork.org/zh-CN/scripts/444252-%E7%A9%BA%E6%A0%BC%E4%B9%8B%E7%A5%9E): 中英文之间自动加空格。
 - [CSDNGreener](https://greasyfork.org/zh-CN/scripts/378351-csdngreener-csdn%E5%B9%BF%E5%91%8A%E5%AE%8C%E5%85%A8%E8%BF%87%E6%BB%A4-%E5%85%8D%E7%99%BB%E5%BD%95-%E4%B8%AA%E6%80%A7%E5%8C%96%E6%8E%92%E7%89%88-%E6%9C%80%E5%BC%BA%E8%80%81%E7%89%8C%E8%84%9A%E6%9C%AC-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0): CSDN 广告过滤、免登录、个性化排版
+- [elecfans 电子发烧网阅读全文](https://greasyfork.org/zh-CN/scripts/404813-elecfans%E7%94%B5%E5%AD%90%E5%8F%91%E7%83%A7%E7%BD%91%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E4%BC%98%E5%8C%96)

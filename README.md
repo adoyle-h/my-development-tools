@@ -73,9 +73,10 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Github](#github)
 - [SVG](#svg)
 - [代码质量检查](#代码质量检查)
-- [安全](#安全)
+- [安全渗透](#安全渗透)
+    - [密码](#密码)
     - [社工库](#社工库)
-    - [漏洞信息平台](#漏洞信息平台)
+    - [漏洞信息平台 CVE](#漏洞信息平台-cve)
     - [漏洞靶场](#漏洞靶场)
 - [架构](#架构)
 - [Checklist](#checklist)
@@ -223,7 +224,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## 其他
 
-- [hashcat](https://github.com/hashcat/hashcat): 很快的密码破解工具
 - [irssi](https://github.com/irssi/irssi): IRC Client
 - [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息`Ⓛ` `Ⓜ`
   - [neofetch](https://github.com/dylanaraps/neofetch): 终端中打印系统信息，纯 Bash 实现。
@@ -394,6 +394,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [hydra](https://github.com/ory/hydra): OpenID Connect and OAuth Provider written in Go
   - [dex](https://github.com/dexidp/dex): 备选方案
 - [2FAS](https://2fas.com/): 2FA 客户端，支持 iOS 和 Android。支持 TOTP 和 HOTP。用户体验好，功能丰富。开源。支持浏览器插件（同步需要翻墙）
+- KeePass 也支持 2FA
 - [otpauth](https://github.com/dim13/otpauth): 导出 Google Authenticator 里存储的数据
 
 ## 开源项目
@@ -446,7 +447,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [SonarQube](https://github.com/SonarSource/sonarqube): 「待评估」
 
-## 安全
+## 安全渗透
 
 - [Kali Linux](https://www.kali.org/)
   - [Kali Docker Image](https://hub.docker.com/r/kalilinux/kali-linux-docker): [参考资料](https://archive.ph/zh0wk)
@@ -457,11 +458,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [nmap](https://github.com/nmap/nmap): 网络扫描工具
 - [Metasploit](https://github.com/rapid7/metasploit-framework)
 - [Tiger](https://www.nongnu.org/tiger/): The Unix security audit and intrusion detection tool
-- CVE
-  - https://www.cve.org/
-  - [GitHub Security Lab](https://securitylab.github.com/)
-  - https://www.cvedetails.com/
-- [gitleaks](https://github.com/gitleaks/gitleaks): 检测密码泄露
+
+### 密码
+
+- [John the Ripper jumbo](https://github.com/openwall/john): mac 用户用 `brew install john-jumbo` 安装，不要安装 `brew install john`，前者有更多功能。
+- [hashcat](https://github.com/hashcat/hashcat): 很快的密码破解工具
+- [gitleaks](https://github.com/gitleaks/gitleaks): 检测 git 提交历史是否存在密码泄露
 
 ### 社工库
 
@@ -469,13 +471,16 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [TGsgkbot](https://t.me/SGKmainNEWbot?start=IVT62B06286)
 - [sgk520_bot]( https://t.me/sgk520_bot?start=DMT534Ai5D)
 
-### 漏洞信息平台
+### 漏洞信息平台 CVE
 
 - https://nvd.nist.gov/
 - https://www.cvedetails.com/
   - https://cve.mitre.org/
-- http://www.cnnvd.org.cn/ : 国家信息安全漏洞库
-  - http://cve.scap.org.cn/
+- [中国信息安全漏洞库](https://www.cnnvd.org.cn/)
+  - [中国信息安全漏洞共享平台](https://www.cnvd.org.cn/)
+- https://www.cve.org/
+- [GitHub Security Lab](https://securitylab.github.com/)
+- https://www.exploit-db.com/
 
 ### 漏洞靶场
 
@@ -565,10 +570,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - https://snapsave.io/ : 备选方案，在线服务
 - https://downsub.com/ : Youtube 字幕下载，支持各种语言以及双语字幕
 - https://bilibili.iiilab.com/ : 下载 B 站视频，需要关注微信公众号
+  - [BBDown](https://github.com/nilaoda/BBDown): 开源的 B 站视频命令行下载工具
 - https://twitter.iiilab.com/ : 下载 Twitter 视频/照片，需要关注微信公众号
   - https://www.downloadtwittervideo.com/ : 需要翻墙
 - https://instagram.iiilab.com/ : 下载 Instagram 视频/照片，需要关注微信公众号
 - https://yunyinyue.iiilab.com/ : 下载网易云音乐的歌，需要关注微信公众号
+- [cobalt](https://github.com/imputnet/cobalt): 开源的下载视音频网站资源的工具「待评价」
 
 ## 终端 Terminal
 
@@ -859,12 +866,14 @@ Read the [NOTICE][] file distributed with this work for additional information r
 <a name="KeePass"></a>
 - [KeePass](http://keepass.info): 密码管理器
   - 推荐将密码文件保存到（私有）网盘里，避免密码文件丢失。
-- [KeeWeb](https://github.com/keeweb/keeweb): [KeePass][] 的 GUI 客户端，跨平台
+- [KeePassXC](https://keepassxc.org/): [KeePass][] 的 GUI 客户端，跨平台。功能比 KeeWeb 强：可以随系统自启动，密码统计分析，密码健康检查等功能。
+  - [KeePassXC-Browser](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk): Chrome 插件，自动填充功能比 keeweb-connect 优秀
+- [KeeWeb](https://github.com/keeweb/keeweb): 备选方案。[KeePass][] 的 GUI 客户端，跨平台
   - [keeweb-connect](https://chromewebstore.google.com/detail/keeweb-connect/pikpfmjfkekaeinceagbebpfkmkdlcjk): Chrome 插件，链接 KeeWeb 提供密码自动填充功能
   - [Keeweb Online](https://app.keeweb.info/): KeeWeb 网页版。备用方案
-- [MacPass](https://github.com/mstarke/MacPass): [KeePass][] 的 Mac GUI 客户端 `Ⓜ`
-- [Keepass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android&hl=zh_CN): [KeePass][] 的安卓客户端
-  - [Keepass2Android 离线版](https://play.google.com/store/apps/details?id=keepass2android.keepass2android_nonet)
+- [KeePassDX](https://www.keepassdx.com/): [KeePass][] 的 Android 客户端，UI 好看，功能丰富，支持 2FA
+  - [Keepass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android&hl=zh_CN): 备选方案，UI 比较复古，也挺好用的
+  - [Keepass2Android 离线版](https://play.google.com/store/apps/details?id=keepass2android.keepass2android_nonet): 备选方案
 - [strongbox](https://strongboxsafe.com/): iPhone 平台的 KeePass 密码管理器
 
 ## 编码
@@ -1448,6 +1457,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [二维码生成器](https://qrbtf.com/)
 - [qrcode](https://github.com/soldair/node-qrcode): 命令行版二维码生成器
+- [zxing](https://github.com/zxing/zxing): 开源的二维码扫描工具，提供类库以及安装包，支持 Android、iOS。
 
 ## FTP
 

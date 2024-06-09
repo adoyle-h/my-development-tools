@@ -52,7 +52,7 @@ jobs:
       - run: make for-jekyll
 
       - name: Build with Jekyll
-        uses: adoyle-h/jekyll-build-pages@v1.0.7-ad-5
+        uses: adoyle-h/jekyll-build-pages@v1.0.7-ad-6
         with:
           source: ./
           destination: ./_site

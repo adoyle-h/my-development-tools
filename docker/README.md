@@ -38,7 +38,6 @@
 
 ## 镜像加速
 
-- [上海交大镜像站](https://mirrors.sjtug.sjtu.edu.cn/docs/docker-registry): 仅支持 Docker Hub。
 - [南京大学镜像站](https://doc.nju.edu.cn/books/35f4a): 支持 Docker Hub, GCR, GHCR, NGC, QUAY。
 - [Docker Proxy](https://dockerproxy.com/docs): 支持 Docker Hub, GCR, K8S.GCR, GHCR, QUAY。
 - 更多详见 https://gist.github.com/y0ngb1n/7e8f16af3242c7815e7ca2f0833d3ea6
@@ -48,10 +47,10 @@
 - [Podman](https://github.com/containers/podman): 兼容 docker CLI。无 daemon 的容器管理工具，命令式启动容器。
   - https://developers.redhat.com/blog/2019/01/15/podman-managing-containers-pods/
   - [介绍](https://igene.tw/podman-intro)
-- [Nerdctl](https://github.com/containerd/nerdctl): 兼容 docker CLI。containerd 的上层封装。
+- [Nerdctl](https://github.com/containerd/nerdctl): 兼容 docker CLI。containerd 的上层封装。nerdctl 的目标是促进实验 containerd 的新功能，并非代替 docker 以及作为 k8s 的调试工具。详见 [motivation](https://github.com/containerd/nerdctl#motivation)。
   - [nerdctld](https://github.com/afbjorklund/nerdctld): 创建 nerdctl.sock 代替 docker.sock。目前有很多 API 未实现，基本不可用。
-- [crictl](https://github.com/kubernetes-sigs/cri-tools): 不兼容 docker CLI
-- [ctr](https://github.com/containerd/containerd/tree/main/cmd/ctr): 不兼容 docker CLI
+- [crictl](https://github.com/kubernetes-sigs/cri-tools): CLI for kubelet CRI。不兼容 docker CLI
+- [ctr](https://github.com/containerd/containerd/tree/main/cmd/ctr): CLI for containerd。不兼容 docker CLI
 
 ### OCI
 
