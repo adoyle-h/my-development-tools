@@ -22,6 +22,7 @@ jobs:
 
       - name: Scan
         id: report
+        continue-on-error: true
         run: |
           c=$(git rev-list --all --since '1 week ago' --reverse  | head -n1 || true)
           [ -z ${c:-} ] && exit 31
@@ -54,6 +55,7 @@ jobs:
           category-id: DIC_kwDOBKLx9s4CfgjA
 
       - name: Print discussion url and id
+        if: ${{ steps.create-discussion.conclusion == 'success' }}
         run: |
           echo discussion-id: ${{steps.create-discussion.outputs.discussion-id}}
           echo discussion-url: ${{steps.create-discussion.outputs.discussion-url}}

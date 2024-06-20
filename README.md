@@ -270,12 +270,14 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [RIME](https://rime.im/download/): 开源输入法。支持 Windows/Mac/Linux/Android
 - [rime/plum](https://github.com/rime/plum): RIME 的配置管理工具
-- [rime-ice 雾凇拼音](https://github.com/iDvel/rime-ice): RIME 的简体词库
+- [小狼毫 Weasel](https://github.com/rime/weasel): Rime for Windows，自带配置管理器，不用安装 plum。
 - [鼠须管 squirrel](https://github.com/rime/squirrel): Rime for MacOS
   - [Squirrel-Designer](https://github.com/LEOYoon-Tsaw/Squirrel-Designer): 鼠须管皮肤制作工具
-- [iRime](https://apps.apple.com/cn/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E4%BA%94%E7%AC%94%E9%83%91%E7%A0%81%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977): Rime for iOS
+- [fcitx-rime](https://github.com/fcitx/fcitx5-rime): Rime for Linux
 - [同文输入法](https://github.com/osfans/trime): Rime for Android
+- [Hamster](https://github.com/imfuxiao/Hamster): Rime for iOS
 - [fcitx5-android](https://github.com/fcitx5-android/fcitx5-android): 目前[不支持九宫格](https://github.com/fcitx5-android/fcitx5-android/issues/377)
+- [rime-ice 雾凇拼音](https://github.com/iDvel/rime-ice): RIME 配置方案+词库，词库长期维护
 
 ## 手册
 

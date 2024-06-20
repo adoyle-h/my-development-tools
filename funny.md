@@ -36,3 +36,11 @@
 
 - [SteamTools](https://github.com/BeyondDimension/SteamTools): 「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。
 - [A Dark Room](https://github.com/doublespeakgames/adarkroom): 文字冒险游戏
+- [PlayCover](https://playcover.io/): 在苹果芯片的 Mac 上运行 iOS 程序。通过 IPA 文件安装。
+  - 提供 IPA 下载的平台
+    - https://decrypt.day/
+    - https://appdb.to/
+    - https://pan.qlam.cc/
+    - https://www.iphonecake.com/
+  - IPA 源
+    - https://decrypt.day/library
