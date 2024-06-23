@@ -1389,12 +1389,14 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## 截图/录屏
 
-- [CleanShot X](https://cleanshot.com/): 用户体验很优秀。价格略贵。支持截图/窗口截图/截屏/滚动截屏/录屏/录音/OCR 识别/标注
+- [CleanShot X](https://cleanshot.com/): 用户体验很优秀。价格略贵，按年付费。支持截图/窗口截图/截屏/滚动截屏/录屏/录音/OCR 识别/标注。 `Ⓜ`
+- [Shottr](https://shottr.cc/): 功能很丰富，可以代替 CleanShot X，价格适中，一次性买断。 `Ⓜ`
 - [Monosnap](https://monosnap.com/welcome): 免费又强大的截图/截屏/录屏(支持 GIF 和 MP4)。不支持滚动截屏。 <a name="Monosnap"></a>
 - [iShot](https://apps.apple.com/cn/app/ishot-%E6%88%AA%E5%9B%BE-%E9%95%BF%E6%88%AA%E5%9B%BE-%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7/id1485844094): 支持截图/截屏/滚动截屏/录屏/录音/OCR 识别/标注。过了试用期后能用，但是图片会带水印。
 - Mac 系统自带截图工具。不支持滚动截屏，其他功能都有。Safari 支持滚动截屏。
 - screencapture:  Mac 自带命令，截图/截屏工具。
 - [Snipaste](https://zh.snipaste.com/): windows 截图/截屏工具 `ⓦ`
+  - [ShareX](https://getsharex.com/): 「待评价」开源的截图、截屏、颜色提取、OCR 工具 for windows `ⓦ`
 - [kap](https://github.com/wulkano/kap/): 用户体验很好的，开源的录屏工具，支持 GIF, MP4, WebM, APNG `Ⓜ` `⨀`
 
 ## 漫画
