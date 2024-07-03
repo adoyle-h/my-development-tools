@@ -103,7 +103,8 @@
 - [iStat Menus](https://bjango.com/mac/istatmenus): Mac 系统状态监控 `Ⓜ`
   - [stats](https://github.com/exelban/stats): 开源替代方案
   - [sensei](https://cindori.com/sensei): 颜值挺高的软件
-- [LittleSnitch](https://www.obdev.at/products/littlesnitch/index.html): 实时监控应用的网络流量
+- [LittleSnitch](https://www.obdev.at/products/littlesnitch/index.html): 实时监控每个程序的网络流量的防火墙，用户交互好
+  - [LuLu](https://objective-see.org/products/lulu.html): 免费开源的防火墙
 - [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html): 实时监控 Mac 电脑的摄像头、声音输入是否开启
 
 ## 窗口管理

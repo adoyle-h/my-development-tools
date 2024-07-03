@@ -244,6 +244,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [wakeonlan](https://github.com/jpoliv/wakeonlan): 网络唤醒工具
 - [plasmo](https://github.com/PlasmoHQ/plasmo): 浏览器插件开发框架
 - [homepage](https://github.com/gethomepage/homepage): 用 YAML 配置的导航首页。简单好用。
+  - [glance](https://github.com/glanceapp/glance): 备选方案，界面也挺漂亮的
 
 ### 养生
 
@@ -978,7 +979,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 交流学习使用，请勿用于非法用途。
 
-- https://zlib.app/
+- https://zh.singlelogin.re/ : zlibrary 官方网站
+- https://zh.annas-archive.gs/ : 安娜的档案，下载链接分付费和免费，付费会员下载速度快，免费的下载要排队几分钟，但下载速度也不慢。
 - https://bookpan.net/
 - https://ylibrary.org/
 - https://search.zhelper.net/ : 搜索前端，调用其他电子书平台的 API。直接打开链接是不可用的。需查阅[使用帮助](https://docs.zhelper.net/search/)。
