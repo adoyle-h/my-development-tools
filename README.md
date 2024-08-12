@@ -370,6 +370,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - https://jsonplaceholder.typicode.com/
 - http://dummy.restapiexample.com/
+- [使用 Lua 强大功能的模拟 API](https://mockae.com/)
 
 ## 政务信息
 
