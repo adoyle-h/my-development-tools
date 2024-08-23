@@ -370,7 +370,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - https://jsonplaceholder.typicode.com/
 - http://dummy.restapiexample.com/
-- [使用 Lua 强大功能的模拟 API](https://mockae.com/)
+- https://mockae.com/ : 基于 db.json 和 lua 脚本构建 mock 服务器
 
 ## 政务信息
 
@@ -981,7 +981,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 交流学习使用，请勿用于非法用途。
 
 - https://zh.singlelogin.re/ : zlibrary 官方网站
-- https://zh.annas-archive.gs/ : 安娜的档案，下载链接分付费和免费，付费会员下载速度快，免费的下载要排队几分钟，但下载速度也不慢。
+- https://zh.annas-archive.org/ : 安娜的档案，下载链接分付费和免费，付费会员下载速度快，免费的下载要排队几分钟，但下载速度也不慢。
 - https://bookpan.net/
 - https://ylibrary.org/
 - https://search.zhelper.net/ : 搜索前端，调用其他电子书平台的 API。直接打开链接是不可用的。需查阅[使用帮助](https://docs.zhelper.net/search/)。
@@ -1319,6 +1319,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [notion-sdk-js](https://github.com/makenotion/notion-sdk-js)
 - [wiki.js](https://github.com/Requarks/wiki): 现代化的 WIKI。AGPL-3.0 License
 - [sphinx-doc](https://www.sphinx-doc.org): reStructuredText 文档渲染工具
+- [memos](https://github.com/usememos/memos): 轻笔记服务，功能类似 Flomo。简单好用易部署
 
 ### 文档处理
 
@@ -1398,8 +1399,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [iShot](https://apps.apple.com/cn/app/ishot-%E6%88%AA%E5%9B%BE-%E9%95%BF%E6%88%AA%E5%9B%BE-%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7/id1485844094): 支持截图/截屏/滚动截屏/录屏/录音/OCR 识别/标注。过了试用期后能用，但是图片会带水印。
 - Mac 系统自带截图工具。不支持滚动截屏，其他功能都有。Safari 支持滚动截屏。
 - screencapture:  Mac 自带命令，截图/截屏工具。
-- [Snipaste](https://zh.snipaste.com/): windows 截图/截屏工具 `ⓦ`
-  - [ShareX](https://getsharex.com/): 「待评价」开源的截图、截屏、颜色提取、OCR 工具 for windows `ⓦ`
+- [PixPin](https://pixpinapp.com/): 截图/截屏工具，支持长截图，GIF 截图，颜色提取，标注，OCR（先截图，固定到屏幕，然后复制图片文字）。`ⓦ` `Ⓜ`
+- [ShareX](https://getsharex.com/): 开源的截图、截屏、录屏、颜色提取、OCR、滚动截图。交互设计一般 `ⓦ`
 - [kap](https://github.com/wulkano/kap/): 用户体验很好的，开源的录屏工具，支持 GIF, MP4, WebM, APNG `Ⓜ` `⨀`
 
 ## 漫画

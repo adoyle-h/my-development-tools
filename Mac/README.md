@@ -64,6 +64,7 @@
 - [CmdTap](http://www.yingdev.com/projects/cmdtap): 任务切换器增强 `Ⓜ`
   - [Contexts](https://contexts.co/): 这个看起来更好用，但是更贵  `Ⓜ`
 - [skhd](https://github.com/koekeishiya/skhd): simple hotkey daemon for macOS
+- [ShortcutDetective](https://www.irradiatedsoftware.com/labs/): 查看快捷键被哪个程序监听了
 
 ## 硬盘
 

@@ -22,17 +22,24 @@ jobs:
 
       - name: Scan
         id: report
-        continue-on-error: true
         run: |
+          echo "OK=false" >> "$GITHUB_OUTPUT"
+
           c=$(git rev-list --all --since '1 week ago' --reverse  | head -n1 || true)
-          [ -z ${c:-} ] && exit 31
+          if [ -z "${c:-}" ]; then
+            echo "[Warn] No any changed"
+            exit 0
+          fi
 
           git --no-pager diff --no-color -U0 "$c" HEAD -- '*.md' ':!index.md' |
           grep -v -E '^(index|new file mode|deleted file mode|\-\-\-) ' |
           sed -E -e 's|^diff --git a/(.+) b/.+|```\n\n### \1\n|g' -e 's/^\+\+\+.+/```diff/' |
           tail +2 > _report
 
-          [ -s _report ] || exit 32
+          if [ ! -s _report ]; then
+            echo "[Warn] report is empty"
+            exit 0
+          fi
 
           {
             echo 'What changed in last week:'
@@ -40,10 +47,12 @@ jobs:
             printf '```\n\n%s\n' 'Details in https://tools.adoyle.me/'
           } > ./new_report
 
+          echo "OK=true" >> "$GITHUB_OUTPUT"
+
       - name: Create a new GitHub Discussion
         uses: abirismyname/create-discussion@main
         id: create-discussion
-        if: ${{ steps.report.conclusion == 'success' }}
+        if: ${{ steps.report.outputs.OK == 'true' }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
