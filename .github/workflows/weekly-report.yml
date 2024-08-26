@@ -25,13 +25,13 @@ jobs:
         run: |
           echo "OK=false" >> "$GITHUB_OUTPUT"
 
-          c=$(git rev-list --all --since '1 week ago' --reverse  | head -n1 || true)
+          c=$(git rev-list --all --since '168 hours ago' --reverse  | head -n1 || true)
           if [ -z "${c:-}" ]; then
             echo "[Warn] No any changed"
             exit 0
           fi
 
-          git --no-pager diff --no-color -U0 "$c" HEAD -- '*.md' ':!index.md' |
+          git --no-pager diff --no-color -U0 "$c"^ HEAD -- '*.md' ':!index.md' |
           grep -v -E '^(index|new file mode|deleted file mode|\-\-\-) ' |
           sed -E -e 's|^diff --git a/(.+) b/.+|```\n\n### \1\n|g' -e 's/^\+\+\+.+/```diff/' |
           tail +2 > _report
