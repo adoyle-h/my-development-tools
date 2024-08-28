@@ -1,4 +1,4 @@
-GH_PAGE_IMAGE=adoyle/gh-pages:v231.1
+GH_PAGE_IMAGE=ghcr.io/adoyle-h/jekyll-build-pages:v1.0.7-ad-7
 
 .PHONY: check-links
 check-links:
@@ -27,7 +27,7 @@ http:
 
 debug-gh-pages:
 	docker run -it --rm -p 4000:4000 -v "${PWD}:/src/site" \
-		--entrypoint ash \
+		--entrypoint bash -w /src/site \
 		${GH_PAGE_IMAGE}
 
 for-jekyll:

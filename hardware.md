@@ -105,6 +105,7 @@
 - [powertop](https://github.com/fenrus75/powertop): 由 Intel 开源的监视、管理能耗的命令行工具。只能用在 x86 芯片上。
   - 但[可能会造成系统 Hang 住](https://support.oracle.com/knowledge/Sun%20Microsystems/2830188_1.html)。kill -9 都无效。
   - https://wiki.archlinux.org/title/Powertop
+- [cpupower](https://linux.die.net/man/1/cpupower): 查看和调节 CPU 性能的工具。`apt install linux-cpupower`
 
 
 ## IPMI/BMC

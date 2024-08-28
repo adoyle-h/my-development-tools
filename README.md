@@ -752,8 +752,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - rsync
 - [rclone](https://github.com/rclone/rclone): rsync for cloud storage. To sync files and directories to and from different cloud storage providers.
 - [restic](https://github.com/restic/restic): 简单易用的备份工具。支持快照，加密。可与 rclone 搭配。不支持软链接，restore 会[报错](https://github.com/restic/restic/issues/2578)。
-- [timeshift](https://github.com/teejee2008/timeshift): 备选方案。基于 rsync + hard link。支持快照、增量备份、BTRFS、自定义路径（默认屏蔽用户目录）。**不支持云存储**
-- [bupstash](https://github.com/andrewchambers/bupstash): 据说性能很高
+- [timeshift](https://github.com/linuxmint/timeshift): 备选方案。基于 rsync + hard link。支持快照、增量备份、BTRFS、自定义路径（默认屏蔽用户目录）。**不支持云存储**
 - [borg](https://github.com/borgbackup/borg): 备选方案
 - [duplicity](https://gitlab.com/duplicity/duplicity): 支持增量备份，软链接。不支持硬链接。
   - [duply](): duplicity 的前端程序
@@ -1020,6 +1019,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ### 自部署的服务 (Self-Host Service)
 
+- https://github.com/awesome-selfhosted/awesome-selfhosted
 - [Dub](https://github.com/steven-tey/dub): 开源的短链接服务，自带访问统计
 - [shlink](https://github.com/shlinkio/shlink): 短链服务。功能挺全。
   - [YOURLS](https://github.com/YOURLS/YOURLS): 备选方案
@@ -1108,7 +1108,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 [PAAS comparison - Dokku vs Flynn vs Deis vs Kubernetes vs Docker Swarm (2017)](http://www.jancarloviray.com/blog/paas-comparison-2017-dokku-flynn-deis-kubernetes-docker-swarm/)
 
 - [kubernetes](https://kubernetes.io/)
-- [dokku](https://github.com/dokku/dokku): 单机版 PaaS，低门槛
+- 开源自部署的 Heroku/Netlify/Verce 替代品
+  - [dokploy](https://github.com/Dokploy/dokploy)
+  - [coolify](https://github.com/coollabsio/coolify)
+  - [caprover](https://github.com/caprover/caprover)
+  - [dokku](https://github.com/dokku/dokku)
 - [planetscale](https://planetscale.com/): Serverless MySQL 服务，5GB 免费使用量。
 - [railway.app](https://railway.app/): 非常棒的应用托管平台。每月赠送 $5，500 小时的免费用量。缺点是部署后就不能停止服务，只能删了部署重来。
 - https://vercel.com/
