@@ -217,6 +217,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [游戏开发](#游戏开发)
 - [二维码](#二维码)
 - [FTP](#ftp)
+- [RSS](#rss)
 - [别人的工具列表](#别人的工具列表)
 
 <!-- /MarkdownTOC -->
@@ -244,7 +245,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [wakeonlan](https://github.com/jpoliv/wakeonlan): 网络唤醒工具
 - [plasmo](https://github.com/PlasmoHQ/plasmo): 浏览器插件开发框架
 - [homepage](https://github.com/gethomepage/homepage): 用 YAML 配置的导航首页。简单好用。
-  - [glance](https://github.com/glanceapp/glance): 备选方案，界面也挺漂亮的
+- [glance](https://github.com/glanceapp/glance): 用 YAML 配置的导航页。支持 RSS 展示，这个功能很棒。不支持热更新。插件略少。
 
 ### 养生
 
@@ -1324,6 +1325,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [wiki.js](https://github.com/Requarks/wiki): 现代化的 WIKI。AGPL-3.0 License
 - [sphinx-doc](https://www.sphinx-doc.org): reStructuredText 文档渲染工具
 - [memos](https://github.com/usememos/memos): 轻笔记服务，功能类似 Flomo。简单好用易部署
+- [scalar](https://github.com/scalar/scalar): 根据 OpenAPI/Swagger 文件生成漂亮的 API 文档网站. https://scalar.com/
 
 ### 文档处理
 
@@ -1482,6 +1484,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Transfer](https://www.intuitibits.com/products/transfer/): 简单好用的 TFTP/HTTP/FTP/SFTP 服务器 `Ⓜ` 
 - [WinSCP](https://winscp.net/): 免费开源的 FTP GUI 客户端。也支持 SCP、WebDAV、S3。支持中文文件名。`ⓦ`
 - [muCommander](https://www.mucommander.com/): 开源、跨平台的 FTP GUI 客户端。支持 FTP, SFTP, SMB, NFS, HTTP, Amazon S3, Hadoop HDFS, Bonjour。缺点：中文文件名会显示乱码。
+
+## RSS
+
+- [RSSHub](https://github.com/DIYgod/RSSHub): 从任何内容生成 RSS/Atom/JSON 订阅源。定制转换路由需要自己写 JS 代码，略麻烦。
+- [RSSHub-Radar](https://github.com/DIYgod/RSSHub-Radar): 浏览器插件，用于查询 RSS 或 RSSHub 订阅
+- [TTRSS](https://github.com/HenryQW/Awesome-TTRSS): 自部署的 RSS 阅读器 Web 服务
 
 -----
 

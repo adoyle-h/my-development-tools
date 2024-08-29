@@ -105,6 +105,9 @@
 - [goconvey](https://github.com/smartystreets/goconvey): Go testing in the browser. Integrates with `go test`
 - [testify](https://github.com/stretchr/testify): 提供 assert, require, mock, suit 工具函数
 - [gomock](https://github.com/golang/mock/)
+- [monkey](https://github.com/go-kiss/monkey): Monkey patch。目前只支持 amd64 架构。
+  - [原理](https://bou.ke/blog/monkey-patching-in-go/)
+- [testaroli](https://github.com/qrdl/testaroli): Monkey patch。支持 amd64 和 arm64 架构。
 
 ## Profiling
 
