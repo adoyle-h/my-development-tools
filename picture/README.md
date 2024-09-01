@@ -25,7 +25,6 @@
   - [Caesium](https://github.com/Lymphatus/caesium-image-compressor): 开源的，跨平台，图像压缩工具
 - https://www.iloveimg.com/zh-cn : 在线压缩、调整大小、加水印、格式转换的图片处理服务
   - https://docsmall.com : GIF 压缩比很高
-- [GIF Brewery 3](https://gfycat.com/gifbrewery): 视频转 GIF，GIF 编辑、裁减、压缩。App Store 内购买。 `Ⓜ`
 - [Gifski](https://github.com/sindresorhus/Gifski): 视频转 GIF。开源的。 `Ⓜ`
 - [pixelmatch](https://github.com/mapbox/pixelmatch): The smallest, simplest and fastest JavaScript pixel-level image comparison library
 - [libvips](https://github.com/libvips/libvips): A fast image processing library with low memory needs.
@@ -50,8 +49,8 @@
 - [krita](https://github.com/KDE/krita): 自由、免费、开源、跨平台的像素绘画软件 `Ⓜ` `Ⓛ` `ⓦ`
 - [Sketch](https://www.sketchapp.com/): 矢量画图工具。不是适合设计印刷品。 `Ⓜ`
 - [Quil](https://github.com/quil/quil): 写代码绘画 (Painting)
-  - 源自 http://www.tylerlhobbs.com/ https://www.instagram.com/tylerlhobbs/
-  - [教程](http://www.tylerlhobbs.com/writings/using-quil-for-artwork) [教程](http://www.tylerlhobbs.com/writings)
+  - 源自 https://www.tylerxhobbs.com/
+  - http://quil.info/
 - [p5.js](https://p5js.org/reference/): processing JS 工具
 - https://processing.org/
   - http://processingjs.org/
@@ -65,7 +64,6 @@
 - [Monodraw](https://monodraw.helftone.com): ASCII Art 画图工具 `Ⓜ`
 - [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii): 图片转 ASCII 字符
 - ASCII Art 样例库
-  - http://www.ascii-fr.com/
   - https://asciiart.website/
   - https://fsymbols.com/text-art/
 - [FIGlet](http://www.figlet.org/): ASCII Art 字体程序

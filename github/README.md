@@ -22,7 +22,6 @@
 - https://www.gharchive.org/ : 收集了 2011 年至今的 Github 历史数据。
 - https://ghproxy.com/ : GitHub 文件, Releases, archive, gist, raw.githubusercontent.com 文件代理加速下载服务
   - 就是个重定向，实际用的是 cnpm 提供的服务 https://github.com.cnpmjs.org/
-  - 备用方案 https://fastgit.org/
 - [all-contributors](https://github.com/all-contributors/all-contributors): 用 `.all-contributorsrc` 文件记录项目维护者列表。
 - [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 生成 Github contributions 图片。
   - [API](https://github.com/sallar/github-contributions-api)
@@ -41,7 +40,7 @@
 
 ### Github Badages
 
-- http://shields.io
+- https://shields.io/
 - https://github.com/Ileriayo/markdown-badges
 - https://forthebadge.com/
 - [alexandresanlim/Badges4-README.md-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile)
@@ -114,14 +113,10 @@
 - [ImgBot](https://github.com/marketplace/imgbot): 自动图片压缩
 - [WIP](https://github.com/marketplace/wip/): WIP 检查
 - [DCO](https://github.com/apps/dco): Git Commit 检查 DCO 签名
-- [Stale](https://probot.github.io/apps/stale/): 关闭过期的 Issue 和 Pull Request
 - [github/safe-settings](https://github.com/github/safe-settings): 用 YAML 设置 Github 项目基本配置。只能作用于组织下的所有项目，不能作用于单个项目。
 - [GitHub Settings](https://probot.github.io/apps/settings/): 用 YAML 设置 Github 项目基本配置。只能作用于单个项目。
 - [Request Info](https://probot.github.io/apps/request-info/): 提示 Issue 和 PR 内容空白
 - [In Solidarity](https://probot.github.io/apps/in-solidarity/): 避免不礼貌的词汇
-- [Move](https://probot.github.io/apps/move/): 移动 Issue
-- [Close Issue](https://probot.github.io/apps/close-issue/)
-- [lock](https://probot.github.io/apps/lock/)
 - [Weekly Digest](https://probot.github.io/apps/weekly-digest/): 自动生成该 Github 项目的周报汇总
 - [Reminders](https://probot.github.io/apps/reminders/): 在 issue 里设置提醒
 - [delete-merged-branch](https://github.com/SvanBoxel/delete-merged-branch): 自动删除已合并的分支

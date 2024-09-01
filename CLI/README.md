@@ -180,7 +180,7 @@
 - [hotel](https://github.com/typicode/hotel): 本地进程管理服务
   - [alfred-hotel](https://github.com/exah/alfred-hotel): 查看 hotel app 的 Alfred Workflow
 - better `ps`
-  - [pstree](http://www.thp.uni-duisburg.de/pstree/): 。树形结构展示 ps 命令
+  - [pstree](https://gitlab.com/psmisc/psmisc): 树形结构展示 ps 命令
   - [procs](https://github.com/dalance/procs)
 - better `top` and `htop`
   - [btop](https://github.com/aristocratos/btop): 用户体验很不错的 top 工具

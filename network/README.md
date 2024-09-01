@@ -53,6 +53,9 @@
 - [ATAC](https://github.com/Julien-cpsn/ATAC): 运行在终端的类似 POSTMAN 的 API 客户端工具。
 - [restcli](https://github.com/restcli/restcli): CLI for IntelliJ http-request.
 - [IntelliJ HTTP request syntax](https://www.jetbrains.com/help/idea/exploring-http-syntax.html#using_request_vars)
+- better `traceroute`
+  - `mtr`
+  - [NextTrace](https://github.com/nxtrace/NTrace-core): trace 命令行工具，可显示地理位置信息
 
 ## 防火墙
 
@@ -70,7 +73,7 @@
 ### IP 归属地 (GeoIP)
 
 - https://www.chaipip.com/ : 高精度 IP 归属地查询
-- http://www.ipip.net/ : 国内老牌企业
+- https://www.ipip.net/ : 国内老牌企业
 - https://cz88.net/ : 纯真 IP
 - https://www.ipplus360.com/ : 埃文科技
 
@@ -96,7 +99,6 @@
   - https://github.com/easylist/easylist
   - https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt : 过滤规则文件。包含国内外网站过滤规则，最全。
   - https://easylist-downloads.adblockplus.org/easylistchina.txt : 过滤规则文件。这个只包含国内网站过滤规则，国外网站规则没在内。
-  - http://abpchina.org/forum/forum.php : AdBlock 中文社区
 - [ADGuard Home](https://github.com/AdguardTeam/AdGuardHome): 反广告和跟踪的 DNS 服务器。交互设计很棒，功能强大。可自定义规则。
   - [SmartDNS](https://github.com/pymumu/smartdns)
   - [Pi-hole](https://pi-hole.net/)
@@ -153,9 +155,8 @@
 - [frp](https://github.com/fatedier/frp): 内网穿透
 - 免费的 frp 服务
   - https://freefrp.net
-  - https://afrps.cn/
+  - https://www.afrp.net/
 - [ZeroTier](https://github.com/zerotier/ZeroTierOne): 类似 VPN，不过更灵活。构建点对点通信网络。开源的，也有托管服务。支持多平台 Windows、Mac、Linux、IOS、Android、NAS。
-- [Clash](https://github.com/Dreamacro/clash): A rule-based tunnel in Go.
 - [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理
 - [localtunnel](https://github.com/localtunnel/localtunnel): HTTP 服务内网穿透工具，开发用很方便
   - [localtunnel server](https://github.com/localtunnel/server): 可以自建服务器

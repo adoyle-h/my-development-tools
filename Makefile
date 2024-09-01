@@ -2,8 +2,7 @@ GH_PAGE_IMAGE=ghcr.io/adoyle-h/jekyll-build-pages:v1.0.7-ad-7
 
 .PHONY: check-links
 check-links:
-	# https://github.com/tcort/markdown-link-check
-	ag --md -l | xargs -n1 markdown-link-check
+	NO_COLOR=1 lychee -c ~/.lychee.toml ./**/*.md
 
 # @TODO: bundle add webrick
 .PHONY: serve

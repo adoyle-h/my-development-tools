@@ -158,6 +158,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [静态文件托管](#静态文件托管)
 - [CMS](#cms)
 - [PaaS](#paas)
+- [虚拟主机 (Web Hosting Account)](#虚拟主机-web-hosting-account)
 - [Serverless](#serverless)
 - [microVM](#microvm)
 - [跳板机/堡垒机](#跳板机堡垒机)
@@ -253,8 +254,10 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ### 教你搜索
 
-- http://lmgtfy.com/ : 帮你 google/bing/duckduckgo
-- http://www.baidu-x.com/ : 帮你百度下
+- https://lmstfy.net/ : 帮你 google
+- https://letmegooglethat.com/ : 帮你 google
+- https://lmstfy.net/baidu/ : 帮你 baidu
+- https://lmstfy.net/bing/ : 帮你 bing
 
 ### 历史遗珠
 
@@ -599,12 +602,13 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - diff: linux 内置命令
 - diffstat: linux 内置命令 `diff -u | diffstat -C`
-- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 超酷的 diff 着色增强工具，但只能用管道输出，仍需借助 diff 或 git diff 工具。
-  - [delta](https://github.com/dandavison/delta): 语义化 Diff，功能丰富。Git 配置不友好
+- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): diff 文件内容的着色增强工具，不支持语义化 diff。不支持双列 (side-by-side)。
+- [delta](https://github.com/dandavison/delta): 语义化 Diff，功能丰富。Git 配置不友好。支持双列、git blame、git grep。
   - [difftastic](https://github.com/Wilfred/difftastic): 基于 tree-sitter 的 diff。Git 配置不友好
 - [diff2html-cli](https://github.com/rtfpessoa/diff2html-cli): 将 diff 文件转成 HTML 页面的形式预览。非常漂亮
   - https://diffy.org/ : 在线服务，支持链接共享。
-- [Kaleidoscope](http://www.kaleidoscopeapp.com): Diff GUI 软件。支持比较文本、图片、目录 `Ⓜ`
+- [Kaleidoscope](https://kaleidoscope.app/): Diff GUI 软件。支持比较文本、图片、目录。只支持 MacOS。
+- [Meld](https://meldmerge.org/): Diff GUI 软件。支持比较文本、目录。支持 Linux/Unix/Windows，不支持 MacOS。
 
 ### image diff
 
@@ -674,7 +678,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - https://spacetelescope.github.io/understanding-json-schema/index.html : 目前最好的入门教程
 - https://jsonschema.net/ : 根据 JSON 生成 JSON Schema
 - [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker): 根据 JSON Schema 生成数据
-- http://schemastore.org/json/ : 各种现成的 JSON Schema 文件
+- https://www.schemastore.org/json/ : 各种现成的 JSON Schema 文件
   - https://github.com/instrumenta/kubernetes-json-schema : K8S JSON Schema 文件
 
 ### JSON Path
@@ -1017,6 +1021,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [CyberChef](https://gchq.github.io/CyberChef/): 开源的，在线提供编码/解码，压缩，数据分析，时间戳，代码格式化等功能。
 - https://it-tools.tech/ : 开源的，可以用 Docker 自部署。
 - https://extendsclass.com/ : 有语法校验器，加/解密，格式转换，Diff 工具，各种生成器，前端压缩等工具。
+- https://cloudconvert.com/ : 在线服务，万能的格式转换器
 
 ### 自部署的服务 (Self-Host Service)
 
@@ -1026,6 +1031,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [YOURLS](https://github.com/YOURLS/YOURLS): 备选方案
 - [rustdesk](https://github.com/rustdesk/rustdesk): 开源的远程控制软件 (VNC)。支持手机控制电脑，电脑控制手机。支持全平台、多语言。国产软件。
   - [rustdesk-server](https://github.com/rustdesk/rustdesk-server): 自建中继服务器
+- [webhook](https://github.com/adnanh/webhook): a lightweight incoming webhook server to run shell commands
 
 ### 评论系统
 
@@ -1123,6 +1129,16 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - https://qoddi.com/
 - https://adaptable.io/
 - https://render.com/
+
+## 虚拟主机 (Web Hosting Account)
+
+虚拟主机就是多个客户共用一台服务器，共享服务器资源。虚拟主机用户无法用 root 权限，无法 sudo，无法运行容器。
+
+- https://www.serv00.com/ : 3GB SSD, 512MB RAM, 3 个端口, 无带宽限制, FreeBSD 系统，16 个数据库。提供 ssh server、email server、ftp。无广告，可免费用十年。不能运行容器
+  - **必须每 3 个月登录一次控制面板或 SSH，否则会被注销账号。**
+  - 默认后台 Web 界面是波兰语，点右上角的 Zmień język 可修改成英语。
+  - 默认情况，需要访问 https://panel8.serv00.com/permissions/binexec 按下 enable 按钮。或者执行 `devil binexec on` 也行。然后重新登录 ssh 即可。
+  - 启动占用端口的服务，需要到 https://panel8.serv00.com/port/ 预约端口，因为同一台机器上有多个用户使用，别人的进程可能占用了端口。
 
 ## Serverless
 

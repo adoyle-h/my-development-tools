@@ -45,7 +45,6 @@
     - [CSS in JSX](#css-in-jsx)
     - [CSS Module](#css-module)
     - [PostCSS](#postcss)
-    - [CSS Schema](#css-schema)
     - [栅格/网格/Grid](#栅格网格grid)
 - [参数可视化](#参数可视化)
 - [动效](#动效)
@@ -66,7 +65,7 @@
 - [日志](#日志)
 - [兼容性检查](#兼容性检查)
 - [Polyfill](#polyfill)
-- [CDN](#cdn)
+- [CDN 静态库](#cdn-静态库)
 - [用户导引 Walkthrough](#用户导引-walkthrough)
 - [待评价](#待评价)
 - [UI component explorers](#ui-component-explorers)
@@ -78,14 +77,13 @@
 
 - [browserify as a service](https://wzrd.in/): 将 npm 包转成前端可用的在线服务
   - [Github Repo](https://github.com/jfhbrook/wzrd.in)
-- [webpack as a service: pkgzip](https://pkgzip.com/): 将 npm 包转成前端可用的在线服务
 - [microjs](https://github.com/microjs/microjs.com): 小容量类库列表
 - [bundlesize](https://github.com/siddharthkp/bundlesize): 打包大小检测
 - [bundlephobia](https://github.com/pastelsky/bundlephobia): 检测包大小，前端下载包的耗时
 - [push.js](https://github.com/Nickersoft/push.js): 浏览器推送的统一封装
 - [stats.js](https://github.com/mrdoob/stats.js): JavaScript 性能监控，在前端显示 FPS 等指标
 - [size-limit](https://github.com/ai/size-limit): 检测 JS 文件的大小
-- http://gs.statcounter.com/ 前端全球数据统计
+- https://gs.statcounter.com/ : 前端全球数据统计
 - [uglify-js](https://github.com/mishoo/UglifyJS2): js 混淆工具
 - [jsnice](http://jsnice.org/): 反混淆工具（只是让代码容易看一点）。
   - 反混淆关键词：de-obfuscate
@@ -149,7 +147,7 @@
 
 - https://statecharts.github.io/  关于状态机和状态图的一切
 - https://medium.freecodecamp.org/how-to-model-the-behavior-of-redux-apps-using-statecharts-5e342aad8f66
-- [状态图 UML 图释](https://www.omg.org/news/meetings/workshops/presentations/eai_2001/tutorial_monday/tockey_tutorial/6-States,_Actions,_&_Activities.pdf)
+- [状态图 UML 图释](https://web.archive.org/web/20210422031817/https://www.omg.org/news/meetings/workshops/presentations/eai_2001/tutorial_monday/tockey_tutorial/6-States,_Actions,_&_Activities.pdf)
 
 - [xstate](https://github.com/davidkpiano/xstate): 有限状态机
   - [use-machine](https://github.com/carloslfu/use-machine)
@@ -334,10 +332,6 @@
 - [postcss-cssnext](https://github.com/MoOx/postcss-cssnext)
 - [rucksack-css](https://github.com/seaneking/rucksack)
 
-### CSS Schema
-
-- http://schemastore.org/css/
-
 ### 栅格/网格/Grid
 
 - grid 与 flexbox 介绍使用场景
@@ -415,8 +409,7 @@
 
 ## 响应式
 
-- [sizzy](https://github.com/kitze/sizzy): 测试网站响应式的工具
-- https://material.io/tools/resizer/ : 测试网站响应式的服务
+- [Viewport Resizer](https://chromewebstore.google.com/detail/%E8%A7%86%E5%8F%A3%E8%B0%83%E6%95%B4%E5%99%A8%EF%BC%9A%E7%BB%88%E6%9E%81%E8%AE%BE%E5%A4%87%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%92%8C%E7%BD%91%E7%AB%99%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7/kapnjjcfcncngkadhpmijlkblpibdcgm): 终极设备视口模拟器
 
 ## Headless Browser
 
@@ -454,14 +447,16 @@
 - [json3](https://bestiejs.github.io/json3/)
 - [es6-shim](https://github.com/paulmillr/es6-shim): ECMAScript 6 compatibility shims for legacy JavaScript engines
 
-## CDN
+## CDN 静态库
 
-- https://cdn.baomitu.com/ : 国内的 CDN
-- https://cdnjs.com/ : 国外的 CDN，国内也能访问
-- [unpkg](https://github.com/unpkg/unpkg): The CDN for everything on npm
-- https://esm.sh/ : A fast, global content delivery network for NPM packages with ES Module format.
-- https://jspm.org/ : JSPM provides a module CDN and package management for import maps
-- https://www.skypack.dev/ : Load optimized npm packages with no install and no build tools.
+- 中国
+  - 暂时没有稳定、安全、全面的
+- 国际
+  - https://cdnjs.com/ : 基于 Cloudflare，访问速度快，中国也能访问
+  - [unpkg](https://github.com/unpkg/unpkg): The CDN for everything on npm
+  - https://esm.sh/ : A fast, global content delivery network for NPM packages with ES Module format.
+  - https://jspm.org/ : JSPM provides a module CDN and package management for import maps
+  - https://www.skypack.dev/ : Load optimized npm packages with no install and no build tools.
 
 ## 用户导引 Walkthrough
 

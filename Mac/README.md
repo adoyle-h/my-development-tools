@@ -26,12 +26,10 @@
 - [quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins): Mac 文件 Quick Look 插件。在 Finder 中按空格预览
 - [Nativefier](https://github.com/jiahaog/nativefier): 网页应用打包成 Mac App `Ⓜ`
 <a name="Homebrew"></a>
-- [Kaleidoscope](http://www.kaleidoscopeapp.com): Diff GUI 软件。支持比较文本、图片、目录 `Ⓜ`
+- [Kaleidoscope](https://kaleidoscope.app/): Diff GUI 软件。支持比较文本、图片、目录 `Ⓜ`
 - [Bartender](https://www.macbartender.com): Mac 菜单栏折叠 `Ⓜ`
 - [Alfred](https://www.alfredapp.com): 类似 spotlight `Ⓜ`
   - [alfy](https://github.com/sindresorhus/alfy): JS 语法编写 Alfred Workflow
-  - [dext](https://github.com/DextApp/dext): 类似 Alfred，JS 写的 launcher `⨀`
-  - [Lacona](https://www.lacona.io/): 类似 spotlight。但更酷 `Ⓜ`
 - [Raycast](https://www.raycast.com/): 免费的 Launcher 工具，功能似乎比 Alfred 做得更好。
   - [raycast/script-commands](https://github.com/raycast/script-commands)
 - [Copyless](http://copyless.net): 系统剪切板管理器
@@ -43,7 +41,7 @@
   - [SwitchHosts](https://github.com/oldj/SwitchHosts): 备选方案
 - Amphetamine: 控制 Mac 系统不休眠，可定时 `Ⓜ`
 - [HyperDock](https://bahoom.com/hyperdock): Mac Dock 栏增强
-- [Pixave](http://www.littlehj.com/mac/): 素材管理器
+- [Eagle](https://eagle.cool/): 素材管理器。支持 MacOS/Windows
 - [Sloth](https://github.com/sveinbjornt/Sloth): 查看进程相关的文件。lsof 的 GUI 版
 - [ColorSlurp](https://itunes.apple.com/cn/app/colorslurp/id1287239339): 取色器，免费的。 `Ⓜ`
   - [Sip](http://sipapp.io): 备选方案。体验更好。价格贵，年付。 `Ⓜ`
@@ -89,7 +87,7 @@
 
 - [m-cli](https://github.com/rgcr/m-cli): 很方便的 Mac 相关的命令行工具
 - [Homebrew](http://brew.sh): Mac 软件管理器 `Ⓜ`
-- [Homebrew Cask](https://caskroom.github.io): Mac App 软件管理器 `Ⓜ`
+- [Homebrew Cask](https://github.com/Homebrew/homebrew-cask): Mac App 软件管理器 `Ⓜ`
 - [mas](https://github.com/mas-cli/mas): 用命令操作 Mac App Store
 - `brew info gnupg`: Mac 安装 gpg
 - `brew info coreutils`: Mac 下使用 GNU coreutils，比如 realpath
