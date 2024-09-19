@@ -50,7 +50,8 @@
   - [httpie](https://github.com/jakubroztocil/httpie/): a CLI, cURL-like tool for humans
 - [htrace.sh](https://github.com/trimstray/htrace.sh): Swiss Army knife for http/https troubleshooting and profiling.
 - [Paw/RapidAPI](https://paw.cloud): Mac 平台的 API 客户端，功能强大，颜值很高  `Ⓜ`
-- [ATAC](https://github.com/Julien-cpsn/ATAC): 运行在终端的类似 POSTMAN 的 API 客户端工具。
+- [posting](https://github.com/darrenburns/posting): 运行在终端的类似 POSTMAN 的 API 客户端工具。交互设计很好。
+  - [ATAC](https://github.com/Julien-cpsn/ATAC): 备选方案
 - [restcli](https://github.com/restcli/restcli): CLI for IntelliJ http-request.
 - [IntelliJ HTTP request syntax](https://www.jetbrains.com/help/idea/exploring-http-syntax.html#using_request_vars)
 - better `traceroute`
@@ -111,7 +112,8 @@
 - [NextDNS](https://nextdns.io): 功能很强大，类似 AdGuard 的功能，但免部署，开箱即用。自定义安全设置，自定义黑名单、白名单，提供日志和访问统计（建议把日志存储在欧盟或者瑞士）。支持 DoT/DoH/IPv4/IPv6。不同配置提供不同的 DNS 子域名。最关键的是国外的服务但是在中国延迟很低。
 - [Google Public DNS](https://developers.google.com/speed/public-dns/docs/using): 8.8.8.8
 - [Cloudflare Public DNS](https://1.1.1.1/dns/): 1.1.1.1 DoH/DoT 在国内可用
-- [Quad101](https://101.101.101.101/): 101.101.101.101 DoH/DoT 在国内可用。速度比 Cloudflare 的快一点。
+- [Quad101](https://101.101.101.101/): 101.101.101.101 台湾服务器。支持 DoH/DoT，在国内可用。速度比 Cloudflare 的快一点。
+- HiNet 中華電信: 168.95.1.1 或 168.95.192.1 台湾服务器。不支持 DoH/DoT。国内访问速度很快。
 - [Quad9](https://quad9.net/): 9.9.9.9
 - https://dns.sb/: 有亚洲日本 DNS 节点，ping 值在 70 左右。DoH/DoT 在国内不可用
 - [Cisco Umbrella](https://umbrella.cisco.com/products/recursive-dns-services): Cisco 的公共 DNS 服务，国内访问速度不错。比 Cloudflare DNS 和 Google DNS 都快。

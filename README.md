@@ -539,6 +539,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [trix](https://github.com/basecamp/trix)
 - [editor.js](https://github.com/codex-team/editor.js): A block-styled editor with clean JSON output
 - [lexical](https://github.com/facebook/lexical): facebook 出品
+- [plate](https://github.com/udecode/plate): The rich-text editor for React.
 
 ### Online IDE
 
@@ -589,6 +590,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## 终端 Terminal
 
 - [iTerm2](https://www.iterm2.com): Mac 系统，推荐用这个终端 `Ⓜ`
+- [warp](https://www.warp.dev/): 集成 AI 的终端，挺有意思的。缺点也很明显，必须用它这一套，不兼容 tmux。PS1 被强制替换掉了，跟其他软件不好配合。
 - [Windows Terminal](https://github.com/microsoft/terminal): Windows 系统，推荐用这个终端 `ⓦ`
   - [cmder](https://github.com/cmderdev/cmder): 备选方案
 - [Hyper](https://github.com/zeit/hyper): 用前端技术栈做的终端。非常酷炫 `⨀`
@@ -602,9 +604,9 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - diff: linux 内置命令
 - diffstat: linux 内置命令 `diff -u | diffstat -C`
-- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): diff 文件内容的着色增强工具，不支持语义化 diff。不支持双列 (side-by-side)。
 - [delta](https://github.com/dandavison/delta): 语义化 Diff，功能丰富。Git 配置不友好。支持双列、git blame、git grep。
   - [difftastic](https://github.com/Wilfred/difftastic): 基于 tree-sitter 的 diff。Git 配置不友好
+  - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 备选方案。diff 文件内容的着色增强工具，不支持语义化 diff。不支持双列 (side-by-side)。
 - [diff2html-cli](https://github.com/rtfpessoa/diff2html-cli): 将 diff 文件转成 HTML 页面的形式预览。非常漂亮
   - https://diffy.org/ : 在线服务，支持链接共享。
 - [Kaleidoscope](https://kaleidoscope.app/): Diff GUI 软件。支持比较文本、图片、目录。只支持 MacOS。
@@ -826,6 +828,15 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat): 开源版 Slack。built with Meteor
 - [Mattermost](https://mattermost.com/)
+- Matrix Client
+  - [Element](https://matrix.org/ecosystem/clients/element/): Matrix.org 官方出品，功能最全，UI 还不错。全平台支持。
+  - [cinny](https://matrix.org/ecosystem/clients/cinny/): UI 简洁，功能简陋
+  - https://iamb.chat/ : 运行在终端的客户端
+- Matrix Server
+  - [synapse](https://github.com/element-hq/synapse): Synapse: Matrix homeserver written in Python/Twisted
+  - [conduwuit](https://github.com/girlbossceo/conduwuit): 与 conduit 的[差异](https://conduwuit.puppyirl.gay/differences.html)
+  - [conduit](https://gitlab.com/famedly/conduit): Matrix homeserver written in Rust
+  - [dendrite](https://github.com/matrix-org/dendrite): Matrix homeserver written in Go
 
 ## [Git](./git.md)
 
@@ -1022,6 +1033,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - https://it-tools.tech/ : 开源的，可以用 Docker 自部署。
 - https://extendsclass.com/ : 有语法校验器，加/解密，格式转换，Diff 工具，各种生成器，前端压缩等工具。
 - https://cloudconvert.com/ : 在线服务，万能的格式转换器
+  - https://convertio.co/ : 备用服务
+- https://ipcheck.ing/ :  IP 工具箱。轻松检查你的 IP，IP 地理位置，检查 DNS 泄漏，检查 WebRTC 连接，速度测试，ping 测试，MTR 测试，检查网站可用性，查询 Whois 信息等等。可自部署，源码见 [MyIP](https://github.com/jason5ng32/MyIP)。
 
 ### 自部署的服务 (Self-Host Service)
 
@@ -1191,6 +1204,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## 日志
 
 - [goaccess](https://github.com/allinurl/goaccess): GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.
+- [lnav](https://lnav.org/): 日志文件的终端浏览器
 
 ## 交互式 Notebook
 
@@ -1257,8 +1271,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [KVM](https://www.linux-kvm.org/page/Main_Page): 开源免费，最强大的虚拟化工具
 - [kimchi](https://github.com/kimchi-project/kimchi): Kimchi manages KVM guests through libvirt. The management interface is accessed over the web using a browser that supports HTML5.
 - [WebVirtCloud](https://github.com/retspen/webvirtcloud): virtualization web interface for admins and users
-- [barrier](https://github.com/debauchee/barrier): KVM switch over http
-  - [TinyPilot](https://github.com/tiny-pilot/tinypilot): KVM over IP
 
 ## 模板引擎
 
@@ -1356,6 +1368,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ### 文档检查
 
 - [lychee](https://github.com/lycheeverse/lychee): 命令行工具，检查文档中的链接和邮件地址是否有效
+  - [lychee-action](https://github.com/lycheeverse/lychee-action): 用 github action 自动检查
   - [markdown-link-check](https://github.com/tcort/markdown-link-check): 备用方案。没人维护。JS 写的
 
 ### 文档排版

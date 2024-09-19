@@ -16,6 +16,9 @@
 - [Magisk](https://github.com/topjohnwu/Magisk)
 - [Android File Transfer](https://www.android.com/filetransfer/): Android 手机与电脑传输文件
 - [adoyle-h/android-unpackbootimg](https://github.com/adoyle-h/android-unpackbootimg): boot.img 解包和封包的工具。action 里有编译好的文件。arm64 和 x86 的。
+- [gkd](https://github.com/gkd-kit/gkd): 基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用。[使用简介](https://github.com/just-talks/tech-talks/discussions/68)
+  - [AIsouler/GKD_subscription](https://github.com/AIsouler/GKD_subscription): GKD 第三方订阅规则
+  - [其他 GKD 第三方规则](https://github.com/topics/gkd-subscription)
 
 ## Xposed
 

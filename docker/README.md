@@ -46,7 +46,8 @@
 
 ## 镜像加速
 
-- https://dockerhub.icu/
+- https://dockerpull.com/
+<!-- - https://dockerhub.icu/ -->
 <!-- - [南京大学镜像站](https://doc.nju.edu.cn/books/35f4a): 支持 Docker Hub, GCR, GHCR, NGC, QUAY。 -->
 <!-- - [Docker Proxy](https://dockerproxy.com/docs): 支持 Docker Hub, GCR, K8S.GCR, GHCR, QUAY。 -->
 - 更多详见 https://gist.github.com/y0ngb1n/7e8f16af3242c7815e7ca2f0833d3ea6

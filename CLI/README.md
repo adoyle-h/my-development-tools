@@ -69,7 +69,7 @@
 - [carbonyl](https://github.com/fathyb/carbonyl): 在终端运行 Chromium。
 - [glow](https://github.com/charmbracelet/glow): markdown 终端阅读工具
 - [theme.sh](https://github.com/lemnos/theme.sh): shell 配色设置，动态预览
-- [lnav](https://lnav.org/): 日志文件浏览器
+- [lnav](https://lnav.org/): 日志文件的终端浏览器
 
 ## [Shell Script Development](../shell-script/README.md)
 
@@ -152,6 +152,9 @@
 
 - [ranger](https://github.com/ranger/ranger): Python 实现的
 - [nnn](https://github.com/jarun/nnn): C 实现的
+- [yazi](https://github.com/sxyazi/yazi): 待评价
+  - [kanagawa.yazi](https://github.com/dangooddd/kanagawa.yazi): 主题配色
+  - [yazi.nvim](https://github.com/mikavilpas/yazi.nvim): yazi 的 nvim 插件
 
 ## 文件重命名
 

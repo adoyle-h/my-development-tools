@@ -13,14 +13,15 @@
 - [线上平台与社区](#线上平台与社区)
     - [AI Image](#ai-image)
 - [AI 工具集](#ai-工具集)
-- [生成器](#生成器)
+- [音乐生成](#音乐生成)
 - [数字人](#数字人)
 - [可视化](#可视化)
 - [Chat](#chat)
 - [Diffusion 模型](#diffusion-模型)
-- [Stable Diffusion](#stable-diffusion)
+- [图片生成](#图片生成)
     - [Stable Diffusion Prompt](#stable-diffusion-prompt)
 - [Prompt 工程](#prompt-工程)
+    - [Prompt 优化工具](#prompt-优化工具)
     - [Prompt 快捷指令](#prompt-快捷指令)
 - [强化学习 (Reinforcement Learning)](#强化学习-reinforcement-learning)
 - [AutoML](#automl)
@@ -83,7 +84,7 @@ text-to-image 社区
 - https://flowgpt.ai/ : 这个工具能够用流程图的形式，把 ChartGPT 问答串联起来。适合做教学模板。
 - https://www.chatpdf.com/ : 帮助用户阅读电子书
 
-## 生成器
+## 音乐生成
 
 - https://mubert.com/ : 根据文字生成音乐
 
@@ -109,8 +110,9 @@ text-to-image 社区
 - [ControlNet](https://github.com/lllyasviel/ControlNet): 通过添加额外的条件来控制 Diffusion 模型
 - [deep-floyd/IF](https://github.com/deep-floyd/IF)
 
-## Stable Diffusion
+## 图片生成
 
+- [flux](https://github.com/black-forest-labs/flux): 开源的模型。很强大。效果比肩 Midjourney。
 - [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion): A latent text-to-image diffusion model
 - [Stability-AI/stablediffusion](https://github.com/Stability-AI/stablediffusion): High-Resolution Image Synthesis with Latent Diffusion Models
   - https://huggingface.co/stabilityai/stable-diffusion-2-base
@@ -119,6 +121,7 @@ text-to-image 社区
   - [stable-diffusion-webui-chinese](https://github.com/VinsonLaro/stable-diffusion-webui-chinese): WebUI 中文语言包
   - [cmdr2/stable-diffusion-ui](https://github.com/cmdr2/stable-diffusion-ui): 备选方案
 - [Draw Things](https://drawthings.ai/): Mac/iPhone 平台可用的 stable diffusion，支持自定义模型、Lora、ControlNet。[没有 token 限制](https://www.reddit.com/r/StableDiffusion/comments/yqknyp/comment/jeo594i/?utm_source=share&utm_medium=web2x&context=3)
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI): 用图形化界面、工作流操作 SD/Flux 等模型。
 
 ### Stable Diffusion Prompt
 
@@ -135,6 +138,10 @@ text-to-image 社区
 - [ChatGPT 中文调教指南](https://chatguide.plexpt.com/)
 - [Prompt 常用模式](https://www.clickprompt.org/zh-CN/chatgpt-general/)
 - [Learn Prompting](https://learnprompting.org/zh-Hans/docs/intro)
+
+### Prompt 优化工具
+
+- [ChatGPT - Prompt Optimizer](https://chatgpt.com/g/g-SsB4aTVgM-prompt-optimizer/c/66deda1d-4234-8013-baa3-a12401abd716)
 
 ### Prompt 快捷指令
 

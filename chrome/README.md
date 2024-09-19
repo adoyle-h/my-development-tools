@@ -63,6 +63,7 @@
 - [Volume Master](https://chromewebstore.google.com/detail/volume-master-%E9%9F%B3%E9%87%8F%E6%8E%A7%E5%88%B6%E5%99%A8/jghecgabfgfdldnmbfkhmffcabddioke): 给每个网页单独调整音量，音量范围 0-600%。
 - [Cleaner - history & cache clean](https://chromewebstore.google.com/detail/pooaemmkohlphkekccfajnbcokjlbehk): 自动清理历史记录
 - [沉浸式翻译](https://github.com/immersive-translate/immersive-translate): 浏览器插件，开源免费，体验很好。
+- [WebRTC Leak Shield](https://chromewebstore.google.com/detail/webrtc-leak-shield/bppamachkoflopbagkdoflbgfjflfnfl): 防止 WebRTC 泄露本机 IP。注意：不要用 google 的 [WebRTC Network Limiter](https://chromewebstore.google.com/detail/WebRTC%20Network%20Limiter/npeicpdbkakmehahjeeohfdhnlpdklia)，没有用。
 
 ## 油猴脚本
 

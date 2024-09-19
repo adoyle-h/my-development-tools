@@ -20,6 +20,7 @@
 - [包管理器](#包管理器)
 - [硬件信息](#硬件信息)
 - [IPMI/BMC](#ipmibmc)
+- [KVM Switch](#kvm-switch)
 - [随身 WiFi](#随身-wifi)
 - [串口](#串口)
 - [CNC 数控机床](#cnc-数控机床)
@@ -112,6 +113,11 @@
 
 - [pikvm](https://github.com/pikvm/pikvm)
 - [OpenBMC](https://github.com/facebook/openbmc)
+
+## KVM Switch
+
+- [barrier](https://github.com/debauchee/barrier): KVM switch over http
+- [TinyPilot](https://github.com/tiny-pilot/tinypilot): KVM over IP
 
 ## 随身 WiFi
 
