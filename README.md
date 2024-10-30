@@ -45,6 +45,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [教你搜索](#教你搜索)
     - [历史遗珠](#历史遗珠)
     - [社区](#社区)
+- [浏览器](#浏览器)
 - [输入法](#输入法)
 - [手册](#手册)
     - [Cheatsheet 管理器](#cheatsheet-管理器)
@@ -75,6 +76,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [代码质量检查](#代码质量检查)
 - [安全渗透](#安全渗透)
     - [密码](#密码)
+    - [爆破字典](#爆破字典)
     - [社工库](#社工库)
     - [漏洞信息平台 CVE](#漏洞信息平台-cve)
     - [漏洞靶场](#漏洞靶场)
@@ -270,6 +272,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [Tech Talks](https://github.com/just-talks/tech-talks): 纯技术交流的中文论坛。
 - [V2EX](http://www.v2ex.com/): 创意工作者们的社区。
+
+## 浏览器
+
+- [neko](https://github.com/m1k1o/neko): 在容器里运行浏览器
+- [Tor](https://www.torproject.org/): 专注于用户隐私的浏览器。需要翻墙
 
 ## 输入法
 
@@ -473,6 +480,16 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [John the Ripper jumbo](https://github.com/openwall/john): mac 用户用 `brew install john-jumbo` 安装，不要安装 `brew install john`，前者有更多功能。
 - [hashcat](https://github.com/hashcat/hashcat): 很快的密码破解工具
 - [gitleaks](https://github.com/gitleaks/gitleaks): 检测 git 提交历史是否存在密码泄露
+
+### 爆破字典
+
+- [pydictor](https://github.com/LandGrey/pydictor): 字典生成工具
+- https://github.com/berzerk0/Probable-Wordlists
+- https://github.com/jeanphorn/wordlist
+- https://github.com/rootphantomer/Blasting_dictionary
+- https://github.com/shadowabi/S-BlastingDictionary
+- https://github.com/TheKingOfDuck/fuzzDicts
+- https://github.com/zxcvbn001/password_brute_dictionary
 
 ### 社工库
 
@@ -1045,6 +1062,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [rustdesk](https://github.com/rustdesk/rustdesk): 开源的远程控制软件 (VNC)。支持手机控制电脑，电脑控制手机。支持全平台、多语言。国产软件。
   - [rustdesk-server](https://github.com/rustdesk/rustdesk-server): 自建中继服务器
 - [webhook](https://github.com/adnanh/webhook): a lightweight incoming webhook server to run shell commands
+- [enclosed](https://github.com/CorentinTh/enclosed): 阅后即焚服务
 
 ### 评论系统
 

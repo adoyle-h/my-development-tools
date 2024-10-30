@@ -7,6 +7,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [网站质量监测 (BOCE)](#网站质量监测-boce)
 - [网络命令](#网络命令)
 - [防火墙](#防火墙)
 - [IP](#ip)
@@ -33,9 +34,14 @@
 - https://tool.chinaz.com/ : 网站网络状态排查工具 (国内)
 - https://check-host.net/ : 网站网络状态排查工具 (国外)
 - Linux 命令: `ping`, `nc`, `mtr`, `netstat`, `nettop`, `iftop`
-- 网络拨测工具
-  - https://boce.aliyun.com/detect/http 支持 http/ping/dns/mtr/tranceroute
-- [域名污染检测](https://www.boce.com/pollute)
+
+## 网站质量监测 (BOCE)
+
+- [ITDOG](https://www.itdog.cn/): 可从各地区、各线路发起持续的测试。可视化地图显示结果。
+- https://boce.aliyun.com/detect/http : 支持 http/ping/dns/mtr/tranceroute
+- https://www.boce.com/
+  - [域名污染检测](https://www.boce.com/pollute)
+  - [域名劫持检测](https://www.boce.com/hijack)
 
 ## 网络命令
 
@@ -136,6 +142,8 @@
 ## 抓包、流量分析
 
 - [wireshark](https://www.wireshark.org/): 功能非常强大，面向专业用户。能够抓 HTTP/TCP/UDP 包。条件查询功能很丰富。
+  - tshark: Wireshark 的命令行工具。安装 Wireshark 后自带的。
+  - [termshark](https://github.com/gcla/termshark): tshark 的 TUI 交互界面。但是项目没人维护了。
 - [mitmproxy](https://mitmproxy.org/): 命令行版抓包工具。4 种模式，3 种命令行 mitmproxy/mitmdump/mitmweb。mitmweb 提供 web 服务端。
 - [whistle](https://github.com/avwo/whistle): 用 NodeJS 实现的跨平台 HTTP, HTTPS, WebSocket 调试工具
   - [iProxy](https://github.com/xcodebuild/iProxy): 备选方案
