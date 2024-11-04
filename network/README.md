@@ -124,6 +124,7 @@
 - https://dns.sb/: 有亚洲日本 DNS 节点，ping 值在 70 左右。DoH/DoT 在国内不可用
 - [Cisco Umbrella](https://umbrella.cisco.com/products/recursive-dns-services): Cisco 的公共 DNS 服务，国内访问速度不错。比 Cloudflare DNS 和 Google DNS 都快。
 - [AdGuard 信任的 DNS 供应商名单](https://adguard-dns.io/kb/zh-CN/general/dns-providers/)
+- [encrypted-dns](https://github.com/paulmillr/encrypted-dns): DNS over HTTPS config profiles for iOS & macOS
 
 ## HTTP 服务
 

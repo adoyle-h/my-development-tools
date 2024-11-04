@@ -903,6 +903,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 <a name="KeePass"></a>
 - [KeePass](http://keepass.info): 密码管理器
   - 推荐将密码文件保存到（私有）网盘里，避免密码文件丢失。
+  - [keepass-diff](https://github.com/Narigo/keepass-diff): A CLI-tool to diff Keepass (.kdbx) files. Useful, if syncing with Dropbox or NextCloud and getting multiple files due to conflicts.
 - [KeePassXC](https://keepassxc.org/): [KeePass][] 的 GUI 客户端，跨平台。功能比 KeeWeb 强：可以随系统自启动，密码统计分析，密码健康检查等功能。
   - [KeePassXC-Browser](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk): Chrome 插件，自动填充功能比 keeweb-connect 优秀
 - [KeeWeb](https://github.com/keeweb/keeweb): 备选方案。[KeePass][] 的 GUI 客户端，跨平台
