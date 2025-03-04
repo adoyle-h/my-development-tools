@@ -70,7 +70,8 @@
 
 - https://duangks.com/ : 很好用机场评测网站。提供节点分析、流媒体解锁分析、测速图。
 - https://guatizi.com/ : 很好用机场导航
-- [蓝色海洋](https://sB181Z.allblueaff.com/FHFD7uaF): 比较稳定，速度快。2024 年涨价了，性价比还行。
+- [CyberGuard](https://www.cyberguard.best/#/register?code=Z0C5SDfY): 速度快，全节点 trojan 协议，无审计。
+- [蓝色海洋](https://sB181Z.allblueaff.com/FHFD7uaF): 比较稳定，速度快。2024 年涨价了，性价比还行。有审计。
 - [xfltd](https://xfltd.org/#/register?code=y8yKhElL): 非常便宜，性价比高，提供不限时按量套餐，延迟有点高。不稳定，经常被人攻击。有审计名单，某些涉政网站无法访问。
 - [苏打云](https://v2.suda.moe/): 价格亲民。速度挺快。不稳定，在不能说的日子会必挂。
 - 免费机场，后果自负

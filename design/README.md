@@ -201,6 +201,7 @@
 - [cssicon](https://github.com/wentin/cssicon): 完全用 CSS 做的 Icon
 - [devicon](https://github.com/devicons/devicon): Set of icons representing programming languages, designing & development tools
 - [IconPark](https://github.com/bytedance/IconPark): 支持 React/Vue/SVG 的开源图标库，字节跳动出品。
+- [dashboard-icons](https://github.com/homarr-labs/dashboard-icons): The best source for dashboard icons.
 
 ## Typography
 

@@ -46,7 +46,7 @@
 - [EditThisCookie](https://github.com/fcapano/Edit-This-Cookie): Cookie 编辑器
 - [Wikiwand](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj): 自动将 Wikipedia 的链接跳转到 Wikiwand
 - [hn-special](https://github.com/gabrielecirulli/hn-special): 美化 Hacker News 的界面，交互体验做得非常棒，支持亮/暗色系。
-- [uBlock](https://github.com/uBlock-LLC/uBlock): 开源的。跟 AdBlock 功能类似。AdBlock 会允许部分广告。uBlock 会阻止所有广告。不支持全局的过滤统计。
+- [uBlock](https://github.com/gorhill/uBlock): 开源的。跟 AdBlock 功能类似。AdBlock 会允许部分广告。uBlock 会阻止所有广告。不支持全局的过滤统计。
 - [AdBlock](http://getadblock.com/): 闭源的。广告屏蔽插件。AdBlock 会和知乎首页起冲突。支持过滤统计。
 - [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg): 截图插件。支持捕捉整个页面或者选定 DOM。支持导出 PDF。
 - [MinerBlock](https://github.com/xd4rker/MinerBlock): 如果网页中藏有挖矿脚本，它会提示你

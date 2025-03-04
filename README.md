@@ -472,6 +472,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [falco](https://github.com/falcosecurity/falco): 「待评价」intrusion and abnormality detection for Cloud Native platforms such as Kubernetes, Mesosphere, and Cloud Foundry. Detect abnormal application behavior.
 - [fail2ban](https://github.com/fail2ban/fail2ban): 入侵防御软件
 - [nmap](https://github.com/nmap/nmap): 网络扫描工具
+- [rustscan](https://github.com/RustScan/RustScan): Scans all 65k ports in 3 seconds.
 - [Metasploit](https://github.com/rapid7/metasploit-framework)
 - [Tiger](https://www.nongnu.org/tiger/): The Unix security audit and intrusion detection tool
 
@@ -1100,9 +1101,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## 临时共享
 
 - [奶牛快传](https://cowtransfer.com/) : 临时文件分享，很好用。国内服务
-- https://snapdrop.net/ : 通过网页在局域网内端到端传输文件，可用 Docker 自己部署
-  - [源码](https://github.com/RobinLinus/snapdrop)
-- [localsend](https://github.com/localsend/localsend): 类似 snapdrop。只不过是安装 app，不是网页形式。全平台支持。
+- [PairDrop](https://github.com/schlagmichdoch/PairDrop): 通过网页在局域网内端到端传输文件和消息。可用 Docker 自己部署。
+- [localsend](https://github.com/localsend/localsend): 类似 PairDrop。只不过是安装 app，不是网页形式。全平台支持。
 - https://wormhole.app/ : 端到端加密，自动过期，单个文件最大 10 GB
 - [transfer.sh](https://github.com/dutchcoders/transfer.sh): 共享文件的命令行程序
 - [OnionShare](https://github.com/onionshare/onionshare): 开源工具，可让您使用 Tor 网络安全、匿名地共享文件、托管网站并与朋友聊天。
