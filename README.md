@@ -731,8 +731,9 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## Mock
 
-- [mockbin](https://mockbin.com/): Mock, Test & Track HTTP Requests and Responses
-  - https://github.com/Mashape/mockbin
+- [jsoning](https://jsoning.com/api/): Mock API for testing and prototyping
+- [insomnia](https://insomnia.rest): Mock, Test & Track HTTP Requests and Responses
+  - https://github.com/Kong/insomnia-mockbin
 
 ## 网站
 
