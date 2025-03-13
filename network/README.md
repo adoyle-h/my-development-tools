@@ -110,15 +110,16 @@
   - [SmartDNS](https://github.com/pymumu/smartdns)
   - [Pi-hole](https://pi-hole.net/)
 - [AdBlock-Acceleration](https://github.com/Silentely/AdBlock-Acceleration): 提供各大规则项目的国内加速链接
-- [dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list): 基于 dnsmasq 的 DNS 分流规则。数据比较全。可以自己写脚本改成别的格式。
-  - [dnsmasq-china-list/bogus-nxdomain](https://github.com/felixonmars/dnsmasq-china-list/blob/master/bogus-nxdomain.china.conf) 某些运营商会将不存在的域名解析重定向到有广告的 IP 上，该文件统计了这些有问题的 IP。你可以在比如 adguard home 的 `dns.bogus_nxdomain` 配置过滤这些 IP。
+
+分流规则请看 [../network/README.md](../network/README.md)。
 
 ### 公共 DNS
 
 - [NextDNS](https://nextdns.io): 功能很强大，类似 AdGuard 的功能，但免部署，开箱即用。自定义安全设置，自定义黑名单、白名单，提供日志和访问统计（建议把日志存储在欧盟或者瑞士）。支持 DoT/DoH/IPv4/IPv6。不同配置提供不同的 DNS 子域名。最关键的是国外的服务但是在中国延迟很低。
 - [Google Public DNS](https://developers.google.com/speed/public-dns/docs/using): 8.8.8.8
 - [Cloudflare Public DNS](https://1.1.1.1/dns/): 1.1.1.1 DoH/DoT 在国内可用
-- [Quad101](https://101.101.101.101/): 101.101.101.101 台湾服务器。支持 DoH/DoT，在国内可用。速度比 Cloudflare 的快一点。
+- [Quad101](https://101.101.101.101/): 101.101.101.101 台湾服务器。支持 DoH/DoT，在国内可用。DoT 不可用。速度比 Cloudflare 的快一点。
+- [doh.apad.pro](https://apad.pro/dns-doh/): 现不可用。国内无污染 DNS 分流 DoH。国内上游使用 360DNS，国外使用 GoogleDNS 与 CloudflareDNS。基于 [easymosdns](https://github.com/pmkol/easymosdns) 搭建的。
 - HiNet 中華電信: 168.95.1.1 或 168.95.192.1 台湾服务器。不支持 DoH/DoT。国内访问速度很快。
 - [Quad9](https://quad9.net/): 9.9.9.9
 - https://dns.sb/: 有亚洲日本 DNS 节点，ping 值在 70 左右。DoH/DoT 在国内不可用

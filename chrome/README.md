@@ -25,7 +25,7 @@
 
 ## Chrome 插件
 
-- [SwitchyOmega](https://chromewebstore.google.com/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif): 浏览器内的代理工具
+- [ZeroOmega](https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped): 浏览器内的代理工具。[源码](https://github.com/zero-peak/ZeroOmega)
   - [SwitchyOmega-Whitelist](https://github.com/entr0pia/SwitchyOmega-Whitelist): 白名单规则。默认流量走代理，匹配规则的直连。
 - [Tampermonkey](https://github.com/Tampermonkey/tampermonkey): 开源版油猴。开源前端脚本管理器。
 - [Unsplash Instant](https://chromewebstore.google.com/detail/unsplash-instant/pejkokffkapolfffcgbmdmhdelanoaih): 新标签页壁纸。太美了
@@ -43,7 +43,7 @@
 - [The Marvellous Suspender](https://chromewebstore.google.com/detail/noogafoofpebimajpfpamcfhoaifemoa): 定时释放页面内存，拯救你的内存被 Chrome 吃光。[源码](https://github.com/gioxx/MarvellousSuspender)
   - Fork 自 [The Great Suspender](https://github.com/deanoemcke/thegreatsuspender)，因为[这个原因](https://github.com/greatsuspender/thegreatsuspender/issues/1263)，TGS 有安全问题被 Google 封禁了。
 - [网站 IP](https://chromewebstore.google.com/detail/%E7%BD%91%E7%AB%99ip/eaghlkamibfjbicomdmbbohljdhicpgb)
-- [EditThisCookie](https://github.com/fcapano/Edit-This-Cookie): Cookie 编辑器
+- [EditThisCookie](https://chromewebstore.google.com/detail/editthiscookie-fork/ihfmcbadakjehneaijebhpogkegajgnk): Cookie 编辑器
 - [Wikiwand](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj): 自动将 Wikipedia 的链接跳转到 Wikiwand
 - [hn-special](https://github.com/gabrielecirulli/hn-special): 美化 Hacker News 的界面，交互体验做得非常棒，支持亮/暗色系。
 - [uBlock](https://github.com/gorhill/uBlock): 开源的。跟 AdBlock 功能类似。AdBlock 会允许部分广告。uBlock 会阻止所有广告。不支持全局的过滤统计。
@@ -64,6 +64,11 @@
 - [Cleaner - history & cache clean](https://chromewebstore.google.com/detail/pooaemmkohlphkekccfajnbcokjlbehk): 自动清理历史记录
 - [沉浸式翻译](https://github.com/immersive-translate/immersive-translate): 浏览器插件，开源免费，体验很好。
 - [WebRTC Leak Shield](https://chromewebstore.google.com/detail/webrtc-leak-shield/bppamachkoflopbagkdoflbgfjflfnfl): 防止 WebRTC 泄露本机 IP。注意：不要用 google 的 [WebRTC Network Limiter](https://chromewebstore.google.com/detail/WebRTC%20Network%20Limiter/npeicpdbkakmehahjeeohfdhnlpdklia)，没有用。
+- [SuperCopy](https://chromewebstore.google.com/detail/supercopy-%E8%B6%85%E7%BA%A7%E5%A4%8D%E5%88%B6/onepmapfbjohnegdmfhndpefjkppbjkm): 超级复制
+- [HN Special](https://chromewebstore.google.com/detail/hn-special-an-addition-to/cchaceegbflphbdpfocjalgjhjoahiia): An addition to Hacker News
+- [minerBlock](https://chromewebstore.google.com/detail/minerblock/emikbbbebcdfohonlaifafnoanocnebl): block browser-based cryptocurrency miners all over the web.
+- [Sourcegraph](https://chromewebstore.google.com/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack): Adds code intelligence to GitHub, GitLab, and other hosts: hovers, definitions, references. For 20+ languages.
+- [OctoLinker](https://chromewebstore.google.com/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp): [源码](https://github.com/OctoLinker/OctoLinker)
 
 ## 油猴脚本
 

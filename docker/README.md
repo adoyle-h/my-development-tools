@@ -48,6 +48,7 @@
 
 - ghcr.io -> ghcr.nju.edu.cn or ghcr.chenby.cn
 - docker.io -> docker.1ms.run
+- [CF-Workers-docker](https://github.com/cmliu/CF-Workers-docker.io): 用 cloudflare worker 自建 Docker Hub, K8S, GCR, GHCR, QUAY 代理。 **有封号风险，建议使用新账号和新域名创建。**
 <!-- - https://dockerpull.com/ -->
 <!-- - https://dockerhub.icu/ -->
 <!-- - [南京大学镜像站](https://doc.nju.edu.cn/books/35f4a): 支持 Docker Hub, GCR, GHCR, NGC, QUAY。 -->

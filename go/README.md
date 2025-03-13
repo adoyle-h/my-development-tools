@@ -79,7 +79,7 @@
 ## Logger
 
 - [zap](https://github.com/uber-go/zap)
-- [logrus](https://github.com/sirupsen/logrus)
+- [zerolog](https://github.com/rs/zerolog)
 
 ## 模板引擎
 

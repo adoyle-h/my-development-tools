@@ -58,9 +58,16 @@
 - [proxypool](https://github.com/zu1k/proxypool): 自动抓取tg频道、订阅地址、公开互联网上的ss、ssr、vmess、trojan节点信息，聚合去重后提供节点列表
 - [anti-AD](https://github.com/privacy-protection-tools/anti-AD): DNS 反广告和反跟踪规则
 - [Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever): ShadowRocket 专用。分流+去广告。
-- [clash-rules](https://github.com/Loyalsoldier/clash-rules): Clash Premium 规则集
-- [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat): GEOIP 规则，dat 和 mmdb
-- [ios_rule_script](https://github.com/blackmatrix7/ios_rule_script): 分流规则很丰富，可以复用
+- [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules): Clash Premium 规则集。注：README 里的白名单和黑名单推荐配置有很多重复的地方，建议自己重写配置。
+- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat): V2Ray geoip/geosite 加强版，可代替 V2Ray 官方 geoip/geosite。适用于 V2Ray、Xray-core、mihomo、hysteria、Trojan-Go、leaf。
+  - [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip): 与 v2ray-rules-dat 搭配使用。
+  - [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat): 备选方案。mihomo 维护的 geoip、geosite、mmdb
+  - [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community): V2Ray 官方 geoip/geosite
+  - 注：GEOIP/GEOSITE 与 RULE-SET 功能重叠，一般用 RULE-SET 即可，GEOIP/GEOSITE 不太有必要。
+- [ios_rule_script](https://github.com/blackmatrix7/ios_rule_script): 分流规则很丰富，可以复用指定分类的规则
+  - [clash 分流规则分类](https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/README.md)
+- [dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list): 基于 dnsmasq 的 DNS 分流规则。数据比较全。可以自己写脚本改成别的格式。
+  - [dnsmasq-china-list/bogus-nxdomain](https://github.com/felixonmars/dnsmasq-china-list/blob/master/bogus-nxdomain.china.conf) 某些运营商会将不存在的域名解析重定向到有广告的 IP 上，该文件统计了这些有问题的 IP。你可以在比如 adguard home 的 `dns.bogus_nxdomain` 配置过滤这些 IP。
 
 ### VPN
 

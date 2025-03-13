@@ -75,6 +75,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [SVG](#svg)
 - [代码质量检查](#代码质量检查)
 - [安全渗透](#安全渗透)
+    - [蜜罐 Honeypot](#蜜罐-honeypot)
     - [密码](#密码)
     - [爆破字典](#爆破字典)
     - [社工库](#社工库)
@@ -162,6 +163,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [PaaS](#paas)
 - [虚拟主机 (Web Hosting Account)](#虚拟主机-web-hosting-account)
 - [Serverless](#serverless)
+    - [Cloudflare](#cloudflare)
 - [microVM](#microvm)
 - [跳板机/堡垒机](#跳板机堡垒机)
 - [REPL](#repl)
@@ -476,6 +478,10 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Metasploit](https://github.com/rapid7/metasploit-framework)
 - [Tiger](https://www.nongnu.org/tiger/): The Unix security audit and intrusion detection tool
 
+### 蜜罐 Honeypot
+
+- https://github.com/paralax/awesome-honeypots/
+
 ### 密码
 
 - [John the Ripper jumbo](https://github.com/openwall/john): mac 用户用 `brew install john-jumbo` 安装，不要安装 `brew install john`，前者有更多功能。
@@ -745,6 +751,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - https://perma.cc/ : 备用方案
 - [sitemap.js](https://github.com/ekalinin/sitemap.js): 生成 sitemap 的工具
 - [Favicon 生成器](https://realfavicongenerator.net/)
+  - [websiteplanet - favicon-generator](https://www.websiteplanet.com/zh-hans/webtools/favicon-generator/): 支持 gif
 - [rrweb](https://github.com/rrweb-io/rrweb): 网页浏览录制和回放
   - [Open Replay](https://github.com/openreplay/openreplay)
 - [umami](https://github.com/mikecao/umami): website analytics alternative to Google Analytics.
@@ -1092,6 +1099,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [Maestral](https://maestral.app/): 开源的 Dropbox 客户端。有 CLI 工具，支持 Linux。
 - [Nextcloud](https://github.com/nextcloud/server): 开源的网盘方案，客户端支持很多平台。用户体验很好，可与商业产品竞争。支持插件。
   - [linuxserver/nextcloud](https://hub.docker.com/r/linuxserver/nextcloud): nextcloud 官方的 AIO 镜像太烂，推荐用 linuxserver 的
+  - Android 的 Nextcloud 客户端不要从 Google Play 下载，因为它会限制从 Nextcloud 下载 APK 文件。推荐从 F-Droid 下载。
 - [Seafile](https://github.com/haiwen/seafile)
 - [Trainbit](https://trainbit.com/)
 - [百度网盘秒传链接转存](https://rapidupload.1kbtool.com/)
@@ -1178,8 +1186,13 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [apex/up](https://github.com/apex/up): 值得期待
   - https://hackernoon.com/up-b3db1ca930ee
 - [serverless/serverless](https://github.com/serverless/serverless)
-- https://workers.cloudflare.com/ : cloudflare 提供的边缘计算服务
 - [kubeless](https://github.com/kubeless/kubeless): FaaS in k8s
+
+### Cloudflare
+
+- https://workers.cloudflare.com/ : cloudflare 提供的边缘计算服务
+- [sefinek/Cloudflare-WAF-Expressions](https://github.com/sefinek/Cloudflare-WAF-Expressions): Cloudflare WAF 规则
+  - [SocolSRT/cloudflare-rules](https://github.com/SocolSRT/cloudflare-rules): 同上
 
 ## microVM
 

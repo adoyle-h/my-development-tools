@@ -23,7 +23,7 @@
 - https://ghproxy.link/ : GitHub 文件, Releases, archive, gist, raw.githubusercontent.com 文件代理加速下载服务
   - 当前可用：https://ghfast.top
   - ~~https://ghp.ci/~~ 被墙，不可用
-  - [hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy): 用 cloudflare worker 自建 Github 代理，也支持自部署。
+  - [hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy): 用 cloudflare worker 自建 Github 代理，也支持自部署。 **有封号风险，建议使用新账号和新域名创建。**
 - [all-contributors](https://github.com/all-contributors/all-contributors): 用 `.all-contributorsrc` 文件记录项目维护者列表。
 - [github-contributions-chart](https://github.com/sallar/github-contributions-chart): 生成 Github contributions 图片。
   - [API](https://github.com/sallar/github-contributions-api)
