@@ -26,7 +26,7 @@ jobs:
     outputs:
       md: ${{ steps.changes.outputs.md }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 2
       - uses: dorny/paths-filter@v2
@@ -44,10 +44,10 @@ jobs:
     if: needs.changes.outputs.md == 'true'
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v5
 
       - run: make for-jekyll
 
