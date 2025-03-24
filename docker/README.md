@@ -49,6 +49,7 @@
 - ghcr.io -> ghcr.nju.edu.cn or ghcr.chenby.cn
 - docker.io -> docker.1ms.run
 - [CF-Workers-docker](https://github.com/cmliu/CF-Workers-docker.io): 用 cloudflare worker 自建 Docker Hub, K8S, GCR, GHCR, QUAY 代理。 **有封号风险，建议使用新账号和新域名创建。**
+  - [ciiiii/cloudflare-docker-proxy](https://github.com/ciiiii/cloudflare-docker-proxy): 备选方案
 <!-- - https://dockerpull.com/ -->
 <!-- - https://dockerhub.icu/ -->
 <!-- - [南京大学镜像站](https://doc.nju.edu.cn/books/35f4a): 支持 Docker Hub, GCR, GHCR, NGC, QUAY。 -->
@@ -84,6 +85,8 @@
 
 - [skopeo](https://github.com/containers/skopeo): 替代 `docker images`. Work with remote images registries.
 - [distribution](https://github.com/distribution/distribution): 镜像仓库
+- [harbor](https://github.com/goharbor/harbor): Cloud native registry: With support for both container images and Helm charts, Harbor serves as registry for cloud native environments like container runtimes and orchestration platforms.
+- [zot](https://github.com/project-zot/zot): 轻量级镜像仓库
 
 ## 监控
 

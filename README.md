@@ -2,13 +2,15 @@
 
 ADoyle 的开发工具箱。持续更新中。https://tools.adoyle.me
 
+These documents are written in Chinese. Please use your own translator to translate them into English.
+
 推荐订阅 [Weekly Report](https://github.com/adoyle-h/my-development-tools/discussions/categories/weekly-report)。每周一获取每周总结。
 订阅方法：点击 [Github](https://github.com/adoyle-h/my-development-tools) 右上角的 watch 按钮。
 
 本文档只记录我在用的工具，所以
 
 1. 当我不用了或者找到更好的替代品，会移除旧记录。
-2. 不接受 Pull Request。有想法可以在 [Discussions](https://github.com/adoyle-h/my-development-tools/discussions) 交流。
+2. 不接受 Pull Request。有想法可以在 [Discussions](https://github.com/adoyle-h/my-development-tools/discussions) 交流，或者发邮件给我。
 
 
 在网页端，搜索英文建议用最上方的搜索框，体验比较好。
@@ -16,7 +18,7 @@ ADoyle 的开发工具箱。持续更新中。https://tools.adoyle.me
 
 ## 版权声明 (Copyright and License)
 
-Copyright 2016-2024 ADoyle (adoyle.h@gmail.com). Some Rights Reserved.
+Copyright 2016-2025 ADoyle (adoyle.h@gmail.com). Some Rights Reserved.
 The project is licensed under the **BSD 3-clause License**.
 
 Read the [LICENSE][] file for the specific language governing permissions and limitations under the License.
@@ -335,6 +337,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - `make` 与 `makefile`: 缺点是不能跨平台，优点是能够直接调用 shell 命令和环境变量
   - [Makefile 简易教程](https://seisman.github.io/how-to-write-makefile/introduction.html)
+- [justfile](https://github.com/casey/just): 类似 makefile，但更好用
 - [xmake](https://github.com/xmake-io/xmake): 基于 Lua 的轻量级跨平台构建工具
 - https://danger.systems/ : code review 时挺有用的自动化工具
   - [danger-js](https://github.com/danger/danger-js): JS 版本
@@ -814,6 +817,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [DataGrip](https://www.jetbrains.com/datagrip): 数据库 GUI  `Ⓜ`
 - [mycli](https://github.com/dbcli/mycli): mysql 命令行客户端
 - [pgcli](https://github.com/dbcli/pgcli): postgres 命令行客户端
+- [pgadmin](https://www.pgadmin.org/)
 - [pgweb](https://github.com/sosedoff/pgweb): postgres web 客户端
 - [medis](https://github.com/luin/medis): Redis GUI Client  `Ⓜ`
 - [SQL 速查表](https://github.com/enochtangg/quick-SQL-cheatsheet/blob/master/README_zh-hans.md)

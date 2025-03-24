@@ -148,6 +148,9 @@
   - [sd](https://github.com/chmln/sd): 支持替换换行符（sed 的痛点）
 - better `watch`
   - [entr](https://github.com/eradman/entr/): 监听文件变化，执行命令
+- better `less`
+  - [ov](https://github.com/noborus/ov): Feature-rich terminal-based text viewer. It is a so-called terminal pager.
+  - [viddy](https://github.com/sachaos/viddy): 带有时间记录和回溯功能的 pager
 
 ## 文件管理器
 
