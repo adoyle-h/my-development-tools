@@ -42,6 +42,7 @@
   - [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML): C4 Model
 - [Mermaid](https://github.com/mermaid-js/mermaid): 类似 PlantUML，另一种基于文本生成图的工具
   - [Mermaid Live Editor](https://mermaidjs.github.io/mermaid-live-editor/)
+- [kroki](https://github.com/yuzutech/kroki): Kroki provides a unified API with support for BlockDiag (BlockDiag, SeqDiag, ActDiag, NwDiag, PacketDiag, RackDiag), BPMN, Bytefield, C4 (with PlantUML), D2, DBML, Ditaa, Erd, Excalidraw, GraphViz, Mermaid, Nomnoml, Pikchr, PlantUML, Structurizr, SvgBob, Symbolator, TikZ, UMLet, Vega, Vega-Lite, WaveDrom, WireViz... 支持容器自部署。
 
 ## 画图软件
 
@@ -56,6 +57,7 @@
   - http://processingjs.org/
 - [drawio](https://github.com/jgraph/drawio): 非常优秀的开源在线绘图前端库。各种图都有，支持国际化。
 - https://excalidraw.com/ : 开源的白板软件。支持实时多人协作。手绘风格。[源码](https://github.com/excalidraw/excalidraw)
+  - [excalidraw-animate](https://dai-shi.github.io/excalidraw-animate/): 把 excalidraw 转成动画。[源码](https://github.com/dai-shi/excalidraw-animate)
 - [MagicaVoxel](https://ephtracy.github.io/): 体素建模工具
 - [Affinity Designer](https://affinity.serif.com/zh-cn/designer/): 非常好用，非常专业的图像编辑器。跨平台。
 

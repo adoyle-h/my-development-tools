@@ -417,6 +417,7 @@
   - [puppeteer-recorder](https://github.com/checkly/puppeteer-recorder)
   - [url-to-pdf-api](https://github.com/alvarcarto/url-to-pdf-api): Converts any URL or HTML content to a PDF file or an image (PNG/JPEG)
 - [phantomjs](https://github.com/ariya/phantomjs): Scriptable Headless WebKit
+- [Lightpanda](https://github.com/lightpanda-io/browser): 用 zig 写的，速度快，高性能。
 
 ## Profiling
 
