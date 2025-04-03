@@ -28,7 +28,7 @@
   - [container-diff](https://github.com/GoogleContainerTools/container-diff): 备选方案
 - [dive](https://github.com/wagoodman/dive): 查看 docker 镜像的每一层 layer。支持 diff
 - [containerd](https://github.com/containerd/containerd): 替代 docker daemon。K8S 和 Docker 的容器运行时依赖组件。
-- [docker-socket-proxy](https://github.com/Tecnativa/docker-socket-proxy): 在 docker 客户端与 docker.sock 之间的 proxy，用于权限控制 docker.sock 暴露的 API。
+- [docker-socket-proxy](https://docs.linuxserver.io/images/docker-socket-proxy/): 在 docker 客户端与 docker.sock 之间的 proxy，用于权限控制 docker.sock 暴露的 API。这里用 lscr 版本的镜像更好。
   - [socket-proxy](https://github.com/wollomatic/socket-proxy): 备选方案
 
 ## 虚拟机

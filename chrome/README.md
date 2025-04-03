@@ -28,7 +28,7 @@
 - [ZeroOmega](https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped): 浏览器内的代理工具。[源码](https://github.com/zero-peak/ZeroOmega)
   - [SwitchyOmega-Whitelist](https://github.com/entr0pia/SwitchyOmega-Whitelist): 白名单规则。默认流量走代理，匹配规则的直连。
 - [Tampermonkey](https://github.com/Tampermonkey/tampermonkey): 开源版油猴。开源前端脚本管理器。
-- [Unsplash Instant](https://chromewebstore.google.com/detail/unsplash-instant/pejkokffkapolfffcgbmdmhdelanoaih): 新标签页壁纸。太美了
+- [漫步 Unsplash](https://chromewebstore.google.com/detail/%E6%BC%AB%E6%AD%A5-unsplash/jdjjjnfdkhpdppedhjgdcecmmcmklopm): 新标签页壁纸。太美了
 - [Tabby Cat](https://chromewebstore.google.com/detail/tabby-cat/mefhakmgclhhfbdadeojlkbllmecialg): 新标签页壁纸，很多猫
 - [vimium](https://github.com/philc/vimium): vim 风格操作浏览器
 - [Requestly](https://requestly.com/): 拦截修改 HTTP 请求，非常灵活好用！
@@ -45,7 +45,7 @@
 - [网站 IP](https://chromewebstore.google.com/detail/%E7%BD%91%E7%AB%99ip/eaghlkamibfjbicomdmbbohljdhicpgb)
 - [EditThisCookie](https://chromewebstore.google.com/detail/editthiscookie-fork/ihfmcbadakjehneaijebhpogkegajgnk): Cookie 编辑器
 - [Wikiwand](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj): 自动将 Wikipedia 的链接跳转到 Wikiwand
-- [hn-special](https://github.com/gabrielecirulli/hn-special): 美化 Hacker News 的界面，交互体验做得非常棒，支持亮/暗色系。
+- [Modern for Hacker News](https://chromewebstore.google.com/detail/modern-for-hacker-news/dabkegjlekdcmefifaolmdhnhdcplklo): 美化 Hacker News 的界面，交互体验做得非常棒，支持亮/暗色系。
 - [uBlock](https://github.com/gorhill/uBlock): 开源的。跟 AdBlock 功能类似。AdBlock 会允许部分广告。uBlock 会阻止所有广告。不支持全局的过滤统计。
 - [AdBlock](http://getadblock.com/): 闭源的。广告屏蔽插件。AdBlock 会和知乎首页起冲突。支持过滤统计。
 - [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg): 截图插件。支持捕捉整个页面或者选定 DOM。支持导出 PDF。
@@ -68,7 +68,7 @@
 - [HN Special](https://chromewebstore.google.com/detail/hn-special-an-addition-to/cchaceegbflphbdpfocjalgjhjoahiia): An addition to Hacker News
 - [minerBlock](https://chromewebstore.google.com/detail/minerblock/emikbbbebcdfohonlaifafnoanocnebl): block browser-based cryptocurrency miners all over the web.
 - [Sourcegraph](https://chromewebstore.google.com/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack): Adds code intelligence to GitHub, GitLab, and other hosts: hovers, definitions, references. For 20+ languages.
-- [OctoLinker](https://chromewebstore.google.com/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp): [源码](https://github.com/OctoLinker/OctoLinker)
+- [Web Highlights - PDF & Web Highlighter](https://chromewebstore.google.com/detail/web-highlights-pdf-web-hi/hldjnlbobkdkghfidgoecgmklcemanhm)
 
 ## 油猴脚本
 

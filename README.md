@@ -68,6 +68,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [数学](#数学)
 - [桌面应用开发](#桌面应用开发)
 - [Authorization](#authorization)
+    - [IAM](#iam)
 - [开源项目](#开源项目)
 - [Ansible](#ansible)
 - [Semver](#semver)
@@ -412,11 +413,17 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## Authorization
 
 - [casbin](https://github.com/casbin/casbin): 一个类库。通过设计 PERM 模型来控制认证策略。支持 ACL, RBAC, ABAC 等策略。支持主流语言。
-- [hydra](https://github.com/ory/hydra): OpenID Connect and OAuth Provider written in Go
-  - [dex](https://github.com/dexidp/dex): 备选方案
 - [2FAS](https://2fas.com/): 2FA 客户端，支持 iOS 和 Android。支持 TOTP 和 HOTP。用户体验好，功能丰富。开源。支持浏览器插件（同步需要翻墙）
 - KeePass 也支持 2FA
 - [otpauth](https://github.com/dim13/otpauth): 导出 Google Authenticator 里存储的数据
+
+### IAM
+
+- [zitadel](https://github.com/zitadel/zitadel)
+- [hydra](https://github.com/ory/hydra): OpenID Connect and OAuth Provider written in Go
+  - [dex](https://github.com/dexidp/dex): 备选方案
+- [authentik](https://github.com/goauthentik/authentik): 功能丰富但复杂，入门成本比较高。部署容易。UI 丑，但可以更换背景和 Logo，也可以自定义 CSS 来美化 UI。注意 license，不适合用在公司，适合个人使用。支持 nginx 和 traefik。
+- [authelia](https://github.com/authelia/authelia): 轻量级。支持 nginx 和 traefik。缺点是 Identity Provider 只支持 OpenID Connect 1.0。
 
 ## 开源项目
 
@@ -819,7 +826,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [pgcli](https://github.com/dbcli/pgcli): postgres 命令行客户端
 - [pgadmin](https://www.pgadmin.org/)
 - [pgweb](https://github.com/sosedoff/pgweb): postgres web 客户端
-- [medis](https://github.com/luin/medis): Redis GUI Client  `Ⓜ`
+- [RedisInsight](https://github.com/RedisInsight/RedisInsight): Redis GUI by Redis。支持 Docker 部署。
 - [SQL 速查表](https://github.com/enochtangg/quick-SQL-cheatsheet/blob/master/README_zh-hans.md)
 - [UNQLite](https://github.com/symisc/unqlite):
 - [SQLite](https://www.sqlite.org)
@@ -971,6 +978,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - http://mailchimp.com/ : 搭建邮件&发邮件的服务 `ⱳ`
 - [nodemailer](https://github.com/nodemailer/nodemailer): 邮件类库 (NodeJS)
 - https://mail.tm/ : 临时邮件账号，注销很方便。记录临时账号的密码可以下次登录。
+- [docker-mailserver](https://github.com/docker-mailserver/docker-mailserver): 运行在容器内的邮件服务器，无需数据库。
 
 ## 翻译
 

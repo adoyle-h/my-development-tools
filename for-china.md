@@ -44,7 +44,8 @@
   - [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid): Android 客户端。**注意[Google Play 的版本不是作者维护的](https://github.com/MetaCubeX/ClashMetaForAndroid/discussions/201)**
   - [Stash](https://stash.wiki/): 苹果客户端。需要付费。最多可在 6 台设备上同时使用，包括 iOS、iPadOS、macOS。
   - [clash-in-container](https://github.com/adoyle-h/clash-in-container): compose.yaml for clash-meta, clash-dashboard, subconverter.
-  - [subconverter](https://github.com/tindy2013/subconverter): 订阅格式转换服务。很多机场提供的编码过的订阅源，需要经过格式转换。很多客户端自带转换功能。如果自己部署 clash 服务，可能会需要这个。
+  - [subconverter](https://github.com/tindy2013/subconverter): 订阅格式转换服务。很多机场提供的编码过的订阅源，需要经过格式转换。很多客户端自带转换功能。如果自己部署 clash 服务，可能会需要这个。注意：不支持转换 vless 协议。会报错 `No nodes were found!`
+    - [asdlokj1qpi233/subconverter](https://github.com/asdlokj1qpi233/subconverter): 这个 fork 支持转换 vless 协议
   - [sub-web](https://github.com/CareyWang/sub-web): 基于 subconverter 的前端 UI。
 - QuantumultX: iOS 客户端，很贵，功能强大，界面交互好
   - ShadowRocket: iOS 客户端，便宜，功能还行
@@ -77,7 +78,8 @@
 
 - https://duangks.com/ : 很好用机场评测网站。提供节点分析、流媒体解锁分析、测速图。
 - https://guatizi.com/ : 很好用机场导航
-- [CyberGuard](https://www.cyberguard.best/#/register?code=Z0C5SDfY): 速度快，全节点 trojan 协议，无审计。
+- [Paolujichang](https://github.com/limbopro/Paolujichang): 跑路机场名单收集
+- [CyberGuard](https://www.cyberguard.best/#/register?code=Z0C5SDfY): 速度快，全节点 trojan 协议，无审计。不稳定，经常被攻击。
 - [蓝色海洋](https://sB181Z.allblueaff.com/FHFD7uaF): 比较稳定，速度快。2024 年涨价了，性价比还行。有审计。
 - [xfltd](https://xfltd.org/#/register?code=y8yKhElL): 非常便宜，性价比高，提供不限时按量套餐，延迟有点高。不稳定，经常被人攻击。有审计名单，某些涉政网站无法访问。
 - [苏打云](https://v2.suda.moe/): 价格亲民。速度挺快。不稳定，在不能说的日子会必挂。
