@@ -154,6 +154,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [服务 (Service)](#服务-service)
     - [在线工具箱 (Online Toolbox)](#在线工具箱-online-toolbox)
     - [自部署的服务 (Self-Host Service)](#自部署的服务-self-host-service)
+    - [短链接](#短链接)
     - [评论系统](#评论系统)
     - [图床](#图床)
 - [网盘](#网盘)
@@ -363,8 +364,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [SmsForwarder](https://github.com/pppscn/SmsForwarder): 短信转发器（安卓系统）
 - 临时接收手机短信
-  - https://sms-activate.org/ : 最靠谱的平台，价格不贵
-  - https://5sim.net/zh : 似乎挺便宜的
+  <!-- - https://sms-activate.org/ : 最靠谱的平台，价格不贵 -->
+  <!-- - https://5sim.net/zh : 似乎挺便宜的 -->
   - https://sms24.me/en/ (这个有中国号码，下面那些没有)
   - https://jiemahao.com/
   - https://yunduanxin.net/Countries/
@@ -419,7 +420,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ### IAM
 
-- [zitadel](https://github.com/zitadel/zitadel)
+- [zitadel](https://github.com/zitadel/zitadel): 商业公司使用注意：AGPL3-only 协议。
 - [hydra](https://github.com/ory/hydra): OpenID Connect and OAuth Provider written in Go
   - [dex](https://github.com/dexidp/dex): 备选方案
 - [authentik](https://github.com/goauthentik/authentik): 功能丰富但复杂，入门成本比较高。部署容易。UI 丑，但可以更换背景和 Logo，也可以自定义 CSS 来美化 UI。注意 license，不适合用在公司，适合个人使用。支持 nginx 和 traefik。
@@ -477,6 +478,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## 安全渗透
 
+- [Awesome-Redteam](https://github.com/Threekiii/Awesome-Redteam): 一个攻防知识仓库
 - [Kali Linux](https://www.kali.org/)
   - [Kali Docker Image](https://hub.docker.com/r/kalilinux/kali-linux-docker): [参考资料](https://archive.ph/zh0wk)
 - [Snyk](https://snyk.io/): 开源风险收集检测服务。提供 API 和 CLI 做检查。
@@ -1078,13 +1080,17 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ### 自部署的服务 (Self-Host Service)
 
 - https://github.com/awesome-selfhosted/awesome-selfhosted
-- [Dub](https://github.com/steven-tey/dub): 开源的短链接服务，自带访问统计
-- [shlink](https://github.com/shlinkio/shlink): 短链服务。功能挺全。
-  - [YOURLS](https://github.com/YOURLS/YOURLS): 备选方案
 - [rustdesk](https://github.com/rustdesk/rustdesk): 开源的远程控制软件 (VNC)。支持手机控制电脑，电脑控制手机。支持全平台、多语言。国产软件。
   - [rustdesk-server](https://github.com/rustdesk/rustdesk-server): 自建中继服务器
 - [webhook](https://github.com/adnanh/webhook): a lightweight incoming webhook server to run shell commands
 - [enclosed](https://github.com/CorentinTh/enclosed): 阅后即焚服务
+
+### 短链接
+
+- [sink](https://github.com/ccbikai/sink): 基于 Cloudflare Page 部署的短链接服务，有访问统计功能。部署简单。
+- [shlink](https://github.com/shlinkio/shlink): 短链服务。功能挺全。
+- [Dub](https://github.com/steven-tey/dub): 开源的短链接服务，自带访问统计。部署复杂，不支持 docker 部署。
+- [YOURLS](https://github.com/YOURLS/YOURLS): 备选方案
 
 ### 评论系统
 

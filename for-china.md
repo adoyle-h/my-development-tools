@@ -48,7 +48,7 @@
     - [asdlokj1qpi233/subconverter](https://github.com/asdlokj1qpi233/subconverter): 这个 fork 支持转换 vless 协议
   - [sub-web](https://github.com/CareyWang/sub-web): 基于 subconverter 的前端 UI。
 - QuantumultX: iOS 客户端，很贵，功能强大，界面交互好
-  - ShadowRocket: iOS 客户端，便宜，功能还行
+- ShadowRocket: iOS 客户端，便宜，功能还行，协议兼容性好。
 
 ### 翻墙规则
 
