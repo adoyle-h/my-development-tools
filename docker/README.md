@@ -91,6 +91,7 @@
 ## 监控
 
 - [ctop](https://github.com/bcicen/ctop): Top-like CLI command for docker container metrics，本地开发挺方便的
+- [beszel](https://github.com/henrygd/beszel): 轻量级的 docker 系统监控。安装简单。支持 podman。支持告警。
 
 ## 安全
 

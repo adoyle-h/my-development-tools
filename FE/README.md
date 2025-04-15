@@ -351,11 +351,10 @@
 
 ### 2D
 
+- [anime.js](https://github.com/juliangarnier/anime/): 看官网，效果非常酷炫
 - [mojs](https://github.com/legomushroom/mojs)
-- [popmotion](https://github.com/popmotion/popmotion): 类似 mojs，文件较小
-- [anime.js](https://github.com/juliangarnier/anime/)
+  - [popmotion](https://github.com/popmotion/popmotion): 类似 mojs，文件较小。目前无人维护
 - [animate.css](https://github.com/daneden/animate.css)
-- [velocity](https://github.com/julianshapiro/velocity)
 
 ### 3D
 
