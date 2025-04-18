@@ -43,7 +43,7 @@
 - [The Marvellous Suspender](https://chromewebstore.google.com/detail/noogafoofpebimajpfpamcfhoaifemoa): 定时释放页面内存，拯救你的内存被 Chrome 吃光。[源码](https://github.com/gioxx/MarvellousSuspender)
   - Fork 自 [The Great Suspender](https://github.com/deanoemcke/thegreatsuspender)，因为[这个原因](https://github.com/greatsuspender/thegreatsuspender/issues/1263)，TGS 有安全问题被 Google 封禁了。
 - [网站 IP](https://chromewebstore.google.com/detail/%E7%BD%91%E7%AB%99ip/eaghlkamibfjbicomdmbbohljdhicpgb)
-- [EditThisCookie](https://chromewebstore.google.com/detail/editthiscookie-fork/ihfmcbadakjehneaijebhpogkegajgnk): Cookie 编辑器
+- [Cookie Editor](https://chromewebstore.google.com/detail/cookie-editor/ookdjilphngeeeghgngjabigmpepanpl): Cookie 编辑器
 - [Wikiwand](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj): 自动将 Wikipedia 的链接跳转到 Wikiwand
 - [Modern for Hacker News](https://chromewebstore.google.com/detail/modern-for-hacker-news/dabkegjlekdcmefifaolmdhnhdcplklo): 美化 Hacker News 的界面，交互体验做得非常棒，支持亮/暗色系。
 - [uBlock](https://github.com/gorhill/uBlock): 开源的。跟 AdBlock 功能类似。AdBlock 会允许部分广告。uBlock 会阻止所有广告。不支持全局的过滤统计。

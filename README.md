@@ -1391,6 +1391,21 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy): 类似 Notion 的笔记系统。基于 Flutter 和 Rust 开发
 - [outline](https://github.com/outline/outline): 类似 Notion 的知识库、WIKI 平台
+- [Obsidian](https://obsidian.md/): 笔记系统，纯 Markdown 文本数据本地存储，支持跨平台，插件生态好。用好插件才能发挥它的优势。
+  - [quartz](https://github.com/jackyzha0/quartz): Markdown 转静态网站
+  - Obsidian 插件
+    - [obsidian-minimal-settings](https://github.com/kepano/obsidian-minimal-settings): 简单好用的主题
+    - [obsidian-editing-toolbar](https://github.com/PKM-er/obsidian-editing-toolbar): 置顶工具栏, 光标跟随工具栏
+    - [obsidian-style-settings](https://github.com/mgmeyers/obsidian-style-settings): 自定义 CSS
+    - [obsidian-importer](https://github.com/obsidianmd/obsidian-importer): import notes from other apps and file formats into your Obsidian
+    - [obsidian-image-auto-upload-plugin](https://github.com/renmu123/obsidian-image-auto-upload-plugin): 配合 picgo 实现图片自动上传到图床。需要仔细配置才能用好。
+    - [obsidian-floating-toc-plugin](https://github.com/cumany/obsidian-floating-toc-plugin): 浮动 table of content
+    - [obsidian-image-captions](https://github.com/alangrainger/obsidian-image-captions): 让图片显示标注
+    - [obsidian-trash-explorer](https://github.com/proog/obsidian-trash-explorer): Restore and delete files from the Obsidian .trash folder
+    - [obsidian-file-cleaner](https://github.com/johnsonhong997/obsidian-file-cleaner): clean up empty files and unused attachments in the obsidian vault.
+    - [obsidian-slash-commander](https://github.com/alephpiece/obsidian-slash-commander): 按 / 显示快捷命令列表，可自定义
+    - [vim-toggle](https://github.com/conneroisu/vim-toggle): 让 obsidian 支持 vim 快捷键
+    - 不要安装 make.md，它可能会把你的文档数据弄丢！
 - [Notion](https://www.notion.so/): 笔记工具
   - https://timelinetool.app/notion/event : 统计公开链接的 PV 的 embed 插件
 - 基于 Notion 的网站
@@ -1479,13 +1494,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## 截图/录屏
 
+- [PixPin](https://pixpinapp.com/): 免费的截图/截屏工具，支持长截图，GIF 截图，录屏，颜色提取，标注，OCR（先截图，固定到屏幕，然后复制图片文字）。支持保存 webp 格式。 `ⓦ` `Ⓜ`
 - [CleanShot X](https://cleanshot.com/): 用户体验很优秀。价格略贵，按年付费。支持截图/窗口截图/截屏/滚动截屏/录屏/录音/OCR 识别/标注。 `Ⓜ`
 - [Shottr](https://shottr.cc/): 功能很丰富，可以代替 CleanShot X，价格适中，一次性买断。 `Ⓜ`
 - [Monosnap](https://monosnap.com/welcome): 免费又强大的截图/截屏/录屏(支持 GIF 和 MP4)。不支持滚动截屏。 <a name="Monosnap"></a>
-- [iShot](https://apps.apple.com/cn/app/ishot-%E6%88%AA%E5%9B%BE-%E9%95%BF%E6%88%AA%E5%9B%BE-%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7/id1485844094): 支持截图/截屏/滚动截屏/录屏/录音/OCR 识别/标注。过了试用期后能用，但是图片会带水印。
 - Mac 系统自带截图工具。不支持滚动截屏，其他功能都有。Safari 支持滚动截屏。
 - screencapture:  Mac 自带命令，截图/截屏工具。
-- [PixPin](https://pixpinapp.com/): 截图/截屏工具，支持长截图，GIF 截图，颜色提取，标注，OCR（先截图，固定到屏幕，然后复制图片文字）。`ⓦ` `Ⓜ`
 - [ShareX](https://getsharex.com/): 开源的截图、截屏、录屏、颜色提取、OCR、滚动截图。交互设计一般 `ⓦ`
 - [kap](https://github.com/wulkano/kap/): 用户体验很好的，开源的录屏工具，支持 GIF, MP4, WebM, APNG `Ⓜ` `⨀`
 

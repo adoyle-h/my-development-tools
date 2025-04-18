@@ -202,6 +202,8 @@
 - [devicon](https://github.com/devicons/devicon): Set of icons representing programming languages, designing & development tools
 - [IconPark](https://github.com/bytedance/IconPark): 支持 React/Vue/SVG 的开源图标库，字节跳动出品。
 - [dashboard-icons](https://github.com/homarr-labs/dashboard-icons): The best source for dashboard icons.
+- [selfh.st/icons](https://selfh.st/icons/): A collection of icons and logos for self-hosted dashboards and documentation
+- https://simpleicons.org/ : 流行品牌的 SVG 图标
 
 ## Typography
 
