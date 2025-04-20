@@ -1405,6 +1405,10 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [obsidian-file-cleaner](https://github.com/johnsonhong997/obsidian-file-cleaner): clean up empty files and unused attachments in the obsidian vault.
     - [obsidian-slash-commander](https://github.com/alephpiece/obsidian-slash-commander): 按 / 显示快捷命令列表，可自定义
     - [vim-toggle](https://github.com/conneroisu/vim-toggle): 让 obsidian 支持 vim 快捷键
+    - [obsidian-show-whitespace-cm6](https://github.com/ebullient/obsidian-show-whitespace-cm6): 显示换行符和多余的空格
+    - [obsidian-git](https://github.com/Vinzent03/obsidian-git): 定时保存修改到 git 并且同步到远端（可选）
+    - [obsidian-frontmatter-modified-date](https://github.com/alangrainger/obsidian-frontmatter-modified-date): 自动创建、修改 created 和 modified 时间
+    - [pixel-banner](https://github.com/jparkerweb/pixel-banner): 给文章增加 banner
     - 不要安装 make.md，它可能会把你的文档数据弄丢！
 - [Notion](https://www.notion.so/): 笔记工具
   - https://timelinetool.app/notion/event : 统计公开链接的 PV 的 embed 插件

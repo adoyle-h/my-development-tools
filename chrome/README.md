@@ -28,7 +28,7 @@
 - [ZeroOmega](https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped): 浏览器内的代理工具。[源码](https://github.com/zero-peak/ZeroOmega)
   - [SwitchyOmega-Whitelist](https://github.com/entr0pia/SwitchyOmega-Whitelist): 白名单规则。默认流量走代理，匹配规则的直连。
 - [Tampermonkey](https://github.com/Tampermonkey/tampermonkey): 开源版油猴。开源前端脚本管理器。
-- [漫步 Unsplash](https://chromewebstore.google.com/detail/%E6%BC%AB%E6%AD%A5-unsplash/jdjjjnfdkhpdppedhjgdcecmmcmklopm): 新标签页壁纸。太美了
+- [漫步 Unsplash](https://chromewebstore.google.com/detail/%E6%BC%AB%E6%AD%A5-unsplash/jdjjjnfdkhpdppedhjgdcecmmcmklopm): 新标签页壁纸。太美了。但是免费版有限制，经我研究可破解。神秘代码 `chrome.storage.sync.set({isPaid: true})`。
 - [Tabby Cat](https://chromewebstore.google.com/detail/tabby-cat/mefhakmgclhhfbdadeojlkbllmecialg): 新标签页壁纸，很多猫
 - [vimium](https://github.com/philc/vimium): vim 风格操作浏览器
 - [Requestly](https://requestly.com/): 拦截修改 HTTP 请求，非常灵活好用！
@@ -69,6 +69,7 @@
 - [minerBlock](https://chromewebstore.google.com/detail/minerblock/emikbbbebcdfohonlaifafnoanocnebl): block browser-based cryptocurrency miners all over the web.
 - [Sourcegraph](https://chromewebstore.google.com/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack): Adds code intelligence to GitHub, GitLab, and other hosts: hovers, definitions, references. For 20+ languages.
 - [Web Highlights - PDF & Web Highlighter](https://chromewebstore.google.com/detail/web-highlights-pdf-web-hi/hldjnlbobkdkghfidgoecgmklcemanhm)
+- [Extension Source Downloader](https://chromewebstore.google.com/detail/extension-source-download/dlbdalfhhfecaekoakmanjflmdhmgpea): 下载 Chrome 插件的 zip 文档，方便查看或修改插件代码
 
 ## 油猴脚本
 
