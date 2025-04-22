@@ -19,6 +19,7 @@
 - [gkd](https://github.com/gkd-kit/gkd): 基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用。[使用简介](https://github.com/just-talks/tech-talks/discussions/68)
   - [AIsouler/GKD_subscription](https://github.com/AIsouler/GKD_subscription): GKD 第三方订阅规则
   - [其他 GKD 第三方规则](https://github.com/topics/gkd-subscription)
+- [FakeTraveler](https://github.com/mcastillof/FakeTraveler): 虚拟位置
 
 ## Xposed
 
