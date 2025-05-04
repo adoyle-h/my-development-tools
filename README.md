@@ -797,6 +797,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - rsync
 - [rclone](https://github.com/rclone/rclone): rsync for cloud storage. To sync files and directories to and from different cloud storage providers.
 - [restic](https://github.com/restic/restic): 简单易用的备份工具。支持快照，加密。可与 rclone 搭配。不支持软链接，restore 会[报错](https://github.com/restic/restic/issues/2578)。
+  - [backrest](https://github.com/garethgeorge/backrest): 集成 restic 和 rclone 的 WebUI。操作简单。
 - [timeshift](https://github.com/linuxmint/timeshift): 备选方案。基于 rsync + hard link。支持快照、增量备份、BTRFS、自定义路径（默认屏蔽用户目录）。**不支持云存储**
 - [borg](https://github.com/borgbackup/borg): 备选方案
 - [duplicity](https://gitlab.com/duplicity/duplicity): 支持增量备份，软链接。不支持硬链接。

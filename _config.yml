@@ -28,7 +28,7 @@ url: https://tools.adoyle.me
 # baseurl: /
 title: ADoyle 的工具箱
 description: 只记录我在用的工具。持续更新中。
-logo: https://media.githubusercontent.com/media/adoyle-h/_imgs/master/assets/logo.png
+logo: https://pub-cf.adoyle.me/logo.avif
 favicon_ico: ./.jekyll/assets/favicon.ico
 footer_content:
   Copyright 2016-2025 ADoyle (adoyle.h@gmail.com). Some Rights Reserved.<br>

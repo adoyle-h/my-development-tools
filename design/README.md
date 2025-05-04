@@ -222,6 +222,7 @@
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 - [RightFont](https://rightfontapp.com/cn): 字体管理
 - https://font-viewer.com : 字体比较。支持系统字体和 Google Font
+- [开源字体 Lato](https://www.latofonts.com/lato-free-fonts/)
 
 ### 像素字体
 
