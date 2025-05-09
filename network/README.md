@@ -126,6 +126,7 @@
 - [Cisco Umbrella](https://umbrella.cisco.com/products/recursive-dns-services): Cisco 的公共 DNS 服务，国内访问速度不错。比 Cloudflare DNS 和 Google DNS 都快。
 - [AdGuard 信任的 DNS 供应商名单](https://adguard-dns.io/kb/zh-CN/general/dns-providers/)
 - [encrypted-dns](https://github.com/paulmillr/encrypted-dns): DNS over HTTPS config profiles for iOS & macOS
+<!-- - https://v.recipes/dns/ 不要宣传，以免大家都用不了 -->
 
 ## HTTP 服务
 

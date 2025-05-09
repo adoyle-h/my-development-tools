@@ -89,7 +89,8 @@
 
 ## 监控
 
-- [netdata](https://github.com/firehol/netdata): 实时监控。支持 Linux、MacOS、K8S、IoT。支持容器安装。
+- [SigNoz](https://github.com/SigNoz/signoz): 基于 OpenTelemetry 标准的可观测平台。
+- [netdata](https://github.com/firehol/netdata): 实时监控，指标很全面，开箱即用。支持 Linux、MacOS、K8S、IoT。支持容器安装。缺点：需要登录它的云服务账号才能使用大部分功能。如果不担心隐私泄露，推荐使用。
 - [Prometheus](https://github.com/prometheus/prometheus): Metrics 存储、查询、监控报警，时序数据库。
   - [thanos](https://github.com/improbable-eng/thanos): 让 Prometheus 高可用，以及存储可扩展的组件。
 - [statsd](https://github.com/etsy/statsd): Metrics 数据聚合

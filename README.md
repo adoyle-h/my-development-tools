@@ -107,6 +107,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Lint](#lint)
 - [Mock](#mock)
 - [网站](#网站)
+    - [访问统计](#访问统计)
 - [SSL](#ssl)
 - [BSD](#bsd)
 - [Linux](#linux)
@@ -423,7 +424,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [zitadel](https://github.com/zitadel/zitadel): 商业公司使用注意：AGPL3-only 协议。
 - [hydra](https://github.com/ory/hydra): OpenID Connect and OAuth Provider written in Go
   - [dex](https://github.com/dexidp/dex): 备选方案
-- [authentik](https://github.com/goauthentik/authentik): 功能丰富但复杂，入门成本比较高。部署容易。UI 丑，但可以更换背景和 Logo，也可以自定义 CSS 来美化 UI。注意 license，不适合用在公司，适合个人使用。支持 nginx 和 traefik。
+- [authentik](https://github.com/goauthentik/authentik): 功能丰富但复杂，入门成本比较高。部署容易。UI 丑，但可以更换背景和 Logo，也可以自定义 CSS 来美化 UI。注意 license，不适合用在公司，适合个人使用。支持 nginx 和 traefik。缺点是 [domain-level forward auth 不支持权限控制](https://github.com/goauthentik/authentik/discussions/13823)。
 - [authelia](https://github.com/authelia/authelia): 轻量级。支持 nginx 和 traefik。缺点是 Identity Provider 只支持 OpenID Connect 1.0。
 
 ## 开源项目
@@ -766,7 +767,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [websiteplanet - favicon-generator](https://www.websiteplanet.com/zh-hans/webtools/favicon-generator/): 支持 gif
 - [rrweb](https://github.com/rrweb-io/rrweb): 网页浏览录制和回放
   - [Open Replay](https://github.com/openreplay/openreplay)
+
+### 访问统计
+
 - [umami](https://github.com/mikecao/umami): website analytics alternative to Google Analytics.
+- [rybbit](https://github.com/rybbit-io/rybbit): 界面设计和功能都很优秀
 - [不蒜子 busuanzi](https://busuanzi.ibruce.info/): 两行代码搞定站点访问统计
 
 ## SSL
@@ -1111,8 +1116,9 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## 网盘
 
+- [cryptomator](https://cryptomator.org/): 开源软件。将文件加密存储在任意网盘上。兼容全平台，电脑端免费，移动端收费。安卓推荐通过F-Droid 安装，然后到官网买授权。Google Play 的价格是官网授权价的两倍。
 - [123 云盘](https://www.123pan.com/): 上传和下载速度都能跑满。2T 免费空间。很赞。
-- [阿里云盘](https://www.aliyundrive.com/)
+- [阿里云盘](https://www.aliyundrive.com/): 使用 WebDav 需要额外付费。阿里的产品经理真是奇葩。
 - [Mega](https://mega.nz/): 免费版 25G 空间。需要翻墙
 - [Dropbox](https://dropbox.com/): 免费版 3.8G 空间。需要翻墙
   - [Maestral](https://maestral.app/): 开源的 Dropbox 客户端。有 CLI 工具，支持 Linux。
