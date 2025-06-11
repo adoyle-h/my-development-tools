@@ -61,6 +61,8 @@
 
 - [llama.cpp](https://github.com/ggerganov/llama.cpp): 通过压缩模型参数的精度，让 LLM 在消费级电脑上也能运行。虽然准确率会下降。
 - [Ollama](https://ollama.com/): 基于 llama.cpp，支持在本地运行 LLM。支持 MacOS/Linux/Windows 系统。支持命令行交互。支持 HTTP API 交互。提供模型下载和管理，官方维护一套[已量化的模型](https://ollama.com/library)。也可以编写 [Modelfile](https://github.com/ollama/ollama/blob/main/docs/modelfile.md) 根据 gguf 模型自己微调模型。支持容器启动。
+- [OpenRouter](https://openrouter.ai/): 国外的 LLM 通用代理接口
+- [V-API](https://api.v3.cm/register?aff=pMW7): 国内的 LLM 通用代理接口
 
 ## 线上平台与社区
 
