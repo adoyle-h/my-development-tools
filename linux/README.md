@@ -11,7 +11,7 @@
 - [Bootloader](#bootloader)
 - [桌面系统](#桌面系统)
 - [窗口管理器](#窗口管理器)
-- [init](#init)
+- [init & supervisior](#init--supervisior)
 - [时间](#时间)
 - [文件系统](#文件系统)
 - [监控](#监控)
@@ -72,11 +72,13 @@
 
 - [awesome wm](https://awesomewm.org/)
 
-## init
+## init & supervisior
 
 - [runit](http://smarden.org/runit/): 支持 GNU/Linux, *BSD, MacOSX, Solaris 等 unix 系统。
 - [openrc](https://github.com/OpenRC/openrc): Gentoo、Alpine 使用的 init 系统。
-- [tini](https://github.com/krallin/tini): 容器专用 init
+- [s6](https://github.com/skarnet/s6): 轻量级进程管理器
+  - [s6-overlay](https://github.com/just-containers/s6-overlay): s6 overlay for containers
+- [tini](https://github.com/krallin/tini): 容器专用 init。已经集成到 Docker 1.13 及之后版本，需要加 --init 参数开启，默认不开启。
   - [dumb-init](https://github.com/Yelp/dumb-init): 备选方案
 
 ## 时间

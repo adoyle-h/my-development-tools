@@ -38,6 +38,7 @@
 - ~~[Clash](https://github.com/Dreamacro/clash): A rule-based tunnel in Go.~~ 作者已删库跑路。**注意不要信任所有自称 Clash 官网的网站**
 - [Clash Meta](https://github.com/MetaCubeX/mihomo): Clash Meta 是基于原 Clash 核心的重写项目，支持 Clash Premium 核心的大部分功能。这是命令行程序，不是 APP。作者很有幽默感，切换到 Meta 分支看源码。
   - [metacubexd](https://github.com/MetaCubeX/metacubexd): Clash Meta 的 Web Dashboard。
+  - [zashboard](https://github.com/Zephyruso/zashboard): A Dashboard Using Clash API
   - [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/tree/meta): Mac 客户端。其控制台界面用的是 metacubexd。
   - [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev): Windows, MacOS, Linux 客户端
     - [clash-nyanpasu](https://github.com/LibNyanpasu/clash-nyanpasu): 备选方案。Windows, MacOS, Linux 客户端

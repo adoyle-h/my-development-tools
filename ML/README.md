@@ -17,6 +17,9 @@
 - [数字人](#数字人)
 - [可视化](#可视化)
 - [Chat](#chat)
+    - [Chat in Terminal 终端](#chat-in-terminal-终端)
+- [MCP 客户端](#mcp-客户端)
+- [MCP 服务端](#mcp-服务端)
 - [Diffusion 模型](#diffusion-模型)
 - [图片生成](#图片生成)
     - [Stable Diffusion Prompt](#stable-diffusion-prompt)
@@ -104,6 +107,23 @@ text-to-image 社区
   - [lobe-chat](https://github.com/lobehub/lobe-chat): 备选方案。Chat WebUI。支持连接 OpenAI、Ollama。不支持文档上传。Ollama 模型同步暂且有问题。
 - https://github.com/elyase/awesome-gpt3
 - [chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web): 轻松搭建 ChatGPT 交互网站
+
+### Chat in Terminal 终端
+
+- [mods](https://github.com/charmbracelet/mods): 支持 MCP
+  - [tmuxai](https://github.com/alvinunreal/tmuxai): Chat LLM in Tmux。不支持 MCP
+
+## MCP 客户端
+
+- [goose](https://block.github.io/goose/): 有 GUI 与 CLI
+- [mods](https://github.com/charmbracelet/mods): CLI。支持 MCP
+
+## MCP 服务端
+
+- [apple-mcp](https://github.com/Dhravya/apple-mcp): Messages/Notes/Contacts/Emails/Reminders/Calendar/Web Search/Maps for MacOS MCP
+- [server-brave-search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search#brave-search-mcp-server): 使用 brave search api 搜索
+- [BrowserMCP](https://github.com/BrowserMCP/mcp): 操纵浏览器
+- [playwright-mcp](https://github.com/microsoft/playwright-mcp): 适合自动化测试用
 
 ## Diffusion 模型
 

@@ -256,6 +256,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [plasmo](https://github.com/PlasmoHQ/plasmo): 浏览器插件开发框架
 - [homepage](https://github.com/gethomepage/homepage): 用 YAML 配置的导航首页。简单好用。
 - [glance](https://github.com/glanceapp/glance): 用 YAML 配置的导航页。支持 RSS 展示，这个功能很棒。不支持热更新。插件略少。
+- https://freedium.cfd/ : 阅读 Medium 的付费文章
+- [pdfgear](https://www.pdfgear.com/): 阅读、编辑、转换、合并和跨设备签署 PDF 文件，完全免费无需注册。
 
 ### 养生
 
@@ -1117,8 +1119,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## 网盘
 
 - [cryptomator](https://cryptomator.org/): 开源软件。将文件加密存储在任意网盘上。兼容全平台，电脑端免费，移动端收费。安卓推荐通过F-Droid 安装，然后到官网买授权。Google Play 的价格是官网授权价的两倍。
-- [123 云盘](https://www.123pan.com/): 上传和下载速度都能跑满。2T 免费空间。很赞。
-- [阿里云盘](https://www.aliyundrive.com/): 使用 WebDav 需要额外付费。阿里的产品经理真是奇葩。
+- [123 云盘](https://www.123pan.com/): 上传和下载速度都能跑满。2T 免费空间。客户端不能挂载到本地目录，客户端很差。使用 WebDav 需要购买会员。WebDav 功能问题很多。
+- [阿里云盘](https://www.aliyundrive.com/): 使用 WebDav 需要额外付费。
 - [Mega](https://mega.nz/): 免费版 25G 空间。需要翻墙
 - [Dropbox](https://dropbox.com/): 免费版 3.8G 空间。需要翻墙
   - [Maestral](https://maestral.app/): 开源的 Dropbox 客户端。有 CLI 工具，支持 Linux。
@@ -1516,7 +1518,11 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## 漫画
 
-- [Kavita](https://github.com/Kareadita/Kavita): 支持 docker 部署。
+- [mihon](https://github.com/mihonapp/mihon): 看漫画用的，需要导入插件订阅第三方源。
+  - [Kahon](https://github.com/AmanoTeam/Kahon): A fork of Mihon with some annoying restrictions removed
+  - [Keiyoushi Extensions](https://github.com/keiyoushi/extensions): Extension repository for Mihon and variants
+  - [copymanga-copy20](https://github.com/LittleSurvival/copymanga-copy20)
+- [Suwayomi-Server](https://github.com/Suwayomi/Suwayomi-Server): 自部署的漫画服务。界面类似 mihon，兼容 mihon 插件和源。支持 docker 部署。
 
 ## 视频/音频
 

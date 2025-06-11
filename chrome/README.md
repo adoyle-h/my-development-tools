@@ -53,7 +53,7 @@
 - [Wayback Machine](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak): 半永久存档页面
 - [omni](https://github.com/alyssaxuu/omni): all-in-one Launch Bar
 - [2captcha](https://2captcha.com/): 反验证码插件
-- [图片助手](https://www.pullywood.com/ImageAssistant/): 批量下载网页上的图片。
+- [Image Saver App/Image Downloader](https://chromewebstore.google.com/detail/image-downloader-picture/cbnhnlbagkabdnaoedjdfpbfmkcofbcl)
 - [reddit-enhancement-suite](https://chromewebstore.google.com/detail/kbmfpngjjgdllneeigpgjifpgocmfgmb): reddit 增强插件
 - [bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome): 能够绕过 Medium、纽约时报、彭博社等网站的付费墙。缺点是这些网站无法登录账号。
 - [medium-unlocker](https://github.com/und3fined/medium-unlocker): 解锁 medium 付费内容。
@@ -70,10 +70,14 @@
 - [Sourcegraph](https://chromewebstore.google.com/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack): Adds code intelligence to GitHub, GitLab, and other hosts: hovers, definitions, references. For 20+ languages.
 - [Web Highlights - PDF & Web Highlighter](https://chromewebstore.google.com/detail/web-highlights-pdf-web-hi/hldjnlbobkdkghfidgoecgmklcemanhm)
 - [Extension Source Downloader](https://chromewebstore.google.com/detail/extension-source-download/dlbdalfhhfecaekoakmanjflmdhmgpea): 下载 Chrome 插件的 zip 文档，方便查看或修改插件代码
+- [Dark Reader](https://darkreader.org/): 暗黑模式。功能丰富。提供 Chrome/Firefox/Safari/Edge 插件。
 
 ## 油猴脚本
 
+- https://greasyfork.org/ : 油猴脚本托管平台
+- https://sleazyfork.org/ : greasyfork 的子站，区别是这里存放成人网站相关脚本
 - [空格之神](https://greasyfork.org/zh-CN/scripts/506220-%E7%A9%BA%E6%A0%BC%E4%B9%8B%E7%A5%9E): 中英文之间自动加空格。
 - [CSDNGreener](https://greasyfork.org/zh-CN/scripts/378351-csdngreener-csdn%E5%B9%BF%E5%91%8A%E5%AE%8C%E5%85%A8%E8%BF%87%E6%BB%A4-%E5%85%8D%E7%99%BB%E5%BD%95-%E4%B8%AA%E6%80%A7%E5%8C%96%E6%8E%92%E7%89%88-%E6%9C%80%E5%BC%BA%E8%80%81%E7%89%8C%E8%84%9A%E6%9C%AC-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0): CSDN 广告过滤、免登录、个性化排版
 - [elecfans 电子发烧网阅读全文](https://greasyfork.org/zh-CN/scripts/404813-elecfans%E7%94%B5%E5%AD%90%E5%8F%91%E7%83%A7%E7%BD%91%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E4%BC%98%E5%8C%96)
 - [护眼模式](https://greasyfork.org/zh-CN/scripts/426377-%E6%8A%A4%E7%9C%BC%E6%A8%A1%E5%BC%8F): 全网通用护眼模式，有配置选项，功能丰富
+- [ComicRead](https://sleazyfork.org/en/scripts/374903-comicread): 看漫画

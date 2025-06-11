@@ -79,7 +79,6 @@
 
 ## 多媒体
 
-- [Xee](https://xee.c3.cx): 图片浏览器
 - [Vox](https://vox.rocks/mac-music-player): 音乐播放器
 - [iina](https://github.com/lhc70000/iina): 视频播放器。基于 [mpv](../README.md#mpv) 开发 `Ⓜ`
 

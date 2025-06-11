@@ -213,4 +213,5 @@
   - [tpm](https://github.com/tmux-plugins/tpm): Tmux Plugin Manager
   - [tmux-menus](https://github.com/jaclu/tmux-menus): 很强大的菜单插件。功能固定，无法自定义。
   - [tmux-easy-menu](https://github.com/Ja-sonYun/tmux-easy-menu): 自定义菜单
+  - [tmuxai](https://github.com/alvinunreal/tmuxai): Chat LLM in Tmux
 - [upterm](https://github.com/owenthereal/upterm): 实时共享终端窗口到公网
