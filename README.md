@@ -1404,20 +1404,32 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [quartz](https://github.com/jackyzha0/quartz): Markdown 转静态网站
   - Obsidian 插件
     - [obsidian-minimal-settings](https://github.com/kepano/obsidian-minimal-settings): 简单好用的主题
-    - [obsidian-editing-toolbar](https://github.com/PKM-er/obsidian-editing-toolbar): 置顶工具栏, 光标跟随工具栏
-    - [obsidian-style-settings](https://github.com/mgmeyers/obsidian-style-settings): 自定义 CSS
-    - [obsidian-importer](https://github.com/obsidianmd/obsidian-importer): import notes from other apps and file formats into your Obsidian
-    - [obsidian-image-auto-upload-plugin](https://github.com/renmu123/obsidian-image-auto-upload-plugin): 配合 picgo 实现图片自动上传到图床。需要仔细配置才能用好。
+    - [Advanced Canvas](https://github.com/Developer-Mike/obsidian-advanced-canvas)
+    - [Canvas MindMap](https://github.com/Quorafind/Obsidian-Canvas-MindMap): [该插件与 Smart Composer 有冲突](https://github.com/Quorafind/Obsidian-Canvas-MindMap/issues/71)
+    - [obsidian-copilot](https://github.com/logancyang/obsidian-copilot): 集成 AI 到 obsidian
+    - [obsidian-dataview](https://github.com/blacksmithgu/obsidian-dataview): 必装，功能很强大
+    - [obsidian-douban](https://github.com/Wanxp/obsidian-douban): 从豆瓣抓取书影音等信息
+    - [Editing Toolbar](https://github.com/PKM-er/obsidian-editing-toolbar): 置顶工具栏, 光标跟随工具栏
+    - [obsidian-file-cleaner](https://github.com/johnsonhong997/obsidian-file-cleaner): 清理空文件和不需要的附件
     - [obsidian-floating-toc-plugin](https://github.com/cumany/obsidian-floating-toc-plugin): 浮动 table of content
-    - [obsidian-image-captions](https://github.com/alangrainger/obsidian-image-captions): 让图片显示标注
-    - [obsidian-trash-explorer](https://github.com/proog/obsidian-trash-explorer): Restore and delete files from the Obsidian .trash folder
-    - [obsidian-file-cleaner](https://github.com/johnsonhong997/obsidian-file-cleaner): clean up empty files and unused attachments in the obsidian vault.
-    - [obsidian-slash-commander](https://github.com/alephpiece/obsidian-slash-commander): 按 / 显示快捷命令列表，可自定义
-    - [vim-toggle](https://github.com/conneroisu/vim-toggle): 让 obsidian 支持 vim 快捷键
-    - [obsidian-show-whitespace-cm6](https://github.com/ebullient/obsidian-show-whitespace-cm6): 显示换行符和多余的空格
-    - [obsidian-git](https://github.com/Vinzent03/obsidian-git): 定时保存修改到 git 并且同步到远端（可选）
+    - [Front Matter Title](https://github.com/snezhig/obsidian-front-matter-title): 用元数据 title 作为文件标题
     - [obsidian-frontmatter-modified-date](https://github.com/alangrainger/obsidian-frontmatter-modified-date): 自动创建、修改 created 和 modified 时间
+    - [obsidian-git](https://github.com/Vinzent03/obsidian-git): 定时保存修改到 git 并且同步到远端（可选）
+    - [Image Auto Upload](https://github.com/renmu123/obsidian-image-auto-upload-plugin): 配合 picgo 实现图片自动上传到图床。需要仔细配置才能用好。
+    - [Image Captions](https://github.com/alangrainger/obsidian-image-captions): 让图片显示标注
+    - [obsidian-importer](https://github.com/obsidianmd/obsidian-importer): import notes from other apps and file formats into your Obsidian
     - [pixel-banner](https://github.com/jparkerweb/pixel-banner): 给文章增加 banner
+    - [Local REST API for Obsidian](https://github.com/coddingtonbear/obsidian-local-rest-api): 通过 HTTP API 操作 obsidian
+    - [Market Proxy](https://github.com/haierkeys/obsidian-market-proxy)
+    - [Show Whitespace](https://github.com/ebullient/obsidian-show-whitespace-cm6): 显示换行符和多余的空格
+    - [Slash Commander](https://github.com/alephpiece/obsidian-slash-commander): 按 / 显示快捷命令列表，可自定义
+    - [Smart Composer](https://github.com/glowingjade/obsidian-smart-composer): 集成 AI 到 obsidian，支持 Apply/Diff 操作
+    - [Style Settings](https://github.com/mgmeyers/obsidian-style-settings): 自定义 CSS
+    - [Trash Explorer](https://github.com/proog/obsidian-trash-explorer): Restore and delete files from the Obsidian .trash folder
+    - [Trim Whitespace](https://github.com/zlovatt/obsidian-trim-whitespace): 去除多余空格
+    - [Update modified field on edit](https://github.com/alangrainger/obsidian-frontmatter-modified-date)
+    - [Vim Toggle](https://github.com/conneroisu/vim-toggle): 让 obsidian 支持 vim 快捷键
+    - [Whisper Obsidian Plugin](https://github.com/nikdanilov/whisper-obsidian-plugin): Speech-to-text in Obsidian using OpenAI Whisper
     - 不要安装 make.md，它可能会把你的文档数据弄丢！
 - [Notion](https://www.notion.so/): 笔记工具
   - https://timelinetool.app/notion/event : 统计公开链接的 PV 的 embed 插件
