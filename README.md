@@ -1405,9 +1405,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - Obsidian 插件
     - [obsidian-minimal-settings](https://github.com/kepano/obsidian-minimal-settings): 简单好用的主题
     - [Advanced Canvas](https://github.com/Developer-Mike/obsidian-advanced-canvas)
+    - [Auto Link Title](https://github.com/zolrath/obsidian-auto-link-title): 从粘贴的链接中自动获取标题
+    - [brat](https://github.com/TfTHacker/obsidian42-brat): 用于安装开发中插件的插件管理器
     - [Canvas MindMap](https://github.com/Quorafind/Obsidian-Canvas-MindMap): [该插件与 Smart Composer 有冲突](https://github.com/Quorafind/Obsidian-Canvas-MindMap/issues/71)
+    - [Code Styler Plugin](https://github.com/mayurankv/Obsidian-Code-Styler): lets you style codeblocks and inline code in both editing mode and reading mode.
     - [obsidian-copilot](https://github.com/logancyang/obsidian-copilot): 集成 AI 到 obsidian
-    - [obsidian-dataview](https://github.com/blacksmithgu/obsidian-dataview): 必装，功能很强大
+    - [Datacore](https://github.com/blacksmithgu/datacore): dataview 的继任者。功能很强大。使用 JS/JSX 编辑视图，不支持 DQL。还在开发中
     - [obsidian-douban](https://github.com/Wanxp/obsidian-douban): 从豆瓣抓取书影音等信息
     - [Editing Toolbar](https://github.com/PKM-er/obsidian-editing-toolbar): 置顶工具栏, 光标跟随工具栏
     - [obsidian-file-cleaner](https://github.com/johnsonhong997/obsidian-file-cleaner): 清理空文件和不需要的附件
@@ -1420,6 +1423,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [obsidian-importer](https://github.com/obsidianmd/obsidian-importer): import notes from other apps and file formats into your Obsidian
     - [pixel-banner](https://github.com/jparkerweb/pixel-banner): 给文章增加 banner
     - [Local REST API for Obsidian](https://github.com/coddingtonbear/obsidian-local-rest-api): 通过 HTTP API 操作 obsidian
+    - [Numerals](https://github.com/gtg922r/obsidian-numerals): power of an advanced calculator inside a math code block, complete with currencies, units, variables, and math functions!
     - [Market Proxy](https://github.com/haierkeys/obsidian-market-proxy)
     - [Show Whitespace](https://github.com/ebullient/obsidian-show-whitespace-cm6): 显示换行符和多余的空格
     - [Slash Commander](https://github.com/alephpiece/obsidian-slash-commander): 按 / 显示快捷命令列表，可自定义
@@ -1535,6 +1539,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [Keiyoushi Extensions](https://github.com/keiyoushi/extensions): Extension repository for Mihon and variants
   - [copymanga-copy20](https://github.com/LittleSurvival/copymanga-copy20)
 - [Suwayomi-Server](https://github.com/Suwayomi/Suwayomi-Server): 自部署的漫画服务。界面类似 mihon，兼容 mihon 插件和源。支持 docker 部署。
+  - [tachiyomi-extension](https://github.com/Suwayomi/tachiyomi-extension): Mihon 插件，访问 Suwayomi server
 
 ## 视频/音频
 

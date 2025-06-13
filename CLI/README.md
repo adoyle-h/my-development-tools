@@ -154,11 +154,11 @@
 
 ## 文件管理器
 
-- [ranger](https://github.com/ranger/ranger): Python 实现的
-- [nnn](https://github.com/jarun/nnn): C 实现的
-- [yazi](https://github.com/sxyazi/yazi): 待评价
+- [yazi](https://github.com/sxyazi/yazi): Rust 实现的。推荐。
   - [kanagawa.yazi](https://github.com/dangooddd/kanagawa.yazi): 主题配色
   - [yazi.nvim](https://github.com/mikavilpas/yazi.nvim): yazi 的 nvim 插件
+- [ranger](https://github.com/ranger/ranger): Python 实现的
+- [nnn](https://github.com/jarun/nnn): C 实现的
 
 ## 文件重命名
 
