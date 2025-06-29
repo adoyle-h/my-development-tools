@@ -844,8 +844,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [dolt](https://github.com/dolthub/dolt): 功能类似 Git 的数据库
 - [minio](https://github.com/minio/minio): 对象存储，高性能，K8S-Native
 - [ceph](https://github.com/ceph/ceph): 块存储，对象存储，文件存储
-- [alist](https://github.com/alist-org/alist): 支持多种云盘存储的文件管理程序。支持在线浏览图片、视音频。支持流式传输。
-  - [xlist](https://github.com/xlist-io/xlist): alist 的 iOS 和 Android 客户端。
+- [OpenList](https://github.com/OpenListTeam/OpenList): 支持多种云盘存储的文件管理程序。支持在线浏览图片、视音频。支持流式传输。
+  - [xlist](https://github.com/xlist-io/xlist): OpenList 的 iOS 和 Android 客户端。
 
 ### Embeddable DB
 
@@ -1111,10 +1111,14 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ### 图床
 
-- https://sm.ms/ : 免费公益的图床
+- https://sm.ms/ : 免费公益的图床，中国不可访问
+  - https://smms.app/ : 中国可访问的免费图床
+- https://freeimage.host/ : 免费图床，单张图片最大 64 MB，注册后 128MB，自动生成缩略图
 - https://imgur.com/ : 国外的图床
 - https://cloudinary.com/
 - [PicGo](https://github.com/Molunerfinn/PicGo): 图床管理软件，支持各种图床服务，包括 Github。Mac 安装失败见 FAQ。
+  - [picgo-plugin-s3](https://github.com/wayjam/picgo-plugin-s3)
+  - [picgo-plugin-freeimagehost-uploader](https://github.com/quul/picgo-plugin-freeimagehost-uploader)
 
 ## 网盘
 
@@ -1191,6 +1195,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [planetscale](https://planetscale.com/): Serverless MySQL 服务，5GB 免费使用量。
 - [railway.app](https://railway.app/): 非常棒的应用托管平台。每月赠送 $5，500 小时的免费用量。缺点是部署后就不能停止服务，只能删了部署重来。
 - https://vercel.com/
+- https://claw.cloud/ : 支持 docker 部署，每个月 $5 免费用量。支持多个 region，中国访问速度良好
 - https://fly.io/ 免费版支持 3 shared-cpu-1x 256mb VMs, 3GB 存储，160GB 输出带宽。
 - https://deta.space/ 免费服务
 - https://www.koyeb.com/
@@ -1405,10 +1410,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - Obsidian 插件
     - [obsidian-minimal-settings](https://github.com/kepano/obsidian-minimal-settings): 简单好用的主题
     - [Advanced Canvas](https://github.com/Developer-Mike/obsidian-advanced-canvas)
+    - [Advanced Tables](https://github.com/tgrosinger/advanced-tables-obsidian): improved table navigation, formatting, and manipulation
     - [Auto Link Title](https://github.com/zolrath/obsidian-auto-link-title): 从粘贴的链接中自动获取标题
     - [brat](https://github.com/TfTHacker/obsidian42-brat): 用于安装开发中插件的插件管理器
     - [Canvas MindMap](https://github.com/Quorafind/Obsidian-Canvas-MindMap): [该插件与 Smart Composer 有冲突](https://github.com/Quorafind/Obsidian-Canvas-MindMap/issues/71)
     - [Code Styler Plugin](https://github.com/mayurankv/Obsidian-Code-Styler): lets you style codeblocks and inline code in both editing mode and reading mode.
+    - [Obsidian Columns](https://github.com/tnichols217/obsidian-columns): 多列显示。支持移动端 OB
     - [obsidian-copilot](https://github.com/logancyang/obsidian-copilot): 集成 AI 到 obsidian
     - [Datacore](https://github.com/blacksmithgu/datacore): dataview 的继任者。功能很强大。使用 JS/JSX 编辑视图，不支持 DQL。还在开发中
     - [obsidian-douban](https://github.com/Wanxp/obsidian-douban): 从豆瓣抓取书影音等信息
@@ -1418,10 +1425,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [Front Matter Title](https://github.com/snezhig/obsidian-front-matter-title): 用元数据 title 作为文件标题
     - [obsidian-frontmatter-modified-date](https://github.com/alangrainger/obsidian-frontmatter-modified-date): 自动创建、修改 created 和 modified 时间
     - [obsidian-git](https://github.com/Vinzent03/obsidian-git): 定时保存修改到 git 并且同步到远端（可选）
+    - [obsidian-homepage](https://github.com/mirnovov/obsidian-homepage): 启动 obsidian 后自动打开主页文档
     - [Image Auto Upload](https://github.com/renmu123/obsidian-image-auto-upload-plugin): 配合 picgo 实现图片自动上传到图床。需要仔细配置才能用好。
     - [Image Captions](https://github.com/alangrainger/obsidian-image-captions): 让图片显示标注
     - [obsidian-importer](https://github.com/obsidianmd/obsidian-importer): import notes from other apps and file formats into your Obsidian
     - [pixel-banner](https://github.com/jparkerweb/pixel-banner): 给文章增加 banner
+    - [Obsidian List Callouts](https://github.com/mgmeyers/obsidian-list-callouts)
     - [Local REST API for Obsidian](https://github.com/coddingtonbear/obsidian-local-rest-api): 通过 HTTP API 操作 obsidian
     - [Numerals](https://github.com/gtg922r/obsidian-numerals): power of an advanced calculator inside a math code block, complete with currencies, units, variables, and math functions!
     - [Market Proxy](https://github.com/haierkeys/obsidian-market-proxy)
@@ -1429,12 +1438,18 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [Slash Commander](https://github.com/alephpiece/obsidian-slash-commander): 按 / 显示快捷命令列表，可自定义
     - [Smart Composer](https://github.com/glowingjade/obsidian-smart-composer): 集成 AI 到 obsidian，支持 Apply/Diff 操作
     - [Style Settings](https://github.com/mgmeyers/obsidian-style-settings): 自定义 CSS
+    - [Obsidian Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks): 使用 markdown 语法写任务管理
     - [Trash Explorer](https://github.com/proog/obsidian-trash-explorer): Restore and delete files from the Obsidian .trash folder
     - [Trim Whitespace](https://github.com/zlovatt/obsidian-trim-whitespace): 去除多余空格
     - [Update modified field on edit](https://github.com/alangrainger/obsidian-frontmatter-modified-date)
     - [Vim Toggle](https://github.com/conneroisu/vim-toggle): 让 obsidian 支持 vim 快捷键
     - [Whisper Obsidian Plugin](https://github.com/nikdanilov/whisper-obsidian-plugin): Speech-to-text in Obsidian using OpenAI Whisper
     - 不要安装 make.md，它可能会把你的文档数据弄丢！
+  - Obsidian css snippets
+    - [r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets](https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets)
+    - [Dmytro-Shulha/obsidian-css-snippets](https://github.com/Dmytro-Shulha/obsidian-css-snippets)
+    - [gsarig/obsidian-css-snippets](https://github.com/gsarig/obsidian-css-snippets)
+    - [Obsidian-Colored-Sidebar](https://github.com/CyanVoxel/Obsidian-Colored-Sidebar): A Colored Sidebar CSS Snippet for Obsidian.
 - [Notion](https://www.notion.so/): 笔记工具
   - https://timelinetool.app/notion/event : 统计公开链接的 PV 的 embed 插件
 - 基于 Notion 的网站
@@ -1475,8 +1490,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ### Markdown
 
-- [grip](https://github.com/joeyespo/grip): Markdown 即时渲染服务器
-  - [vmd](https://github.com/yoshuawuyts/vmd): Markdown 即时渲染应用。备选方案
 - [json2md](https://github.com/IonicaBizau/json2md): 非常灵活的 Markdown 生成工具，容易自己定制功能
 - [markdown-toc](https://github.com/jonschlinkert/markdown-toc): 根据 markdown heading 文本输出 TOC
 - [unified](#unified)
@@ -1608,8 +1621,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [uftp](https://uftp-multicast.sourceforge.net/): 基于 UDP 的 FTP 服务器和客户端
 - [ncftp](https://www.ncftp.com/ncftp/): ftp 命令行客户端，macos、linux 平台通用。缺点是不支持 ftp over ssl。
   - [lftp](https://lftp.yar.ru): macos、linux 平台通用。支持 ftp over TLS or OpenSSL。缺点是没有 lls 这样的指令。只能用 `!`。
-- [Transmit](https://panic.com/transmit/): FTP/SFTP/WebDAV/S3/Backblaze B2/Box/Google Drive/DreamObjects/Dropbox/Microsoft Azure/Rackspace Cloud Files 客户端 APP。 `Ⓜ` 
-- [Transfer](https://www.intuitibits.com/products/transfer/): 简单好用的 TFTP/HTTP/FTP/SFTP 服务器 `Ⓜ` 
+- [Transmit](https://panic.com/transmit/): FTP/SFTP/WebDAV/S3/Backblaze B2/Box/Google Drive/DreamObjects/Dropbox/Microsoft Azure/Rackspace Cloud Files 客户端 APP。 `Ⓜ`
+- [Transfer](https://www.intuitibits.com/products/transfer/): 简单好用的 TFTP/HTTP/FTP/SFTP 服务器 `Ⓜ`
 - [WinSCP](https://winscp.net/): 免费开源的 FTP GUI 客户端。也支持 SCP、WebDAV、S3。支持中文文件名。`ⓦ`
 - [muCommander](https://www.mucommander.com/): 开源、跨平台的 FTP GUI 客户端。支持 FTP, SFTP, SMB, NFS, HTTP, Amazon S3, Hadoop HDFS, Bonjour。缺点：中文文件名会显示乱码。
 

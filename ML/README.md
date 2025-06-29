@@ -119,6 +119,7 @@ text-to-image 社区
 
 - [goose](https://block.github.io/goose/): 有 GUI 与 CLI
 - [mods](https://github.com/charmbracelet/mods): CLI。支持 MCP
+- [opencode](https://github.com/opencode-ai/opencode): CLI。支持 MCP。
 
 ## MCP 服务端
 

@@ -40,7 +40,8 @@
 - https://livecdlist.com/ : Linux LiveCD 发行版列表
 - https://distrochooser.de : 帮你选择 Linux 发行版
 - [SystemRescue](https://www.system-rescue.org/): 基于 Arch Linux，预装了一堆[系统工具](https://www.system-rescue.org/System-tools/)。用于系统恢复和硬盘处理。是 Live CD，开箱即用。启动默认进入终端，输入 `startx` 会进入图形化界面。
-- [debian](https://www.debian.org/): 服务器场景推荐
+- [debian](https://www.debian.org/): 推荐。支持多种架构，应用场景多样。稳定性：每 2 年发布新的主版本，LTS 时长为 3 年。
+- [Rocky Linux](https://rockylinux.org/): CentOS 的继任者。企业级稳定性：每 3 年发布新的主版本，LTS 时长为 5 年。
 - [manjaro](https://manjaro.org/): 新手入门
 - [ubuntu](https://ubuntu.com): 新手入门
 - [Clean Linux](https://clearlinux.org/): Intel 出品

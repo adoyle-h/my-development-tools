@@ -115,7 +115,7 @@
 
 ### 公共 DNS
 
-- [NextDNS](https://nextdns.io): 功能很强大，类似 AdGuard 的功能，但免部署，开箱即用。自定义安全设置，自定义黑名单、白名单，提供日志和访问统计（建议把日志存储在欧盟或者瑞士）。支持 DoT/DoH/IPv4/IPv6。不同配置提供不同的 DNS 子域名。最关键的是国外的服务但是在中国延迟很低。
+- [NextDNS](https://nextdns.io/?from=hjxkvhpj): 功能很强大，类似 AdGuard 的功能，但免部署，开箱即用。自定义安全设置，自定义黑名单、白名单，提供日志和访问统计（建议把日志存储在欧盟或者瑞士）。支持 DoT/DoH/IPv4/IPv6。不同配置提供不同的 DNS 子域名。最关键的是国外的服务但是在中国延迟很低。
 - [Google Public DNS](https://developers.google.com/speed/public-dns/docs/using): 8.8.8.8
 - [Cloudflare Public DNS](https://1.1.1.1/dns/): 1.1.1.1 DoH/DoT 在国内可用
 - [Quad101](https://101.101.101.101/): 101.101.101.101 台湾服务器。支持 DoH/DoT，在国内可用。DoT 不可用。速度比 Cloudflare 的快一点。
