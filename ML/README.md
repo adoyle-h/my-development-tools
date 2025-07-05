@@ -61,8 +61,10 @@
 
 - [llama.cpp](https://github.com/ggerganov/llama.cpp): 通过压缩模型参数的精度，让 LLM 在消费级电脑上也能运行。虽然准确率会下降。
 - [Ollama](https://ollama.com/): 基于 llama.cpp，支持在本地运行 LLM。支持 MacOS/Linux/Windows 系统。支持命令行交互。支持 HTTP API 交互。提供模型下载和管理，官方维护一套[已量化的模型](https://ollama.com/library)。也可以编写 [Modelfile](https://github.com/ollama/ollama/blob/main/docs/modelfile.md) 根据 gguf 模型自己微调模型。支持容器启动。
+  - [OllamaModelManager](https://github.com/d3v0ps-cloud/OllamaModelManager/): 管理 Ollama 模型的 WebUI
 - [OpenRouter](https://openrouter.ai/): 国外的 LLM 通用代理接口
 - [V-API](https://api.v3.cm/register?aff=pMW7): 国内的 LLM 通用代理接口
+- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm): 持 MacOS/Linux/Windows 系统。支持本地 LLM（ollama）。支持在线 LLM（chatgpt、claude、gemini、generic openai）。支持语音转换。集成了向量数据库可以做 RAG 知识库。支持图片识别、文本上传。支持自定义 prompt。多聊天窗口，多 Workspace。支持 MCP。支持代理配置。
 
 ## 线上平台与社区
 

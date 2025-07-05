@@ -1434,6 +1434,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [Local REST API for Obsidian](https://github.com/coddingtonbear/obsidian-local-rest-api): 通过 HTTP API 操作 obsidian
     - [Numerals](https://github.com/gtg922r/obsidian-numerals): power of an advanced calculator inside a math code block, complete with currencies, units, variables, and math functions!
     - [Market Proxy](https://github.com/haierkeys/obsidian-market-proxy)
+    - [Refresh Any View](https://github.com/mnaoumov/obsidian-refresh-any-view): 增加一个刷新页面的按钮
     - [Show Whitespace](https://github.com/ebullient/obsidian-show-whitespace-cm6): 显示换行符和多余的空格
     - [Slash Commander](https://github.com/alephpiece/obsidian-slash-commander): 按 / 显示快捷命令列表，可自定义
     - [Smart Composer](https://github.com/glowingjade/obsidian-smart-composer): 集成 AI 到 obsidian，支持 Apply/Diff 操作

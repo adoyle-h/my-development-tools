@@ -95,6 +95,7 @@
 - [q](https://github.com/natesales/q): better `dig`
   - [dog](https://github.com/ogham/dog): 备选方案
 - [ddns-go](https://github.com/jeessy2/ddns-go): DDNS Server。自动获得你的公网 IPv4 或 IPv6 地址，并解析到对应的域名服务（Alidns/Dnspod/Cloudflare/华为云/百度云/Porkbun/GoDaddy/Google Domain）。支持更新多个域名。支持自定义回调。支持 Docker。
+  - [ddclient](https://github.com/ddclient/ddclient): 备选方案。Perl 脚本。很多系统自带这个包。
 - [DNSPerf](https://www.dnsperf.com/): DNS 服务性能对比
 - [dnspyre](https://github.com/Tantalor93/dnspyre): DNS 压测工具
   - [dnsperf](https://github.com/DNS-OARC/dnsperf): 备选方案
