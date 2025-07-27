@@ -1356,6 +1356,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Begin-Latex-in-minutes](https://github.com/luong-komorebi/Begin-Latex-in-minutes/blob/master/Translation-Chinese.md)
 - [TEXMaker](https://www.xm1math.net/texmaker/)
 - [KaTeX](https://github.com/KaTeX/KaTeX): Fast math typesetting for the web. https://katex.org/
+- [Typst](https://github.com/typst/typst): latex 替代品。类似 markdown 语法，可以在文档内编程，Rust 渲染速度很快。
+  - [tinymist](https://github.com/Myriad-Dreamin/tinymist): language service for Typst
 
 ## Slide/Presentation
 
@@ -1583,6 +1585,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [MuseScore](https://github.com/musescore/MuseScore): 开源的打谱软件
 - https://musescore.com/ : MuseScore 曲谱分享平台。包含可视化弹奏等强大功能。大部分功能收费。
 - http://etaaudio.com/ : 遵循 CC 协议分享的音乐库
+- [SpotX](https://github.com/SpotX-Official/SpotX): 修改 Spotify，屏蔽广告，只对 Windows 平台有效。
+  - [SpotX-Bash](https://github.com/SpotX-Official/SpotX-Bash): 修改 Spotify，屏蔽广告，只对 Linux、MacOS 有效。
 
 ## 知识图谱
 

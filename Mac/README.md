@@ -54,6 +54,7 @@
 - [Transfer](https://www.intuitibits.com/products/transfer/): 简单好用的 TFTP/HTTP/FTP/SFTP 服务器 `Ⓜ`
 - [Suspicious Package](https://mothersruin.com/software/SuspiciousPackage/): 可以查看 pkg 包的内容，可以打开嵌套的 pkg。非常有用。
 - [Easydict](https://github.com/tisfeng/Easydict/): 简洁优雅的多词典翻译程序。支持有道词典，苹果系统词典，苹果系统翻译，OpenAI，Gemini，DeepL，Google，Bing，腾讯，百度，阿里，小牛，彩云和火山翻译。支持离线 OCR 识别。
+- [CoreInject](https://github.com/QiuChenly/CoreInject): 破解 Mac App
 
 ## 快捷键
 

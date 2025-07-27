@@ -142,6 +142,7 @@
 ## Websocket
 
 - [websocketd](https://github.com/joewalnes/websocketd/): 基于 stdin/stdout 的 WebSocket 服务器，开箱即用
+- [websocat](https://github.com/vi/websocat): WebSockets 命令行客户端
 
 ## 抓包、流量分析
 

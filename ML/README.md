@@ -62,8 +62,8 @@
 - [llama.cpp](https://github.com/ggerganov/llama.cpp): 通过压缩模型参数的精度，让 LLM 在消费级电脑上也能运行。虽然准确率会下降。
 - [Ollama](https://ollama.com/): 基于 llama.cpp，支持在本地运行 LLM。支持 MacOS/Linux/Windows 系统。支持命令行交互。支持 HTTP API 交互。提供模型下载和管理，官方维护一套[已量化的模型](https://ollama.com/library)。也可以编写 [Modelfile](https://github.com/ollama/ollama/blob/main/docs/modelfile.md) 根据 gguf 模型自己微调模型。支持容器启动。
   - [OllamaModelManager](https://github.com/d3v0ps-cloud/OllamaModelManager/): 管理 Ollama 模型的 WebUI
-- [OpenRouter](https://openrouter.ai/): 国外的 LLM 通用代理接口
-- [V-API](https://api.gpt.ge/register?aff=pMW7): 国内的 LLM 通用代理接口
+- [OpenRouter](https://openrouter.ai/): 国外的 LLM 通用代理接口。**充值的钱一年后会过期作废**。
+- [V-API](https://api.gpt.ge/register?aff=pMW7): 国内的 LLM 通用代理接口。**注意：它的 GPT、Claude 等国外模型很可能是假的。经我测试对比，推测这网站实际用的可能是 deepseek 模型。**
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm): 持 MacOS/Linux/Windows 系统。支持本地 LLM（ollama）。支持在线 LLM（chatgpt、claude、gemini、generic openai）。支持语音转换。集成了向量数据库可以做 RAG 知识库。支持图片识别、文本上传。支持自定义 prompt。多聊天窗口，多 Workspace。支持 MCP。支持代理配置。
 
 ## 线上平台与社区
@@ -129,6 +129,7 @@ text-to-image 社区
 - [server-brave-search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search#brave-search-mcp-server): 使用 brave search api 搜索
 - [BrowserMCP](https://github.com/BrowserMCP/mcp): 操纵浏览器
 - [playwright-mcp](https://github.com/microsoft/playwright-mcp): 适合自动化测试用
+- [context7](https://github.com/upstash/context7): 直接从原项目获取最新的、特定版本的文档和代码示例，放到你的文档里
 
 ## Diffusion 模型
 
