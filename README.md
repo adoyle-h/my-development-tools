@@ -173,6 +173,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [跳板机/堡垒机](#跳板机堡垒机)
 - [REPL](#repl)
 - [正则表达式 (Regex)](#正则表达式-regex)
+- [语法分析/AST](#语法分析ast)
 - [数据可视化](#数据可视化)
     - [地图](#地图)
 - [日志](#日志)
@@ -1254,6 +1255,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - https://pythonium.net/regex : 可视化和校验。仅支持 Python
 - [Learn regex the easy way](https://github.com/ziishaned/learn-regex)
 - [grex](https://github.com/pemistahl/grex): 根据给出的文本，自动给出合适的正则表达式
+
+## 语法分析/AST
+
+- [tree-sitter](https://github.com/tree-sitter/tree-sitter): A parser generator tool and an incremental parsing library. It can build a concrete syntax tree for a source file and efficiently update the syntax tree as the source file is edited.
+- [ast-grep](https://github.com/ast-grep/ast-grep): A CLI tool for code structural search, lint and rewriting.
+  - [GritQL](https://github.com/honeycombio/gritql): 备选方案
 
 ## 数据可视化
 

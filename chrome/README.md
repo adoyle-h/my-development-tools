@@ -42,7 +42,7 @@
 - [Close All Tabs](https://chrome.google.com/webstore/detail/jcokdfogijmigonkhckmhldgofjmfdak): 一键关闭所有标签页
 - [The Marvellous Suspender](https://chromewebstore.google.com/detail/noogafoofpebimajpfpamcfhoaifemoa): 定时释放页面内存，拯救你的内存被 Chrome 吃光。[源码](https://github.com/gioxx/MarvellousSuspender)
   - Fork 自 [The Great Suspender](https://github.com/deanoemcke/thegreatsuspender)，因为[这个原因](https://github.com/greatsuspender/thegreatsuspender/issues/1263)，TGS 有安全问题被 Google 封禁了。
-- [show-remote-ip](https://github.com/adoyle-h/show-remote-ip): 显示当前访问网页的服务器 IP，支持多语言与浮窗位置切换。
+- [show-remote-ip](https://chromewebstore.google.com/detail/show-remote-ip/abbfelabgbandnfajkpfdlljcehfgdng): 显示当前访问网页的服务器 IP，支持多语言与浮窗位置切换。
 - [Cookie Editor](https://chromewebstore.google.com/detail/cookie-editor/ookdjilphngeeeghgngjabigmpepanpl): Cookie 编辑器
 - [Wikiwand](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj): 自动将 Wikipedia 的链接跳转到 Wikiwand
 - [Modern for Hacker News](https://chromewebstore.google.com/detail/modern-for-hacker-news/dabkegjlekdcmefifaolmdhnhdcplklo): 美化 Hacker News 的界面，交互体验做得非常棒，支持亮/暗色系。

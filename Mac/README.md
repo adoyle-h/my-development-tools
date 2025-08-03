@@ -55,6 +55,7 @@
 - [Suspicious Package](https://mothersruin.com/software/SuspiciousPackage/): 可以查看 pkg 包的内容，可以打开嵌套的 pkg。非常有用。
 - [Easydict](https://github.com/tisfeng/Easydict/): 简洁优雅的多词典翻译程序。支持有道词典，苹果系统词典，苹果系统翻译，OpenAI，Gemini，DeepL，Google，Bing，腾讯，百度，阿里，小牛，彩云和火山翻译。支持离线 OCR 识别。
 - [CoreInject](https://github.com/QiuChenly/CoreInject): 破解 Mac App
+- [crossover](https://www.codeweavers.com/crossover): 在 MacOS 里直接运行 windows 程序。轻量级的虚拟机，支持 win10/win11/win xp/win 2000/win98。基于 wine，因此只有 [wine 支持的程序才能运行](https://appdb.winehq.org/objectManager.php?sClass=application&sTitle=Browse%20Applications&sOrderBy=appName&bAscending=true)。
 
 ## 快捷键
 
