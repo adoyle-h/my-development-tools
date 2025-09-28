@@ -87,6 +87,7 @@
 - [distribution](https://github.com/distribution/distribution): 镜像仓库
 - [harbor](https://github.com/goharbor/harbor): Cloud native registry: With support for both container images and Helm charts, Harbor serves as registry for cloud native environments like container runtimes and orchestration platforms.
 - [zot](https://github.com/project-zot/zot): 轻量级镜像仓库
+- [wud](https://github.com/getwud/wud/): 让 docker 容器自动到最新的镜像。有 Web UI。支持发送通知。
 
 ## 监控
 

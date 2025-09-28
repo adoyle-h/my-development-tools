@@ -43,6 +43,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+    - [邮箱](#邮箱)
     - [养生](#养生)
     - [教你搜索](#教你搜索)
     - [历史遗珠](#历史遗珠)
@@ -155,6 +156,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [服务 (Service)](#服务-service)
     - [在线工具箱 (Online Toolbox)](#在线工具箱-online-toolbox)
     - [自部署的服务 (Self-Host Service)](#自部署的服务-self-host-service)
+    - [WAF](#waf)
     - [短链接](#短链接)
     - [评论系统](#评论系统)
     - [图床](#图床)
@@ -259,6 +261,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [glance](https://github.com/glanceapp/glance): 用 YAML 配置的导航页。支持 RSS 展示，这个功能很棒。不支持热更新。插件略少。
 - https://freedium.cfd/ : 阅读 Medium 的付费文章
 - [pdfgear](https://www.pdfgear.com/): 阅读、编辑、转换、合并和跨设备签署 PDF 文件，完全免费无需注册。
+
+### 邮箱
+
+- https://mail.proton.me/ : 注册步骤简单，无须电话和个人信息。注重用户隐私，公司总部位于瑞士。
+- https://mail.google.com/ : 注册步骤非常复杂。
+- https://outlook.live.com/ : 部分网站不接受用 outlook 邮箱注册账号。
 
 ### 养生
 
@@ -1094,6 +1102,14 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [webhook](https://github.com/adnanh/webhook): a lightweight incoming webhook server to run shell commands
 - [enclosed](https://github.com/CorentinTh/enclosed): 阅后即焚服务
 
+### WAF
+
+- [ModSecurity](https://github.com/owasp-modsecurity/ModSecurity): cross platform web application firewall (WAF) engine for Apache, IIS and Nginx. It has a robust event-based programming language which provides protection from a range of attacks against web applications and allows for HTTP traffic monitoring, logging and real-time analysis.
+  - [OWASP CRS](https://github.com/coreruleset/coreruleset): ModSecurity 的防火墙规则集
+  - [modsecurity-crs-docker](https://github.com/coreruleset/modsecurity-crs-docker): Official ModSecurity Docker + Core Rule Set (CRS) images
+- [SafeLine](https://github.com/chaitin/SafeLine): 中国公司做的雷池系统。UI 做的不错。
+- [bunkerweb](https://github.com/bunkerity/bunkerweb): 「待评价」
+
 ### 短链接
 
 - [sink](https://github.com/ccbikai/sink): 基于 Cloudflare Page 部署的短链接服务，有访问统计功能。部署简单。
@@ -1376,6 +1392,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - https://slides.com/ : 基于 [reveal.js](https://github.com/hakimel/reveal.js) 的服务，非常好用，但是国内要翻墙 `ⱳ`
 - [mdx-deck](https://github.com/jxnblk/mdx-deck): 基于 MDX 写 slide
 - [presenterm](https://github.com/mfontanini/presenterm): 在终端播放 slide
+  - [maaslalani/slides](https://github.com/maaslalani/slides): 备选方案
 
 ## SSG: Static Site Generator
 

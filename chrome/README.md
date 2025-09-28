@@ -64,7 +64,7 @@
 - [Cleaner - history & cache clean](https://chromewebstore.google.com/detail/pooaemmkohlphkekccfajnbcokjlbehk): 自动清理历史记录
 - [沉浸式翻译](https://github.com/immersive-translate/immersive-translate): 浏览器插件，开源免费，体验很好。
 - [WebRTC Leak Shield](https://chromewebstore.google.com/detail/webrtc-leak-shield/bppamachkoflopbagkdoflbgfjflfnfl): 防止 WebRTC 泄露本机 IP。注意：不要用 google 的 [WebRTC Network Limiter](https://chromewebstore.google.com/detail/WebRTC%20Network%20Limiter/npeicpdbkakmehahjeeohfdhnlpdklia)，没有用。
-- [SuperCopy](https://chromewebstore.google.com/detail/supercopy-%E8%B6%85%E7%BA%A7%E5%A4%8D%E5%88%B6/onepmapfbjohnegdmfhndpefjkppbjkm): 超级复制
+- [允许复制+](https://chromewebstore.google.com/detail/%E5%85%81%E8%AE%B8%E5%A4%8D%E5%88%B6-+/ajhbdcgfhlhhmocddefknj): 超级复制
 - [HN Special](https://chromewebstore.google.com/detail/hn-special-an-addition-to/cchaceegbflphbdpfocjalgjhjoahiia): An addition to Hacker News
 - [minerBlock](https://chromewebstore.google.com/detail/minerblock/emikbbbebcdfohonlaifafnoanocnebl): block browser-based cryptocurrency miners all over the web.
 - [Sourcegraph](https://chromewebstore.google.com/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack): Adds code intelligence to GitHub, GitLab, and other hosts: hovers, definitions, references. For 20+ languages.
