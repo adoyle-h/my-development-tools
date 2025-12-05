@@ -700,6 +700,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [yaml-sucks](https://github.com/cblp/yaml-sucks): YAML 的缺点列表
 - http://yaml-online-parser.appspot.com/
 - [yq](https://github.com/mikefarah/yq): 类似 jq
+- [yamline](https://yamline.com/): 在线 YAML 工具
 
 ### HCL
 
