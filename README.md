@@ -165,6 +165,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [爬虫/Archive](#爬虫archive)
     - [爬虫代理池](#爬虫代理池)
 - [HTTP 静态文件服务](#http-静态文件服务)
+- [文件管理服务](#文件管理服务)
 - [静态文件托管](#静态文件托管)
 - [CMS](#cms)
 - [PaaS](#paas)
@@ -815,6 +816,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [rclone](https://github.com/rclone/rclone): rsync for cloud storage. To sync files and directories to and from different cloud storage providers.
 - [restic](https://github.com/restic/restic): 简单易用的备份工具。支持快照，加密。可与 rclone 搭配。不支持软链接，restore 会[报错](https://github.com/restic/restic/issues/2578)。
   - [backrest](https://github.com/garethgeorge/backrest): 集成 restic 和 rclone 的 WebUI。操作简单。
+  - [rest-server](https://github.com/restic/rest-server): a high performance HTTP server that implements restic's REST backend API. 用于备份到远端。
 - [timeshift](https://github.com/linuxmint/timeshift): 备选方案。基于 rsync + hard link。支持快照、增量备份、BTRFS、自定义路径（默认屏蔽用户目录）。**不支持云存储**
 - [borg](https://github.com/borgbackup/borg): 备选方案
 - [duplicity](https://gitlab.com/duplicity/duplicity): 支持增量备份，软链接。不支持硬链接。
@@ -843,9 +845,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [DataGrip](https://www.jetbrains.com/datagrip): 数据库 GUI  `Ⓜ`
 - [mycli](https://github.com/dbcli/mycli): mysql 命令行客户端
-- [pgcli](https://github.com/dbcli/pgcli): postgres 命令行客户端
-- [pgadmin](https://www.pgadmin.org/)
-- [pgweb](https://github.com/sosedoff/pgweb): postgres web 客户端
 - [RedisInsight](https://github.com/RedisInsight/RedisInsight): Redis GUI by Redis。支持 Docker 部署。
 - [SQL 速查表](https://github.com/enochtangg/quick-SQL-cheatsheet/blob/master/README_zh-hans.md)
 - [UNQLite](https://github.com/symisc/unqlite):
@@ -854,8 +853,14 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [dolt](https://github.com/dolthub/dolt): 功能类似 Git 的数据库
 - [minio](https://github.com/minio/minio): 对象存储，高性能，K8S-Native
 - [ceph](https://github.com/ceph/ceph): 块存储，对象存储，文件存储
-- [OpenList](https://github.com/OpenListTeam/OpenList): 支持多种云盘存储的文件管理程序。支持在线浏览图片、视音频。支持流式传输。
-  - [xlist](https://github.com/xlist-io/xlist): OpenList 的 iOS 和 Android 客户端。
+
+  ### postgres
+
+- [pgcli](https://github.com/dbcli/pgcli): postgres 命令行客户端
+- [pgadmin](https://www.pgadmin.org/): postgres web 客户端
+- [pgweb](https://github.com/sosedoff/pgweb): postgres web 客户端
+- [pgbarman](https://github.com/EnterpriseDB/barman): 备份工具
+- [pgbackrest](https://github.com/pgbackrest/pgbackrest): 备份工具
 
 ### Embeddable DB
 
@@ -1184,6 +1189,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [caddy](https://github.com/caddyserver/caddy): Go 写的。[Docker Alpine 镜像](https://hub.docker.com/_/caddy)大小 16 MB。
 - [http-server](https://github.com/http-party/http-server): NodeJS 写的。
 - [lipanski/docker-static-website](https://github.com/lipanski/docker-static-website): 基于 busybox 自带的 httpd 程序。Docker 镜像大小 154KB。功能有限。
+
+## 文件管理服务
+
+- [OpenList](https://github.com/OpenListTeam/OpenList): 支持多种云盘存储的文件管理程序。支持在线浏览图片、视音频。支持流式传输。缺点是大文件传输时会报错。
+  - [xlist](https://github.com/xlist-io/xlist): OpenList 的 iOS 和 Android 客户端。
+- [FileBrowser Quantum](https://github.com/gtsteffaniak/filebrowser): FileBrowser Quantum provides an easy way to access and manage your files from the web. FileBrowser Quantum  is a Fork from FileBrowser.
 
 ## 静态文件托管
 

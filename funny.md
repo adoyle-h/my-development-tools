@@ -44,3 +44,9 @@
     - https://www.iphonecake.com/
   - IPA 源
     - https://decrypt.day/library
+
+### Minecraft
+
+- [PrismLauncher](https://github.com/PrismLauncher/PrismLauncher): 管理多 MC 实例的启动器。
+  - [PrismLauncher-Cracked](https://github.com/Diegiwg/PrismLauncher-Cracked): 无须微软账号可以本地离线玩
+- [PCL](https://github.com/Meloong-Git/PCL): 无须微软账号可以本地离线玩

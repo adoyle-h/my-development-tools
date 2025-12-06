@@ -154,7 +154,7 @@
   - [iProxy](https://github.com/xcodebuild/iProxy): 备选方案
 - [nethogs](https://github.com/raboof/nethogs): 按进程实时监控网络流量
 - [sniffer](https://github.com/chenjiandongx/sniffer): 按进程和链接实时监控网络流量
-- [Proxyman](https://proxyman.io/): 功能超强的 HTTP 抓包工具
+- [Proxyman](https://proxyman.io/): 功能超强的 HTTP 抓包和 Mock 工具
 
 ## API Gateway
 

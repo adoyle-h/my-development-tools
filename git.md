@@ -24,6 +24,7 @@
 
 - 自部署
   - [Gitea](https://github.com/go-gitea/gitea): MIT 协议开源的 Git 托管服务。后端采用 Go 编写
+  - [Forgejo](https://forgejo.org/): 由于 Gitea 被商业公司收购。社区分叉出 Forgejo。100% 开源。主要由 codeberg 维护。
 - 国外服务
   - https://github.com/
   - https://gitlab.com/

@@ -130,6 +130,7 @@ text-to-image 社区
 - [BrowserMCP](https://github.com/BrowserMCP/mcp): 操纵浏览器
 - [playwright-mcp](https://github.com/microsoft/playwright-mcp): 适合自动化测试用
 - [context7](https://github.com/upstash/context7): 直接从原项目获取最新的、特定版本的文档和代码示例，放到你的文档里
+- [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp/): Chrome 官方的 MCP
 
 ## Diffusion 模型
 

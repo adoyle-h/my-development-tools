@@ -116,6 +116,7 @@
 
 ## KVM Switch
 
+- [One-KVM](https://github.com/mofeng-git/One-KVM): One-KVM 是基于廉价计算机硬件和 PiKVM 软件二次开发的 BIOS 级远程控制项目。
 - [barrier](https://github.com/debauchee/barrier): KVM switch over http
 - [TinyPilot](https://github.com/tiny-pilot/tinypilot): KVM over IP
 
