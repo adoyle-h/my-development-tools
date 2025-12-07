@@ -107,8 +107,8 @@
   - [源码](https://github.com/jaywcjlove/linux-command)
 - sar: linux 命令，查看系统状态
 - stat: 查看文件状态，比 ls 更详细，并且能指定输出哪些状态
-- file: 查看文件类型。[详见](http://adoyle.me/Today-I-Learned/linux/file-command.html)
-- md5: 计算 md5。[详见](http://adoyle.me/Today-I-Learned/linux/hash-command.html)
+- file: 查看文件类型。[详见](http://til.adoyle.me/linux/file-command)
+- md5: 计算 md5。[详见](http://til.adoyle.me/linux/hash-command)
   - cksum: crc32 算法
   - shasum: sha1 算法
 - 编辑:

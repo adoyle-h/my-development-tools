@@ -1409,7 +1409,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## SSG: Static Site Generator
 
 - [Jekyll](https://jekyllrb.com/): Ruby 生态。Github Page 默认 SSG。markdown 文本编译成网页。主题和插件生态非常丰富。
-  - [我的使用经验](https://adoyle.me/Today-I-Learned/others/jekyll.html)
+  - [我的使用经验](https://til.adoyle.me/others/jekyll)
   - [jekyll-toc](https://github.com/allejo/jekyll-toc): 给 Github Page 的 jekyll 主题增加 TOC
   - [jekyll-remote-theme](https://github.com/benbalter/jekyll-remote-theme): 自动安装 jekyll 主题
 - [just-the-docs](https://github.com/just-the-docs/just-the-docs): 基于 Jekyll，适用于生成项目文档。搜索功能强大。
