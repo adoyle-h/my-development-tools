@@ -49,6 +49,7 @@
 - ghcr.io -> ghcr.nju.edu.cn or ghcr.chenby.cn
 - docker.io -> docker.1ms.run
 - [CF-Workers-docker](https://github.com/cmliu/CF-Workers-docker.io): 用 cloudflare worker 自建 Docker Hub, K8S, GCR, GHCR, QUAY 代理。 **有封号风险，建议使用新账号和新域名创建。**
+  - [Cloudflare-Accel](https://github.com/fscarmen2/Cloudflare-Accel): 备选方案
   - [ciiiii/cloudflare-docker-proxy](https://github.com/ciiiii/cloudflare-docker-proxy): 备选方案
 <!-- - https://dockerpull.com/ -->
 <!-- - https://dockerhub.icu/ -->
@@ -76,10 +77,11 @@
 ## 镜像制作
 
 - [buildah](https://github.com/containers/buildah): 替代 `docker build`。不依赖 daemon 或容器，直接编译出镜像文件。支持 shell 脚本编写镜像制作过程，也支持 Dockerfile 的写法。
-- [tini](https://github.com/krallin/tini): init 进程
+- [tini](https://github.com/krallin/tini): init 进程。现已默认集成到 docker。但 podman 默认使用的是 [catatonit](https://github.com/openSUSE/catatonit)，区别很大。
   - [dumb-init](https://github.com/Yelp/dumb-init): 备选方案
 - [linuxkit](https://github.com/linuxkit/linuxkit): 自由组合多个基础镜像，拼成一个操作系统的镜像。
 - [Distroless](https://github.com/GoogleContainerTools/distroless): Google 出品的基础镜像，没有 Shell，只包含最基本的依赖。相对更安全。
+- [利用 Github Action 构建镜像](https://docs.docker.com/build/ci/github-actions/)
 
 ## 镜像管理
 
@@ -88,6 +90,7 @@
 - [harbor](https://github.com/goharbor/harbor): Cloud native registry: With support for both container images and Helm charts, Harbor serves as registry for cloud native environments like container runtimes and orchestration platforms.
 - [zot](https://github.com/project-zot/zot): 轻量级镜像仓库
 - [wud](https://github.com/getwud/wud/): 让 docker 容器自动到最新的镜像。有 Web UI。支持发送通知。
+  - [tugtainer](https://github.com/Quenary/tugtainer): 备选方案
 
 ## 监控
 

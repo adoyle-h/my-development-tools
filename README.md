@@ -736,8 +736,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ### JSON Path
 
 - [JsonPath](https://github.com/json-path/JsonPath)
-- https://jsonpath.com/ : JSONPath Online Evaluator
-  - http://jsonpath.herokuapp.com/
+- https://jsonpath.online/ : JSONPath Online Evaluator & Validator
 
 ## Lint
 
@@ -849,9 +848,10 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [SQL 速查表](https://github.com/enochtangg/quick-SQL-cheatsheet/blob/master/README_zh-hans.md)
 - [UNQLite](https://github.com/symisc/unqlite):
 - [SQLite](https://www.sqlite.org)
+- [turso](https://github.com/tursodatabase/turso): an in-process SQL database, compatible with SQLite.
 - [vitess](https://github.com/vitessio/vitess): MySQL Sharding Proxy。支持 k8s。Youtube 2011 年就开始跑了。
 - [dolt](https://github.com/dolthub/dolt): 功能类似 Git 的数据库
-- [minio](https://github.com/minio/minio): 对象存储，高性能，K8S-Native
+- [rustfs](https://github.com/rustfs/rustfs): 对象存储，高性能，K8S-Native，兼容 S3
 - [ceph](https://github.com/ceph/ceph): 块存储，对象存储，文件存储
 
   ### postgres

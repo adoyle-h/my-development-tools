@@ -77,6 +77,7 @@
 - [label-exporter](https://github.com/micnncim/label-exporter): 导出现有的 label 到文件
 - [docker/build-push-action](https://github.com/docker/build-push-action): 构建镜像并推送到 registry
 - [docker/login-action](https://github.com/docker/login-action): 登录各种 Registry
+- [docker/metadata-action](https://github.com/docker/metadata-action): GitHub Action to extract metadata (tags, labels) from Git reference and GitHub events for Docker
 - [dorny/paths-filter](https://github.com/dorny/paths-filter): 根据指定文件是否修改，决定是否执行 workflow
 - [create-discussion](https://github.com/abirismyname/create-discussion): 创建 Discussion
 - [action-upterm](https://github.com/owenthereal/action-upterm): 用于调试 github action。将运行时 workflow 暴露到公网，然后通过 ssh 连接到 workflow 环境

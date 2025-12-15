@@ -81,6 +81,7 @@
   - [s6-overlay](https://github.com/just-containers/s6-overlay): s6 overlay for containers
 - [tini](https://github.com/krallin/tini): 容器专用 init。已经集成到 Docker 1.13 及之后版本，需要加 --init 参数开启，默认不开启。
   - [dumb-init](https://github.com/Yelp/dumb-init): 备选方案
+- [catatonit](https://github.com/openSUSE/catatonit)
 
 ## 时间
 
