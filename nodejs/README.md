@@ -389,6 +389,7 @@
 
 ## Code Lint
 
+- [Biome](https://github.com/biomejs/biome): The formatter and linter for JavaScript, TypeScript, JSX, JSON, CSS and GraphQL. Usable via CLI and LSP.
 - [eslint](https://github.com/eslint/eslint): 规则式代码校验器
   - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
   - [eslint-import-resolver-alias](https://github.com/johvin/eslint-import-resolver-alias)
@@ -398,8 +399,7 @@
 
 ## Code Format
 
-- [prettier](https://github.com/prettier/prettier): monorepo 使用有个[问题](https://github.com/prettier/prettier/issues/4081)
-  - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+- [Biome](https://github.com/biomejs/biome): The formatter and linter for JavaScript, TypeScript, JSX, JSON, CSS and GraphQL. Usable via CLI and LSP.
 
 ## Code Check
 
