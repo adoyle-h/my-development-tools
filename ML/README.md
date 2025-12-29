@@ -23,6 +23,7 @@
 - [Diffusion 模型](#diffusion-模型)
 - [图片生成](#图片生成)
     - [Stable Diffusion Prompt](#stable-diffusion-prompt)
+- [LLM 引擎](#llm-引擎)
 - [Prompt 工程](#prompt-工程)
     - [Prompt 优化工具](#prompt-优化工具)
     - [Prompt 快捷指令](#prompt-快捷指令)
@@ -158,6 +159,10 @@ text-to-image 社区
 - https://prompthero.com/stable-diffusion-prompts
 - https://openart.ai/discovery : prompt 社区
 - [Dalabad/stable-diffusion-prompt-templates](https://github.com/Dalabad/stable-diffusion-prompt-templates)
+
+## LLM 引擎
+
+- [vllm](https://github.com/vllm-project/vllm): A high-throughput and memory-efficient inference and serving engine for LLMs
 
 ## Prompt 工程
 

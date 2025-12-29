@@ -2,6 +2,8 @@
 
 [⬅︎ 返回上层](../#git)
 
+- [lazygit](https://github.com/jesseduffield/lazygit): simple terminal UI for git commands
+- [lefthook](https://github.com/evilmartians/lefthook): Git hooks manager
 - [git-stats](https://github.com/IonicaBizau/git-stats): 类似 Github 活动图的命令行版
 - [git-extras](https://github.com/tj/git-extras): git 扩展命令
 - [git-lfs](https://github.com/git-lfs/git-lfs): git 支持大文件存储

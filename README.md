@@ -639,6 +639,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## 终端 Terminal
 
 - [iTerm2](https://www.iterm2.com): Mac 系统，推荐用这个终端 `Ⓜ`
+- [Wave](https://www.waveterm.dev/): 集成 AI、文件浏览器、网页浏览器的终端。开源、跨平台。**缺点：无法输入中文标点。**
 - [warp](https://www.warp.dev/): 集成 AI 的终端，挺有意思的。缺点也很明显，必须用它这一套，不兼容 tmux。PS1 被强制替换掉了，跟其他软件不好配合。
 - [Windows Terminal](https://github.com/microsoft/terminal): Windows 系统，推荐用这个终端 `ⓦ`
   - [cmder](https://github.com/cmderdev/cmder): 备选方案
@@ -998,8 +999,10 @@ Read the [NOTICE][] file distributed with this work for additional information r
 ## 邮件
 
 - [Newton](https://cloudmagic.com/k/newton): 邮件客户端。也支持移动端 `Ⓜ`
+- [react-email](https://github.com/resend/react-email): 用 React 构建邮件
 - [mjml](https://mjml.io/): 邮件模板语言
 - https://www.mailgun.com/ : 发邮件的服务 `ⱳ`
+  - https://resend.com/ : 备选方案
 - http://mailchimp.com/ : 搭建邮件&发邮件的服务 `ⱳ`
 - [nodemailer](https://github.com/nodemailer/nodemailer): 邮件类库 (NodeJS)
 - https://mail.tm/ : 临时邮件账号，注销很方便。记录临时账号的密码可以下次登录。
@@ -1365,6 +1368,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [Vagrant Manager](http://vagrantmanager.com/): Vagrant 管理器。菜单栏工具。
   - [bento](https://github.com/chef/bento): build minimal Vagrant baseboxes
   - [vagrant-scp](https://github.com/invernizzi/vagrant-scp): Vagrant 支持 scp
+- [flint](https://github.com/volantvm/flint): A single binary with a modern Web UI, CLI, and API for KVM, for developers, sysadmins, and home labs who want zero bloat and maximum efficiency.
 
 ### libvirt/KVM
 
