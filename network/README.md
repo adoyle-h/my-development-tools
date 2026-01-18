@@ -63,6 +63,7 @@
 - better `traceroute`
   - `mtr`
   - [NextTrace](https://github.com/nxtrace/NTrace-core): trace 命令行工具，可显示地理位置信息
+- [snitch](https://github.com/karol-broda/snitch): a friendlier `ss`/`netstat` for humans. inspect network connections with a clean tui or styled tables.
 
 ## 防火墙
 
@@ -171,7 +172,8 @@
 - 免费的 frp 服务
   - https://freefrp.net
   - https://www.afrp.net/
-- [ZeroTier](https://github.com/zerotier/ZeroTierOne): 类似 VPN，不过更灵活。构建点对点通信网络。开源的，也有托管服务。支持多平台 Windows、Mac、Linux、IOS、Android、NAS。
+- [EasyTier](https://github.com/EasyTier/EasyTier): 自建去中心化的 VPN 服务。EasyTier 可以作为 WireGuard 服务器，允许任何安装 WireGuard 客户端访问。
+  - [ZeroTier](https://github.com/zerotier/ZeroTierOne): 类似 VPN，不过更灵活。构建点对点通信网络。开源的，也有托管服务。支持多平台 Windows、Mac、Linux、IOS、Android、NAS。
 - [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理
 - [localtunnel](https://github.com/localtunnel/localtunnel): HTTP 服务内网穿透工具，开发用很方便
   - [localtunnel server](https://github.com/localtunnel/server): 可以自建服务器

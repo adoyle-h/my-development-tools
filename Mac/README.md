@@ -25,7 +25,6 @@
 - https://macmenubar.com/ : Menu Bar App 列表
 - [quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins): Mac 文件 Quick Look 插件。在 Finder 中按空格预览
 - [Nativefier](https://github.com/jiahaog/nativefier): 网页应用打包成 Mac App `Ⓜ`
-<a name="Homebrew"></a>
 - [Kaleidoscope](https://kaleidoscope.app/): Diff GUI 软件。支持比较文本、图片、目录 `Ⓜ`
 - [Bartender](https://www.macbartender.com): Mac 菜单栏折叠 `Ⓜ`
 - [Alfred](https://www.alfredapp.com): 类似 spotlight `Ⓜ`
@@ -73,6 +72,8 @@
 - [DaisyDisk](https://daisydiskapp.com/): 硬盘数据占用空间可视化分析。非常好用！ `Ⓜ`
   - [squirreldisk](https://github.com/adileo/squirreldisk): 开源的，rust 实现，速度很快。
 - [Carbon Copy Cloner](https://bombich.com): 吊打 Time Machine 的备份软件
+<a name="anylinuxfs"></a>
+- [anylinuxfs](https://github.com/nohajc/anylinuxfs): mounts any filesystem supported by Linux (ext4, btrfs, xfs, ... but also NTFS and exFAT)
 
 ## 壁纸屏保
 
@@ -89,6 +90,7 @@
 ## 命令行
 
 - [m-cli](https://github.com/rgcr/m-cli): 很方便的 Mac 相关的命令行工具
+<a name="Homebrew"></a>
 - [Homebrew](http://brew.sh): Mac 软件管理器 `Ⓜ`
 - [Homebrew Cask](https://github.com/Homebrew/homebrew-cask): Mac App 软件管理器 `Ⓜ`
 - [mas](https://github.com/mas-cli/mas): 用命令操作 Mac App Store
@@ -119,6 +121,7 @@
 
 ## NTFS
 
+- [anylinuxfs](#anylinuxfs)
 - [NTFS Disk by Omi](https://omiapps.com/product/1585757563): 让 Mac 支持 NTFS 文件系统
 - [Tuxera NTFS](https://ntfsformac.tuxera.com/): 备选方案。商业的
 - [mounty](https://mounty.app/): 免费的，备选方案
