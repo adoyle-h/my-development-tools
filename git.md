@@ -2,6 +2,7 @@
 
 [⬅︎ 返回上层](../#git)
 
+- [gitty](https://github.com/Omibranch/gitty): Git 工作流 CLI，一个命令完成 stage、commit、push，支持行级选择性提交，交互式冲突解决
 - [lazygit](https://github.com/jesseduffield/lazygit): simple terminal UI for git commands
 - [lefthook](https://github.com/evilmartians/lefthook): Git hooks manager
 - [git-stats](https://github.com/IonicaBizau/git-stats): 类似 Github 活动图的命令行版
