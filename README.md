@@ -1243,6 +1243,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - [netlify-cms](https://github.com/netlify/netlify-cms): 基于 Git 服务（比如 github、gitlab）的 Open API 的 CMS。开源项目挺有用。商业项目不适合用。
 - [ROAPI](https://github.com/roapi/roapi): 把数据源直接以 GraphQL、SQL、RESTful API 暴露。
 - [keystone](https://github.com/keystonejs/keystone): Headless CMS. Built with GraphQL and React
+- [UnfoldCMS](https://github.com/hpakdaman/unfoldcms): Self-hosted CMS built with Laravel 12 + React 19. REST API v1, headless mode for Next.js/Astro/SvelteKit, one-time pricing. [Website](https://unfoldcms.com)
 
 
 ## PaaS
