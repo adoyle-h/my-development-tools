@@ -26,7 +26,8 @@
 - [quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins): Mac 文件 Quick Look 插件。在 Finder 中按空格预览
 - [Nativefier](https://github.com/jiahaog/nativefier): 网页应用打包成 Mac App `Ⓜ`
 - [Kaleidoscope](https://kaleidoscope.app/): Diff GUI 软件。支持比较文本、图片、目录 `Ⓜ`
-- [Bartender](https://www.macbartender.com): Mac 菜单栏折叠 `Ⓜ`
+- [Thaw](https://github.com/stonerl/Thaw): Mac 菜单栏管理器。免费开源
+  - [Bartender](https://www.macbartender.com): 备选方案。收费的。
 - [Alfred](https://www.alfredapp.com): 类似 spotlight `Ⓜ`
   - [alfy](https://github.com/sindresorhus/alfy): JS 语法编写 Alfred Workflow
 - [Raycast](https://www.raycast.com/): 免费的 Launcher 工具，功能似乎比 Alfred 做得更好。
@@ -101,6 +102,7 @@
 - `brew info gmake`: Mac 自带的 make 版本是 3.81 (2006 年)。现在都出到了 4.4。
 - `brew info tree`: Mac 默认没安装 tree 命令
 - `brew info gnu-time`: Mac 安装 GNU time
+- [iproute2mac](https://github.com/brona/iproute2mac): 让 Mac 也能使用 ip, bridge, ss 命令
 
 ## 监控
 

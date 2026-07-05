@@ -154,6 +154,7 @@
 
 ## 文件管理器
 
+- [superfile](https://github.com/yorukot/superfile): 强烈推荐
 - [yazi](https://github.com/sxyazi/yazi): Rust 实现的。推荐。
   - [kanagawa.yazi](https://github.com/dangooddd/kanagawa.yazi): 主题配色
   - [yazi.nvim](https://github.com/mikavilpas/yazi.nvim): yazi 的 nvim 插件

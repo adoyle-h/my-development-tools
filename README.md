@@ -595,6 +595,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
   - [awesome-neovim](https://github.com/rockerBOO/awesome-neovim)
 - vim
   - [vim-fast](https://github.com/chenxuan520/vim-fast): 提供了无插件的 vim 配置。（待评测）
+- [micro](https://github.com/micro-editor/MICRO): 学习成本低，零配置的终端编辑器
 - [Visual Studio Code](https://github.com/Microsoft/vscode): 可能是最棒的开源 IDE
   - [code-settings-sync](https://github.com/shanalikhan/code-settings-sync): VSC 设置备份同步工具
   - [code-server](https://github.com/cdr/code-server): Run VS Code on a remote server
@@ -663,7 +664,8 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 
 ## 终端 Terminal
 
-- [iTerm2](https://www.iterm2.com): Mac 系统，推荐用这个终端 `Ⓜ`
+- [iTerm2](https://www.iterm2.com): Mac 系统专用的终端，功能丰富，稳定 `Ⓜ`
+- [Ghostty](https://ghostty.org/): 零配置、跨平台、开箱即用的终端
 - [Wave](https://www.waveterm.dev/): 集成 AI、文件浏览器、网页浏览器的终端。开源、跨平台。**缺点：无法输入中文标点。**
 - [warp](https://www.warp.dev/): 集成 AI 的终端，挺有意思的。缺点也很明显，必须用它这一套，不兼容 tmux。PS1 被强制替换掉了，跟其他软件不好配合。
 - [Windows Terminal](https://github.com/microsoft/terminal): Windows 系统，推荐用这个终端 `ⓦ`
@@ -1219,13 +1221,14 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 
 ## 静态文件服务
 
-- [static-web-server](https://github.com/static-web-server/static-web-server): Rust 写的。[Docker Alpine 镜像](https://hub.docker.com/r/joseluisq/static-web-server)大小 3 MB。
-- [caddy](https://github.com/caddyserver/caddy): Go 写的。[Docker Alpine 镜像](https://hub.docker.com/_/caddy)大小 16 MB。
+- [static-web-server](https://github.com/static-web-server/static-web-server): 轻量级文件服务器。[Docker Alpine 镜像](https://hub.docker.com/r/joseluisq/static-web-server)大小 3 MB。
+- [caddy](https://github.com/caddyserver/caddy): Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS。[Docker Alpine 镜像](https://hub.docker.com/_/caddy)大小 16 MB。
 - [http-server](https://github.com/http-party/http-server): NodeJS 写的。
 - [lipanski/docker-static-website](https://github.com/lipanski/docker-static-website): 基于 busybox 自带的 httpd 程序。Docker 镜像大小 154KB。功能有限。
 
 ## 文件管理服务
 
+- [dufs](https://github.com/sigoden/dufs): 轻量级文件服务器。支持 webdav。可拖拽文件实现上传。基本的多用户权限控制。支持 API 请求操作。
 - [OpenList](https://github.com/OpenListTeam/OpenList): 支持多种云盘存储的文件管理程序。支持在线浏览图片、视音频。支持流式传输。缺点是大文件传输时会报错。
   - [xlist](https://github.com/xlist-io/xlist): OpenList 的 iOS 和 Android 客户端。
 - [FileBrowser Quantum](https://github.com/gtsteffaniak/filebrowser): FileBrowser Quantum provides an easy way to access and manage your files from the web. FileBrowser Quantum  is a Fork from FileBrowser.
