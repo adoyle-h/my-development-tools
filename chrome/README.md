@@ -63,7 +63,8 @@
 - [Volume Master](https://chromewebstore.google.com/detail/volume-master-%E9%9F%B3%E9%87%8F%E6%8E%A7%E5%88%B6%E5%99%A8/jghecgabfgfdldnmbfkhmffcabddioke): 给每个网页单独调整音量，音量范围 0-600%。
 - [Cleaner - history & cache clean](https://chromewebstore.google.com/detail/pooaemmkohlphkekccfajnbcokjlbehk): 自动清理历史记录
 - [沉浸式翻译](https://github.com/immersive-translate/immersive-translate): 浏览器插件，开源免费，体验很好。
-- [WebRTC Leak Shield](https://chromewebstore.google.com/detail/webrtc-leak-shield/bppamachkoflopbagkdoflbgfjflfnfl): 防止 WebRTC 泄露本机 IP。注意：不要用 google 的 [WebRTC Network Limiter](https://chromewebstore.google.com/detail/WebRTC%20Network%20Limiter/npeicpdbkakmehahjeeohfdhnlpdklia)，没有用。
+- [WebRTC Control](https://chromewebstore.google.com/detail/webrtc-control/fjkmabmdepjfammlpliljpnbhleegehm?hl=zh-CN&utm_source=ext_sidebar): 防止 WebRTC 泄露本机 IP。可以手动控制开关，默认开启保护。
+  - 注意：不要用 google 的 [WebRTC Network Limiter](https://chromewebstore.google.com/detail/WebRTC%20Network%20Limiter/npeicpdbkakmehahjeeohfdhnlpdklia)，没有用。
 - [允许复制+](https://chromewebstore.google.com/detail/%E5%85%81%E8%AE%B8%E5%A4%8D%E5%88%B6-+/ajhbdcgfhlhhmocddefknj): 超级复制
 - [HN Special](https://chromewebstore.google.com/detail/hn-special-an-addition-to/cchaceegbflphbdpfocjalgjhjoahiia): An addition to Hacker News
 - [minerBlock](https://chromewebstore.google.com/detail/minerblock/emikbbbebcdfohonlaifafnoanocnebl): block browser-based cryptocurrency miners all over the web.
