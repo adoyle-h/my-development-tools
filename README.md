@@ -18,7 +18,7 @@ These documents are written in Chinese. Please use your own translator to transl
 
 ## 版权声明 (Copyright and License)
 
-Copyright 2016-2025 ADoyle (adoyle.h@gmail.com). Some Rights Reserved.
+Copyright 2016-2026 ADoyle (adoyle.h@gmail.com). Some Rights Reserved.
 The project is licensed under the **BSD 3-clause License**.
 
 Read the [LICENSE][] file for the specific language governing permissions and limitations under the License.
@@ -1122,6 +1122,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - [ossinsight](https://github.com/pingcap/ossinsight): https://ossinsight.io/ Analysis, Comparison, Trends, Rankings of Github Repos and events
 - [Mastodon](https://github.com/mastodon/mastodon): 微博客社区
 - [whoami](https://github.com/traefik/whoami): 返回请求者的 http request 信息。
+- [ntfy](https://github.com/binwiederhier/ntfy): Send push notifications to your phone or desktop using PUT/POST
 
 ### 在线工具箱 (Online Toolbox)
 
