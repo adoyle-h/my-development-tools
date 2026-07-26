@@ -874,6 +874,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - [mycli](https://github.com/dbcli/mycli): mysql 命令行客户端
 - [RedisInsight](https://github.com/RedisInsight/RedisInsight): Redis GUI by Redis。支持 Docker 部署。
 - [SQL 速查表](https://github.com/enochtangg/quick-SQL-cheatsheet/blob/master/README_zh-hans.md)
+- [SQL 工具](https://sqlable.com/)
 - [UNQLite](https://github.com/symisc/unqlite):
 - [SQLite](https://www.sqlite.org)
 - [turso](https://github.com/tursodatabase/turso): an in-process SQL database, compatible with SQLite.
