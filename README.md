@@ -507,6 +507,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [Kali Docker Image](https://hub.docker.com/r/kalilinux/kali-linux-docker): [参考资料](https://archive.ph/zh0wk)
 - [Snyk](https://snyk.io/): 开源风险收集检测服务。提供 API 和 CLI 做检查。
 - [Scanners-Box](https://github.com/We5ter/Scanners-Box): 安全行业从业者自研开源扫描器合辑
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon): 开源（GPL-3.0）自主式 AI 渗透测试平台，覆盖 Web、API、Active Directory 与 Kubernetes，并可作为 MCP 主机。
 - [falco](https://github.com/falcosecurity/falco): 「待评价」intrusion and abnormality detection for Cloud Native platforms such as Kubernetes, Mesosphere, and Cloud Foundry. Detect abnormal application behavior.
 - [nmap](https://github.com/nmap/nmap): 网络扫描工具
 - [rustscan](https://github.com/RustScan/RustScan): Scans all 65k ports in 3 seconds.
