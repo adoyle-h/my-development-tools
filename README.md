@@ -97,7 +97,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [IDE 辅助工具](#ide-辅助工具)
 - [Telegram](#telegram)
 - [下载工具](#下载工具)
-- [终端 Terminal](#终端-terminal)
 - [diff](#diff)
     - [image diff](#image-diff)
 - [逆向工程](#逆向工程)
@@ -167,6 +166,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [网盘](#网盘)
 - [临时共享](#临时共享)
 - [爬虫/Archive](#爬虫archive)
+    - [网络爬虫 Crawl](#网络爬虫-crawl)
+    - [网络抓取 Scrape](#网络抓取-scrape)
     - [爬虫代理池](#爬虫代理池)
 - [静态文件服务](#静态文件服务)
 - [文件管理服务](#文件管理服务)
@@ -244,12 +245,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 ## 其他
 
-- [irssi](https://github.com/irssi/irssi): IRC Client
-- [screenFetch](https://github.com/KittyKatt/screenFetch): 获取系统信息`Ⓛ` `Ⓜ`
-  - [neofetch](https://github.com/dylanaraps/neofetch): 终端中打印系统信息，纯 Bash 实现。
 - [franc](https://github.com/wooorm/franc): 自然语言语种推测
 - [etcher](https://github.com/resin-io/etcher): 将系统镜像写入外接硬盘的工具
-- [browserless](https://github.com/joelgriffith/browserless): Chrome as a service in docker
 - [UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic): 解锁网易云音乐客户端变灰歌曲
   - [Listen 1](https://github.com/listen1/listen1_chrome_extension)
   - [ieaseMusic](https://github.com/trazyn/ieaseMusic)
@@ -595,6 +592,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
   - [nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide): nvim 编程圣经
   - [awesome-neovim](https://github.com/rockerBOO/awesome-neovim)
 - vim
+  - [PacVim](https://github.com/jmoon018/PacVim): 用游戏教你学 VIM
   - [vim-fast](https://github.com/chenxuan520/vim-fast): 提供了无插件的 vim 配置。（待评测）
 - [micro](https://github.com/micro-editor/MICRO): 学习成本低，零配置的终端编辑器
 - [Visual Studio Code](https://github.com/Microsoft/vscode): 可能是最棒的开源 IDE
@@ -632,12 +630,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 
 ### IDE 辅助工具
 
-- [TabNine](https://github.com/zxqfl/TabNine/): 用深度学习进行自动补全。支持 VS Code, Sublime Text, Vim, Atom, Emacs
-  - [GitHub Copilot](https://copilot.github.com/): 同上
 - [universal-ctags](https://github.com/universal-ctags/ctags): Universal-ctags 是 Darren Hiebert 的 Exuberant-ctags 的继任
-- [NerdFonts](https://www.nerdfonts.com) 与 [cheat-sheet](https://www.nerdfonts.com/cheat-sheet): 程序员必备字体
-  - [nerdfix](https://github.com/loichyan/nerdfix): nerdfonts 升级用的工具
-- [PacVim](https://github.com/jmoon018/PacVim): 用游戏教你学 VIM
 
 ## [Telegram](./telegram/README.md)
 
@@ -662,21 +655,6 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - https://instagram.iiilab.com/ : 下载 Instagram 视频/照片，需要关注微信公众号
 - https://yunyinyue.iiilab.com/ : 下载网易云音乐的歌，需要关注微信公众号
 - [cobalt](https://github.com/imputnet/cobalt): 开源的下载视音频网站资源的工具「待评价」
-
-## 终端 Terminal
-
-- [iTerm2](https://www.iterm2.com): Mac 系统专用的终端，功能丰富，稳定 `Ⓜ`
-- [Ghostty](https://ghostty.org/): 零配置、跨平台、开箱即用的终端
-- [Wave](https://www.waveterm.dev/): 集成 AI、文件浏览器、网页浏览器的终端。开源、跨平台。**缺点：无法输入中文标点。**
-- [warp](https://www.warp.dev/): 集成 AI 的终端，挺有意思的。缺点也很明显，必须用它这一套，不兼容 tmux。PS1 被强制替换掉了，跟其他软件不好配合。
-- [Windows Terminal](https://github.com/microsoft/terminal): Windows 系统，推荐用这个终端 `ⓦ`
-  - [cmder](https://github.com/cmderdev/cmder): 备选方案
-- [Hyper](https://github.com/zeit/hyper): 用前端技术栈做的终端。非常酷炫 `⨀`
-  - [awesome-hyper](https://github.com/bnb/awesome-hyper)
-- [tabby](https://github.com/Eugeny/tabby): 前端技术栈做的终端，可以用 CSS 定制界面，功能完善，支持 Windows/MacOS/Linux。注意：关闭「输入时滚动」选项，否则很容易屏幕闪烁。缺点：无法输入中文标点。
-- [cathode](https://itunes.apple.com/us/app/cathode/id656982811): 复古终端模拟器 `Ⓜ`
-- [xterm.js](https://github.com/xtermjs/xterm.js): A terminal for the web
-- [edex-ui](https://github.com/GitSquared/edex-ui): 非常酷！
 
 ## diff
 
@@ -831,7 +809,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 
 ## [Linux](./linux/README.md)
 
-## [命令行 CLI](./CLI/README.md)
+## [命令行 CLI](./terminal/README.md)
 
 ## [Shell Script Development](./shell-script/README.md)
 
@@ -980,6 +958,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - [KeePass](http://keepass.info): 密码管理器
   - 推荐将密码文件保存到（私有）网盘里，避免密码文件丢失。
   - [keepass-diff](https://github.com/Narigo/keepass-diff): A CLI-tool to diff Keepass (.kdbx) files. Useful, if syncing with Dropbox or NextCloud and getting multiple files due to conflicts.
+  <!-- - [KeePassDiff2](https://github.com/tomlin7/KeePassDiff2): 处理 .kdbx 冲突 -->
 - [KeePassXC](https://keepassxc.org/): [KeePass][] 的 GUI 客户端，跨平台。功能比 KeeWeb 强：可以随系统自启动，密码统计分析，密码健康检查等功能。
   - [KeePassXC-Browser](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk): Chrome 插件，自动填充功能比 keeweb-connect 优秀
 - [KeeWeb](https://github.com/keeweb/keeweb): 备选方案。[KeePass][] 的 GUI 客户端，跨平台
@@ -1038,6 +1017,10 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - https://ethereal.email/ : 伪 SMTP 服务，用于测试邮件发送
 - https://mail.tm/ : 临时邮件账号，注销很方便。记录临时账号的密码可以下次登录。
 - [docker-mailserver](https://github.com/docker-mailserver/docker-mailserver): 运行在容器内的邮件服务器，无需数据库。
+- [neomutt](https://github.com/neomutt/neomutt): 终端邮件客户端。支持 vim 快捷键
+  - [matcha](https://github.com/floatpane/matcha)
+  - [himalaya](https://github.com/pimalaya/himalaya): CLI to manage emails
+- [stalwart](https://github.com/stalwartlabs/stalwart): All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).
 
 ## 翻译
 
@@ -1084,6 +1067,8 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 ### 即时通讯
 
 - [mattermost](https://github.com/mattermost/mattermost-server): slack 的开源替代品。即时聊天。
+- [irssi](https://github.com/irssi/irssi): IRC Client
+  - https://hub.docker.com/_/irssi
 
 ## ChatOps
 
@@ -1106,9 +1091,12 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - [calibre](https://github.com/kovidgoyal/calibre/): 开源电子书管理器，支持格式转换。
   - [DeDRM_tools](https://github.com/noDRM/DeDRM_tools/): calibre 插件。去除电子书的 DRM
   - [calibre-web](https://github.com/janeczku/calibre-web)
-- [koodo-reader](https://github.com/troyeguo/koodo-reader): 跨平台的电子书阅读器。不支持移动端
-- [legado](https://github.com/gedoor/legado): 安卓平台的电子书阅读器
+- [koodo-reader](https://github.com/troyeguo/koodo-reader): 跨平台的电子书阅读器。免费版只能将电子书存在本地电脑。即使是自部署，也需要成为付费用户才能上传到服务器。
+- [Jingshiro/legado](https://github.com/Jingshiro/legado): （安卓专用）电子书聚合阅读器，增加了 AI 助手、阅读记录功能
+  - [legado](https://github.com/huajideshutiao/legado): 源码已删除，这是别人 fork 的原版代码。
 - [koreader](https://github.com/koreader/koreader): 转为水墨屏设计的电子书阅读器
+- [静读天下 (Moon+ Reader)](https://www.moondownload.com/): （安卓专用）高水准的电子书阅读器，可离线使用
+- [Kavita](https://github.com/Kareadita/Kavita): 自部署的漫画、电子书的阅读平台
 
 ## 服务 (Service)
 
@@ -1213,10 +1201,25 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 ## 爬虫/Archive
 
 - [ArchiveBox](https://github.com/ArchiveBox/ArchiveBox): 自己搭建 Archive 网站。
+- [katana](https://github.com/projectdiscovery/katana): 「待评价」
+
+### 网络爬虫 Crawl
+
+遍历和发现网页。
+
 - [httrack](https://www.httrack.com/): 命令行或者图形化的爬虫工具，参数很丰富
 - `wget -r`: 简易版，有诸多限制
 - [colly](https://github.com/gocolly/colly): Go 语言编写的爬虫框架
-- [katana](https://github.com/projectdiscovery/katana): 「待评价」
+- [katana](https://github.com/projectdiscovery/katana): 爬虫命令行工具
+
+### 网络抓取 Scrape
+
+从特定网页中提取结构化数据。
+
+- [Lightpanda Browser](https://github.com/lightpanda-io/browser): zig 实现的 headless 浏览器，支持 agent。支持 CDP、MCP、HTTP API。不基于 Chromium、Blink、WebKit。基于 [html5ever](https://github.com/servo/html5ever) 的解析网页，输出 HTML 或 Markdown。
+- [obscura](https://github.com/h4ckf0r0day/obscura): The headless browser for AI agents and web scraping
+
+- [maxun](https://github.com/getmaxun/maxun): Turn any website into a structured API. Extract, automate, search and monitor the web.
 
 ### 爬虫代理池
 
@@ -1488,6 +1491,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy): 类似 Notion 的笔记系统。基于 Flutter 和 Rust 开发
 - [outline](https://github.com/outline/outline): 类似 Notion 的知识库、WIKI 平台
 - [Obsidian](https://obsidian.md/): 笔记系统，纯 Markdown 文本数据本地存储，支持跨平台，插件生态好。用好插件才能发挥它的优势。
+  - [obsidian-skills](https://github.com/kepano/obsidian-skills)
   - [quartz](https://github.com/jackyzha0/quartz): Markdown 转静态网站
   - Obsidian 插件
     - [obsidian-minimal-settings](https://github.com/kepano/obsidian-minimal-settings): 简单好用的主题
@@ -1574,6 +1578,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 
 ### Markdown
 
+- [anydoc](https://github.com/firecrawl/anydoc): Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, PDF 文件转换成 Markdown。速度极快。可离线使用
 - [json2md](https://github.com/IonicaBizau/json2md): 非常灵活的 Markdown 生成工具，容易自己定制功能
 - [markdown-toc](https://github.com/jonschlinkert/markdown-toc): 根据 markdown heading 文本输出 TOC
 - [unified](#unified)

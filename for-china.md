@@ -83,18 +83,19 @@
 
 - https://duangks.com/ : 很好用机场评测网站。提供节点分析、流媒体解锁分析、测速图。
 - https://guatizi.com/ : 很好用机场导航
-- [Paolujichang](https://github.com/limbopro/Paolujichang): 跑路机场名单收集
-- ~~[CyberGuard](https://www.cyberguard.best/#/register?code=Z0C5SDfY)~~: 垃圾站，已跑路
-- [地鼠](http://nbvpn.top/#/register?code=GQUZz5wn): 有审计，不限制客户端数量，非常便宜，流量大，速度快。**需要客户端支持 anytls 协议**
-- [狗狗](https://down.dginv.click/#/register?code=I1DMSwIO): 无审计，不限制客户端数量，全节点 hy2 协议，不稳定
-- ~~[xfltd](https://xfltd.org/#/register?code=y8yKhElL)~~: 非常便宜，性价比高，提供不限时按量套餐，延迟有点高。不稳定，经常被人攻击。有审计名单，某些涉政网站无法访问。 **TG 全群禁言。限制专用客户端才能使用**
+- https://gate-rank.com : AI 生成的机场测评网站
+- https://jichangknow.com/ : 懂哥机测评机场
+- [跑路机场名单收集](https://github.com/limbopro/Paolujichang)
+- [地鼠](http://nbvpn.top/#/register?code=GQUZz5wn): 有审计，不限制客户端数量，非常便宜，流量大，速度快，**不稳定**。**需要你的路由器支持 ipv6**。**需要客户端支持 anytls 协议**
+- [魔戒.net](https://mojie.app/register?aff=Xs0R4AsM): （域名被墙需要翻墙访问）只卖不限时流量包，有1G1元流量包。不限制人数。无到期时间。适合当备用机场。
+- [耶耶云](https://web.yeyeyun.cc/): 香港电讯。最多十个客户端同时在线。我还没用过，待评价。
+- ~~[狗狗](https://down.dginv.click/#/register?code=I1DMSwIO): 无审计，不限制客户端数量，全节点 hy2 协议，不稳定~~
 - [mitce](https://mitce.net/aff.php?aff=16869): 非常便宜，节点多，速度快，全节点 vless 和 hysteria2 协议。无审计。但是节点很不稳定。推荐用作备用梯子。 **机场容易被攻击**
 - [苏打云](https://v2.suda.moe/): 价格亲民。速度挺快。不稳定，在不能说的日子会必挂。
-- 免费机场，后果自负
-  - https://github.com/ermaozi/get_subscribe
-  - https://github.com/freefq/free
-  - https://github.com/abshare/abshare.github.io
-- [TAG](https://github.com/winston779/tagInternet): 注册在香港的 VPN 品牌，稳定运营多年，目前线路都是 IEPL 内网专线不过墙，稳定性一流。多地 BGP 跨境专线出国。全球 90+国家/地区，200+节点。
+- 黑名单
+  - [滕王阁](https://twg520.com/#/register?code=ZM44uRUP): 经常炸，一出问题电报群客服就失踪，等修好了，客服会删评装无事发生。便宜，设备数量无限制。注意 https://twg520.mom 是假域名
+  - [CyberGuard](https://www.cyberguard.best/#/register?code=Z0C5SDfY): 垃圾站，2026年初跑路，几个月后复活，电报群清空评论装无事发生。
+  - [xfltd](https://xfltd.org/#/register?code=y8yKhElL): 非常便宜，性价比高，提供不限时按量套餐，有审计名单。延迟有点高，不稳定，经常被人攻击。限制专用客户端才能使用。 **TG 全群禁言**
 
 ## 镜像站点
 

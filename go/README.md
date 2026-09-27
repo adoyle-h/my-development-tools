@@ -33,7 +33,6 @@
 - https://awesome-go.com/
 - [gore](https://github.com/motemen/gore): Go REPL
   - [gomacro](https://github.com/cosmos72/gomacro): 备用方案
-- https://tmc.github.io/json-to-struct/ : JSON 转 Go Struct
 - [gvm](https://github.com/moovweb/gvm): Go 版本管理器
   - [update-golang](https://github.com/udhos/update-golang): a script to easily fetch and install new Golang releases with minimum system intrusion
 - [project-layout](https://github.com/golang-standards/project-layout): go 项目结构模板
@@ -63,7 +62,7 @@
 ## Formater
 
 - [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports): `go get golang.org/x/tools/cmd/goimports`. 自动化加入 import，或去除 import 里未使用的包。同时也会自动格式化代码，类似 gofmt。
-- [gofmt](https://golang.org/cmd/gofmt/): 格式化代码用
+- [gofmt](https://pkg.go.dev/cmd/gofmt): 格式化代码用
 
 ## Linter
 

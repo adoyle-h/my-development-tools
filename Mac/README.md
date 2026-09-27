@@ -34,7 +34,6 @@
   - [raycast/script-commands](https://github.com/raycast/script-commands)
 - [Copyless](http://copyless.net): 系统剪切板管理器
 - [Yoink](http://eternalstorms.at/yoink/Yoink_-_Simplify_and_Improve_Drag_and_Drop_on_your_Mac/Yoink_-_Simplify_drag_and_drop_on_your_Mac.html): 临时桌面文件
-- [Noizio](http://noiz.io): 白噪音
 - [HazeOver](https://hazeover.com): 通过虚化所有的背景窗口，自动突出显示前方的应用窗口
 - [AppCleaner](https://freemacsoft.net/appcleaner): 删除 Mac App 用
 - [Gas Mask](https://github.com/2ndalpha/gasmask): hosts 管理器
@@ -61,7 +60,6 @@
 ## 快捷键
 
 - [vimac](https://github.com/dexterleng/vimac): 用键盘滚动和点击程序（vim 风格） `Ⓜ`
-  - [VimMotionApp](https://github.com/dwarvesf/VimMotionApp): 备用方案
 - [alt-tab-macos](https://github.com/lwouis/alt-tab-macos): windows 风格的 Tab 切换 `Ⓜ`
 - [CmdTap](http://www.yingdev.com/projects/cmdtap): 任务切换器增强 `Ⓜ`
   - [Contexts](https://contexts.co/): 这个看起来更好用，但是更贵  `Ⓜ`

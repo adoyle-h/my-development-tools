@@ -3,6 +3,7 @@
 [⬅︎ 返回上层](../#git)
 
 - [lazygit](https://github.com/jesseduffield/lazygit): simple terminal UI for git commands
+- [serie](https://github.com/lusingander/serie): pretty git log in terminal。[目前不兼容 tmux](https://github.com/lusingander/serie/issues/84)
 - [lefthook](https://github.com/evilmartians/lefthook): Git hooks manager
 - [git-stats](https://github.com/IonicaBizau/git-stats): 类似 Github 活动图的命令行版
 - [git-extras](https://github.com/tj/git-extras): git 扩展命令

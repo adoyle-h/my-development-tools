@@ -11,10 +11,10 @@
   - [termux-style](https://github.com/adi1090x/termux-style): 改变 termux 的终端样式和字体
   - [termux-api](https://github.com/termux/termux-api): 通过命令调用系统 API
   - [termux-services](https://github.com/termux/termux-services): termux 默认没有 systemd 这类服务管理器，因此要装这个来支持服务管理。
-- [f-droid](https://www.f-droid.org/): 安卓开源应用市场
+- [f-droid](https://f-droid.org/): 安卓开源应用市场
 - [截屏大师](https://play.google.com/store/apps/details?id=pro.capture.screenshot&hl=zh&gl=US): 把多张图片自动拼接成一张长图。[介绍](https://github.com/just-talks/tech-talks/discussions/50)
 - [Magisk](https://github.com/topjohnwu/Magisk)
-- [Android File Transfer](https://www.android.com/filetransfer/): Android 手机与电脑传输文件
+- [Android 快速分享](https://www.android.com/intl/zh-CN_cn/quick-share/): Android 手机与电脑传输文件
 - [adoyle-h/android-unpackbootimg](https://github.com/adoyle-h/android-unpackbootimg): boot.img 解包和封包的工具。action 里有编译好的文件。arm64 和 x86 的。
 - [gkd](https://github.com/gkd-kit/gkd): 基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用。[使用简介](https://github.com/just-talks/tech-talks/discussions/68)
   - [AIsouler/GKD_subscription](https://github.com/AIsouler/GKD_subscription): GKD 第三方订阅规则

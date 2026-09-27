@@ -55,8 +55,7 @@
 - [2captcha](https://2captcha.com/): 反验证码插件
 - [Image Saver App/Image Downloader](https://chromewebstore.google.com/detail/image-downloader-picture/cbnhnlbagkabdnaoedjdfpbfmkcofbcl)
 - [reddit-enhancement-suite](https://chromewebstore.google.com/detail/kbmfpngjjgdllneeigpgjifpgocmfgmb): reddit 增强插件
-- [bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome): 能够绕过 Medium、纽约时报、彭博社等网站的付费墙。缺点是这些网站无法登录账号。
-- [medium-unlocker](https://github.com/und3fined/medium-unlocker): 解锁 medium 付费内容。
+- [medium-unlock](https://chromewebstore.google.com/detail/medium-unlock/babnnfmbjokkeieobamoifmeapbbfhje): 解锁 medium 付费内容，需要点击 icon 跳转，或者在设置里打开 auto open 选项
 - [Stylebot](https://github.com/ankit/stylebot): 自定义网页样式，所见即所得，并且持久化保存自定义样式。
   - [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe): 不要用，有黑历史。
 - [Pauan/AutoScroll](https://chrome.google.com/webstore/detail/autoscroll/occjjkgifpmdgodlplnacmkejpdionan/): 自动滚屏，简单好用。缺点是有些链接没法点击。

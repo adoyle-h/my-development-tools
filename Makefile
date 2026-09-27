@@ -2,7 +2,7 @@ GH_PAGE_IMAGE=ghcr.io/adoyle-h/jekyll-build-pages:v1.0.7-ad-7
 
 .PHONY: check-links
 check-links:
-	NO_COLOR=1 lychee -c ~/.lychee.toml ./**/*.md
+	NO_COLOR=1 lychee --github-token ${LYCHEE_GH_TOKEN} ./**/*.md
 
 # @TODO: bundle add webrick
 .PHONY: serve

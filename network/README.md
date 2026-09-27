@@ -13,6 +13,7 @@
 - [IP](#ip)
     - [IP 归属地 (GeoIP)](#ip-归属地-geoip)
 - [DNS](#dns)
+- [被动 DNS (Passive DNS)](#被动-dns-passive-dns)
 - [反广告](#反广告)
     - [公共 DNS](#公共-dns)
 - [反向代理](#反向代理)
@@ -53,7 +54,7 @@
 - [httpstat](https://github.com/reorx/httpstat): httpstat visualizes curl(1) statistics in a way of beauty and clarity
   - [node 版 httpstat](https://github.com/yosuke-furukawa/httpstat)
   - [bash 版 httpstat](https://github.com/b4b4r07/httpstat)
-- [httping](https://github.com/flok99/httping): 以 HTTP 协议角度测量 HTTP 延迟
+- [httping](https://github.com/pjperez/httping): 以 HTTP 协议角度测量 HTTP 延迟
 - better `curl`
   - [curlie](https://github.com/rs/curlie)
   - [httpie](https://github.com/jakubroztocil/httpie/): a CLI, cURL-like tool for humans
@@ -90,6 +91,7 @@
 - https://cz88.net/ : 纯真 IP
 - https://www.ipplus360.com/ : 埃文科技
 - https://ipquery.io/ : 免费的 GeoIP API
+- [ip2region](https://github.com/lionsoul2014/ip2region): 离线使用的 IP 归属地 xdb 数据包
 
 ## DNS
 
@@ -106,6 +108,10 @@
 - [DNSPerf](https://www.dnsperf.com/): DNS 服务性能对比
 - [dnspyre](https://github.com/Tantalor93/dnspyre): DNS 压测工具
   - [dnsperf](https://github.com/DNS-OARC/dnsperf): 备选方案
+
+## 被动 DNS (Passive DNS)
+
+
 
 ## 反广告
 
@@ -127,7 +133,7 @@
 - [NextDNS](https://nextdns.io/?from=hjxkvhpj): 功能很强大，类似 AdGuard 的功能，但免部署，开箱即用。自定义安全设置，自定义黑名单、白名单，提供日志和访问统计（建议把日志存储在欧盟或者瑞士）。支持 DoT/DoH/IPv4/IPv6。不同配置提供不同的 DNS 子域名。最关键的是国外的服务但是在中国延迟很低。
 - [Google Public DNS](https://developers.google.com/speed/public-dns/docs/using): 8.8.8.8
 - [Cloudflare Public DNS](https://1.1.1.1/dns/): 1.1.1.1 DoH/DoT 在国内可用
-- [Quad101](https://101.101.101.101/): 101.101.101.101 台湾服务器。支持 DoH/DoT，在国内可用。DoT 不可用。速度比 Cloudflare 的快一点。
+- ~~[Quad101](https://101.101.101.101/)~~: 在中国不可用。101.101.101.101 台湾服务器。支持 DoH/DoT。
 - [doh.apad.pro](https://apad.pro/dns-doh/): 现不可用。国内无污染 DNS 分流 DoH。国内上游使用 360DNS，国外使用 GoogleDNS 与 CloudflareDNS。基于 [easymosdns](https://github.com/pmkol/easymosdns) 搭建的。
 - HiNet 中華電信: 168.95.1.1 或 168.95.192.1 台湾服务器。不支持 DoH/DoT。国内访问速度很快。
 - [Quad9](https://quad9.net/): 9.9.9.9
@@ -192,6 +198,8 @@
 - 免费的 frp 服务
   - https://freefrp.net
   - https://www.afrp.net/
+  - https://www.natfrp.com/
+    - https://doc.natfrp.com/frpc/usage.html#docker
 - [EasyTier](https://github.com/EasyTier/EasyTier): 自建去中心化的 VPN 服务。EasyTier 可以作为 WireGuard 服务器，允许任何安装 WireGuard 客户端访问。
   - [ZeroTier](https://github.com/zerotier/ZeroTierOne): 类似 VPN，不过更灵活。构建点对点通信网络。开源的，也有托管服务。支持多平台 Windows、Mac、Linux、IOS、Android、NAS。
 - [sshuttle](https://github.com/apenwarr/sshuttle): 基于 ssh 的隧道代理

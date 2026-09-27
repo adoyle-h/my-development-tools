@@ -28,6 +28,7 @@
 - [Typography](#typography)
 - [字体](#字体)
     - [像素字体](#像素字体)
+    - [编程用字体](#编程用字体)
     - [英文字体](#英文字体)
     - [中文字体](#中文字体)
 - [像素风格 8-Bit](#像素风格-8-bit)
@@ -65,14 +66,14 @@
 ## Awesome List
 
 - [Awesome Design Tools](https://github.com/LisaDziuba/Awesome-Design-Tools)
-- https://www.designnotes.co/ : 免费的设计资源的集合
+- https://designnotes.cn/ : 免费的设计资源的集合
 
 ## 矢量绘图工具
 
 - [Sketch](https://www.sketchapp.com): 矢量图形设计工具 `Ⓜ`
   - [Adobe XD](https://www.adobe.com/cn/products/xd.html): Sketch 的强力竞争者，跨平台 + 免费，独有的网格编组和滚动的特性，操作体验流畅，兼容最新版的 Sketch 文件。
   - [Figma](https://www.figma.com): Sketch 替代品。
-- [Affinity Designer](https://affinity.serif.com/zh-cn/designer/)
+- [Affinity Designer](https://www.affinity.studio)
 - [MasterGo](https://mastergo.com/): 国产 sketch + figma，功能和 UI 做的挺不错，而且跨多平台，就是用起来有点卡。
 - [pixso](https://pixso.cn/): 免费在线设计工具，插件生态做得很完善。缺点是没有色彩空间选项。
 
@@ -110,14 +111,13 @@
 
 - 摄影图
   - https://unsplash.com/ : 质量非常高的摄影分享社区
-  - https://pixabay.com/ : 免费图片和视频，质量还行
   - https://www.pexels.com/
 - 矢量图
   - https://undraw.co/ : 丰富的使用场景
   - https://www.humaaans.com/ : 卡通人物
   - https://iradesign.io/ : 渐变色。开源的
-  - https://icons8.com/ouch : 丰富的使用场景
-  - https://gallery.manypixels.co/ : 丰富的使用场景
+  - https://icons8.com/illustrations : 丰富的使用场景
+  - https://www.manypixels.co/gallery : 丰富的使用场景
 - 可定制的
   - https://doodleipsum.com/ : 卡通插图，支持定制、随机生成、生成 URL、API 请求
   - https://blush.design/ : 卡通插图，定制生成 PNG、SVG
@@ -131,7 +131,6 @@
 
 ### 头像
 
-- https://joeschmoe.io/ : 头像 Mock
 - https://mastergo.com/omg : 卡通头像
 - [avataaars-geneator](https://github.com/fangpenlin/avataaars-geneator): 头像生成器
   - [avataaars React 组件](https://github.com/fangpenlin/avataaars)
@@ -150,7 +149,6 @@
 
 ## 颜色 (Color)
 
-- [色彩原理](http://www.charts.kh.edu.tw/teaching-web/98color/color.htm)
 - [ColorSlurp](https://itunes.apple.com/cn/app/colorslurp/id1287239339): 取色器，免费的。 `Ⓜ`
   - [Sip](http://sipapp.io): 备选方案。体验更好。价格贵，年付。 `Ⓜ`
 
@@ -159,7 +157,7 @@
 - https://www.colorhexa.com : 色彩信息计算
 - https://www.toptal.com/designers/colourcode : 移动鼠标选择配色
   - http://color.aurlien.net : 备选方案
-- http://nipponcolors.com : 日系传统色彩。界面超好看！用字很美！
+- https://nipponcolors.com/ : 日系传统色彩。界面超好看！用字很美！
 - http://zhongguose.com/  : 中国传统色彩。
 - http://paletton.com : 色轮调色
 - https://color.adobe.com/zh/create/color-wheel/ : 色轮调色
@@ -171,7 +169,8 @@
 - http://colorhunt.co : 别人提供的配色方案。四种色
 - https://webgradients.com/ : 渐变色配色
 - http://colormind.io/ : 使用深度学习自动生成配色方案
-- https://palx.jxnblk.com/ : 根据一种基色自动生成配色方案。源码 [palx](https://github.com/jxnblk/palx)
+- [palx](https://github.com/jxnblk/palx) : 根据一种基色自动生成配色方案。
+- [color-palette-generator](https://github.com/royalfig/color-palette-generator): The ColorPalette Pro is a synthesizer for color that generates palettes in the OKLCH color space and makes them easy to export.
 - [ant-design-colors](https://github.com/ant-design/ant-design-colors)
 - https://www.realtimecolors.com/ : 可视化调整网站配色
 
@@ -180,7 +179,6 @@
 #### 计算器
 
 - https://webaim.org/resources/contrastchecker/
-- http://www.msfw.com/Services/ContrastRatioCalculator
 
 #### 找到最符合无障碍对比度的颜色
 
@@ -208,25 +206,30 @@
 ## Typography
 
 - https://practicaltypography.com/ : 写得非常用心的 Typography 指南。初学者必读。
-- http://fontmap.ideo.com/ : 字体地图
-
 - https://type-scale.com/ 对比字体比例大小
-  - [源码](https://github.com/jeremychurch/type-scale)
   - https://www.modularscale.com/ 备用
 - https://grtcalculator.com/ : Golden Ratio Typography
 
 ## 字体
 
-- [fontface.ninja](https://fontface.ninja/): 查看网页所用的字体
+- [fontface.ninja](https://fonts.ninja/tools): 查看网页所用的字体
 - [FontForge](https://github.com/fontforge/fontforge): 字体设计工具
-- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 - [RightFont](https://rightfontapp.com/cn): 字体管理
-- https://font-viewer.com : 字体比较。支持系统字体和 Google Font
-- [开源字体 Lato](https://www.latofonts.com/lato-free-fonts/)
+- https://fontdrop.info : 字体预览
+- https://fontdrop.info/#/compare : 字体比较
 
 ### 像素字体
 
 - [Zpix 最像素](https://github.com/SolidZORO/zpix-pixel-font)
+
+### 编程用字体
+
+- [NerdFonts](https://www.nerdfonts.com) 与 [cheat-sheet](https://www.nerdfonts.com/cheat-sheet): 程序员必备字体
+  - [nerdfix](https://github.com/loichyan/nerdfix): nerdfonts 升级用的工具
+- [Maple Font](https://github.com/subframe7536/maple-font): 中日文友好的圆角等宽字体。推荐安装 `Maple Mono NF CN`（NF 意味着已打 NerdFont 补丁，CN 意味着支持中文）
+- DejaVu Sans Mono
+- [Consolas](https://www.fonts.com/font/microsoft-corporation/consolas)
+- [Lato](https://www.latofonts.com/lato-free-fonts/)k: 开源字体
 
 ### 英文字体
 
@@ -235,8 +238,6 @@
 
 - 无衬线英文
   - [Helvetica Neue](https://www.fonts.com/font/linotype/neue-helvetica): 适合设计
-  - DejaVu Sans Mono : 适合编程
-  - [Consolas](https://www.fonts.com/font/microsoft-corporation/consolas): 适合编程
   - [Quicksand](https://fonts.google.com/specimen/Quicksand): 适合设计
 
 ### 中文字体
@@ -267,8 +268,7 @@
 
 ### Awesome Design System List
 
-- https://adele.uxpin.com/ : The repository of publicly available design systems and pattern libraries
-  - [源码](https://github.com/marcintreder/adele)
+- [Adele](https://github.com/UXPin/adele) : The repository of publicly available design systems and pattern libraries
 - [awesome-design-systems](https://github.com/alexpate/awesome-design-systems)
 
 ### Design System - Sketch
@@ -297,11 +297,9 @@
 ### 工作流 (Workflow)
 
 - [Sketch Runner](http://sketchrunner.com/): 最棒的插件管理器+工作流工具，sketch 必装
-  - [Sketchpacks](https://sketchpacks.com/): 另一款插件管理器
 - [kitchen](https://kitchen.alipay.com/): 蚂蚁金服出品。非常好用
 - [Zeplin](https://zeplin.io/): 业界最好的团队协作、标注、工作流 SaaS。商业用，开源替代品见 [Marketch](#Marketch)
   - [Avocode](https://avocode.com/): 「待评价」
-  - [Sympli](https://sympli.io/): 「待评价」
 
 ### Typography
 
@@ -331,15 +329,13 @@
 
 ### 预览
 
-- [psmirror](http://www.psmirror.cn/zh): 设计稿实时预览工具，支持 iOS/Android/Web，支持 PS、Adobe、Sketch
+- [psmirror](https://www.psmirror.cn/): 设计稿实时预览工具，支持 iOS/Android/Web，支持 PS、Adobe、Sketch
 
 ### 版本控制
 
-- [Abstract](https://www.goabstract.com/): 目前最好的版本控制服务
-- [kactus](https://kactus.io/)
-  - [源代码](https://github.com/kactus-io/kactus)
+- ~~[Abstract](https://www.goabstract.com/)~~: 目前最好的版本控制服务。可惜公司倒闭了。
+- [kactus](https://github.com/kactus-io/kactus)
 - [git-sketch-plugin](https://github.com/mathieudutour/git-sketch-plugin): kactus 的前身开源项目
-- [Sympli Versions](https://versions.sympli.io/): 「待评价」「等支持私有仓库」
 
 ### 组件化设计
 

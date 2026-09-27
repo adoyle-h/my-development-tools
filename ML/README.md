@@ -24,7 +24,9 @@
 - [MCP 服务端](#mcp-服务端)
 - [Diffusion 模型](#diffusion-模型)
 - [图片生成](#图片生成)
+    - [Stable Diffusion](#stable-diffusion)
     - [Stable Diffusion Prompt](#stable-diffusion-prompt)
+- [视频生成](#视频生成)
 - [LLM 引擎](#llm-引擎)
 - [Prompt 工程](#prompt-工程)
     - [Prompt 优化工具](#prompt-优化工具)
@@ -63,11 +65,12 @@
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI): 低成本（单张消费级显卡）训练 AI
 
 - [llama.cpp](https://github.com/ggerganov/llama.cpp): 通过压缩模型参数的精度，让 LLM 在消费级电脑上也能运行。虽然准确率会下降。
-- [Ollama](https://ollama.com/): 基于 llama.cpp，支持在本地运行 LLM。支持 MacOS/Linux/Windows 系统。支持命令行交互。支持 HTTP API 交互。提供模型下载和管理，官方维护一套[已量化的模型](https://ollama.com/library)。也可以编写 [Modelfile](https://github.com/ollama/ollama/blob/main/docs/modelfile.md) 根据 gguf 模型自己微调模型。支持容器启动。
+- [Ollama](https://ollama.com/): 基于 llama.cpp，支持在本地运行 LLM。支持 MacOS/Linux/Windows 系统。支持命令行交互。支持 HTTP API 交互。提供模型下载和管理，官方维护一套[已量化的模型](https://ollama.com/library)。也可以编写 [Modelfile](https://github.com/ollama/ollama/blob/main/docs/modelfile.mdx) 根据 gguf 模型自己微调模型。支持容器启动。
   - [OllamaModelManager](https://github.com/d3v0ps-cloud/OllamaModelManager/): 管理 Ollama 模型的 WebUI
 - [OpenRouter](https://openrouter.ai/): 国外的 LLM 通用代理接口。**充值的钱一年后会过期作废**。
 - [V-API](https://api.gpt.ge/register?aff=pMW7): 国内的 LLM 通用代理接口。**注意：它的 GPT、Claude 等国外模型很可能是假的。经我测试对比，推测这网站实际用的可能是 deepseek 模型。**
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm): 持 MacOS/Linux/Windows 系统。支持本地 LLM（ollama）。支持在线 LLM（chatgpt、claude、gemini、generic openai）。支持语音转换。集成了向量数据库可以做 RAG 知识库。支持图片识别、文本上传。支持自定义 prompt。多聊天窗口，多 Workspace。支持 MCP。支持代理配置。
+- [unsloth](https://github.com/unslothai/unsloth): 在本地训练、微调、运行 LLM 的工具，界面友好
 
 ## 线上平台与社区
 
@@ -75,7 +78,7 @@
 - https://huggingface.co/
 - https://replicate.com/ : 提供模型训练和运行的云环境，价格实惠
   - [在线训练你的 LoRA 模型](https://replicate.com/blog/lora-faster-fine-tuning-of-stable-diffusion)
-- https://paperswithcode.com/
+- https://huggingface.co/papers/trending
 - https://openbayes.com/ : 中国的人工智能研究机构
 
 ### AI Image
@@ -83,7 +86,6 @@
 text-to-image 社区
 
 - https://civitai.com/
-- https://lexica.art/
 - https://arthub.ai/
 
 ## AI 工具集
@@ -123,6 +125,7 @@ text-to-image 社区
 ## AI Agent
 
 - [hermes agent](https://github.com/nousresearch/hermes-agent): 自学习的 AI 机器人
+- [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness): 一切皆插件的 deepseek 官方 agent
 - [openclaw](https://github.com/openclaw/openclaw): AI 全自动化工具
   - [ClawHub](https://clawhub.ai/): openclaw 的技能库
   - [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
@@ -130,6 +133,7 @@ text-to-image 社区
 ## AI harness
 
 - [rtk](https://github.com/rtk-ai/rtk): 缩短命令行返回结果，从而减少 token 消耗
+- [browser-use](https://github.com/browser-use/browser-use): 让 Agent 操作浏览器
 
 ## MCP 客户端
 
@@ -140,7 +144,6 @@ text-to-image 社区
 ## MCP 服务端
 
 - [apple-mcp](https://github.com/Dhravya/apple-mcp): Messages/Notes/Contacts/Emails/Reminders/Calendar/Web Search/Maps for MacOS MCP
-- [server-brave-search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search#brave-search-mcp-server): 使用 brave search api 搜索
 - [BrowserMCP](https://github.com/BrowserMCP/mcp): 操纵浏览器
 - [playwright-mcp](https://github.com/microsoft/playwright-mcp): 适合自动化测试用
 - [context7](https://github.com/upstash/context7): 直接从原项目获取最新的、特定版本的文档和代码示例，放到你的文档里
@@ -153,16 +156,19 @@ text-to-image 社区
 
 ## 图片生成
 
-- [flux](https://github.com/black-forest-labs/flux): 开源的模型。很强大。效果比肩 Midjourney。
+- [flux2](https://github.com/black-forest-labs/flux2): 开源的模型。很强大。效果比肩 Midjourney。
+- [Z-Image](https://github.com/Tongyi-MAI/Z-Image): 6B 参数，低显存，支持中文
+- [Qwen-Image](https://github.com/QwenLM/Qwen-Image): 生成中文友好
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI): 用图形化界面、工作流操作 SD/Flux 等模型。
+
+### Stable Diffusion
+
 - [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion): A latent text-to-image diffusion model
-- [Stability-AI/stablediffusion](https://github.com/Stability-AI/stablediffusion): High-Resolution Image Synthesis with Latent Diffusion Models
-  - https://huggingface.co/stabilityai/stable-diffusion-2-base
 - [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion): 把 SD 模型转换成苹果的 Core ML 模型
 - [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui): 最流行的 WebUI for SD
   - [stable-diffusion-webui-chinese](https://github.com/VinsonLaro/stable-diffusion-webui-chinese): WebUI 中文语言包
   - [cmdr2/stable-diffusion-ui](https://github.com/cmdr2/stable-diffusion-ui): 备选方案
 - [Draw Things](https://drawthings.ai/): Mac/iPhone 平台可用的 stable diffusion，支持自定义模型、Lora、ControlNet。[没有 token 限制](https://www.reddit.com/r/StableDiffusion/comments/yqknyp/comment/jeo594i/?utm_source=share&utm_medium=web2x&context=3)
-- [ComfyUI](https://github.com/comfyanonymous/ComfyUI): 用图形化界面、工作流操作 SD/Flux 等模型。
 
 ### Stable Diffusion Prompt
 
@@ -173,6 +179,10 @@ text-to-image 社区
 - https://openart.ai/discovery : prompt 社区
 - [Dalabad/stable-diffusion-prompt-templates](https://github.com/Dalabad/stable-diffusion-prompt-templates)
 
+## 视频生成
+
+- [OpenMontage](https://github.com/calesthio/OpenMontage)
+
 ## LLM 引擎
 
 - [vllm](https://github.com/vllm-project/vllm): A high-throughput and memory-efficient inference and serving engine for LLMs
@@ -180,18 +190,17 @@ text-to-image 社区
 ## Prompt 工程
 
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) ([中文翻译](https://github.com/wangxuqi/Prompt-Engineering-Guide-Chinese))
-- [ChatGPT 中文调教指南](https://chatguide.plexpt.com/)
 - [Prompt 常用模式](https://www.clickprompt.org/zh-CN/chatgpt-general/)
 - [Learn Prompting](https://learnprompting.org/zh-Hans/docs/intro)
 
 ### Prompt 优化工具
 
-- [ChatGPT - Prompt Optimizer](https://chatgpt.com/g/g-SsB4aTVgM-prompt-optimizer/c/66deda1d-4234-8013-baa3-a12401abd716)
+- [ChatGPT - Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true)
 
 ### Prompt 快捷指令
 
 - [ChatGPT 指令大全](https://www.explainthis.io/zh-hans/chatgpt)
-- [ChatGPT 快捷指令](https://newzone.top/chatgpt/)
+- [AI Short](https://www.aishort.top/): 精选 AI 提示词，一键复制即用
 
 ## 强化学习 (Reinforcement Learning)
 

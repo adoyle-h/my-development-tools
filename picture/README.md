@@ -18,7 +18,7 @@
 
 - [ImageMagick](http://www.imagemagick.org/): 图像处理系统，支持 200 多种格式，包括: PNG, JPEG, JPEG-2000, GIF, TIFF, DPX, EXR, WebP, Postscript, PDF, SVG。
 - [GraphicsMagick](http://www.graphicsmagick.org/): ImageMagick 的一个分支。没有社区讨论，文档示例太少，学习门槛较高。
-  - ImageMagick 与 GraphicsMagick 的由来和区别介绍: https://www.linux.com/news/imagemagick-or-graphicsmagick
+  - ImageMagick 与 GraphicsMagick 的[由来和区别介绍](https://web.archive.org/web/20260819031344/https://www.linux.com/news/imagemagick-or-graphicsmagick/)
 - [gm](https://github.com/aheckmann/gm): NodeJS 封装 GraphicsMagick and ImageMagick
 - [jimp](https://github.com/oliver-moran/jimp): 用 JS 写的图像处理类库
 - [ImageOptim](https://github.com/ImageOptim/ImageOptim): 开源的图像压缩优化工具 `Ⓜ`
@@ -70,7 +70,7 @@
 - ASCII Art 样例库
   - https://asciiart.website/
   - https://fsymbols.com/text-art/
-- [FIGlet](http://www.figlet.org/): ASCII Art 字体程序
+- [FIGlet](https://www.figlet.org/): ASCII Art 字体程序
   - [figlet-fonts](https://github.com/xero/figlet-fonts)
   - [figlet.js](https://github.com/patorjk/figlet.js)
   - [ascii-art](https://github.com/khrome/ascii-art): A Node.js library for ansi codes, figlet fonts, ascii art and other ASCII graphics

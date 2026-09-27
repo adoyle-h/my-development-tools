@@ -47,7 +47,7 @@
 - https://github.com/Ileriayo/markdown-badges
 - https://forthebadge.com/
 - [alexandresanlim/Badges4-README.md-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile)
-- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats): 获取动态生成的 GitHub 统计信息
+- [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended): 获取动态生成的 GitHub 统计信息
 - [gists-readme](https://github.com/Yizack/gists-readme): Gist 统计卡片
 - [github-profile-views-counter](https://github.com/antonkomarev/github-profile-views-counter): Github 访问量统计
   - [visitor-badge](https://github.com/jwenjian/visitor-badge): 备选方案

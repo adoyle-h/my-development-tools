@@ -40,7 +40,7 @@
 
 ## K8S YAML
 
-- [kube-linter](https://github.com/stackrox/kube-linter): a static analysis tool that checks Kubernetes YAML files and Helm charts 
+- [kube-linter](https://github.com/stackrox/kube-linter): a static analysis tool that checks Kubernetes YAML files and Helm charts
 - [Kubernetes YAML Generator](https://k8syaml.com/)
 - `kubectl create $kind $name --dry-run=client -oyaml` 通过命令行创建 YAML 文件。去掉 `--dry-run` 会直接创建资源。
   - `kubectl create --help`, `kubectl create deploy --help`
@@ -51,10 +51,14 @@
 
 ## 镜像与代理
 
-- http://mirror.azure.cn/help/gcr-proxy-cache.html : GCR 代理
+- [DaoCloud 的镜像](https://github.com/DaoCloud/public-image-mirror#%E6%94%AF%E6%8C%81%E5%89%8D%E7%BC%80%E6%9B%BF%E6%8D%A2%E7%9A%84-registry-%E4%B8%8D%E6%8E%A8%E8%8D%90)
 - https://mirror.azure.cn/kubernetes/ : containernetworking-plugins, etcd, kubectl, containerd 等资源的镜像
-- quay.io，使用 `quay.azk8s.cn` 替代。
 - https://kubernetes-charts.proxy.ustclug.org : helm chart 仓库镜像，http、https 都支持
+- https://docker.aityp.com/
+  - 不支持 containerd 的 registry 配置，只能用命令行直接 pull 镜像。因为这个镜像平台的镜像 path 前缀设计有问题，会导致匿名 auth 失败。
+  - 同步镜像源: gcr.io ghcr.io quay.io k8s.gcr.io docker.io registry.k8s.io docker.elastic.co skywalking.docker.scarf.sh mcr.microsoft.com docker.n8n.io
+  - 单个镜像大小限制 2G (超过 2G 闲时任务同步 凌晨 00-07 时)(超过 12G 镜像禁止同步)
+  - 镜像同步不及时，需要手动添加镜像，等待 1 小时后才生效
 
 ## kubectl
 

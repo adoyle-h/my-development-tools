@@ -18,13 +18,13 @@
     - [agent](#agent)
 - [运维](#运维)
 - [Troubleshooting](#troubleshooting)
+- [温度与风扇](#温度与风扇)
 
 <!-- /MarkdownTOC -->
 
 ## 工具
 
 - [docker-deb-builder](https://github.com/tsaarni/docker-deb-builder): use Docker to build Debian packages
-- [fan2go](https://github.com/markusressel/fan2go): 风扇控制
 - [hcache](https://github.com/silenceshell/hcache): The top tool for page cache
 - [ufw](https://packages.debian.org/stable/admin/ufw): 防火墙
 - [snap](https://snapcraft.io/): 兼容各种 linux 系统的包管理器
@@ -45,16 +45,16 @@
 - [Rocky Linux](https://rockylinux.org/): CentOS 的继任者。企业级稳定性：每 3 年发布新的主版本，LTS 时长为 5 年。
 - [manjaro](https://manjaro.org/): 新手入门
 - [ubuntu](https://ubuntu.com): 新手入门
-- [Clean Linux](https://clearlinux.org/): Intel 出品
 - [Arch Linux](https://archlinux.org/): Wiki 文档最全面
 - [Kali Linux](https://www.kali.org/): 专注于安全渗透
-- [Tails](https://tails.boum.org/index.en.html): 专注于安全
+- [Tails](https://tails.net/index.en.html): 专注于安全
 - [Whonix](https://www.whonix.org/): 专注于安全的 Linux 发行版。其主要目标在于保护线上的隐私、安全与匿名。这个操作系统包含两个虚拟机，一个工作站与一个基于 Tor 的网关机，这两个虚拟机均基于 Debian。系统会迫使所有网络连接都经过 Tor。可以在其他操作系统上安装 Whonix 应用程序。
 - [Qubes OS](https://www.qubes-os.org/): 专注于安全的 Linux 发行版。内置了 Whonix。
-- [Puppy Linux](https://puppylinux.com/)
+- [Puppy Linux](https://puppylinux-woof-ce.github.io/)
 - [mint](https://linuxmint.com/)
 - [distrobox](https://github.com/89luca89/distrobox): 在容器里运行各种 linux 发行版。
 - [嵌入式 Linux](../hardware.md#嵌入式-linux)
+- [Droidspaces](https://github.com/ravindu644/Droidspaces-OSS): 超轻量的类似容器化技术实现的 Linux 运行环境，让运行安卓系统的设备运行 Linux。
 
 ## Bootloader
 
@@ -110,7 +110,7 @@
 - [statsd](https://github.com/etsy/statsd): Metrics 数据聚合
 - [pcp](https://github.com/performancecopilot/pcp): Performance Co-Pilot。系统性能监控
 - [uptime-kuma](https://github.com/louislam/uptime-kuma): 功能强大的可用性监控服务。
-- 终端工具请看 [Builtin Command Alternatives 的 better `top` 部分](./CLI/README.md#builtin-command-alternatives)
+- 终端工具请看 [Builtin Command Alternatives 的 better `top` 部分](./terminal/README.md#builtin-command-alternatives)
 - [glances](https://github.com/nicolargo/glances): 支持网页访问。支持 MCP Server，支持导出数据给其他服务（比如 Prometheus)。Python 实现。
   - [sampler](https://github.com/sqshq/sampler): 用 YAML 配置的终端面板。可执行 shell 命令，并且可视化输出。
 
@@ -129,3 +129,9 @@
 - [sysdig](https://github.com/draios/sysdig): Linux system exploration and troubleshooting tool
   - [sysdig-inspect](https://github.com/draios/sysdig-inspect): A powerful opensource interface for container troubleshooting and security investigation
 - [bcc](https://github.com/iovisor/bcc): Tools for BPF-based Linux IO analysis, networking, monitoring, and more
+
+## 温度与风扇
+
+- [lm-sensors](https://github.com/lm-sensors/lm-sensors): 查看传感器的命令行工具
+- [coolercontrol](https://gitlab.com/coolercontrol/coolercontrol): 温度监控与风扇控制。提供 Daemon、CLI、Web 页面。非常好用。
+- [fan2go](https://github.com/markusressel/fan2go): 「备选方案」温度监控，风扇控制。

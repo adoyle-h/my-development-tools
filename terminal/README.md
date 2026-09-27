@@ -1,4 +1,4 @@
-# Shell/CLI
+# 终端 Terminal
 
 [⬅︎ 返回上层](../#命令行-cli)
 
@@ -7,6 +7,7 @@
 <!-- MarkdownTOC GFM -->
 
 - [其他](#其他)
+- [终端 Terminal](#终端-terminal)
 - [Shell Script Development](#shell-script-development)
 - [配色](#配色)
 - [TUI](#tui)
@@ -14,6 +15,7 @@
 - [Builtin Commands](#builtin-commands)
 - [Builtin Command Alternatives](#builtin-command-alternatives)
 - [文件管理器](#文件管理器)
+- [终端图片](#终端图片)
 - [文件重命名](#文件重命名)
 - [文件查找](#文件查找)
 - [文件大小](#文件大小)
@@ -25,6 +27,9 @@
 
 ## 其他
 
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch): 终端中打印系统基本信息
+  - [winfetch](https://github.com/lptstr/winfetch): 在 Windows 的 PowerShell 使用。终端中打印系统基本信息
+  - [screenFetch](https://github.com/KittyKatt/screenFetch): 备用方案
 - [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy): A curated list of Terminal frameworks, plugins & resources for CLI lovers.
 - https://command-not-found.com/ : 如果找不到命令，可以快速搜索到对应的安装方式。
   - [commando](https://github.com/lukaszlach/commando): 封装了各种命令的容器镜像
@@ -38,7 +43,6 @@
 - [taskbook](https://github.com/klaussinani/taskbook): 命令行 Todo List Manager
   - [todo.txt-cli](https://github.com/ginatrapani/todo.txt-cli): 备选
 - [tio](https://github.com/tio/tio): 连接 TTY 的工具。
-- [catimg](https://github.com/posva/catimg): 在终端里打印图片，打印出的都是像素风格的。
 - [hhighlighter](https://github.com/paoloantinori/hhighlighter): 用不同颜色高亮多个匹配字符串
 - [fzf](https://github.com/junegunn/fzf): 模糊筛选/搜索任意列表
 - [atuin](https://github.com/atuinsh/atuin): 使用 SQLite 数据库存储 shell 命令历史。可以通过 Atuin 服务器同步记录，也可单机本地离线使用。适合经常开多窗口的用户。
@@ -48,7 +52,6 @@
 - [progress](https://github.com/Xfennec/progress): 显示 cp, mv, dd 等命令的进度条 `Ⓜ` `Ⓛ`
 - [noti](https://github.com/variadico/noti): 进程完成后，触发系统通知。
 - [nushell](https://github.com/nushell/nushell): 超级酷的 Shell
-- [fig](https://fig.io/): 非常酷的补全工具。支持 MacOS/Linux/Windows。
 - [basher](https://github.com/basherpm/basher): bash 包管理器
 - [dotbot](https://github.com/anishathalye/dotbot/): dotfile 管理器
 - [bash](http://tiswww.case.edu/php/chet/bash/bashtop.html): 注意升级到最新版本的 bash
@@ -71,6 +74,22 @@
 - [glow](https://github.com/charmbracelet/glow): markdown 终端阅读工具
 - [theme.sh](https://github.com/lemnos/theme.sh): shell 配色设置，动态预览
 - [lnav](https://lnav.org/): 日志文件的终端浏览器
+- [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
+
+## 终端 Terminal
+
+- [iTerm2](https://www.iterm2.com): Mac 系统专用的终端，功能丰富，稳定 `Ⓜ`
+- [Ghostty](https://ghostty.org/): 零配置、跨平台、开箱即用的终端
+- [Wave](https://www.waveterm.dev/): 集成 AI、文件浏览器、网页浏览器的终端。开源、跨平台。**缺点：无法输入中文标点。**
+- [warp](https://www.warp.dev/): 集成 AI 的终端，挺有意思的。缺点也很明显，必须用它这一套，不兼容 tmux。PS1 被强制替换掉了，跟其他软件不好配合。
+- [Windows Terminal](https://github.com/microsoft/terminal): Windows 系统，推荐用这个终端 `ⓦ`
+  - [cmder](https://github.com/cmderdev/cmder): 备选方案
+- [Hyper](https://github.com/zeit/hyper): 用前端技术栈做的终端。非常酷炫 `⨀`
+  - [awesome-hyper](https://github.com/bnb/awesome-hyper)
+- [tabby](https://github.com/Eugeny/tabby): 前端技术栈做的终端，可以用 CSS 定制界面，功能完善，支持 Windows/MacOS/Linux。注意：关闭「输入时滚动」选项，否则很容易屏幕闪烁。缺点：无法输入中文标点。
+- [cathode](https://itunes.apple.com/us/app/cathode/id656982811): 复古终端模拟器 `Ⓜ`
+- [xterm.js](https://github.com/xtermjs/xterm.js): A terminal for the web
+- [edex-ui](https://github.com/GitSquared/edex-ui): 非常酷！
 
 ## [Shell Script Development](../shell-script/README.md)
 
@@ -79,6 +98,7 @@
 - [lscolors](https://github.com/ggreer/lscolors): LSCOLORS Preview
 - [trapd00r/LS_COLORS](https://github.com/trapd00r/LS_COLORS): LS_COLORS 自定义集合
 - [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes): shell 配色
+  - [我使用的配色方案 Deep](https://github.com/mbadolato/iTerm2-Color-Schemes#deep)
 
 ## TUI
 
@@ -86,7 +106,7 @@
 - [fzf](https://github.com/junegunn/fzf): 模糊筛选/搜索任意列表
 - [bat](https://github.com/sharkdp/bat): better cat。自动代码着色，自带分页器，显示代码行，支持 diff，自动标记 git 变动，可显示不可见符号。
 - [aalib](https://aa-project.sourceforge.net/index.html): 图片、视频转 ASCII art
-  - [libcaca](http://caca.zoy.org/wiki/libcaca): 终端绘制图片
+  - [libcaca](https://github.com/cacalabs/libcaca): 终端绘制图片
   - [hiptext](https://github.com/jart/hiptext)
 
 ## Commands in Docker
@@ -96,7 +116,6 @@
 - `docker run -d --name ariang -p 6080:80 leonismoe/ariang` https://hub.docker.com/r/leonismoe/ariang
 - `docker run -ti --rm -v ${HOME}:/root -v $(pwd):/git alpine/git <git_command>` https://hub.docker.com/r/alpine/git
 - https://hub.docker.com/r/jlesage/firefox
-- https://hub.docker.com/_/irssi
 - [commando](https://github.com/lukaszlach/commando): 封装了各种命令的容器镜像
 
 ## Builtin Commands
@@ -107,8 +126,8 @@
   - [源码](https://github.com/jaywcjlove/linux-command)
 - sar: linux 命令，查看系统状态
 - stat: 查看文件状态，比 ls 更详细，并且能指定输出哪些状态
-- file: 查看文件类型。[详见](http://til.adoyle.me/linux/file-command)
-- md5: 计算 md5。[详见](http://til.adoyle.me/linux/hash-command)
+- file: 查看文件类型。[详见](https://til.adoyle.me/linux/file-command)
+- md5: 计算 md5。[详见](https://til.adoyle.me/linux/hash-command)
   - cksum: crc32 算法
   - shasum: sha1 算法
 - 编辑:
@@ -161,6 +180,12 @@
 - [ranger](https://github.com/ranger/ranger): Python 实现的
 - [nnn](https://github.com/jarun/nnn): C 实现的
 
+## 终端图片
+
+- [viu](https://github.com/atanunq/viu): 在终端显示高分辨率的原图。支持 iTerm、Kitty、Ghostty
+- [catimg](https://github.com/posva/catimg): 在终端里打印低分辨率的近似图片
+  - [chafa](https://hpjansson.org/chafa/): 备选方案
+
 ## 文件重命名
 
 - [massren](https://github.com/laurent22/massren): 用编辑器批量重命名文件。非常好用！
@@ -173,6 +198,7 @@
   - [fd](https://github.com/sharkdp/fd/): 搜索文件名
 - better `grep`
   - [ripgrep](https://github.com/BurntSushi/ripgrep): 模糊搜索文件内容，速度很快
+  - [fff](https://github.com/dmtrKovalenko/fff): 面向人类和 Agent 的高速文件搜索工具，通过常驻内存索引和历史数据库，让重复的文件查找比 find/rg/fzf 更快。支持 neovim。
 
 ## 文件大小
 
@@ -196,7 +222,7 @@
   - [bottom](https://github.com/clementtsang/bottom): 跨平台。Rust 实现。可缩放历史曲线，但不支持水平滚动。
   - [glances](https://github.com/nicolargo/glances): 支持网页访问。支持 MCP Server，支持导出数据给其他服务（比如 Prometheus)。Python 实现。
 - better `kill`
-  - [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
+  - [pik](https://github.com/jacek-kurlit/pik): 交互式 kill
   - [fkill-cli](https://github.com/sindresorhus/fkill-cli): 灵活的删进程命令，例如 `fkill 1337 safari :8080`，如果不加参数，则是交互式命令。
 
 ## ssh

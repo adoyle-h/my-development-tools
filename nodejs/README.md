@@ -144,21 +144,21 @@
 - [nesh](https://github.com/danielgtaylor/nesh): 增强型交互式 shell 框架
 - [vorpal](https://github.com/dthree/vorpal): 交互式命令行框架
 - [vantage](https://github.com/dthree/vantage): 实时交互式 CLI 工具，基于 vorpal 开发
-- [runkit](https://runkit.com/home): 非常酷！在前端直接引用 npm 包编写代码
+- ~~[runkit](https://runkit.com/home)~~: 「已倒闭」非常酷！在前端直接引用 npm 包编写代码
 - [ink](https://github.com/vadimdemedes/ink): 用 React 写法构建交互式 CLI
   - [ink-tab](https://github.com/jdeniau/ink-tab)
 
 ### CLI 参数解析
 
 - ~~[yargs](https://github.com/yargs/yargs)~~: 「超难用，不好扩展」命令行参数解析器（复杂版）。支持子命令，多语言，帮助文档等功能
-- [minimist](https://github.com/substack/minimist): 命令行参数解析器（极简）
+- [minimist](https://github.com/minimistjs/minimist): 命令行参数解析器（极简）
 - [Inquirer](https://github.com/SBoudrias/Inquirer.js): 命令行交互提示
   - [Enquirer](https://github.com/enquirer/enquirer): 类似 Inquirer，UI 交互更丰富
   - [qoa](https://github.com/klaussinani/qoa): 备选方案
 - [Caporal.js](https://github.com/mattallty/Caporal.js): 支持自动补全，自动构建帮助，语法友好的 CLI 框架。上手简单好用。
 - [oclif](https://github.com/oclif/oclif): Heroku 出品。比 Caporal.js 支持更多功能。特点是 OOP，Hook，插件体系。概念较多，比较臃肿。
-  - [12 Factor CLI App](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46)
-  - [an adaptive, intent based CLI "state machine"](https://gist.github.com/sw-yx/3af1e264b8460af8897768045b2c229f)
+  - [12 Factor CLI App](https://web.archive.org/web/20260830030345/https://jdxcode.medium.com/12-factor-cli-apps-dd3c227a0e46)
+  - [an adaptive, intent based CLI "state machine"](https://web.archive.org/web/20230131202556/https://gist.github.com/sw-yx/3af1e264b8460af8897768045b2c229f)
 - [string-to-argv](https://github.com/vladimir-tikhonov/string-to-argv): 把一个命令字符串分解成数组。对于分离字符串里的命令路径和参数很有用。
   - [split-cmd](https://github.com/thiagodp/split-cmd): 备选方案
 
@@ -264,7 +264,7 @@
 
 ## 数据生成/Mock
 
-- [faker.js](https://github.com/Marak/faker.js): 制造假数据
+- [faker.js](https://github.com/faker-js/faker): 制造假数据
 - [casual](https://github.com/boo1ean/casual): 制造假数据。备选
 - [Chance](https://github.com/chancejs/chancejs): 制造假数据。备选2
 - [nuysoft/Mock](https://github.com/nuysoft/Mock): 制造假数据。备选3
@@ -514,7 +514,6 @@
 
 - https://github.com/sindresorhus?utf8=%E2%9C%93&tab=repositories&q=&type=source
 - https://github.com/DJCordhose?utf8=%E2%9C%93&tab=repositories&q=&type=source
-- https://github.com/substack?utf8=%E2%9C%93&tab=repositories&q=&type=source
 - https://github.com/isaacs?utf8=%E2%9C%93&tab=repositories&q=&type=source
 
 - https://github.com/node-modules

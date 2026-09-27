@@ -1,0 +1,140 @@
+#############################  Display  #############################
+
+# Verbose program output
+# Accepts log level: "error", "warn", "info", "debug", "trace"
+# verbose = "info"
+
+# Don't show interactive progress bar while checking links.
+no_progress = false
+
+# Path to summary output file.
+output = "lychee.report.md"
+
+#############################  Cache  ###############################
+
+# Enable link caching. This can be helpful to avoid checking the same links on
+# multiple runs.
+cache = true
+
+# Discard all cached requests older than this duration.
+max_cache_age = "5min"
+
+#############################  Runtime  #############################
+
+# Number of threads to utilize.
+# Defaults to number of cores available to the system if omitted.
+# threads = 2
+
+# Maximum number of allowed redirects.
+max_redirects = 10
+
+# Maximum number of allowed retries before a link is declared dead.
+max_retries = 2
+
+# Maximum number of concurrent link checks.
+# max_concurrency = 14
+
+#############################  Requests  ############################
+
+# User agent to send with each request.
+user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+
+# Website timeout from connect to response finished.
+timeout = 20
+
+# Minimum wait time in seconds between retries of failed requests.
+retry_wait_time = 2
+
+# Comma-separated list of accepted status codes for valid links.
+# Supported values are:
+#
+# accept = ["200..=204", "429"]
+# accept = "200..=204, 429"
+# accept = ["200", "429"]
+# accept = "200, 429"
+accept = ["200", "429", "401", "403"]
+
+# Proceed for server connections considered insecure (invalid TLS).
+insecure = false
+
+# Only test links with the given schemes (e.g. https).
+# Omit to check links with any other scheme.
+# At the moment, we support http, https, file, and mailto.
+scheme = ["http", "https", "file"]
+
+# When links are available using HTTPS, treat HTTP links as errors.
+require_https = false
+
+# Request method
+method = "get"
+
+# Custom request headers
+header = {}
+
+# Remap URI matching pattern to different URI.
+#remap = ["https://example.com http://example.invalid"]
+
+# Base URL or website root directory to check relative URLs.
+#base = "https://example.com"
+
+# HTTP basic auth support. This will be the username and password passed to the
+# authorization HTTP header. See
+# <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization>
+#basic_auth = ["example.com user:pwd"]
+
+#############################  Exclusions  ##########################
+
+# Skip missing input files (default is to error if they don't exist).
+skip_missing = false
+
+# Check links inside `<code>` and `<pre>` blocks as well as Markdown code
+# blocks.
+include_verbatim = false
+
+# Ignore case of paths when matching glob patterns.
+glob_ignore_case = false
+
+# Exclude URLs and mail addresses from checking (supports regex).
+exclude = [
+    '^https://stackoverflow\.com/',
+    '^https://web\.archive\.org/',
+    '^https://github\.com/.+/.+/issues/',
+    '^https://www\.wikiwand\.com',
+    '^https://.+\.zhihu\.com/',
+    '^https://archive\..+/',
+    '^https://ghp\.ci',
+    '^https://www\.boce\.com/',
+    '^https://www\.natfrp\.com/',
+    '^https://101\.101\.101\.101/$',
+    '^https://icons8\.com/mega-creator$',
+    '^https://www\.pexels\.com/$',
+    '^https://www\.toptal\.com/',
+    '^https://runkit\.com/',
+    '^https://nix\.dev/manual/nix/stable/language$',
+    '^https://www\.wireguard\.com/$',
+    '^https://docker\.jiaxin\.site/$',
+    '^https://www\.goabstract\.com/$',
+]
+
+# Exclude these filesystem paths from getting checked.
+exclude_path = []
+
+# URLs to check (supports regex). Has preference over all excludes.
+include = []
+
+# Exclude all private IPs from checking.
+# Equivalent to setting `exclude_private`, `exclude_link_local`, and
+# `exclude_loopback` to true.
+exclude_all_private = false
+
+# Exclude private IP address ranges from checking.
+exclude_private = false
+
+# Exclude link-local IP address range from checking.
+exclude_link_local = false
+
+# Exclude loopback IP address range and localhost from checking.
+exclude_loopback = false
+
+# Check mail addresses
+include_mail = false
