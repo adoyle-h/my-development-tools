@@ -83,6 +83,7 @@
 - [action-upterm](https://github.com/owenthereal/action-upterm): 用于调试 github action。将运行时 workflow 暴露到公网，然后通过 ssh 连接到 workflow 环境
 - [release-drafter](https://github.com/release-drafter/release-drafter): 根据 git log，自动更新 github release 里的 Draft 版本信息。
   - [release-please](https://github.com/googleapis/release-please): 类似 release-drafter，但是把草稿先写在 PR 里。
+- [relnote](https://github.com/loki-inu/relnote): 离线 stdlib Python CLI/Action，从 git commit 范围生成 GitHub 风格 release notes（conventional commits 分组，无需 API/配置）。
 
 ### Github UI
 
