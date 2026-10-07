@@ -32,6 +32,7 @@
   - [sharp](https://github.com/lovell/sharp): libvips for NodeJS
   - [govips](https://github.com/davidbyttow/govips): libvips for Go
 - [squoosh](https://github.com/GoogleChromeLabs/squoosh): 图片格式转换、压缩工具。支持浏览器和命令行
+- [FileOnTap HEIC 转 PNG](https://fileontap.com/heic-to-png/)：免费浏览器端 HEIC 转 PNG 工具，文件不上传。
 
 ## 绘图语言
 
