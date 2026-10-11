@@ -24,6 +24,7 @@
 - [Debug](#debug)
 - [Load Balancer](#load-balancer)
 - [Serverless](#serverless)
+- [存储](#存储)
 
 <!-- /MarkdownTOC -->
 
@@ -138,3 +139,7 @@
 - [MetalLB](https://github.com/metallb/metallb): a load-balancer implementation for bare metal Kubernetes clusters
 
 ## [Serverless](./README.md#serverless)
+
+## 存储
+
+- [longhorn](https://github.com/longhorn/longhorn): 分布式块存储 for K8S

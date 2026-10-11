@@ -13,6 +13,9 @@
 - [stylix](https://github.com/nix-community/stylix): a theming framework for NixOS, Home Manager, nix-darwin, and Nix-on-Droid that applies color schemes, wallpapers, and fonts to a wide range of applications.
 - [flake-parts](https://github.com/hercules-ci/flake-parts): Simplify Nix Flakes with the module system
 - [dendritic](https://github.com/mightyiam/dendritic): A Nixpkgs module system usage pattern
+- [import-tree](https://github.com/denful/import-tree): Import all nix files in a directory tree.
+- [nix-search-cli](https://github.com/peterldowns/nix-search-cli): CLI for searching packages on search.nixos.org
+- [flox](https://github.com/flox/flox): 开发环境依赖管理器。基于 nix 封装的 CLI 程序，不用学习 nix 语法，只写 toml 配置来管理开发环境的依赖。`flox containerize` 还可以导出开发环境成 Dockerfile。
 
 ## 配置
 

@@ -19,6 +19,8 @@
 - [运维](#运维)
 - [Troubleshooting](#troubleshooting)
 - [温度与风扇](#温度与风扇)
+- [Desktop](#desktop)
+- [Desktop Apps](#desktop-apps)
 
 <!-- /MarkdownTOC -->
 
@@ -135,3 +137,17 @@
 - [lm-sensors](https://github.com/lm-sensors/lm-sensors): 查看传感器的命令行工具
 - [coolercontrol](https://gitlab.com/coolercontrol/coolercontrol): 温度监控与风扇控制。提供 Daemon、CLI、Web 页面。非常好用。
 - [fan2go](https://github.com/markusressel/fan2go): 「备选方案」温度监控，风扇控制。
+
+## Desktop
+
+- [awesome-wayland](https://github.com/rcalixte/awesome-wayland)
+- Wayland compositor
+  - [Hyprland](https://github.com/hyprwm/Hyprland): Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
+  - [niri](https://github.com/niri-wm/niri): A scrollable-tiling Wayland compositor.
+
+## Desktop Apps
+
+- [Waydroid](https://github.com/waydroid/waydroid): a container-based approach to boot a full Android system on a regular GNU/Linux system.
+- [Timeshift](https://github.com/linuxmint/timeshift): System restore tool for Linux. Creates filesystem snapshots using rsync+hardlinks, or BTRFS snapshots.
+- [Only Office](https://www.onlyoffice.com/): Windows Office Alternatives
+  - [Libre Office](https://www.libreoffice.org/): 备用方案

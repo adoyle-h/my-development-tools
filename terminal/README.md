@@ -22,6 +22,7 @@
 - [进程管理](#进程管理)
 - [ssh](#ssh)
 - [终端窗口管理](#终端窗口管理)
+- [终端网络浏览器](#终端网络浏览器)
 
 <!-- /MarkdownTOC -->
 
@@ -69,9 +70,7 @@
   - [desk](https://github.com/jamesob/desk): 类似方案
 - [pueue](https://github.com/Nukesor/pueue): 将任意 shell 命令托管到后台队列里执行
 - [vhs](https://github.com/charmbracelet/vhs): 声明式制作命令行演示 GIF 动图
-- [browsh](https://github.com/browsh-org/browsh): 运行在终端的网页浏览器
 - [carbonyl](https://github.com/fathyb/carbonyl): 在终端运行 Chromium。
-- [glow](https://github.com/charmbracelet/glow): markdown 终端阅读工具
 - [theme.sh](https://github.com/lemnos/theme.sh): shell 配色设置，动态预览
 - [lnav](https://lnav.org/): 日志文件的终端浏览器
 - [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
@@ -199,6 +198,7 @@
 - better `grep`
   - [ripgrep](https://github.com/BurntSushi/ripgrep): 模糊搜索文件内容，速度很快
   - [fff](https://github.com/dmtrKovalenko/fff): 面向人类和 Agent 的高速文件搜索工具，通过常驻内存索引和历史数据库，让重复的文件查找比 find/rg/fzf 更快。支持 neovim。
+  - [fsearch](https://github.com/noahdunnagan/fsearch): 备选方案。目前只有 MacOS 能用
 
 ## 文件大小
 
@@ -241,3 +241,8 @@
   - [tmux-easy-menu](https://github.com/Ja-sonYun/tmux-easy-menu): 自定义菜单
   - [tmuxai](https://github.com/alvinunreal/tmuxai): Chat LLM in Tmux
 - [upterm](https://github.com/owenthereal/upterm): 实时共享终端窗口到公网
+
+## 终端网络浏览器
+
+- [termium](https://github.com/codr1/termium): Chromium in terminal。基于现代终端模拟器图像协议输出高清画面，支持鼠标点击，支持跨平台
+- [browsh](https://github.com/browsh-org/browsh): 运行在终端的网页浏览器

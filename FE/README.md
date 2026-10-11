@@ -201,6 +201,7 @@
 - [fuse-box](https://github.com/fuse-box/fuse-box): 「待评估」
 - [pikapkg/web](https://github.com/pikapkg/web): 「待评估」直接在浏览器端下载安装 npm 包
 - [pikapkg/pack](https://github.com/pikapkg/pack): 「待评估」编译打包工具
+- [porffor](https://github.com/CanadaHonk/porffor): rebuilds the JS engine as an ahead-of-time JavaScript compiler
 
 ## Webpack
 

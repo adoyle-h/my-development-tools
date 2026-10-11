@@ -76,7 +76,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Semver](#semver)
 - [RFC](#rfc)
 - [License](#license)
-- [Github](#github)
 - [SVG](#svg)
 - [代码质量检查](#代码质量检查)
 - [安全渗透](#安全渗透)
@@ -127,6 +126,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [ProtoBuf](#protobuf)
 - [IM](#im)
 - [Git](#git)
+- [Github](#github)
 - [Chrome](#chrome)
 - [Bookmarklet](#bookmarklet)
 - [测试](#测试)
@@ -208,14 +208,15 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Slide/Presentation](#slidepresentation)
 - [SSG: Static Site Generator](#ssg-static-site-generator)
     - [JAMstack](#jamstack)
+- [项目管理](#项目管理)
 - [文档](#文档)
     - [文档系统](#文档系统)
     - [文档处理](#文档处理)
     - [文档检查](#文档检查)
     - [文档排版](#文档排版)
-    - [Markdown](#markdown)
+- [Markdown](#markdown)
+    - [Markdown 阅读器](#markdown-阅读器)
     - [Markdown 编辑器](#markdown-编辑器)
-    - [Changelog](#changelog)
 - [Hash](#hash)
 - [图像处理](#图像处理)
 - [视频处理](#视频处理)
@@ -225,6 +226,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [截图/录屏](#截图录屏)
 - [漫画](#漫画)
 - [视频/音频](#视频音频)
+    - [IPTV](#iptv)
     - [音乐](#音乐)
 - [知识图谱](#知识图谱)
 - [互联网关键词趋势](#互联网关键词趋势)
@@ -238,6 +240,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [FTP](#ftp)
 - [资讯/信息](#资讯信息)
     - [RSS](#rss)
+- [刷机](#刷机)
 - [别人的工具列表](#别人的工具列表)
 
 <!-- /MarkdownTOC -->
@@ -298,6 +301,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - [neko](https://github.com/m1k1o/neko): 在容器里运行浏览器
 - [Tor](https://www.torproject.org/): 专注于用户隐私的浏览器。需要翻墙
+- [终端网络浏览器](./terminal/README.md#终端网络浏览器)
 
 ## 输入法
 
@@ -486,8 +490,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [license-list-data](https://github.com/spdx/license-list-data): Various data formats for the SPDX License List including RDFa, HTML, Text, and JSON
 - [LicenseFinder](https://github.com/pivotal/LicenseFinder): Find licenses for your project's dependencies.
 - [scancode-toolkit](https://github.com/nexB/scancode-toolkit): detects licenses, copyrights, package manifests & dependencies and more by scanning code ... to discover and inventory open source and third-party packages used in your code.
-
-## [Github](./github/README.md)
 
 ## SVG
 
@@ -856,7 +858,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - [SQL 工具](https://sqlable.com/)
 - [UNQLite](https://github.com/symisc/unqlite):
 - [SQLite](https://www.sqlite.org)
-- [turso](https://github.com/tursodatabase/turso): an in-process SQL database, compatible with SQLite.
+- [turso](https://github.com/tursodatabase/turso): A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.
 - [vitess](https://github.com/vitessio/vitess): MySQL Sharding Proxy。支持 k8s。Youtube 2011 年就开始跑了。
 - [dolt](https://github.com/dolthub/dolt): 功能类似 Git 的数据库
 - [rustfs](https://github.com/rustfs/rustfs): 对象存储，高性能，K8S-Native，兼容 S3
@@ -910,6 +912,8 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
   - [dendrite](https://github.com/matrix-org/dendrite): Matrix homeserver written in Go
 
 ## [Git](./git.md)
+
+## [Github](./github/README.md)
 
 ## [Chrome](./chrome/README.md)
 
@@ -1301,10 +1305,14 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 
 ## microVM
 
+- [microsandbox](https://github.com/superradcompany/microsandbox): runs untrusted workloads inside fast, local microVMs: AI agents, user code, plugins, CI jobs, dev environments, scrapers, and automation.
+- [smolvm](https://github.com/smol-machines/smolvm): Branchable microVMs for AI agents
 - [firecracker](https://github.com/firecracker-microvm/firecracker): Secure and fast microVMs for serverless computing。AWS 出品
-- [weaveworks/ignite](https://github.com/weaveworks/ignite/): a declarative Firecracker microVM administration tool
+- [flintlock](https://github.com/liquidmetal-dev/flintlock): 「待评价」
 - [kubevirt](https://github.com/kubevirt/kubevirt): 「待评价」KubeVirt is a virtual machine management add-on for Kubernetes. The aim is to provide a common ground for virtualization solutions on top of Kubernetes.
   - https://katacontainers.io/ : 备选方案
+- [krunvm](https://github.com/libkrun/krunvm): 支持 OCI 镜像的 MicroVM。兼容 Linux/MacOS 平台
+  - [libkrun](https://github.com/libkrun/libkrun): 兼容 Linux/MacOS 平台的 MicroVM Library
 
 ## 跳板机/堡垒机
 
@@ -1484,6 +1492,12 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 
 - [jamstack.org](https://github.com/jamstack/jamstack.org)
 
+
+## 项目管理
+
+- [plane](https://github.com/makeplane/plane): a modern project management platform to manage tasks, sprints, docs, and triage。自部署 12 用户数免费，否则需要购买授权。
+- [itsaplan](https://github.com/croffasia/itsaplan): Project management and issue tracking where teams and AI agents work side by side to plan and ship products.
+
 ## 文档
 
 ### 文档系统
@@ -1576,7 +1590,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
 - [赫蹏（hètí）](https://github.com/sivan/heti): css 样式
 
-### Markdown
+## Markdown
 
 - [anydoc](https://github.com/firecrawl/anydoc): Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, PDF 文件转换成 Markdown。速度极快。可离线使用
 - [json2md](https://github.com/IonicaBizau/json2md): 非常灵活的 Markdown 生成工具，容易自己定制功能
@@ -1587,19 +1601,15 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - [mdx](https://github.com/mdx-js/mdx): Markdown + JSX = MDX。支持模块导入和导出，支持 React 组件。写 Web 文档利器。
   - [Code Hike](https://github.com/code-hike/codehike): MDX 的 remark 插件。使用场景：code walkthrough。
 
+### Markdown 阅读器
+
+- [leaf](https://github.com/RivoLink/leaf): 终端 Markdown 阅读器。体验很好。
+- [glow](https://github.com/charmbracelet/glow): markdown 终端阅读工具
+
 ### Markdown 编辑器
 
 - [marktext](https://github.com/marktext/marktext): 跨平台的 Markdown 编辑器，GUI 应用
 - [stackedit](https://github.com/benweet/stackedit): 运行在浏览器中的 Markdown 编辑器。文件存储在浏览器的 localstorage 中，也可以导出到文本到本地磁盘、Google Drive、Dropbox，或你的 GitHub 账户下。详见[链接](https://github.com/benweet/stackedit/blob/6dce2a5e36b755a0c244522b48a06c91a2df0f59/src/data/welcomeFile.md)。
-
-### Changelog
-
-- http://keepachangelog.com/  Changelog 书写规约
-- [release-please](https://github.com/googleapis/release-please): 结合 Github Action 自动执行：生成 Changelog，打 tag，发 Release
-- [git-chglog](https://github.com/git-chglog/git-chglog): CHANGELOG generator implemented in Go
-- [standard-version](https://github.com/conventional-changelog/standard-version): Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org (现在无人维护)
-  - conventional-changelog 的 [.versionrc 配置](https://github.com/conventional-changelog/conventional-changelog-config-spec/)
-  - [semantic-release](https://github.com/semantic-release/semantic-release): 备选方案
 
 ## Hash
 
@@ -1666,6 +1676,12 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
   - [jellyfin-plugin-metashark](https://github.com/cxfksword/jellyfin-plugin-metashark): 电影元数据插件，数据来自豆瓣
   - [jellyfin-plugin-bangumi](https://github.com/kookxiang/jellyfin-plugin-bangumi): 动漫元数据插件，数据来自 bangumi
 
+### IPTV
+
+- [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8): 直播源相关资源汇总
+- [Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg): 裤佬收集的接口
+- [iptv-api](https://github.com/Guovin/iptv-api): IPTV 直播源自动更新工具：自动采集、校验、测速并生成可播放结果，支持 M3U/TXT/API 输出、自定义频道、IPv4/IPv6、Docker、GitHub Actions、CLI 与 GUI 多端部署
+
 ### 音乐
 
 - [MuseScore](https://github.com/musescore/MuseScore): 开源的打谱软件
@@ -1726,6 +1742,10 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - [RSSHub](https://github.com/DIYgod/RSSHub): 从任何内容生成 RSS/Atom/JSON 订阅源。定制转换路由需要自己写 JS 代码，略麻烦。
 - [RSSHub-Radar](https://github.com/DIYgod/RSSHub-Radar): 浏览器插件，用于查询 RSS 或 RSSHub 订阅
 - [TTRSS](https://github.com/HenryQW/Awesome-TTRSS): 自部署的 RSS 阅读器 Web 服务
+
+## 刷机
+
+- [LTBox](https://github.com/miner7222/LTBox): 联想平板刷机工具
 
 -----
 

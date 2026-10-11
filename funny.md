@@ -50,3 +50,9 @@
 - [PrismLauncher](https://github.com/PrismLauncher/PrismLauncher): 管理多 MC 实例的启动器。
   - [PrismLauncher-Cracked](https://github.com/Diegiwg/PrismLauncher-Cracked): 无须微软账号可以本地离线玩
 - [PCL](https://github.com/Meloong-Git/PCL): 无须微软账号可以本地离线玩
+
+## 游戏平台
+
+- [armada](https://github.com/armada-os/armada): 在 ARM 架构设备上运行的类 SteamOS 系统
+
+

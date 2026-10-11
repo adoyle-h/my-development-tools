@@ -49,6 +49,7 @@
 - [Pixelmator](http://www.pixelmator.com/mac): 像素画图工具 `Ⓜ`
 - [krita](https://github.com/KDE/krita): 自由、免费、开源、跨平台的像素绘画软件 `Ⓜ` `Ⓛ` `ⓦ`
 - [Sketch](https://www.sketchapp.com/): 矢量画图工具。不是适合设计印刷品。 `Ⓜ`
+- [Compositor](https://github.com/robbietilton/Compositor): The Photoshop alternative for Mac `Ⓜ`
 - [Quil](https://github.com/quil/quil): 写代码绘画 (Painting)
   - 源自 https://www.tylerxhobbs.com/
   - http://quil.info/
