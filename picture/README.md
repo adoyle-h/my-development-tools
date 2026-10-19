@@ -32,6 +32,8 @@
   - [sharp](https://github.com/lovell/sharp): libvips for NodeJS
   - [govips](https://github.com/davidbyttow/govips): libvips for Go
 - [squoosh](https://github.com/GoogleChromeLabs/squoosh): 图片格式转换、压缩工具。支持浏览器和命令行
+- [FileOnTap](https://fileontap.com/): 浏览器端本地运行的图像转换与压缩工具，文件不上传至远端。支持 PDF 和 HEIC 文件。
+  - [squoosh](https://github.com/GoogleChromeLabs/squoosh): 备选方案。图片格式转换、压缩工具。支持浏览器和命令行
 
 ## 绘图语言
 
