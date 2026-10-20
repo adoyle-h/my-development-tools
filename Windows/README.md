@@ -15,6 +15,7 @@
 - [Windows 包管理器](#windows-包管理器)
 - [WSL](#wsl)
 - [硬盘](#硬盘)
+- [视频](#视频)
 
 <!-- /MarkdownTOC -->
 
@@ -76,3 +77,7 @@
 - [CrystalDiskMark](https://sourceforge.net/projects/crystaldiskmark/): 硬盘测速
 - [Duplicati](https://github.com/duplicati/duplicati): 跨平台、开源的系统备份软件，支持加密或不加密，增量备份到磁盘，或者 SFTP/FTP、S3 等协议。支持定时任务、邮件提醒。问题是备份很慢，似乎备份到 exfat 格式的硬盘有问题，详见[帖子](https://web.archive.org/web/20241112030934/https://forum.duplicacy.com/t/local-backup-extremely-slow/6184)。
 - [DiskGenius](https://www.diskgenius.cn/): 自带 DiskGenius 版本的 WinPE 系统。功能十分强大：硬盘分区，数据备份，镜像制作，ISO 文件编辑。备份磁盘时无法过滤文件只能整盘备份，是个缺点。
+
+## 视频
+
+- [potplayer](https://potplayer.tv/): 功能丰富的播放器

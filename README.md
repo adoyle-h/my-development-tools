@@ -206,6 +206,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [模板引擎](#模板引擎)
 - [TeX/LaTeX](#texlatex)
 - [Slide/Presentation](#slidepresentation)
+    - [Slide Skills](#slide-skills)
 - [SSG: Static Site Generator](#ssg-static-site-generator)
     - [JAMstack](#jamstack)
 - [项目管理](#项目管理)
@@ -818,6 +819,8 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 ## 文件同步/备份/快照
 
 - [syncthing](https://github.com/syncthing/syncthing): 文件自动同步
+  - [SyncthingWindowsSetup](https://github.com/Bill-Stewart/SyncthingWindowsSetup/): Windows 客户端
+  - [syncthing-android](https://github.com/researchxxl/syncthing-android): Android 客户端
 - tar
   - 参考文章: https://archive.ph/7R49W
 - rsync
@@ -953,6 +956,8 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 ### 加密/解密
 
 - [GPG](https://www.gnupg.org/)
+- [age](https://github.com/FiloSottile/age): GPG 的现代轻量级代替品。无密钥环、无过期时间。一个密钥对应一个 age 文件
+- [sops](https://github.com/getsops/sops): secret 编辑器。可以 pgp、age 为加密后端。
 - [keybase](https://keybase.io): 以社交系统为之背书的，开源的 PGP 工具、系统与托管服务器
 - [kbpgp](https://github.com/keybase/kbpgp): Keybase 用 JS 实现的 PGP 程序
 
@@ -1460,6 +1465,18 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - [mdx-deck](https://github.com/jxnblk/mdx-deck): 基于 MDX 写 slide
 - [presenterm](https://github.com/mfontanini/presenterm): 在终端播放 slide
   - [maaslalani/slides](https://github.com/maaslalani/slides): 备选方案
+- [hyperframes](https://github.com/heygen-com/hyperframes): 基于 HTML 技术制作视频，也可以制作幻灯片
+
+### Slide Skills
+
+- 直接操作 ppt
+  - https://github.com/chuspeeism/dashi-ppt-skill
+  - https://github.com/hugohe3/ppt-master
+- 图转ppt
+  - https://github.com/ningzimu/codex-ppt-skill
+- 网页 ppt
+  - https://github.com/lewislulu/html-ppt-skill
+  - https://github.com/op7418/guizang-ppt-skill
 
 ## SSG: Static Site Generator
 

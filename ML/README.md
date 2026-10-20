@@ -133,7 +133,12 @@ text-to-image 社区
 ## AI harness
 
 - [rtk](https://github.com/rtk-ai/rtk): 缩短命令行返回结果，从而减少 token 消耗
+  - [token-optimizer](https://github.com/alexgreensh/token-optimizer)
+  - [sqz](https://github.com/ojuschugh1/sqz)
+- [headroom](https://github.com/headroomlabs-ai/headroom): Compress tool outputs, logs, files, and RAG chunks before they reach the LLM.
+- [lean-ctx](https://github.com/yvgude/lean-ctx): Control what your AI can see. Open-source Engine for context selection, supported controls, and evidence.
 - [browser-use](https://github.com/browser-use/browser-use): 让 Agent 操作浏览器
+- [codegraph](https://github.com/colbymchenry/codegraph): for coding
 
 ## MCP 客户端
 
@@ -182,6 +187,7 @@ text-to-image 社区
 ## 视频生成
 
 - [OpenMontage](https://github.com/calesthio/OpenMontage)
+- [hyperframes](https://github.com/heygen-com/hyperframes): 基于 HTML 技术制作视频，也可以制作幻灯片
 
 ## LLM 引擎
 

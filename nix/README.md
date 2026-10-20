@@ -6,6 +6,7 @@
 - [Nix Language](https://nix.dev/manual/nix/stable/language/)
 - [Determinate Nix Installer.](https://github.com/DeterminateSystems/nix-installer): Nix 官方安装脚本的替代品。
 - [nil](https://github.com/oxalica/nil): LSP for Nix language
+- [agenix](https://github.com/ryantm/agenix): age-encrypted secrets for NixOS and Home manager
 - [sops-nix](https://github.com/Mic92/sops-nix): 基于 [sops](https://github.com/getsops/sops#showing-diffs-in-cleartext-in-git) 的 secret 管理。
 - [system-manager](https://github.com/numtide/system-manager): 在非 NixOS 的 Linux 系统上用 nix 管理系统级软件
 - [nix-darwin](https://github.com/nix-darwin/nix-darwin): 用 Nix 管理 MacOS
