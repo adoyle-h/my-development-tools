@@ -831,7 +831,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - [timeshift](https://github.com/linuxmint/timeshift): 备选方案。基于 rsync + hard link。支持快照、增量备份、BTRFS、自定义路径（默认屏蔽用户目录）。**不支持云存储**
 - [borg](https://github.com/borgbackup/borg): 备选方案
 - [duplicity](https://gitlab.com/duplicity/duplicity): 支持增量备份，软链接。不支持硬链接。
-  - [duply](): duplicity 的前端程序
+  - [duply](https://www.duply.net/): duplicity 的前端程序
 - [rescuezilla](https://rescuezilla.com/): 专门用来备份和恢复的 Linux 系统。基于 ubuntu。支持压缩。不支持加密。兼容 Clonezilla 导出的备份文件。支持各种虚拟硬盘(vdi、b)。图形化界面。有中文。全盘备份，不支持按文件备份。自带镜像文件浏览器
   - [Clonezilla](https://clonezilla.org/): 备选方案。备份和恢复系统。命令行交互菜单。全盘备份，不支持按文件备份，不支持快照。使用命令行备份貌似难度很高。还原到不同大小分区也可能出问题。
 - [FreeFileSync](https://freefilesync.org/): 跨平台、开源。同步目录文件，可以 diff 文件列表。GUI 工具。
