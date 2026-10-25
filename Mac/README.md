@@ -68,8 +68,6 @@
 
 ## 硬盘
 
-- [DaisyDisk](https://daisydiskapp.com/): 硬盘数据占用空间可视化分析。非常好用！ `Ⓜ`
-  - [squirreldisk](https://github.com/adileo/squirreldisk): 开源的，rust 实现，速度很快。
 - [Carbon Copy Cloner](https://bombich.com): 吊打 Time Machine 的备份软件
 <a name="anylinuxfs"></a>
 - [anylinuxfs](https://github.com/nohajc/anylinuxfs): mounts any filesystem supported by Linux (ext4, btrfs, xfs, ... but also NTFS and exFAT)

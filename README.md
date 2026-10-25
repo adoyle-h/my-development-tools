@@ -117,6 +117,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Shell Script Development](#shell-script-development)
 - [文件同步/备份/快照](#文件同步备份快照)
 - [数据恢复](#数据恢复)
+- [硬盘清理](#硬盘清理)
 - [ISO 镜像制作与刻录](#iso-镜像制作与刻录)
 - [数据库/存储](#数据库存储)
     - [Embeddable DB](#embeddable-db)
@@ -312,10 +313,10 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [鼠须管 squirrel](https://github.com/rime/squirrel): Rime for MacOS
   - [Squirrel-Designer](https://github.com/LEOYoon-Tsaw/Squirrel-Designer): 鼠须管皮肤制作工具
 - [fcitx-rime](https://github.com/fcitx/fcitx5-rime): Rime for Linux
-- [同文输入法](https://github.com/osfans/trime): Rime for Android
 - [Hamster](https://github.com/imfuxiao/Hamster): Rime for iOS
-- [fcitx5-android](https://github.com/fcitx5-android/fcitx5-android): 目前[不支持九宫格](https://github.com/fcitx5-android/fcitx5-android/issues/377)
 - [rime-ice 雾凇拼音](https://github.com/iDvel/rime-ice): RIME 配置方案+词库，词库长期维护
+- [语燕输入法 (YuyanIme)](https://github.com/gurecn/YuyanIme): 基于 RIME 的安卓手机中文输入法，支持九宫格。
+- [水杉输入法 (MSIME)](https://github.com/metasequoiaime/msime): Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法。
 
 ## 手册
 
@@ -842,6 +843,13 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 ## 数据恢复
 
 - [testdisk](https://www.cgsecurity.org/wiki/TestDisk_CN)
+
+## 硬盘清理
+
+- [squirreldisk](https://github.com/adileo/squirreldisk): 硬盘数据占用空间可视化分析。开源的，rust 实现，速度很快。跨平台。
+  - [tobi/disktree](https://github.com/tobi/disktree): 备选方案 `ⓦ`
+  - [DaisyDisk](https://daisydiskapp.com/): 付费软件 `Ⓜ`
+- [MangoDisk](https://github.com/harry0703/MangoDisk): App 深度拆卸，重复文件清理，大文件清理，硬盘空间分析，启动项管理。跨平台。
 
 ## ISO 镜像制作与刻录
 

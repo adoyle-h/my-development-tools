@@ -71,8 +71,6 @@
 
 ## 硬盘
 
-- [squirreldisk](https://github.com/adileo/squirreldisk): 硬盘数据占用空间可视化分析。非常好用。开源的，rust 实现，速度很快。
-  - [tobi/disktree](https://github.com/tobi/disktree): 备用
 - [CrystalDiskInfo](https://sourceforge.net/projects/crystaldiskinfo/): 查看硬盘 SMART 信息
 - [CrystalDiskMark](https://sourceforge.net/projects/crystaldiskmark/): 硬盘测速
 - [Duplicati](https://github.com/duplicati/duplicati): 跨平台、开源的系统备份软件，支持加密或不加密，增量备份到磁盘，或者 SFTP/FTP、S3 等协议。支持定时任务、邮件提醒。问题是备份很慢，似乎备份到 exfat 格式的硬盘有问题，详见[帖子](https://web.archive.org/web/20241112030934/https://forum.duplicacy.com/t/local-backup-extremely-slow/6184)。

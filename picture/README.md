@@ -44,6 +44,7 @@
   - [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML): C4 Model
 - [Mermaid](https://github.com/mermaid-js/mermaid): 类似 PlantUML，另一种基于文本生成图的工具
   - [Mermaid Live Editor](https://mermaidjs.github.io/mermaid-live-editor/)
+  - [pele](https://github.com/obsidianmd/pele): Renders Mermaid diagrams to SVG. No runtime dependencies, and uses CSS variables for colors and fonts.
 - [kroki](https://github.com/yuzutech/kroki): Kroki provides a unified API with support for BlockDiag (BlockDiag, SeqDiag, ActDiag, NwDiag, PacketDiag, RackDiag), BPMN, Bytefield, C4 (with PlantUML), D2, DBML, Ditaa, Erd, Excalidraw, GraphViz, Mermaid, Nomnoml, Pikchr, PlantUML, Structurizr, SvgBob, Symbolator, TikZ, UMLet, Vega, Vega-Lite, WaveDrom, WireViz... 支持容器自部署。
 
 ## 画图软件
