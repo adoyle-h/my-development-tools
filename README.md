@@ -131,10 +131,6 @@ Read the [NOTICE][] file distributed with this work for additional information r
 - [Chrome](#chrome)
 - [Bookmarklet](#bookmarklet)
 - [测试](#测试)
-    - [字符串测试](#字符串测试)
-    - [HTTP Benchmark](#http-benchmark)
-    - [基准测试 (Benchmark Test)](#基准测试-benchmark-test)
-    - [压测 (Stress Test)](#压测-stress-test)
 - [密码相关](#密码相关)
     - [加密/解密](#加密解密)
     - [密码管理](#密码管理)
@@ -935,29 +931,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - https://adrianroselli.com/2015/01/css-bookmarklets-for-testing-and-fixing.html
 - https://css-tricks.com/web-development-bookmarklets/
 
-## 测试
-
-### 字符串测试
-
-附赠一个笑话，[一个 Bug 测试员走进一家酒吧](https://www.reddit.com/r/ProgrammerHumor/comments/31bgwm/a_bug_tester_walks_into_a_bar/)。
-
-- [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings): 收集了一系列不正常的字符用来测试字符串校验
-
-### [HTTP Benchmark](./network/README.md#http-benchmark)
-
-### 基准测试 (Benchmark Test)
-
-- [bench-scripts](https://github.com/haydenjames/bench-scripts): 对 Linux 系统进行 Benchmark 的脚本
-- [hyperfine](https://github.com/sharkdp/hyperfine): 对某个命令进行 Benchmark
-- [sysbench](https://github.com/akopytov/sysbench): 对数据库和操作系统的 benchmark。支持 lua 脚本
-- [Programming Language and compiler](https://programming-language-benchmarks.vercel.app/): 对各种编程语言做 Benchmark。很全面。
-
-### 压测 (Stress Test)
-
-- [stress-ng](https://github.com/ColinIanKing/stress-ng): 对 CPU、内存、IO 的压力测试
-  - [stress](https://fossies.org/linux/privat/old/stress-1.0.4.tar.gz/stress-1.0.4/doc/stress.html)
-- [FIO](https://github.com/axboe/fio): 测试硬盘 IO。开源。
-- [Geekbench](https://www.geekbench.com/): 对操作系统的压测工具。闭源。压测报告会自动上传到官网，多个压测报告可以进行比较。
+## [测试](./test/README.md)
 
 ## 密码相关
 
