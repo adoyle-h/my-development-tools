@@ -40,6 +40,7 @@
 - [markers](https://pkg.go.dev/sigs.k8s.io/controller-tools/pkg/markers): kubebuilder 里的 marker 注释语法解析工具。
 - [gods](https://github.com/emirpasic/gods): Go 基本数据结构
 - [TheAlgorithms/Go](https://github.com/TheAlgorithms/Go): Algorithms and Data Structures implemented in Go
+- [gomodifytags](https://github.com/fatih/gomodifytags): Go tool to modify struct field tags
 
 ## 配置
 

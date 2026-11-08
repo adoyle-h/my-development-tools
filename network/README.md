@@ -208,9 +208,10 @@
 
 ## Network Benchmark
 
-- [siege](https://github.com/JoeDog/siege)
-- [wrk](https://github.com/wg/wrk): 不容易阅读
-- [loadtest](https://github.com/alexfernandez/loadtest)
+- [siege](https://github.com/JoeDog/siege): http load tester and benchmarking utility
+- [wrk](https://github.com/wg/wrk): Modern HTTP benchmarking tool
+- [loadtest](https://github.com/alexfernandez/loadtest): Runs a load test on the selected URL. Fast and easy to use. Can be integrated in your own workflow using the API.
 - [ZBench](https://github.com/FunctionClub/ZBench): 设备网络性能 Benchmark 脚本
 - [hey](https://github.com/rakyll/hey): HTTP 压测工具
 - [ghz](https://github.com/bojand/ghz): gRPC 压测工具
+- [dnsperf](https://github.com/DNSPerf/dnsperf): DNS Performance testing tool

@@ -16,10 +16,9 @@
 - [音乐生成](#音乐生成)
 - [数字人](#数字人)
 - [可视化](#可视化)
-- [Chat](#chat)
-    - [Chat in Terminal 终端](#chat-in-terminal-终端)
 - [AI Agent](#ai-agent)
-- [AI harness](#ai-harness)
+- [Agent harness](#agent-harness)
+- [Agent 编排](#agent-编排)
 - [MCP 客户端](#mcp-客户端)
 - [MCP 服务端](#mcp-服务端)
 - [Diffusion 模型](#diffusion-模型)
@@ -110,27 +109,16 @@ text-to-image 社区
 
 - [Netron](https://github.com/lutzroeder/netron): a viewer for neural network, deep learning and machine learning models.
 
-## Chat
-
-- [open-webui](https://github.com/open-webui/open-webui): User-friendly WebUI for LLMs。支持连接 OpenAI、Ollama。支持 RAG 和文档上传。
-  - [lobe-chat](https://github.com/lobehub/lobe-chat): 备选方案。Chat WebUI。支持连接 OpenAI、Ollama。不支持文档上传。Ollama 模型同步暂且有问题。
-- https://github.com/elyase/awesome-gpt3
-- [chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web): 轻松搭建 ChatGPT 交互网站
-
-### Chat in Terminal 终端
-
-- [mods](https://github.com/charmbracelet/mods): 支持 MCP
-  - [tmuxai](https://github.com/alvinunreal/tmuxai): Chat LLM in Tmux。不支持 MCP
-
 ## AI Agent
 
 - [hermes agent](https://github.com/nousresearch/hermes-agent): 自学习的 AI 机器人
 - [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness): 一切皆插件的 deepseek 官方 agent
-- [openclaw](https://github.com/openclaw/openclaw): AI 全自动化工具
-  - [ClawHub](https://clawhub.ai/): openclaw 的技能库
-  - [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
+- [pi](https://github.com/earendil-works/pi): a minimal, extensible agent harness that you can make your own
+- [opencode](https://github.com/anomalyco/opencode): coding agent
+- [crush](https://github.com/charmbracelet/crush): 运行在终端的 agent
+- [open-webui](https://github.com/open-webui/open-webui): User-friendly WebUI for LLMs。支持连接 OpenAI、Ollama。支持 RAG 和文档上传。
 
-## AI harness
+## Agent harness
 
 - [rtk](https://github.com/rtk-ai/rtk): 缩短命令行返回结果，从而减少 token 消耗
   - [token-optimizer](https://github.com/alexgreensh/token-optimizer)
@@ -139,6 +127,11 @@ text-to-image 社区
 - [lean-ctx](https://github.com/yvgude/lean-ctx): Control what your AI can see. Open-source Engine for context selection, supported controls, and evidence.
 - [browser-use](https://github.com/browser-use/browser-use): 让 Agent 操作浏览器
 - [codegraph](https://github.com/colbymchenry/codegraph): for coding
+
+## Agent 编排
+
+- [orca](https://github.com/stablyai/orca): 多 agent 互相协作
+- [lobehub](https://github.com/lobehub/lobehub): UI 功能丰富
 
 ## MCP 客户端
 
@@ -153,6 +146,7 @@ text-to-image 社区
 - [playwright-mcp](https://github.com/microsoft/playwright-mcp): 适合自动化测试用
 - [context7](https://github.com/upstash/context7): 直接从原项目获取最新的、特定版本的文档和代码示例，放到你的文档里
 - [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp/): Chrome 官方的 MCP
+- [Filesystem MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem)
 
 ## Diffusion 模型
 
@@ -306,9 +300,12 @@ text-to-image 社区
 ### OCR
 
 - [EasyOCR](https://github.com/JaidedAI/EasyOCR): Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
-- [tesseract](https://github.com/tesseract-ocr/tesseract): 开源 OCR 引擎
+- [tesseract](https://github.com/tesseract-ocr/tesseract): 开源 OCR 引擎。只适合识别印刷体，不适合手写体。
 - [tesseract.js](https://github.com/naptha/tesseract.js): 用 JS 重新实现的 tesseract
-- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
+- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR): 多模态 OCR 模型
+- [GLM-OCR](https://github.com/zai-org/GLM-OCR): 多模态 OCR 模型，总参数量仅 0.9B
+- [TeleOCR](https://huggingface.co/XingChen-AGI/TeleOCR): 待评价
+- [OvisOCR2](https://huggingface.co/ATH-MaaS/OvisOCR3): 待评价
 
 ## 其他人的列表
 

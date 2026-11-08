@@ -59,7 +59,6 @@
 - [bash-completion](https://github.com/scop/bash-completion): bash 命令补全
 - [bash-it](https://github.com/Bash-it/bash-it): Bash 脚本管理框架
 - [dotbot](https://github.com/anishathalye/dotbot): dotfile 管理框架
-- [PathPicker](https://github.com/facebook/PathPicker): 「待评价」多条记录选择器。不是很好用
 - [starship](https://github.com/starship/starship): 漂亮且快速，功能丰富且支持自定义的 prompt。支持很多种 shell。rust 实现的。
   - [a-bash-prompt](https://github.com/adoyle-h/a-bash-prompt): 备选方案。bash 专用的 prompt。纯 bash 实现的。
   - [pure](https://github.com/sindresorhus/pure): zsh 专用的 prompt
@@ -72,12 +71,12 @@
 - [vhs](https://github.com/charmbracelet/vhs): 声明式制作命令行演示 GIF 动图
 - [carbonyl](https://github.com/fathyb/carbonyl): 在终端运行 Chromium。
 - [theme.sh](https://github.com/lemnos/theme.sh): shell 配色设置，动态预览
-- [lnav](https://lnav.org/): 日志文件的终端浏览器
 - [thefuck](https://github.com/nvbn/thefuck): 命令 typo 纠错
 
 ## 终端 Terminal
 
 - [iTerm2](https://www.iterm2.com): Mac 系统专用的终端，功能丰富，稳定 `Ⓜ`
+- [rex](https://www.superlogical.com/rex/): 「待评价」
 - [Ghostty](https://ghostty.org/): 零配置、跨平台、开箱即用的终端
 - [Wave](https://www.waveterm.dev/): 集成 AI、文件浏览器、网页浏览器的终端。开源、跨平台。**缺点：无法输入中文标点。**
 - [warp](https://www.warp.dev/): 集成 AI 的终端，挺有意思的。缺点也很明显，必须用它这一套，不兼容 tmux。PS1 被强制替换掉了，跟其他软件不好配合。
@@ -157,6 +156,7 @@
 - better `cat`
   - [bat](https://github.com/sharkdp/bat): 自动代码着色，自带分页器，显示代码行，支持 diff，自动标记 git 变动，可显示不可见符号。
 - better `tail`
+  - [lazytail](https://github.com/raaymax/lazytail): Log viewer for app development
   - [multitail](https://github.com/halturin/multitail): 同时 tail 多个文件
 - better `systemctl`
   - [sysz](https://github.com/joehillen/sysz): systemctl + fzf
@@ -208,9 +208,11 @@
   - [dutree](https://github.com/nachoparker/dutree): du 的树形结构展示版本。rust 实现
 - better `df`
   - [duf](https://github.com/muesli/duf): Go 实现
+  - [diskonaut](https://github.com/imsnif/diskonaut): 图形化展示子目录占用空间
 
 ## 进程管理
 
+- [process-compose](https://github.com/F1bonacc1/process-compose): 用 YAML 声明管理多个进程，提供 TUI/CLI 操作。
 - [hotel](https://github.com/typicode/hotel): 本地进程管理服务
   - [alfred-hotel](https://github.com/exah/alfred-hotel): 查看 hotel app 的 Alfred Workflow
 - better `ps`

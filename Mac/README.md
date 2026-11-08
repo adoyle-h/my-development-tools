@@ -11,6 +11,7 @@
 - [其他](#其他)
 - [快捷键](#快捷键)
 - [硬盘](#硬盘)
+- [数据恢复](#数据恢复)
 - [壁纸屏保](#壁纸屏保)
 - [多媒体](#多媒体)
 - [命令行](#命令行)
@@ -36,8 +37,7 @@
 - [Yoink](http://eternalstorms.at/yoink/Yoink_-_Simplify_and_Improve_Drag_and_Drop_on_your_Mac/Yoink_-_Simplify_drag_and_drop_on_your_Mac.html): 临时桌面文件
 - [HazeOver](https://hazeover.com): 通过虚化所有的背景窗口，自动突出显示前方的应用窗口
 - [AppCleaner](https://freemacsoft.net/appcleaner): 删除 Mac App 用
-- [Gas Mask](https://github.com/2ndalpha/gasmask): hosts 管理器
-  - [SwitchHosts](https://github.com/oldj/SwitchHosts): 备选方案
+- [SwitchHosts](https://github.com/oldj/SwitchHosts): hosts 管理器
 - Amphetamine: 控制 Mac 系统不休眠，可定时 `Ⓜ`
 - [HyperDock](https://bahoom.com/hyperdock): Mac Dock 栏增强
 - [Eagle](https://eagle.cool/): 素材管理器。支持 MacOS/Windows
@@ -47,8 +47,6 @@
 - [Lepton](https://github.com/hackjutsu/Lepton): Gist 管理应用
 - [keycastr](https://github.com/keycastr/keycastr): 键盘按下哪个键展示在屏幕上
 - https://objective-see.com/products.html : Mac 平台的开源安全工具，都挺不错的
-- [NUMI](https://github.com/nikolaeu/numi): 体验很好的计算器。App 本身不开源，开源的是 NUMI 插件和 Alfred 插件。它用 JS 写插件，非常灵活。
-  - [PiPad](https://apps.apple.com/cn/app/pipad-calculation-note/id1482575592): 类似 NUMI，但功能更丰富，且完全免费。
 - [Transmit](https://panic.com/transmit/): FTP/SFTP/WebDAV/S3/Backblaze B2/Box/Google Drive/DreamObjects/Dropbox/Microsoft Azure/Rackspace Cloud Files 客户端 APP。 `Ⓜ`
 - [Transfer](https://www.intuitibits.com/products/transfer/): 简单好用的 TFTP/HTTP/FTP/SFTP 服务器 `Ⓜ`
 - [Suspicious Package](https://mothersruin.com/software/SuspiciousPackage/): 可以查看 pkg 包的内容，可以打开嵌套的 pkg。非常有用。
@@ -71,6 +69,10 @@
 - [Carbon Copy Cloner](https://bombich.com): 吊打 Time Machine 的备份软件
 <a name="anylinuxfs"></a>
 - [anylinuxfs](https://github.com/nohajc/anylinuxfs): mounts any filesystem supported by Linux (ext4, btrfs, xfs, ... but also NTFS and exFAT)
+
+## 数据恢复
+
+- [Disk Drill](https://www.cleverfiles.com/lp/data-recovery-software.html): 专业数据恢复工具
 
 ## 壁纸屏保
 
@@ -106,6 +108,7 @@
   - [stats](https://github.com/exelban/stats): 开源替代方案
   - [sensei](https://cindori.com/sensei): 颜值挺高的软件
 - [LittleSnitch](https://www.obdev.at/products/littlesnitch/index.html): 实时监控每个程序的网络流量的防火墙，用户交互好
+  - [PureSnitch](https://github.com/momenbasel/puresnitch): 开源的 LittleSnitch 仿制品
   - [LuLu](https://objective-see.org/products/lulu.html): 免费开源的防火墙
 - [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html): 实时监控 Mac 电脑的摄像头、声音输入是否开启
 

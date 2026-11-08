@@ -32,7 +32,7 @@
 - [Tabby Cat](https://chromewebstore.google.com/detail/tabby-cat/mefhakmgclhhfbdadeojlkbllmecialg): 新标签页壁纸，很多猫
 - [vimium](https://github.com/philc/vimium): vim 风格操作浏览器
 - [Requestly](https://requestly.com/): 拦截修改 HTTP 请求，非常灵活好用！
-- [Chrono](https://www.chronodownloader.net/): 下载管理器
+- [Free Download Manager](https://chromewebstore.google.com/detail/free-download-manager/ahmpjcflkgiildlgicmcieglgoilbfdp): 下载管理器。这是 FDM 浏览器插件。需要本地安装 FDM。
 - [JavaScript Errors Notifier](https://chromewebstore.google.com/detail/javascript-errors-notifie/lplhclpeegjedapdliokcacmphgcnlnd): [源码](https://github.com/coinzdude/javascript-errors-notifier/)
 - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
 - [Isometric Contributions](https://chrome.google.com/webstore/detail/isometric-contributions/mjoedlfflcchnleknnceiplgaeoegien)

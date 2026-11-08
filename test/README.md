@@ -6,6 +6,7 @@
 
 <!-- MarkdownTOC GFM -->
 
+- [测量工具 (Measuring Tools)](#测量工具-measuring-tools)
 - [字符串测试](#字符串测试)
 - [Network Benchmark](#network-benchmark)
 - [基准测试 (Benchmark Test)](#基准测试-benchmark-test)
@@ -13,6 +14,10 @@
 - [端到端测试 (E2E Test)](#端到端测试-e2e-test)
 
 <!-- /MarkdownTOC -->
+
+## 测量工具 (Measuring Tools)
+
+- [ioping](https://github.com/koct9i/ioping): 测量硬盘 IO 延时
 
 ## 字符串测试
 

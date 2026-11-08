@@ -59,6 +59,7 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [自动化构建](#自动化构建)
     - [自动化机器人](#自动化机器人)
 - [财务](#财务)
+- [计算器](#计算器)
 - [短信](#短信)
 - [统计数据](#统计数据)
     - [地理数据](#地理数据)
@@ -356,7 +357,8 @@ Read the [NOTICE][] file distributed with this work for additional information r
 
 - `make` 与 `makefile`: 缺点是不能跨平台，优点是能够直接调用 shell 命令和环境变量
   - [Makefile 简易教程](https://seisman.github.io/how-to-write-makefile/introduction.html)
-- [justfile](https://github.com/casey/just): 类似 makefile，但更好用
+- [justfile](https://github.com/casey/just): 任务运行器。类似 makefile，但更好用。不是构建工具。上手快。
+- [go-task](https://github.com/go-task/task): 任务运行器 + 轻量级构建工具。YAML 配置，写法冗余。
 - [xmake](https://github.com/xmake-io/xmake): 基于 Lua 的轻量级跨平台构建工具
 - https://danger.systems/ : code review 时挺有用的自动化工具
   - [danger-js](https://github.com/danger/danger-js): JS 版本
@@ -376,6 +378,12 @@ Read the [NOTICE][] file distributed with this work for additional information r
   - [ledger](https://github.com/ledger/ledger): 备选方案
 - [fava](https://github.com/beancount/fava): beancount 的 Web 界面
 - [double-entry-generator](https://github.com/deb-sig/double-entry-generator): 根据支付宝、微信的账单生成 beancount 代码
+
+## 计算器
+
+- [numara](https://numara.io/): 支持 MacOS/Linux/Web App。界面仿 NUMI。[开源](https://github.com/bornova/numara-calculator)。
+- [numbat](https://github.com/sharkdp/numbat): 运行在终端的计算器。支持各种类型转换和函数。
+- [NUMI](https://github.com/nikolaeu/numi): `Ⓜ` 体验很好的计算器。App 本身不开源，开源的是 NUMI 插件和 Alfred 插件。它用 JS 写插件，非常灵活。
 
 ## 短信
 
@@ -636,6 +644,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 
 ## 下载工具
 
+- [FDM](https://www.freedownloadmanager.org/): 跨平台的下载器
 - [aria2](https://github.com/aria2/aria2): 最强大的下载工具
   - [AriaNg](https://github.com/mayswind/AriaNg): aria2 的前端界面
   - [aria2-in-container](https://github.com/adoyle-h/aria2-in-container): aria2 + ariang 的 Docker 镜像
@@ -1346,6 +1355,8 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - [toolong](https://github.com/Textualize/toolong): 针对大文件日志的终端阅读器
 - [gonzo](https://github.com/control-theory/gonzo): 日志分析终端工具。加载大文件非常慢。
 - [goaccess](https://github.com/allinurl/goaccess): Web 日志分析终端工具
+- [lnav](https://lnav.org/): 日志文件的终端浏览器
+- [lazytail](https://github.com/raaymax/lazytail): Log viewer for app development
 
 ## 交互式 Notebook
 
@@ -1420,9 +1431,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
   - [danday74/envsub](https://github.com/danday74/envsub)
 - [mustache](http://mustache.github.io/): 简单变量替换用 mustache 即可。
 - [handlebars](https://github.com/wycats/handlebars.js): mustache 的超集，支持复杂的语法和可扩展
-- [lodash.template](https://lodash.com/docs/#template): 可以兼容各种模板变量语法，体积较小
 - [nunjucks](https://github.com/mozilla/nunjucks): jinja2 inspired templating engine in nodejs
-- [art-template](https://github.com/aui/art-template): 官宣性能最高的模板引擎
 - [Jinja](https://jinja.palletsprojects.com): Ansible 使用的模板引擎
   - [Jinja 模板在线渲染](https://cryptic-cliffs-32040.herokuapp.com)
 - [gomplate](https://github.com/hairyhenderson/gomplate): 用 Go 写的命令行工具
@@ -1725,7 +1734,8 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 
 - [vsftpd](https://security.appspot.com/vsftpd.html): Very Secure FTP Daemon
 - [uftp](https://uftp-multicast.sourceforge.net/): 基于 UDP 的 FTP 服务器和客户端
-- [ncftp](https://www.ncftp.com/ncftp/): ftp 命令行客户端，macos、linux 平台通用。缺点是不支持 ftp over ssl。
+- [termscp](https://github.com/veeso/termscp): A feature rich TUI file transfer and explorer for SCP/SFTP/FTP/S3/SMB/WebDAV
+  - [ncftp](https://www.ncftp.com/ncftp/): ftp 命令行客户端，macos、linux 平台通用。缺点是不支持 ftp over ssl。
   - [lftp](https://lftp.yar.ru): macos、linux 平台通用。支持 ftp over TLS or OpenSSL。缺点是没有 lls 这样的指令。只能用 `!`。
 - [Transmit](https://panic.com/transmit/): FTP/SFTP/WebDAV/S3/Backblaze B2/Box/Google Drive/DreamObjects/Dropbox/Microsoft Azure/Rackspace Cloud Files 客户端 APP。 `Ⓜ`
 - [sftpgo](https://github.com/drakkan/sftpgo): Full-featured and highly configurable SFTP, HTTP/S, FTP/S and WebDAV server
