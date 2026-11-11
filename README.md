@@ -11,6 +11,7 @@ These documents are written in Chinese. Please use your own translator to transl
 
 1. 当我不用了或者找到更好的替代品，会移除旧记录。
 2. 不接受 Pull Request。有想法可以在 [Discussions](https://github.com/adoyle-h/my-development-tools/discussions) 交流，或者发邮件给我。
+3. 本文档不收录需要将文件上传到远端服务器才能使用的工具。注意数据安全！
 
 
 在网页端，搜索英文建议用最上方的搜索框，体验比较好。
