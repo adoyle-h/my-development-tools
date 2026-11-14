@@ -658,6 +658,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
   - [youtube-dl](https://github.com/rg3/youtube-dl): 开源的视频下载工具，命令行操作
   - https://snapsave.io/ : 备选方案，在线服务
 - https://downsub.com/ : Youtube 字幕下载，支持各种语言以及双语字幕
+  - https://getyoutubetranscript.com/ : 在线获取 YouTube 视频字幕全文（支持视频自带的各语言字幕），可复制、下载 TXT 或导出 SRT，另有 Chrome 插件和 API。未登录每天可用几次，付费计划 $5/月起
 - https://bilibili.iiilab.com/ : 下载 B 站视频，需要关注微信公众号
   - [BBDown](https://github.com/nilaoda/BBDown): 开源的 B 站视频命令行下载工具
 - https://twitter.iiilab.com/ : 下载 Twitter 视频/照片，需要关注微信公众号
