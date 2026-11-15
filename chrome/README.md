@@ -71,6 +71,7 @@
 - [Web Highlights - PDF & Web Highlighter](https://chromewebstore.google.com/detail/web-highlights-pdf-web-hi/hldjnlbobkdkghfidgoecgmklcemanhm)
 - [Extension Source Downloader](https://chromewebstore.google.com/detail/extension-source-download/dlbdalfhhfecaekoakmanjflmdhmgpea): 下载 Chrome 插件的 zip 文档，方便查看或修改插件代码
 - [Dark Reader](https://darkreader.org/): 暗黑模式。功能丰富。提供 Chrome/Firefox/Safari/Edge 插件。
+- [Spoof Me](https://chromewebstore.google.com/detail/spoof-me/onbjkmhileedchimkcmieeiomipdljki): 一键切换浏览器的 User-Agent、语言、时区、屏幕等信息，模拟其他国家/设备的用户来测试网站。内置预设，免费，无需注册。也有 [Firefox 版](https://addons.mozilla.org/zh-CN/firefox/addon/spoof-me/)。
 
 ## 油猴脚本
 
