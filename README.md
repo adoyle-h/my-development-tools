@@ -670,7 +670,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 
 - diff: linux 内置命令
 - diffstat: linux 内置命令 `diff -u | diffstat -C`
-- [delta](https://github.com/dandavison/delta): 语义化 Diff，功能丰富。Git 配置不友好。支持双列、git blame、git grep。
+- [delta](https://github.com/dandavison/delta): 语义化 Diff，功能丰富。Git 配置不友好。支持双列、git blame、git grep。支持 difftastic
   - [difftastic](https://github.com/Wilfred/difftastic): 基于 tree-sitter 的 diff。Git 配置不友好
   - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy): 备选方案。diff 文件内容的着色增强工具，不支持语义化 diff。不支持双列 (side-by-side)。
 - [diff2html-cli](https://github.com/rtfpessoa/diff2html-cli): 将 diff 文件转成 HTML 页面的形式预览。非常漂亮

@@ -89,6 +89,7 @@
 ## 时间
 
 - [Chrony](https://chrony.tuxfamily.org/): NTP 时钟同步程序
+  - [chronytop](https://github.com/geerlingguy/chronytop): A TUI for chrony NTP time server monitoring
 
 ## 文件系统
 

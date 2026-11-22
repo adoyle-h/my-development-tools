@@ -35,6 +35,7 @@
 - [lima](https://github.com/lima-vm/lima): 运行在 Mac 上的虚拟机
 - [colima](https://github.com/abiosoft/colima): Docker Desktop 替代品。基于 lima。
 - [orbstack](https://orbstack.dev/): 在 Mac 运行 Docker 和 Linux 虚拟机的工具。启动秒开，轻量级，高性能。
+- [kiri](https://github.com/libracoder/kiri): A tiny, fast container runtime for macOS, Windows and Linux.
 
 ## 镜像供应
 

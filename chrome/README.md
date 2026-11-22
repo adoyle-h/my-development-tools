@@ -17,6 +17,8 @@
 
 - [chrome 自带网页截屏命令](https://www.zhihu.com/question/20075570/answer/206335744)
 - [chrome-cli](https://github.com/prasmussen/chrome-cli): chrome 命令行工具
+- [Get CRX](https://chromewebstore.google.com/detail/get-crx/dijpllakibenlejkbajahncialkbdkjc): Get source .crx extension file of any Chrome extension
+  - https://crxextractor.com/
 
 ## Chrome 主题
 

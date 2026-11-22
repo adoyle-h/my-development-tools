@@ -221,6 +221,7 @@
 ### 像素字体
 
 - [Zpix 最像素](https://github.com/SolidZORO/zpix-pixel-font)
+- [Geist Pixel](https://github.com/vercel/geist-font)
 
 ### 编程用字体
 
@@ -230,11 +231,13 @@
 - DejaVu Sans Mono
 - [Consolas](https://www.fonts.com/font/microsoft-corporation/consolas)
 - [Lato](https://www.latofonts.com/lato-free-fonts/)k: 开源字体
+- [Geist Mono](https://github.com/vercel/geist-font)
 
 ### 英文字体
 
 - 有衬线英文
   - [Georgia](https://www.fonts.com/font/microsoft-corporation/georgia): 适合设计
+  - [Geist Serif](https://github.com/vercel/geist-font)
 
 - 无衬线英文
   - [Helvetica Neue](https://www.fonts.com/font/linotype/neue-helvetica): 适合设计

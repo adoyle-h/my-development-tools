@@ -29,3 +29,4 @@
 
 - [BrowseHere](https://browsehere.net/): 电视浏览器
 - [TVAPP](https://github.com/youhunwl/TVAPP): 电视 APP 以及视频源
+- [aerial-tv](https://github.com/pengchujin/aerial-tv): 参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.

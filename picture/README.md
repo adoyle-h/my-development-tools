@@ -71,6 +71,8 @@
 ## ASCII Art
 
 - [Monodraw](https://monodraw.helftone.com): ASCII Art 画图工具 `Ⓜ`
+- [MonoSketch](https://github.com/tuanchauict/MonoSketch): ASCII Art 画图工具。开源的
+- [bas3line/ascii](https://github.com/bas3line/ascii): Animated ascii art for web pages, in TypeScript: React, Next.js, Astro, or one HTML tag
 - [image-to-ascii](https://github.com/IonicaBizau/image-to-ascii): 图片转 ASCII 字符
 - ASCII Art 样例库
   - https://asciiart.website/

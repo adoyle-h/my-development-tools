@@ -40,6 +40,8 @@
 
 - [PulseView](https://sigrok.org/wiki/PulseView): 开源的逻辑分析仪的上位机软件
 - Fnirsi DMT-99 万用表: 设计新潮，功能丰富，简单好用
+- [kicad](https://www.kicad.org/): PCB 设计工具
+  - [Backplane](https://github.com/BackplaneWorks/Backplane): Agentic hardware development with KiCad, written in Rust
 
 ## 嵌入式
 
