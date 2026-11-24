@@ -1625,6 +1625,7 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 - [Wikipedia - List of hash functions](https://www.wikiwand.com/en/List_of_hash_functions)
 - [xxHash](https://github.com/Cyan4973/xxHash)
 - [hashids](https://hashids.org/)
+- [Hash Generator](https://bestlatestapps.com/tools/hash-generator/): 在浏览器本地计算文本或文件的 MD5、SHA-1、SHA-256、SHA-384、SHA-512 和 HMAC，可校验校验和，文件不上传。免费，非开源，网站有广告。
 
 ## [图像处理](./picture/README.md)
 
