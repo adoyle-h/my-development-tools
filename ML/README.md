@@ -70,6 +70,7 @@
 - [V-API](https://api.gpt.ge/register?aff=pMW7): 国内的 LLM 通用代理接口。**注意：它的 GPT、Claude 等国外模型很可能是假的。经我测试对比，推测这网站实际用的可能是 deepseek 模型。**
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm): 持 MacOS/Linux/Windows 系统。支持本地 LLM（ollama）。支持在线 LLM（chatgpt、claude、gemini、generic openai）。支持语音转换。集成了向量数据库可以做 RAG 知识库。支持图片识别、文本上传。支持自定义 prompt。多聊天窗口，多 Workspace。支持 MCP。支持代理配置。
 - [unsloth](https://github.com/unslothai/unsloth): 在本地训练、微调、运行 LLM 的工具，界面友好
+- [sub2api](https://github.com/Wei-Shaw/sub2api): 开源的中转站，Claude、Openai 、Gemini、Grok 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。
 
 ## 线上平台与社区
 

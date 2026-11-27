@@ -219,13 +219,13 @@ Read the [NOTICE][] file distributed with this work for additional information r
     - [Markdown 编辑器](#markdown-编辑器)
 - [Hash](#hash)
 - [图像处理](#图像处理)
-- [视频处理](#视频处理)
 - [压缩/解压](#压缩解压)
 - [OCR](#ocr)
 - [Android](#android)
 - [截图/录屏](#截图录屏)
 - [漫画](#漫画)
 - [视频/音频](#视频音频)
+    - [视频处理](#视频处理)
     - [IPTV](#iptv)
     - [音乐](#音乐)
 - [知识图谱](#知识图谱)
@@ -1628,10 +1628,6 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 
 ## [图像处理](./picture/README.md)
 
-## 视频处理
-
-- [Remotion](https://github.com/JonnyBurger/remotion): 用 React 制作视频
-
 ## 压缩/解压
 
 - [zstd](https://github.com/facebook/zstd): 压缩比率、速度都很高。
@@ -1644,14 +1640,10 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
 
 ## 截图/录屏
 
+- [snow-shot](https://github.com/mg-chao/snow-shot): 免费、开源的，截图、录屏工具，支持截长图、OCR、翻译。 `ⓦ` `Ⓜ`
+- [Cap](https://github.com/CapSoftware/Cap): Open source Loom alternative. Beautiful, shareable screen recordings.
 - [PixPin](https://pixpinapp.com/): 免费的截图/截屏工具，支持长截图，GIF 截图，录屏，颜色提取，标注，OCR（先截图，固定到屏幕，然后复制图片文字）。支持保存 webp 格式。 `ⓦ` `Ⓜ`
-- [CleanShot X](https://cleanshot.com/): 用户体验很优秀。价格略贵，按年付费。支持截图/窗口截图/截屏/滚动截屏/录屏/录音/OCR 识别/标注。 `Ⓜ`
-- [Shottr](https://shottr.cc/): 功能很丰富，可以代替 CleanShot X，价格适中，一次性买断。 `Ⓜ`
 - [Monosnap](https://monosnap.com/welcome): 免费又强大的截图/截屏/录屏(支持 GIF 和 MP4)。不支持滚动截屏。 <a name="Monosnap"></a>
-- Mac 系统自带截图工具。不支持滚动截屏，其他功能都有。Safari 支持滚动截屏。
-- screencapture:  Mac 自带命令，截图/截屏工具。
-- [ShareX](https://getsharex.com/): 开源的截图、截屏、录屏、颜色提取、OCR、滚动截图。交互设计一般 `ⓦ`
-- [kap](https://github.com/wulkano/kap/): 用户体验很好的，开源的录屏工具，支持 GIF, MP4, WebM, APNG `Ⓜ` `⨀`
 
 ## 漫画
 
@@ -1684,6 +1676,11 @@ IDS（Intrusion Detection System，入侵检测系统）和 IPS（Intrusion Prev
   - [jellyfin-plugin-skin-manager](https://github.com/danieladov/jellyfin-plugin-skin-manager): 皮肤管理器
   - [jellyfin-plugin-metashark](https://github.com/cxfksword/jellyfin-plugin-metashark): 电影元数据插件，数据来自豆瓣
   - [jellyfin-plugin-bangumi](https://github.com/kookxiang/jellyfin-plugin-bangumi): 动漫元数据插件，数据来自 bangumi
+
+### 视频处理
+
+- [Remotion](https://github.com/JonnyBurger/remotion): 用 React 制作视频
+- [concat](https://github.com/jub0t/concat): 开源、跨平台的视频剪辑工具
 
 ### IPTV
 
